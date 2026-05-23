@@ -2,11 +2,23 @@
 
 Pv4/v3 analysis intermediates and outputs too large for GitHub. Each entry: path, size, essentiality, and recreate recipe.
 
-**Local staging**: `/media/anton/scratch/Pv4_dropbox_staging/`
-**Total**: ~440 GB
+**Dropbox folder (public, world-readable)**: https://www.dropbox.com/scl/fo/gx1mta4adubja4bsxxmgm/AOni3YRX8TS1E-saUblX-eo?rlkey=0ksw8a5hhkxhy3sljqyycr7bu&dl=0
+
+**Local staging** (cleanup mirror): `/media/anton/scratch/Pv4_dropbox_staging/`
+**Total uploaded**: 339 GB across 369 files (+757 MB pggb_8way graph, added after main upload)
 **MD5 manifest**: `writeup/LARGE_FILES_DROPBOX.tsv` (path, size, md5, essential, category)
 
 `⭐` marks files that appear in the `*`-marked essentials list in OUTLINE.md — preserve carefully.
+
+## Download
+
+For a single file, append `?dl=1` to its Dropbox URL to force direct download (no preview interstitial). For the whole archive, use rclone:
+
+```bash
+rclone copy dropbox-public:Pv4_v3/ ./Pv4_v3/ --transfers 4
+```
+
+(where `dropbox-public` is a rclone remote configured against the folder share URL above; or use the [Dropbox web UI](https://www.dropbox.com/scl/fo/gx1mta4adubja4bsxxmgm/AOni3YRX8TS1E-saUblX-eo?rlkey=0ksw8a5hhkxhy3sljqyycr7bu&dl=0) "Download as ZIP" — ~339 GB).
 
 ## VCF cohorts
 

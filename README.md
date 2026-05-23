@@ -13,7 +13,7 @@ Reproducible artifacts for the Pv4 v3 analysis: pangenome graph, ortholog tables
 
 342 GB of analysis intermediates + final products (cohort VCFs, AXTs, multi-way MAFs, soft-masked FASTAs, the PGGB `.og` graph, etc.). See `v3/writeup/LARGE_FILES_DROPBOX.md` for the full manifest + MD5 checksums + per-file recreate recipes.
 
-Folder share URL: see writeup/LARGE_FILES_DROPBOX.md.
+Folder share URL: https://www.dropbox.com/scl/fo/gx1mta4adubja4bsxxmgm/AOni3YRX8TS1E-saUblX-eo?rlkey=0ksw8a5hhkxhy3sljqyycr7bu&dl=0
 
 ## Pipeline reproduction
 
