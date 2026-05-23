@@ -1,0 +1,44 @@
+general:
+  input-fasta:        pggb_in/pggb_input.fa.gz
+  output-dir:         pggb_out
+  resume:             false
+  pigz-compress:      false
+  threads:            18
+wfmash:
+  mapping-tool:       wfmash
+  no-splits:          false
+  segment-length:     5000
+  block-length:       false
+  no-merge-segments:  false
+  map-pct-id:         90
+  n-mappings:         8
+  mash-kmer:          false
+  exclude-delim:      #
+seqwish:
+  min-match-len:      23
+  transclose-batch:   10000000
+smoothxg:
+  n-haps:             8
+  block_id_min:       .9000
+  path-jump-max:      0
+  edge-jump-max:      0
+  poa-length-target:  4001,4507
+  poa-params:         -P 1,19,39,3,81,1
+  write-maf:          false
+  consensus-prefix:   Consensus_
+  consensus-spec:     false
+  pad-max-depth:      100
+  block-id-min:       .9000
+  block-ratio-min:    0
+  poa_threads:        18
+  poa_padding:        0.03
+odgi:
+  viz:                true
+  layout:             true
+  stats:              false
+gfaffix:
+  normalize:          true
+vg:
+  deconstruct:        GCA_900093555.2  
+reporting:
+  multiqc:            false

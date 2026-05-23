@@ -3,17 +3,17 @@
 # Exclude scratch, intermediates, large raw data.
 
 # Large analysis intermediates / raw data (not part of the publishable result)
-/v2/
+# Exclude every v2 subdir EXCEPT pggb_out (which has the published graph)
+/v2/*
 !/v2/pggb_out/
-!/v2/pggb_out/*.gfa.gz
-!/v2/pggb_out/*.params.yml
-!/v2/pggb_out/*.log
-!/v2/pggb_out/*.png
-!/v2/pggb_out/*.tsv.gz
+# Inside pggb_out, only keep small files + the gzipped graph (raw .gfa/.og/.lay excluded)
 /v2/pggb_out/*.og
 /v2/pggb_out/*.og.lay
 /v2/pggb_out/*.lay
 /v2/pggb_out/*.gfa
+/v2/pggb_out/*.fa
+/v2/pggb_out/*.fa.gz
+/v2/pggb_out/*.bam
 /fastp_qc/
 /bam/
 /bench_pf/
