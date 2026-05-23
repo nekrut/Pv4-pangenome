@@ -1,0 +1,18 @@
+#                                                                            --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name        accession   tlen query name           accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+#------------------- ---------- ----- -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+CAI7722481.1         -            507 6456at5820           -            416  2.4e-258  855.4  24.4   1   1  8.8e-262  2.9e-258  855.1  24.4     2   416    68   504    67   504 0.98 | transcript=PVPAM_120071800_t1 | gene=PVPAM_120071800 | organism=Plasmodium_vivax_PAM | gene_product=allantoicase, putative | transcript_product=allantoicase, putative | location=CASCJQ010000012:2749394-2750917(-) | protein_length=507 | sequence_SO=supercontig | SO=protein_coding_gene | is_pseudo=false
+CAI7717995.1         -           2581 6456at5820           -            416   1.4e-24   85.3  30.6   1   4      0.37   1.2e+03   -3.4   0.8     7    72  1089  1155  1088  1160 0.79 | transcript=PVPAM_020022600_t1 | gene=PVPAM_020022600 | organism=Plasmodium_vivax_PAM | gene_product=allantoicase, putative | transcript_product=allantoicase, putative | location=CASCJQ010000002:747318-755063(+) | protein_length=2581 | sequence_SO=supercontig | SO=protein_coding_gene | is_pseudo=false
+CAI7717995.1         -           2581 6456at5820           -            416   1.4e-24   85.3  30.6   2   4   1.4e-07   0.00045   17.7   0.2    31    75  1817  1862  1792  1874 0.77 | transcript=PVPAM_020022600_t1 | gene=PVPAM_020022600 | organism=Plasmodium_vivax_PAM | gene_product=allantoicase, putative | transcript_product=allantoicase, putative | location=CASCJQ010000002:747318-755063(+) | protein_length=2581 | sequence_SO=supercontig | SO=protein_coding_gene | is_pseudo=false
+CAI7717995.1         -           2581 6456at5820           -            416   1.4e-24   85.3  30.6   3   4   1.3e-07   0.00042   17.8   0.0    77   124  1946  1993  1936  2024 0.88 | transcript=PVPAM_020022600_t1 | gene=PVPAM_020022600 | organism=Plasmodium_vivax_PAM | gene_product=allantoicase, putative | transcript_product=allantoicase, putative | location=CASCJQ010000002:747318-755063(+) | protein_length=2581 | sequence_SO=supercontig | SO=protein_coding_gene | is_pseudo=false
+CAI7717995.1         -           2581 6456at5820           -            416   1.4e-24   85.3  30.6   4   4   1.9e-19     6e-16   56.8  15.7   152   415  2307  2579  2291  2580 0.75 | transcript=PVPAM_020022600_t1 | gene=PVPAM_020022600 | organism=Plasmodium_vivax_PAM | gene_product=allantoicase, putative | transcript_product=allantoicase, putative | location=CASCJQ010000002:747318-755063(+) | protein_length=2581 | sequence_SO=supercontig | SO=protein_coding_gene | is_pseudo=false
+#
+# Program:         hmmsearch
+# Version:         3.4 (Aug 2023)
+# Pipeline mode:   SEARCH
+# Query file:      /v3/work/00_inventory/busco/busco_downloads/lineages/plasmodium_odb10/hmms/6456at5820.hmm
+# Target file:     /v3/inputs/annotations/plasmodb-68/PAM.proteins.fa
+# Option settings: hmmsearch --domtblout /v3/work/00_inventory/busco/PAM_proteins/run_plasmodium_odb10/hmmer_output/initial_run_results/6456at5820.out --cpu 1 /v3/work/00_inventory/busco/busco_downloads/lineages/plasmodium_odb10/hmms/6456at5820.hmm /v3/inputs/annotations/plasmodb-68/PAM.proteins.fa 
+# Current dir:     /v3/work/00_inventory/busco
+# Date:            Tue May 19 17:43:04 2026
+# [ok]

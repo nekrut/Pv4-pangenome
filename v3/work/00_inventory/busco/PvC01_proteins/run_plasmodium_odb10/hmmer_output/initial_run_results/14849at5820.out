@@ -1,0 +1,19 @@
+#                                                                            --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name        accession   tlen query name           accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+#------------------- ---------- ----- -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+SCO73895.1           -             94 14849at5820          -             75     1e-48  162.1   7.9   1   1   2.9e-50   3.7e-47  157.1   7.9     1    75     1    87     1    87 0.95 small nuclear ribonucleoprotein E, putative [Plasmodium vivax]
+SCO74481.1           -            101 14849at5820          -             75   7.6e-07   27.9   5.1   1   1   8.9e-09   1.1e-05   24.1   5.1    30    58    23    51    14    82 0.88 U6 snRNA-associated Sm-like protein LSm5, putative [Plasmodium vivax]
+SCO71276.1           -             83 14849at5820          -             75    0.0015   17.3   0.3   1   1   1.8e-06    0.0023   16.7   0.3    20    60    14    51    10    73 0.78 small nuclear ribonucleoprotein G, putative [Plasmodium vivax]
+SCO71300.1           -             91 14849at5820          -             75    0.0035   16.1   0.1   1   2   8.5e-05      0.11   11.4   0.0    31    58    22    49     7    56 0.90 U6 snRNA-associated Sm-like protein LSm3, putative [Plasmodium vivax]
+SCO71300.1           -             91 14849at5820          -             75    0.0035   16.1   0.1   2   2     0.027        34    3.4   0.0    49    73    62    86    51    88 0.80 U6 snRNA-associated Sm-like protein LSm3, putative [Plasmodium vivax]
+SCO71207.1           -             95 14849at5820          -             75    0.0068   15.2   0.4   1   1   0.00014      0.18   10.7   0.4    40    74    22    70    13    71 0.59 U6 snRNA-associated Sm-like protein LSm8, putative [Plasmodium vivax]
+#
+# Program:         hmmsearch
+# Version:         3.4 (Aug 2023)
+# Pipeline mode:   SEARCH
+# Query file:      /v3/work/00_inventory/busco/busco_downloads/lineages/plasmodium_odb10/hmms/14849at5820.hmm
+# Target file:     /v3/inputs/annotations/ncbi-datasets/PvC01.proteins.fa
+# Option settings: hmmsearch --domtblout /v3/work/00_inventory/busco/PvC01_proteins/run_plasmodium_odb10/hmmer_output/initial_run_results/14849at5820.out --cpu 1 /v3/work/00_inventory/busco/busco_downloads/lineages/plasmodium_odb10/hmms/14849at5820.hmm /v3/inputs/annotations/ncbi-datasets/PvC01.proteins.fa 
+# Current dir:     /v3/work/00_inventory/busco
+# Date:            Tue May 19 18:36:19 2026
+# [ok]

@@ -1,0 +1,16 @@
+#                                                                            --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name        accession   tlen query name           accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+#------------------- ---------- ----- -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+SCO73594.1           -            511 5256at5820           -            459    4e-296  980.1  12.9   1   1  1.5e-299  4.6e-296  979.9  12.9     1   459    15   507    15   507 0.97 pyruvate kinase, putative [Plasmodium vivax]
+SCO71736.1           -            723 5256at5820           -            459     2e-53  180.0   4.3   1   2   2.2e-23     7e-20   69.4   0.9    20   209    97   311    81   318 0.81 pyruvate kinase 2, putative [Plasmodium vivax]
+SCO71736.1           -            723 5256at5820           -            459     2e-53  180.0   4.3   2   2   3.6e-36   1.1e-32  111.6   0.1   220   342   443   566   436   580 0.91 pyruvate kinase 2, putative [Plasmodium vivax]
+#
+# Program:         hmmsearch
+# Version:         3.4 (Aug 2023)
+# Pipeline mode:   SEARCH
+# Query file:      /v3/work/00_inventory/busco/busco_downloads/lineages/plasmodium_odb10/hmms/5256at5820.hmm
+# Target file:     /v3/inputs/annotations/ncbi-datasets/PvC01.proteins.fa
+# Option settings: hmmsearch --domtblout /v3/work/00_inventory/busco/PvC01_proteins/run_plasmodium_odb10/hmmer_output/initial_run_results/5256at5820.out --cpu 1 /v3/work/00_inventory/busco/busco_downloads/lineages/plasmodium_odb10/hmms/5256at5820.hmm /v3/inputs/annotations/ncbi-datasets/PvC01.proteins.fa 
+# Current dir:     /v3/work/00_inventory/busco
+# Date:            Tue May 19 18:50:33 2026
+# [ok]

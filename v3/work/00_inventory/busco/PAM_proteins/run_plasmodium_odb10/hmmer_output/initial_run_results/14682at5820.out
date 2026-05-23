@@ -1,0 +1,17 @@
+#                                                                            --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name        accession   tlen query name           accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+#------------------- ---------- ----- -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+CAI7721949.1         -            105 14682at5820          -             86   4.8e-57  189.1   3.1   1   1   2.6e-60   5.5e-57  188.9   3.1     1    86    10    95    10    95 0.99 | transcript=PVPAM_120018500_t1 | gene=PVPAM_120018500 | organism=Plasmodium_vivax_PAM | gene_product=mitochondrial pyruvate carrier protein 1, putative | transcript_product=mitochondrial pyruvate carrier protein 1, putative | location=CASCJQ010000012:582773-583349(-) | protein_length=105 | sequence_SO=supercontig | SO=protein_coding_gene | is_pseudo=false
+CAI7722177.1         -            137 14682at5820          -             86   7.7e-10   37.8   0.6   1   1   4.6e-13     1e-09   37.4   0.6     5    68    38   101    34   121 0.89 | transcript=PVPAM_120041500_t1 | gene=PVPAM_120041500 | organism=Plasmodium_vivax_PAM | gene_product=mitochondrial pyruvate carrier protein 2, putative | transcript_product=mitochondrial pyruvate carrier protein 2, putative | location=CASCJQ010000012:1435511-1436386(+) | protein_length=137 | sequence_SO=supercontig | SO=protein_coding_gene | is_pseudo=false
+CAI7718850.1         -            193 14682at5820          -             86     0.048   12.8   0.3   1   2     0.003       6.4    6.0   0.0    24    75    28    79    24    86 0.80 | transcript=PVPAM_050024400_t1 | gene=PVPAM_050024400 | organism=Plasmodium_vivax_PAM | gene_product=rRNA-processing protein FCF1, putative | transcript_product=rRNA-processing protein FCF1, putative | location=CASCJQ010000005:839321-840003(+) | protein_length=193 | sequence_SO=supercontig | SO=protein_coding_gene | is_pseudo=false
+CAI7718850.1         -            193 14682at5820          -             86     0.048   12.8   0.3   2   2    0.0054        12    5.2   0.1    21    74    84   139    80   148 0.70 | transcript=PVPAM_050024400_t1 | gene=PVPAM_050024400 | organism=Plasmodium_vivax_PAM | gene_product=rRNA-processing protein FCF1, putative | transcript_product=rRNA-processing protein FCF1, putative | location=CASCJQ010000005:839321-840003(+) | protein_length=193 | sequence_SO=supercontig | SO=protein_coding_gene | is_pseudo=false
+#
+# Program:         hmmsearch
+# Version:         3.4 (Aug 2023)
+# Pipeline mode:   SEARCH
+# Query file:      /v3/work/00_inventory/busco/busco_downloads/lineages/plasmodium_odb10/hmms/14682at5820.hmm
+# Target file:     /v3/inputs/annotations/plasmodb-68/PAM.proteins.fa
+# Option settings: hmmsearch --domtblout /v3/work/00_inventory/busco/PAM_proteins/run_plasmodium_odb10/hmmer_output/initial_run_results/14682at5820.out --cpu 1 /v3/work/00_inventory/busco/busco_downloads/lineages/plasmodium_odb10/hmms/14682at5820.hmm /v3/inputs/annotations/plasmodb-68/PAM.proteins.fa 
+# Current dir:     /v3/work/00_inventory/busco
+# Date:            Tue May 19 17:34:09 2026
+# [ok]

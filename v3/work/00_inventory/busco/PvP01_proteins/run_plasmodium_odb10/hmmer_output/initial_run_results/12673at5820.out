@@ -1,0 +1,14 @@
+#                                                                            --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name        accession   tlen query name           accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+#------------------- ---------- ----- -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+PVP01_1420900.1-p1   -            197 12673at5820          -            142   3.3e-80  265.4  10.4   1   1   7.1e-84   4.6e-80  264.9  10.4    13   142    62   191    53   191 0.96 | transcript=PVP01_1420900.1 | gene=PVP01_1420900 | organism=Plasmodium_vivax_P01 | gene_product=ATP-dependent Clp protease adapter protein ClpS, putative | transcript_product=ATP-dependent Clp protease adapter protein ClpS, putative | location=PvP01_14_v2:913609-914855(-) | protein_length=197 | sequence_SO=chromosome | SO=protein_coding_gene | is_pseudo=false
+#
+# Program:         hmmsearch
+# Version:         3.4 (Aug 2023)
+# Pipeline mode:   SEARCH
+# Query file:      /v3/work/00_inventory/busco/busco_downloads/lineages/plasmodium_odb10/hmms/12673at5820.hmm
+# Target file:     /v3/inputs/annotations/plasmodb-68/PvP01.proteins.fa
+# Option settings: hmmsearch --domtblout /v3/work/00_inventory/busco/PvP01_proteins/run_plasmodium_odb10/hmmer_output/initial_run_results/12673at5820.out --cpu 1 /v3/work/00_inventory/busco/busco_downloads/lineages/plasmodium_odb10/hmms/12673at5820.hmm /v3/inputs/annotations/plasmodb-68/PvP01.proteins.fa 
+# Current dir:     /v3/work/00_inventory/busco
+# Date:            Tue May 19 17:27:32 2026
+# [ok]

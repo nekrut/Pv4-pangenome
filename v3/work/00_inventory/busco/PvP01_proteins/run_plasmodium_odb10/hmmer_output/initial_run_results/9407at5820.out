@@ -1,0 +1,18 @@
+#                                                                            --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name        accession   tlen query name           accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+#------------------- ---------- ----- -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+PVP01_1317500.1-p1   -            451 9407at5820           -            306  7.1e-135  447.8  27.7   1   4   6.5e-07    0.0021   16.0   0.2     1    22     1    22     1    37 0.78 | transcript=PVP01_1317500.1 | gene=PVP01_1317500 | organism=Plasmodium_vivax_P01 | gene_product=syntaxin, Qa-SNARE family, putative | transcript_product=syntaxin, Qa-SNARE family, putative | location=PvP01_13_v2:820799-822154(+) | protein_length=451 | sequence_SO=chromosome | SO=protein_coding_gene | is_pseudo=false
+PVP01_1317500.1-p1   -            451 9407at5820           -            306  7.1e-135  447.8  27.7   2   4   1.2e-10   3.8e-07   28.4   0.0    18    46    84   112    79   123 0.91 | transcript=PVP01_1317500.1 | gene=PVP01_1317500 | organism=Plasmodium_vivax_P01 | gene_product=syntaxin, Qa-SNARE family, putative | transcript_product=syntaxin, Qa-SNARE family, putative | location=PvP01_13_v2:820799-822154(+) | protein_length=451 | sequence_SO=chromosome | SO=protein_coding_gene | is_pseudo=false
+PVP01_1317500.1-p1   -            451 9407at5820           -            306  7.1e-135  447.8  27.7   3   4   2.3e-68   7.4e-65  217.9   9.5    54   186   150   283   146   288 0.97 | transcript=PVP01_1317500.1 | gene=PVP01_1317500 | organism=Plasmodium_vivax_P01 | gene_product=syntaxin, Qa-SNARE family, putative | transcript_product=syntaxin, Qa-SNARE family, putative | location=PvP01_13_v2:820799-822154(+) | protein_length=451 | sequence_SO=chromosome | SO=protein_coding_gene | is_pseudo=false
+PVP01_1317500.1-p1   -            451 9407at5820           -            306  7.1e-135  447.8  27.7   4   4   2.4e-61   7.8e-58  194.8   3.4   190   306   319   445   312   445 0.90 | transcript=PVP01_1317500.1 | gene=PVP01_1317500 | organism=Plasmodium_vivax_P01 | gene_product=syntaxin, Qa-SNARE family, putative | transcript_product=syntaxin, Qa-SNARE family, putative | location=PvP01_13_v2:820799-822154(+) | protein_length=451 | sequence_SO=chromosome | SO=protein_coding_gene | is_pseudo=false
+PVP01_0414200.1-p1   -            314 9407at5820           -            306   6.1e-28   96.6  31.7   1   1   2.4e-31   7.8e-28   96.3  31.7    54   304    53   312     1   314 0.80 | transcript=PVP01_0414200.1 | gene=PVP01_0414200 | organism=Plasmodium_vivax_P01 | gene_product=syntaxin, Qa-SNARE family, putative | transcript_product=syntaxin, Qa-SNARE family, putative | location=PvP01_04_v2:580616-581560(-) | protein_length=314 | sequence_SO=chromosome | SO=protein_coding_gene | is_pseudo=false
+#
+# Program:         hmmsearch
+# Version:         3.4 (Aug 2023)
+# Pipeline mode:   SEARCH
+# Query file:      /v3/work/00_inventory/busco/busco_downloads/lineages/plasmodium_odb10/hmms/9407at5820.hmm
+# Target file:     /v3/inputs/annotations/plasmodb-68/PvP01.proteins.fa
+# Option settings: hmmsearch --domtblout /v3/work/00_inventory/busco/PvP01_proteins/run_plasmodium_odb10/hmmer_output/initial_run_results/9407at5820.out --cpu 1 /v3/work/00_inventory/busco/busco_downloads/lineages/plasmodium_odb10/hmms/9407at5820.hmm /v3/inputs/annotations/plasmodb-68/PvP01.proteins.fa 
+# Current dir:     /v3/work/00_inventory/busco
+# Date:            Tue May 19 17:51:00 2026
+# [ok]

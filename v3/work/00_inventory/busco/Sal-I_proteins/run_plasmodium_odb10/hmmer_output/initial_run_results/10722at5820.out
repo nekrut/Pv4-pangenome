@@ -1,0 +1,18 @@
+#                                                                            --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name        accession   tlen query name           accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+#------------------- ---------- ----- -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+PVX_114930.1-p1      -            251 10722at5820          -            214  4.9e-107  354.6  33.5   1   1  8.7e-109  9.6e-106  350.3  33.5     1   213     1   250     1   251 0.90 | transcript=PVX_114930.1 | gene=PVX_114930 | organism=Plasmodium_vivax_Sal-1 | gene_product=high mobility group protein B4, putative | transcript_product=high mobility group protein B4, putative | location=Pv_Sal1_chr11:503554-506023(+) | protein_length=251 | sequence_SO=chromosome | SO=protein_coding_gene | is_pseudo=false
+PVX_084190.1-p1      -            107 10722at5820          -            214   6.1e-07   27.5   2.0   1   1   6.6e-10   7.2e-07   27.2   2.0     2    82    27   105    23   107 0.88 | transcript=PVX_084190.1 | gene=PVX_084190 | organism=Plasmodium_vivax_Sal-1 | gene_product=high mobility group protein B1, putative | transcript_product=high mobility group protein B1, putative | location=Pv_Sal1_chr13:83703-84026(-) | protein_length=107 | sequence_SO=chromosome | SO=protein_coding_gene | is_pseudo=false
+PVX_089520.1-p1      -             99 10722at5820          -            214   6.1e-06   24.2   3.8   1   1   6.2e-09   6.9e-06   24.0   3.8     5    81    23    97     7    99 0.87 | transcript=PVX_089520.1 | gene=PVX_089520 | organism=Plasmodium_vivax_Sal-1 | gene_product=high mobility group protein B2, putative | transcript_product=high mobility group protein B2, putative | location=Pv_Sal1_chr05:629790-630089(+) | protein_length=99 | sequence_SO=chromosome | SO=protein_coding_gene | is_pseudo=false
+PVX_122235.1-p1      -            151 10722at5820          -            214    0.0023   15.8   0.8   1   1   2.6e-06    0.0028   15.5   0.8    80   142    18    81     5   114 0.82 | transcript=PVX_122235.1 | gene=PVX_122235 | organism=Plasmodium_vivax_Sal-1 | gene_product=transcription factor, putative | transcript_product=transcription factor, putative | location=Pv_Sal1_chr14:402525-402980(+) | protein_length=151 | sequence_SO=chromosome | SO=protein_coding_gene | is_pseudo=false
+PVX_090930.1-p1      -            103 10722at5820          -            214     0.021   12.6   0.1   1   1     2e-05     0.022   12.5   0.1    97   150    44    96    21   101 0.80 | transcript=PVX_090930.1 | gene=PVX_090930 | organism=Plasmodium_vivax_Sal-1 | gene_product=histone H4, putative | transcript_product=histone H4, putative | location=Pv_Sal1_chr09:110248-110559(-) | protein_length=103 | sequence_SO=chromosome | SO=protein_coding_gene | is_pseudo=false
+#
+# Program:         hmmsearch
+# Version:         3.4 (Aug 2023)
+# Pipeline mode:   SEARCH
+# Query file:      /v3/work/00_inventory/busco/busco_downloads/lineages/plasmodium_odb10/hmms/10722at5820.hmm
+# Target file:     /v3/inputs/annotations/plasmodb-68/Sal-I.proteins.fa
+# Option settings: hmmsearch --domtblout /v3/work/00_inventory/busco/Sal-I_proteins/run_plasmodium_odb10/hmmer_output/initial_run_results/10722at5820.out --cpu 1 /v3/work/00_inventory/busco/busco_downloads/lineages/plasmodium_odb10/hmms/10722at5820.hmm /v3/inputs/annotations/plasmodb-68/Sal-I.proteins.fa 
+# Current dir:     /v3/work/00_inventory/busco
+# Date:            Tue May 19 17:27:03 2026
+# [ok]

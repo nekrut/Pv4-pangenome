@@ -1,0 +1,16 @@
+#                                                                            --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name        accession   tlen query name           accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+#------------------- ---------- ----- -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+CAI7723404.1         -            436 8255at5820           -            311  4.4e-183  606.4  44.1   1   2   5.2e-35   1.7e-31  108.4   7.8     1    72    23    94    23    98 0.92 | transcript=PVPAM_140032600_t1 | gene=PVPAM_140032600 | organism=Plasmodium_vivax_PAM | gene_product=drug/metabolite transporter DMT1, putative | transcript_product=drug/metabolite transporter DMT1, putative | location=CASCJQ010000014:1186879-1188189(-) | protein_length=436 | sequence_SO=supercontig | SO=protein_coding_gene | is_pseudo=false
+CAI7723404.1         -            436 8255at5820           -            311  4.4e-183  606.4  44.1   2   2  2.1e-155  6.6e-152  504.0  28.3    64   311   185   432   177   432 0.99 | transcript=PVPAM_140032600_t1 | gene=PVPAM_140032600 | organism=Plasmodium_vivax_PAM | gene_product=drug/metabolite transporter DMT1, putative | transcript_product=drug/metabolite transporter DMT1, putative | location=CASCJQ010000014:1186879-1188189(-) | protein_length=436 | sequence_SO=supercontig | SO=protein_coding_gene | is_pseudo=false
+CAI7718173.1         -            322 8255at5820           -            311     0.008   14.2  26.3   1   1     3e-05     0.098   10.7  24.4    76   308    61   302    44   303 0.72 | transcript=PVPAM_030017300_t1 | gene=PVPAM_030017300 | organism=Plasmodium_vivax_PAM | gene_product=drug/metabolite transporter DMT2, putative | transcript_product=drug/metabolite transporter DMT2, putative | location=CASCJQ010000003:519384-520352(+) | protein_length=322 | sequence_SO=supercontig | SO=protein_coding_gene | is_pseudo=false
+#
+# Program:         hmmsearch
+# Version:         3.4 (Aug 2023)
+# Pipeline mode:   SEARCH
+# Query file:      /v3/work/00_inventory/busco/busco_downloads/lineages/plasmodium_odb10/hmms/8255at5820.hmm
+# Target file:     /v3/inputs/annotations/plasmodb-68/PAM.proteins.fa
+# Option settings: hmmsearch --domtblout /v3/work/00_inventory/busco/PAM_proteins/run_plasmodium_odb10/hmmer_output/initial_run_results/8255at5820.out --cpu 1 /v3/work/00_inventory/busco/busco_downloads/lineages/plasmodium_odb10/hmms/8255at5820.hmm /v3/inputs/annotations/plasmodb-68/PAM.proteins.fa 
+# Current dir:     /v3/work/00_inventory/busco
+# Date:            Tue May 19 17:50:34 2026
+# [ok]

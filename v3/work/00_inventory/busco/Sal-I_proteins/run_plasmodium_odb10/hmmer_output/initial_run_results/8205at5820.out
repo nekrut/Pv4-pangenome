@@ -1,0 +1,16 @@
+#                                                                            --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name        accession   tlen query name           accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+#------------------- ---------- ----- -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+PVX_081550.1-p1      -            495 8205at5820           -            324  2.2e-147  488.4  29.3   1   3   0.00063       3.5    4.7   0.1     1    21     1    21     1    28 0.92 | transcript=PVX_081550.1 | gene=PVX_081550 | organism=Plasmodium_vivax_Sal-1 | gene_product=StAR-related lipid transfer protein, putative | transcript_product=StAR-related lipid transfer protein, putative | location=Pv_Sal1_chr02:430906-432393(+) | protein_length=495 | sequence_SO=chromosome | SO=protein_coding_gene | is_pseudo=false
+PVX_081550.1-p1      -            495 8205at5820           -            324  2.2e-147  488.4  29.3   2   3  1.3e-142  7.2e-139  460.5  21.3    36   296   168   432   148   439 0.95 | transcript=PVX_081550.1 | gene=PVX_081550 | organism=Plasmodium_vivax_Sal-1 | gene_product=StAR-related lipid transfer protein, putative | transcript_product=StAR-related lipid transfer protein, putative | location=Pv_Sal1_chr02:430906-432393(+) | protein_length=495 | sequence_SO=chromosome | SO=protein_coding_gene | is_pseudo=false
+PVX_081550.1-p1      -            495 8205at5820           -            324  2.2e-147  488.4  29.3   3   3   7.1e-11     4e-07   27.5   0.1   295   324   462   491   448   491 0.92 | transcript=PVX_081550.1 | gene=PVX_081550 | organism=Plasmodium_vivax_Sal-1 | gene_product=StAR-related lipid transfer protein, putative | transcript_product=StAR-related lipid transfer protein, putative | location=Pv_Sal1_chr02:430906-432393(+) | protein_length=495 | sequence_SO=chromosome | SO=protein_coding_gene | is_pseudo=false
+#
+# Program:         hmmsearch
+# Version:         3.4 (Aug 2023)
+# Pipeline mode:   SEARCH
+# Query file:      /v3/work/00_inventory/busco/busco_downloads/lineages/plasmodium_odb10/hmms/8205at5820.hmm
+# Target file:     /v3/inputs/annotations/plasmodb-68/Sal-I.proteins.fa
+# Option settings: hmmsearch --domtblout /v3/work/00_inventory/busco/Sal-I_proteins/run_plasmodium_odb10/hmmer_output/initial_run_results/8205at5820.out --cpu 1 /v3/work/00_inventory/busco/busco_downloads/lineages/plasmodium_odb10/hmms/8205at5820.hmm /v3/inputs/annotations/plasmodb-68/Sal-I.proteins.fa 
+# Current dir:     /v3/work/00_inventory/busco
+# Date:            Tue May 19 17:50:24 2026
+# [ok]

@@ -1,0 +1,17 @@
+#                                                                            --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name        accession   tlen query name           accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+#------------------- ---------- ----- -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+PVP01_1442600.1-p1   -            576 6544at5820           -            471  1.2e-214  712.1  36.2   1   1  4.4e-217  1.4e-213  708.5  36.2     1   471     1   571     1   571 0.90 | transcript=PVP01_1442600.1 | gene=PVP01_1442600 | organism=Plasmodium_vivax_P01 | gene_product=WD repeat-containing protein, putative | transcript_product=WD repeat-containing protein, putative | location=PvP01_14_v2:1856391-1858269(+) | protein_length=576 | sequence_SO=chromosome | SO=protein_coding_gene | is_pseudo=false
+PVP01_0605500.1-p1   -            735 6544at5820           -            471     0.047   11.1   1.3   1   3    0.0028       9.1    3.5   0.0   330   386   419   477   409   483 0.76 | transcript=PVP01_0605500.1 | gene=PVP01_0605500 | organism=Plasmodium_vivax_P01 | gene_product=cytoplasmic dynein intermediate chain, putative | transcript_product=cytoplasmic dynein intermediate chain, putative | location=PvP01_06_v2:223767-225974(+) | protein_length=735 | sequence_SO=chromosome | SO=protein_coding_gene | is_pseudo=false
+PVP01_0605500.1-p1   -            735 6544at5820           -            471     0.047   11.1   1.3   2   3     0.074   2.4e+02   -1.2   0.0   322   341   503   522   499   591 0.63 | transcript=PVP01_0605500.1 | gene=PVP01_0605500 | organism=Plasmodium_vivax_P01 | gene_product=cytoplasmic dynein intermediate chain, putative | transcript_product=cytoplasmic dynein intermediate chain, putative | location=PvP01_06_v2:223767-225974(+) | protein_length=735 | sequence_SO=chromosome | SO=protein_coding_gene | is_pseudo=false
+PVP01_0605500.1-p1   -            735 6544at5820           -            471     0.047   11.1   1.3   3   3    0.0012       3.9    4.7   0.0   360   408   600   648   589   675 0.85 | transcript=PVP01_0605500.1 | gene=PVP01_0605500 | organism=Plasmodium_vivax_P01 | gene_product=cytoplasmic dynein intermediate chain, putative | transcript_product=cytoplasmic dynein intermediate chain, putative | location=PvP01_06_v2:223767-225974(+) | protein_length=735 | sequence_SO=chromosome | SO=protein_coding_gene | is_pseudo=false
+#
+# Program:         hmmsearch
+# Version:         3.4 (Aug 2023)
+# Pipeline mode:   SEARCH
+# Query file:      /v3/work/00_inventory/busco/busco_downloads/lineages/plasmodium_odb10/hmms/6544at5820.hmm
+# Target file:     /v3/inputs/annotations/plasmodb-68/PvP01.proteins.fa
+# Option settings: hmmsearch --domtblout /v3/work/00_inventory/busco/PvP01_proteins/run_plasmodium_odb10/hmmer_output/initial_run_results/6544at5820.out --cpu 1 /v3/work/00_inventory/busco/busco_downloads/lineages/plasmodium_odb10/hmms/6544at5820.hmm /v3/inputs/annotations/plasmodb-68/PvP01.proteins.fa 
+# Current dir:     /v3/work/00_inventory/busco
+# Date:            Tue May 19 17:43:27 2026
+# [ok]

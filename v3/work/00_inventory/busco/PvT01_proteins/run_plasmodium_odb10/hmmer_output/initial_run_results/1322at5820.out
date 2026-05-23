@@ -1,0 +1,20 @@
+#                                                                            --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name        accession   tlen query name           accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+#------------------- ---------- ----- -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+SCO67353.1           -           1325 1322at5820           -            984         0 1862.5  46.8   1   7   4.2e-35   2.5e-31  106.9   1.4     1    77   112   188   112   198 0.96 DNA-directed RNA polymerase, putative [Plasmodium vivax]
+SCO67353.1           -           1325 1322at5820           -            984         0 1862.5  46.8   2   7   2.4e-09   1.5e-05   21.6   0.0    77   103   213   239   207   242 0.94 DNA-directed RNA polymerase, putative [Plasmodium vivax]
+SCO67353.1           -           1325 1322at5820           -            984         0 1862.5  46.8   3   7   3.7e-36   2.3e-32  110.4   0.3   102   167   284   349   279   353 0.96 DNA-directed RNA polymerase, putative [Plasmodium vivax]
+SCO67353.1           -           1325 1322at5820           -            984         0 1862.5  46.8   4   7   9.8e-62   5.9e-58  195.1   0.3   168   274   389   495   380   512 0.96 DNA-directed RNA polymerase, putative [Plasmodium vivax]
+SCO67353.1           -           1325 1322at5820           -            984         0 1862.5  46.8   5   7   2.5e-45   1.5e-41  140.7   5.6   275   377   534   636   529   641 0.88 DNA-directed RNA polymerase, putative [Plasmodium vivax]
+SCO67353.1           -           1325 1322at5820           -            984         0 1862.5  46.8   6   7    9e-235  5.5e-231  767.8   2.5   362   740   660  1054   656  1061 0.97 DNA-directed RNA polymerase, putative [Plasmodium vivax]
+SCO67353.1           -           1325 1322at5820           -            984         0 1862.5  46.8   7   7  2.4e-167  1.5e-163  544.6   1.7   738   984  1079  1325  1074  1325 0.99 DNA-directed RNA polymerase, putative [Plasmodium vivax]
+#
+# Program:         hmmsearch
+# Version:         3.4 (Aug 2023)
+# Pipeline mode:   SEARCH
+# Query file:      /v3/work/00_inventory/busco/busco_downloads/lineages/plasmodium_odb10/hmms/1322at5820.hmm
+# Target file:     /v3/inputs/annotations/ncbi-datasets/PvT01.proteins.fa
+# Option settings: hmmsearch --domtblout /v3/work/00_inventory/busco/PvT01_proteins/run_plasmodium_odb10/hmmer_output/initial_run_results/1322at5820.out --cpu 1 /v3/work/00_inventory/busco/busco_downloads/lineages/plasmodium_odb10/hmms/1322at5820.hmm /v3/inputs/annotations/ncbi-datasets/PvT01.proteins.fa 
+# Current dir:     /v3/work/00_inventory/busco
+# Date:            Tue May 19 18:31:45 2026
+# [ok]

@@ -1,0 +1,16 @@
+#                                                                            --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name        accession   tlen query name           accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+#------------------- ---------- ----- -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+CAI7720231.1         -            256 12250at5820          -            228  5.8e-139  459.5  20.1   1   2     0.057   1.8e+02   -0.1   1.6     1    30     1    30     1    41 0.48 | transcript=PVPAM_080045400_t1 | gene=PVPAM_080045400 | organism=Plasmodium_vivax_PAM | gene_product=60S ribosomal protein L7, putative | transcript_product=60S ribosomal protein L7, putative | location=CASCJQ010000008:1774482-1775656(+) | protein_length=256 | sequence_SO=supercontig | SO=protein_coding_gene | is_pseudo=false
+CAI7720231.1         -            256 12250at5820          -            228  5.8e-139  459.5  20.1   2   2  1.8e-142  5.8e-139  459.5  20.1    12   228    39   256    30   256 0.98 | transcript=PVPAM_080045400_t1 | gene=PVPAM_080045400 | organism=Plasmodium_vivax_PAM | gene_product=60S ribosomal protein L7, putative | transcript_product=60S ribosomal protein L7, putative | location=CASCJQ010000008:1774482-1775656(+) | protein_length=256 | sequence_SO=supercontig | SO=protein_coding_gene | is_pseudo=false
+CAI7721309.1         -            256 12250at5820          -            228   1.1e-06   26.7  10.8   1   1   3.5e-10   1.1e-06   26.7  10.8    19   161    52   194    34   224 0.76 | transcript=PVPAM_110021200_t1 | gene=PVPAM_110021200 | organism=Plasmodium_vivax_PAM | gene_product=60S ribosomal protein L7-2, putative | transcript_product=60S ribosomal protein L7-2, putative | location=CASCJQ010000011:685340-686765(+) | protein_length=256 | sequence_SO=supercontig | SO=protein_coding_gene | is_pseudo=false
+#
+# Program:         hmmsearch
+# Version:         3.4 (Aug 2023)
+# Pipeline mode:   SEARCH
+# Query file:      /v3/work/00_inventory/busco/busco_downloads/lineages/plasmodium_odb10/hmms/12250at5820.hmm
+# Target file:     /v3/inputs/annotations/plasmodb-68/PAM.proteins.fa
+# Option settings: hmmsearch --domtblout /v3/work/00_inventory/busco/PAM_proteins/run_plasmodium_odb10/hmmer_output/initial_run_results/12250at5820.out --cpu 1 /v3/work/00_inventory/busco/busco_downloads/lineages/plasmodium_odb10/hmms/12250at5820.hmm /v3/inputs/annotations/plasmodb-68/PAM.proteins.fa 
+# Current dir:     /v3/work/00_inventory/busco
+# Date:            Tue May 19 17:26:20 2026
+# [ok]

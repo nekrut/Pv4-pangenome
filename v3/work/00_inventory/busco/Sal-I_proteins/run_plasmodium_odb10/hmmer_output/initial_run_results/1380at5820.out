@@ -1,0 +1,17 @@
+#                                                                            --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name        accession   tlen query name           accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+#------------------- ---------- ----- -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+PVX_089035.1-p1      -           1275 1380at5820           -            956         0 1864.2  71.6   1   4  4.1e-106  2.3e-102  341.9   6.8     1   218     1   237     1   244 0.92 | transcript=PVX_089035.1 | gene=PVX_089035 | organism=Plasmodium_vivax_Sal-1 | gene_product=ubiquitin conjugation factor E4 B, putative | transcript_product=ubiquitin conjugation factor E4 B, putative | location=Pv_Sal1_chr05:239622-243449(-) | protein_length=1275 | sequence_SO=chromosome | SO=protein_coding_gene | is_pseudo=false
+PVX_089035.1-p1      -           1275 1380at5820           -            956         0 1864.2  71.6   2   4  9.1e-195  5.1e-191  635.3  22.8   218   528   284   613   278   620 0.95 | transcript=PVX_089035.1 | gene=PVX_089035 | organism=Plasmodium_vivax_Sal-1 | gene_product=ubiquitin conjugation factor E4 B, putative | transcript_product=ubiquitin conjugation factor E4 B, putative | location=Pv_Sal1_chr05:239622-243449(-) | protein_length=1275 | sequence_SO=chromosome | SO=protein_coding_gene | is_pseudo=false
+PVX_089035.1-p1      -           1275 1380at5820           -            956         0 1864.2  71.6   3   4  1.3e-117  7.4e-114  379.9   8.1   524   714   700   893   690   898 0.97 | transcript=PVX_089035.1 | gene=PVX_089035 | organism=Plasmodium_vivax_Sal-1 | gene_product=ubiquitin conjugation factor E4 B, putative | transcript_product=ubiquitin conjugation factor E4 B, putative | location=Pv_Sal1_chr05:239622-243449(-) | protein_length=1275 | sequence_SO=chromosome | SO=protein_coding_gene | is_pseudo=false
+PVX_089035.1-p1      -           1275 1380at5820           -            956         0 1864.2  71.6   4   4  3.5e-161  1.9e-157  524.1   9.9   713   956   979  1222   962  1222 0.97 | transcript=PVX_089035.1 | gene=PVX_089035 | organism=Plasmodium_vivax_Sal-1 | gene_product=ubiquitin conjugation factor E4 B, putative | transcript_product=ubiquitin conjugation factor E4 B, putative | location=Pv_Sal1_chr05:239622-243449(-) | protein_length=1275 | sequence_SO=chromosome | SO=protein_coding_gene | is_pseudo=false
+#
+# Program:         hmmsearch
+# Version:         3.4 (Aug 2023)
+# Pipeline mode:   SEARCH
+# Query file:      /v3/work/00_inventory/busco/busco_downloads/lineages/plasmodium_odb10/hmms/1380at5820.hmm
+# Target file:     /v3/inputs/annotations/plasmodb-68/Sal-I.proteins.fa
+# Option settings: hmmsearch --domtblout /v3/work/00_inventory/busco/Sal-I_proteins/run_plasmodium_odb10/hmmer_output/initial_run_results/1380at5820.out --cpu 1 /v3/work/00_inventory/busco/busco_downloads/lineages/plasmodium_odb10/hmms/1380at5820.hmm /v3/inputs/annotations/plasmodb-68/Sal-I.proteins.fa 
+# Current dir:     /v3/work/00_inventory/busco
+# Date:            Tue May 19 17:31:26 2026
+# [ok]

@@ -1,0 +1,17 @@
+#                                                                            --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name        accession   tlen query name           accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+#------------------- ---------- ----- -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+PVP01_1428700.1-p1   -           1412 1569at5820           -            991         0 1519.4 117.9   1   4  3.1e-140    2e-136  455.1  29.2     1   268     1   299     1   302 0.89 | transcript=PVP01_1428700.1 | gene=PVP01_1428700 | organism=Plasmodium_vivax_P01 | gene_product=protein MAP1, putative | transcript_product=protein MAP1, putative | location=PvP01_14_v2:1225902-1230319(+) | protein_length=1412 | sequence_SO=chromosome | SO=protein_coding_gene | is_pseudo=false
+PVP01_1428700.1-p1   -           1412 1569at5820           -            991         0 1519.4 117.9   2   4  8.7e-216  5.7e-212  705.2  44.5   267   704   374   845   361   854 0.94 | transcript=PVP01_1428700.1 | gene=PVP01_1428700 | organism=Plasmodium_vivax_P01 | gene_product=protein MAP1, putative | transcript_product=protein MAP1, putative | location=PvP01_14_v2:1225902-1230319(+) | protein_length=1412 | sequence_SO=chromosome | SO=protein_coding_gene | is_pseudo=false
+PVP01_1428700.1-p1   -           1412 1569at5820           -            991         0 1519.4 117.9   3   4   3.6e-71   2.3e-67  226.5  11.2   706   877   887  1082   877  1101 0.86 | transcript=PVP01_1428700.1 | gene=PVP01_1428700 | organism=Plasmodium_vivax_P01 | gene_product=protein MAP1, putative | transcript_product=protein MAP1, putative | location=PvP01_14_v2:1225902-1230319(+) | protein_length=1412 | sequence_SO=chromosome | SO=protein_coding_gene | is_pseudo=false
+PVP01_1428700.1-p1   -           1412 1569at5820           -            991         0 1519.4 117.9   4   4   6.3e-48   4.1e-44  149.5   9.0   870   991  1256  1412  1203  1412 0.78 | transcript=PVP01_1428700.1 | gene=PVP01_1428700 | organism=Plasmodium_vivax_P01 | gene_product=protein MAP1, putative | transcript_product=protein MAP1, putative | location=PvP01_14_v2:1225902-1230319(+) | protein_length=1412 | sequence_SO=chromosome | SO=protein_coding_gene | is_pseudo=false
+#
+# Program:         hmmsearch
+# Version:         3.4 (Aug 2023)
+# Pipeline mode:   SEARCH
+# Query file:      /v3/work/00_inventory/busco/busco_downloads/lineages/plasmodium_odb10/hmms/1569at5820.hmm
+# Target file:     /v3/inputs/annotations/plasmodb-68/PvP01.proteins.fa
+# Option settings: hmmsearch --domtblout /v3/work/00_inventory/busco/PvP01_proteins/run_plasmodium_odb10/hmmer_output/initial_run_results/1569at5820.out --cpu 1 /v3/work/00_inventory/busco/busco_downloads/lineages/plasmodium_odb10/hmms/1569at5820.hmm /v3/inputs/annotations/plasmodb-68/PvP01.proteins.fa 
+# Current dir:     /v3/work/00_inventory/busco
+# Date:            Tue May 19 17:31:31 2026
+# [ok]

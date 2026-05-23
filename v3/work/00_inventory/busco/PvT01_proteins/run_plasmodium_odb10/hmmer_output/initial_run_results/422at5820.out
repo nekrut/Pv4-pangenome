@@ -1,0 +1,28 @@
+#                                                                            --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name        accession   tlen query name           accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+#------------------- ---------- ----- -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+SCO66944.1           -           2598 422at5820            -           1432         0 1742.1 155.4   1  13  1.1e-101   2.2e-98  328.7  13.4     2   178    15   195    14   199 0.97 CPSF (cleavage and polyadenylation specific factor), subunit A, putative [Plasmodium vivax]
+SCO66944.1           -           2598 422at5820            -           1432         0 1742.1 155.4   2  13   3.7e-15   7.5e-12   41.9   0.2   177   227   407   458   405   463 0.87 CPSF (cleavage and polyadenylation specific factor), subunit A, putative [Plasmodium vivax]
+SCO66944.1           -           2598 422at5820            -           1432         0 1742.1 155.4   3  13   1.7e-46   3.4e-43  145.8   1.5   215   304   502   591   495   598 0.96 CPSF (cleavage and polyadenylation specific factor), subunit A, putative [Plasmodium vivax]
+SCO66944.1           -           2598 422at5820            -           1432         0 1742.1 155.4   4  13   4.8e-32   9.6e-29   97.9   0.0   295   355   651   711   643   719 0.94 CPSF (cleavage and polyadenylation specific factor), subunit A, putative [Plasmodium vivax]
+SCO66944.1           -           2598 422at5820            -           1432         0 1742.1 155.4   5  13   3.2e-49   6.5e-46  154.8   3.7   354   440   815   901   806   907 0.95 CPSF (cleavage and polyadenylation specific factor), subunit A, putative [Plasmodium vivax]
+SCO66944.1           -           2598 422at5820            -           1432         0 1742.1 155.4   6  13   1.6e-41   3.3e-38  129.3   2.5   438   512   963  1037   960  1042 0.97 CPSF (cleavage and polyadenylation specific factor), subunit A, putative [Plasmodium vivax]
+SCO66944.1           -           2598 422at5820            -           1432         0 1742.1 155.4   7  13   9.1e-58   1.8e-54  183.2  13.7   513   637  1101  1226  1097  1237 0.95 CPSF (cleavage and polyadenylation specific factor), subunit A, putative [Plasmodium vivax]
+SCO66944.1           -           2598 422at5820            -           1432         0 1742.1 155.4   8  13       2.5     5e+03   -7.2   5.9   828   850  1245  1267  1231  1278 0.41 CPSF (cleavage and polyadenylation specific factor), subunit A, putative [Plasmodium vivax]
+SCO66944.1           -           2598 422at5820            -           1432         0 1742.1 155.4   9  13   4.1e-18   8.3e-15   51.7   0.0   640   680  1307  1347  1300  1360 0.92 CPSF (cleavage and polyadenylation specific factor), subunit A, putative [Plasmodium vivax]
+SCO66944.1           -           2598 422at5820            -           1432         0 1742.1 155.4  10  13   1.3e-31   2.6e-28   96.5   0.3   677   788  1413  1541  1404  1544 0.88 CPSF (cleavage and polyadenylation specific factor), subunit A, putative [Plasmodium vivax]
+SCO66944.1           -           2598 422at5820            -           1432         0 1742.1 155.4  11  13     2e-12   4.1e-09   32.9   0.4   788   835  1602  1653  1595  1663 0.81 CPSF (cleavage and polyadenylation specific factor), subunit A, putative [Plasmodium vivax]
+SCO66944.1           -           2598 422at5820            -           1432         0 1742.1 155.4  12  13  3.2e-129  6.5e-126  419.9  37.9   822  1090  1866  2156  1853  2161 0.89 CPSF (cleavage and polyadenylation specific factor), subunit A, putative [Plasmodium vivax]
+SCO66944.1           -           2598 422at5820            -           1432         0 1742.1 155.4  13  13   2.3e-38   4.7e-35  118.8   0.5  1091  1158  2218  2285  2215  2287 0.98 CPSF (cleavage and polyadenylation specific factor), subunit A, putative [Plasmodium vivax]
+SCO67477.1           -            154 422at5820            -           1432     0.002   14.0   0.7   1   1   1.1e-06    0.0022   13.9   0.7   791   891    50   151    25   153 0.73 conserved Plasmodium protein, unknown function [Plasmodium vivax]
+SCO69787.1           -            197 422at5820            -           1432     0.014   11.2   3.1   1   1   8.4e-06     0.017   10.9   3.1   794   892    28   126    15   149 0.86 ATP-dependent Clp protease adaptor protein ClpS, putative [Plasmodium vivax]
+#
+# Program:         hmmsearch
+# Version:         3.4 (Aug 2023)
+# Pipeline mode:   SEARCH
+# Query file:      /v3/work/00_inventory/busco/busco_downloads/lineages/plasmodium_odb10/hmms/422at5820.hmm
+# Target file:     /v3/inputs/annotations/ncbi-datasets/PvT01.proteins.fa
+# Option settings: hmmsearch --domtblout /v3/work/00_inventory/busco/PvT01_proteins/run_plasmodium_odb10/hmmer_output/initial_run_results/422at5820.out --cpu 1 /v3/work/00_inventory/busco/busco_downloads/lineages/plasmodium_odb10/hmms/422at5820.hmm /v3/inputs/annotations/ncbi-datasets/PvT01.proteins.fa 
+# Current dir:     /v3/work/00_inventory/busco
+# Date:            Tue May 19 18:46:34 2026
+# [ok]

@@ -1,0 +1,21 @@
+#                                                                            --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name        accession   tlen query name           accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+#------------------- ---------- ----- -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+SCO74884.1           -           3536 160at5820            -           2375         0 3685.8 271.8   1   8   1.9e-72   1.2e-68  229.7  24.2     9   275    18   370     9   405 0.78 liver specific protein 1, putative [Plasmodium vivax]
+SCO74884.1           -           3536 160at5820            -           2375         0 3685.8 271.8   2   8   4.3e-24   2.7e-20   69.3   6.5   292   355   493   564   487   584 0.88 liver specific protein 1, putative [Plasmodium vivax]
+SCO74884.1           -           3536 160at5820            -           2375         0 3685.8 271.8   3   8   4.2e-72   2.6e-68  228.5   6.4   354   507   915  1085   904  1128 0.86 liver specific protein 1, putative [Plasmodium vivax]
+SCO74884.1           -           3536 160at5820            -           2375         0 3685.8 271.8   4   8   7.7e-84   4.8e-80  267.5  13.3   502   699  1268  1490  1264  1510 0.91 liver specific protein 1, putative [Plasmodium vivax]
+SCO74884.1           -           3536 160at5820            -           2375         0 3685.8 271.8   5   8  7.6e-170  4.8e-166  552.8  35.8   695  1025  1600  1935  1597  1938 0.99 liver specific protein 1, putative [Plasmodium vivax]
+SCO74884.1           -           3536 160at5820            -           2375         0 3685.8 271.8   6   8         0         0 1701.1  99.8  1025  1980  1980  3024  1977  3026 0.94 liver specific protein 1, putative [Plasmodium vivax]
+SCO74884.1           -           3536 160at5820            -           2375         0 3685.8 271.8   7   8  6.5e-157  4.1e-153  509.8  16.5  1977  2245  3055  3332  3049  3336 0.96 liver specific protein 1, putative [Plasmodium vivax]
+SCO74884.1           -           3536 160at5820            -           2375         0 3685.8 271.8   8   8   5.8e-53   3.6e-49  165.1  13.3  2245  2375  3374  3529  3370  3529 0.91 liver specific protein 1, putative [Plasmodium vivax]
+#
+# Program:         hmmsearch
+# Version:         3.4 (Aug 2023)
+# Pipeline mode:   SEARCH
+# Query file:      /v3/work/00_inventory/busco/busco_downloads/lineages/plasmodium_odb10/hmms/160at5820.hmm
+# Target file:     /v3/inputs/annotations/ncbi-datasets/PvC01.proteins.fa
+# Option settings: hmmsearch --domtblout /v3/work/00_inventory/busco/PvC01_proteins/run_plasmodium_odb10/hmmer_output/initial_run_results/160at5820.out --cpu 1 /v3/work/00_inventory/busco/busco_downloads/lineages/plasmodium_odb10/hmms/160at5820.hmm /v3/inputs/annotations/ncbi-datasets/PvC01.proteins.fa 
+# Current dir:     /v3/work/00_inventory/busco
+# Date:            Tue May 19 18:34:49 2026
+# [ok]

@@ -1,0 +1,16 @@
+#                                                                            --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name        accession   tlen query name           accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+#------------------- ---------- ----- -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+PVP01_1417900.1-p1   -            685 5501at5820           -            519  1.3e-301  999.2  23.9   1   2       1.5     5e+03   -5.8   3.3     1    24     1    24     1    27 0.81 | transcript=PVP01_1417900.1 | gene=PVP01_1417900 | organism=Plasmodium_vivax_P01 | gene_product=U4/U6.U5 tri-snRNP-associated protein 2, putative | transcript_product=U4/U6.U5 tri-snRNP-associated protein 2, putative | location=PvP01_14_v2:780013-782070(+) | protein_length=685 | sequence_SO=chromosome | SO=protein_coding_gene | is_pseudo=false
+PVP01_1417900.1-p1   -            685 5501at5820           -            519  1.3e-301  999.2  23.9   2   2    4e-305  1.3e-301  999.2  23.9    21   519    85   684    71   684 0.93 | transcript=PVP01_1417900.1 | gene=PVP01_1417900 | organism=Plasmodium_vivax_P01 | gene_product=U4/U6.U5 tri-snRNP-associated protein 2, putative | transcript_product=U4/U6.U5 tri-snRNP-associated protein 2, putative | location=PvP01_14_v2:780013-782070(+) | protein_length=685 | sequence_SO=chromosome | SO=protein_coding_gene | is_pseudo=false
+PVP01_1005900.1-p1   -            667 5501at5820           -            519       1.6    5.7  13.5   1   1   0.00075       2.4    5.1  13.5   251   345    50   156    28   204 0.66 | transcript=PVP01_1005900.1 | gene=PVP01_1005900 | organism=Plasmodium_vivax_P01 | gene_product=ATP-dependent RNA helicase DDX41, putative | transcript_product=ATP-dependent RNA helicase DDX41, putative | location=PvP01_10_v2:267076-269079(-) | protein_length=667 | sequence_SO=chromosome | SO=protein_coding_gene | is_pseudo=false
+#
+# Program:         hmmsearch
+# Version:         3.4 (Aug 2023)
+# Pipeline mode:   SEARCH
+# Query file:      /v3/work/00_inventory/busco/busco_downloads/lineages/plasmodium_odb10/hmms/5501at5820.hmm
+# Target file:     /v3/inputs/annotations/plasmodb-68/PvP01.proteins.fa
+# Option settings: hmmsearch --domtblout /v3/work/00_inventory/busco/PvP01_proteins/run_plasmodium_odb10/hmmer_output/initial_run_results/5501at5820.out --cpu 1 /v3/work/00_inventory/busco/busco_downloads/lineages/plasmodium_odb10/hmms/5501at5820.hmm /v3/inputs/annotations/plasmodb-68/PvP01.proteins.fa 
+# Current dir:     /v3/work/00_inventory/busco
+# Date:            Tue May 19 17:42:03 2026
+# [ok]

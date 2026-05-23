@@ -1,0 +1,19 @@
+#                                                                            --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name        accession   tlen query name           accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+#------------------- ---------- ----- -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+SCO72020.1           -            550 6813at5820           -            409  7.9e-216  715.1  52.2   1   3  3.8e-120  7.9e-117  389.1  11.5     1   206     4   225     4   251 0.92 monocarboxylate transporter, putative [Plasmodium vivax]
+SCO72020.1           -            550 6813at5820           -            409  7.9e-216  715.1  52.2   2   3     0.015        31    1.7   1.1   209   228   286   305   278   316 0.83 monocarboxylate transporter, putative [Plasmodium vivax]
+SCO72020.1           -            550 6813at5820           -            409  7.9e-216  715.1  52.2   3   3  4.4e-104  9.3e-101  336.1  23.4   221   409   353   544   344   544 0.96 monocarboxylate transporter, putative [Plasmodium vivax]
+SCO71087.1           -            458 6813at5820           -            409   4.4e-46  156.1  43.4   1   1   2.3e-47   4.8e-44  149.3  43.4    11   401    15   447     7   457 0.77 monocarboxylate transporter, putative [Plasmodium vivax]
+SCO72384.1           -            454 6813at5820           -            409       2.4    5.4   7.2   1   2     0.013        27    2.0   0.3   195   249   162   217   160   227 0.82 kinetochore protein NUF2, putative [Plasmodium vivax]
+SCO72384.1           -            454 6813at5820           -            409       2.4    5.4   7.2   2   2   0.00073       1.5    6.0   1.9   172   238   283   350   261   359 0.77 kinetochore protein NUF2, putative [Plasmodium vivax]
+#
+# Program:         hmmsearch
+# Version:         3.4 (Aug 2023)
+# Pipeline mode:   SEARCH
+# Query file:      /v3/work/00_inventory/busco/busco_downloads/lineages/plasmodium_odb10/hmms/6813at5820.hmm
+# Target file:     /v3/inputs/annotations/ncbi-datasets/PvC01.proteins.fa
+# Option settings: hmmsearch --domtblout /v3/work/00_inventory/busco/PvC01_proteins/run_plasmodium_odb10/hmmer_output/initial_run_results/6813at5820.out --cpu 1 /v3/work/00_inventory/busco/busco_downloads/lineages/plasmodium_odb10/hmms/6813at5820.hmm /v3/inputs/annotations/ncbi-datasets/PvC01.proteins.fa 
+# Current dir:     /v3/work/00_inventory/busco
+# Date:            Tue May 19 18:53:40 2026
+# [ok]

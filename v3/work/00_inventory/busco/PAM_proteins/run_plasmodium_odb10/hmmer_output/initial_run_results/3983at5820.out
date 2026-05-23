@@ -1,0 +1,16 @@
+#                                                                            --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name        accession   tlen query name           accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+#------------------- ---------- ----- -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+CAI7720488.1         -            827 3983at5820           -            521    2e-288  955.9  36.8   1   3    0.0075        48    1.0   0.1     1    15   138   152   138   156 0.90 | transcript=PVPAM_090025300_t1 | gene=PVPAM_090025300 | organism=Plasmodium_vivax_PAM | gene_product=tRNA nucleotidyltransferase, putative | transcript_product=tRNA nucleotidyltransferase, putative | location=CASCJQ010000009:921854-924609(+) | protein_length=827 | sequence_SO=supercontig | SO=protein_coding_gene | is_pseudo=false
+CAI7720488.1         -            827 3983at5820           -            521    2e-288  955.9  36.8   2   3  4.1e-178  2.7e-174  579.3  10.7    14   298   172   460   169   466 0.99 | transcript=PVPAM_090025300_t1 | gene=PVPAM_090025300 | organism=Plasmodium_vivax_PAM | gene_product=tRNA nucleotidyltransferase, putative | transcript_product=tRNA nucleotidyltransferase, putative | location=CASCJQ010000009:921854-924609(+) | protein_length=827 | sequence_SO=supercontig | SO=protein_coding_gene | is_pseudo=false
+CAI7720488.1         -            827 3983at5820           -            521    2e-288  955.9  36.8   3   3  1.3e-118  8.1e-115  383.0  14.6   302   521   594   827   589   827 0.96 | transcript=PVPAM_090025300_t1 | gene=PVPAM_090025300 | organism=Plasmodium_vivax_PAM | gene_product=tRNA nucleotidyltransferase, putative | transcript_product=tRNA nucleotidyltransferase, putative | location=CASCJQ010000009:921854-924609(+) | protein_length=827 | sequence_SO=supercontig | SO=protein_coding_gene | is_pseudo=false
+#
+# Program:         hmmsearch
+# Version:         3.4 (Aug 2023)
+# Pipeline mode:   SEARCH
+# Query file:      /v3/work/00_inventory/busco/busco_downloads/lineages/plasmodium_odb10/hmms/3983at5820.hmm
+# Target file:     /v3/inputs/annotations/plasmodb-68/PAM.proteins.fa
+# Option settings: hmmsearch --domtblout /v3/work/00_inventory/busco/PAM_proteins/run_plasmodium_odb10/hmmer_output/initial_run_results/3983at5820.out --cpu 1 /v3/work/00_inventory/busco/busco_downloads/lineages/plasmodium_odb10/hmms/3983at5820.hmm /v3/inputs/annotations/plasmodb-68/PAM.proteins.fa 
+# Current dir:     /v3/work/00_inventory/busco
+# Date:            Tue May 19 17:39:44 2026
+# [ok]

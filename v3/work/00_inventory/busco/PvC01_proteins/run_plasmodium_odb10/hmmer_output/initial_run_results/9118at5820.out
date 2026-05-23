@@ -1,0 +1,20 @@
+#                                                                            --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name        accession   tlen query name           accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+#------------------- ---------- ----- -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+SCO71641.1           -            692 9118at5820           -            445  3.1e-165  549.1  77.4   1   5   0.00078       2.4    5.6   0.0     1    19     1    19     1    23 0.91 U3 small nucleolar ribonucleoprotein protein MPP10, putative [Plasmodium vivax]
+SCO71641.1           -            692 9118at5820           -            445  3.1e-165  549.1  77.4   2   5   1.4e-30   4.6e-27   93.7   0.4    17    82    42   110    35   139 0.91 U3 small nucleolar ribonucleoprotein protein MPP10, putative [Plasmodium vivax]
+SCO71641.1           -            692 9118at5820           -            445  3.1e-165  549.1  77.4   3   5   1.1e-12   3.3e-09   34.8  40.5    81   166   189   285   183   330 0.85 U3 small nucleolar ribonucleoprotein protein MPP10, putative [Plasmodium vivax]
+SCO71641.1           -            692 9118at5820           -            445  3.1e-165  549.1  77.4   4   5   1.5e-27   4.8e-24   83.7   0.2   165   226   352   415   346   426 0.89 U3 small nucleolar ribonucleoprotein protein MPP10, putative [Plasmodium vivax]
+SCO71641.1           -            692 9118at5820           -            445  3.1e-165  549.1  77.4   5   5  6.4e-101     2e-97  325.6  14.6   220   443   438   688   433   690 0.89 U3 small nucleolar ribonucleoprotein protein MPP10, putative [Plasmodium vivax]
+SCO72224.1           -            220 9118at5820           -            445    0.0033   15.1   9.2   1   2     1e-06    0.0033   15.1   9.2   119   177    15    73     7    95 0.70 AP-5 complex subunit sigma-1, putative [Plasmodium vivax]
+SCO72224.1           -            220 9118at5820           -            445    0.0033   15.1   9.2   2   2      0.14   4.3e+02   -1.8   0.0   320   349   180   209   131   217 0.63 AP-5 complex subunit sigma-1, putative [Plasmodium vivax]
+#
+# Program:         hmmsearch
+# Version:         3.4 (Aug 2023)
+# Pipeline mode:   SEARCH
+# Query file:      /v3/work/00_inventory/busco/busco_downloads/lineages/plasmodium_odb10/hmms/9118at5820.hmm
+# Target file:     /v3/inputs/annotations/ncbi-datasets/PvC01.proteins.fa
+# Option settings: hmmsearch --domtblout /v3/work/00_inventory/busco/PvC01_proteins/run_plasmodium_odb10/hmmer_output/initial_run_results/9118at5820.out --cpu 1 /v3/work/00_inventory/busco/busco_downloads/lineages/plasmodium_odb10/hmms/9118at5820.hmm /v3/inputs/annotations/ncbi-datasets/PvC01.proteins.fa 
+# Current dir:     /v3/work/00_inventory/busco
+# Date:            Tue May 19 19:08:39 2026
+# [ok]

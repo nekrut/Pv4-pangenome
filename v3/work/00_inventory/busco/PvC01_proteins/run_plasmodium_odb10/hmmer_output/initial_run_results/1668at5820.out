@@ -1,0 +1,29 @@
+#                                                                            --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name        accession   tlen query name           accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+#------------------- ---------- ----- -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+SCO71800.1           -           1603 1668at5820           -            781         0 1181.7 239.4   1   6   2.4e-08     3e-05   21.0   3.3     1    78     1    82     1   139 0.73 ubiquitin specific protease, putative [Plasmodium vivax]
+SCO71800.1           -           1603 1668at5820           -            781         0 1181.7 239.4   2   6   8.7e-84   1.1e-80  270.5  20.2    65   220   413   589   396   596 0.88 ubiquitin specific protease, putative [Plasmodium vivax]
+SCO71800.1           -           1603 1668at5820           -            781         0 1181.7 239.4   3   6   1.4e-09   1.8e-06   25.1  41.0   216   410   639   845   635   847 0.56 ubiquitin specific protease, putative [Plasmodium vivax]
+SCO71800.1           -           1603 1668at5820           -            781         0 1181.7 239.4   4   6         5   6.3e+03  -33.1  85.2   266   322   828   885   806   934 0.44 ubiquitin specific protease, putative [Plasmodium vivax]
+SCO71800.1           -           1603 1668at5820           -            781         0 1181.7 239.4   5   6   6.8e-22   8.5e-19   65.8  24.4   278   376   948  1049   901  1084 0.66 ubiquitin specific protease, putative [Plasmodium vivax]
+SCO71800.1           -           1603 1668at5820           -            781         0 1181.7 239.4   6   6  5.4e-251  6.8e-248  823.5  68.2   262   781  1057  1601  1042  1601 0.84 ubiquitin specific protease, putative [Plasmodium vivax]
+SCO73186.1           -           1342 1668at5820           -            781   7.7e-08   29.6  28.6   1   5   5.9e-05     0.074    9.8   0.1   407   454   305   352   217   369 0.60 ubiquitin carboxyl-terminal hydrolase 2, putative [Plasmodium vivax]
+SCO73186.1           -           1342 1668at5820           -            781   7.7e-08   29.6  28.6   2   5   6.8e-05     0.085    9.6   0.4   541   629   409   512   353   519 0.63 ubiquitin carboxyl-terminal hydrolase 2, putative [Plasmodium vivax]
+SCO73186.1           -           1342 1668at5820           -            781   7.7e-08   29.6  28.6   3   5      0.18   2.2e+02   -1.7   3.5   228   257   614   645   550   710 0.57 ubiquitin carboxyl-terminal hydrolase 2, putative [Plasmodium vivax]
+SCO73186.1           -           1342 1668at5820           -            781   7.7e-08   29.6  28.6   4   5       1.4   1.7e+03   -4.6   0.8   288   332   791   835   736   845 0.49 ubiquitin carboxyl-terminal hydrolase 2, putative [Plasmodium vivax]
+SCO73186.1           -           1342 1668at5820           -            781   7.7e-08   29.6  28.6   5   5   1.3e-10   1.7e-07   28.5   1.6   652   780  1174  1309  1155  1310 0.77 ubiquitin carboxyl-terminal hydrolase 2, putative [Plasmodium vivax]
+SCO73067.1           -            595 1668at5820           -            781   1.2e-06   25.7   4.2   1   3   9.2e-05      0.12    9.2   0.0   428   453   108   133    72   154 0.80 ubiquitin carboxyl-terminal hydrolase 14, putative [Plasmodium vivax]
+SCO73067.1           -            595 1668at5820           -            781   1.2e-06   25.7   4.2   2   3     0.049        61    0.2   1.3   262   398   420   441   315   476 0.57 ubiquitin carboxyl-terminal hydrolase 14, putative [Plasmodium vivax]
+SCO73067.1           -            595 1668at5820           -            781   1.2e-06   25.7   4.2   3   3   1.7e-06    0.0021   14.9   0.1   718   752   492   526   483   562 0.86 ubiquitin carboxyl-terminal hydrolase 14, putative [Plasmodium vivax]
+SCA60183.1           -            324 1668at5820           -            781   0.00054   16.9   3.3   1   1   5.4e-07   0.00068   16.6   3.3   366   437    64   134    45   185 0.80 lysophospholipase, putative [Plasmodium vivax]
+SCO73320.1           -            443 1668at5820           -            781      0.67    6.7  15.6   1   1   0.00087       1.1    6.0  15.6   205   313   259   365   253   410 0.75 hypothetical protein, conserved [Plasmodium vivax]
+#
+# Program:         hmmsearch
+# Version:         3.4 (Aug 2023)
+# Pipeline mode:   SEARCH
+# Query file:      /v3/work/00_inventory/busco/busco_downloads/lineages/plasmodium_odb10/hmms/1668at5820.hmm
+# Target file:     /v3/inputs/annotations/ncbi-datasets/PvC01.proteins.fa
+# Option settings: hmmsearch --domtblout /v3/work/00_inventory/busco/PvC01_proteins/run_plasmodium_odb10/hmmer_output/initial_run_results/1668at5820.out --cpu 1 /v3/work/00_inventory/busco/busco_downloads/lineages/plasmodium_odb10/hmms/1668at5820.hmm /v3/inputs/annotations/ncbi-datasets/PvC01.proteins.fa 
+# Current dir:     /v3/work/00_inventory/busco
+# Date:            Tue May 19 18:35:17 2026
+# [ok]

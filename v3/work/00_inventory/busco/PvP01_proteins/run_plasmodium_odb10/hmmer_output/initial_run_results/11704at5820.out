@@ -1,0 +1,17 @@
+#                                                                            --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name        accession   tlen query name           accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+#------------------- ---------- ----- -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+PVP01_1310300.1-p1   -            235 11704at5820          -            192  1.6e-102  339.5   4.6   1   1  1.1e-105  2.3e-102  339.0   4.6    10   192    37   235    27   235 0.93 | transcript=PVP01_1310300.1 | gene=PVP01_1310300 | organism=Plasmodium_vivax_P01 | gene_product=HSP20-like chaperone, putative | transcript_product=HSP20-like chaperone, putative | location=PvP01_13_v2:475592-476299(+) | protein_length=235 | sequence_SO=chromosome | SO=protein_coding_gene | is_pseudo=false
+PVP01_0518800.1-p1   -            171 11704at5820          -            192   1.1e-13   49.7   0.7   1   1   6.6e-17   1.4e-13   49.3   0.7    53   186    29   165    18   169 0.82 | transcript=PVP01_0518800.1 | gene=PVP01_0518800 | organism=Plasmodium_vivax_P01 | gene_product=small heat shock protein HSP20, putative | transcript_product=small heat shock protein HSP20, putative | location=PvP01_05_v2:779400-780451(-) | protein_length=171 | sequence_SO=chromosome | SO=protein_coding_gene | is_pseudo=false
+PVP01_1405400.1-p1   -            209 11704at5820          -            192   7.7e-10   37.2   2.3   1   2       0.1   2.2e+02   -0.2   0.1   120   147    32    59     3    73 0.63 | transcript=PVP01_1405400.1 | gene=PVP01_1405400 | organism=Plasmodium_vivax_P01 | gene_product=small heat shock protein, putative | transcript_product=small heat shock protein, putative | location=PvP01_14_v2:267460-268089(-) | protein_length=209 | sequence_SO=chromosome | SO=protein_coding_gene | is_pseudo=false
+PVP01_1405400.1-p1   -            209 11704at5820          -            192   7.7e-10   37.2   2.3   2   2   4.1e-13     9e-10   36.9   0.5    80   191   103   209    78   209 0.85 | transcript=PVP01_1405400.1 | gene=PVP01_1405400 | organism=Plasmodium_vivax_P01 | gene_product=small heat shock protein, putative | transcript_product=small heat shock protein, putative | location=PvP01_14_v2:267460-268089(-) | protein_length=209 | sequence_SO=chromosome | SO=protein_coding_gene | is_pseudo=false
+#
+# Program:         hmmsearch
+# Version:         3.4 (Aug 2023)
+# Pipeline mode:   SEARCH
+# Query file:      /v3/work/00_inventory/busco/busco_downloads/lineages/plasmodium_odb10/hmms/11704at5820.hmm
+# Target file:     /v3/inputs/annotations/plasmodb-68/PvP01.proteins.fa
+# Option settings: hmmsearch --domtblout /v3/work/00_inventory/busco/PvP01_proteins/run_plasmodium_odb10/hmmer_output/initial_run_results/11704at5820.out --cpu 1 /v3/work/00_inventory/busco/busco_downloads/lineages/plasmodium_odb10/hmms/11704at5820.hmm /v3/inputs/annotations/plasmodb-68/PvP01.proteins.fa 
+# Current dir:     /v3/work/00_inventory/busco
+# Date:            Tue May 19 17:24:23 2026
+# [ok]

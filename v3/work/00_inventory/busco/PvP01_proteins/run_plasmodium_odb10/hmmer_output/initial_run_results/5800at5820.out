@@ -1,0 +1,16 @@
+#                                                                            --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name        accession   tlen query name           accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+#------------------- ---------- ----- -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+PVP01_0512700.1-p1   -            558 5800at5820           -            466  1.5e-265  880.0  14.7   1   2  4.3e-173  1.4e-169  563.6  11.4     1   290     1   308     1   311 0.93 | transcript=PVP01_0512700.1 | gene=PVP01_0512700 | organism=Plasmodium_vivax_P01 | gene_product=polyribonucleotide 5'-hydroxyl-kinase Clp1, putative | transcript_product=polyribonucleotide 5'-hydroxyl-kinase Clp1, putative | location=PvP01_05_v2:531111-532787(-) | protein_length=558 | sequence_SO=chromosome | SO=protein_coding_gene | is_pseudo=false
+PVP01_0512700.1-p1   -            558 5800at5820           -            466  1.5e-265  880.0  14.7   2   2     2e-98   6.4e-95  317.4   0.1   287   466   369   558   365   558 0.92 | transcript=PVP01_0512700.1 | gene=PVP01_0512700 | organism=Plasmodium_vivax_P01 | gene_product=polyribonucleotide 5'-hydroxyl-kinase Clp1, putative | transcript_product=polyribonucleotide 5'-hydroxyl-kinase Clp1, putative | location=PvP01_05_v2:531111-532787(-) | protein_length=558 | sequence_SO=chromosome | SO=protein_coding_gene | is_pseudo=false
+PVP01_0213000.1-p1   -            787 5800at5820           -            466    0.0021   15.7   0.1   1   1     1e-06    0.0033   15.0   0.1    66   111   442   488   438   492 0.88 | transcript=PVP01_0213000.1 | gene=PVP01_0213000 | organism=Plasmodium_vivax_P01 | gene_product=DNA (cytosine-5)-methyltransferase, putative | transcript_product=DNA (cytosine-5)-methyltransferase, putative | location=PvP01_02_v2:545364-547727(-) | protein_length=787 | sequence_SO=chromosome | SO=protein_coding_gene | is_pseudo=false
+#
+# Program:         hmmsearch
+# Version:         3.4 (Aug 2023)
+# Pipeline mode:   SEARCH
+# Query file:      /v3/work/00_inventory/busco/busco_downloads/lineages/plasmodium_odb10/hmms/5800at5820.hmm
+# Target file:     /v3/inputs/annotations/plasmodb-68/PvP01.proteins.fa
+# Option settings: hmmsearch --domtblout /v3/work/00_inventory/busco/PvP01_proteins/run_plasmodium_odb10/hmmer_output/initial_run_results/5800at5820.out --cpu 1 /v3/work/00_inventory/busco/busco_downloads/lineages/plasmodium_odb10/hmms/5800at5820.hmm /v3/inputs/annotations/plasmodb-68/PvP01.proteins.fa 
+# Current dir:     /v3/work/00_inventory/busco
+# Date:            Tue May 19 17:43:24 2026
+# [ok]

@@ -1,0 +1,25 @@
+#                                                                            --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name        accession   tlen query name           accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+#------------------- ---------- ----- -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+SCO74077.1           -           1093 1687at5820           -            883         0 1498.8 100.3   1   3   1.7e-44   3.7e-41  139.7   6.6     2   123    10   150     6   153 0.83 helicase, putative [Plasmodium vivax]
+SCO74077.1           -           1093 1687at5820           -            883         0 1498.8 100.3   2   3  2.8e-242  5.8e-239  794.2  39.4   125   556   242   707   229   712 0.95 helicase, putative [Plasmodium vivax]
+SCO74077.1           -           1093 1687at5820           -            883         0 1498.8 100.3   3   3  6.7e-176  1.4e-172  574.5  38.3   554   883   732  1087   724  1087 0.94 helicase, putative [Plasmodium vivax]
+SCO74828.1           -           1047 1687at5820           -            883   8.5e-42  141.8  13.9   1   3     6e-09   1.2e-05   22.1   0.5    71   224   108   234   105   239 0.81 DEAD/DEAH box helicase, putative [Plasmodium vivax]
+SCO74828.1           -           1047 1687at5820           -            883   8.5e-42  141.8  13.9   2   3   8.1e-18   1.7e-14   51.4   0.2   233   317   296   383   294   387 0.90 DEAD/DEAH box helicase, putative [Plasmodium vivax]
+SCO74828.1           -           1047 1687at5820           -            883   8.5e-42  141.8  13.9   3   3   1.6e-24   3.3e-21   73.7   2.4   345   485   477   617   460   681 0.81 DEAD/DEAH box helicase, putative [Plasmodium vivax]
+SCO74522.1           -           2439 1687at5820           -            883   1.1e-29  101.7  54.1   1   6    0.0083        17    1.8   0.8   121   155   367   403   265   414 0.77 RNA helicase, putative [Plasmodium vivax]
+SCO74522.1           -           2439 1687at5820           -            883   1.1e-29  101.7  54.1   2   6   4.8e-18     1e-14   52.2  18.0   232   482   604   856   522   952 0.82 RNA helicase, putative [Plasmodium vivax]
+SCO74522.1           -           2439 1687at5820           -            883   1.1e-29  101.7  54.1   3   6         3   6.3e+03   -7.2   3.9   576   639  1252  1317  1223  1330 0.58 RNA helicase, putative [Plasmodium vivax]
+SCO74522.1           -           2439 1687at5820           -            883   1.1e-29  101.7  54.1   4   6   6.9e-17   1.4e-13   48.4   7.5   124   362  1406  1646  1400  1680 0.71 RNA helicase, putative [Plasmodium vivax]
+SCO74522.1           -           2439 1687at5820           -            883   1.1e-29  101.7  54.1   5   6   1.6e-12   3.3e-09   33.9  12.6   388   593  1761  1969  1740  1992 0.75 RNA helicase, putative [Plasmodium vivax]
+SCO74522.1           -           2439 1687at5820           -            883   1.1e-29  101.7  54.1   6   6      0.69   1.4e+03   -4.6   8.8    71   182  2220  2337  2165  2356 0.65 RNA helicase, putative [Plasmodium vivax]
+#
+# Program:         hmmsearch
+# Version:         3.4 (Aug 2023)
+# Pipeline mode:   SEARCH
+# Query file:      /v3/work/00_inventory/busco/busco_downloads/lineages/plasmodium_odb10/hmms/1687at5820.hmm
+# Target file:     /v3/inputs/annotations/ncbi-datasets/PvC01.proteins.fa
+# Option settings: hmmsearch --domtblout /v3/work/00_inventory/busco/PvC01_proteins/run_plasmodium_odb10/hmmer_output/initial_run_results/1687at5820.out --cpu 1 /v3/work/00_inventory/busco/busco_downloads/lineages/plasmodium_odb10/hmms/1687at5820.hmm /v3/inputs/annotations/ncbi-datasets/PvC01.proteins.fa 
+# Current dir:     /v3/work/00_inventory/busco
+# Date:            Tue May 19 18:35:22 2026
+# [ok]

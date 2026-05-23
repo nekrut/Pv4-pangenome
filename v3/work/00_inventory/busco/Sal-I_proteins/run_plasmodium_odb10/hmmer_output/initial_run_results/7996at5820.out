@@ -1,0 +1,17 @@
+#                                                                            --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name        accession   tlen query name           accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+#------------------- ---------- ----- -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+PVX_122550.1-p1      -            423 7996at5820           -            351  3.4e-198  656.0  22.8   1   2  5.2e-136  1.4e-132  440.2  11.4     2   227    10   240     9   245 0.96 | transcript=PVX_122550.1 | gene=PVX_122550 | organism=Plasmodium_vivax_Sal-1 | gene_product=lipoate-protein ligase 1, putative | transcript_product=lipoate-protein ligase 1, putative | location=Pv_Sal1_chr14:677968-679239(+) | protein_length=423 | sequence_SO=chromosome | SO=protein_coding_gene | is_pseudo=false
+PVX_122550.1-p1      -            423 7996at5820           -            351  3.4e-198  656.0  22.8   2   2   1.2e-69   3.4e-66  221.9   3.5   229   351   299   423   275   423 0.92 | transcript=PVX_122550.1 | gene=PVX_122550 | organism=Plasmodium_vivax_Sal-1 | gene_product=lipoate-protein ligase 1, putative | transcript_product=lipoate-protein ligase 1, putative | location=Pv_Sal1_chr14:677968-679239(+) | protein_length=423 | sequence_SO=chromosome | SO=protein_coding_gene | is_pseudo=false
+PVX_099590.1-p1      -            409 7996at5820           -            351   0.00053   17.3   0.1   1   2   4.7e-06     0.013   12.8   0.0    58   106   119   168   106   182 0.81 | transcript=PVX_099590.1 | gene=PVX_099590 | organism=Plasmodium_vivax_Sal-1 | gene_product=lipoate-protein ligase 2, putative | transcript_product=lipoate-protein ligase 2, putative | location=Pv_Sal1_chr07:899007-900236(+) | protein_length=409 | sequence_SO=chromosome | SO=protein_coding_gene | is_pseudo=false
+PVX_099590.1-p1      -            409 7996at5820           -            351   0.00053   17.3   0.1   2   2    0.0067        19    2.4   0.0   143   181   237   275   204   286 0.81 | transcript=PVX_099590.1 | gene=PVX_099590 | organism=Plasmodium_vivax_Sal-1 | gene_product=lipoate-protein ligase 2, putative | transcript_product=lipoate-protein ligase 2, putative | location=Pv_Sal1_chr07:899007-900236(+) | protein_length=409 | sequence_SO=chromosome | SO=protein_coding_gene | is_pseudo=false
+#
+# Program:         hmmsearch
+# Version:         3.4 (Aug 2023)
+# Pipeline mode:   SEARCH
+# Query file:      /v3/work/00_inventory/busco/busco_downloads/lineages/plasmodium_odb10/hmms/7996at5820.hmm
+# Target file:     /v3/inputs/annotations/plasmodb-68/Sal-I.proteins.fa
+# Option settings: hmmsearch --domtblout /v3/work/00_inventory/busco/Sal-I_proteins/run_plasmodium_odb10/hmmer_output/initial_run_results/7996at5820.out --cpu 1 /v3/work/00_inventory/busco/busco_downloads/lineages/plasmodium_odb10/hmms/7996at5820.hmm /v3/inputs/annotations/plasmodb-68/Sal-I.proteins.fa 
+# Current dir:     /v3/work/00_inventory/busco
+# Date:            Tue May 19 17:49:35 2026
+# [ok]

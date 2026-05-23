@@ -1,0 +1,29 @@
+#                                                                            --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name        accession   tlen query name           accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+#------------------- ---------- ----- -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+SCO65331.1           -            953 2909at5820           -            517  6.8e-264  874.9  47.5   1   4   2.2e-62   1.9e-59  200.4  19.6     5   142     9   167     2   201 0.81 protein phosphatase PPM1, putative [Plasmodium vivax]
+SCO65331.1           -            953 2909at5820           -            517  6.8e-264  874.9  47.5   2   4   5.5e-05     0.048   11.0   0.3   127   170   380   423   362   444 0.82 protein phosphatase PPM1, putative [Plasmodium vivax]
+SCO65331.1           -            953 2909at5820           -            517  6.8e-264  874.9  47.5   3   4   1.3e-24   1.1e-21   75.8   3.5   132   247   527   649   512   660 0.72 protein phosphatase PPM1, putative [Plasmodium vivax]
+SCO65331.1           -            953 2909at5820           -            517  6.8e-264  874.9  47.5   4   4  5.7e-183  4.9e-180  598.2   2.7   245   516   678   952   674   953 0.97 protein phosphatase PPM1, putative [Plasmodium vivax]
+SCO67484.1           -            872 2909at5820           -            517   5.5e-24   83.3   0.3   1   3      0.15   1.3e+02   -0.3   0.1   236   265    45    74    36    88 0.84 protein phosphatase PPM2, putative [Plasmodium vivax]
+SCO67484.1           -            872 2909at5820           -            517   5.5e-24   83.3   0.3   2   3      0.16   1.4e+02   -0.5   0.1   276   329   367   419   341   425 0.78 protein phosphatase PPM2, putative [Plasmodium vivax]
+SCO67484.1           -            872 2909at5820           -            517   5.5e-24   83.3   0.3   3   3   6.4e-27   5.5e-24   83.3   0.3   306   454   511   661   494   712 0.89 protein phosphatase PPM2, putative [Plasmodium vivax]
+SCO68900.1           -            411 2909at5820           -            517   2.2e-18   64.9   4.1   1   2   2.5e-21   2.2e-18   64.9   4.1   308   483    96   281    31   293 0.77 protein phosphatase 2C, putative [Plasmodium vivax]
+SCO68900.1           -            411 2909at5820           -            517   2.2e-18   64.9   4.1   2   2       4.5   3.9e+03   -5.2   6.5    25   122   311   408   290   411 0.44 protein phosphatase 2C, putative [Plasmodium vivax]
+SCO69872.1           -            303 2909at5820           -            517   2.1e-16   58.3   7.6   1   1   2.9e-19   2.5e-16   58.1   7.6   225   480    29   300    12   303 0.74 protein phosphatase PPM7, putative [Plasmodium vivax]
+SCO67449.1           -            847 2909at5820           -            517   6.7e-13   46.8   2.1   1   2   1.8e-10   1.5e-07   29.1   0.7   230   353   516   651   502   668 0.76 protein phosphatase PPM8, putative [Plasmodium vivax]
+SCO67449.1           -            847 2909at5820           -            517   6.7e-13   46.8   2.1   2   2   1.3e-06    0.0011   16.3   0.0   380   445   711   792   705   846 0.68 protein phosphatase PPM8, putative [Plasmodium vivax]
+SCO70240.1           -           1106 2909at5820           -            517   2.7e-12   44.8   2.2   1   1   7.6e-14   6.6e-11   40.2   2.2   231   481   784  1071   769  1088 0.68 protein phosphatase PPM4, putative [Plasmodium vivax]
+SCO69679.1           -            782 2909at5820           -            517   7.8e-10   36.7  14.4   1   3      0.46     4e+02   -2.0   0.4   146   177   224   255   212   278 0.74 protein phosphatase PPM6, putative [Plasmodium vivax]
+SCO69679.1           -            782 2909at5820           -            517   7.8e-10   36.7  14.4   2   3         7   6.1e+03  -12.9  16.3   141   180   405   443   227   459 0.62 protein phosphatase PPM6, putative [Plasmodium vivax]
+SCO69679.1           -            782 2909at5820           -            517   7.8e-10   36.7  14.4   3   3   8.9e-13   7.8e-10   36.7  14.4   146   477   410   779   390   782 0.61 protein phosphatase PPM6, putative [Plasmodium vivax]
+#
+# Program:         hmmsearch
+# Version:         3.4 (Aug 2023)
+# Pipeline mode:   SEARCH
+# Query file:      /v3/work/00_inventory/busco/busco_downloads/lineages/plasmodium_odb10/hmms/2909at5820.hmm
+# Target file:     /v3/inputs/annotations/ncbi-datasets/PvT01.proteins.fa
+# Option settings: hmmsearch --domtblout /v3/work/00_inventory/busco/PvT01_proteins/run_plasmodium_odb10/hmmer_output/initial_run_results/2909at5820.out --cpu 1 /v3/work/00_inventory/busco/busco_downloads/lineages/plasmodium_odb10/hmms/2909at5820.hmm /v3/inputs/annotations/ncbi-datasets/PvT01.proteins.fa 
+# Current dir:     /v3/work/00_inventory/busco
+# Date:            Tue May 19 18:46:55 2026
+# [ok]

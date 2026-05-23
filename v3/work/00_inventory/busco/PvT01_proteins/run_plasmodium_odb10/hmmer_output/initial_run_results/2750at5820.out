@@ -1,0 +1,19 @@
+#                                                                            --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name        accession   tlen query name           accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+#------------------- ---------- ----- -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+SCO67757.1           -           1103 2750at5820           -            729         0 1188.7  61.5   1   6   5.7e-86   3.5e-82  275.1  10.9     1   157    85   249    85   261 0.94 ATP-dependent DNA helicase UvrD, putative [Plasmodium vivax]
+SCO67757.1           -           1103 2750at5820           -            729         0 1188.7  61.5   2   6   1.4e-70   8.4e-67  224.2   9.0   167   301   319   460   312   463 0.93 ATP-dependent DNA helicase UvrD, putative [Plasmodium vivax]
+SCO67757.1           -           1103 2750at5820           -            729         0 1188.7  61.5   3   6   4.7e-78   2.8e-74  248.9   6.2   299   438   524   665   521   671 0.96 ATP-dependent DNA helicase UvrD, putative [Plasmodium vivax]
+SCO67757.1           -           1103 2750at5820           -            729         0 1188.7  61.5   4   6   2.3e-32   1.4e-28   97.9   0.2   434   504   696   768   686   770 0.90 ATP-dependent DNA helicase UvrD, putative [Plasmodium vivax]
+SCO67757.1           -           1103 2750at5820           -            729         0 1188.7  61.5   5   6     1e-34   6.2e-31  105.6   0.1   502   584   813   898   810   903 0.94 ATP-dependent DNA helicase UvrD, putative [Plasmodium vivax]
+SCO67757.1           -           1103 2750at5820           -            729         0 1188.7  61.5   6   6   1.6e-81   9.5e-78  260.4   3.0   581   729   946  1103   934  1103 0.94 ATP-dependent DNA helicase UvrD, putative [Plasmodium vivax]
+#
+# Program:         hmmsearch
+# Version:         3.4 (Aug 2023)
+# Pipeline mode:   SEARCH
+# Query file:      /v3/work/00_inventory/busco/busco_downloads/lineages/plasmodium_odb10/hmms/2750at5820.hmm
+# Target file:     /v3/inputs/annotations/ncbi-datasets/PvT01.proteins.fa
+# Option settings: hmmsearch --domtblout /v3/work/00_inventory/busco/PvT01_proteins/run_plasmodium_odb10/hmmer_output/initial_run_results/2750at5820.out --cpu 1 /v3/work/00_inventory/busco/busco_downloads/lineages/plasmodium_odb10/hmms/2750at5820.hmm /v3/inputs/annotations/ncbi-datasets/PvT01.proteins.fa 
+# Current dir:     /v3/work/00_inventory/busco
+# Date:            Tue May 19 18:43:51 2026
+# [ok]

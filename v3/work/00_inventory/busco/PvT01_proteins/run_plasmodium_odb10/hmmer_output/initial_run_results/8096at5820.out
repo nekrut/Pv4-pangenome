@@ -1,0 +1,20 @@
+#                                                                            --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name        accession   tlen query name           accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+#------------------- ---------- ----- -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+SCO69235.1           -            576 8096at5820           -            424  7.3e-235  778.1  39.7   1   2  1.1e-127  1.4e-124  414.8  17.9     1   264     1   267     1   324 0.76 N-acetyltransferase, putative [Plasmodium vivax]
+SCO69235.1           -            576 8096at5820           -            424  7.3e-235  778.1  39.7   2   2  1.3e-112  1.6e-109  365.2  15.3   185   423   333   572   310   573 0.78 N-acetyltransferase, putative [Plasmodium vivax]
+SCO66657.1           -            226 8096at5820           -            424      0.53    7.6   6.7   1   1   0.00057       0.7    7.2   6.7   176   299    74   193    66   202 0.38 conserved Plasmodium protein, unknown function [Plasmodium vivax]
+SCO70238.1           -            406 8096at5820           -            424      0.81    7.0  20.1   1   2    0.0053       6.5    4.1   1.0   197   308    75   189    54   202 0.51 conserved Plasmodium protein, unknown function [Plasmodium vivax]
+SCO70238.1           -            406 8096at5820           -            424      0.81    7.0  20.1   2   2   0.00033       0.4    8.1  12.1   165   297   238   371   209   394 0.56 conserved Plasmodium protein, unknown function [Plasmodium vivax]
+SCO66902.1           -            129 8096at5820           -            424         2    5.8  16.2   1   1    0.0019       2.3    5.5  16.2   177   258    29   110     8   125 0.41 hypothetical protein PVT01_080023500 [Plasmodium vivax]
+SCO69548.1           -            132 8096at5820           -            424       5.4    4.3  11.8   1   1    0.0049         6    4.2  11.8   182   260    16    97     3   128 0.41 conserved Plasmodium protein, unknown function [Plasmodium vivax]
+#
+# Program:         hmmsearch
+# Version:         3.4 (Aug 2023)
+# Pipeline mode:   SEARCH
+# Query file:      /v3/work/00_inventory/busco/busco_downloads/lineages/plasmodium_odb10/hmms/8096at5820.hmm
+# Target file:     /v3/inputs/annotations/ncbi-datasets/PvT01.proteins.fa
+# Option settings: hmmsearch --domtblout /v3/work/00_inventory/busco/PvT01_proteins/run_plasmodium_odb10/hmmer_output/initial_run_results/8096at5820.out --cpu 1 /v3/work/00_inventory/busco/busco_downloads/lineages/plasmodium_odb10/hmms/8096at5820.hmm /v3/inputs/annotations/ncbi-datasets/PvT01.proteins.fa 
+# Current dir:     /v3/work/00_inventory/busco
+# Date:            Tue May 19 19:06:24 2026
+# [ok]

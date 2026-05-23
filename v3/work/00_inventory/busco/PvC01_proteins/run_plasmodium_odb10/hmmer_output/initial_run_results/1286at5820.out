@@ -1,0 +1,23 @@
+#                                                                            --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name        accession   tlen query name           accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+#------------------- ---------- ----- -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+SCO73634.1           -           1368 1286at5820           -           1049         0 2109.8  88.5   1   6   1.4e-64   4.3e-61  205.6   0.1     1   105     1   106     1   121 0.92 leucine--tRNA ligase, putative [Plasmodium vivax]
+SCO73634.1           -           1368 1286at5820           -           1049         0 2109.8  88.5   2   6   2.2e-88   6.9e-85  284.3   9.3    98   234   159   297   146   311 0.95 leucine--tRNA ligase, putative [Plasmodium vivax]
+SCO73634.1           -           1368 1286at5820           -           1049         0 2109.8  88.5   3   6   2.7e-48   8.4e-45  151.6   3.8   232   315   334   418   316   420 0.96 leucine--tRNA ligase, putative [Plasmodium vivax]
+SCO73634.1           -           1368 1286at5820           -           1049         0 2109.8  88.5   4   6  2.1e-152  6.7e-149  496.3   7.4   312   560   477   726   472   732 0.98 leucine--tRNA ligase, putative [Plasmodium vivax]
+SCO73634.1           -           1368 1286at5820           -           1049         0 2109.8  88.5   5   6  1.2e-224  3.8e-221  735.5  17.7   556   908   772  1149   764  1154 0.96 leucine--tRNA ligase, putative [Plasmodium vivax]
+SCO73634.1           -           1368 1286at5820           -           1049         0 2109.8  88.5   6   6     3e-82   9.5e-79  264.0  14.1   906  1049  1218  1364  1212  1364 0.96 leucine--tRNA ligase, putative [Plasmodium vivax]
+SCO71218.1           -           1302 1286at5820           -           1049    0.0015   15.1   7.3   1   4   4.2e-05      0.13    8.6   0.1    38    89   158   208   149   230 0.86 leucine--tRNA ligase, putative [Plasmodium vivax]
+SCO71218.1           -           1302 1286at5820           -           1049    0.0015   15.1   7.3   2   4      0.21   6.5e+02   -3.6   0.2   621   651   746   776   741   780 0.86 leucine--tRNA ligase, putative [Plasmodium vivax]
+SCO71218.1           -           1302 1286at5820           -           1049    0.0015   15.1   7.3   3   4   2.1e-05     0.067    9.6   0.0   691   725   913   947   897   981 0.83 leucine--tRNA ligase, putative [Plasmodium vivax]
+SCO71218.1           -           1302 1286at5820           -           1049    0.0015   15.1   7.3   4   4     0.062   1.9e+02   -1.9   0.1   840   860  1153  1173  1144  1180 0.84 leucine--tRNA ligase, putative [Plasmodium vivax]
+#
+# Program:         hmmsearch
+# Version:         3.4 (Aug 2023)
+# Pipeline mode:   SEARCH
+# Query file:      /v3/work/00_inventory/busco/busco_downloads/lineages/plasmodium_odb10/hmms/1286at5820.hmm
+# Target file:     /v3/inputs/annotations/ncbi-datasets/PvC01.proteins.fa
+# Option settings: hmmsearch --domtblout /v3/work/00_inventory/busco/PvC01_proteins/run_plasmodium_odb10/hmmer_output/initial_run_results/1286at5820.out --cpu 1 /v3/work/00_inventory/busco/busco_downloads/lineages/plasmodium_odb10/hmms/1286at5820.hmm /v3/inputs/annotations/ncbi-datasets/PvC01.proteins.fa 
+# Current dir:     /v3/work/00_inventory/busco
+# Date:            Tue May 19 18:30:44 2026
+# [ok]

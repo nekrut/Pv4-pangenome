@@ -1,0 +1,28 @@
+#                                                                            --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name        accession   tlen query name           accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+#------------------- ---------- ----- -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+SCO70631.1           -            215 13889at5820          -            168   3.1e-77  256.7   8.3   1   2   3.4e-78   2.1e-75  250.7   4.9     1   151    15   176    15   181 0.93 conserved Plasmodium protein, unknown function [Plasmodium vivax]
+SCO70631.1           -            215 13889at5820          -            168   3.1e-77  256.7   8.3   2   2    0.0026       1.6    7.1   0.1   155   168   202   215   198   215 0.88 conserved Plasmodium protein, unknown function [Plasmodium vivax]
+SCO74740.1           -            149 13889at5820          -            168   3.4e-10   38.6   0.6   1   1   6.8e-13   4.3e-10   38.3   0.6    31   161    11   142     2   147 0.89 calmodulin, putative [Plasmodium vivax]
+SCO72548.1           -            167 13889at5820          -            168   3.2e-09   35.4   7.3   1   1   6.1e-12   3.9e-09   35.1   7.3    33   158    19   145     3   157 0.89 centrin-4, putative [Plasmodium vivax]
+SCO71647.1           -            179 13889at5820          -            168    0.0001   20.8   7.9   1   2   2.5e-06    0.0016   16.9   1.8   104   164    38    99    26   104 0.86 centrin-3, putative [Plasmodium vivax]
+SCO71647.1           -            179 13889at5820          -            168    0.0001   20.8   7.9   2   2    0.0012      0.78    8.1   0.9   103   151   110   158    96   176 0.71 centrin-3, putative [Plasmodium vivax]
+SCO73590.1           -            140 13889at5820          -            168   0.00092   17.7   0.3   1   2      0.23   1.4e+02    0.8   0.0   122   151    25    54     9    70 0.58 troponin c-like protein, putative [Plasmodium vivax]
+SCO73590.1           -            140 13889at5820          -            168   0.00092   17.7   0.3   2   2   8.3e-06    0.0052   15.2   0.1   105   163    77   135    45   138 0.89 troponin c-like protein, putative [Plasmodium vivax]
+SCO71678.1           -            236 13889at5820          -            168    0.0012   17.3  10.9   1   2   5.5e-06    0.0035   15.8   0.3   105   149    12    56     3    67 0.86 calmodulin, putative [Plasmodium vivax]
+SCO71678.1           -            236 13889at5820          -            168    0.0012   17.3  10.9   2   2     0.014         9    4.7   5.2    73   158   139   225   128   234 0.80 calmodulin, putative [Plasmodium vivax]
+SCO74449.1           -            168 13889at5820          -            168    0.0031   15.9   0.7   1   1     3e-05     0.019   13.4   0.7    81   152    77   148    26   165 0.73 centrin-2, putative [Plasmodium vivax]
+SCO70623.1           -            168 13889at5820          -            168    0.0032   15.9   4.3   1   1   6.3e-06    0.0039   15.6   4.3    30   150    26   146     6   164 0.89 centrin-1, putative [Plasmodium vivax]
+SCO72446.1           -            110 13889at5820          -            168    0.0047   15.3   0.3   1   1   8.5e-06    0.0054   15.2   0.3     2    58     4    60     3    83 0.88 glutaredoxin 1, putative [Plasmodium vivax]
+SCO75304.1           -            244 13889at5820          -            168     0.024   13.1  15.1   1   2    0.0071       4.5    5.6   0.8   108   152    20    64     9    83 0.68 calmodulin, putative [Plasmodium vivax]
+SCO75304.1           -            244 13889at5820          -            168     0.024   13.1  15.1   2   2     8e-05     0.051   12.0   7.5    66   157   129   224   104   235 0.71 calmodulin, putative [Plasmodium vivax]
+#
+# Program:         hmmsearch
+# Version:         3.4 (Aug 2023)
+# Pipeline mode:   SEARCH
+# Query file:      /v3/work/00_inventory/busco/busco_downloads/lineages/plasmodium_odb10/hmms/13889at5820.hmm
+# Target file:     /v3/inputs/annotations/ncbi-datasets/PvC01.proteins.fa
+# Option settings: hmmsearch --domtblout /v3/work/00_inventory/busco/PvC01_proteins/run_plasmodium_odb10/hmmer_output/initial_run_results/13889at5820.out --cpu 1 /v3/work/00_inventory/busco/busco_downloads/lineages/plasmodium_odb10/hmms/13889at5820.hmm /v3/inputs/annotations/ncbi-datasets/PvC01.proteins.fa 
+# Current dir:     /v3/work/00_inventory/busco
+# Date:            Tue May 19 18:33:47 2026
+# [ok]

@@ -1,0 +1,17 @@
+#                                                                            --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name        accession   tlen query name           accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+#------------------- ---------- ----- -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+CAG9473676.1         -           1195 1807at5820           -            882         0 1217.9 136.2   1   4   2.2e-55   1.4e-51  174.2   8.5     1   121     1   124     1   127 0.97 | transcript=PVW1_120059500_t1 | gene=PVW1_120059500 | organism=Plasmodium_vivax_PvW1 | gene_product=unspecified product | transcript_product=unspecified product | location=CAJZCX010000004:2315987-2319574(+) | protein_length=1195 | sequence_SO=supercontig | SO=protein_coding_gene | is_pseudo=false
+CAG9473676.1         -           1195 1807at5820           -            882         0 1217.9 136.2   2   4   1.3e-84   8.1e-81  270.9  22.1   112   302   139   347   136   357 0.94 | transcript=PVW1_120059500_t1 | gene=PVW1_120059500 | organism=Plasmodium_vivax_PvW1 | gene_product=unspecified product | transcript_product=unspecified product | location=CAJZCX010000004:2315987-2319574(+) | protein_length=1195 | sequence_SO=supercontig | SO=protein_coding_gene | is_pseudo=false
+CAG9473676.1         -           1195 1807at5820           -            882         0 1217.9 136.2   3   4  6.6e-101     4e-97  324.8  32.6   300   566   389   715   386   726 0.84 | transcript=PVW1_120059500_t1 | gene=PVW1_120059500 | organism=Plasmodium_vivax_PvW1 | gene_product=unspecified product | transcript_product=unspecified product | location=CAJZCX010000004:2315987-2319574(+) | protein_length=1195 | sequence_SO=supercontig | SO=protein_coding_gene | is_pseudo=false
+CAG9473676.1         -           1195 1807at5820           -            882         0 1217.9 136.2   4   4  6.1e-141  3.7e-137  457.3  49.0   565   882   822  1194   817  1194 0.87 | transcript=PVW1_120059500_t1 | gene=PVW1_120059500 | organism=Plasmodium_vivax_PvW1 | gene_product=unspecified product | transcript_product=unspecified product | location=CAJZCX010000004:2315987-2319574(+) | protein_length=1195 | sequence_SO=supercontig | SO=protein_coding_gene | is_pseudo=false
+#
+# Program:         hmmsearch
+# Version:         3.4 (Aug 2023)
+# Pipeline mode:   SEARCH
+# Query file:      /v3/work/00_inventory/busco/busco_downloads/lineages/plasmodium_odb10/hmms/1807at5820.hmm
+# Target file:     /v3/inputs/annotations/plasmodb-68/PvW1.proteins.fa
+# Option settings: hmmsearch --domtblout /v3/work/00_inventory/busco/PvW1_proteins/run_plasmodium_odb10/hmmer_output/initial_run_results/1807at5820.out --cpu 1 /v3/work/00_inventory/busco/busco_downloads/lineages/plasmodium_odb10/hmms/1807at5820.hmm /v3/inputs/annotations/plasmodb-68/PvW1.proteins.fa 
+# Current dir:     /v3/work/00_inventory/busco
+# Date:            Tue May 19 17:32:50 2026
+# [ok]

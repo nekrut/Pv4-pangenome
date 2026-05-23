@@ -1,0 +1,16 @@
+#                                                                            --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name        accession   tlen query name           accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+#------------------- ---------- ----- -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+CAI7721355.1         -            990 1231at5820           -            664    0.0078   13.0   5.4   1   1   3.8e-06     0.012   12.3   5.4   171   290    13   132     4   175 0.76 | transcript=PVPAM_110025800_t1 | gene=PVPAM_110025800 | organism=Plasmodium_vivax_PAM | gene_product=acetyl-CoA synthetase, putative | transcript_product=acetyl-CoA synthetase, putative | location=CASCJQ010000011:913238-916210(+) | protein_length=990 | sequence_SO=supercontig | SO=protein_coding_gene | is_pseudo=false
+CAI7719743.1         -            375 1231at5820           -            664     0.016   12.0   0.3   1   2   0.00011      0.35    7.5   0.0   385   426   230   271   217   286 0.87 | transcript=PVPAM_070035700_t1 | gene=PVPAM_070035700 | organism=Plasmodium_vivax_PAM | gene_product=conserved Plasmodium protein, unknown function | transcript_product=conserved Plasmodium protein, unknown function | location=CASCJQ010000007:1289116-1290243(-) | protein_length=375 | sequence_SO=supercontig | SO=protein_coding_gene | is_pseudo=false
+CAI7719743.1         -            375 1231at5820           -            664     0.016   12.0   0.3   2   2    0.0041        13    2.3   0.3   283   329   307   355   297   357 0.85 | transcript=PVPAM_070035700_t1 | gene=PVPAM_070035700 | organism=Plasmodium_vivax_PAM | gene_product=conserved Plasmodium protein, unknown function | transcript_product=conserved Plasmodium protein, unknown function | location=CASCJQ010000007:1289116-1290243(-) | protein_length=375 | sequence_SO=supercontig | SO=protein_coding_gene | is_pseudo=false
+#
+# Program:         hmmsearch
+# Version:         3.4 (Aug 2023)
+# Pipeline mode:   SEARCH
+# Query file:      /v3/work/00_inventory/busco/busco_downloads/lineages/plasmodium_odb10/hmms/1231at5820.hmm
+# Target file:     /v3/inputs/annotations/plasmodb-68/PAM.proteins.fa
+# Option settings: hmmsearch --domtblout /v3/work/00_inventory/busco/PAM_proteins/run_plasmodium_odb10/hmmer_output/initial_run_results/1231at5820.out --cpu 1 /v3/work/00_inventory/busco/busco_downloads/lineages/plasmodium_odb10/hmms/1231at5820.hmm /v3/inputs/annotations/plasmodb-68/PAM.proteins.fa 
+# Current dir:     /v3/work/00_inventory/busco
+# Date:            Tue May 19 17:26:33 2026
+# [ok]

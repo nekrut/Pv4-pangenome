@@ -1,0 +1,19 @@
+#                                                                            --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name        accession   tlen query name           accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+#------------------- ---------- ----- -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+SCO66408.1           -            306 10442at5820          -            255  3.8e-129  428.0  13.4   1   1  3.4e-132  6.9e-129  427.1  13.4     1   255     7   294     7   294 0.92 tRNA pseudouridine synthase, putative [Plasmodium vivax]
+SCO67737.1           -            545 10442at5820          -            255     9e-16   56.5   0.0   1   2   0.00038      0.78    7.5   0.0    10    47   168   206   162   269 0.88 tRNA pseudouridine synthase, putative [Plasmodium vivax]
+SCO67737.1           -            545 10442at5820          -            255     9e-16   56.5   0.0   2   2   4.7e-16   9.5e-13   46.6   0.0   107   194   416   509   413   531 0.79 tRNA pseudouridine synthase, putative [Plasmodium vivax]
+SCO65012.1           -            582 10442at5820          -            255   8.6e-08   30.3   2.5   1   3      0.25   5.1e+02   -1.7   0.0    32    51    96   115    90   121 0.77 U2 snRNA/tRNA pseudouridine synthase, putative [Plasmodium vivax]
+SCO65012.1           -            582 10442at5820          -            255   8.6e-08   30.3   2.5   2   3   0.00064       1.3    6.8   0.0    62   101   194   235   173   239 0.79 U2 snRNA/tRNA pseudouridine synthase, putative [Plasmodium vivax]
+SCO65012.1           -            582 10442at5820          -            255   8.6e-08   30.3   2.5   3   3   1.6e-08   3.3e-05   21.9   0.5   115   173   396   457   386   502 0.81 U2 snRNA/tRNA pseudouridine synthase, putative [Plasmodium vivax]
+#
+# Program:         hmmsearch
+# Version:         3.4 (Aug 2023)
+# Pipeline mode:   SEARCH
+# Query file:      /v3/work/00_inventory/busco/busco_downloads/lineages/plasmodium_odb10/hmms/10442at5820.hmm
+# Target file:     /v3/inputs/annotations/ncbi-datasets/PvT01.proteins.fa
+# Option settings: hmmsearch --domtblout /v3/work/00_inventory/busco/PvT01_proteins/run_plasmodium_odb10/hmmer_output/initial_run_results/10442at5820.out --cpu 1 /v3/work/00_inventory/busco/busco_downloads/lineages/plasmodium_odb10/hmms/10442at5820.hmm /v3/inputs/annotations/ncbi-datasets/PvT01.proteins.fa 
+# Current dir:     /v3/work/00_inventory/busco
+# Date:            Tue May 19 18:29:11 2026
+# [ok]

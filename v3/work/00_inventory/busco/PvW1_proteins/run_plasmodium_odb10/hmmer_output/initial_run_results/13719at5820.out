@@ -1,0 +1,16 @@
+#                                                                            --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name        accession   tlen query name           accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+#------------------- ---------- ----- -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+CAG9479134.1         -            130 13719at5820          -            130     7e-91  299.2   0.9   1   1   2.6e-94   7.8e-91  299.1   0.9     1   130     1   130     1   130 1.00 | transcript=PVW1_080028900_t1 | gene=PVW1_080028900 | organism=Plasmodium_vivax_PvW1 | gene_product=40S ribosomal protein S15A, putative [Source:UniProtKB/TrEMBL;Acc:A0A1G4GWI3] | transcript_product=40S ribosomal protein S15A, putative [Source:UniProtKB/TrEMBL;Acc:A0A1G4GWI3] | location=CAJZCX010000009:1097570-1098091(-) | protein_length=130 | sequence_SO=supercontig | SO=protein_coding_gene | is_pseudo=false
+CAG9472106.1         -            244 13719at5820          -            130    0.0044   15.2   0.7   1   2   2.1e-05     0.063   11.5   0.7    41    98    13    66     7    76 0.87 | transcript=PVW1_140029800_t1 | gene=PVW1_140029800 | organism=Plasmodium_vivax_PvW1 | gene_product=EF-hand domain-containing protein [Source:UniProtKB/TrEMBL;Acc:A0A1G4HK27] | transcript_product=EF-hand domain-containing protein [Source:UniProtKB/TrEMBL;Acc:A0A1G4HK27] | location=CAJZCX010000003:1098258-1099402(-) | protein_length=244 | sequence_SO=supercontig | SO=protein_coding_gene | is_pseudo=false
+CAG9472106.1         -            244 13719at5820          -            130    0.0044   15.2   0.7   2   2     0.029        87    1.4   0.0    46    67   173   194   161   208 0.86 | transcript=PVW1_140029800_t1 | gene=PVW1_140029800 | organism=Plasmodium_vivax_PvW1 | gene_product=EF-hand domain-containing protein [Source:UniProtKB/TrEMBL;Acc:A0A1G4HK27] | transcript_product=EF-hand domain-containing protein [Source:UniProtKB/TrEMBL;Acc:A0A1G4HK27] | location=CAJZCX010000003:1098258-1099402(-) | protein_length=244 | sequence_SO=supercontig | SO=protein_coding_gene | is_pseudo=false
+#
+# Program:         hmmsearch
+# Version:         3.4 (Aug 2023)
+# Pipeline mode:   SEARCH
+# Query file:      /v3/work/00_inventory/busco/busco_downloads/lineages/plasmodium_odb10/hmms/13719at5820.hmm
+# Target file:     /v3/inputs/annotations/plasmodb-68/PvW1.proteins.fa
+# Option settings: hmmsearch --domtblout /v3/work/00_inventory/busco/PvW1_proteins/run_plasmodium_odb10/hmmer_output/initial_run_results/13719at5820.out --cpu 1 /v3/work/00_inventory/busco/busco_downloads/lineages/plasmodium_odb10/hmms/13719at5820.hmm /v3/inputs/annotations/plasmodb-68/PvW1.proteins.fa 
+# Current dir:     /v3/work/00_inventory/busco
+# Date:            Tue May 19 17:31:12 2026
+# [ok]

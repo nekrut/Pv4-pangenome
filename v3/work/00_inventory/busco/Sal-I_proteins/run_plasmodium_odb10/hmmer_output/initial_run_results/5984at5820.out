@@ -1,0 +1,15 @@
+#                                                                            --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name        accession   tlen query name           accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+#------------------- ---------- ----- -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+PVX_083075.1-p1      -            536 5984at5820           -            460    5e-235  778.6  15.6   1   1  9.7e-238  2.7e-234  776.2  15.6     1   459     1   531     1   532 0.96 | transcript=PVX_083075.1 | gene=PVX_083075 | organism=Plasmodium_vivax_Sal-1 | gene_product=UDP-N-acteylglucosamine pyrophosphorylase 1, putative | transcript_product=UDP-N-acteylglucosamine pyrophosphorylase 1, putative | location=Pv_Sal1_chr12:451375-452985(+) | protein_length=536 | sequence_SO=chromosome | SO=protein_coding_gene | is_pseudo=false
+PVX_080375.1-p1      -            805 5984at5820           -            460   1.1e-20   71.9   2.8   1   1   6.3e-24   1.7e-20   71.3   2.8    89   288   286   492   268   525 0.83 | transcript=PVX_080375.1 | gene=PVX_080375 | organism=Plasmodium_vivax_Sal-1 | gene_product=UTP--glucose-1-phosphate uridylyltransferase, putative | transcript_product=UTP--glucose-1-phosphate uridylyltransferase, putative | location=Pv_Sal1_chr10:614210-616627(+) | protein_length=805 | sequence_SO=chromosome | SO=protein_coding_gene | is_pseudo=false
+#
+# Program:         hmmsearch
+# Version:         3.4 (Aug 2023)
+# Pipeline mode:   SEARCH
+# Query file:      /v3/work/00_inventory/busco/busco_downloads/lineages/plasmodium_odb10/hmms/5984at5820.hmm
+# Target file:     /v3/inputs/annotations/plasmodb-68/Sal-I.proteins.fa
+# Option settings: hmmsearch --domtblout /v3/work/00_inventory/busco/Sal-I_proteins/run_plasmodium_odb10/hmmer_output/initial_run_results/5984at5820.out --cpu 1 /v3/work/00_inventory/busco/busco_downloads/lineages/plasmodium_odb10/hmms/5984at5820.hmm /v3/inputs/annotations/plasmodb-68/Sal-I.proteins.fa 
+# Current dir:     /v3/work/00_inventory/busco
+# Date:            Tue May 19 17:44:27 2026
+# [ok]

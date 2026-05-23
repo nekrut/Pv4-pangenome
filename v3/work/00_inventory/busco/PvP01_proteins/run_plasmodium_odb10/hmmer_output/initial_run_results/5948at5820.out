@@ -1,0 +1,17 @@
+#                                                                            --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name        accession   tlen query name           accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+#------------------- ---------- ----- -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+PVP01_1405300.1-p1   -            561 5948at5820           -            437  3.4e-225  746.1  43.1   1   3   3.3e-42   1.1e-38  131.5   6.4     1    81     1    81     1   107 0.94 | transcript=PVP01_1405300.1 | gene=PVP01_1405300 | organism=Plasmodium_vivax_P01 | gene_product=PUB domain-containing protein, putative | transcript_product=PUB domain-containing protein, putative | location=PvP01_14_v2:263605-265571(-) | protein_length=561 | sequence_SO=chromosome | SO=protein_coding_gene | is_pseudo=false
+PVP01_1405300.1-p1   -            561 5948at5820           -            437  3.4e-225  746.1  43.1   2   3     0.013        44    1.0   0.9    68    98   114   144   108   162 0.76 | transcript=PVP01_1405300.1 | gene=PVP01_1405300 | organism=Plasmodium_vivax_P01 | gene_product=PUB domain-containing protein, putative | transcript_product=PUB domain-containing protein, putative | location=PvP01_14_v2:263605-265571(-) | protein_length=561 | sequence_SO=chromosome | SO=protein_coding_gene | is_pseudo=false
+PVP01_1405300.1-p1   -            561 5948at5820           -            437  3.4e-225  746.1  43.1   3   3  6.6e-192  2.1e-188  624.8  20.9    88   437   187   561   169   561 0.94 | transcript=PVP01_1405300.1 | gene=PVP01_1405300 | organism=Plasmodium_vivax_P01 | gene_product=PUB domain-containing protein, putative | transcript_product=PUB domain-containing protein, putative | location=PvP01_14_v2:263605-265571(-) | protein_length=561 | sequence_SO=chromosome | SO=protein_coding_gene | is_pseudo=false
+PVP01_1336000.1-p1   -            301 5948at5820           -            437   4.7e-06   24.0   0.3   1   1   1.4e-09   4.7e-06   24.0   0.3   145   209    13    77     4   122 0.78 | transcript=PVP01_1336000.1 | gene=PVP01_1336000 | organism=Plasmodium_vivax_P01 | gene_product=ubiquitin-conjugating enzyme E2, putative | transcript_product=ubiquitin-conjugating enzyme E2, putative | location=PvP01_13_v2:1553686-1555862(-) | protein_length=301 | sequence_SO=chromosome | SO=protein_coding_gene | is_pseudo=false
+#
+# Program:         hmmsearch
+# Version:         3.4 (Aug 2023)
+# Pipeline mode:   SEARCH
+# Query file:      /v3/work/00_inventory/busco/busco_downloads/lineages/plasmodium_odb10/hmms/5948at5820.hmm
+# Target file:     /v3/inputs/annotations/plasmodb-68/PvP01.proteins.fa
+# Option settings: hmmsearch --domtblout /v3/work/00_inventory/busco/PvP01_proteins/run_plasmodium_odb10/hmmer_output/initial_run_results/5948at5820.out --cpu 1 /v3/work/00_inventory/busco/busco_downloads/lineages/plasmodium_odb10/hmms/5948at5820.hmm /v3/inputs/annotations/plasmodb-68/PvP01.proteins.fa 
+# Current dir:     /v3/work/00_inventory/busco
+# Date:            Tue May 19 17:44:13 2026
+# [ok]

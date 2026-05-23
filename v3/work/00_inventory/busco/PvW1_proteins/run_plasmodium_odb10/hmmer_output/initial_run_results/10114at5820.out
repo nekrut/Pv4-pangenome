@@ -1,0 +1,16 @@
+#                                                                            --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name        accession   tlen query name           accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+#------------------- ---------- ----- -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+CAG9474812.1         -            364 10114at5820          -            259  3.9e-142  470.4   4.4   1   1  2.9e-145  5.8e-142  469.8   4.4    10   259    99   361    95   361 0.95 | transcript=PVW1_100032300_t1 | gene=PVW1_100032300 | organism=Plasmodium_vivax_PvW1 | gene_product=SpoU_methylase domain-containing protein [Source:UniProtKB/TrEMBL;Acc:A0A1G4GYE6] | transcript_product=SpoU_methylase domain-containing protein [Source:UniProtKB/TrEMBL;Acc:A0A1G4GYE6] | location=CAJZCX010000005:1270898-1272147(+) | protein_length=364 | sequence_SO=supercontig | SO=protein_coding_gene | is_pseudo=false
+CAG9481705.1         -            214 10114at5820          -            259   4.6e-06   24.4   0.7   1   1   2.9e-09   5.8e-06   24.1   0.7   123   257     4   142     1   144 0.78 | transcript=PVW1_060022300_t1 | gene=PVW1_060022300 | organism=Plasmodium_vivax_PvW1 | gene_product=SpoU_methylase domain-containing protein [Source:UniProtKB/TrEMBL;Acc:A0A1G4H9S8] | transcript_product=SpoU_methylase domain-containing protein [Source:UniProtKB/TrEMBL;Acc:A0A1G4H9S8] | location=CAJZCX010000012:728131-728775(+) | protein_length=214 | sequence_SO=supercontig | SO=protein_coding_gene | is_pseudo=false
+CAG9475759.1         -           2327 10114at5820          -            259    0.0013   16.4   0.3   1   1   1.1e-06    0.0023   15.6   0.3    77   256  2140  2320  2097  2323 0.79 | transcript=PVW1_130027100_t1 | gene=PVW1_130027100 | organism=Plasmodium_vivax_PvW1 | gene_product=unspecified product | transcript_product=unspecified product | location=CAJZCX010000006:988177-995160(-) | protein_length=2327 | sequence_SO=supercontig | SO=protein_coding_gene | is_pseudo=false
+#
+# Program:         hmmsearch
+# Version:         3.4 (Aug 2023)
+# Pipeline mode:   SEARCH
+# Query file:      /v3/work/00_inventory/busco/busco_downloads/lineages/plasmodium_odb10/hmms/10114at5820.hmm
+# Target file:     /v3/inputs/annotations/plasmodb-68/PvW1.proteins.fa
+# Option settings: hmmsearch --domtblout /v3/work/00_inventory/busco/PvW1_proteins/run_plasmodium_odb10/hmmer_output/initial_run_results/10114at5820.out --cpu 1 /v3/work/00_inventory/busco/busco_downloads/lineages/plasmodium_odb10/hmms/10114at5820.hmm /v3/inputs/annotations/plasmodb-68/PvW1.proteins.fa 
+# Current dir:     /v3/work/00_inventory/busco
+# Date:            Tue May 19 17:24:43 2026
+# [ok]

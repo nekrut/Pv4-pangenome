@@ -1,0 +1,16 @@
+#                                                                            --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name        accession   tlen query name           accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+#------------------- ---------- ----- -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+PVP01_0812600.1-p1   -            593 4229at5820           -            508         0 1055.1   7.8   1   1         0         0 1054.9   7.8     1   508    44   593    44   593 0.96 | transcript=PVP01_0812600.1 | gene=PVP01_0812600 | organism=Plasmodium_vivax_P01 | gene_product=phosphoglucomutase, putative | transcript_product=phosphoglucomutase, putative | location=PvP01_08_v2:533647-535428(-) | protein_length=593 | sequence_SO=chromosome | SO=protein_coding_gene | is_pseudo=false
+PVP01_0930600.1-p1   -            792 4229at5820           -            508   0.00013   19.1   0.0   1   2     3e-05     0.097    9.6   0.0   105   130   112   138   100   157 0.83 | transcript=PVP01_0930600.1 | gene=PVP01_0930600 | organism=Plasmodium_vivax_P01 | gene_product=phosphoacetylglucosamine mutase, putative | transcript_product=phosphoacetylglucosamine mutase, putative | location=PvP01_09_v2:1328261-1330639(-) | protein_length=792 | sequence_SO=chromosome | SO=protein_coding_gene | is_pseudo=false
+PVP01_0930600.1-p1   -            792 4229at5820           -            508   0.00013   19.1   0.0   2   2   0.00018      0.59    7.0   0.0   460   497   748   785   718   789 0.74 | transcript=PVP01_0930600.1 | gene=PVP01_0930600 | organism=Plasmodium_vivax_P01 | gene_product=phosphoacetylglucosamine mutase, putative | transcript_product=phosphoacetylglucosamine mutase, putative | location=PvP01_09_v2:1328261-1330639(-) | protein_length=792 | sequence_SO=chromosome | SO=protein_coding_gene | is_pseudo=false
+#
+# Program:         hmmsearch
+# Version:         3.4 (Aug 2023)
+# Pipeline mode:   SEARCH
+# Query file:      /v3/work/00_inventory/busco/busco_downloads/lineages/plasmodium_odb10/hmms/4229at5820.hmm
+# Target file:     /v3/inputs/annotations/plasmodb-68/PvP01.proteins.fa
+# Option settings: hmmsearch --domtblout /v3/work/00_inventory/busco/PvP01_proteins/run_plasmodium_odb10/hmmer_output/initial_run_results/4229at5820.out --cpu 1 /v3/work/00_inventory/busco/busco_downloads/lineages/plasmodium_odb10/hmms/4229at5820.hmm /v3/inputs/annotations/plasmodb-68/PvP01.proteins.fa 
+# Current dir:     /v3/work/00_inventory/busco
+# Date:            Tue May 19 17:40:49 2026
+# [ok]

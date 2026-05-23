@@ -1,0 +1,17 @@
+#                                                                            --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name        accession   tlen query name           accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+#------------------- ---------- ----- -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+CAG9477602.1         -            199 11564at5820          -            177  1.5e-109  362.0   8.1   1   1    8e-112  1.6e-108  358.7   8.1     1   176     1   195     1   196 0.96 | transcript=PVW1_110015400_t1 | gene=PVW1_110015400 | organism=Plasmodium_vivax_PvW1 | gene_product=Cytochrome c oxidase subunit ApiCOX24, putative [Source:UniProtKB/TrEMBL;Acc:A0A1G4GZH1] | transcript_product=Cytochrome c oxidase subunit ApiCOX24, putative [Source:UniProtKB/TrEMBL;Acc:A0A1G4GZH1] | location=CAJZCX010000008:425238-425837(-) | protein_length=199 | sequence_SO=supercontig | SO=protein_coding_gene | is_pseudo=false
+CAG9481944.1         -            339 11564at5820          -            177    0.0072   14.6   0.1   1   2       1.4   2.9e+03   -3.7   0.0     6    25    15    34    13    38 0.79 | transcript=PVW1_060031700_t1 | gene=PVW1_060031700 | organism=Plasmodium_vivax_PvW1 | gene_product=unspecified product | transcript_product=unspecified product | location=CAJZCX010000012:1119300-1120570(-) | protein_length=339 | sequence_SO=supercontig | SO=protein_coding_gene | is_pseudo=false
+CAG9481944.1         -            339 11564at5820          -            177    0.0072   14.6   0.1   2   2   8.4e-06     0.017   13.4   0.0    82   138   253   310   207   334 0.79 | transcript=PVW1_060031700_t1 | gene=PVW1_060031700 | organism=Plasmodium_vivax_PvW1 | gene_product=unspecified product | transcript_product=unspecified product | location=CAJZCX010000012:1119300-1120570(-) | protein_length=339 | sequence_SO=supercontig | SO=protein_coding_gene | is_pseudo=false
+CAG9473807.1         -             76 11564at5820          -            177     0.013   13.7   1.1   1   1   7.6e-06     0.015   13.5   1.1    93   144     4    56     2    69 0.88 | transcript=PVW1_120068500_t1 | gene=PVW1_120068500 | organism=Plasmodium_vivax_PvW1 | gene_product=Yos1-like protein, putative [Source:UniProtKB/TrEMBL;Acc:A0A1G4H228] | transcript_product=Yos1-like protein, putative [Source:UniProtKB/TrEMBL;Acc:A0A1G4H228] | location=CAJZCX010000004:2663489-2663719(-) | protein_length=76 | sequence_SO=supercontig | SO=protein_coding_gene | is_pseudo=false
+#
+# Program:         hmmsearch
+# Version:         3.4 (Aug 2023)
+# Pipeline mode:   SEARCH
+# Query file:      /v3/work/00_inventory/busco/busco_downloads/lineages/plasmodium_odb10/hmms/11564at5820.hmm
+# Target file:     /v3/inputs/annotations/plasmodb-68/PvW1.proteins.fa
+# Option settings: hmmsearch --domtblout /v3/work/00_inventory/busco/PvW1_proteins/run_plasmodium_odb10/hmmer_output/initial_run_results/11564at5820.out --cpu 1 /v3/work/00_inventory/busco/busco_downloads/lineages/plasmodium_odb10/hmms/11564at5820.hmm /v3/inputs/annotations/plasmodb-68/PvW1.proteins.fa 
+# Current dir:     /v3/work/00_inventory/busco
+# Date:            Tue May 19 17:30:30 2026
+# [ok]

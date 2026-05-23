@@ -1,0 +1,17 @@
+#                                                                            --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name        accession   tlen query name           accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+#------------------- ---------- ----- -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+PVX_122050.1-p1      -            564 6677at5820           -            405  8.6e-218  721.5  50.0   1   2   6.5e-06     0.012   12.9  12.6     8    65    38   105     1   116 0.82 | transcript=PVX_122050.1 | gene=PVX_122050 | organism=Plasmodium_vivax_Sal-1 | gene_product=CorA-like Mg2+ transporter protein, putative | transcript_product=CorA-like Mg2+ transporter protein, putative | location=Pv_Sal1_chr14:245528-247417(-) | protein_length=564 | sequence_SO=chromosome | SO=protein_coding_gene | is_pseudo=false
+PVX_122050.1-p1      -            564 6677at5820           -            405  8.6e-218  721.5  50.0   2   2  1.5e-218  2.8e-215  713.3  29.5    61   405   202   564   176   564 0.95 | transcript=PVX_122050.1 | gene=PVX_122050 | organism=Plasmodium_vivax_Sal-1 | gene_product=CorA-like Mg2+ transporter protein, putative | transcript_product=CorA-like Mg2+ transporter protein, putative | location=Pv_Sal1_chr14:245528-247417(-) | protein_length=564 | sequence_SO=chromosome | SO=protein_coding_gene | is_pseudo=false
+PVX_085155.1-p1      -            483 6677at5820           -            405   2.5e-25   87.6  13.5   1   1   1.9e-28   3.5e-25   87.2  13.5    65   397   119   478    88   483 0.76 | transcript=PVX_085155.1 | gene=PVX_085155 | organism=Plasmodium_vivax_Sal-1 | gene_product=CorA-like Mg2+ transporter protein, putative | transcript_product=CorA-like Mg2+ transporter protein, putative | location=Pv_Sal1_chr13:948840-950291(-) | protein_length=483 | sequence_SO=chromosome | SO=protein_coding_gene | is_pseudo=false
+PVX_091650.1-p1      -            466 6677at5820           -            405   1.9e-07   28.8  14.0   1   1   2.8e-10   5.1e-07   27.4  14.0   189   387   219   440   212   453 0.73 | transcript=PVX_091650.1 | gene=PVX_091650 | organism=Plasmodium_vivax_Sal-1 | gene_product=RNA splicing protein MRS2, mitochondrial precursor, putative | transcript_product=RNA splicing protein MRS2, mitochondrial precursor, putative | location=Pv_Sal1_chr09:677903-679553(+) | protein_length=466 | sequence_SO=chromosome | SO=protein_coding_gene | is_pseudo=false
+#
+# Program:         hmmsearch
+# Version:         3.4 (Aug 2023)
+# Pipeline mode:   SEARCH
+# Query file:      /v3/work/00_inventory/busco/busco_downloads/lineages/plasmodium_odb10/hmms/6677at5820.hmm
+# Target file:     /v3/inputs/annotations/plasmodb-68/Sal-I.proteins.fa
+# Option settings: hmmsearch --domtblout /v3/work/00_inventory/busco/Sal-I_proteins/run_plasmodium_odb10/hmmer_output/initial_run_results/6677at5820.out --cpu 1 /v3/work/00_inventory/busco/busco_downloads/lineages/plasmodium_odb10/hmms/6677at5820.hmm /v3/inputs/annotations/plasmodb-68/Sal-I.proteins.fa 
+# Current dir:     /v3/work/00_inventory/busco
+# Date:            Tue May 19 17:44:08 2026
+# [ok]

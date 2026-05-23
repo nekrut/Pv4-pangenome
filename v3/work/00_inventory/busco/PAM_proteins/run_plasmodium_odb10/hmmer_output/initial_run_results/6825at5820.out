@@ -1,0 +1,16 @@
+#                                                                            --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name        accession   tlen query name           accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+#------------------- ---------- ----- -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+CAI7718170.1         -            510 6825at5820           -            409  4.7e-218  722.5   5.8   1   2    2e-175  6.3e-172  570.5   4.3     1   316    48   378    48   391 0.97 | transcript=PVPAM_030017000_t1 | gene=PVPAM_030017000 | organism=Plasmodium_vivax_PAM | gene_product=cysteine desulfurase | transcript_product=cysteine desulfurase | location=CASCJQ010000003:507868-509497(+) | protein_length=510 | sequence_SO=supercontig | SO=protein_coding_gene | is_pseudo=false
+CAI7718170.1         -            510 6825at5820           -            409  4.7e-218  722.5   5.8   2   2   3.2e-48     1e-44  151.5   0.0   321   408   411   504   409   505 0.96 | transcript=PVPAM_030017000_t1 | gene=PVPAM_030017000 | organism=Plasmodium_vivax_PAM | gene_product=cysteine desulfurase | transcript_product=cysteine desulfurase | location=CASCJQ010000003:507868-509497(+) | protein_length=510 | sequence_SO=supercontig | SO=protein_coding_gene | is_pseudo=false
+CAI7717975.1         -            517 6825at5820           -            409   2.4e-25   87.7   6.4   1   1   1.2e-28   3.8e-25   87.1   6.4    25   248   112   333   103   345 0.87 | transcript=PVPAM_020020700_t1 | gene=PVPAM_020020700 | organism=Plasmodium_vivax_PAM | gene_product=cysteine desulfurase IscS, putative | transcript_product=cysteine desulfurase IscS, putative | location=CASCJQ010000002:664814-666367(-) | protein_length=517 | sequence_SO=supercontig | SO=protein_coding_gene | is_pseudo=false
+#
+# Program:         hmmsearch
+# Version:         3.4 (Aug 2023)
+# Pipeline mode:   SEARCH
+# Query file:      /v3/work/00_inventory/busco/busco_downloads/lineages/plasmodium_odb10/hmms/6825at5820.hmm
+# Target file:     /v3/inputs/annotations/plasmodb-68/PAM.proteins.fa
+# Option settings: hmmsearch --domtblout /v3/work/00_inventory/busco/PAM_proteins/run_plasmodium_odb10/hmmer_output/initial_run_results/6825at5820.out --cpu 1 /v3/work/00_inventory/busco/busco_downloads/lineages/plasmodium_odb10/hmms/6825at5820.hmm /v3/inputs/annotations/plasmodb-68/PAM.proteins.fa 
+# Current dir:     /v3/work/00_inventory/busco
+# Date:            Tue May 19 17:44:43 2026
+# [ok]

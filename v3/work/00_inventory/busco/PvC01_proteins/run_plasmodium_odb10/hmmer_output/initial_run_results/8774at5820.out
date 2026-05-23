@@ -1,0 +1,25 @@
+#                                                                            --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name        accession   tlen query name           accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+#------------------- ---------- ----- -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+SCO75478.1           -            440 8774at5820           -            361  9.3e-199  658.2  31.2   1   2   4.3e-10   9.1e-07   26.5   5.0     1    70     1    79     1    95 0.85 CAMP-dependent protein kinase regulatory subunit, putative [Plasmodium vivax]
+SCO75478.1           -            440 8774at5820           -            361  9.3e-199  658.2  31.2   2   2  9.7e-196    2e-192  637.3  18.7    37   361   100   440    83   440 0.94 CAMP-dependent protein kinase regulatory subunit, putative [Plasmodium vivax]
+SCO74716.1           -            854 8774at5820           -            361   9.4e-51  171.3  11.7   1   3   4.3e-36   8.9e-33  112.1   3.3    54   342     2   287     1   296 0.88 cGMP-dependent protein kinase, putative [Plasmodium vivax]
+SCO74716.1           -            854 8774at5820           -            361   9.4e-51  171.3  11.7   2   3   2.6e-05     0.054   10.8   0.4   254   332   319   398   287   417 0.75 cGMP-dependent protein kinase, putative [Plasmodium vivax]
+SCO74716.1           -            854 8774at5820           -            361   9.4e-51  171.3  11.7   3   3   3.1e-18   6.4e-15   53.4   0.1   106   216   412   519   400   526 0.85 cGMP-dependent protein kinase, putative [Plasmodium vivax]
+SCO74891.1           -           3341 8774at5820           -            361   1.3e-27   95.1  52.4   1   7         3   6.3e+03   -7.5  11.6    37    73   740   777   713   876 0.67 rap guanine nucleotide exchange factor, putative [Plasmodium vivax]
+SCO74891.1           -           3341 8774at5820           -            361   1.3e-27   95.1  52.4   2   7      0.36   7.6e+02   -2.8   0.1   102   145  1800  1843  1787  1848 0.80 rap guanine nucleotide exchange factor, putative [Plasmodium vivax]
+SCO74891.1           -           3341 8774at5820           -            361   1.3e-27   95.1  52.4   3   7   7.2e-09   1.5e-05   22.5   0.5   133   222  1965  2054  1892  2074 0.83 rap guanine nucleotide exchange factor, putative [Plasmodium vivax]
+SCO74891.1           -           3341 8774at5820           -            361   1.3e-27   95.1  52.4   4   7   2.7e-07   0.00056   17.4   0.7   120   213  2207  2302  2171  2317 0.83 rap guanine nucleotide exchange factor, putative [Plasmodium vivax]
+SCO74891.1           -           3341 8774at5820           -            361   1.3e-27   95.1  52.4   5   7    0.0026       5.4    4.2   3.7    93   173  2332  2409  2318  2419 0.87 rap guanine nucleotide exchange factor, putative [Plasmodium vivax]
+SCO74891.1           -           3341 8774at5820           -            361   1.3e-27   95.1  52.4   6   7   1.9e-08   3.9e-05   21.2   0.0   291   337  2441  2487  2430  2500 0.77 rap guanine nucleotide exchange factor, putative [Plasmodium vivax]
+SCO74891.1           -           3341 8774at5820           -            361   1.3e-27   95.1  52.4   7   7   1.5e-20   3.1e-17   61.0   1.0   199   348  3049  3211  2939  3222 0.77 rap guanine nucleotide exchange factor, putative [Plasmodium vivax]
+#
+# Program:         hmmsearch
+# Version:         3.4 (Aug 2023)
+# Pipeline mode:   SEARCH
+# Query file:      /v3/work/00_inventory/busco/busco_downloads/lineages/plasmodium_odb10/hmms/8774at5820.hmm
+# Target file:     /v3/inputs/annotations/ncbi-datasets/PvC01.proteins.fa
+# Option settings: hmmsearch --domtblout /v3/work/00_inventory/busco/PvC01_proteins/run_plasmodium_odb10/hmmer_output/initial_run_results/8774at5820.out --cpu 1 /v3/work/00_inventory/busco/busco_downloads/lineages/plasmodium_odb10/hmms/8774at5820.hmm /v3/inputs/annotations/ncbi-datasets/PvC01.proteins.fa 
+# Current dir:     /v3/work/00_inventory/busco
+# Date:            Tue May 19 19:07:13 2026
+# [ok]

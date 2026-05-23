@@ -1,0 +1,26 @@
+#                                                                            --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name        accession   tlen query name           accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+#------------------- ---------- ----- -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+SCO74364.1           -            411 6594at5820           -            351  1.1e-205  681.0  14.8   1   1  1.9e-208  1.5e-205  680.5  14.8     1   351     5   404     5   404 0.95 protein phosphatase 2C, putative [Plasmodium vivax]
+SCO70822.1           -            953 6594at5820           -            351   3.2e-20   70.9   1.1   1   1   9.1e-23   7.2e-20   69.8   1.1    83   257   738   917   698   924 0.72 protein phosphatase PPM1, putative [Plasmodium vivax]
+SCO72871.1           -            872 6594at5820           -            351   8.3e-20   69.6   0.5   1   2      0.54   4.3e+02   -1.8   0.1   250   281    72   103    29   148 0.62 protein phosphatase PPM2, putative [Plasmodium vivax]
+SCO72871.1           -            872 6594at5820           -            351   8.3e-20   69.6   0.5   2   2   2.9e-22   2.3e-19   68.1   0.0    94   220   521   650   486   670 0.85 protein phosphatase PPM2, putative [Plasmodium vivax]
+SCO73150.1           -            701 6594at5820           -            351   4.2e-19   67.3   4.3   1   4      0.16   1.3e+02   -0.1   0.0    20    42   178   200   169   254 0.71 protein phosphatase 2C, putative [Plasmodium vivax]
+SCO73150.1           -            701 6594at5820           -            351   4.2e-19   67.3   4.3   2   4   5.3e-13   4.2e-10   37.7   0.1    74   156   451   534   439   543 0.83 protein phosphatase 2C, putative [Plasmodium vivax]
+SCO73150.1           -            701 6594at5820           -            351   4.2e-19   67.3   4.3   3   4      0.02        15    2.9   0.0   164   190   568   592   564   598 0.86 protein phosphatase 2C, putative [Plasmodium vivax]
+SCO73150.1           -            701 6594at5820           -            351   4.2e-19   67.3   4.3   4   4   5.4e-09   4.3e-06   24.5   0.2   199   254   645   701   631   701 0.83 protein phosphatase 2C, putative [Plasmodium vivax]
+SCO75364.1           -            303 6594at5820           -            351   5.4e-18   63.6  10.0   1   1   9.2e-20   7.2e-17   59.9  10.0    47   254    62   301     8   303 0.62 protein phosphatase PPM7, putative [Plasmodium vivax]
+SCO75732.1           -           1106 6594at5820           -            351   3.6e-13   47.8   1.0   1   1   3.9e-15     3e-12   44.7   1.1    70   254   855  1071   838  1079 0.74 protein phosphatase PPM4, putative [Plasmodium vivax]
+SCO75366.1           -            559 6594at5820           -            351   1.5e-10   39.1   0.6   1   1   3.7e-13   2.9e-10   38.2   0.6    93   236   363   525   346   555 0.68 protein phosphatase PPM5, putative [Plasmodium vivax]
+SCO72836.1           -            845 6594at5820           -            351   1.5e-05   22.7   0.8   1   2   1.2e-06   0.00095   16.8   0.1    74   149   582   663   564   668 0.76 protein phosphatase PPM8, putative [Plasmodium vivax]
+SCO72836.1           -            845 6594at5820           -            351   1.5e-05   22.7   0.8   2   2    0.0076         6    4.3   0.0   177   232   742   804   678   817 0.73 protein phosphatase PPM8, putative [Plasmodium vivax]
+#
+# Program:         hmmsearch
+# Version:         3.4 (Aug 2023)
+# Pipeline mode:   SEARCH
+# Query file:      /v3/work/00_inventory/busco/busco_downloads/lineages/plasmodium_odb10/hmms/6594at5820.hmm
+# Target file:     /v3/inputs/annotations/ncbi-datasets/PvC01.proteins.fa
+# Option settings: hmmsearch --domtblout /v3/work/00_inventory/busco/PvC01_proteins/run_plasmodium_odb10/hmmer_output/initial_run_results/6594at5820.out --cpu 1 /v3/work/00_inventory/busco/busco_downloads/lineages/plasmodium_odb10/hmms/6594at5820.hmm /v3/inputs/annotations/ncbi-datasets/PvC01.proteins.fa 
+# Current dir:     /v3/work/00_inventory/busco
+# Date:            Tue May 19 18:51:07 2026
+# [ok]

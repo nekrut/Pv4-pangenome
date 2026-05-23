@@ -1,0 +1,22 @@
+#                                                                            --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name        accession   tlen query name           accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+#------------------- ---------- ----- -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+SCO68336.1           -           1700 1211at5820           -           1188         0 1652.4  36.9   1   8  1.8e-265  5.5e-262  870.7  16.1     1   473     1   494     1   498 0.96 nucleoside diphosphate kinase, putative [Plasmodium vivax]
+SCO68336.1           -           1700 1211at5820           -           1188         0 1652.4  36.9   2   8   2.3e-53   7.1e-50  168.2   0.8   483   582   585   684   548   687 0.87 nucleoside diphosphate kinase, putative [Plasmodium vivax]
+SCO68336.1           -           1700 1211at5820           -           1188         0 1652.4  36.9   3   8     6e-40   1.8e-36  123.8   0.3   581   710   719   879   715   895 0.83 nucleoside diphosphate kinase, putative [Plasmodium vivax]
+SCO68336.1           -           1700 1211at5820           -           1188         0 1652.4  36.9   4   8   3.1e-46   9.5e-43  144.6   0.1   707   830   923  1078   915  1081 0.85 nucleoside diphosphate kinase, putative [Plasmodium vivax]
+SCO68336.1           -           1700 1211at5820           -           1188         0 1652.4  36.9   5   8    0.0025       7.7    2.5   0.0   831   862  1113  1145  1109  1151 0.82 nucleoside diphosphate kinase, putative [Plasmodium vivax]
+SCO68336.1           -           1700 1211at5820           -           1188         0 1652.4  36.9   6   8   1.9e-41   5.7e-38  128.8   0.0   861   984  1191  1341  1184  1357 0.83 nucleoside diphosphate kinase, putative [Plasmodium vivax]
+SCO68336.1           -           1700 1211at5820           -           1188         0 1652.4  36.9   7   8   2.8e-38   8.4e-35  118.3   0.3   989  1086  1427  1530  1421  1536 0.90 nucleoside diphosphate kinase, putative [Plasmodium vivax]
+SCO68336.1           -           1700 1211at5820           -           1188         0 1652.4  36.9   8   8   2.6e-33   7.9e-30  101.8   0.0  1086  1187  1573  1695  1570  1696 0.91 nucleoside diphosphate kinase, putative [Plasmodium vivax]
+SCO67958.1           -            149 1211at5820           -           1188   3.8e-10   36.6   0.0   1   1   1.5e-13   4.5e-10   36.4   0.0   147   286     1   136     1   140 0.89 nucleoside diphosphate kinase, putative [Plasmodium vivax]
+#
+# Program:         hmmsearch
+# Version:         3.4 (Aug 2023)
+# Pipeline mode:   SEARCH
+# Query file:      /v3/work/00_inventory/busco/busco_downloads/lineages/plasmodium_odb10/hmms/1211at5820.hmm
+# Target file:     /v3/inputs/annotations/ncbi-datasets/PvT01.proteins.fa
+# Option settings: hmmsearch --domtblout /v3/work/00_inventory/busco/PvT01_proteins/run_plasmodium_odb10/hmmer_output/initial_run_results/1211at5820.out --cpu 1 /v3/work/00_inventory/busco/busco_downloads/lineages/plasmodium_odb10/hmms/1211at5820.hmm /v3/inputs/annotations/ncbi-datasets/PvT01.proteins.fa 
+# Current dir:     /v3/work/00_inventory/busco
+# Date:            Tue May 19 18:28:42 2026
+# [ok]

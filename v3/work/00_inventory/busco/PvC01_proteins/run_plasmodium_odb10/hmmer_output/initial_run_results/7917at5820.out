@@ -1,0 +1,17 @@
+#                                                                            --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name        accession   tlen query name           accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+#------------------- ---------- ----- -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+SCO71423.1           -            457 7917at5820           -            410  7.1e-231  764.6  25.2   1   2   2.3e-18   7.2e-15   53.2   0.0     1    70     1    71     1    85 0.92 mRNA-binding protein PUF2, putative [Plasmodium vivax]
+SCO71423.1           -            457 7917at5820           -            410  7.1e-231  764.6  25.2   2   2  5.3e-217  1.7e-213  707.4  27.4    87   410   133   457   118   457 0.99 mRNA-binding protein PUF2, putative [Plasmodium vivax]
+SCO73164.1           -           1546 7917at5820           -            410   9.5e-34  115.4  13.4   1   2   5.9e-12   1.9e-08   32.1   0.2   173   265   652   745   634   748 0.91 mRNA-binding protein PUF1, putative [Plasmodium vivax]
+SCO73164.1           -           1546 7917at5820           -            410   9.5e-34  115.4  13.4   2   2   1.6e-28   5.1e-25   86.6   8.3   194   402   746   952   742   958 0.94 mRNA-binding protein PUF1, putative [Plasmodium vivax]
+#
+# Program:         hmmsearch
+# Version:         3.4 (Aug 2023)
+# Pipeline mode:   SEARCH
+# Query file:      /v3/work/00_inventory/busco/busco_downloads/lineages/plasmodium_odb10/hmms/7917at5820.hmm
+# Target file:     /v3/inputs/annotations/ncbi-datasets/PvC01.proteins.fa
+# Option settings: hmmsearch --domtblout /v3/work/00_inventory/busco/PvC01_proteins/run_plasmodium_odb10/hmmer_output/initial_run_results/7917at5820.out --cpu 1 /v3/work/00_inventory/busco/busco_downloads/lineages/plasmodium_odb10/hmms/7917at5820.hmm /v3/inputs/annotations/ncbi-datasets/PvC01.proteins.fa 
+# Current dir:     /v3/work/00_inventory/busco
+# Date:            Tue May 19 19:05:25 2026
+# [ok]

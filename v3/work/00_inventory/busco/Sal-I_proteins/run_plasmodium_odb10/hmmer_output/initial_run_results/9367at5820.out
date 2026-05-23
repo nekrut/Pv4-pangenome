@@ -1,0 +1,17 @@
+#                                                                            --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name        accession   tlen query name           accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+#------------------- ---------- ----- -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+PVX_085055.1-p1      -            368 9367at5820           -            272  1.1e-175  580.8  13.8   1   1  1.9e-177  3.6e-174  575.9  13.8     1   260    70   329    70   358 0.96 | transcript=PVX_085055.1 | gene=PVX_085055 | organism=Plasmodium_vivax_Sal-1 | gene_product=ribosomal protein L15, putative | transcript_product=ribosomal protein L15, putative | location=Pv_Sal1_chr13:876574-877680(+) | protein_length=368 | sequence_SO=chromosome | SO=protein_coding_gene | is_pseudo=false
+PVX_085090.1-p1      -            597 9367at5820           -            272   1.6e-07   29.3   1.1   1   1   2.2e-10     4e-07   28.1   1.1    35   151   330   455   324   481 0.69 | transcript=PVX_085090.1 | gene=PVX_085090 | organism=Plasmodium_vivax_Sal-1 | gene_product=50S ribosomal protein L15, putative | transcript_product=50S ribosomal protein L15, putative | location=Pv_Sal1_chr13:900002-901795(-) | protein_length=597 | sequence_SO=chromosome | SO=protein_coding_gene | is_pseudo=false
+PVX_112675-t26_1-p1  -            312 9367at5820           -            272      0.32    8.7   5.7   1   2   0.00016       0.3    8.8   1.1    48   113    72   137    59   147 0.85 | transcript=PVX_112675-t26_1 | gene=PVX_112675 | organism=Plasmodium_vivax_Sal-1 | gene_product=unspecified product | transcript_product=unspecified product | location=AAKM01000025:45935-47015(-) | protein_length=312 | sequence_SO=contig | SO=protein_coding_gene | is_pseudo=false
+PVX_112675-t26_1-p1  -            312 9367at5820           -            272      0.32    8.7   5.7   2   2     0.018        33    2.1   0.2    90   113   201   224   189   239 0.80 | transcript=PVX_112675-t26_1 | gene=PVX_112675 | organism=Plasmodium_vivax_Sal-1 | gene_product=unspecified product | transcript_product=unspecified product | location=AAKM01000025:45935-47015(-) | protein_length=312 | sequence_SO=contig | SO=protein_coding_gene | is_pseudo=false
+#
+# Program:         hmmsearch
+# Version:         3.4 (Aug 2023)
+# Pipeline mode:   SEARCH
+# Query file:      /v3/work/00_inventory/busco/busco_downloads/lineages/plasmodium_odb10/hmms/9367at5820.hmm
+# Target file:     /v3/inputs/annotations/plasmodb-68/Sal-I.proteins.fa
+# Option settings: hmmsearch --domtblout /v3/work/00_inventory/busco/Sal-I_proteins/run_plasmodium_odb10/hmmer_output/initial_run_results/9367at5820.out --cpu 1 /v3/work/00_inventory/busco/busco_downloads/lineages/plasmodium_odb10/hmms/9367at5820.hmm /v3/inputs/annotations/plasmodb-68/Sal-I.proteins.fa 
+# Current dir:     /v3/work/00_inventory/busco
+# Date:            Tue May 19 17:50:52 2026
+# [ok]

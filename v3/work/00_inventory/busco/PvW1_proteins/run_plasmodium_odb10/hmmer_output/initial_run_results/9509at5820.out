@@ -1,0 +1,14 @@
+#                                                                            --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name        accession   tlen query name           accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+#------------------- ---------- ----- -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+CAG9471833.1         -            275 9509at5820           -            252  1.5e-151  501.9  17.2   1   1  2.7e-155  1.6e-151  501.7  17.2     1   252     1   270     1   270 0.97 | transcript=PVW1_140011800_t1 | gene=PVW1_140011800 | organism=Plasmodium_vivax_PvW1 | gene_product=Cyclin, putative [Source:UniProtKB/TrEMBL;Acc:A0A1G4HJT0] | transcript_product=Cyclin, putative [Source:UniProtKB/TrEMBL;Acc:A0A1G4HJT0] | location=CAJZCX010000003:335132-336763(+) | protein_length=275 | sequence_SO=supercontig | SO=protein_coding_gene | is_pseudo=false
+#
+# Program:         hmmsearch
+# Version:         3.4 (Aug 2023)
+# Pipeline mode:   SEARCH
+# Query file:      /v3/work/00_inventory/busco/busco_downloads/lineages/plasmodium_odb10/hmms/9509at5820.hmm
+# Target file:     /v3/inputs/annotations/plasmodb-68/PvW1.proteins.fa
+# Option settings: hmmsearch --domtblout /v3/work/00_inventory/busco/PvW1_proteins/run_plasmodium_odb10/hmmer_output/initial_run_results/9509at5820.out --cpu 1 /v3/work/00_inventory/busco/busco_downloads/lineages/plasmodium_odb10/hmms/9509at5820.hmm /v3/inputs/annotations/plasmodb-68/PvW1.proteins.fa 
+# Current dir:     /v3/work/00_inventory/busco
+# Date:            Tue May 19 17:51:29 2026
+# [ok]

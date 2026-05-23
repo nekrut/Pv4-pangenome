@@ -1,0 +1,17 @@
+#                                                                            --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name        accession   tlen query name           accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+#------------------- ---------- ----- -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+CAI7720515.1         -            759 3444at5820           -            533  2.7e-247  820.4  53.6   1   4   5.6e-05      0.36    8.2   0.0    14    31    45    62    40    65 0.87 | transcript=PVPAM_090028000_t1 | gene=PVPAM_090028000 | organism=Plasmodium_vivax_PAM | gene_product=leucine-rich repeat protein | transcript_product=leucine-rich repeat protein | location=CASCJQ010000009:1074912-1077713(+) | protein_length=759 | sequence_SO=supercontig | SO=protein_coding_gene | is_pseudo=false
+CAI7720515.1         -            759 3444at5820           -            533  2.7e-247  820.4  53.6   2   4   1.5e-28     1e-24   85.9   0.3    41   110   141   224   129   243 0.85 | transcript=PVPAM_090028000_t1 | gene=PVPAM_090028000 | organism=Plasmodium_vivax_PAM | gene_product=leucine-rich repeat protein | transcript_product=leucine-rich repeat protein | location=CASCJQ010000009:1074912-1077713(+) | protein_length=759 | sequence_SO=supercontig | SO=protein_coding_gene | is_pseudo=false
+CAI7720515.1         -            759 3444at5820           -            533  2.7e-247  820.4  53.6   3   4    0.0028        18    2.6   0.0   108   132   251   278   233   293 0.77 | transcript=PVPAM_090028000_t1 | gene=PVPAM_090028000 | organism=Plasmodium_vivax_PAM | gene_product=leucine-rich repeat protein | transcript_product=leucine-rich repeat protein | location=CASCJQ010000009:1074912-1077713(+) | protein_length=759 | sequence_SO=supercontig | SO=protein_coding_gene | is_pseudo=false
+CAI7720515.1         -            759 3444at5820           -            533  2.7e-247  820.4  53.6   4   4  7.3e-219  4.7e-215  714.0  44.3   123   533   301   756   291   756 0.92 | transcript=PVPAM_090028000_t1 | gene=PVPAM_090028000 | organism=Plasmodium_vivax_PAM | gene_product=leucine-rich repeat protein | transcript_product=leucine-rich repeat protein | location=CASCJQ010000009:1074912-1077713(+) | protein_length=759 | sequence_SO=supercontig | SO=protein_coding_gene | is_pseudo=false
+#
+# Program:         hmmsearch
+# Version:         3.4 (Aug 2023)
+# Pipeline mode:   SEARCH
+# Query file:      /v3/work/00_inventory/busco/busco_downloads/lineages/plasmodium_odb10/hmms/3444at5820.hmm
+# Target file:     /v3/inputs/annotations/plasmodb-68/PAM.proteins.fa
+# Option settings: hmmsearch --domtblout /v3/work/00_inventory/busco/PAM_proteins/run_plasmodium_odb10/hmmer_output/initial_run_results/3444at5820.out --cpu 1 /v3/work/00_inventory/busco/busco_downloads/lineages/plasmodium_odb10/hmms/3444at5820.hmm /v3/inputs/annotations/plasmodb-68/PAM.proteins.fa 
+# Current dir:     /v3/work/00_inventory/busco
+# Date:            Tue May 19 17:36:52 2026
+# [ok]

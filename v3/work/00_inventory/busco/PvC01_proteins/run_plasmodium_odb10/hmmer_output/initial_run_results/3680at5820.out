@@ -1,0 +1,24 @@
+#                                                                            --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name        accession   tlen query name           accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+#------------------- ---------- ----- -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+SCO75549.1           -            966 3680at5820           -            620  7.5e-289  957.9  35.1   1   7   4.2e-56   8.7e-53  178.1   0.1     1    98     1    98     1   110 0.95 vacuolar transporter chaperone, putative [Plasmodium vivax]
+SCO75549.1           -            966 3680at5820           -            620  7.5e-289  957.9  35.1   2   7   7.5e-43   1.6e-39  134.3   0.1    95   176   122   203   119   208 0.97 vacuolar transporter chaperone, putative [Plasmodium vivax]
+SCO75549.1           -            966 3680at5820           -            620  7.5e-289  957.9  35.1   3   7   8.1e-51   1.7e-47  160.7   0.9   177   305   288   430   284   437 0.89 vacuolar transporter chaperone, putative [Plasmodium vivax]
+SCO75549.1           -            966 3680at5820           -            620  7.5e-289  957.9  35.1   4   7   2.3e-25   4.7e-22   76.6   0.2   297   360   449   512   441   521 0.90 vacuolar transporter chaperone, putative [Plasmodium vivax]
+SCO75549.1           -            966 3680at5820           -            620  7.5e-289  957.9  35.1   5   7   3.9e-36   8.1e-33  112.2   0.0   358   438   549   631   537   639 0.89 vacuolar transporter chaperone, putative [Plasmodium vivax]
+SCO75549.1           -            966 3680at5820           -            620  7.5e-289  957.9  35.1   6   7     1e-15   2.2e-12   44.7   0.1   447   481   699   733   674   743 0.83 vacuolar transporter chaperone, putative [Plasmodium vivax]
+SCO75549.1           -            966 3680at5820           -            620  7.5e-289  957.9  35.1   7   7   8.6e-83   1.8e-79  266.3   7.6   488   620   828   963   802   963 0.93 vacuolar transporter chaperone, putative [Plasmodium vivax]
+SCO73639.1           -            790 3680at5820           -            620   4.5e-10   37.0  40.5   1   3   2.8e-06     0.006   13.5   6.0    14   179     7   185     3   193 0.72 vacuolar transporter chaperone, putative [Plasmodium vivax]
+SCO73639.1           -            790 3680at5820           -            620   4.5e-10   37.0  40.5   2   3    0.0037       7.9    3.2   3.7   179   281   230   353   224   376 0.61 vacuolar transporter chaperone, putative [Plasmodium vivax]
+SCO73639.1           -            790 3680at5820           -            620   4.5e-10   37.0  40.5   3   3   5.2e-11   1.1e-07   29.2  14.9   300   607   416   759   406   770 0.73 vacuolar transporter chaperone, putative [Plasmodium vivax]
+SCO71092.1           -            535 3680at5820           -            620     0.032   11.1   3.0   1   1   0.00021      0.44    7.3   3.0     1   133     1   157     1   164 0.65 RING zinc finger protein, putative [Plasmodium vivax]
+#
+# Program:         hmmsearch
+# Version:         3.4 (Aug 2023)
+# Pipeline mode:   SEARCH
+# Query file:      /v3/work/00_inventory/busco/busco_downloads/lineages/plasmodium_odb10/hmms/3680at5820.hmm
+# Target file:     /v3/inputs/annotations/ncbi-datasets/PvC01.proteins.fa
+# Option settings: hmmsearch --domtblout /v3/work/00_inventory/busco/PvC01_proteins/run_plasmodium_odb10/hmmer_output/initial_run_results/3680at5820.out --cpu 1 /v3/work/00_inventory/busco/busco_downloads/lineages/plasmodium_odb10/hmms/3680at5820.hmm /v3/inputs/annotations/ncbi-datasets/PvC01.proteins.fa 
+# Current dir:     /v3/work/00_inventory/busco
+# Date:            Tue May 19 18:40:16 2026
+# [ok]

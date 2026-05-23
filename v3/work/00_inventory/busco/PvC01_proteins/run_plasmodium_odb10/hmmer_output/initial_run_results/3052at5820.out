@@ -1,0 +1,27 @@
+#                                                                            --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name        accession   tlen query name           accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+#------------------- ---------- ----- -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+SCO74206.1           -            803 3052at5820           -            646         0 1177.0  90.0   1   2   5.5e-76   8.7e-73  244.5  36.6     5   225    28   323    25   340 0.84 cyclic nucleotide phosphodiesterase, putative [Plasmodium vivax]
+SCO74206.1           -            803 3052at5820           -            646         0 1177.0  90.0   2   2  6.7e-285  1.1e-281  934.7  45.4   222   646   345   784   339   784 0.97 cyclic nucleotide phosphodiesterase, putative [Plasmodium vivax]
+SCO74672.1           -           1005 3052at5820           -            646   3.1e-43  146.9  19.3   1   4         4   6.3e+03  -10.5   7.3   113   136   301   324   247   347 0.49 3',5'-cyclic nucleotide phosphodiesterase, putative [Plasmodium vivax]
+SCO74672.1           -           1005 3052at5820           -            646   3.1e-43  146.9  19.3   2   4         4   6.3e+03   -7.8  10.1   104   172   398   465   378   469 0.66 3',5'-cyclic nucleotide phosphodiesterase, putative [Plasmodium vivax]
+SCO74672.1           -           1005 3052at5820           -            646   3.1e-43  146.9  19.3   3   4     2e-46   3.1e-43  146.9  19.3   243   499   657   912   592   920 0.87 3',5'-cyclic nucleotide phosphodiesterase, putative [Plasmodium vivax]
+SCO74672.1           -           1005 3052at5820           -            646   3.1e-43  146.9  19.3   4   4    0.0025         4    4.4   0.2   542   604   921   982   914  1000 0.82 3',5'-cyclic nucleotide phosphodiesterase, putative [Plasmodium vivax]
+SCO75292.1           -           1164 3052at5820           -            646     2e-38  131.0  25.9   1   4      0.71   1.1e+03   -3.6   0.7   588   620   241   271   226   289 0.57 3',5'-cyclic nucleotide phosphodiesterase, putative [Plasmodium vivax]
+SCO75292.1           -           1164 3052at5820           -            646     2e-38  131.0  25.9   2   4         4   6.3e+03   -8.5   8.9   142   167   487   512   437   530 0.62 3',5'-cyclic nucleotide phosphodiesterase, putative [Plasmodium vivax]
+SCO75292.1           -           1164 3052at5820           -            646     2e-38  131.0  25.9   3   4   1.3e-41     2e-38  131.0  25.9   193   503   757  1057   716  1062 0.83 3',5'-cyclic nucleotide phosphodiesterase, putative [Plasmodium vivax]
+SCO75292.1           -           1164 3052at5820           -            646     2e-38  131.0  25.9   4   4   0.00028      0.44    7.6   2.0   552   625  1073  1148  1065  1160 0.77 3',5'-cyclic nucleotide phosphodiesterase, putative [Plasmodium vivax]
+SCO75293.1           -            783 3052at5820           -            646   1.6e-29  101.5  14.9   1   4         4   6.3e+03  -12.9  15.2    62   121    68   122    27   198 0.42 3',5'-cyclic nucleotide phosphodiesterase, putative [Plasmodium vivax]
+SCO75293.1           -            783 3052at5820           -            646   1.6e-29  101.5  14.9   2   4         4   6.3e+03  -17.0  25.3    25   178   121   265   113   362 0.62 3',5'-cyclic nucleotide phosphodiesterase, putative [Plasmodium vivax]
+SCO75293.1           -            783 3052at5820           -            646   1.6e-29  101.5  14.9   3   4     1e-32   1.6e-29  101.5  14.9   277   496   464   677   448   702 0.85 3',5'-cyclic nucleotide phosphodiesterase, putative [Plasmodium vivax]
+SCO75293.1           -            783 3052at5820           -            646   1.6e-29  101.5  14.9   4   4    0.0005      0.79    6.8   0.7   555   602   702   747   685   770 0.86 3',5'-cyclic nucleotide phosphodiesterase, putative [Plasmodium vivax]
+#
+# Program:         hmmsearch
+# Version:         3.4 (Aug 2023)
+# Pipeline mode:   SEARCH
+# Query file:      /v3/work/00_inventory/busco/busco_downloads/lineages/plasmodium_odb10/hmms/3052at5820.hmm
+# Target file:     /v3/inputs/annotations/ncbi-datasets/PvC01.proteins.fa
+# Option settings: hmmsearch --domtblout /v3/work/00_inventory/busco/PvC01_proteins/run_plasmodium_odb10/hmmer_output/initial_run_results/3052at5820.out --cpu 1 /v3/work/00_inventory/busco/busco_downloads/lineages/plasmodium_odb10/hmms/3052at5820.hmm /v3/inputs/annotations/ncbi-datasets/PvC01.proteins.fa 
+# Current dir:     /v3/work/00_inventory/busco
+# Date:            Tue May 19 18:37:18 2026
+# [ok]

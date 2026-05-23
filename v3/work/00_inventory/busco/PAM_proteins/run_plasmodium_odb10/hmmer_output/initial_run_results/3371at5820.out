@@ -1,0 +1,17 @@
+#                                                                            --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name        accession   tlen query name           accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+#------------------- ---------- ----- -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+CAI7722505.1         -            769 3371at5820           -            502  1.8e-257  853.5  63.7   1   4   1.8e-86   1.2e-82  276.9  15.3     1   147     1   156     1   175 0.90 | transcript=PVPAM_120074400_t1 | gene=PVPAM_120074400 | organism=Plasmodium_vivax_PAM | gene_product=DNA repair metallo-beta-lactamase protein, putative | transcript_product=DNA repair metallo-beta-lactamase protein, putative | location=CASCJQ010000012:2891886-2894493(+) | protein_length=769 | sequence_SO=supercontig | SO=protein_coding_gene | is_pseudo=false
+CAI7722505.1         -            769 3371at5820           -            502  1.8e-257  853.5  63.7   2   4   2.7e-42   1.7e-38  131.1   6.2   144   245   198   303   178   309 0.88 | transcript=PVPAM_120074400_t1 | gene=PVPAM_120074400 | organism=Plasmodium_vivax_PAM | gene_product=DNA repair metallo-beta-lactamase protein, putative | transcript_product=DNA repair metallo-beta-lactamase protein, putative | location=CASCJQ010000012:2891886-2894493(+) | protein_length=769 | sequence_SO=supercontig | SO=protein_coding_gene | is_pseudo=false
+CAI7722505.1         -            769 3371at5820           -            502  1.8e-257  853.5  63.7   3   4   3.2e-26   2.1e-22   78.1   0.1   247   294   408   455   377   469 0.92 | transcript=PVPAM_120074400_t1 | gene=PVPAM_120074400 | organism=Plasmodium_vivax_PAM | gene_product=DNA repair metallo-beta-lactamase protein, putative | transcript_product=DNA repair metallo-beta-lactamase protein, putative | location=CASCJQ010000012:2891886-2894493(+) | protein_length=769 | sequence_SO=supercontig | SO=protein_coding_gene | is_pseudo=false
+CAI7722505.1         -            769 3371at5820           -            502  1.8e-257  853.5  63.7   4   4  7.3e-118  4.7e-114  380.4  22.5   293   502   535   766   532   766 0.90 | transcript=PVPAM_120074400_t1 | gene=PVPAM_120074400 | organism=Plasmodium_vivax_PAM | gene_product=DNA repair metallo-beta-lactamase protein, putative | transcript_product=DNA repair metallo-beta-lactamase protein, putative | location=CASCJQ010000012:2891886-2894493(+) | protein_length=769 | sequence_SO=supercontig | SO=protein_coding_gene | is_pseudo=false
+#
+# Program:         hmmsearch
+# Version:         3.4 (Aug 2023)
+# Pipeline mode:   SEARCH
+# Query file:      /v3/work/00_inventory/busco/busco_downloads/lineages/plasmodium_odb10/hmms/3371at5820.hmm
+# Target file:     /v3/inputs/annotations/plasmodb-68/PAM.proteins.fa
+# Option settings: hmmsearch --domtblout /v3/work/00_inventory/busco/PAM_proteins/run_plasmodium_odb10/hmmer_output/initial_run_results/3371at5820.out --cpu 1 /v3/work/00_inventory/busco/busco_downloads/lineages/plasmodium_odb10/hmms/3371at5820.hmm /v3/inputs/annotations/plasmodb-68/PAM.proteins.fa 
+# Current dir:     /v3/work/00_inventory/busco
+# Date:            Tue May 19 17:36:37 2026
+# [ok]

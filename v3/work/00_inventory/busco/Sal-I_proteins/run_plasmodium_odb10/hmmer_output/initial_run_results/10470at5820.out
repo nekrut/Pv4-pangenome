@@ -1,0 +1,17 @@
+#                                                                            --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name        accession   tlen query name           accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+#------------------- ---------- ----- -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+PVX_100885.1-p1      -            423 10470at5820          -            260  8.6e-100  331.8  37.2   1   4   1.7e-70   9.3e-67  223.5  18.0     1   137     1   150     1   169 0.89 | transcript=PVX_100885.1 | gene=PVX_100885 | organism=Plasmodium_vivax_Sal-1 | gene_product=K+ channel tetramerisation domain containing protein | transcript_product=K+ channel tetramerisation domain containing protein | location=Pv_Sal1_chr14:2451212-2453171(+) | protein_length=423 | sequence_SO=chromosome | SO=protein_coding_gene | is_pseudo=false
+PVX_100885.1-p1      -            423 10470at5820          -            260  8.6e-100  331.8  37.2   2   4   8.9e-08   0.00049   17.9   2.4   137   190   203   257   172   263 0.75 | transcript=PVX_100885.1 | gene=PVX_100885 | organism=Plasmodium_vivax_Sal-1 | gene_product=K+ channel tetramerisation domain containing protein | transcript_product=K+ channel tetramerisation domain containing protein | location=Pv_Sal1_chr14:2451212-2453171(+) | protein_length=423 | sequence_SO=chromosome | SO=protein_coding_gene | is_pseudo=false
+PVX_100885.1-p1      -            423 10470at5820          -            260  8.6e-100  331.8  37.2   3   4   1.1e-06    0.0059   14.4   0.1   184   217   282   316   262   324 0.83 | transcript=PVX_100885.1 | gene=PVX_100885 | organism=Plasmodium_vivax_Sal-1 | gene_product=K+ channel tetramerisation domain containing protein | transcript_product=K+ channel tetramerisation domain containing protein | location=Pv_Sal1_chr14:2451212-2453171(+) | protein_length=423 | sequence_SO=chromosome | SO=protein_coding_gene | is_pseudo=false
+PVX_100885.1-p1      -            423 10470at5820          -            260  8.6e-100  331.8  37.2   4   4   1.1e-27   6.2e-24   83.2   0.2   211   260   375   423   355   423 0.88 | transcript=PVX_100885.1 | gene=PVX_100885 | organism=Plasmodium_vivax_Sal-1 | gene_product=K+ channel tetramerisation domain containing protein | transcript_product=K+ channel tetramerisation domain containing protein | location=Pv_Sal1_chr14:2451212-2453171(+) | protein_length=423 | sequence_SO=chromosome | SO=protein_coding_gene | is_pseudo=false
+#
+# Program:         hmmsearch
+# Version:         3.4 (Aug 2023)
+# Pipeline mode:   SEARCH
+# Query file:      /v3/work/00_inventory/busco/busco_downloads/lineages/plasmodium_odb10/hmms/10470at5820.hmm
+# Target file:     /v3/inputs/annotations/plasmodb-68/Sal-I.proteins.fa
+# Option settings: hmmsearch --domtblout /v3/work/00_inventory/busco/Sal-I_proteins/run_plasmodium_odb10/hmmer_output/initial_run_results/10470at5820.out --cpu 1 /v3/work/00_inventory/busco/busco_downloads/lineages/plasmodium_odb10/hmms/10470at5820.hmm /v3/inputs/annotations/plasmodb-68/Sal-I.proteins.fa 
+# Current dir:     /v3/work/00_inventory/busco
+# Date:            Tue May 19 17:26:17 2026
+# [ok]

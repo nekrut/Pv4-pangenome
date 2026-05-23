@@ -1,0 +1,17 @@
+#                                                                            --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name        accession   tlen query name           accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+#------------------- ---------- ----- -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+CAI7719580.1         -            805 3636at5820           -            586  3.5e-287  952.1  37.7   1   4    6e-108  3.9e-104  347.7   9.5     3   199    11   226     9   276 0.77 | transcript=PVPAM_070019400_t1 | gene=PVPAM_070019400 | organism=Plasmodium_vivax_PAM | gene_product=pseudouridylate synthase, putative | transcript_product=pseudouridylate synthase, putative | location=CASCJQ010000007:681268-683685(+) | protein_length=805 | sequence_SO=supercontig | SO=protein_coding_gene | is_pseudo=false
+CAI7719580.1         -            805 3636at5820           -            586  3.5e-287  952.1  37.7   2   4   1.5e-67   9.5e-64  214.3   0.4   221   373   363   524   326   530 0.90 | transcript=PVPAM_070019400_t1 | gene=PVPAM_070019400 | organism=Plasmodium_vivax_PAM | gene_product=pseudouridylate synthase, putative | transcript_product=pseudouridylate synthase, putative | location=CASCJQ010000007:681268-683685(+) | protein_length=805 | sequence_SO=supercontig | SO=protein_coding_gene | is_pseudo=false
+CAI7719580.1         -            805 3636at5820           -            586  3.5e-287  952.1  37.7   3   4   4.1e-67   2.6e-63  212.9   1.1   373   493   550   675   544   678 0.93 | transcript=PVPAM_070019400_t1 | gene=PVPAM_070019400 | organism=Plasmodium_vivax_PAM | gene_product=pseudouridylate synthase, putative | transcript_product=pseudouridylate synthase, putative | location=CASCJQ010000007:681268-683685(+) | protein_length=805 | sequence_SO=supercontig | SO=protein_coding_gene | is_pseudo=false
+CAI7719580.1         -            805 3636at5820           -            586  3.5e-287  952.1  37.7   4   4   1.7e-60   1.1e-56  191.0   5.8   486   586   705   805   702   805 0.97 | transcript=PVPAM_070019400_t1 | gene=PVPAM_070019400 | organism=Plasmodium_vivax_PAM | gene_product=pseudouridylate synthase, putative | transcript_product=pseudouridylate synthase, putative | location=CASCJQ010000007:681268-683685(+) | protein_length=805 | sequence_SO=supercontig | SO=protein_coding_gene | is_pseudo=false
+#
+# Program:         hmmsearch
+# Version:         3.4 (Aug 2023)
+# Pipeline mode:   SEARCH
+# Query file:      /v3/work/00_inventory/busco/busco_downloads/lineages/plasmodium_odb10/hmms/3636at5820.hmm
+# Target file:     /v3/inputs/annotations/plasmodb-68/PAM.proteins.fa
+# Option settings: hmmsearch --domtblout /v3/work/00_inventory/busco/PAM_proteins/run_plasmodium_odb10/hmmer_output/initial_run_results/3636at5820.out --cpu 1 /v3/work/00_inventory/busco/busco_downloads/lineages/plasmodium_odb10/hmms/3636at5820.hmm /v3/inputs/annotations/plasmodb-68/PAM.proteins.fa 
+# Current dir:     /v3/work/00_inventory/busco
+# Date:            Tue May 19 17:37:43 2026
+# [ok]

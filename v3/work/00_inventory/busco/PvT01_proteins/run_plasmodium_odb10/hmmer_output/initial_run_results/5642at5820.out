@@ -1,0 +1,23 @@
+#                                                                            --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name        accession   tlen query name           accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+#------------------- ---------- ----- -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+SCO65941.1           -            636 5642at5820           -            463    2e-281  932.1  32.6   1   3         1   1.6e+03   -4.0   3.2   129   153    39    63    28    70 0.79 GTP-binding protein, putative [Plasmodium vivax]
+SCO65941.1           -            636 5642at5820           -            463    2e-281  932.1  32.6   2   3     2e-05      0.03   11.6   0.1     1    21   100   120   100   124 0.89 GTP-binding protein, putative [Plasmodium vivax]
+SCO65941.1           -            636 5642at5820           -            463    2e-281  932.1  32.6   3   3  3.8e-284  5.8e-281  930.5  28.9    20   463   182   635   175   635 0.97 GTP-binding protein, putative [Plasmodium vivax]
+SCO68033.1           -            367 5642at5820           -            463     1e-08   32.9   0.7   1   2   1.3e-11     2e-08   32.0   0.0   283   352    63   128    49   169 0.82 GTP-binding protein, putative [Plasmodium vivax]
+SCO68033.1           -            367 5642at5820           -            463     1e-08   32.9   0.7   2   2      0.17   2.6e+02   -1.4   0.2   252   268   265   282   210   334 0.61 GTP-binding protein, putative [Plasmodium vivax]
+SCO69474.1           -            570 5642at5820           -            463   4.7e-08   30.7   0.1   1   3   3.1e-11   4.7e-08   30.7   0.1   272   323   213   264   206   275 0.86 GTP-binding protein, putative [Plasmodium vivax]
+SCO69474.1           -            570 5642at5820           -            463   4.7e-08   30.7   0.1   2   3      0.27   4.1e+02   -2.0   4.5   335   412   341   417   329   470 0.47 GTP-binding protein, putative [Plasmodium vivax]
+SCO69474.1           -            570 5642at5820           -            463   4.7e-08   30.7   0.1   3   3       0.3   4.6e+02   -2.2   0.1    26    68   471   521   453   546 0.60 GTP-binding protein, putative [Plasmodium vivax]
+SCO67655.1           -            365 5642at5820           -            463   1.1e-06   26.3   0.5   1   2   1.2e-09   1.8e-06   25.5   0.0   283   350    64   127    55   158 0.80 ribosome-interacting GTPase 1, putative [Plasmodium vivax]
+SCO67655.1           -            365 5642at5820           -            463   1.1e-06   26.3   0.5   2   2      0.61   9.2e+02   -3.2   0.3   122   153   181   212   177   220 0.66 ribosome-interacting GTPase 1, putative [Plasmodium vivax]
+#
+# Program:         hmmsearch
+# Version:         3.4 (Aug 2023)
+# Pipeline mode:   SEARCH
+# Query file:      /v3/work/00_inventory/busco/busco_downloads/lineages/plasmodium_odb10/hmms/5642at5820.hmm
+# Target file:     /v3/inputs/annotations/ncbi-datasets/PvT01.proteins.fa
+# Option settings: hmmsearch --domtblout /v3/work/00_inventory/busco/PvT01_proteins/run_plasmodium_odb10/hmmer_output/initial_run_results/5642at5820.out --cpu 1 /v3/work/00_inventory/busco/busco_downloads/lineages/plasmodium_odb10/hmms/5642at5820.hmm /v3/inputs/annotations/ncbi-datasets/PvT01.proteins.fa 
+# Current dir:     /v3/work/00_inventory/busco
+# Date:            Tue May 19 18:55:17 2026
+# [ok]

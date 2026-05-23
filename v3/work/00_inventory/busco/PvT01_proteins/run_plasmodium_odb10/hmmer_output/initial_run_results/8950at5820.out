@@ -1,0 +1,20 @@
+#                                                                            --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name        accession   tlen query name           accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+#------------------- ---------- ----- -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+SCO65009.1           -            465 8950at5820           -            318  3.3e-176  583.3  22.7   1   3   7.1e-98   1.4e-94  315.1   4.6     1   147     1   147     1   172 0.95 GTPase-activating protein, putative [Plasmodium vivax]
+SCO65009.1           -            465 8950at5820           -            318  3.3e-176  583.3  22.7   2   3   2.5e-20     5e-17   60.3   0.1   163   201   230   268   224   289 0.88 GTPase-activating protein, putative [Plasmodium vivax]
+SCO65009.1           -            465 8950at5820           -            318  3.3e-176  583.3  22.7   3   3   1.1e-67   2.2e-64  215.9   6.0   208   318   355   465   345   465 0.97 GTPase-activating protein, putative [Plasmodium vivax]
+SCO70193.1           -            341 8950at5820           -            318   1.7e-24   84.9  12.0   1   1   1.3e-27   2.5e-24   84.3  12.0    35   262    16   259     7   269 0.73 ADP-ribosylation factor GTPase-activating protein, putative [Plasmodium vivax]
+SCO67636.1           -            538 8950at5820           -            318   2.4e-16   58.1   0.4   1   3   1.2e-19   2.4e-16   58.1   0.4    34   106    20    93    11   105 0.85 ADP-ribosylation factor GTPase-activating protein, putative [Plasmodium vivax]
+SCO67636.1           -            538 8950at5820           -            318   2.4e-16   58.1   0.4   2   3         3   6.1e+03   -7.3   9.3   150   270   178   254   154   274 0.46 ADP-ribosylation factor GTPase-activating protein, putative [Plasmodium vivax]
+SCO67636.1           -            538 8950at5820           -            318   2.4e-16   58.1   0.4   3   3      0.93   1.9e+03   -4.0   2.3   261   274   455   468   389   531 0.55 ADP-ribosylation factor GTPase-activating protein, putative [Plasmodium vivax]
+#
+# Program:         hmmsearch
+# Version:         3.4 (Aug 2023)
+# Pipeline mode:   SEARCH
+# Query file:      /v3/work/00_inventory/busco/busco_downloads/lineages/plasmodium_odb10/hmms/8950at5820.hmm
+# Target file:     /v3/inputs/annotations/ncbi-datasets/PvT01.proteins.fa
+# Option settings: hmmsearch --domtblout /v3/work/00_inventory/busco/PvT01_proteins/run_plasmodium_odb10/hmmer_output/initial_run_results/8950at5820.out --cpu 1 /v3/work/00_inventory/busco/busco_downloads/lineages/plasmodium_odb10/hmms/8950at5820.hmm /v3/inputs/annotations/ncbi-datasets/PvT01.proteins.fa 
+# Current dir:     /v3/work/00_inventory/busco
+# Date:            Tue May 19 19:07:58 2026
+# [ok]

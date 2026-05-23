@@ -1,0 +1,18 @@
+#                                                                            --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name        accession   tlen query name           accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+#------------------- ---------- ----- -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+PVX_000620.1-p1      -           1021 4241at5820           -            734         0 1115.8 105.5   1   5   9.4e-41   5.2e-37  125.8   1.8     2    71     1    70     1    88 0.96 | transcript=PVX_000620.1 | gene=PVX_000620 | organism=Plasmodium_vivax_Sal-1 | gene_product=protein SDA1, putative | transcript_product=protein SDA1, putative | location=Pv_Sal1_chr03:428027-431092(-) | protein_length=1021 | sequence_SO=chromosome | SO=protein_coding_gene | is_pseudo=false
+PVX_000620.1-p1      -           1021 4241at5820           -            734         0 1115.8 105.5   2   5     8e-48   4.4e-44  149.2   9.6    85   192   155   263   120   268 0.82 | transcript=PVX_000620.1 | gene=PVX_000620 | organism=Plasmodium_vivax_Sal-1 | gene_product=protein SDA1, putative | transcript_product=protein SDA1, putative | location=Pv_Sal1_chr03:428027-431092(-) | protein_length=1021 | sequence_SO=chromosome | SO=protein_coding_gene | is_pseudo=false
+PVX_000620.1-p1      -           1021 4241at5820           -            734         0 1115.8 105.5   3   5   7.3e-12     4e-08   30.3   0.0   191   222   309   340   305   343 0.92 | transcript=PVX_000620.1 | gene=PVX_000620 | organism=Plasmodium_vivax_Sal-1 | gene_product=protein SDA1, putative | transcript_product=protein SDA1, putative | location=Pv_Sal1_chr03:428027-431092(-) | protein_length=1021 | sequence_SO=chromosome | SO=protein_coding_gene | is_pseudo=false
+PVX_000620.1-p1      -           1021 4241at5820           -            734         0 1115.8 105.5   4   5  1.9e-171    1e-167  557.9  29.2   220   570   381   760   369   771 0.91 | transcript=PVX_000620.1 | gene=PVX_000620 | organism=Plasmodium_vivax_Sal-1 | gene_product=protein SDA1, putative | transcript_product=protein SDA1, putative | location=Pv_Sal1_chr03:428027-431092(-) | protein_length=1021 | sequence_SO=chromosome | SO=protein_coding_gene | is_pseudo=false
+PVX_000620.1-p1      -           1021 4241at5820           -            734         0 1115.8 105.5   5   5   2.6e-83   1.5e-79  266.5  38.4   556   734   840  1021   832  1021 0.95 | transcript=PVX_000620.1 | gene=PVX_000620 | organism=Plasmodium_vivax_Sal-1 | gene_product=protein SDA1, putative | transcript_product=protein SDA1, putative | location=Pv_Sal1_chr03:428027-431092(-) | protein_length=1021 | sequence_SO=chromosome | SO=protein_coding_gene | is_pseudo=false
+#
+# Program:         hmmsearch
+# Version:         3.4 (Aug 2023)
+# Pipeline mode:   SEARCH
+# Query file:      /v3/work/00_inventory/busco/busco_downloads/lineages/plasmodium_odb10/hmms/4241at5820.hmm
+# Target file:     /v3/inputs/annotations/plasmodb-68/Sal-I.proteins.fa
+# Option settings: hmmsearch --domtblout /v3/work/00_inventory/busco/Sal-I_proteins/run_plasmodium_odb10/hmmer_output/initial_run_results/4241at5820.out --cpu 1 /v3/work/00_inventory/busco/busco_downloads/lineages/plasmodium_odb10/hmms/4241at5820.hmm /v3/inputs/annotations/plasmodb-68/Sal-I.proteins.fa 
+# Current dir:     /v3/work/00_inventory/busco
+# Date:            Tue May 19 17:40:53 2026
+# [ok]

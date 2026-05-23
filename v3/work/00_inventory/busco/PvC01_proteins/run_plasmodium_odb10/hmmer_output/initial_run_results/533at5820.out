@@ -1,0 +1,22 @@
+#                                                                            --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name        accession   tlen query name           accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+#------------------- ---------- ----- -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+SCO70486.1           -           1696 533at5820            -           1409         0 2919.3  31.1   1   3         0         0 1794.0  17.1     1   874     1   985     1   994 0.95 ferlin, putative [Plasmodium vivax]
+SCO70486.1           -           1696 533at5820            -           1409         0 2919.3  31.1   2   3   2.4e-18   7.4e-15   52.0   0.1   883   922  1124  1163  1110  1168 0.92 ferlin, putative [Plasmodium vivax]
+SCO70486.1           -           1696 533at5820            -           1409         0 2919.3  31.1   3   3         0         0 1073.1   1.7   933  1409  1220  1696  1182  1696 0.98 ferlin, putative [Plasmodium vivax]
+SCO74357.1           -           1903 533at5820            -           1409   1.1e-37  127.7  29.2   1   6     0.001       3.2    3.5   0.9    29   116    19   110     7   121 0.77 ferlin, putative [Plasmodium vivax]
+SCO74357.1           -           1903 533at5820            -           1409   1.1e-37  127.7  29.2   2   6   3.9e-09   1.2e-05   21.5   3.5   147   296   175   326   159   367 0.81 ferlin, putative [Plasmodium vivax]
+SCO74357.1           -           1903 533at5820            -           1409   1.1e-37  127.7  29.2   3   6   6.4e-06      0.02   10.8   0.6   495   638   579   739   550   798 0.69 ferlin, putative [Plasmodium vivax]
+SCO74357.1           -           1903 533at5820            -           1409   1.1e-37  127.7  29.2   4   6    0.0071        22    0.7   0.1   787   857  1002  1072   980  1086 0.67 ferlin, putative [Plasmodium vivax]
+SCO74357.1           -           1903 533at5820            -           1409   1.1e-37  127.7  29.2   5   6   3.2e-06      0.01   11.8   0.0  1085  1158  1493  1571  1481  1580 0.86 ferlin, putative [Plasmodium vivax]
+SCO74357.1           -           1903 533at5820            -           1409   1.1e-37  127.7  29.2   6   6   5.6e-31   1.8e-27   93.8   0.5  1165  1368  1651  1863  1634  1896 0.88 ferlin, putative [Plasmodium vivax]
+#
+# Program:         hmmsearch
+# Version:         3.4 (Aug 2023)
+# Pipeline mode:   SEARCH
+# Query file:      /v3/work/00_inventory/busco/busco_downloads/lineages/plasmodium_odb10/hmms/533at5820.hmm
+# Target file:     /v3/inputs/annotations/ncbi-datasets/PvC01.proteins.fa
+# Option settings: hmmsearch --domtblout /v3/work/00_inventory/busco/PvC01_proteins/run_plasmodium_odb10/hmmer_output/initial_run_results/533at5820.out --cpu 1 /v3/work/00_inventory/busco/busco_downloads/lineages/plasmodium_odb10/hmms/533at5820.hmm /v3/inputs/annotations/ncbi-datasets/PvC01.proteins.fa 
+# Current dir:     /v3/work/00_inventory/busco
+# Date:            Tue May 19 18:51:02 2026
+# [ok]

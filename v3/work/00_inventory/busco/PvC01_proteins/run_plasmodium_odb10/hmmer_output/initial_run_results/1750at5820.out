@@ -1,0 +1,27 @@
+#                                                                            --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name        accession   tlen query name           accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+#------------------- ---------- ----- -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+SCO71810.1           -           1117 1750at5820           -            846         0 1450.7 105.6   1   4     1e-44   1.3e-41  141.3   0.2     1    92     8   115     8   122 0.90 WD repeat-containing protein 66, putative [Plasmodium vivax]
+SCO71810.1           -           1117 1750at5820           -            846         0 1450.7 105.6   2   4    2e-130  2.5e-127  424.9  21.7    89   326   167   430   158   434 0.93 WD repeat-containing protein 66, putative [Plasmodium vivax]
+SCO71810.1           -           1117 1750at5820           -            846         0 1450.7 105.6   3   4  1.8e-227  2.2e-224  746.0  53.3   326   746   483   956   478   961 0.93 WD repeat-containing protein 66, putative [Plasmodium vivax]
+SCO71810.1           -           1117 1750at5820           -            846         0 1450.7 105.6   4   4   5.5e-46   6.9e-43  145.6   9.2   747   846  1016  1117  1010  1117 0.97 WD repeat-containing protein 66, putative [Plasmodium vivax]
+SCO72943.1           -            660 1750at5820           -            846   2.2e-06   24.8   4.6   1   3   8.6e-05      0.11    9.3   0.3   333   459    78   206    53   225 0.80 ribosome assembly protein 4, putative [Plasmodium vivax]
+SCO72943.1           -            660 1750at5820           -            846   2.2e-06   24.8   4.6   2   3      0.36   4.5e+02   -2.7   0.0   697   722   433   458   363   482 0.61 ribosome assembly protein 4, putative [Plasmodium vivax]
+SCO72943.1           -            660 1750at5820           -            846   2.2e-06   24.8   4.6   3   3   4.1e-07   0.00052   17.0   0.1    37    85   525   571   497   578 0.81 ribosome assembly protein 4, putative [Plasmodium vivax]
+SCO70851.1           -            327 1750at5820           -            846     2e-05   21.6   0.5   1   2    0.0017       2.1    5.0   0.0    46   119     7    81     1    95 0.74 eukaryotic translation initiation factor 3 subunit I, putative [Plasmodium vivax]
+SCO70851.1           -            327 1750at5820           -            846     2e-05   21.6   0.5   2   2   1.8e-06    0.0022   14.9   0.1   301   410   104   219    94   242 0.80 eukaryotic translation initiation factor 3 subunit I, putative [Plasmodium vivax]
+SCO71635.1           -            642 1750at5820           -            846    0.0018   15.2   0.3   1   1   2.5e-06    0.0032   14.4   0.3   224   278   324   380   302   403 0.73 cell division cycle protein 20 homolog, putative [Plasmodium vivax]
+SCO71025.1           -           1498 1750at5820           -            846     0.013   12.3   7.1   1   4   0.00085       1.1    6.0   0.5    20    88    35   106    23   122 0.74 conserved Plasmodium protein, unknown function [Plasmodium vivax]
+SCO71025.1           -           1498 1750at5820           -            846     0.013   12.3   7.1   2   4     0.023        28    1.3   0.1   357   400    88   132    71   139 0.73 conserved Plasmodium protein, unknown function [Plasmodium vivax]
+SCO71025.1           -           1498 1750at5820           -            846     0.013   12.3   7.1   3   4     0.013        17    2.0   0.0   346   404   460   517   453   531 0.74 conserved Plasmodium protein, unknown function [Plasmodium vivax]
+SCO71025.1           -           1498 1750at5820           -            846     0.013   12.3   7.1   4   4   0.00097       1.2    5.8   0.2   334   398   656   716   630   727 0.76 conserved Plasmodium protein, unknown function [Plasmodium vivax]
+#
+# Program:         hmmsearch
+# Version:         3.4 (Aug 2023)
+# Pipeline mode:   SEARCH
+# Query file:      /v3/work/00_inventory/busco/busco_downloads/lineages/plasmodium_odb10/hmms/1750at5820.hmm
+# Target file:     /v3/inputs/annotations/ncbi-datasets/PvC01.proteins.fa
+# Option settings: hmmsearch --domtblout /v3/work/00_inventory/busco/PvC01_proteins/run_plasmodium_odb10/hmmer_output/initial_run_results/1750at5820.out --cpu 1 /v3/work/00_inventory/busco/busco_downloads/lineages/plasmodium_odb10/hmms/1750at5820.hmm /v3/inputs/annotations/ncbi-datasets/PvC01.proteins.fa 
+# Current dir:     /v3/work/00_inventory/busco
+# Date:            Tue May 19 18:35:47 2026
+# [ok]

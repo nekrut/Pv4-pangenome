@@ -1,0 +1,17 @@
+#                                                                            --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name        accession   tlen query name           accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+#------------------- ---------- ----- -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+CAI7723087.1         -            889 3065at5820           -            714         0 1212.4  77.9   1   3   3.4e-20   1.1e-16   58.8   0.2     1    40     1    40     1    45 0.97 | transcript=PVPAM_130059300_t1 | gene=PVPAM_130059300 | organism=Plasmodium_vivax_PAM | gene_product=adenylyl cyclase alpha, putative | transcript_product=adenylyl cyclase alpha, putative | location=CASCJQ010000013:2404707-2411125(+) | protein_length=889 | sequence_SO=supercontig | SO=protein_coding_gene | is_pseudo=false
+CAI7723087.1         -            889 3065at5820           -            714         0 1212.4  77.9   2   3  4.2e-227  1.3e-223  742.8  63.4    26   473    82   594    71   603 0.90 | transcript=PVPAM_130059300_t1 | gene=PVPAM_130059300 | organism=Plasmodium_vivax_PAM | gene_product=adenylyl cyclase alpha, putative | transcript_product=adenylyl cyclase alpha, putative | location=CASCJQ010000013:2404707-2411125(+) | protein_length=889 | sequence_SO=supercontig | SO=protein_coding_gene | is_pseudo=false
+CAI7723087.1         -            889 3065at5820           -            714         0 1212.4  77.9   3   3  6.3e-128    2e-124  414.9   2.0   470   714   617   889   613   889 0.94 | transcript=PVPAM_130059300_t1 | gene=PVPAM_130059300 | organism=Plasmodium_vivax_PAM | gene_product=adenylyl cyclase alpha, putative | transcript_product=adenylyl cyclase alpha, putative | location=CASCJQ010000013:2404707-2411125(+) | protein_length=889 | sequence_SO=supercontig | SO=protein_coding_gene | is_pseudo=false
+CAI7720889.1         -            246 3065at5820           -            714    0.0037   14.1   4.0   1   1   2.1e-06    0.0067   13.2   4.0   602   653   177   228   171   238 0.92 | transcript=PVPAM_100015700_t1 | gene=PVPAM_100015700 | organism=Plasmodium_vivax_PAM | gene_product=50S ribosomal protein L12, apicoplast, putative | transcript_product=50S ribosomal protein L12, apicoplast, putative | location=CASCJQ010000010:472100-472840(-) | protein_length=246 | sequence_SO=supercontig | SO=protein_coding_gene | is_pseudo=false
+#
+# Program:         hmmsearch
+# Version:         3.4 (Aug 2023)
+# Pipeline mode:   SEARCH
+# Query file:      /v3/work/00_inventory/busco/busco_downloads/lineages/plasmodium_odb10/hmms/3065at5820.hmm
+# Target file:     /v3/inputs/annotations/plasmodb-68/PAM.proteins.fa
+# Option settings: hmmsearch --domtblout /v3/work/00_inventory/busco/PAM_proteins/run_plasmodium_odb10/hmmer_output/initial_run_results/3065at5820.out --cpu 1 /v3/work/00_inventory/busco/busco_downloads/lineages/plasmodium_odb10/hmms/3065at5820.hmm /v3/inputs/annotations/plasmodb-68/PAM.proteins.fa 
+# Current dir:     /v3/work/00_inventory/busco
+# Date:            Tue May 19 17:35:36 2026
+# [ok]

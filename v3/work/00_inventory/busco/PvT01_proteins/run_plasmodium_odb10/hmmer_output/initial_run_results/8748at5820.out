@@ -1,0 +1,17 @@
+#                                                                            --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name        accession   tlen query name           accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+#------------------- ---------- ----- -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+SCO66558.1           -            414 8748at5820           -            280  4.2e-115  382.4   1.8   1   3     4e-26   1.2e-22   79.0   0.0     2    59    13    74    12    77 0.91 lipoate-protein ligase 2, putative [Plasmodium vivax]
+SCO66558.1           -            414 8748at5820           -            280  4.2e-115  382.4   1.8   2   3   1.4e-42   4.3e-39  133.0   0.4    59   135   126   202   122   216 0.97 lipoate-protein ligase 2, putative [Plasmodium vivax]
+SCO66558.1           -            414 8748at5820           -            280  4.2e-115  382.4   1.8   3   3   3.5e-53   1.1e-49  167.8   0.0   131   269   222   396   205   403 0.89 lipoate-protein ligase 2, putative [Plasmodium vivax]
+SCO69733.1           -            423 8748at5820           -            280   1.7e-05   22.8   1.9   1   1   1.5e-08   4.5e-05   21.4   1.9    58   185    72   193    24   237 0.81 lipoate-protein ligase 1, putative [Plasmodium vivax]
+#
+# Program:         hmmsearch
+# Version:         3.4 (Aug 2023)
+# Pipeline mode:   SEARCH
+# Query file:      /v3/work/00_inventory/busco/busco_downloads/lineages/plasmodium_odb10/hmms/8748at5820.hmm
+# Target file:     /v3/inputs/annotations/ncbi-datasets/PvT01.proteins.fa
+# Option settings: hmmsearch --domtblout /v3/work/00_inventory/busco/PvT01_proteins/run_plasmodium_odb10/hmmer_output/initial_run_results/8748at5820.out --cpu 1 /v3/work/00_inventory/busco/busco_downloads/lineages/plasmodium_odb10/hmms/8748at5820.hmm /v3/inputs/annotations/ncbi-datasets/PvT01.proteins.fa 
+# Current dir:     /v3/work/00_inventory/busco
+# Date:            Tue May 19 19:07:09 2026
+# [ok]

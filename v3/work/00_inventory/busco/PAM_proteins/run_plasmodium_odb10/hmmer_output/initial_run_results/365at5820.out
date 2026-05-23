@@ -1,0 +1,18 @@
+#                                                                            --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name        accession   tlen query name           accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+#------------------- ---------- ----- -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+CAI7723533.1         -           2850 365at5820            -           2034         0 3046.5 182.3   1   2  8.9e-301  1.4e-297  989.2  65.3     1   708     1   974     1  1001 0.86 | transcript=PVPAM_140045700_t1 | gene=PVPAM_140045700 | organism=Plasmodium_vivax_PAM | gene_product=formin 2, putative | transcript_product=formin 2, putative | location=CASCJQ010000014:1707454-1716006(+) | protein_length=2850 | sequence_SO=supercontig | SO=protein_coding_gene | is_pseudo=false
+CAI7723533.1         -           2850 365at5820            -           2034         0 3046.5 182.3   2   2         0         0 2057.4 109.1   680  1987  1065  2694  1006  2724 0.87 | transcript=PVPAM_140045700_t1 | gene=PVPAM_140045700 | organism=Plasmodium_vivax_PAM | gene_product=formin 2, putative | transcript_product=formin 2, putative | location=CASCJQ010000014:1707454-1716006(+) | protein_length=2850 | sequence_SO=supercontig | SO=protein_coding_gene | is_pseudo=false
+CAI7719007.1         -            294 365at5820            -           2034    0.0019   13.9   8.7   1   1   1.4e-06    0.0022   13.7   8.7   532   662    51   180    40   244 0.59 | transcript=PVPAM_050039900_t1 | gene=PVPAM_050039900 | organism=Plasmodium_vivax_PAM | gene_product=conserved Plasmodium protein, unknown function | transcript_product=conserved Plasmodium protein, unknown function | location=CASCJQ010000005:1474687-1475707(-) | protein_length=294 | sequence_SO=supercontig | SO=protein_coding_gene | is_pseudo=false
+CAI7721936.1         -            384 365at5820            -           2034     0.024   10.2  11.8   1   1   2.1e-05     0.034    9.7  11.8   529   608   103   240    80   287 0.44 | transcript=PVPAM_120017000_t1 | gene=PVPAM_120017000 | organism=Plasmodium_vivax_PAM | gene_product=casein kinase II beta chain, putative | transcript_product=casein kinase II beta chain, putative | location=CASCJQ010000012:534291-535668(+) | protein_length=384 | sequence_SO=supercontig | SO=protein_coding_gene | is_pseudo=false
+CAI7720306.1         -            343 365at5820            -           2034     0.027   10.0  20.2   1   1   2.1e-05     0.034    9.7  20.2   507   752    79   326    65   340 0.34 | transcript=PVPAM_090007000_t1 | gene=PVPAM_090007000 | organism=Plasmodium_vivax_PAM | gene_product=unspecified product | transcript_product=unspecified product | location=CASCJQ010000009:151890-153042(+) | protein_length=343 | sequence_SO=supercontig | SO=protein_coding_gene | is_pseudo=false
+#
+# Program:         hmmsearch
+# Version:         3.4 (Aug 2023)
+# Pipeline mode:   SEARCH
+# Query file:      /v3/work/00_inventory/busco/busco_downloads/lineages/plasmodium_odb10/hmms/365at5820.hmm
+# Target file:     /v3/inputs/annotations/plasmodb-68/PAM.proteins.fa
+# Option settings: hmmsearch --domtblout /v3/work/00_inventory/busco/PAM_proteins/run_plasmodium_odb10/hmmer_output/initial_run_results/365at5820.out --cpu 1 /v3/work/00_inventory/busco/busco_downloads/lineages/plasmodium_odb10/hmms/365at5820.hmm /v3/inputs/annotations/plasmodb-68/PAM.proteins.fa 
+# Current dir:     /v3/work/00_inventory/busco
+# Date:            Tue May 19 17:37:53 2026
+# [ok]

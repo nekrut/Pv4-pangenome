@@ -1,0 +1,17 @@
+#                                                                            --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name        accession   tlen query name           accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+#------------------- ---------- ----- -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+PVX_081722.1-p1      -            131 13842at5820          -            116   6.6e-61  202.0   7.8   1   1   5.4e-64   7.5e-61  201.8   7.8     1   116     8   131     8   131 0.97 | transcript=PVX_081722.1 | gene=PVX_081722 | organism=Plasmodium_vivax_Sal-1 | gene_product=conserved Plasmodium protein, unknown function | transcript_product=conserved Plasmodium protein, unknown function | location=Pv_Sal1_chr02:605000-606127(-) | protein_length=131 | sequence_SO=chromosome | SO=protein_coding_gene | is_pseudo=false
+PVX_118162.1-p1      -            168 13842at5820          -            116   0.00044   18.8   0.2   1   1   5.2e-07   0.00072   18.1   0.2     2   100    29   141    28   146 0.73 | transcript=PVX_118162.1 | gene=PVX_118162 | organism=Plasmodium_vivax_Sal-1 | gene_product=centrin-2, putative | transcript_product=centrin-2, putative | location=Pv_Sal1_chr12:2454218-2454979(+) | protein_length=168 | sequence_SO=chromosome | SO=protein_coding_gene | is_pseudo=false
+PVX_090955.1-p1      -            167 13842at5820          -            116   0.00089   17.8   6.1   1   1   6.4e-07   0.00089   17.8   6.1     5    99    22   130    18   140 0.75 | transcript=PVX_090955.1 | gene=PVX_090955 | organism=Plasmodium_vivax_Sal-1 | gene_product=centrin-4, putative | transcript_product=centrin-4, putative | location=Pv_Sal1_chr09:127686-128461(+) | protein_length=167 | sequence_SO=chromosome | SO=protein_coding_gene | is_pseudo=false
+PVX_089667.1-p1      -            150 13842at5820          -            116   0.00089   17.8   4.9   1   1   1.7e-06    0.0024   16.4   4.9     2   110    14   134    13   140 0.69 | transcript=PVX_089667.1 | gene=PVX_089667 | organism=Plasmodium_vivax_Sal-1 | gene_product=calmodulin-like protein | transcript_product=calmodulin-like protein | location=Pv_Sal1_chr05:749550-750532(-) | protein_length=150 | sequence_SO=chromosome | SO=protein_coding_gene | is_pseudo=false
+#
+# Program:         hmmsearch
+# Version:         3.4 (Aug 2023)
+# Pipeline mode:   SEARCH
+# Query file:      /v3/work/00_inventory/busco/busco_downloads/lineages/plasmodium_odb10/hmms/13842at5820.hmm
+# Target file:     /v3/inputs/annotations/plasmodb-68/Sal-I.proteins.fa
+# Option settings: hmmsearch --domtblout /v3/work/00_inventory/busco/Sal-I_proteins/run_plasmodium_odb10/hmmer_output/initial_run_results/13842at5820.out --cpu 1 /v3/work/00_inventory/busco/busco_downloads/lineages/plasmodium_odb10/hmms/13842at5820.hmm /v3/inputs/annotations/plasmodb-68/Sal-I.proteins.fa 
+# Current dir:     /v3/work/00_inventory/busco
+# Date:            Tue May 19 17:31:33 2026
+# [ok]

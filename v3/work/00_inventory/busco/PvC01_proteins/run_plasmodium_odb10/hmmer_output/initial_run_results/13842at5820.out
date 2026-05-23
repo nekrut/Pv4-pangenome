@@ -1,0 +1,19 @@
+#                                                                            --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name        accession   tlen query name           accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+#------------------- ---------- ----- -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+SCO70686.1           -            131 13842at5820          -            116   7.5e-61  202.0   7.8   1   1   6.8e-64   8.6e-61  201.8   7.8     1   116     8   131     8   131 0.97 conserved Plasmodium protein, unknown function [Plasmodium vivax]
+SCO74449.1           -            168 13842at5820          -            116    0.0005   18.8   0.2   1   1   6.5e-07   0.00082   18.1   0.2     2   100    29   141    28   146 0.73 centrin-2, putative [Plasmodium vivax]
+SCO72548.1           -            167 13842at5820          -            116    0.0009   17.9   6.1   1   1   7.2e-07    0.0009   17.9   6.1     5    99    22   130    18   140 0.75 centrin-4, putative [Plasmodium vivax]
+SCO71364.1           -            150 13842at5820          -            116     0.001   17.8   4.9   1   1   2.2e-06    0.0027   16.4   4.9     2   110    14   134    13   140 0.69 calmodulin-like protein [Plasmodium vivax]
+SCA81910.1           -            292 13842at5820          -            116       5.5    5.7  13.2   1   2   7.7e-05     0.097   11.4   2.3    35    86    17    68     6    92 0.84 Plasmodium vivax Vir protein, putative [Plasmodium vivax]
+SCA81910.1           -            292 13842at5820          -            116       5.5    5.7  13.2   2   2      0.73   9.2e+02   -1.4   4.3    47   102   109   171    73   185 0.57 Plasmodium vivax Vir protein, putative [Plasmodium vivax]
+#
+# Program:         hmmsearch
+# Version:         3.4 (Aug 2023)
+# Pipeline mode:   SEARCH
+# Query file:      /v3/work/00_inventory/busco/busco_downloads/lineages/plasmodium_odb10/hmms/13842at5820.hmm
+# Target file:     /v3/inputs/annotations/ncbi-datasets/PvC01.proteins.fa
+# Option settings: hmmsearch --domtblout /v3/work/00_inventory/busco/PvC01_proteins/run_plasmodium_odb10/hmmer_output/initial_run_results/13842at5820.out --cpu 1 /v3/work/00_inventory/busco/busco_downloads/lineages/plasmodium_odb10/hmms/13842at5820.hmm /v3/inputs/annotations/ncbi-datasets/PvC01.proteins.fa 
+# Current dir:     /v3/work/00_inventory/busco
+# Date:            Tue May 19 18:33:38 2026
+# [ok]

@@ -1,0 +1,26 @@
+#                                                                            --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name        accession   tlen query name           accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+#------------------- ---------- ----- -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+SCO71827.1           -           1225 4469at5820           -            832         0 1207.9  86.7   1   3   1.7e-06    0.0018   15.2   5.0     1    81     1    89     1   103 0.63 GTPase-activating protein, putative [Plasmodium vivax]
+SCO71827.1           -           1225 4469at5820           -            832         0 1207.9  86.7   2   3         0         0 1028.2   9.2    33   570   100   737    85   767 0.88 GTPase-activating protein, putative [Plasmodium vivax]
+SCO71827.1           -           1225 4469at5820           -            832         0 1207.9  86.7   3   3   5.5e-55   5.8e-52  175.6  56.5   576   825   866  1213   820  1223 0.73 GTPase-activating protein, putative [Plasmodium vivax]
+SCO74125.1           -            547 4469at5820           -            832   1.8e-39  134.3  15.7   1   1   2.9e-42     3e-39  133.5  15.7   158   383   265   503   244   516 0.85 TBC domain containing protein [Plasmodium vivax]
+SCO72629.1           -            372 4469at5820           -            832   6.4e-23   79.5  19.3   1   2      0.78   8.2e+02   -3.6   4.8   545   658    23    64     2    82 0.26 GTPase-activating protein, putative [Plasmodium vivax]
+SCO72629.1           -            372 4469at5820           -            832   6.4e-23   79.5  19.3   2   2   6.1e-26   6.4e-23   79.5  19.3   148   388    86   336    62   354 0.82 GTPase-activating protein, putative [Plasmodium vivax]
+SCO73285.1           -            732 4469at5820           -            832   1.5e-18   65.0  12.3   1   3       1.3   1.3e+03   -4.2   2.6    63    91   131   160    40   182 0.54 GTPase-activating protein, putative [Plasmodium vivax]
+SCO73285.1           -            732 4469at5820           -            832   1.5e-18   65.0  12.3   2   3      0.05        53    0.4   0.0   192   213   275   296   247   299 0.91 GTPase-activating protein, putative [Plasmodium vivax]
+SCO73285.1           -            732 4469at5820           -            832   1.5e-18   65.0  12.3   3   3   1.5e-21   1.5e-18   65.0  12.3   222   382   337   496   335   503 0.97 GTPase-activating protein, putative [Plasmodium vivax]
+SCO74180.1           -            620 4469at5820           -            832   1.2e-09   35.6   7.8   1   3      0.62   6.5e+02   -3.2   0.1   529   529    28    28     5    91 0.51 GTPase-activating protein, putative [Plasmodium vivax]
+SCO74180.1           -            620 4469at5820           -            832   1.2e-09   35.6   7.8   2   3   2.5e-08   2.6e-05   21.2   0.0   187   258   146   217   140   244 0.84 GTPase-activating protein, putative [Plasmodium vivax]
+SCO74180.1           -            620 4469at5820           -            832   1.2e-09   35.6   7.8   3   3   3.4e-07   0.00036   17.5   1.7   283   347   282   346   275   350 0.94 GTPase-activating protein, putative [Plasmodium vivax]
+SCO73266.1           -            270 4469at5820           -            832       8.9    2.9  19.6   1   1     0.011        11    2.6  19.6   496   735   104   253    21   269 0.37 conserved Plasmodium protein, unknown function [Plasmodium vivax]
+#
+# Program:         hmmsearch
+# Version:         3.4 (Aug 2023)
+# Pipeline mode:   SEARCH
+# Query file:      /v3/work/00_inventory/busco/busco_downloads/lineages/plasmodium_odb10/hmms/4469at5820.hmm
+# Target file:     /v3/inputs/annotations/ncbi-datasets/PvC01.proteins.fa
+# Option settings: hmmsearch --domtblout /v3/work/00_inventory/busco/PvC01_proteins/run_plasmodium_odb10/hmmer_output/initial_run_results/4469at5820.out --cpu 1 /v3/work/00_inventory/busco/busco_downloads/lineages/plasmodium_odb10/hmms/4469at5820.hmm /v3/inputs/annotations/ncbi-datasets/PvC01.proteins.fa 
+# Current dir:     /v3/work/00_inventory/busco
+# Date:            Tue May 19 18:48:31 2026
+# [ok]

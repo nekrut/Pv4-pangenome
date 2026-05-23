@@ -1,0 +1,22 @@
+#                                                                            --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name        accession   tlen query name           accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+#------------------- ---------- ----- -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+SCO74799.1           -            873 6508at5820           -            633         0 1066.1  83.3   1   3   2.4e-56   3.1e-53  179.9  13.2     6   102    23   119    19   128 0.96 metabolite/drug transporter, putative [Plasmodium vivax]
+SCO74799.1           -            873 6508at5820           -            633         0 1066.1  83.3   2   3   1.2e-88   1.5e-85  286.7  31.6   127   293   223   392   208   494 0.83 metabolite/drug transporter, putative [Plasmodium vivax]
+SCO74799.1           -            873 6508at5820           -            633         0 1066.1  83.3   3   3  8.2e-185    1e-181  604.3  23.7   358   633   561   873   465   873 0.85 metabolite/drug transporter, putative [Plasmodium vivax]
+SCO71131.1           -            537 6508at5820           -            633   2.5e-39  133.9   6.6   1   3       0.2   2.5e+02   -1.5   0.0    44    79    76   111    73   130 0.72 pantothenate transporter, putative [Plasmodium vivax]
+SCO71131.1           -            537 6508at5820           -            633   2.5e-39  133.9   6.6   2   3   8.9e-13   1.1e-09   36.0   0.3   161   269   143   252   119   262 0.84 pantothenate transporter, putative [Plasmodium vivax]
+SCO71131.1           -            537 6508at5820           -            633   2.5e-39  133.9   6.6   3   3     2e-32   2.6e-29  100.9   0.9   405   627   289   513   245   520 0.84 pantothenate transporter, putative [Plasmodium vivax]
+SCO73159.1           -            166 6508at5820           -            633     0.061   10.4   1.8   1   1   6.1e-05     0.077   10.1   1.8   422   488    61   132    50   152 0.75 V-type proton ATPase 16 kDa proteolipid subunit, putative [Plasmodium vivax]
+SCO74551.1           -            393 6508at5820           -            633       1.1    6.2   9.2   1   1    0.0013       1.6    5.7   9.2   243   391   210   358   204   370 0.54 conserved Plasmodium protein, unknown function [Plasmodium vivax]
+SCO75336.1           -            320 6508at5820           -            633       4.5    4.2  12.3   1   1    0.0026       3.2    4.7  11.2   225   386    36   209    17   234 0.50 conserved Plasmodium protein, unknown function [Plasmodium vivax]
+#
+# Program:         hmmsearch
+# Version:         3.4 (Aug 2023)
+# Pipeline mode:   SEARCH
+# Query file:      /v3/work/00_inventory/busco/busco_downloads/lineages/plasmodium_odb10/hmms/6508at5820.hmm
+# Target file:     /v3/inputs/annotations/ncbi-datasets/PvC01.proteins.fa
+# Option settings: hmmsearch --domtblout /v3/work/00_inventory/busco/PvC01_proteins/run_plasmodium_odb10/hmmer_output/initial_run_results/6508at5820.out --cpu 1 /v3/work/00_inventory/busco/busco_downloads/lineages/plasmodium_odb10/hmms/6508at5820.hmm /v3/inputs/annotations/ncbi-datasets/PvC01.proteins.fa 
+# Current dir:     /v3/work/00_inventory/busco
+# Date:            Tue May 19 18:50:40 2026
+# [ok]

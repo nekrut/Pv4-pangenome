@@ -1,0 +1,18 @@
+#                                                                            --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name        accession   tlen query name           accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+#------------------- ---------- ----- -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+SCO66551.1           -            300 9732at5820           -            242  1.6e-144  478.1   5.5   1   1  1.3e-147    2e-144  477.9   5.5     1   242    54   299    54   299 0.98 3-oxoacyl-[acyl-carrier-protein] reductase, putative [Plasmodium vivax]
+SCO66032.1           -            322 9732at5820           -            242   5.6e-15   54.0   0.1   1   1   5.4e-18   8.2e-15   53.4   0.1     9   188    52   242    47   249 0.84 steroid dehydrogenase, putative [Plasmodium vivax]
+SCO68136.1           -            383 9732at5820           -            242   2.7e-06   25.5   0.1   1   1   4.5e-09   6.8e-06   24.2   0.1     7   151    99   245    97   261 0.84 putative oxidoreductase, short-chain dehydrogenase family, putative [Plasmodium vivax]
+SCO65325.1           -            399 9732at5820           -            242   0.00099   17.1   0.1   1   2      0.15   2.3e+02   -0.4   0.0    10    37    71    98    65   153 0.79 conserved Plasmodium protein, unknown function [Plasmodium vivax]
+SCO65325.1           -            399 9732at5820           -            242   0.00099   17.1   0.1   2   2   2.8e-06    0.0042   15.1   0.0    78   181   187   291   164   325 0.82 conserved Plasmodium protein, unknown function [Plasmodium vivax]
+#
+# Program:         hmmsearch
+# Version:         3.4 (Aug 2023)
+# Pipeline mode:   SEARCH
+# Query file:      /v3/work/00_inventory/busco/busco_downloads/lineages/plasmodium_odb10/hmms/9732at5820.hmm
+# Target file:     /v3/inputs/annotations/ncbi-datasets/PvT01.proteins.fa
+# Option settings: hmmsearch --domtblout /v3/work/00_inventory/busco/PvT01_proteins/run_plasmodium_odb10/hmmer_output/initial_run_results/9732at5820.out --cpu 1 /v3/work/00_inventory/busco/busco_downloads/lineages/plasmodium_odb10/hmms/9732at5820.hmm /v3/inputs/annotations/ncbi-datasets/PvT01.proteins.fa 
+# Current dir:     /v3/work/00_inventory/busco
+# Date:            Tue May 19 19:15:02 2026
+# [ok]

@@ -1,0 +1,17 @@
+#                                                                            --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name        accession   tlen query name           accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+#------------------- ---------- ----- -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+PVP01_1313800.1-p1   -            862 4203at5820           -            593  3.4e-247  820.2 124.7   1   4  1.2e-194  7.5e-191  634.2  38.7     1   359    13   404    13   429 0.90 | transcript=PVP01_1313800.1 | gene=PVP01_1313800 | organism=Plasmodium_vivax_P01 | gene_product=ataxin-2 like protein, putative | transcript_product=ataxin-2 like protein, putative | location=PvP01_13_v2:625446-630039(+) | protein_length=862 | sequence_SO=chromosome | SO=protein_coding_gene | is_pseudo=false
+PVP01_1313800.1-p1   -            862 4203at5820           -            593  3.4e-247  820.2 124.7   2   4    0.0022        14    2.5  25.0   333   427   418   511   410   566 0.58 | transcript=PVP01_1313800.1 | gene=PVP01_1313800 | organism=Plasmodium_vivax_P01 | gene_product=ataxin-2 like protein, putative | transcript_product=ataxin-2 like protein, putative | location=PvP01_13_v2:625446-630039(+) | protein_length=862 | sequence_SO=chromosome | SO=protein_coding_gene | is_pseudo=false
+PVP01_1313800.1-p1   -            862 4203at5820           -            593  3.4e-247  820.2 124.7   3   4   0.00047       3.1    4.7   0.6   392   408   580   595   564   601 0.78 | transcript=PVP01_1313800.1 | gene=PVP01_1313800 | organism=Plasmodium_vivax_P01 | gene_product=ataxin-2 like protein, putative | transcript_product=ataxin-2 like protein, putative | location=PvP01_13_v2:625446-630039(+) | protein_length=862 | sequence_SO=chromosome | SO=protein_coding_gene | is_pseudo=false
+PVP01_1313800.1-p1   -            862 4203at5820           -            593  3.4e-247  820.2 124.7   4   4   1.5e-60     1e-56  191.3  40.5   408   589   624   853   618   862 0.84 | transcript=PVP01_1313800.1 | gene=PVP01_1313800 | organism=Plasmodium_vivax_P01 | gene_product=ataxin-2 like protein, putative | transcript_product=ataxin-2 like protein, putative | location=PvP01_13_v2:625446-630039(+) | protein_length=862 | sequence_SO=chromosome | SO=protein_coding_gene | is_pseudo=false
+#
+# Program:         hmmsearch
+# Version:         3.4 (Aug 2023)
+# Pipeline mode:   SEARCH
+# Query file:      /v3/work/00_inventory/busco/busco_downloads/lineages/plasmodium_odb10/hmms/4203at5820.hmm
+# Target file:     /v3/inputs/annotations/plasmodb-68/PvP01.proteins.fa
+# Option settings: hmmsearch --domtblout /v3/work/00_inventory/busco/PvP01_proteins/run_plasmodium_odb10/hmmer_output/initial_run_results/4203at5820.out --cpu 1 /v3/work/00_inventory/busco/busco_downloads/lineages/plasmodium_odb10/hmms/4203at5820.hmm /v3/inputs/annotations/plasmodb-68/PvP01.proteins.fa 
+# Current dir:     /v3/work/00_inventory/busco
+# Date:            Tue May 19 17:40:44 2026
+# [ok]

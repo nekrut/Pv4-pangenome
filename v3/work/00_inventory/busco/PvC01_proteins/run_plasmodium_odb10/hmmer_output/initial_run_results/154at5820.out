@@ -1,0 +1,21 @@
+#                                                                            --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name        accession   tlen query name           accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+#------------------- ---------- ----- -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+SCO73558.1           -           2892 154at5820            -           2372         0 4836.1 256.2   1   8    3e-112  1.9e-108  362.1  24.1     1   194     4   206     4   210 0.96 DNA polymerase epsilon catalytic subunit A, putative [Plasmodium vivax]
+SCO73558.1           -           2892 154at5820            -           2372         0 4836.1 256.2   2   8         0         0 2377.1  68.0   185  1244   259  1338   239  1345 0.98 DNA polymerase epsilon catalytic subunit A, putative [Plasmodium vivax]
+SCO73558.1           -           2892 154at5820            -           2372         0 4836.1 256.2   3   8   3.4e-32   2.1e-28   96.5   7.0  1253  1346  1404  1522  1387  1528 0.82 DNA polymerase epsilon catalytic subunit A, putative [Plasmodium vivax]
+SCO73558.1           -           2892 154at5820            -           2372         0 4836.1 256.2   4   8   1.7e-13   1.1e-09   34.5   0.1  1337  1373  1547  1583  1536  1599 0.91 DNA polymerase epsilon catalytic subunit A, putative [Plasmodium vivax]
+SCO73558.1           -           2892 154at5820            -           2372         0 4836.1 256.2   5   8  3.8e-127  2.4e-123  411.5  22.4  1369  1608  1614  1892  1609  1894 0.89 DNA polymerase epsilon catalytic subunit A, putative [Plasmodium vivax]
+SCO73558.1           -           2892 154at5820            -           2372         0 4836.1 256.2   6   8  7.5e-141  4.7e-137  456.9  31.8  1609  1838  1956  2189  1952  2195 0.98 DNA polymerase epsilon catalytic subunit A, putative [Plasmodium vivax]
+SCO73558.1           -           2892 154at5820            -           2372         0 4836.1 256.2   7   8  1.6e-142  9.7e-139  462.5  23.3  1837  2058  2307  2528  2304  2533 0.98 DNA polymerase epsilon catalytic subunit A, putative [Plasmodium vivax]
+SCO73558.1           -           2892 154at5820            -           2372         0 4836.1 256.2   8   8  1.6e-206  9.8e-203  674.8  27.4  2057  2372  2574  2892  2567  2892 0.98 DNA polymerase epsilon catalytic subunit A, putative [Plasmodium vivax]
+#
+# Program:         hmmsearch
+# Version:         3.4 (Aug 2023)
+# Pipeline mode:   SEARCH
+# Query file:      /v3/work/00_inventory/busco/busco_downloads/lineages/plasmodium_odb10/hmms/154at5820.hmm
+# Target file:     /v3/inputs/annotations/ncbi-datasets/PvC01.proteins.fa
+# Option settings: hmmsearch --domtblout /v3/work/00_inventory/busco/PvC01_proteins/run_plasmodium_odb10/hmmer_output/initial_run_results/154at5820.out --cpu 1 /v3/work/00_inventory/busco/busco_downloads/lineages/plasmodium_odb10/hmms/154at5820.hmm /v3/inputs/annotations/ncbi-datasets/PvC01.proteins.fa 
+# Current dir:     /v3/work/00_inventory/busco
+# Date:            Tue May 19 18:34:32 2026
+# [ok]

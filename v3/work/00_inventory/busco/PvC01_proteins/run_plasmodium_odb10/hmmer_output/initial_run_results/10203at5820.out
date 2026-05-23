@@ -1,0 +1,16 @@
+#                                                                            --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name        accession   tlen query name           accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+#------------------- ---------- ----- -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+SCO72808.1           -            274 10203at5820          -            241    7e-144  475.7  27.3   1   2   7.4e-11   2.3e-07   28.7   1.2     1    28     1    30     1    39 0.80 nucleic acid binding protein, putative [Plasmodium vivax]
+SCO72808.1           -            274 10203at5820          -            241    7e-144  475.7  27.3   2   2  4.6e-140  1.5e-136  451.7  20.1    13   241    38   274    27   274 0.95 nucleic acid binding protein, putative [Plasmodium vivax]
+SCO72611.1           -            190 10203at5820          -            241   3.5e-09   34.7   5.4   1   1   1.2e-12   3.9e-09   34.5   5.4    45   166    44   163     3   177 0.85 conserved Plasmodium protein, unknown function [Plasmodium vivax]
+#
+# Program:         hmmsearch
+# Version:         3.4 (Aug 2023)
+# Pipeline mode:   SEARCH
+# Query file:      /v3/work/00_inventory/busco/busco_downloads/lineages/plasmodium_odb10/hmms/10203at5820.hmm
+# Target file:     /v3/inputs/annotations/ncbi-datasets/PvC01.proteins.fa
+# Option settings: hmmsearch --domtblout /v3/work/00_inventory/busco/PvC01_proteins/run_plasmodium_odb10/hmmer_output/initial_run_results/10203at5820.out --cpu 1 /v3/work/00_inventory/busco/busco_downloads/lineages/plasmodium_odb10/hmms/10203at5820.hmm /v3/inputs/annotations/ncbi-datasets/PvC01.proteins.fa 
+# Current dir:     /v3/work/00_inventory/busco
+# Date:            Tue May 19 18:28:17 2026
+# [ok]

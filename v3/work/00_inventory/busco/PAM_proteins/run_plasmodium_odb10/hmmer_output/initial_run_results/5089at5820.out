@@ -1,0 +1,17 @@
+#                                                                            --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name        accession   tlen query name           accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+#------------------- ---------- ----- -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+CAI7717782.1         -            827 5089at5820           -            423  5.7e-202  669.6  43.7   1   4  3.2e-112    2e-108  361.4  23.7     1   244   234   526   234   539 0.87 | transcript=PVPAM_010029600_t1 | gene=PVPAM_010029600 | organism=Plasmodium_vivax_PAM | gene_product=cactin homolog, putative | transcript_product=cactin homolog, putative | location=CASCJQ010000001:1097345-1100642(-) | protein_length=827 | sequence_SO=supercontig | SO=protein_coding_gene | is_pseudo=false
+CAI7717782.1         -            827 5089at5820           -            423  5.7e-202  669.6  43.7   2   4    0.0059        38    1.4   0.1   251   268   584   601   555   605 0.86 | transcript=PVPAM_010029600_t1 | gene=PVPAM_010029600 | organism=Plasmodium_vivax_PAM | gene_product=cactin homolog, putative | transcript_product=cactin homolog, putative | location=CASCJQ010000001:1097345-1100642(-) | protein_length=827 | sequence_SO=supercontig | SO=protein_coding_gene | is_pseudo=false
+CAI7717782.1         -            827 5089at5820           -            423  5.7e-202  669.6  43.7   3   4   5.1e-14   3.3e-10   37.8   0.0   256   303   635   682   625   697 0.87 | transcript=PVPAM_010029600_t1 | gene=PVPAM_010029600 | organism=Plasmodium_vivax_PAM | gene_product=cactin homolog, putative | transcript_product=cactin homolog, putative | location=CASCJQ010000001:1097345-1100642(-) | protein_length=827 | sequence_SO=supercontig | SO=protein_coding_gene | is_pseudo=false
+CAI7717782.1         -            827 5089at5820           -            423  5.7e-202  669.6  43.7   4   4   4.2e-84   2.7e-80  268.7   8.3   303   423   705   827   700   827 0.98 | transcript=PVPAM_010029600_t1 | gene=PVPAM_010029600 | organism=Plasmodium_vivax_PAM | gene_product=cactin homolog, putative | transcript_product=cactin homolog, putative | location=CASCJQ010000001:1097345-1100642(-) | protein_length=827 | sequence_SO=supercontig | SO=protein_coding_gene | is_pseudo=false
+#
+# Program:         hmmsearch
+# Version:         3.4 (Aug 2023)
+# Pipeline mode:   SEARCH
+# Query file:      /v3/work/00_inventory/busco/busco_downloads/lineages/plasmodium_odb10/hmms/5089at5820.hmm
+# Target file:     /v3/inputs/annotations/plasmodb-68/PAM.proteins.fa
+# Option settings: hmmsearch --domtblout /v3/work/00_inventory/busco/PAM_proteins/run_plasmodium_odb10/hmmer_output/initial_run_results/5089at5820.out --cpu 1 /v3/work/00_inventory/busco/busco_downloads/lineages/plasmodium_odb10/hmms/5089at5820.hmm /v3/inputs/annotations/plasmodb-68/PAM.proteins.fa 
+# Current dir:     /v3/work/00_inventory/busco
+# Date:            Tue May 19 17:40:16 2026
+# [ok]

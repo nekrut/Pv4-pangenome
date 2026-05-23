@@ -1,0 +1,23 @@
+#                                                                            --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name        accession   tlen query name           accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+#------------------- ---------- ----- -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+SCO67165.1           -            475 5583at5820           -            436  1.7e-287  951.7  14.3   1   1  2.3e-290    2e-287  951.5  14.3     1   434    15   473    15   475 0.97 RuvB-like helicase 2, putative [Plasmodium vivax]
+SCO69880.1           -            583 5583at5820           -            436  2.1e-130  434.1  20.7   1   2    0.0012         1    6.7   0.0     2    23    50    71    49    86 0.82 RuvB-like helicase 1, putative [Plasmodium vivax]
+SCO69880.1           -            583 5583at5820           -            436  2.1e-130  434.1  20.7   2   2  4.3e-131  3.7e-128  426.7  19.3    28   427   167   570   144   577 0.91 RuvB-like helicase 1, putative [Plasmodium vivax]
+SCO68001.1           -            483 5583at5820           -            436  2.6e-101  338.2   6.3   1   1  3.9e-104  3.3e-101  337.9   6.3     1   429    11   438    11   445 0.91 RuvB-like helicase 3, putative [Plasmodium vivax]
+SCO69463.1           -           1188 5583at5820           -            436   0.00051   17.6   0.1   1   2     0.021        19    2.6   0.0    59    84   402   427   382   448 0.85 AAA family ATPase, putative [Plasmodium vivax]
+SCO69463.1           -           1188 5583at5820           -            436   0.00051   17.6   0.1   2   2   2.1e-05     0.018   12.5   0.0    58   113   815   869   804   884 0.87 AAA family ATPase, putative [Plasmodium vivax]
+SCO68874.1           -            439 5583at5820           -            436    0.0018   15.8   0.0   1   1   3.3e-06    0.0029   15.1   0.0    11   100   104   191    95   213 0.72 vacuolar protein sorting-associated protein 4, putative [Plasmodium vivax]
+SCO70154.1           -            896 5583at5820           -            436     0.013   12.9   0.0   1   1   2.7e-05     0.024   12.1   0.0    58    96   194   230   167   256 0.79 ATP-dependent zinc metalloprotease FTSH 1, putative [Plasmodium vivax]
+SCO64965.1           -           1089 5583at5820           -            436     0.017   12.6   0.5   1   2    0.0079       6.8    4.0   0.2    57   113   509   564   502   583 0.84 AAA family ATPase, CDC48 subfamily, putative [Plasmodium vivax]
+SCO64965.1           -           1089 5583at5820           -            436     0.017   12.6   0.5   2   2    0.0014       1.2    6.5   0.0    58    98   830   868   820   963 0.77 AAA family ATPase, CDC48 subfamily, putative [Plasmodium vivax]
+#
+# Program:         hmmsearch
+# Version:         3.4 (Aug 2023)
+# Pipeline mode:   SEARCH
+# Query file:      /v3/work/00_inventory/busco/busco_downloads/lineages/plasmodium_odb10/hmms/5583at5820.hmm
+# Target file:     /v3/inputs/annotations/ncbi-datasets/PvT01.proteins.fa
+# Option settings: hmmsearch --domtblout /v3/work/00_inventory/busco/PvT01_proteins/run_plasmodium_odb10/hmmer_output/initial_run_results/5583at5820.out --cpu 1 /v3/work/00_inventory/busco/busco_downloads/lineages/plasmodium_odb10/hmms/5583at5820.hmm /v3/inputs/annotations/ncbi-datasets/PvT01.proteins.fa 
+# Current dir:     /v3/work/00_inventory/busco
+# Date:            Tue May 19 18:54:23 2026
+# [ok]

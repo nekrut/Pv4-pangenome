@@ -1,0 +1,24 @@
+#                                                                            --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name        accession   tlen query name           accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+#------------------- ---------- ----- -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+SCO68407.1           -           2316 926at5820            -           1653         0 2886.9 235.9   1   9   0.00023       0.7    5.4   0.4     1    18    36    53    36    58 0.91 P-loop containing nucleoside triphosphate hydrolase, putative [Plasmodium vivax]
+SCO68407.1           -           2316 926at5820            -           1653         0 2886.9 235.9   2   9  4.6e-121  1.4e-117  392.2  49.2    16   291    88   427    83   444 0.86 P-loop containing nucleoside triphosphate hydrolase, putative [Plasmodium vivax]
+SCO68407.1           -           2316 926at5820            -           1653         0 2886.9 235.9   3   9   3.1e-84   9.3e-81  270.1  33.1   290   466   545   749   530   752 0.87 P-loop containing nucleoside triphosphate hydrolase, putative [Plasmodium vivax]
+SCO68407.1           -           2316 926at5820            -           1653         0 2886.9 235.9   4   9   2.1e-79   6.2e-76  254.1  15.5   467   601   800   934   799   940 0.98 P-loop containing nucleoside triphosphate hydrolase, putative [Plasmodium vivax]
+SCO68407.1           -           2316 926at5820            -           1653         0 2886.9 235.9   5   9  2.2e-129  6.5e-126  419.8  20.1   597   810   979  1195   968  1203 0.95 P-loop containing nucleoside triphosphate hydrolase, putative [Plasmodium vivax]
+SCO68407.1           -           2316 926at5820            -           1653         0 2886.9 235.9   6   9   7.4e-74   2.2e-70  235.7   6.2   808   960  1269  1428  1265  1432 0.95 P-loop containing nucleoside triphosphate hydrolase, putative [Plasmodium vivax]
+SCO68407.1           -           2316 926at5820            -           1653         0 2886.9 235.9   7   9   5.3e-20   1.6e-16   57.2   0.1   958  1011  1455  1511  1450  1521 0.87 P-loop containing nucleoside triphosphate hydrolase, putative [Plasmodium vivax]
+SCO68407.1           -           2316 926at5820            -           1653         0 2886.9 235.9   8   9  1.7e-141  5.2e-138  459.9  20.5  1005  1280  1531  1849  1525  1859 0.90 P-loop containing nucleoside triphosphate hydrolase, putative [Plasmodium vivax]
+SCO68407.1           -           2316 926at5820            -           1653         0 2886.9 235.9   9   9  1.3e-252  3.9e-249  828.3  33.4  1280  1653  1928  2308  1922  2308 0.98 P-loop containing nucleoside triphosphate hydrolase, putative [Plasmodium vivax]
+SCO66768.1           -           1547 926at5820            -           1653   8.2e-28   94.6   0.1   1   2   0.00013       0.4    6.2   0.0  1018  1075   822   878   811   895 0.86 regulator of nonsense transcripts, putative [Plasmodium vivax]
+SCO66768.1           -           1547 926at5820            -           1653   8.2e-28   94.6   0.1   2   2   8.9e-29   2.7e-25   86.3   0.0  1319  1615   955  1240   922  1271 0.82 regulator of nonsense transcripts, putative [Plasmodium vivax]
+#
+# Program:         hmmsearch
+# Version:         3.4 (Aug 2023)
+# Pipeline mode:   SEARCH
+# Query file:      /v3/work/00_inventory/busco/busco_downloads/lineages/plasmodium_odb10/hmms/926at5820.hmm
+# Target file:     /v3/inputs/annotations/ncbi-datasets/PvT01.proteins.fa
+# Option settings: hmmsearch --domtblout /v3/work/00_inventory/busco/PvT01_proteins/run_plasmodium_odb10/hmmer_output/initial_run_results/926at5820.out --cpu 1 /v3/work/00_inventory/busco/busco_downloads/lineages/plasmodium_odb10/hmms/926at5820.hmm /v3/inputs/annotations/ncbi-datasets/PvT01.proteins.fa 
+# Current dir:     /v3/work/00_inventory/busco
+# Date:            Tue May 19 19:09:23 2026
+# [ok]

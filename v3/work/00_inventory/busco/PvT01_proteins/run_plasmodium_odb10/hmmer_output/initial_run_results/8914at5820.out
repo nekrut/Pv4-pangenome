@@ -1,0 +1,29 @@
+#                                                                            --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name        accession   tlen query name           accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+#------------------- ---------- ----- -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+SCO66304.1           -            301 8914at5820           -            281  6.4e-183  604.8   7.0   1   1  9.5e-186  7.2e-183  604.6   7.0     1   281     8   298     8   298 0.98 ADP/ATP transporter on adenylate translocase, putative [Plasmodium vivax]
+SCO66409.1           -            515 8914at5820           -            281     1e-18   66.0  10.8   1   3   2.1e-06    0.0016   16.2   0.7    10    97    98   175    90   181 0.81 transporter, putative [Plasmodium vivax]
+SCO66409.1           -            515 8914at5820           -            281     1e-18   66.0  10.8   2   3   3.1e-14   2.3e-11   41.9   1.4   103   193   215   302   188   312 0.90 transporter, putative [Plasmodium vivax]
+SCO66409.1           -            515 8914at5820           -            281     1e-18   66.0  10.8   3   3   3.8e-05     0.029   12.1   0.0   195   272   411   496   401   505 0.69 transporter, putative [Plasmodium vivax]
+SCO67936.1           -            494 8914at5820           -            281   6.5e-18   63.4   5.2   1   3    0.0016       1.2    6.7   0.0     7    39    20    52    15    77 0.84 mitochondrial carrier protein, putative [Plasmodium vivax]
+SCO67936.1           -            494 8914at5820           -            281   6.5e-18   63.4   5.2   2   3     6e-06    0.0046   14.7   0.0    43    99   205   261   184   276 0.85 mitochondrial carrier protein, putative [Plasmodium vivax]
+SCO67936.1           -            494 8914at5820           -            281   6.5e-18   63.4   5.2   3   3   3.7e-13   2.8e-10   38.4   2.9    99   278   289   485   272   488 0.69 mitochondrial carrier protein, putative [Plasmodium vivax]
+SCO65832.1           -            318 8914at5820           -            281   3.1e-17   61.2   2.0   1   2     1e-07   7.6e-05   20.5   0.1   110   186    37   112    18   122 0.88 dicarboxylate/tricarboxylate carrier, putative [Plasmodium vivax]
+SCO65832.1           -            318 8914at5820           -            281   3.1e-17   61.2   2.0   2   2   7.2e-14   5.5e-11   40.7   0.3   105   273   127   302   113   311 0.79 dicarboxylate/tricarboxylate carrier, putative [Plasmodium vivax]
+SCO66761.1           -            341 8914at5820           -            281   3.2e-12   44.7   3.1   1   2   7.8e-14   5.9e-11   40.6   0.7     2   176    18   193    17   211 0.80 ADP/ATP carrier protein, putative [Plasmodium vivax]
+SCO66761.1           -            341 8914at5820           -            281   3.2e-12   44.7   3.1   2   2    0.0079         6    4.5   0.1    93   168   233   316   226   334 0.66 ADP/ATP carrier protein, putative [Plasmodium vivax]
+SCO65118.1           -            332 8914at5820           -            281   1.4e-07   29.5   3.3   1   1   1.8e-09   1.4e-06   26.3   3.3    56   252    85   294    23   315 0.72 mitochondrial carrier protein, putative [Plasmodium vivax]
+SCO70164.1           -            259 8914at5820           -            281   6.3e-06   24.1   4.4   1   2   8.3e-05     0.063   11.0   0.3   158   227    41   113     1   118 0.64 mitochondrial carrier protein, putative [Plasmodium vivax]
+SCO70164.1           -            259 8914at5820           -            281   6.3e-06   24.1   4.4   2   2   4.6e-05     0.035   11.8   0.5    48   141   119   213   111   251 0.67 mitochondrial carrier protein, putative [Plasmodium vivax]
+SCO69123.1           -            323 8914at5820           -            281   2.8e-05   22.0   3.1   1   2   7.4e-06    0.0056   14.4   0.2   102   226    27   154    15   165 0.52 mitochondrial phosphate carrier protein, putative [Plasmodium vivax]
+SCO69123.1           -            323 8914at5820           -            281   2.8e-05   22.0   3.1   2   2   0.00021      0.16    9.6   0.6    16   191   140   310   127   315 0.69 mitochondrial phosphate carrier protein, putative [Plasmodium vivax]
+#
+# Program:         hmmsearch
+# Version:         3.4 (Aug 2023)
+# Pipeline mode:   SEARCH
+# Query file:      /v3/work/00_inventory/busco/busco_downloads/lineages/plasmodium_odb10/hmms/8914at5820.hmm
+# Target file:     /v3/inputs/annotations/ncbi-datasets/PvT01.proteins.fa
+# Option settings: hmmsearch --domtblout /v3/work/00_inventory/busco/PvT01_proteins/run_plasmodium_odb10/hmmer_output/initial_run_results/8914at5820.out --cpu 1 /v3/work/00_inventory/busco/busco_downloads/lineages/plasmodium_odb10/hmms/8914at5820.hmm /v3/inputs/annotations/ncbi-datasets/PvT01.proteins.fa 
+# Current dir:     /v3/work/00_inventory/busco
+# Date:            Tue May 19 19:07:53 2026
+# [ok]

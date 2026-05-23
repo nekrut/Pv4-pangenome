@@ -1,0 +1,17 @@
+#                                                                            --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name        accession   tlen query name           accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+#------------------- ---------- ----- -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+CAI7719757.1         -            191 14156at5820          -            150   1.5e-80  267.3  19.2   1   2     0.015        33    3.3   0.2     3    19    24    40    21    47 0.83 | transcript=PVPAM_070037100_t1 | gene=PVPAM_070037100 | organism=Plasmodium_vivax_PAM | gene_product=NifU-like protein, putative | transcript_product=NifU-like protein, putative | location=CASCJQ010000007:1362261-1363038(-) | protein_length=191 | sequence_SO=supercontig | SO=protein_coding_gene | is_pseudo=false
+CAI7719757.1         -            191 14156at5820          -            150   1.5e-80  267.3  19.2   2   2   8.3e-84   1.8e-80  267.1  14.1    13   150    50   191    43   191 0.95 | transcript=PVPAM_070037100_t1 | gene=PVPAM_070037100 | organism=Plasmodium_vivax_PAM | gene_product=NifU-like protein, putative | transcript_product=NifU-like protein, putative | location=CASCJQ010000007:1362261-1363038(-) | protein_length=191 | sequence_SO=supercontig | SO=protein_coding_gene | is_pseudo=false
+CAI7719655.1         -            265 14156at5820          -            150   2.4e-07   29.7   1.5   1   1   1.1e-10   2.4e-07   29.7   1.5    80   138    91   147    36   158 0.89 | transcript=PVPAM_070026900_t1 | gene=PVPAM_070026900 | organism=Plasmodium_vivax_PAM | gene_product=NifU-like scaffold protein, putative | transcript_product=NifU-like scaffold protein, putative | location=CASCJQ010000007:966990-968009(-) | protein_length=265 | sequence_SO=supercontig | SO=protein_coding_gene | is_pseudo=false
+CAI7719954.1         -            543 14156at5820          -            150     0.056   12.3   0.1   1   1   5.5e-05      0.12   11.2   0.0    22   139   293   418   286   430 0.74 | transcript=PVPAM_080017700_t1 | gene=PVPAM_080017700 | organism=Plasmodium_vivax_PAM | gene_product=unspecified product | transcript_product=unspecified product | location=CASCJQ010000008:610911-612542(+) | protein_length=543 | sequence_SO=supercontig | SO=protein_coding_gene | is_pseudo=false
+#
+# Program:         hmmsearch
+# Version:         3.4 (Aug 2023)
+# Pipeline mode:   SEARCH
+# Query file:      /v3/work/00_inventory/busco/busco_downloads/lineages/plasmodium_odb10/hmms/14156at5820.hmm
+# Target file:     /v3/inputs/annotations/plasmodb-68/PAM.proteins.fa
+# Option settings: hmmsearch --domtblout /v3/work/00_inventory/busco/PAM_proteins/run_plasmodium_odb10/hmmer_output/initial_run_results/14156at5820.out --cpu 1 /v3/work/00_inventory/busco/busco_downloads/lineages/plasmodium_odb10/hmms/14156at5820.hmm /v3/inputs/annotations/plasmodb-68/PAM.proteins.fa 
+# Current dir:     /v3/work/00_inventory/busco
+# Date:            Tue May 19 17:32:43 2026
+# [ok]

@@ -1,0 +1,15 @@
+#                                                                            --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name        accession   tlen query name           accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+#------------------- ---------- ----- -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+CAI7720717.1         -            333 8638at5820           -            291  1.4e-169  561.3  23.5   1   1  1.9e-172  6.1e-169  559.2  23.5     2   291     4   327     3   327 0.94 | transcript=PVPAM_090048200_t1 | gene=PVPAM_090048200 | organism=Plasmodium_vivax_PAM | gene_product=DNA-directed RNA polymerases I and III subunit RPAC1, putative | transcript_product=DNA-directed RNA polymerases I and III subunit RPAC1, putative | location=CASCJQ010000009:1951751-1952752(-) | protein_length=333 | sequence_SO=supercontig | SO=protein_coding_gene | is_pseudo=false
+CAI7719671.1         -            333 8638at5820           -            291     3e-24   84.2   7.4   1   1   4.7e-26   1.5e-22   78.6   7.4    54   284    24   297     7   303 0.66 | transcript=PVPAM_070028500_t1 | gene=PVPAM_070028500 | organism=Plasmodium_vivax_PAM | gene_product=DNA-directed RNA polymerase II subunit RPB3, putative | transcript_product=DNA-directed RNA polymerase II subunit RPB3, putative | location=CASCJQ010000007:1034449-1035450(-) | protein_length=333 | sequence_SO=supercontig | SO=protein_coding_gene | is_pseudo=false
+#
+# Program:         hmmsearch
+# Version:         3.4 (Aug 2023)
+# Pipeline mode:   SEARCH
+# Query file:      /v3/work/00_inventory/busco/busco_downloads/lineages/plasmodium_odb10/hmms/8638at5820.hmm
+# Target file:     /v3/inputs/annotations/plasmodb-68/PAM.proteins.fa
+# Option settings: hmmsearch --domtblout /v3/work/00_inventory/busco/PAM_proteins/run_plasmodium_odb10/hmmer_output/initial_run_results/8638at5820.out --cpu 1 /v3/work/00_inventory/busco/busco_downloads/lineages/plasmodium_odb10/hmms/8638at5820.hmm /v3/inputs/annotations/plasmodb-68/PAM.proteins.fa 
+# Current dir:     /v3/work/00_inventory/busco
+# Date:            Tue May 19 17:47:53 2026
+# [ok]

@@ -1,0 +1,22 @@
+#                                                                            --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name        accession   tlen query name           accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+#------------------- ---------- ----- -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+SCO69441.1           -           1017 2610at5820           -            719         0 1123.4  42.2   1   5     2e-18   4.1e-15   53.6   0.0     5    64    19    91    15    98 0.82 ATP-dependent protease, putative [Plasmodium vivax]
+SCO69441.1           -           1017 2610at5820           -            719         0 1123.4  42.2   2   5   8.9e-07    0.0018   15.1   0.0    62    93   114   146   106   149 0.91 ATP-dependent protease, putative [Plasmodium vivax]
+SCO69441.1           -           1017 2610at5820           -            719         0 1123.4  42.2   3   5  2.5e-232    5e-229  760.7  29.9    90   550   196   691   193   700 0.93 ATP-dependent protease, putative [Plasmodium vivax]
+SCO69441.1           -           1017 2610at5820           -            719         0 1123.4  42.2   4   5     6e-09   1.2e-05   22.3   0.0   547   572   719   744   710   759 0.89 ATP-dependent protease, putative [Plasmodium vivax]
+SCO69441.1           -           1017 2610at5820           -            719         0 1123.4  42.2   5   5   7.4e-86   1.5e-82  276.5   0.3   572   719   862  1009   859  1009 0.99 ATP-dependent protease, putative [Plasmodium vivax]
+SCO64965.1           -           1089 2610at5820           -            719   2.6e-08   31.1   0.8   1   2   5.5e-08   0.00011   19.1   0.2   315   410   496   583   463   592 0.71 AAA family ATPase, CDC48 subfamily, putative [Plasmodium vivax]
+SCO64965.1           -           1089 2610at5820           -            719   2.6e-08   31.1   0.8   2   2   2.8e-05     0.057   10.1   0.0   306   357   807   858   794   988 0.84 AAA family ATPase, CDC48 subfamily, putative [Plasmodium vivax]
+SCO67491.1           -            627 2610at5820           -            719   3.2e-05   20.9   2.3   1   2     5e-08    0.0001   19.2   0.2   301   355   309   371   304   423 0.78 AAA family ATPase, putative [Plasmodium vivax]
+SCO67491.1           -            627 2610at5820           -            719   3.2e-05   20.9   2.3   2   2     0.014        29    1.2   0.1   442   489   468   516   454   525 0.88 AAA family ATPase, putative [Plasmodium vivax]
+#
+# Program:         hmmsearch
+# Version:         3.4 (Aug 2023)
+# Pipeline mode:   SEARCH
+# Query file:      /v3/work/00_inventory/busco/busco_downloads/lineages/plasmodium_odb10/hmms/2610at5820.hmm
+# Target file:     /v3/inputs/annotations/ncbi-datasets/PvT01.proteins.fa
+# Option settings: hmmsearch --domtblout /v3/work/00_inventory/busco/PvT01_proteins/run_plasmodium_odb10/hmmer_output/initial_run_results/2610at5820.out --cpu 1 /v3/work/00_inventory/busco/busco_downloads/lineages/plasmodium_odb10/hmms/2610at5820.hmm /v3/inputs/annotations/ncbi-datasets/PvT01.proteins.fa 
+# Current dir:     /v3/work/00_inventory/busco
+# Date:            Tue May 19 18:41:14 2026
+# [ok]

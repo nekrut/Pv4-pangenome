@@ -1,0 +1,17 @@
+#                                                                            --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name        accession   tlen query name           accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+#------------------- ---------- ----- -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+CAI7721081.1         -           1296 1168at5820           -           1086         0 2265.4  22.8   1   1         0         0 2261.5  22.8     1  1086     6  1292     6  1292 0.97 | transcript=PVPAM_100034900_t1 | gene=PVPAM_100034900 | organism=Plasmodium_vivax_PAM | gene_product=DNA mismatch repair protein MSH6, putative | transcript_product=DNA mismatch repair protein MSH6, putative | location=CASCJQ010000010:1273911-1277801(+) | protein_length=1296 | sequence_SO=supercontig | SO=protein_coding_gene | is_pseudo=false
+CAI7717688.1         -            885 1168at5820           -           1086   1.1e-79  266.9  30.2   1   2   2.2e-14   4.7e-11   39.6  10.4   347   579    53   296    31   302 0.75 | transcript=PVPAM_010019800_t1 | gene=PVPAM_010019800 | organism=Plasmodium_vivax_PAM | gene_product=DNA mismatch repair protein MSH2, putative | transcript_product=DNA mismatch repair protein MSH2, putative | location=CASCJQ010000001:717905-720562(+) | protein_length=885 | sequence_SO=supercontig | SO=protein_coding_gene | is_pseudo=false
+CAI7717688.1         -            885 1168at5820           -           1086   1.1e-79  266.9  30.2   2   2   7.6e-73   1.6e-69  233.2  11.8   650  1050   408   811   399   818 0.89 | transcript=PVPAM_010019800_t1 | gene=PVPAM_010019800 | organism=Plasmodium_vivax_PAM | gene_product=DNA mismatch repair protein MSH2, putative | transcript_product=DNA mismatch repair protein MSH2, putative | location=CASCJQ010000001:717905-720562(+) | protein_length=885 | sequence_SO=supercontig | SO=protein_coding_gene | is_pseudo=false
+CAI7722872.1         -            810 1168at5820           -           1086   1.4e-73  246.7  40.9   1   1   8.1e-77   1.8e-73  246.3  40.9   448  1054   130   752    41   783 0.75 | transcript=PVPAM_130037400_t1 | gene=PVPAM_130037400 | organism=Plasmodium_vivax_PAM | gene_product=DNA mismatch repair protein MSH2, putative | transcript_product=DNA mismatch repair protein MSH2, putative | location=CASCJQ010000013:1439252-1441684(-) | protein_length=810 | sequence_SO=supercontig | SO=protein_coding_gene | is_pseudo=false
+#
+# Program:         hmmsearch
+# Version:         3.4 (Aug 2023)
+# Pipeline mode:   SEARCH
+# Query file:      /v3/work/00_inventory/busco/busco_downloads/lineages/plasmodium_odb10/hmms/1168at5820.hmm
+# Target file:     /v3/inputs/annotations/plasmodb-68/PAM.proteins.fa
+# Option settings: hmmsearch --domtblout /v3/work/00_inventory/busco/PAM_proteins/run_plasmodium_odb10/hmmer_output/initial_run_results/1168at5820.out --cpu 1 /v3/work/00_inventory/busco/busco_downloads/lineages/plasmodium_odb10/hmms/1168at5820.hmm /v3/inputs/annotations/plasmodb-68/PAM.proteins.fa 
+# Current dir:     /v3/work/00_inventory/busco
+# Date:            Tue May 19 17:24:18 2026
+# [ok]

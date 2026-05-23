@@ -1,0 +1,22 @@
+#                                                                            --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name        accession   tlen query name           accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+#------------------- ---------- ----- -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+SCO72464.1           -            168 13466at5820          -            130   3.4e-72  238.8   5.5   1   1   5.8e-75   7.2e-72  237.7   5.5    15   130    53   168    27   168 0.95 1-cys-glutaredoxin-like protein-1, putative [Plasmodium vivax]
+SCO73787.1           -            220 13466at5820          -            130   1.7e-28   97.4   0.1   1   1   2.2e-31   2.8e-28   96.8   0.1    33   129   118   213    95   214 0.92 glutaredoxin-like protein [Plasmodium vivax]
+SCO70437.1           -            333 13466at5820          -            130   1.6e-25   87.8   0.4   1   2       1.8   2.2e+03   -3.2   0.0    26    39    81    94    69   104 0.59 glutaredoxin-like protein [Plasmodium vivax]
+SCO70437.1           -            333 13466at5820          -            130   1.6e-25   87.8   0.4   2   2   2.3e-28   2.9e-25   87.0   0.1    27   128   228   329   210   331 0.92 glutaredoxin-like protein [Plasmodium vivax]
+SCO72446.1           -            110 13466at5820          -            130   2.1e-05   22.8   1.4   1   1     2e-08   2.5e-05   22.5   1.4    32   129     8   103     4   104 0.81 glutaredoxin 1, putative [Plasmodium vivax]
+SCO73236.1           -            615 13466at5820          -            130       2.1    6.6   9.5   1   4      0.49   6.2e+02   -1.4   0.1    30    79    70   124    62   150 0.63 inositol-3-phosphate synthase, putative [Plasmodium vivax]
+SCO73236.1           -            615 13466at5820          -            130       2.1    6.6   9.5   2   4   0.00024       0.3    9.3   0.5    68   112   168   212   165   220 0.94 inositol-3-phosphate synthase, putative [Plasmodium vivax]
+SCO73236.1           -            615 13466at5820          -            130       2.1    6.6   9.5   3   4      0.91   1.1e+03   -2.3   0.0    81    97   241   257   215   271 0.62 inositol-3-phosphate synthase, putative [Plasmodium vivax]
+SCO73236.1           -            615 13466at5820          -            130       2.1    6.6   9.5   4   4     0.089   1.1e+02    1.0   0.2    74   120   437   487   372   493 0.74 inositol-3-phosphate synthase, putative [Plasmodium vivax]
+#
+# Program:         hmmsearch
+# Version:         3.4 (Aug 2023)
+# Pipeline mode:   SEARCH
+# Query file:      /v3/work/00_inventory/busco/busco_downloads/lineages/plasmodium_odb10/hmms/13466at5820.hmm
+# Target file:     /v3/inputs/annotations/ncbi-datasets/PvC01.proteins.fa
+# Option settings: hmmsearch --domtblout /v3/work/00_inventory/busco/PvC01_proteins/run_plasmodium_odb10/hmmer_output/initial_run_results/13466at5820.out --cpu 1 /v3/work/00_inventory/busco/busco_downloads/lineages/plasmodium_odb10/hmms/13466at5820.hmm /v3/inputs/annotations/ncbi-datasets/PvC01.proteins.fa 
+# Current dir:     /v3/work/00_inventory/busco
+# Date:            Tue May 19 18:32:28 2026
+# [ok]

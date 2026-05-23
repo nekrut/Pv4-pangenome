@@ -1,0 +1,16 @@
+#                                                                            --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name        accession   tlen query name           accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+#------------------- ---------- ----- -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+SCO65718.1           -            442 7054at5820           -            307  5.7e-169  559.8  19.4   1   2   1.2e-79   3.7e-76  255.0   3.7    16   141   123   248   120   251 0.98 5'-3' exonuclease, N-terminal resolvase-like domain, putative [Plasmodium vivax]
+SCO65718.1           -            442 7054at5820           -            307  5.7e-169  559.8  19.4   2   2   1.4e-96   4.4e-93  310.5   7.9   139   307   264   437   258   437 0.96 5'-3' exonuclease, N-terminal resolvase-like domain, putative [Plasmodium vivax]
+SCO65315.1           -            623 7054at5820           -            307   4.1e-05   21.6   0.7   1   1   2.4e-08   7.2e-05   20.8   0.7   182   241   226   283   187   354 0.77 flap endonuclease 1, putative [Plasmodium vivax]
+#
+# Program:         hmmsearch
+# Version:         3.4 (Aug 2023)
+# Pipeline mode:   SEARCH
+# Query file:      /v3/work/00_inventory/busco/busco_downloads/lineages/plasmodium_odb10/hmms/7054at5820.hmm
+# Target file:     /v3/inputs/annotations/ncbi-datasets/PvT01.proteins.fa
+# Option settings: hmmsearch --domtblout /v3/work/00_inventory/busco/PvT01_proteins/run_plasmodium_odb10/hmmer_output/initial_run_results/7054at5820.out --cpu 1 /v3/work/00_inventory/busco/busco_downloads/lineages/plasmodium_odb10/hmms/7054at5820.hmm /v3/inputs/annotations/ncbi-datasets/PvT01.proteins.fa 
+# Current dir:     /v3/work/00_inventory/busco
+# Date:            Tue May 19 18:56:04 2026
+# [ok]

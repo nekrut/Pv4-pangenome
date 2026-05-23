@@ -1,0 +1,30 @@
+#                                                                            --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name        accession   tlen query name           accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+#------------------- ---------- ----- -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+SCO74920.1           -           2397 588at5820            -           1267         0 2105.1 181.9   1  15  3.2e-185    1e-181  605.0   9.6     1   266    34   312    34   325 0.96 atypical protein kinase, ABC-1 family, putative [Plasmodium vivax]
+SCO74920.1           -           2397 588at5820            -           1267         0 2105.1 181.9   2  15   4.6e-14   1.4e-10   38.0   1.6   263   328   393   481   388   484 0.83 atypical protein kinase, ABC-1 family, putative [Plasmodium vivax]
+SCO74920.1           -           2397 588at5820            -           1267         0 2105.1 181.9   3  15   5.2e-56   1.6e-52  176.9   0.1   323   409   577   663   562   667 0.95 atypical protein kinase, ABC-1 family, putative [Plasmodium vivax]
+SCO74920.1           -           2397 588at5820            -           1267         0 2105.1 181.9   4  15  1.8e-111  5.8e-108  360.6   7.9   407   596   686   873   678   890 0.92 atypical protein kinase, ABC-1 family, putative [Plasmodium vivax]
+SCO74920.1           -           2397 588at5820            -           1267         0 2105.1 181.9   5  15     0.043   1.4e+02   -1.7   0.3   573   603   906   936   901   945 0.77 atypical protein kinase, ABC-1 family, putative [Plasmodium vivax]
+SCO74920.1           -           2397 588at5820            -           1267         0 2105.1 181.9   6  15   6.2e-86     2e-82  276.1  25.7   595   802  1050  1256  1043  1271 0.86 atypical protein kinase, ABC-1 family, putative [Plasmodium vivax]
+SCO74920.1           -           2397 588at5820            -           1267         0 2105.1 181.9   7  15   0.00035       1.1    5.2   0.0   737   772  1286  1321  1279  1342 0.83 atypical protein kinase, ABC-1 family, putative [Plasmodium vivax]
+SCO74920.1           -           2397 588at5820            -           1267         0 2105.1 181.9   8  15   1.2e-26   3.8e-23   79.7  14.6   769   871  1421  1526  1415  1542 0.79 atypical protein kinase, ABC-1 family, putative [Plasmodium vivax]
+SCO74920.1           -           2397 588at5820            -           1267         0 2105.1 181.9   9  15     0.039   1.2e+02   -1.6  12.9   812   873  1532  1589  1524  1638 0.59 atypical protein kinase, ABC-1 family, putative [Plasmodium vivax]
+SCO74920.1           -           2397 588at5820            -           1267         0 2105.1 181.9  10  15     5e-29   1.6e-25   87.6   6.5   867   941  1671  1745  1653  1750 0.89 atypical protein kinase, ABC-1 family, putative [Plasmodium vivax]
+SCO74920.1           -           2397 588at5820            -           1267         0 2105.1 181.9  11  15      0.08   2.5e+02   -2.6   0.7   749   780  1791  1822  1775  1845 0.44 atypical protein kinase, ABC-1 family, putative [Plasmodium vivax]
+SCO74920.1           -           2397 588at5820            -           1267         0 2105.1 181.9  12  15   1.3e-23     4e-20   69.7   7.4   939   993  1856  1910  1848  1923 0.90 atypical protein kinase, ABC-1 family, putative [Plasmodium vivax]
+SCO74920.1           -           2397 588at5820            -           1267         0 2105.1 181.9  13  15   1.6e-32     5e-29   99.1   2.7   990  1070  1962  2044  1939  2046 0.92 atypical protein kinase, ABC-1 family, putative [Plasmodium vivax]
+SCO74920.1           -           2397 588at5820            -           1267         0 2105.1 181.9  14  15   1.6e-78     5e-75  251.5   1.4  1067  1199  2118  2253  2112  2257 0.96 atypical protein kinase, ABC-1 family, putative [Plasmodium vivax]
+SCO74920.1           -           2397 588at5820            -           1267         0 2105.1 181.9  15  15   9.4e-41     3e-37  126.4   0.1  1196  1267  2326  2397  2317  2397 0.97 atypical protein kinase, ABC-1 family, putative [Plasmodium vivax]
+SCO75367.1           -            958 588at5820            -           1267   1.4e-24   84.4  11.4   1   2      0.55   1.7e+03   -5.3   2.8   794   822   147   175    75   212 0.53 ABC1 family, putative [Plasmodium vivax]
+SCO75367.1           -            958 588at5820            -           1267   1.4e-24   84.4  11.4   2   2   4.4e-28   1.4e-24   84.4  11.4    18   320   564   864   559   902 0.76 ABC1 family, putative [Plasmodium vivax]
+#
+# Program:         hmmsearch
+# Version:         3.4 (Aug 2023)
+# Pipeline mode:   SEARCH
+# Query file:      /v3/work/00_inventory/busco/busco_downloads/lineages/plasmodium_odb10/hmms/588at5820.hmm
+# Target file:     /v3/inputs/annotations/ncbi-datasets/PvC01.proteins.fa
+# Option settings: hmmsearch --domtblout /v3/work/00_inventory/busco/PvC01_proteins/run_plasmodium_odb10/hmmer_output/initial_run_results/588at5820.out --cpu 1 /v3/work/00_inventory/busco/busco_downloads/lineages/plasmodium_odb10/hmms/588at5820.hmm /v3/inputs/annotations/ncbi-datasets/PvC01.proteins.fa 
+# Current dir:     /v3/work/00_inventory/busco
+# Date:            Tue May 19 18:57:33 2026
+# [ok]

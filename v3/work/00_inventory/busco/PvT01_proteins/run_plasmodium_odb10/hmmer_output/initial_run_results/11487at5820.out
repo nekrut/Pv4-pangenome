@@ -1,0 +1,19 @@
+#                                                                            --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name        accession   tlen query name           accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+#------------------- ---------- ----- -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+SCO67975.1           -            187 11487at5820          -            117   7.2e-46  153.6   0.5   1   1   1.4e-48   1.7e-45  152.4   0.5     1    74    89   162    89   170 0.97 DNA-directed RNA polymerases I, II, and III subunit RPABC1, putative [Plasmodium vivax]
+SCO65034.1           -            220 11487at5820          -            117    0.0059   15.2   0.0   1   1   8.3e-06      0.01   14.4   0.0    51   109    92   152    79   160 0.77 1-cys peroxiredoxin [Plasmodium vivax]
+SCO70165.1           -            336 11487at5820          -            117     0.016   13.8   0.3   1   1   2.9e-05     0.036   12.7   0.3     5   101    88   182    85   191 0.82 replication factor C subunit 4, putative [Plasmodium vivax]
+SCO69640.1           -            672 11487at5820          -            117     0.044   12.4   0.2   1   1   8.1e-05     0.098   11.2   0.2    53    91   264   301   241   320 0.77 AAR2 protein, putative [Plasmodium vivax]
+SCO68561.1           -            282 11487at5820          -            117      0.13   10.8   6.2   1   2     0.032        38    2.9   0.6    11    78    14    84     7   121 0.72 RanBPM and CLTH-like protein, putative [Plasmodium vivax]
+SCO68561.1           -            282 11487at5820          -            117      0.13   10.8   6.2   2   2   0.00054      0.66    8.6   0.6    51    83   152   184   117   203 0.83 RanBPM and CLTH-like protein, putative [Plasmodium vivax]
+#
+# Program:         hmmsearch
+# Version:         3.4 (Aug 2023)
+# Pipeline mode:   SEARCH
+# Query file:      /v3/work/00_inventory/busco/busco_downloads/lineages/plasmodium_odb10/hmms/11487at5820.hmm
+# Target file:     /v3/inputs/annotations/ncbi-datasets/PvT01.proteins.fa
+# Option settings: hmmsearch --domtblout /v3/work/00_inventory/busco/PvT01_proteins/run_plasmodium_odb10/hmmer_output/initial_run_results/11487at5820.out --cpu 1 /v3/work/00_inventory/busco/busco_downloads/lineages/plasmodium_odb10/hmms/11487at5820.hmm /v3/inputs/annotations/ncbi-datasets/PvT01.proteins.fa 
+# Current dir:     /v3/work/00_inventory/busco
+# Date:            Tue May 19 18:33:25 2026
+# [ok]

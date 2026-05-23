@@ -1,0 +1,20 @@
+#                                                                            --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name        accession   tlen query name           accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+#------------------- ---------- ----- -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+SCO68584.1           -            522 6981at5820           -            460    3e-243  806.0  87.1   1   2  1.4e-109  2.1e-106  354.9  47.0     1   229    16   252    16   258 0.93 chaperone binding protein, putative [Plasmodium vivax]
+SCO68584.1           -            522 6981at5820           -            460    3e-243  806.0  87.1   2   2  3.4e-140  5.2e-137  455.8  36.9   199   460   246   522   242   522 0.90 chaperone binding protein, putative [Plasmodium vivax]
+SCO70221.1           -            302 6981at5820           -            460     6e-17   59.9  13.4   1   1   5.3e-20     8e-17   59.5  13.4     7   168   128   297   123   301 0.85 FK506-binding protein (FKBP)-type peptidyl-prolyl isomerase, putative [Plasmodium vivax]
+SCO67218.1           -            426 6981at5820           -            460     2e-05   22.0  10.3   1   2      0.38   5.7e+02   -2.6  22.2   155   246    13   107     2   115 0.56 peptidyl-prolyl cis-trans isomerase, putative [Plasmodium vivax]
+SCO67218.1           -            426 6981at5820           -            460     2e-05   22.0  10.3   2   2   1.3e-08     2e-05   22.0  10.3     9   160   107   267    99   298 0.81 peptidyl-prolyl cis-trans isomerase, putative [Plasmodium vivax]
+SCO68638.1           -            985 6981at5820           -            460      0.94    6.6  18.6   1   2   2.6e-05      0.04   11.1  12.7   200   268   283   361   270   365 0.69 alpha/beta-hydrolase, putative [Plasmodium vivax]
+SCO68638.1           -            985 6981at5820           -            460      0.94    6.6  18.6   2   2      0.68     1e+03   -3.5   0.3   203   220   859   874   851   888 0.60 alpha/beta-hydrolase, putative [Plasmodium vivax]
+#
+# Program:         hmmsearch
+# Version:         3.4 (Aug 2023)
+# Pipeline mode:   SEARCH
+# Query file:      /v3/work/00_inventory/busco/busco_downloads/lineages/plasmodium_odb10/hmms/6981at5820.hmm
+# Target file:     /v3/inputs/annotations/ncbi-datasets/PvT01.proteins.fa
+# Option settings: hmmsearch --domtblout /v3/work/00_inventory/busco/PvT01_proteins/run_plasmodium_odb10/hmmer_output/initial_run_results/6981at5820.out --cpu 1 /v3/work/00_inventory/busco/busco_downloads/lineages/plasmodium_odb10/hmms/6981at5820.hmm /v3/inputs/annotations/ncbi-datasets/PvT01.proteins.fa 
+# Current dir:     /v3/work/00_inventory/busco
+# Date:            Tue May 19 18:55:46 2026
+# [ok]

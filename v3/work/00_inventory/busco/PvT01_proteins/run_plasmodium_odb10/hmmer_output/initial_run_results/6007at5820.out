@@ -1,0 +1,29 @@
+#                                                                            --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name        accession   tlen query name           accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+#------------------- ---------- ----- -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+SCO67517.1           -            735 6007at5820           -            530  8.6e-236  782.0  14.4   1   3   8.4e-33     1e-29  102.0   0.2     6    75    22    92    17   110 0.90 conserved Plasmodium protein, unknown function [Plasmodium vivax]
+SCO67517.1           -            735 6007at5820           -            530  8.6e-236  782.0  14.4   2   3     3e-93   3.6e-90  301.5  11.4    85   227   191   333   165   353 0.92 conserved Plasmodium protein, unknown function [Plasmodium vivax]
+SCO67517.1           -            735 6007at5820           -            530  8.6e-236  782.0  14.4   3   3  2.4e-116  2.9e-113  377.7   0.0   236   529   387   730   359   731 0.86 conserved Plasmodium protein, unknown function [Plasmodium vivax]
+SCO70021.1           -           1239 6007at5820           -            530   2.8e-06   24.6  14.3   1   5      0.16     2e+02   -1.2   0.2   478   514   127   165    97   175 0.62 RAP protein, putative [Plasmodium vivax]
+SCO70021.1           -           1239 6007at5820           -            530   2.8e-06   24.6  14.3   2   5      0.81   9.9e+02   -3.6   0.1   301   331   299   329   288   331 0.81 RAP protein, putative [Plasmodium vivax]
+SCO70021.1           -           1239 6007at5820           -            530   2.8e-06   24.6  14.3   3   5   5.6e-06    0.0068   13.5   3.9   111   218   408   514   407   525 0.89 RAP protein, putative [Plasmodium vivax]
+SCO70021.1           -           1239 6007at5820           -            530   2.8e-06   24.6  14.3   4   5   1.7e-08     2e-05   21.8   0.2   145   371   478   713   478   730 0.74 RAP protein, putative [Plasmodium vivax]
+SCO70021.1           -           1239 6007at5820           -            530   2.8e-06   24.6  14.3   5   5      0.21   2.5e+02   -1.6   0.0    14    48  1170  1204  1161  1210 0.84 RAP protein, putative [Plasmodium vivax]
+SCO69971.1           -            836 6007at5820           -            530   5.6e-06   23.6  22.6   1   5   4.6e-09   5.6e-06   23.6  22.6   114   371   120   385   115   391 0.83 conserved Plasmodium protein, unknown function [Plasmodium vivax]
+SCO69971.1           -            836 6007at5820           -            530   5.6e-06   23.6  22.6   2   5    0.0004      0.48    7.4   1.1   168   218   373   424   372   428 0.84 conserved Plasmodium protein, unknown function [Plasmodium vivax]
+SCO69971.1           -            836 6007at5820           -            530   5.6e-06   23.6  22.6   3   5    0.0015       1.9    5.4   6.6   148   215   390   457   384   470 0.85 conserved Plasmodium protein, unknown function [Plasmodium vivax]
+SCO69971.1           -            836 6007at5820           -            530   5.6e-06   23.6  22.6   4   5     0.068        82   -0.0   6.7   113   210   430   489   422   597 0.68 conserved Plasmodium protein, unknown function [Plasmodium vivax]
+SCO69971.1           -            836 6007at5820           -            530   5.6e-06   23.6  22.6   5   5      0.19   2.3e+02   -1.5   3.1   215   288   707   785   682   799 0.58 conserved Plasmodium protein, unknown function [Plasmodium vivax]
+SCO68626.1           -           1047 6007at5820           -            530      0.11    9.5   5.2   1   2   5.4e-05     0.066   10.2   0.3    81   176    80   176    66   181 0.78 conserved Plasmodium protein, unknown function [Plasmodium vivax]
+SCO68626.1           -           1047 6007at5820           -            530      0.11    9.5   5.2   2   2     0.034        41    1.0   0.7   300   349   455   503   428   534 0.53 conserved Plasmodium protein, unknown function [Plasmodium vivax]
+SCO66657.1           -            226 6007at5820           -            530       1.6    5.6  10.0   1   1    0.0018       2.2    5.2  10.0   239   307    77   146    65   173 0.53 conserved Plasmodium protein, unknown function [Plasmodium vivax]
+#
+# Program:         hmmsearch
+# Version:         3.4 (Aug 2023)
+# Pipeline mode:   SEARCH
+# Query file:      /v3/work/00_inventory/busco/busco_downloads/lineages/plasmodium_odb10/hmms/6007at5820.hmm
+# Target file:     /v3/inputs/annotations/ncbi-datasets/PvT01.proteins.fa
+# Option settings: hmmsearch --domtblout /v3/work/00_inventory/busco/PvT01_proteins/run_plasmodium_odb10/hmmer_output/initial_run_results/6007at5820.out --cpu 1 /v3/work/00_inventory/busco/busco_downloads/lineages/plasmodium_odb10/hmms/6007at5820.hmm /v3/inputs/annotations/ncbi-datasets/PvT01.proteins.fa 
+# Current dir:     /v3/work/00_inventory/busco
+# Date:            Tue May 19 18:58:28 2026
+# [ok]

@@ -1,0 +1,17 @@
+#                                                                            --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name        accession   tlen query name           accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+#------------------- ---------- ----- -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+CAI7721075.1         -            206 11966at5820          -            160   1.1e-94  313.3  11.5   1   1   7.4e-98   1.6e-94  312.8  11.5     1   147     1   147     1   167 0.97 | transcript=PVPAM_100034300_t1 | gene=PVPAM_100034300 | organism=Plasmodium_vivax_PAM | gene_product=60S ribosomal subunit protein L24, putative | transcript_product=60S ribosomal subunit protein L24, putative | location=CASCJQ010000010:1259104-1260033(+) | protein_length=206 | sequence_SO=supercontig | SO=protein_coding_gene | is_pseudo=false
+CAI7723257.1         -            162 11966at5820          -            160   0.00014   20.4  13.8   1   1   1.2e-07   0.00026   19.5  13.8     2   108     9   116     8   162 0.62 | transcript=PVPAM_140017600_t1 | gene=PVPAM_140017600 | organism=Plasmodium_vivax_PAM | gene_product=60S ribosomal protein L24, putative | transcript_product=60S ribosomal protein L24, putative | location=CASCJQ010000014:592083-593301(+) | protein_length=162 | sequence_SO=supercontig | SO=protein_coding_gene | is_pseudo=false
+CAI7721991.1         -            160 11966at5820          -            160     0.002   16.7   1.5   1   2      0.43   9.2e+02   -1.7   0.1    96   117    50    71    38    84 0.65 | transcript=PVPAM_120023000_t1 | gene=PVPAM_120023000 | organism=Plasmodium_vivax_PAM | gene_product=WPP motif-containing protein, putative | transcript_product=WPP motif-containing protein, putative | location=CASCJQ010000012:746203-747153(-) | protein_length=160 | sequence_SO=supercontig | SO=protein_coding_gene | is_pseudo=false
+CAI7721991.1         -            160 11966at5820          -            160     0.002   16.7   1.5   2   2   1.1e-06    0.0024   16.4   0.3   104   157   104   157    89   160 0.89 | transcript=PVPAM_120023000_t1 | gene=PVPAM_120023000 | organism=Plasmodium_vivax_PAM | gene_product=WPP motif-containing protein, putative | transcript_product=WPP motif-containing protein, putative | location=CASCJQ010000012:746203-747153(-) | protein_length=160 | sequence_SO=supercontig | SO=protein_coding_gene | is_pseudo=false
+#
+# Program:         hmmsearch
+# Version:         3.4 (Aug 2023)
+# Pipeline mode:   SEARCH
+# Query file:      /v3/work/00_inventory/busco/busco_downloads/lineages/plasmodium_odb10/hmms/11966at5820.hmm
+# Target file:     /v3/inputs/annotations/plasmodb-68/PAM.proteins.fa
+# Option settings: hmmsearch --domtblout /v3/work/00_inventory/busco/PAM_proteins/run_plasmodium_odb10/hmmer_output/initial_run_results/11966at5820.out --cpu 1 /v3/work/00_inventory/busco/busco_downloads/lineages/plasmodium_odb10/hmms/11966at5820.hmm /v3/inputs/annotations/plasmodb-68/PAM.proteins.fa 
+# Current dir:     /v3/work/00_inventory/busco
+# Date:            Tue May 19 17:25:13 2026
+# [ok]

@@ -1,0 +1,16 @@
+#                                                                            --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name        accession   tlen query name           accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+#------------------- ---------- ----- -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+PVX_084990.1-p1      -            256 10527at5820          -            209  3.1e-129  427.4  11.6   1   2  5.5e-120  1.5e-116  385.9   7.7     1   178     1   180     1   189 0.98 | transcript=PVX_084990.1 | gene=PVX_084990 | organism=Plasmodium_vivax_Sal-1 | gene_product=50S ribosomal protein L17, putative | transcript_product=50S ribosomal protein L17, putative | location=Pv_Sal1_chr13:831673-832663(+) | protein_length=256 | sequence_SO=chromosome | SO=protein_coding_gene | is_pseudo=false
+PVX_084990.1-p1      -            256 10527at5820          -            209  3.1e-129  427.4  11.6   2   2     3e-15   8.3e-12   43.7   0.1   176   209   220   256   185   256 0.85 | transcript=PVX_084990.1 | gene=PVX_084990 | organism=Plasmodium_vivax_Sal-1 | gene_product=50S ribosomal protein L17, putative | transcript_product=50S ribosomal protein L17, putative | location=Pv_Sal1_chr13:831673-832663(+) | protein_length=256 | sequence_SO=chromosome | SO=protein_coding_gene | is_pseudo=false
+PVX_080125.1-p1      -            166 10527at5820          -            209     8e-06   24.2   2.4   1   1   3.7e-09     1e-05   23.8   2.4    17   128    51   166    41   166 0.86 | transcript=PVX_080125.1 | gene=PVX_080125 | organism=Plasmodium_vivax_Sal-1 | gene_product=50S ribosomal protein L17, apicoplast, putative | transcript_product=50S ribosomal protein L17, apicoplast, putative | location=Pv_Sal1_chr10:387622-388474(-) | protein_length=166 | sequence_SO=chromosome | SO=protein_coding_gene | is_pseudo=false
+#
+# Program:         hmmsearch
+# Version:         3.4 (Aug 2023)
+# Pipeline mode:   SEARCH
+# Query file:      /v3/work/00_inventory/busco/busco_downloads/lineages/plasmodium_odb10/hmms/10527at5820.hmm
+# Target file:     /v3/inputs/annotations/plasmodb-68/Sal-I.proteins.fa
+# Option settings: hmmsearch --domtblout /v3/work/00_inventory/busco/Sal-I_proteins/run_plasmodium_odb10/hmmer_output/initial_run_results/10527at5820.out --cpu 1 /v3/work/00_inventory/busco/busco_downloads/lineages/plasmodium_odb10/hmms/10527at5820.hmm /v3/inputs/annotations/plasmodb-68/Sal-I.proteins.fa 
+# Current dir:     /v3/work/00_inventory/busco
+# Date:            Tue May 19 17:26:35 2026
+# [ok]

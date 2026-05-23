@@ -1,0 +1,19 @@
+#                                                                            --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name        accession   tlen query name           accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+#------------------- ---------- ----- -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+SCO69311.1           -            690 4775at5820           -            504  5.2e-212  703.3   0.0   1   4     2e-66     6e-63  211.5   0.0     2   156     6   211     5   222 0.96 diphthamide biosynthesis protein 2, putative [Plasmodium vivax]
+SCO69311.1           -            690 4775at5820           -            504  5.2e-212  703.3   0.0   2   4   5.3e-33   1.6e-29  101.2   0.0   170   280   261   392   256   403 0.82 diphthamide biosynthesis protein 2, putative [Plasmodium vivax]
+SCO69311.1           -            690 4775at5820           -            504  5.2e-212  703.3   0.0   3   4   4.5e-80   1.4e-76  256.5   1.0   264   415   398   551   391   562 0.93 diphthamide biosynthesis protein 2, putative [Plasmodium vivax]
+SCO69311.1           -            690 4775at5820           -            504  5.2e-212  703.3   0.0   4   4   1.1e-40   3.3e-37  126.6   0.0   422   504   606   688   603   688 0.98 diphthamide biosynthesis protein 2, putative [Plasmodium vivax]
+SCO69452.1           -            479 4775at5820           -            504   5.5e-20   69.8  25.1   1   2   2.5e-19   7.7e-16   56.1   6.1     9   159    47   190    38   204 0.79 diphthamide biosynthesis protein 1, putative [Plasmodium vivax]
+SCO69452.1           -            479 4775at5820           -            504   5.5e-20   69.8  25.1   2   2   3.1e-08   9.3e-05   19.6  11.0   264   393   302   436   262   443 0.80 diphthamide biosynthesis protein 1, putative [Plasmodium vivax]
+#
+# Program:         hmmsearch
+# Version:         3.4 (Aug 2023)
+# Pipeline mode:   SEARCH
+# Query file:      /v3/work/00_inventory/busco/busco_downloads/lineages/plasmodium_odb10/hmms/4775at5820.hmm
+# Target file:     /v3/inputs/annotations/ncbi-datasets/PvT01.proteins.fa
+# Option settings: hmmsearch --domtblout /v3/work/00_inventory/busco/PvT01_proteins/run_plasmodium_odb10/hmmer_output/initial_run_results/4775at5820.out --cpu 1 /v3/work/00_inventory/busco/busco_downloads/lineages/plasmodium_odb10/hmms/4775at5820.hmm /v3/inputs/annotations/ncbi-datasets/PvT01.proteins.fa 
+# Current dir:     /v3/work/00_inventory/busco
+# Date:            Tue May 19 18:50:12 2026
+# [ok]

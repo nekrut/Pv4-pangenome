@@ -1,0 +1,30 @@
+#                                                                            --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name        accession   tlen query name           accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+#------------------- ---------- ----- -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+SCO75545.1           -           1861 890at5820            -           1531         0 2252.2   0.0   1   4         0         0 1600.2   1.4     1   954     1  1020     1  1031 0.91 myosin D, putative [Plasmodium vivax]
+SCO75545.1           -           1861 890at5820            -           1531         0 2252.2   0.0   2   4  2.5e-167  2.7e-164  547.1   0.0   963  1414  1089  1646  1081  1657 0.92 myosin D, putative [Plasmodium vivax]
+SCO75545.1           -           1861 890at5820            -           1531         0 2252.2   0.0   3   4   2.4e-16   2.5e-13   46.7   0.0  1417  1456  1692  1731  1685  1734 0.94 myosin D, putative [Plasmodium vivax]
+SCO75545.1           -           1861 890at5820            -           1531         0 2252.2   0.0   4   4   1.3e-17   1.4e-14   50.9   0.0  1453  1530  1757  1861  1741  1861 0.79 myosin D, putative [Plasmodium vivax]
+SCO73971.1           -            817 890at5820            -           1531   1.6e-62  209.8  17.6   1   2   8.6e-21     9e-18   61.4   0.0    98   208   101   208    83   217 0.87 myosin A, putative [Plasmodium vivax]
+SCO73971.1           -            817 890at5820            -           1531   1.6e-62  209.8  17.6   2   2   6.1e-44   6.4e-41  138.2  16.9   260   847   226   759   210   775 0.79 myosin A, putative [Plasmodium vivax]
+SCO74096.1           -           1983 890at5820            -           1531   4.7e-61  204.9  12.2   1   3   1.5e-21   1.5e-18   64.0   0.0    98   208    73   176    14   179 0.82 myosin C, putative [Plasmodium vivax]
+SCO74096.1           -           1983 890at5820            -           1531   4.7e-61  204.9  12.2   2   3   1.8e-14   1.8e-11   40.5   0.1   261   339   196   274   181   282 0.85 myosin C, putative [Plasmodium vivax]
+SCO74096.1           -           1983 890at5820            -           1531   4.7e-61  204.9  12.2   3   3   4.7e-31   4.9e-28   95.5   6.0   370   813   373   775   358   779 0.79 myosin C, putative [Plasmodium vivax]
+SCO72888.1           -           1716 890at5820            -           1531   4.5e-55  185.1  67.4   1   3     1e-29   1.1e-26   91.0  13.0    13   338    21   416     5   448 0.77 myosin F, putative [Plasmodium vivax]
+SCO72888.1           -           1716 890at5820            -           1531   4.5e-55  185.1  67.4   2   3   3.8e-35     4e-32  109.0  35.2   512   944   744  1266   737  1334 0.79 myosin F, putative [Plasmodium vivax]
+SCO72888.1           -           1716 890at5820            -           1531   4.5e-55  185.1  67.4   3   3      0.45   4.8e+02   -3.9   3.4   613   653  1595  1636  1574  1689 0.71 myosin F, putative [Plasmodium vivax]
+SCO73315.1           -            800 890at5820            -           1531   1.2e-54  183.7  72.9   1   2   6.6e-17   6.9e-14   48.6   6.9    74   208    71   194     4   203 0.77 myosin B, putative [Plasmodium vivax]
+SCO73315.1           -            800 890at5820            -           1531   1.2e-54  183.7  72.9   2   2   1.7e-42   1.8e-39  133.4  58.4   255   874   204   765   195   799 0.78 myosin B, putative [Plasmodium vivax]
+SCO73718.1           -           1974 890at5820            -           1531   2.6e-22   76.5  26.0   1   3   1.1e-18   1.1e-15   54.5  10.6    87   365    72   409    41   427 0.78 myosin E, putative [Plasmodium vivax]
+SCO73718.1           -           1974 890at5820            -           1531   2.6e-22   76.5  26.0   2   3   0.00059      0.61    5.6   0.0   373   445   531   603   514   613 0.77 myosin E, putative [Plasmodium vivax]
+SCO73718.1           -           1974 890at5820            -           1531   2.6e-22   76.5  26.0   3   3   2.6e-08   2.7e-05   20.1   5.9   425   763   617   951   598   974 0.68 myosin E, putative [Plasmodium vivax]
+#
+# Program:         hmmsearch
+# Version:         3.4 (Aug 2023)
+# Pipeline mode:   SEARCH
+# Query file:      /v3/work/00_inventory/busco/busco_downloads/lineages/plasmodium_odb10/hmms/890at5820.hmm
+# Target file:     /v3/inputs/annotations/ncbi-datasets/PvC01.proteins.fa
+# Option settings: hmmsearch --domtblout /v3/work/00_inventory/busco/PvC01_proteins/run_plasmodium_odb10/hmmer_output/initial_run_results/890at5820.out --cpu 1 /v3/work/00_inventory/busco/busco_downloads/lineages/plasmodium_odb10/hmms/890at5820.hmm /v3/inputs/annotations/ncbi-datasets/PvC01.proteins.fa 
+# Current dir:     /v3/work/00_inventory/busco
+# Date:            Tue May 19 19:07:51 2026
+# [ok]

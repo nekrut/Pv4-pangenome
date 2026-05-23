@@ -1,0 +1,17 @@
+#                                                                            --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name        accession   tlen query name           accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+#------------------- ---------- ----- -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+CAI7723648.1         -            866 4634at5820           -            479  3.6e-271  898.5  50.8   1   4   2.4e-50   1.6e-46  157.7   2.8     1    91    28   118    28   120 0.98 | transcript=PVPAM_140057200_t1 | gene=PVPAM_140057200 | organism=Plasmodium_vivax_PAM | gene_product=serine/threonine protein kinase RIO1, putative | transcript_product=serine/threonine protein kinase RIO1, putative | location=CASCJQ010000014:2245267-2247867(+) | protein_length=866 | sequence_SO=supercontig | SO=protein_coding_gene | is_pseudo=false
+CAI7723648.1         -            866 4634at5820           -            479  3.6e-271  898.5  50.8   2   4  6.8e-129  4.4e-125  416.8   6.9    97   280   287   470   281   481 0.97 | transcript=PVPAM_140057200_t1 | gene=PVPAM_140057200 | organism=Plasmodium_vivax_PAM | gene_product=serine/threonine protein kinase RIO1, putative | transcript_product=serine/threonine protein kinase RIO1, putative | location=CASCJQ010000014:2245267-2247867(+) | protein_length=866 | sequence_SO=supercontig | SO=protein_coding_gene | is_pseudo=false
+CAI7723648.1         -            866 4634at5820           -            479  3.6e-271  898.5  50.8   3   4   9.3e-79     6e-75  251.4   4.4   277   427   532   690   527   702 0.93 | transcript=PVPAM_140057200_t1 | gene=PVPAM_140057200 | organism=Plasmodium_vivax_PAM | gene_product=serine/threonine protein kinase RIO1, putative | transcript_product=serine/threonine protein kinase RIO1, putative | location=CASCJQ010000014:2245267-2247867(+) | protein_length=866 | sequence_SO=supercontig | SO=protein_coding_gene | is_pseudo=false
+CAI7723648.1         -            866 4634at5820           -            479  3.6e-271  898.5  50.8   4   4   4.7e-30     3e-26   90.8  13.0   420   479   807   866   793   866 0.89 | transcript=PVPAM_140057200_t1 | gene=PVPAM_140057200 | organism=Plasmodium_vivax_PAM | gene_product=serine/threonine protein kinase RIO1, putative | transcript_product=serine/threonine protein kinase RIO1, putative | location=CASCJQ010000014:2245267-2247867(+) | protein_length=866 | sequence_SO=supercontig | SO=protein_coding_gene | is_pseudo=false
+#
+# Program:         hmmsearch
+# Version:         3.4 (Aug 2023)
+# Pipeline mode:   SEARCH
+# Query file:      /v3/work/00_inventory/busco/busco_downloads/lineages/plasmodium_odb10/hmms/4634at5820.hmm
+# Target file:     /v3/inputs/annotations/plasmodb-68/PAM.proteins.fa
+# Option settings: hmmsearch --domtblout /v3/work/00_inventory/busco/PAM_proteins/run_plasmodium_odb10/hmmer_output/initial_run_results/4634at5820.out --cpu 1 /v3/work/00_inventory/busco/busco_downloads/lineages/plasmodium_odb10/hmms/4634at5820.hmm /v3/inputs/annotations/plasmodb-68/PAM.proteins.fa 
+# Current dir:     /v3/work/00_inventory/busco
+# Date:            Tue May 19 17:42:29 2026
+# [ok]

@@ -1,0 +1,17 @@
+#                                                                            --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name        accession   tlen query name           accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+#------------------- ---------- ----- -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+PVP01_0836400.1-p1   -            644 6284at5820           -            458  3.6e-214  710.3  50.0   1   4   2.1e-08   0.00013   19.5   0.1     1    32     1    38     1    54 0.79 | transcript=PVP01_0836400.1 | gene=PVP01_0836400 | organism=Plasmodium_vivax_P01 | gene_product=IBR domain protein, putative | transcript_product=IBR domain protein, putative | location=PvP01_08_v2:1535614-1537548(-) | protein_length=644 | sequence_SO=chromosome | SO=protein_coding_gene | is_pseudo=false
+PVP01_0836400.1-p1   -            644 6284at5820           -            458  3.6e-214  710.3  50.0   2   4   4.9e-38   3.2e-34  117.1   0.6    24   116    65   159    60   169 0.93 | transcript=PVP01_0836400.1 | gene=PVP01_0836400 | organism=Plasmodium_vivax_P01 | gene_product=IBR domain protein, putative | transcript_product=IBR domain protein, putative | location=PvP01_08_v2:1535614-1537548(-) | protein_length=644 | sequence_SO=chromosome | SO=protein_coding_gene | is_pseudo=false
+PVP01_0836400.1-p1   -            644 6284at5820           -            458  3.6e-214  710.3  50.0   3   4  1.1e-110  7.2e-107  356.6  21.9   108   320   197   421   191   425 0.94 | transcript=PVP01_0836400.1 | gene=PVP01_0836400 | organism=Plasmodium_vivax_P01 | gene_product=IBR domain protein, putative | transcript_product=IBR domain protein, putative | location=PvP01_08_v2:1535614-1537548(-) | protein_length=644 | sequence_SO=chromosome | SO=protein_coding_gene | is_pseudo=false
+PVP01_0836400.1-p1   -            644 6284at5820           -            458  3.6e-214  710.3  50.0   4   4   1.8e-72   1.2e-68  230.6   8.7   318   458   486   636   483   636 0.95 | transcript=PVP01_0836400.1 | gene=PVP01_0836400 | organism=Plasmodium_vivax_P01 | gene_product=IBR domain protein, putative | transcript_product=IBR domain protein, putative | location=PvP01_08_v2:1535614-1537548(-) | protein_length=644 | sequence_SO=chromosome | SO=protein_coding_gene | is_pseudo=false
+#
+# Program:         hmmsearch
+# Version:         3.4 (Aug 2023)
+# Pipeline mode:   SEARCH
+# Query file:      /v3/work/00_inventory/busco/busco_downloads/lineages/plasmodium_odb10/hmms/6284at5820.hmm
+# Target file:     /v3/inputs/annotations/plasmodb-68/PvP01.proteins.fa
+# Option settings: hmmsearch --domtblout /v3/work/00_inventory/busco/PvP01_proteins/run_plasmodium_odb10/hmmer_output/initial_run_results/6284at5820.out --cpu 1 /v3/work/00_inventory/busco/busco_downloads/lineages/plasmodium_odb10/hmms/6284at5820.hmm /v3/inputs/annotations/plasmodb-68/PvP01.proteins.fa 
+# Current dir:     /v3/work/00_inventory/busco
+# Date:            Tue May 19 17:45:49 2026
+# [ok]

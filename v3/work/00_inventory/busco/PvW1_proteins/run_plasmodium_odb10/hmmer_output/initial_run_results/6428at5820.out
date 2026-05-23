@@ -1,0 +1,16 @@
+#                                                                            --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name        accession   tlen query name           accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+#------------------- ---------- ----- -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+CAG9476215.1         -            637 6428at5820           -            483  4.4e-251  831.9  31.2   1   2         2   6.1e+03   -7.3  11.1     1    79     1    76     1   113 0.44 | transcript=PVW1_130045400_t1 | gene=PVW1_130045400 | organism=Plasmodium_vivax_PvW1 | gene_product=Phosphatidate cytidylyltransferase [Source:UniProtKB/TrEMBL;Acc:A0A1G4HJ47] | transcript_product=Phosphatidate cytidylyltransferase [Source:UniProtKB/TrEMBL;Acc:A0A1G4HJ47] | location=CAJZCX010000006:1777736-1779649(-) | protein_length=637 | sequence_SO=supercontig | SO=protein_coding_gene | is_pseudo=false
+CAG9476215.1         -            637 6428at5820           -            483  4.4e-251  831.9  31.2   2   2  1.5e-254  4.4e-251  831.9  31.2    17   482   125   618   106   619 0.91 | transcript=PVW1_130045400_t1 | gene=PVW1_130045400 | organism=Plasmodium_vivax_PvW1 | gene_product=Phosphatidate cytidylyltransferase [Source:UniProtKB/TrEMBL;Acc:A0A1G4HJ47] | transcript_product=Phosphatidate cytidylyltransferase [Source:UniProtKB/TrEMBL;Acc:A0A1G4HJ47] | location=CAJZCX010000006:1777736-1779649(-) | protein_length=637 | sequence_SO=supercontig | SO=protein_coding_gene | is_pseudo=false
+CAG9481537.1         -            178 6428at5820           -            483       2.9    4.7  11.0   1   1    0.0013       3.8    4.4  11.0    15   117    21   121     7   130 0.73 | transcript=PVW1_060017700_t1 | gene=PVW1_060017700 | organism=Plasmodium_vivax_PvW1 | gene_product=unspecified product | transcript_product=unspecified product | location=CAJZCX010000012:567656-568784(+) | protein_length=178 | sequence_SO=supercontig | SO=protein_coding_gene | is_pseudo=false
+#
+# Program:         hmmsearch
+# Version:         3.4 (Aug 2023)
+# Pipeline mode:   SEARCH
+# Query file:      /v3/work/00_inventory/busco/busco_downloads/lineages/plasmodium_odb10/hmms/6428at5820.hmm
+# Target file:     /v3/inputs/annotations/plasmodb-68/PvW1.proteins.fa
+# Option settings: hmmsearch --domtblout /v3/work/00_inventory/busco/PvW1_proteins/run_plasmodium_odb10/hmmer_output/initial_run_results/6428at5820.out --cpu 1 /v3/work/00_inventory/busco/busco_downloads/lineages/plasmodium_odb10/hmms/6428at5820.hmm /v3/inputs/annotations/plasmodb-68/PvW1.proteins.fa 
+# Current dir:     /v3/work/00_inventory/busco
+# Date:            Tue May 19 17:46:28 2026
+# [ok]

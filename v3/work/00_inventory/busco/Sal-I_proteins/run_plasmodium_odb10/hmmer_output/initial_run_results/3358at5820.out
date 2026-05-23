@@ -1,0 +1,18 @@
+#                                                                            --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name        accession   tlen query name           accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+#------------------- ---------- ----- -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+PVX_081775.1-p1      -            815 3358at5820           -            527  2.6e-297  984.7  56.1   1   4   1.8e-15     5e-12   43.3   3.7     1    47     1    48     1    61 0.72 | transcript=PVX_081775.1 | gene=PVX_081775 | organism=Plasmodium_vivax_Sal-1 | gene_product=hypothetical protein, conserved | transcript_product=hypothetical protein, conserved | location=Pv_Sal1_chr02:644692-647139(+) | protein_length=815 | sequence_SO=chromosome | SO=protein_coding_gene | is_pseudo=false
+PVX_081775.1-p1      -            815 3358at5820           -            527  2.6e-297  984.7  56.1   2   4   2.9e-49   8.1e-46  154.8  14.8    29   172   198   359   181   367 0.82 | transcript=PVX_081775.1 | gene=PVX_081775 | organism=Plasmodium_vivax_Sal-1 | gene_product=hypothetical protein, conserved | transcript_product=hypothetical protein, conserved | location=Pv_Sal1_chr02:644692-647139(+) | protein_length=815 | sequence_SO=chromosome | SO=protein_coding_gene | is_pseudo=false
+PVX_081775.1-p1      -            815 3358at5820           -            527  2.6e-297  984.7  56.1   3   4    0.0051        14    2.2   0.7   172   191   412   431   410   441 0.81 | transcript=PVX_081775.1 | gene=PVX_081775 | organism=Plasmodium_vivax_Sal-1 | gene_product=hypothetical protein, conserved | transcript_product=hypothetical protein, conserved | location=Pv_Sal1_chr02:644692-647139(+) | protein_length=815 | sequence_SO=chromosome | SO=protein_coding_gene | is_pseudo=false
+PVX_081775.1-p1      -            815 3358at5820           -            527  2.6e-297  984.7  56.1   4   4  4.4e-245  1.2e-241  801.0  14.5   173   526   450   814   446   815 0.96 | transcript=PVX_081775.1 | gene=PVX_081775 | organism=Plasmodium_vivax_Sal-1 | gene_product=hypothetical protein, conserved | transcript_product=hypothetical protein, conserved | location=Pv_Sal1_chr02:644692-647139(+) | protein_length=815 | sequence_SO=chromosome | SO=protein_coding_gene | is_pseudo=false
+PVX_100725.1-p1      -            957 3358at5820           -            527   5.4e-30  102.6   5.6   1   1   1.9e-31   5.3e-28   96.0   5.6   313   503   677   910   658   917 0.73 | transcript=PVX_100725.1 | gene=PVX_100725 | organism=Plasmodium_vivax_Sal-1 | gene_product=hypothetical protein, conserved | transcript_product=hypothetical protein, conserved | location=Pv_Sal1_chr14:2331733-2334606(+) | protein_length=957 | sequence_SO=chromosome | SO=protein_coding_gene | is_pseudo=false
+#
+# Program:         hmmsearch
+# Version:         3.4 (Aug 2023)
+# Pipeline mode:   SEARCH
+# Query file:      /v3/work/00_inventory/busco/busco_downloads/lineages/plasmodium_odb10/hmms/3358at5820.hmm
+# Target file:     /v3/inputs/annotations/plasmodb-68/Sal-I.proteins.fa
+# Option settings: hmmsearch --domtblout /v3/work/00_inventory/busco/Sal-I_proteins/run_plasmodium_odb10/hmmer_output/initial_run_results/3358at5820.out --cpu 1 /v3/work/00_inventory/busco/busco_downloads/lineages/plasmodium_odb10/hmms/3358at5820.hmm /v3/inputs/annotations/plasmodb-68/Sal-I.proteins.fa 
+# Current dir:     /v3/work/00_inventory/busco
+# Date:            Tue May 19 17:36:33 2026
+# [ok]

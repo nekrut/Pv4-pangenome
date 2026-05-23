@@ -1,0 +1,18 @@
+#                                                                            --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name        accession   tlen query name           accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+#------------------- ---------- ----- -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+SCO66920.1           -            221 11900at5820          -            191  3.1e-121  400.4   7.7   1   1  2.4e-124  3.6e-121  400.2   7.7     1   191     1   203     1   203 0.96 protein transport protein SEC22, putative [Plasmodium vivax]
+SCO68679.1           -            220 11900at5820          -            191   5.6e-09   34.2   1.5   1   1   8.3e-12   1.3e-08   33.1   1.5   113   180   141   208    82   214 0.84 SNARE protein, putative [Plasmodium vivax]
+SCO66427.1           -            199 11900at5820          -            191     0.031   12.2   7.9   1   2    0.0046         7    4.6   0.3    53    82    71   100    12   105 0.79 prenylated protein, putative [Plasmodium vivax]
+SCO66427.1           -            199 11900at5820          -            191     0.031   12.2   7.9   2   2   3.5e-05     0.053   11.5   3.1    97   184    97   189    96   195 0.82 prenylated protein, putative [Plasmodium vivax]
+SCO69618.1           -            208 11900at5820          -            191      0.18    9.8   9.8   1   1    0.0027       4.2    5.3   9.8    44   181    48   172    33   181 0.80 SNARE protein, putative [Plasmodium vivax]
+#
+# Program:         hmmsearch
+# Version:         3.4 (Aug 2023)
+# Pipeline mode:   SEARCH
+# Query file:      /v3/work/00_inventory/busco/busco_downloads/lineages/plasmodium_odb10/hmms/11900at5820.hmm
+# Target file:     /v3/inputs/annotations/ncbi-datasets/PvT01.proteins.fa
+# Option settings: hmmsearch --domtblout /v3/work/00_inventory/busco/PvT01_proteins/run_plasmodium_odb10/hmmer_output/initial_run_results/11900at5820.out --cpu 1 /v3/work/00_inventory/busco/busco_downloads/lineages/plasmodium_odb10/hmms/11900at5820.hmm /v3/inputs/annotations/ncbi-datasets/PvT01.proteins.fa 
+# Current dir:     /v3/work/00_inventory/busco
+# Date:            Tue May 19 18:28:06 2026
+# [ok]

@@ -1,0 +1,16 @@
+#                                                                            --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name        accession   tlen query name           accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+#------------------- ---------- ----- -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+CAI7722316.1         -            717 3689at5820           -            618         0 1199.0  63.8   1   1         0         0 1185.9  63.8     1   618     7   717     7   717 0.93 | transcript=PVPAM_120055300_t1 | gene=PVPAM_120055300 | organism=Plasmodium_vivax_PAM | gene_product=V-type H(+)-translocating pyrophosphatase, putative | transcript_product=V-type H(+)-translocating pyrophosphatase, putative | location=CASCJQ010000012:2029180-2031333(+) | protein_length=717 | sequence_SO=supercontig | SO=protein_coding_gene | is_pseudo=false
+CAI7723692.1         -           1034 3689at5820           -            618  7.9e-111  370.2  35.3   1   2   4.7e-41   1.5e-37  128.2  11.5    50   229   291   480   279   504 0.86 | transcript=PVPAM_140061600_t1 | gene=PVPAM_140061600 | organism=Plasmodium_vivax_PAM | gene_product=vacuolar-type H+ pumping pyrophosphatase, putative | transcript_product=vacuolar-type H+ pumping pyrophosphatase, putative | location=CASCJQ010000014:2444339-2447674(-) | protein_length=1034 | sequence_SO=supercontig | SO=protein_coding_gene | is_pseudo=false
+CAI7723692.1         -           1034 3689at5820           -            618  7.9e-111  370.2  35.3   2   2   4.6e-77   1.5e-73  247.1  15.8   230   606   614  1025   604  1032 0.83 | transcript=PVPAM_140061600_t1 | gene=PVPAM_140061600 | organism=Plasmodium_vivax_PAM | gene_product=vacuolar-type H+ pumping pyrophosphatase, putative | transcript_product=vacuolar-type H+ pumping pyrophosphatase, putative | location=CASCJQ010000014:2444339-2447674(-) | protein_length=1034 | sequence_SO=supercontig | SO=protein_coding_gene | is_pseudo=false
+#
+# Program:         hmmsearch
+# Version:         3.4 (Aug 2023)
+# Pipeline mode:   SEARCH
+# Query file:      /v3/work/00_inventory/busco/busco_downloads/lineages/plasmodium_odb10/hmms/3689at5820.hmm
+# Target file:     /v3/inputs/annotations/plasmodb-68/PAM.proteins.fa
+# Option settings: hmmsearch --domtblout /v3/work/00_inventory/busco/PAM_proteins/run_plasmodium_odb10/hmmer_output/initial_run_results/3689at5820.out --cpu 1 /v3/work/00_inventory/busco/busco_downloads/lineages/plasmodium_odb10/hmms/3689at5820.hmm /v3/inputs/annotations/plasmodb-68/PAM.proteins.fa 
+# Current dir:     /v3/work/00_inventory/busco
+# Date:            Tue May 19 17:38:18 2026
+# [ok]

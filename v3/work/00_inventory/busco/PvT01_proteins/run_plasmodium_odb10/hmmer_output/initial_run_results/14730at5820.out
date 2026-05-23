@@ -1,0 +1,23 @@
+#                                                                            --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name        accession   tlen query name           accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+#------------------- ---------- ----- -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+SCO67811.1           -            270 14730at5820          -            238   5.8e-97  322.4  37.3   1   1   1.8e-99   1.4e-96  321.1  37.3     1   236     1   252     1   269 0.72 conserved Plasmodium protein, unknown function [Plasmodium vivax]
+SCO68951.1           -            357 14730at5820          -            238     0.047   11.7  14.6   1   1   0.00011     0.082   10.9  14.6   128   184    50   112     9   130 0.44 conserved Plasmodium protein, unknown function [Plasmodium vivax]
+SCO67290.1           -            368 14730at5820          -            238      0.07   11.1  19.6   1   1   0.00015      0.12   10.4  19.6   136   218    19   117     3   142 0.32 tRNA m(1)G methyltransferase, putative [Plasmodium vivax]
+SCO66657.1           -            226 14730at5820          -            238       0.9    7.5  15.3   1   1    0.0017       1.3    7.0  15.3   164   223    74   135    28   150 0.51 conserved Plasmodium protein, unknown function [Plasmodium vivax]
+SCO69919.1           -            404 14730at5820          -            238       1.9    6.4  22.8   1   1    0.0044       3.4    5.6  22.8   131   216   176   259   163   279 0.30 conserved Plasmodium protein, unknown function [Plasmodium vivax]
+SCO69463.1           -           1188 14730at5820          -            238         2    6.4  15.6   1   2   0.00021      0.16   10.0   4.9   125   192    95   163    54   201 0.52 AAA family ATPase, putative [Plasmodium vivax]
+SCO69463.1           -           1188 14730at5820          -            238         2    6.4  15.6   2   2     0.093        71    1.3   3.0   125   185   302   367   295   379 0.44 AAA family ATPase, putative [Plasmodium vivax]
+SCO66902.1           -            129 14730at5820          -            238         2    6.4  35.8   1   1    0.0033       2.5    6.0  35.8   145   231    18   109    11   118 0.48 hypothetical protein PVT01_080023500 [Plasmodium vivax]
+SCO66752.1           -           1241 14730at5820          -            238       7.6    4.5  14.5   1   2   0.00056      0.42    8.6   8.2   128   191    32    92     8   139 0.50 U5 small nuclear ribonuclear protein, putative [Plasmodium vivax]
+SCO66752.1           -           1241 14730at5820          -            238       7.6    4.5  14.5   2   2      0.68   5.2e+02   -1.5   0.4    39    60   407   428   402   442 0.74 U5 small nuclear ribonuclear protein, putative [Plasmodium vivax]
+#
+# Program:         hmmsearch
+# Version:         3.4 (Aug 2023)
+# Pipeline mode:   SEARCH
+# Query file:      /v3/work/00_inventory/busco/busco_downloads/lineages/plasmodium_odb10/hmms/14730at5820.hmm
+# Target file:     /v3/inputs/annotations/ncbi-datasets/PvT01.proteins.fa
+# Option settings: hmmsearch --domtblout /v3/work/00_inventory/busco/PvT01_proteins/run_plasmodium_odb10/hmmer_output/initial_run_results/14730at5820.out --cpu 1 /v3/work/00_inventory/busco/busco_downloads/lineages/plasmodium_odb10/hmms/14730at5820.hmm /v3/inputs/annotations/ncbi-datasets/PvT01.proteins.fa 
+# Current dir:     /v3/work/00_inventory/busco
+# Date:            Tue May 19 18:36:05 2026
+# [ok]

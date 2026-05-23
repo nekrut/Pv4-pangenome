@@ -1,0 +1,17 @@
+#                                                                            --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name        accession   tlen query name           accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+#------------------- ---------- ----- -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+PVX_085567.1-p1      -            228 14214at5820          -            175   2.4e-90  299.0  28.8   1   2   2.6e-44   7.2e-41  137.9  14.7     1    99     1   106     1   109 0.79 | transcript=PVX_085567.1 | gene=PVX_085567 | organism=Plasmodium_vivax_Sal-1 | gene_product=conserved Plasmodium protein, unknown function | transcript_product=conserved Plasmodium protein, unknown function | location=Pv_Sal1_chr13:1286917-1288472(-) | protein_length=228 | sequence_SO=chromosome | SO=protein_coding_gene | is_pseudo=false
+PVX_085567.1-p1      -            228 14214at5820          -            175   2.4e-90  299.0  28.8   2   2   2.9e-53     8e-50  167.1   6.9    70   175   108   228   106   228 0.87 | transcript=PVX_085567.1 | gene=PVX_085567 | organism=Plasmodium_vivax_Sal-1 | gene_product=conserved Plasmodium protein, unknown function | transcript_product=conserved Plasmodium protein, unknown function | location=Pv_Sal1_chr13:1286917-1288472(-) | protein_length=228 | sequence_SO=chromosome | SO=protein_coding_gene | is_pseudo=false
+PVX_121885.1-p1      -           1411 14214at5820          -            175       2.3    6.0  15.3   1   2   0.00037         1    7.1   0.2    57   102   485   530   478   592 0.85 | transcript=PVX_121885.1 | gene=PVX_121885 | organism=Plasmodium_vivax_Sal-1 | gene_product=cytoadherence linked asexual protein, CLAG, putative | transcript_product=cytoadherence linked asexual protein, CLAG, putative | location=Pv_Sal1_chr14:42720-47981(-) | protein_length=1411 | sequence_SO=chromosome | SO=protein_coding_gene | is_pseudo=false
+PVX_121885.1-p1      -           1411 14214at5820          -            175       2.3    6.0  15.3   2   2     0.074     2e+02   -0.4  10.3    43   112  1301  1370  1292  1390 0.86 | transcript=PVX_121885.1 | gene=PVX_121885 | organism=Plasmodium_vivax_Sal-1 | gene_product=cytoadherence linked asexual protein, CLAG, putative | transcript_product=cytoadherence linked asexual protein, CLAG, putative | location=Pv_Sal1_chr14:42720-47981(-) | protein_length=1411 | sequence_SO=chromosome | SO=protein_coding_gene | is_pseudo=false
+#
+# Program:         hmmsearch
+# Version:         3.4 (Aug 2023)
+# Pipeline mode:   SEARCH
+# Query file:      /v3/work/00_inventory/busco/busco_downloads/lineages/plasmodium_odb10/hmms/14214at5820.hmm
+# Target file:     /v3/inputs/annotations/plasmodb-68/Sal-I.proteins.fa
+# Option settings: hmmsearch --domtblout /v3/work/00_inventory/busco/Sal-I_proteins/run_plasmodium_odb10/hmmer_output/initial_run_results/14214at5820.out --cpu 1 /v3/work/00_inventory/busco/busco_downloads/lineages/plasmodium_odb10/hmms/14214at5820.hmm /v3/inputs/annotations/plasmodb-68/Sal-I.proteins.fa 
+# Current dir:     /v3/work/00_inventory/busco
+# Date:            Tue May 19 17:32:49 2026
+# [ok]

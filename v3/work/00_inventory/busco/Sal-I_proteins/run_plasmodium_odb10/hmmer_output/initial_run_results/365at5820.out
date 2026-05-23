@@ -1,0 +1,16 @@
+#                                                                            --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name        accession   tlen query name           accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+#------------------- ---------- ----- -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+PVX_123615.1-p1      -           2840 365at5820            -           2034         0 3045.1 182.0   1   2  2.3e-300  6.5e-297  986.8  66.2     1   708     1   974     1   998 0.86 | transcript=PVX_123615.1 | gene=PVX_123615 | organism=Plasmodium_vivax_Sal-1 | gene_product=formin 2, putative | transcript_product=formin 2, putative | location=Pv_Sal1_chr14:1578689-1587211(+) | protein_length=2840 | sequence_SO=chromosome | SO=protein_coding_gene | is_pseudo=false
+PVX_123615.1-p1      -           2840 365at5820            -           2034         0 3045.1 182.0   2   2         0         0 2058.0 108.0   680  1987  1065  2694  1025  2720 0.87 | transcript=PVX_123615.1 | gene=PVX_123615 | organism=Plasmodium_vivax_Sal-1 | gene_product=formin 2, putative | transcript_product=formin 2, putative | location=Pv_Sal1_chr14:1578689-1587211(+) | protein_length=2840 | sequence_SO=chromosome | SO=protein_coding_gene | is_pseudo=false
+PVX_083020.1-p1      -            384 365at5820            -           2034     0.021   10.2  11.8   1   1   1.1e-05     0.029    9.7  11.8   529   608   103   240    80   287 0.44 | transcript=PVX_083020.1 | gene=PVX_083020 | organism=Plasmodium_vivax_Sal-1 | gene_product=casein kinase II beta chain, putative | transcript_product=casein kinase II beta chain, putative | location=Pv_Sal1_chr12:512034-513411(+) | protein_length=384 | sequence_SO=chromosome | SO=protein_coding_gene | is_pseudo=false
+#
+# Program:         hmmsearch
+# Version:         3.4 (Aug 2023)
+# Pipeline mode:   SEARCH
+# Query file:      /v3/work/00_inventory/busco/busco_downloads/lineages/plasmodium_odb10/hmms/365at5820.hmm
+# Target file:     /v3/inputs/annotations/plasmodb-68/Sal-I.proteins.fa
+# Option settings: hmmsearch --domtblout /v3/work/00_inventory/busco/Sal-I_proteins/run_plasmodium_odb10/hmmer_output/initial_run_results/365at5820.out --cpu 1 /v3/work/00_inventory/busco/busco_downloads/lineages/plasmodium_odb10/hmms/365at5820.hmm /v3/inputs/annotations/plasmodb-68/Sal-I.proteins.fa 
+# Current dir:     /v3/work/00_inventory/busco
+# Date:            Tue May 19 17:37:53 2026
+# [ok]

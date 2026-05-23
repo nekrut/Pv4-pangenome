@@ -1,0 +1,27 @@
+#                                                                            --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name        accession   tlen query name           accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+#------------------- ---------- ----- -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+SCO70126.1           -            631 4970at5820           -            546         0 1086.3  47.1   1   3  1.3e-171  1.4e-168  560.4  13.7     1   260     1   263     1   270 0.99 SUMO-activating enzyme subunit 2, putative [Plasmodium vivax]
+SCO70126.1           -            631 4970at5820           -            546         0 1086.3  47.1   2   3  3.4e-159  3.4e-156  519.5  15.2   252   521   295   577   284   583 0.97 SUMO-activating enzyme subunit 2, putative [Plasmodium vivax]
+SCO70126.1           -            631 4970at5820           -            546         0 1086.3  47.1   3   3   1.8e-07   0.00019   18.7   2.4   501   546   586   631   582   631 0.90 SUMO-activating enzyme subunit 2, putative [Plasmodium vivax]
+SCO70014.1           -           1143 4970at5820           -            546   8.1e-43  145.3  16.7   1   3   5.9e-06     0.006   13.7   4.6    12   187    57   231    51   247 0.76 ubiquitin-activating enzyme E1, putative [Plasmodium vivax]
+SCO70014.1           -           1143 4970at5820           -            546   8.1e-43  145.3  16.7   2   3   1.3e-32   1.3e-29  101.7   0.1     7   212   512   731   507   757 0.85 ubiquitin-activating enzyme E1, putative [Plasmodium vivax]
+SCO70014.1           -           1143 4970at5820           -            546   8.1e-43  145.3  16.7   3   3   6.5e-13   6.5e-10   36.7   0.8   289   363   905   981   862  1002 0.83 ubiquitin-activating enzyme E1, putative [Plasmodium vivax]
+SCO68594.1           -           1685 4970at5820           -            546   4.1e-28   96.8  16.8   1   4   1.9e-09   1.9e-06   25.2   5.4    15   120   210   311   195   357 0.80 ubiquitin-activating enzyme, putative [Plasmodium vivax]
+SCO68594.1           -           1685 4970at5820           -            546   4.1e-28   96.8  16.8   2   4   8.1e-13   8.2e-10   36.3   0.0     9    90   660   750   653   760 0.81 ubiquitin-activating enzyme, putative [Plasmodium vivax]
+SCO68594.1           -           1685 4970at5820           -            546   4.1e-28   96.8  16.8   3   4   6.5e-09   6.6e-06   23.5   0.2   113   200   818   908   814   952 0.86 ubiquitin-activating enzyme, putative [Plasmodium vivax]
+SCO68594.1           -           1685 4970at5820           -            546   4.1e-28   96.8  16.8   4   4   5.7e-07   0.00058   17.0   0.1   295   355  1189  1252  1183  1260 0.83 ubiquitin-activating enzyme, putative [Plasmodium vivax]
+SCO65912.1           -            406 4970at5820           -            546   2.8e-24   84.1   5.1   1   2   1.7e-26   1.7e-23   81.5   2.0    20   220     4   226     1   255 0.78 NEDD8-activating enzyme E1 catalytic subunit, putative [Plasmodium vivax]
+SCO65912.1           -            406 4970at5820           -            546   2.8e-24   84.1   5.1   2   2     0.026        27    1.6   0.1   397   417   306   326   228   336 0.71 NEDD8-activating enzyme E1 catalytic subunit, putative [Plasmodium vivax]
+SCO67969.1           -            534 4970at5820           -            546   8.6e-21   72.6   3.6   1   1   1.4e-23   1.4e-20   71.9   3.6    14   169    98   257    89   262 0.92 ubiquitin-activating enzyme, putative [Plasmodium vivax]
+SCO67361.1           -           1243 4970at5820           -            546   2.9e-09   34.5   0.1   1   1   4.6e-12   4.6e-09   33.9   0.1     7    98   747   844   741   864 0.88 autophagy-related protein 7, putative [Plasmodium vivax]
+#
+# Program:         hmmsearch
+# Version:         3.4 (Aug 2023)
+# Pipeline mode:   SEARCH
+# Query file:      /v3/work/00_inventory/busco/busco_downloads/lineages/plasmodium_odb10/hmms/4970at5820.hmm
+# Target file:     /v3/inputs/annotations/ncbi-datasets/PvT01.proteins.fa
+# Option settings: hmmsearch --domtblout /v3/work/00_inventory/busco/PvT01_proteins/run_plasmodium_odb10/hmmer_output/initial_run_results/4970at5820.out --cpu 1 /v3/work/00_inventory/busco/busco_downloads/lineages/plasmodium_odb10/hmms/4970at5820.hmm /v3/inputs/annotations/ncbi-datasets/PvT01.proteins.fa 
+# Current dir:     /v3/work/00_inventory/busco
+# Date:            Tue May 19 18:49:00 2026
+# [ok]

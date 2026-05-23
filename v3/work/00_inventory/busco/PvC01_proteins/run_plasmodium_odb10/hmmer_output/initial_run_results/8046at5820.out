@@ -1,0 +1,20 @@
+#                                                                            --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name        accession   tlen query name           accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+#------------------- ---------- ----- -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+SCO74090.1           -            471 8046at5820           -            351    6e-142  471.6  32.2   1   4   8.2e-28   2.6e-24   84.7   0.1     1    79     1    86     1    94 0.93 apicoplast calcium binding protein 1, putative [Plasmodium vivax]
+SCO74090.1           -            471 8046at5820           -            351    6e-142  471.6  32.2   2   4   2.1e-61   6.6e-58  195.2  11.3    79   208   140   270   132   279 0.95 apicoplast calcium binding protein 1, putative [Plasmodium vivax]
+SCO74090.1           -            471 8046at5820           -            351    6e-142  471.6  32.2   3   4   1.4e-37   4.5e-34  116.8   3.9   195   288   296   385   276   387 0.86 apicoplast calcium binding protein 1, putative [Plasmodium vivax]
+SCO74090.1           -            471 8046at5820           -            351    6e-142  471.6  32.2   4   4   2.3e-28   7.3e-25   86.5   0.2   289   351   409   471   407   471 0.97 apicoplast calcium binding protein 1, putative [Plasmodium vivax]
+SCO74740.1           -            149 8046at5820           -            351    0.0013   16.6   0.3   1   3     0.002       6.2    4.5   0.0    96   163     7    72     2    78 0.66 calmodulin, putative [Plasmodium vivax]
+SCO74740.1           -            149 8046at5820           -            351    0.0013   16.6   0.3   2   3   0.00022      0.68    7.6   0.0   106   156    53   102    30   112 0.81 calmodulin, putative [Plasmodium vivax]
+SCO74740.1           -            149 8046at5820           -            351    0.0013   16.6   0.3   3   3   5.1e-05      0.16    9.7   0.1   105   163    89   145    76   147 0.83 calmodulin, putative [Plasmodium vivax]
+#
+# Program:         hmmsearch
+# Version:         3.4 (Aug 2023)
+# Pipeline mode:   SEARCH
+# Query file:      /v3/work/00_inventory/busco/busco_downloads/lineages/plasmodium_odb10/hmms/8046at5820.hmm
+# Target file:     /v3/inputs/annotations/ncbi-datasets/PvC01.proteins.fa
+# Option settings: hmmsearch --domtblout /v3/work/00_inventory/busco/PvC01_proteins/run_plasmodium_odb10/hmmer_output/initial_run_results/8046at5820.out --cpu 1 /v3/work/00_inventory/busco/busco_downloads/lineages/plasmodium_odb10/hmms/8046at5820.hmm /v3/inputs/annotations/ncbi-datasets/PvC01.proteins.fa 
+# Current dir:     /v3/work/00_inventory/busco
+# Date:            Tue May 19 19:06:11 2026
+# [ok]

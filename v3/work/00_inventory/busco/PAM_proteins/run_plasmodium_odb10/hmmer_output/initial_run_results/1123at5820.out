@@ -1,0 +1,17 @@
+#                                                                            --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name        accession   tlen query name           accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+#------------------- ---------- ----- -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+CAI7720215.1         -           1360 1123at5820           -           1055         0 2196.4  29.4   1   4   8.3e-34   5.4e-30  102.4   0.0     9    80    80   157    76   193 0.84 | transcript=PVPAM_080043700_t1 | gene=PVPAM_080043700 | organism=Plasmodium_vivax_PAM | gene_product=splicing factor 3B subunit 1, putative | transcript_product=splicing factor 3B subunit 1, putative | location=CASCJQ010000008:1709856-1713938(+) | protein_length=1360 | sequence_SO=supercontig | SO=protein_coding_gene | is_pseudo=false
+CAI7720215.1         -           1360 1123at5820           -           1055         0 2196.4  29.4   2   4   8.4e-11   5.4e-07   26.2   0.1    72   119   224   275   209   294 0.83 | transcript=PVPAM_080043700_t1 | gene=PVPAM_080043700 | organism=Plasmodium_vivax_PAM | gene_product=splicing factor 3B subunit 1, putative | transcript_product=splicing factor 3B subunit 1, putative | location=CASCJQ010000008:1709856-1713938(+) | protein_length=1360 | sequence_SO=supercontig | SO=protein_coding_gene | is_pseudo=false
+CAI7720215.1         -           1360 1123at5820           -           1055         0 2196.4  29.4   3   4   7.8e-32     5e-28   95.8   0.1   124   193   354   423   340   429 0.92 | transcript=PVPAM_080043700_t1 | gene=PVPAM_080043700 | organism=Plasmodium_vivax_PAM | gene_product=splicing factor 3B subunit 1, putative | transcript_product=splicing factor 3B subunit 1, putative | location=CASCJQ010000008:1709856-1713938(+) | protein_length=1360 | sequence_SO=supercontig | SO=protein_coding_gene | is_pseudo=false
+CAI7720215.1         -           1360 1123at5820           -           1055         0 2196.4  29.4   4   4         0         0 1976.6  19.0   199  1055   504  1360   497  1360 1.00 | transcript=PVPAM_080043700_t1 | gene=PVPAM_080043700 | organism=Plasmodium_vivax_PAM | gene_product=splicing factor 3B subunit 1, putative | transcript_product=splicing factor 3B subunit 1, putative | location=CASCJQ010000008:1709856-1713938(+) | protein_length=1360 | sequence_SO=supercontig | SO=protein_coding_gene | is_pseudo=false
+#
+# Program:         hmmsearch
+# Version:         3.4 (Aug 2023)
+# Pipeline mode:   SEARCH
+# Query file:      /v3/work/00_inventory/busco/busco_downloads/lineages/plasmodium_odb10/hmms/1123at5820.hmm
+# Target file:     /v3/inputs/annotations/plasmodb-68/PAM.proteins.fa
+# Option settings: hmmsearch --domtblout /v3/work/00_inventory/busco/PAM_proteins/run_plasmodium_odb10/hmmer_output/initial_run_results/1123at5820.out --cpu 1 /v3/work/00_inventory/busco/busco_downloads/lineages/plasmodium_odb10/hmms/1123at5820.hmm /v3/inputs/annotations/plasmodb-68/PAM.proteins.fa 
+# Current dir:     /v3/work/00_inventory/busco
+# Date:            Tue May 19 17:28:48 2026
+# [ok]

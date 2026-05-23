@@ -1,0 +1,17 @@
+#                                                                            --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name        accession   tlen query name           accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+#------------------- ---------- ----- -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+PVP01_1103900.1-p1   -            311 8893at5820           -            280  7.9e-186  614.4   5.6   1   1  1.7e-188  2.7e-185  612.7   5.6     1   280     1   302     1   302 0.97 | transcript=PVP01_1103900.1 | gene=PVP01_1103900 | organism=Plasmodium_vivax_P01 | gene_product=26S proteasome regulatory subunit RPN11, putative | transcript_product=26S proteasome regulatory subunit RPN11, putative | location=PvP01_11_v2:163813-165014(+) | protein_length=311 | sequence_SO=chromosome | SO=protein_coding_gene | is_pseudo=false
+PVP01_0711300.1-p1   -            328 8893at5820           -            280     2e-06   25.9   0.0   1   1   2.3e-09   3.7e-06   25.0   0.0    30   116    19   109     8   143 0.85 | transcript=PVP01_0711300.1 | gene=PVP01_0711300 | organism=Plasmodium_vivax_P01 | gene_product=26S proteasome regulatory subunit RPN8, putative | transcript_product=26S proteasome regulatory subunit RPN8, putative | location=PvP01_07_v2:553089-554227(+) | protein_length=328 | sequence_SO=chromosome | SO=protein_coding_gene | is_pseudo=false
+PVP01_0716700.1-p1   -            320 8893at5820           -            280    0.0018   16.2   0.0   1   1   2.2e-06    0.0035   15.2   0.0    25   118    25   120     8   145 0.84 | transcript=PVP01_0716700.1 | gene=PVP01_0716700 | organism=Plasmodium_vivax_P01 | gene_product=eukaryotic translation initiation factor 3 subunit F, putative | transcript_product=eukaryotic translation initiation factor 3 subunit F, putative | location=PvP01_07_v2:743182-744336(-) | protein_length=320 | sequence_SO=chromosome | SO=protein_coding_gene | is_pseudo=false
+PVP01_0007030.1-p1   -            244 8893at5820           -            280     0.012   13.5   1.3   1   1   1.2e-05     0.019   12.8   1.3   212   266   100   153    80   166 0.83 | transcript=PVP01_0007030.1 | gene=PVP01_0007030 | organism=Plasmodium_vivax_P01 | gene_product=Plasmodium exported protein, unknown function | transcript_product=Plasmodium exported protein, unknown function | location=Transfer.PvP01_00_24.final:31375-32214(-) | protein_length=244 | sequence_SO=contig | SO=protein_coding_gene | is_pseudo=false
+#
+# Program:         hmmsearch
+# Version:         3.4 (Aug 2023)
+# Pipeline mode:   SEARCH
+# Query file:      /v3/work/00_inventory/busco/busco_downloads/lineages/plasmodium_odb10/hmms/8893at5820.hmm
+# Target file:     /v3/inputs/annotations/plasmodb-68/PvP01.proteins.fa
+# Option settings: hmmsearch --domtblout /v3/work/00_inventory/busco/PvP01_proteins/run_plasmodium_odb10/hmmer_output/initial_run_results/8893at5820.out --cpu 1 /v3/work/00_inventory/busco/busco_downloads/lineages/plasmodium_odb10/hmms/8893at5820.hmm /v3/inputs/annotations/plasmodb-68/PvP01.proteins.fa 
+# Current dir:     /v3/work/00_inventory/busco
+# Date:            Tue May 19 17:48:59 2026
+# [ok]

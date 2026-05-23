@@ -1,0 +1,25 @@
+	Command being timed: "docker run --rm -v /media/anton/data/sandbox/Pv4/v3:/v3 -w /v3 avianalter/toga2:latest bash -c 
+    source /opt/TOGA2/toga2/bin/activate
+    python3 /opt/TOGA2/toga2.py run       --ref_2bit /v3/projection/A2_kegalign/2bit/GCA_900093555.2.2bit       --query_2bit /v3/projection/A2_kegalign/2bit/GCA_040114635.1.2bit       --chain_file /v3/work/01_chains/GCA_900093555.2.GCA_040114635.1.cleaned.chain       --ref_annotation /v3/work/02c_toga/PvP01_prep_MHC087/toga.transcripts.bed       --isoform_file /v3/work/02c_toga/PvP01_prep_MHC087/toga.isoforms.tsv       --no_u12_file --no_spliceai --no_utr_annotation       --ignore_crashed_parallel_batches       --output /v3/work/02c_toga/PvP01-as-ref/MHC087 2>&1 | tail -10"
+	User time (seconds): 0.26
+	System time (seconds): 0.04
+	Percent of CPU this job got: 0%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 1:53:15
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 28292
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 1361
+	Minor (reclaiming a frame) page faults: 4467
+	Voluntary context switches: 3966
+	Involuntary context switches: 370
+	Swaps: 0
+	File system inputs: 21072
+	File system outputs: 0
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0

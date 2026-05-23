@@ -1,0 +1,18 @@
+#                                                                            --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name        accession   tlen query name           accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+#------------------- ---------- ----- -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+PVP01_0912700.1-p1   -            257 11854at5820          -            190    7e-107  354.0  16.3   1   2   4.5e-31   1.5e-27   95.4   0.2     1    53     1    53     1    61 0.95 | transcript=PVP01_0912700.1 | gene=PVP01_0912700 | organism=Plasmodium_vivax_P01 | gene_product=Josephin domain-containing protein, putative | transcript_product=Josephin domain-containing protein, putative | location=PvP01_09_v2:590704-592202(+) | protein_length=257 | sequence_SO=chromosome | SO=protein_coding_gene | is_pseudo=false
+PVP01_0912700.1-p1   -            257 11854at5820          -            190    7e-107  354.0  16.3   2   2   3.7e-82   1.2e-78  262.0  10.9    46   190    99   251    95   251 0.95 | transcript=PVP01_0912700.1 | gene=PVP01_0912700 | organism=Plasmodium_vivax_P01 | gene_product=Josephin domain-containing protein, putative | transcript_product=Josephin domain-containing protein, putative | location=PvP01_09_v2:590704-592202(+) | protein_length=257 | sequence_SO=chromosome | SO=protein_coding_gene | is_pseudo=false
+PVP01_1445000.1-p1   -            411 11854at5820          -            190   1.9e-05   23.2   3.9   1   3   0.00021      0.67    8.4   0.0    18    48     6    37     2    58 0.81 | transcript=PVP01_1445000.1 | gene=PVP01_1445000 | organism=Plasmodium_vivax_P01 | gene_product=ataxin-3, putative | transcript_product=ataxin-3, putative | location=PvP01_14_v2:1947539-1949554(+) | protein_length=411 | sequence_SO=chromosome | SO=protein_coding_gene | is_pseudo=false
+PVP01_1445000.1-p1   -            411 11854at5820          -            190   1.9e-05   23.2   3.9   2   3   8.3e-06     0.027   13.0   1.6   132   172   121   160    62   180 0.84 | transcript=PVP01_1445000.1 | gene=PVP01_1445000 | organism=Plasmodium_vivax_P01 | gene_product=ataxin-3, putative | transcript_product=ataxin-3, putative | location=PvP01_14_v2:1947539-1949554(+) | protein_length=411 | sequence_SO=chromosome | SO=protein_coding_gene | is_pseudo=false
+PVP01_1445000.1-p1   -            411 11854at5820          -            190   1.9e-05   23.2   3.9   3   3      0.15   4.8e+02   -0.9   0.0   124   156   318   351   312   383 0.69 | transcript=PVP01_1445000.1 | gene=PVP01_1445000 | organism=Plasmodium_vivax_P01 | gene_product=ataxin-3, putative | transcript_product=ataxin-3, putative | location=PvP01_14_v2:1947539-1949554(+) | protein_length=411 | sequence_SO=chromosome | SO=protein_coding_gene | is_pseudo=false
+#
+# Program:         hmmsearch
+# Version:         3.4 (Aug 2023)
+# Pipeline mode:   SEARCH
+# Query file:      /v3/work/00_inventory/busco/busco_downloads/lineages/plasmodium_odb10/hmms/11854at5820.hmm
+# Target file:     /v3/inputs/annotations/plasmodb-68/PvP01.proteins.fa
+# Option settings: hmmsearch --domtblout /v3/work/00_inventory/busco/PvP01_proteins/run_plasmodium_odb10/hmmer_output/initial_run_results/11854at5820.out --cpu 1 /v3/work/00_inventory/busco/busco_downloads/lineages/plasmodium_odb10/hmms/11854at5820.hmm /v3/inputs/annotations/plasmodb-68/PvP01.proteins.fa 
+# Current dir:     /v3/work/00_inventory/busco
+# Date:            Tue May 19 17:24:55 2026
+# [ok]

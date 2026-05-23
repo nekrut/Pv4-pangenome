@@ -1,0 +1,16 @@
+#                                                                            --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name        accession   tlen query name           accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+#------------------- ---------- ----- -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+CAI7721432.1         -            216 10660at5820          -            193  3.5e-111  367.9  22.0   1   1  1.9e-113  6.3e-110  363.8  22.0    17   193     1   194     1   194 0.96 | transcript=PVPAM_110033800_t1 | gene=PVPAM_110033800 | organism=Plasmodium_vivax_PAM | gene_product=splicing factor 3A subunit 2, putative | transcript_product=splicing factor 3A subunit 2, putative | location=CASCJQ010000011:1219186-1219836(-) | protein_length=216 | sequence_SO=supercontig | SO=protein_coding_gene | is_pseudo=false
+CAI7723765.1         -            268 10660at5820          -            193    0.0017   16.6   0.3   1   2   5.2e-07    0.0017   16.6   0.3    23    85   100   162    84   195 0.76 | transcript=PVPAM_140068800_t1 | gene=PVPAM_140068800 | organism=Plasmodium_vivax_PAM | gene_product=zinc finger protein, putative | transcript_product=zinc finger protein, putative | location=CASCJQ010000014:2729668-2730474(-) | protein_length=268 | sequence_SO=supercontig | SO=protein_coding_gene | is_pseudo=false
+CAI7723765.1         -            268 10660at5820          -            193    0.0017   16.6   0.3   2   2      0.79   2.5e+03   -3.5   0.6    19    31   214   226   201   234 0.59 | transcript=PVPAM_140068800_t1 | gene=PVPAM_140068800 | organism=Plasmodium_vivax_PAM | gene_product=zinc finger protein, putative | transcript_product=zinc finger protein, putative | location=CASCJQ010000014:2729668-2730474(-) | protein_length=268 | sequence_SO=supercontig | SO=protein_coding_gene | is_pseudo=false
+#
+# Program:         hmmsearch
+# Version:         3.4 (Aug 2023)
+# Pipeline mode:   SEARCH
+# Query file:      /v3/work/00_inventory/busco/busco_downloads/lineages/plasmodium_odb10/hmms/10660at5820.hmm
+# Target file:     /v3/inputs/annotations/plasmodb-68/PAM.proteins.fa
+# Option settings: hmmsearch --domtblout /v3/work/00_inventory/busco/PAM_proteins/run_plasmodium_odb10/hmmer_output/initial_run_results/10660at5820.out --cpu 1 /v3/work/00_inventory/busco/busco_downloads/lineages/plasmodium_odb10/hmms/10660at5820.hmm /v3/inputs/annotations/plasmodb-68/PAM.proteins.fa 
+# Current dir:     /v3/work/00_inventory/busco
+# Date:            Tue May 19 17:26:53 2026
+# [ok]

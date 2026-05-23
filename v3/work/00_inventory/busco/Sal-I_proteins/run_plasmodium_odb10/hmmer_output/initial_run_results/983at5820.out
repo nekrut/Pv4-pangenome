@@ -1,0 +1,17 @@
+#                                                                            --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name        accession   tlen query name           accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+#------------------- ---------- ----- -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+PVX_113460.1-p1      -           1785 983at5820            -           1237         0 1728.7 121.1   1   4  1.5e-217  8.2e-214  711.1  23.2     1   360     1   366     1   385 0.95 | transcript=PVX_113460.1 | gene=PVX_113460 | organism=Plasmodium_vivax_Sal-1 | gene_product=DNA repair protein RAD50, putative | transcript_product=DNA repair protein RAD50, putative | location=Pv_Sal1_chr11:1793708-1799065(+) | protein_length=1785 | sequence_SO=chromosome | SO=protein_coding_gene | is_pseudo=false
+PVX_113460.1-p1      -           1785 983at5820            -           1237         0 1728.7 121.1   2   4   3.9e-21   2.1e-17   60.5   6.5   372   478   504   619   487   666 0.70 | transcript=PVX_113460.1 | gene=PVX_113460 | organism=Plasmodium_vivax_Sal-1 | gene_product=DNA repair protein RAD50, putative | transcript_product=DNA repair protein RAD50, putative | location=Pv_Sal1_chr11:1793708-1799065(+) | protein_length=1785 | sequence_SO=chromosome | SO=protein_coding_gene | is_pseudo=false
+PVX_113460.1-p1      -           1785 983at5820            -           1237         0 1728.7 121.1   3   4   5.7e-42   3.1e-38  129.5   9.4   507   734   802  1072   778  1096 0.78 | transcript=PVX_113460.1 | gene=PVX_113460 | organism=Plasmodium_vivax_Sal-1 | gene_product=DNA repair protein RAD50, putative | transcript_product=DNA repair protein RAD50, putative | location=Pv_Sal1_chr11:1793708-1799065(+) | protein_length=1785 | sequence_SO=chromosome | SO=protein_coding_gene | is_pseudo=false
+PVX_113460.1-p1      -           1785 983at5820            -           1237         0 1728.7 121.1   4   4  3.6e-258    2e-254  845.7  58.1   721  1237  1238  1785  1225  1785 0.93 | transcript=PVX_113460.1 | gene=PVX_113460 | organism=Plasmodium_vivax_Sal-1 | gene_product=DNA repair protein RAD50, putative | transcript_product=DNA repair protein RAD50, putative | location=Pv_Sal1_chr11:1793708-1799065(+) | protein_length=1785 | sequence_SO=chromosome | SO=protein_coding_gene | is_pseudo=false
+#
+# Program:         hmmsearch
+# Version:         3.4 (Aug 2023)
+# Pipeline mode:   SEARCH
+# Query file:      /v3/work/00_inventory/busco/busco_downloads/lineages/plasmodium_odb10/hmms/983at5820.hmm
+# Target file:     /v3/inputs/annotations/plasmodb-68/Sal-I.proteins.fa
+# Option settings: hmmsearch --domtblout /v3/work/00_inventory/busco/Sal-I_proteins/run_plasmodium_odb10/hmmer_output/initial_run_results/983at5820.out --cpu 1 /v3/work/00_inventory/busco/busco_downloads/lineages/plasmodium_odb10/hmms/983at5820.hmm /v3/inputs/annotations/plasmodb-68/Sal-I.proteins.fa 
+# Current dir:     /v3/work/00_inventory/busco
+# Date:            Tue May 19 17:52:50 2026
+# [ok]

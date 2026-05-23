@@ -1,0 +1,16 @@
+#                                                                            --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name        accession   tlen query name           accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+#------------------- ---------- ----- -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+SCO65358.1           -            510 6825at5820           -            409  4.4e-218  722.5   5.8   1   2    2e-175    6e-172  570.5   4.3     1   316    48   378    48   391 0.97 cysteine desulfurase, putative [Plasmodium vivax]
+SCO65358.1           -            510 6825at5820           -            409  4.4e-218  722.5   5.8   2   2   3.2e-48   9.9e-45  151.5   0.0   321   408   411   504   409   505 0.96 cysteine desulfurase, putative [Plasmodium vivax]
+SCO65180.1           -            517 6825at5820           -            409   2.3e-25   87.7   6.4   1   1   1.2e-28   3.6e-25   87.1   6.4    25   248   112   333   103   345 0.87 cysteine desulfurase, putative [Plasmodium vivax]
+#
+# Program:         hmmsearch
+# Version:         3.4 (Aug 2023)
+# Pipeline mode:   SEARCH
+# Query file:      /v3/work/00_inventory/busco/busco_downloads/lineages/plasmodium_odb10/hmms/6825at5820.hmm
+# Target file:     /v3/inputs/annotations/ncbi-datasets/PvT01.proteins.fa
+# Option settings: hmmsearch --domtblout /v3/work/00_inventory/busco/PvT01_proteins/run_plasmodium_odb10/hmmer_output/initial_run_results/6825at5820.out --cpu 1 /v3/work/00_inventory/busco/busco_downloads/lineages/plasmodium_odb10/hmms/6825at5820.hmm /v3/inputs/annotations/ncbi-datasets/PvT01.proteins.fa 
+# Current dir:     /v3/work/00_inventory/busco
+# Date:            Tue May 19 18:53:49 2026
+# [ok]

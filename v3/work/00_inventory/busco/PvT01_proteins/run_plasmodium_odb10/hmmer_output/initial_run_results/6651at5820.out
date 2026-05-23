@@ -1,0 +1,16 @@
+#                                                                            --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name        accession   tlen query name           accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+#------------------- ---------- ----- -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+SCO69571.1           -            441 6651at5820           -            378  5.4e-221  731.9  20.6   1   1  2.3e-224  7.1e-221  731.5  20.6     5   378    41   441    38   441 0.96 choline kinase, putative [Plasmodium vivax]
+SCO67345.1           -            467 6651at5820           -            378   2.4e-16   58.4  15.2   1   2     4e-13   1.2e-09   36.3   9.0    62   241   108   305    78   308 0.65 ethanolamine kinase, putative [Plasmodium vivax]
+SCO67345.1           -            467 6651at5820           -            378   2.4e-16   58.4  15.2   2   2   1.5e-09   4.6e-06   24.5   0.4   245   358   341   440   337   443 0.91 ethanolamine kinase, putative [Plasmodium vivax]
+#
+# Program:         hmmsearch
+# Version:         3.4 (Aug 2023)
+# Pipeline mode:   SEARCH
+# Query file:      /v3/work/00_inventory/busco/busco_downloads/lineages/plasmodium_odb10/hmms/6651at5820.hmm
+# Target file:     /v3/inputs/annotations/ncbi-datasets/PvT01.proteins.fa
+# Option settings: hmmsearch --domtblout /v3/work/00_inventory/busco/PvT01_proteins/run_plasmodium_odb10/hmmer_output/initial_run_results/6651at5820.out --cpu 1 /v3/work/00_inventory/busco/busco_downloads/lineages/plasmodium_odb10/hmms/6651at5820.hmm /v3/inputs/annotations/ncbi-datasets/PvT01.proteins.fa 
+# Current dir:     /v3/work/00_inventory/busco
+# Date:            Tue May 19 18:51:34 2026
+# [ok]

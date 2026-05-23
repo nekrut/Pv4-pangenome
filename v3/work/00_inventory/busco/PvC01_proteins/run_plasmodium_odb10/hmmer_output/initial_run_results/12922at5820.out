@@ -1,0 +1,19 @@
+#                                                                            --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name        accession   tlen query name           accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+#------------------- ---------- ----- -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+SCO74056.1           -            214 12922at5820          -            180   1.2e-99  330.4  15.4   1   1  1.1e-102   1.4e-99  330.2  15.4     1   180    24   214    24   214 0.96 transmembrane protein Tmp21 homologue, putative [Plasmodium vivax]
+SCO75222.1           -            205 12922at5820          -            180   2.9e-09   35.9  10.7   1   1   2.9e-12   3.6e-09   35.6  10.7    11   180    33   205    26   205 0.79 cop-coated vesicle membrane protein p24 precursor, putative [Plasmodium vivax]
+SCO71464.1           -            382 12922at5820          -            180    0.0007   18.4   2.9   1   1     1e-06    0.0013   17.5   2.9   102   179   304   381   286   382 0.95 transmembrane emp24 domain-containing protein, putative [Plasmodium vivax]
+SCO70730.1           -            229 12922at5820          -            180   0.00091   18.0   3.3   1   2    0.0002      0.25   10.0   0.1   100   165    62   129     5   143 0.74 Plasmodium exported protein, unknown function, partial [Plasmodium vivax]
+SCO70730.1           -            229 12922at5820          -            180   0.00091   18.0   3.3   2   2   0.00054      0.67    8.6   0.8   142   177   178   213   165   216 0.83 Plasmodium exported protein, unknown function, partial [Plasmodium vivax]
+SCO73079.1           -            213 12922at5820          -            180     0.083   11.6   8.8   1   1   8.5e-05      0.11   11.3   8.8    75   179   108   212    26   213 0.61 transmembrane emp24 domain-containing protein, putative [Plasmodium vivax]
+#
+# Program:         hmmsearch
+# Version:         3.4 (Aug 2023)
+# Pipeline mode:   SEARCH
+# Query file:      /v3/work/00_inventory/busco/busco_downloads/lineages/plasmodium_odb10/hmms/12922at5820.hmm
+# Target file:     /v3/inputs/annotations/ncbi-datasets/PvC01.proteins.fa
+# Option settings: hmmsearch --domtblout /v3/work/00_inventory/busco/PvC01_proteins/run_plasmodium_odb10/hmmer_output/initial_run_results/12922at5820.out --cpu 1 /v3/work/00_inventory/busco/busco_downloads/lineages/plasmodium_odb10/hmms/12922at5820.hmm /v3/inputs/annotations/ncbi-datasets/PvC01.proteins.fa 
+# Current dir:     /v3/work/00_inventory/busco
+# Date:            Tue May 19 18:30:53 2026
+# [ok]

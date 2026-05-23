@@ -1,0 +1,16 @@
+#                                                                            --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name        accession   tlen query name           accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+#------------------- ---------- ----- -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+PVP01_1422900.1-p1   -            252 11216at5820          -            191    7e-123  406.2  13.5   1   1  2.5e-126  8.2e-123  406.0  13.5     1   191    59   251    59   251 0.98 | transcript=PVP01_1422900.1 | gene=PVP01_1422900 | organism=Plasmodium_vivax_P01 | gene_product=negative elongation factor A, putative | transcript_product=negative elongation factor A, putative | location=PvP01_14_v2:997213-998339(-) | protein_length=252 | sequence_SO=chromosome | SO=protein_coding_gene | is_pseudo=false
+PVP01_0905500.1-p1   -            186 11216at5820          -            191     0.022   13.3   0.1   1   2       0.5   1.6e+03   -2.6   0.0   137   161    36    60    20    64 0.72 | transcript=PVP01_0905500.1 | gene=PVP01_0905500 | organism=Plasmodium_vivax_P01 | gene_product=DNA-directed RNA polymerase III subunit RPC8, putative | transcript_product=DNA-directed RNA polymerase III subunit RPC8, putative | location=PvP01_09_v2:323239-324677(-) | protein_length=186 | sequence_SO=chromosome | SO=protein_coding_gene | is_pseudo=false
+PVP01_0905500.1-p1   -            186 11216at5820          -            191     0.022   13.3   0.1   2   2   1.2e-05      0.04   12.4   0.0    39    91   131   184    94   186 0.84 | transcript=PVP01_0905500.1 | gene=PVP01_0905500 | organism=Plasmodium_vivax_P01 | gene_product=DNA-directed RNA polymerase III subunit RPC8, putative | transcript_product=DNA-directed RNA polymerase III subunit RPC8, putative | location=PvP01_09_v2:323239-324677(-) | protein_length=186 | sequence_SO=chromosome | SO=protein_coding_gene | is_pseudo=false
+#
+# Program:         hmmsearch
+# Version:         3.4 (Aug 2023)
+# Pipeline mode:   SEARCH
+# Query file:      /v3/work/00_inventory/busco/busco_downloads/lineages/plasmodium_odb10/hmms/11216at5820.hmm
+# Target file:     /v3/inputs/annotations/plasmodb-68/PvP01.proteins.fa
+# Option settings: hmmsearch --domtblout /v3/work/00_inventory/busco/PvP01_proteins/run_plasmodium_odb10/hmmer_output/initial_run_results/11216at5820.out --cpu 1 /v3/work/00_inventory/busco/busco_downloads/lineages/plasmodium_odb10/hmms/11216at5820.hmm /v3/inputs/annotations/plasmodb-68/PvP01.proteins.fa 
+# Current dir:     /v3/work/00_inventory/busco
+# Date:            Tue May 19 17:28:44 2026
+# [ok]

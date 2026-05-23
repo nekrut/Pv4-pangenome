@@ -1,0 +1,18 @@
+#                                                                            --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name        accession   tlen query name           accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+#------------------- ---------- ----- -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+PVX_089725.1-p1      -            208 11729at5820          -            176   2.4e-89  295.9  13.2   1   2   7.6e-16     1e-12   46.4   0.1     1    31     1    31     1    42 0.94 | transcript=PVX_089725.1 | gene=PVX_089725 | organism=Plasmodium_vivax_Sal-1 | gene_product=coatomer subunit zeta, putative | transcript_product=coatomer subunit zeta, putative | location=Pv_Sal1_chr05:790309-790935(-) | protein_length=208 | sequence_SO=chromosome | SO=protein_coding_gene | is_pseudo=false
+PVX_089725.1-p1      -            208 11729at5820          -            176   2.4e-89  295.9  13.2   2   2   3.8e-79   5.3e-76  252.5   8.6    31   176    55   208    36   208 0.94 | transcript=PVX_089725.1 | gene=PVX_089725 | organism=Plasmodium_vivax_Sal-1 | gene_product=coatomer subunit zeta, putative | transcript_product=coatomer subunit zeta, putative | location=Pv_Sal1_chr05:790309-790935(-) | protein_length=208 | sequence_SO=chromosome | SO=protein_coding_gene | is_pseudo=false
+PVX_101420.1-p1      -            157 11729at5820          -            176   7.6e-07   27.3   5.2   1   1   6.3e-10   8.7e-07   27.1   5.2    10   145     3   141     1   153 0.86 | transcript=PVX_101420.1 | gene=PVX_101420 | organism=Plasmodium_vivax_Sal-1 | gene_product=AP-3 complex subunit sigma, putative | transcript_product=AP-3 complex subunit sigma, putative | location=Pv_Sal1_chr14:2876057-2877379(+) | protein_length=157 | sequence_SO=chromosome | SO=protein_coding_gene | is_pseudo=false
+PVX_002675.1-p1      -            141 11729at5820          -            176   9.4e-06   23.7   6.5   1   1   8.3e-09   1.2e-05   23.4   6.5    40   145    26   134     2   139 0.78 | transcript=PVX_002675.1 | gene=PVX_002675 | organism=Plasmodium_vivax_Sal-1 | gene_product=AP-2 complex subunit sigma, putative | transcript_product=AP-2 complex subunit sigma, putative | location=Pv_Sal1_chr04:179615-180549(+) | protein_length=141 | sequence_SO=chromosome | SO=protein_coding_gene | is_pseudo=false
+PVX_091540.1-p1      -            155 11729at5820          -            176   0.00036   18.6   1.1   1   1   3.2e-07   0.00045   18.3   1.1    78   157    66   147     3   154 0.77 | transcript=PVX_091540.1 | gene=PVX_091540 | organism=Plasmodium_vivax_Sal-1 | gene_product=AP-1 complex subunit sigma, putative | transcript_product=AP-1 complex subunit sigma, putative | location=Pv_Sal1_chr09:597359-597970(+) | protein_length=155 | sequence_SO=chromosome | SO=protein_coding_gene | is_pseudo=false
+#
+# Program:         hmmsearch
+# Version:         3.4 (Aug 2023)
+# Pipeline mode:   SEARCH
+# Query file:      /v3/work/00_inventory/busco/busco_downloads/lineages/plasmodium_odb10/hmms/11729at5820.hmm
+# Target file:     /v3/inputs/annotations/plasmodb-68/Sal-I.proteins.fa
+# Option settings: hmmsearch --domtblout /v3/work/00_inventory/busco/Sal-I_proteins/run_plasmodium_odb10/hmmer_output/initial_run_results/11729at5820.out --cpu 1 /v3/work/00_inventory/busco/busco_downloads/lineages/plasmodium_odb10/hmms/11729at5820.hmm /v3/inputs/annotations/plasmodb-68/Sal-I.proteins.fa 
+# Current dir:     /v3/work/00_inventory/busco
+# Date:            Tue May 19 17:24:27 2026
+# [ok]

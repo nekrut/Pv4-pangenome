@@ -1,0 +1,16 @@
+#                                                                            --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name        accession   tlen query name           accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+#------------------- ---------- ----- -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+CAI7720135.1         -            130 13719at5820          -            130   7.4e-91  299.2   0.9   1   1   2.6e-94   8.3e-91  299.1   0.9     1   130     1   130     1   130 1.00 | transcript=PVPAM_080035700_t1 | gene=PVPAM_080035700 | organism=Plasmodium_vivax_PAM | gene_product=40S ribosomal protein S15A, putative | transcript_product=40S ribosomal protein S15A, putative | location=CASCJQ010000008:1400471-1401007(-) | protein_length=130 | sequence_SO=supercontig | SO=protein_coding_gene | is_pseudo=false
+CAI7723393.1         -            244 13719at5820          -            130    0.0047   15.2   0.7   1   2   2.1e-05     0.067   11.5   0.7    41    98    13    66     7    76 0.87 | transcript=PVPAM_140031200_t1 | gene=PVPAM_140031200 | organism=Plasmodium_vivax_PAM | gene_product=calmodulin, putative | transcript_product=calmodulin, putative | location=CASCJQ010000014:1152775-1153919(-) | protein_length=244 | sequence_SO=supercontig | SO=protein_coding_gene | is_pseudo=false
+CAI7723393.1         -            244 13719at5820          -            130    0.0047   15.2   0.7   2   2     0.029        93    1.4   0.0    46    67   173   194   161   208 0.86 | transcript=PVPAM_140031200_t1 | gene=PVPAM_140031200 | organism=Plasmodium_vivax_PAM | gene_product=calmodulin, putative | transcript_product=calmodulin, putative | location=CASCJQ010000014:1152775-1153919(-) | protein_length=244 | sequence_SO=supercontig | SO=protein_coding_gene | is_pseudo=false
+#
+# Program:         hmmsearch
+# Version:         3.4 (Aug 2023)
+# Pipeline mode:   SEARCH
+# Query file:      /v3/work/00_inventory/busco/busco_downloads/lineages/plasmodium_odb10/hmms/13719at5820.hmm
+# Target file:     /v3/inputs/annotations/plasmodb-68/PAM.proteins.fa
+# Option settings: hmmsearch --domtblout /v3/work/00_inventory/busco/PAM_proteins/run_plasmodium_odb10/hmmer_output/initial_run_results/13719at5820.out --cpu 1 /v3/work/00_inventory/busco/busco_downloads/lineages/plasmodium_odb10/hmms/13719at5820.hmm /v3/inputs/annotations/plasmodb-68/PAM.proteins.fa 
+# Current dir:     /v3/work/00_inventory/busco
+# Date:            Tue May 19 17:31:13 2026
+# [ok]

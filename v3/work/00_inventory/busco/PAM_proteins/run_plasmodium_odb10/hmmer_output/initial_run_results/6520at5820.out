@@ -1,0 +1,17 @@
+#                                                                            --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name        accession   tlen query name           accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+#------------------- ---------- ----- -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+CAI7720129.1         -            522 6520at5820           -            411    1e-234  777.5  37.5   1   2   6.9e-08   0.00022   18.9   1.9     1    33     1    44     1    51 0.81 | transcript=PVPAM_080035100_t1 | gene=PVPAM_080035100 | organism=Plasmodium_vivax_PAM | gene_product=DNA replication complex GINS protein, putative | transcript_product=DNA replication complex GINS protein, putative | location=CASCJQ010000008:1367175-1368947(+) | protein_length=522 | sequence_SO=supercontig | SO=protein_coding_gene | is_pseudo=false
+CAI7720129.1         -            522 6520at5820           -            411    1e-234  777.5  37.5   2   2  3.7e-234  1.2e-230  764.1  28.1    30   411   110   522   105   522 0.96 | transcript=PVPAM_080035100_t1 | gene=PVPAM_080035100 | organism=Plasmodium_vivax_PAM | gene_product=DNA replication complex GINS protein, putative | transcript_product=DNA replication complex GINS protein, putative | location=CASCJQ010000008:1367175-1368947(+) | protein_length=522 | sequence_SO=supercontig | SO=protein_coding_gene | is_pseudo=false
+CAI7721997.1         -            499 6520at5820           -            411   3.4e-79  265.3  30.4   1   2     0.042   1.4e+02   -0.2   0.7     1    24     1    24     1    61 0.60 | transcript=PVPAM_120023600_t1 | gene=PVPAM_120023600 | organism=Plasmodium_vivax_PAM | gene_product=DNA replication complex GINS protein, putative | transcript_product=DNA replication complex GINS protein, putative | location=CASCJQ010000012:766482-768362(-) | protein_length=499 | sequence_SO=supercontig | SO=protein_coding_gene | is_pseudo=false
+CAI7721997.1         -            499 6520at5820           -            411   3.4e-79  265.3  30.4   2   2   1.1e-82   3.4e-79  265.3  30.4    20   398    57   463    44   485 0.86 | transcript=PVPAM_120023600_t1 | gene=PVPAM_120023600 | organism=Plasmodium_vivax_PAM | gene_product=DNA replication complex GINS protein, putative | transcript_product=DNA replication complex GINS protein, putative | location=CASCJQ010000012:766482-768362(-) | protein_length=499 | sequence_SO=supercontig | SO=protein_coding_gene | is_pseudo=false
+#
+# Program:         hmmsearch
+# Version:         3.4 (Aug 2023)
+# Pipeline mode:   SEARCH
+# Query file:      /v3/work/00_inventory/busco/busco_downloads/lineages/plasmodium_odb10/hmms/6520at5820.hmm
+# Target file:     /v3/inputs/annotations/plasmodb-68/PAM.proteins.fa
+# Option settings: hmmsearch --domtblout /v3/work/00_inventory/busco/PAM_proteins/run_plasmodium_odb10/hmmer_output/initial_run_results/6520at5820.out --cpu 1 /v3/work/00_inventory/busco/busco_downloads/lineages/plasmodium_odb10/hmms/6520at5820.hmm /v3/inputs/annotations/plasmodb-68/PAM.proteins.fa 
+# Current dir:     /v3/work/00_inventory/busco
+# Date:            Tue May 19 17:43:20 2026
+# [ok]

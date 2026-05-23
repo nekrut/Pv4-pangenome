@@ -1,0 +1,16 @@
+#                                                                            --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name        accession   tlen query name           accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+#------------------- ---------- ----- -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+CAI7720571.1         -            582 6387at5820           -            439  9.5e-233  771.6  21.6   1   2   1.7e-92   5.6e-89  297.8   0.6     1   164     1   183     1   187 0.93 | transcript=PVPAM_090033600_t1 | gene=PVPAM_090033600 | organism=Plasmodium_vivax_PAM | gene_product=Fe-S cluster assembly factor HCF101, putative | transcript_product=Fe-S cluster assembly factor HCF101, putative | location=CASCJQ010000009:1288739-1290487(+) | protein_length=582 | sequence_SO=supercontig | SO=protein_coding_gene | is_pseudo=false
+CAI7720571.1         -            582 6387at5820           -            439  9.5e-233  771.6  21.6   2   2  7.3e-146  2.4e-142  473.7  14.6   164   439   258   565   253   565 0.96 | transcript=PVPAM_090033600_t1 | gene=PVPAM_090033600 | organism=Plasmodium_vivax_PAM | gene_product=Fe-S cluster assembly factor HCF101, putative | transcript_product=Fe-S cluster assembly factor HCF101, putative | location=CASCJQ010000009:1288739-1290487(+) | protein_length=582 | sequence_SO=supercontig | SO=protein_coding_gene | is_pseudo=false
+CAI7719548.1         -            446 6387at5820           -            439   3.3e-36  123.9   4.8   1   1   1.5e-39   4.8e-36  123.4   4.8    94   281   126   318   105   344 0.84 | transcript=PVPAM_070016200_t1 | gene=PVPAM_070016200 | organism=Plasmodium_vivax_PAM | gene_product=cytosolic Fe-S cluster assembly factor NBP35, putative | transcript_product=cytosolic Fe-S cluster assembly factor NBP35, putative | location=CASCJQ010000007:573700-575040(+) | protein_length=446 | sequence_SO=supercontig | SO=protein_coding_gene | is_pseudo=false
+#
+# Program:         hmmsearch
+# Version:         3.4 (Aug 2023)
+# Pipeline mode:   SEARCH
+# Query file:      /v3/work/00_inventory/busco/busco_downloads/lineages/plasmodium_odb10/hmms/6387at5820.hmm
+# Target file:     /v3/inputs/annotations/plasmodb-68/PAM.proteins.fa
+# Option settings: hmmsearch --domtblout /v3/work/00_inventory/busco/PAM_proteins/run_plasmodium_odb10/hmmer_output/initial_run_results/6387at5820.out --cpu 1 /v3/work/00_inventory/busco/busco_downloads/lineages/plasmodium_odb10/hmms/6387at5820.hmm /v3/inputs/annotations/plasmodb-68/PAM.proteins.fa 
+# Current dir:     /v3/work/00_inventory/busco
+# Date:            Tue May 19 17:46:15 2026
+# [ok]

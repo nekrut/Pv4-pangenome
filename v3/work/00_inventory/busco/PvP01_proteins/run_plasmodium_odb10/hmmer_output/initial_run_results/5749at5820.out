@@ -1,0 +1,16 @@
+#                                                                            --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name        accession   tlen query name           accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+#------------------- ---------- ----- -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+PVP01_1139500.1-p1   -            760 5749at5820           -            435  4.4e-242  802.2  16.9   1   3   9.4e-94   6.1e-90  300.8   4.3     1   165   167   335   167   338 0.97 | transcript=PVP01_1139500.1 | gene=PVP01_1139500 | organism=Plasmodium_vivax_P01 | gene_product=cardiolipin synthetase, putative | transcript_product=cardiolipin synthetase, putative | location=PvP01_11_v2:1674933-1677215(+) | protein_length=760 | sequence_SO=chromosome | SO=protein_coding_gene | is_pseudo=false
+PVP01_1139500.1-p1   -            760 5749at5820           -            435  4.4e-242  802.2  16.9   2   3   9.7e-80   6.3e-76  254.6   0.0   166   302   425   568   418   571 0.96 | transcript=PVP01_1139500.1 | gene=PVP01_1139500 | organism=Plasmodium_vivax_P01 | gene_product=cardiolipin synthetase, putative | transcript_product=cardiolipin synthetase, putative | location=PvP01_11_v2:1674933-1677215(+) | protein_length=760 | sequence_SO=chromosome | SO=protein_coding_gene | is_pseudo=false
+PVP01_1139500.1-p1   -            760 5749at5820           -            435  4.4e-242  802.2  16.9   3   3   3.1e-78     2e-74  249.7   6.0   296   435   616   760   607   760 0.93 | transcript=PVP01_1139500.1 | gene=PVP01_1139500 | organism=Plasmodium_vivax_P01 | gene_product=cardiolipin synthetase, putative | transcript_product=cardiolipin synthetase, putative | location=PvP01_11_v2:1674933-1677215(+) | protein_length=760 | sequence_SO=chromosome | SO=protein_coding_gene | is_pseudo=false
+#
+# Program:         hmmsearch
+# Version:         3.4 (Aug 2023)
+# Pipeline mode:   SEARCH
+# Query file:      /v3/work/00_inventory/busco/busco_downloads/lineages/plasmodium_odb10/hmms/5749at5820.hmm
+# Target file:     /v3/inputs/annotations/plasmodb-68/PvP01.proteins.fa
+# Option settings: hmmsearch --domtblout /v3/work/00_inventory/busco/PvP01_proteins/run_plasmodium_odb10/hmmer_output/initial_run_results/5749at5820.out --cpu 1 /v3/work/00_inventory/busco/busco_downloads/lineages/plasmodium_odb10/hmms/5749at5820.hmm /v3/inputs/annotations/plasmodb-68/PvP01.proteins.fa 
+# Current dir:     /v3/work/00_inventory/busco
+# Date:            Tue May 19 17:43:08 2026
+# [ok]

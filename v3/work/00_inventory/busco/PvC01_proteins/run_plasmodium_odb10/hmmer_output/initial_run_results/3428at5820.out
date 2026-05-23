@@ -1,0 +1,19 @@
+#                                                                            --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name        accession   tlen query name           accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+#------------------- ---------- ----- -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+SCO70359.1           -            980 3428at5820           -            577         0 1126.4  33.3   1   4    2e-290  6.4e-287  951.4  16.4     1   466    12   460    12   484 0.96 phosphatidylinositol 3-and 4-kinase, putative [Plasmodium vivax]
+SCO70359.1           -            980 3428at5820           -            577         0 1126.4  33.3   2   4       1.3     4e+03   -5.5   5.0   447   491   780   825   767   830 0.43 phosphatidylinositol 3-and 4-kinase, putative [Plasmodium vivax]
+SCO70359.1           -            980 3428at5820           -            577         0 1126.4  33.3   3   4         2   6.3e+03   -9.6   9.0   481   481   855   855   837   870 0.50 phosphatidylinositol 3-and 4-kinase, putative [Plasmodium vivax]
+SCO70359.1           -            980 3428at5820           -            577         0 1126.4  33.3   4   4   7.7e-60   2.4e-56  190.1   8.9   472   577   872   980   864   980 0.94 phosphatidylinositol 3-and 4-kinase, putative [Plasmodium vivax]
+SCO72398.1           -            511 3428at5820           -            577   1.6e-51  174.1  26.4   1   2       1.7   5.3e+03   -5.9   6.7   447   492   311   357   297   367 0.48 phosphatidylinositol 3-and 4-kinase, putative [Plasmodium vivax]
+SCO72398.1           -            511 3428at5820           -            577   1.6e-51  174.1  26.4   2   2   5.1e-55   1.6e-51  174.1  26.4   471   577   402   511   362   511 0.94 phosphatidylinositol 3-and 4-kinase, putative [Plasmodium vivax]
+#
+# Program:         hmmsearch
+# Version:         3.4 (Aug 2023)
+# Pipeline mode:   SEARCH
+# Query file:      /v3/work/00_inventory/busco/busco_downloads/lineages/plasmodium_odb10/hmms/3428at5820.hmm
+# Target file:     /v3/inputs/annotations/ncbi-datasets/PvC01.proteins.fa
+# Option settings: hmmsearch --domtblout /v3/work/00_inventory/busco/PvC01_proteins/run_plasmodium_odb10/hmmer_output/initial_run_results/3428at5820.out --cpu 1 /v3/work/00_inventory/busco/busco_downloads/lineages/plasmodium_odb10/hmms/3428at5820.hmm /v3/inputs/annotations/ncbi-datasets/PvC01.proteins.fa 
+# Current dir:     /v3/work/00_inventory/busco
+# Date:            Tue May 19 18:38:49 2026
+# [ok]

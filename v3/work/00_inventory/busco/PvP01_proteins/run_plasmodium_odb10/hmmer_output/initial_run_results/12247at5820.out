@@ -1,0 +1,16 @@
+#                                                                            --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name        accession   tlen query name           accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+#------------------- ---------- ----- -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+PVP01_0419000.1-p1   -            247 12247at5820          -            179   3.2e-95  315.6   0.5   1   2      0.42   1.4e+03   -2.5   0.1     1    18     1    17     1    49 0.67 | transcript=PVP01_0419000.1 | gene=PVP01_0419000 | organism=Plasmodium_vivax_P01 | gene_product=cysteine desulfuration protein SufE | transcript_product=cysteine desulfuration protein SufE | location=PvP01_04_v2:787872-789135(-) | protein_length=247 | sequence_SO=chromosome | SO=protein_coding_gene | is_pseudo=false
+PVP01_0419000.1-p1   -            247 12247at5820          -            179   3.2e-95  315.6   0.5   2   2   1.4e-98   4.6e-95  315.0   0.0    17   179    80   246    72   246 0.97 | transcript=PVP01_0419000.1 | gene=PVP01_0419000 | organism=Plasmodium_vivax_P01 | gene_product=cysteine desulfuration protein SufE | transcript_product=cysteine desulfuration protein SufE | location=PvP01_04_v2:787872-789135(-) | protein_length=247 | sequence_SO=chromosome | SO=protein_coding_gene | is_pseudo=false
+PVP01_0418900.1-p1   -            537 12247at5820          -            179     0.016   13.6   0.3   1   1   1.1e-05     0.036   12.4   0.3   105   163   285   340   266   345 0.83 | transcript=PVP01_0418900.1 | gene=PVP01_0418900 | organism=Plasmodium_vivax_P01 | gene_product=pantothenate transporter, putative | transcript_product=pantothenate transporter, putative | location=PvP01_04_v2:783368-784981(-) | protein_length=537 | sequence_SO=chromosome | SO=protein_coding_gene | is_pseudo=false
+#
+# Program:         hmmsearch
+# Version:         3.4 (Aug 2023)
+# Pipeline mode:   SEARCH
+# Query file:      /v3/work/00_inventory/busco/busco_downloads/lineages/plasmodium_odb10/hmms/12247at5820.hmm
+# Target file:     /v3/inputs/annotations/plasmodb-68/PvP01.proteins.fa
+# Option settings: hmmsearch --domtblout /v3/work/00_inventory/busco/PvP01_proteins/run_plasmodium_odb10/hmmer_output/initial_run_results/12247at5820.out --cpu 1 /v3/work/00_inventory/busco/busco_downloads/lineages/plasmodium_odb10/hmms/12247at5820.hmm /v3/inputs/annotations/plasmodb-68/PvP01.proteins.fa 
+# Current dir:     /v3/work/00_inventory/busco
+# Date:            Tue May 19 17:26:19 2026
+# [ok]

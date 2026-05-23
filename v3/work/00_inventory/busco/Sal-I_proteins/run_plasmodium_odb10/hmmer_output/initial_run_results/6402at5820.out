@@ -1,0 +1,17 @@
+#                                                                            --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name        accession   tlen query name           accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+#------------------- ---------- ----- -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+PVX_003965.1-p1      -            458 6402at5820           -            392    1e-239  793.7  60.4   1   2    2e-136  5.4e-133  442.3  24.8     1   207    16   228    16   237 0.97 | transcript=PVX_003965.1 | gene=PVX_003965 | organism=Plasmodium_vivax_Sal-1 | gene_product=monocarboxylate transporter, putative | transcript_product=monocarboxylate transporter, putative | location=Pv_Sal1_chr04:458507-460039(+) | protein_length=458 | sequence_SO=chromosome | SO=protein_coding_gene | is_pseudo=false
+PVX_003965.1-p1      -            458 6402at5820           -            392    1e-239  793.7  60.4   2   2  1.1e-110    3e-107  357.5  27.7   200   392   258   458   254   458 0.96 | transcript=PVX_003965.1 | gene=PVX_003965 | organism=Plasmodium_vivax_Sal-1 | gene_product=monocarboxylate transporter, putative | transcript_product=monocarboxylate transporter, putative | location=Pv_Sal1_chr04:458507-460039(+) | protein_length=458 | sequence_SO=chromosome | SO=protein_coding_gene | is_pseudo=false
+PVX_099745.1-p1      -            550 6402at5820           -            392   2.9e-35  120.5  47.3   1   2   4.6e-29   1.3e-25   88.8  14.9     2   196    16   217    15   227 0.91 | transcript=PVX_099745.1 | gene=PVX_099745 | organism=Plasmodium_vivax_Sal-1 | gene_product=monocarboxylate transporter, putative | transcript_product=monocarboxylate transporter, putative | location=Pv_Sal1_chr07:1015077-1016899(-) | protein_length=550 | sequence_SO=chromosome | SO=protein_coding_gene | is_pseudo=false
+PVX_099745.1-p1      -            550 6402at5820           -            392   2.9e-35  120.5  47.3   2   2   1.6e-13   4.4e-10   37.6  24.4   199   369   347   523   335   546 0.74 | transcript=PVX_099745.1 | gene=PVX_099745 | organism=Plasmodium_vivax_Sal-1 | gene_product=monocarboxylate transporter, putative | transcript_product=monocarboxylate transporter, putative | location=Pv_Sal1_chr07:1015077-1016899(-) | protein_length=550 | sequence_SO=chromosome | SO=protein_coding_gene | is_pseudo=false
+#
+# Program:         hmmsearch
+# Version:         3.4 (Aug 2023)
+# Pipeline mode:   SEARCH
+# Query file:      /v3/work/00_inventory/busco/busco_downloads/lineages/plasmodium_odb10/hmms/6402at5820.hmm
+# Target file:     /v3/inputs/annotations/plasmodb-68/Sal-I.proteins.fa
+# Option settings: hmmsearch --domtblout /v3/work/00_inventory/busco/Sal-I_proteins/run_plasmodium_odb10/hmmer_output/initial_run_results/6402at5820.out --cpu 1 /v3/work/00_inventory/busco/busco_downloads/lineages/plasmodium_odb10/hmms/6402at5820.hmm /v3/inputs/annotations/plasmodb-68/Sal-I.proteins.fa 
+# Current dir:     /v3/work/00_inventory/busco
+# Date:            Tue May 19 17:46:21 2026
+# [ok]

@@ -1,0 +1,16 @@
+#                                                                            --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name        accession   tlen query name           accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+#------------------- ---------- ----- -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+CAG9477939.1         -            136 14377at5820          -            136   1.2e-93  308.7   4.9   1   1   6.6e-97   1.3e-93  308.5   4.9     1   136     1   136     1   136 1.00 | transcript=PVW1_110037200_t1 | gene=PVW1_110037200 | organism=Plasmodium_vivax_PvW1 | gene_product=Histone H3 [Source:UniProtKB/TrEMBL;Acc:A0A1G4HFH7] | transcript_product=Histone H3 [Source:UniProtKB/TrEMBL;Acc:A0A1G4HFH7] | location=CAJZCX010000008:1380452-1380862(-) | protein_length=136 | sequence_SO=supercontig | SO=protein_coding_gene | is_pseudo=false
+CAG9478074.1         -            136 14377at5820          -            136   7.8e-89  293.1   5.4   1   1   4.3e-92   8.6e-89  293.0   5.4     1   136     1   136     1   136 1.00 | transcript=PVW1_110044500_t1 | gene=PVW1_110044500 | organism=Plasmodium_vivax_PvW1 | gene_product=Histone H3 [Source:UniProtKB/TrEMBL;Acc:A0A1G4HFZ6] | transcript_product=Histone H3 [Source:UniProtKB/TrEMBL;Acc:A0A1G4HFZ6] | location=CAJZCX010000008:1666103-1666513(-) | protein_length=136 | sequence_SO=supercontig | SO=protein_coding_gene | is_pseudo=false
+CAG9473367.1         -            164 14377at5820          -            136   2.8e-42  142.4   1.4   1   1   2.1e-45   4.2e-42  141.8   1.4     8   134    38   163    15   164 0.86 | transcript=PVW1_120035400_t1 | gene=PVW1_120035400 | organism=Plasmodium_vivax_PvW1 | gene_product=Histone domain-containing protein [Source:UniProtKB/TrEMBL;Acc:A0A1G4HGT4] | transcript_product=Histone domain-containing protein [Source:UniProtKB/TrEMBL;Acc:A0A1G4HGT4] | location=CAJZCX010000004:1305763-1306257(+) | protein_length=164 | sequence_SO=supercontig | SO=protein_coding_gene | is_pseudo=false
+#
+# Program:         hmmsearch
+# Version:         3.4 (Aug 2023)
+# Pipeline mode:   SEARCH
+# Query file:      /v3/work/00_inventory/busco/busco_downloads/lineages/plasmodium_odb10/hmms/14377at5820.hmm
+# Target file:     /v3/inputs/annotations/plasmodb-68/PvW1.proteins.fa
+# Option settings: hmmsearch --domtblout /v3/work/00_inventory/busco/PvW1_proteins/run_plasmodium_odb10/hmmer_output/initial_run_results/14377at5820.out --cpu 1 /v3/work/00_inventory/busco/busco_downloads/lineages/plasmodium_odb10/hmms/14377at5820.hmm /v3/inputs/annotations/plasmodb-68/PvW1.proteins.fa 
+# Current dir:     /v3/work/00_inventory/busco
+# Date:            Tue May 19 17:33:15 2026
+# [ok]

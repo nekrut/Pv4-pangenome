@@ -1,0 +1,28 @@
+#                                                                            --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name        accession   tlen query name           accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+#------------------- ---------- ----- -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+SCO67142.1           -            491 5577at5820           -            435  5.3e-261  864.6  20.8   1   2  2.2e-153  1.9e-150  500.3   2.5     1   237     1   252     1   266 0.95 actin-like protein, putative [Plasmodium vivax]
+SCO67142.1           -            491 5577at5820           -            435  5.3e-261  864.6  20.8   2   2  9.3e-114  8.1e-111  369.7  10.7   231   435   270   491   264   491 0.94 actin-like protein, putative [Plasmodium vivax]
+SCO69465.1           -            376 5577at5820           -            435   3.6e-28   97.4   0.1   1   2   3.2e-19   2.8e-16   58.2   0.0     9   246     9   249     1   263 0.72 actin [Plasmodium vivax]
+SCO69465.1           -            376 5577at5820           -            435   3.6e-28   97.4   0.1   2   2   7.4e-13   6.4e-10   37.3   0.0   347   434   292   375   279   376 0.86 actin [Plasmodium vivax]
+SCO70208.1           -            376 5577at5820           -            435     2e-27   94.9   0.0   1   2   5.9e-19   5.1e-16   57.4   0.0     4   247     5   250     3   283 0.73 actin [Plasmodium vivax]
+SCO70208.1           -            376 5577at5820           -            435     2e-27   94.9   0.0   2   2   5.5e-12   4.7e-09   34.4   0.0   353   434   298   375   282   376 0.85 actin [Plasmodium vivax]
+SCO65160.1           -            379 5577at5820           -            435   2.8e-27   94.5   2.0   1   2   1.3e-19   1.2e-16   59.5   0.8    81   198    83   198     8   267 0.70 actin-related protein [Plasmodium vivax]
+SCO65160.1           -            379 5577at5820           -            435   2.8e-27   94.5   2.0   2   2   7.7e-12   6.6e-09   33.9   0.0   350   426   298   371   275   378 0.84 actin-related protein [Plasmodium vivax]
+SCO69367.1           -            493 5577at5820           -            435   2.2e-25   88.2   0.1   1   2   1.3e-18   1.1e-15   56.2   0.0    99   209   134   244   129   247 0.92 actin-related protein, putative [Plasmodium vivax]
+SCO69367.1           -            493 5577at5820           -            435   2.2e-25   88.2   0.1   2   2   1.2e-10   1.1e-07   29.9   0.0   326   434   384   492   361   493 0.78 actin-related protein, putative [Plasmodium vivax]
+SCO67845.1           -            606 5577at5820           -            435   1.1e-18   66.2  23.6   1   2   0.00012      0.11   10.2   0.4     2   106     4   122     3   143 0.73 actin-like protein, putative [Plasmodium vivax]
+SCO67845.1           -            606 5577at5820           -            435   1.1e-18   66.2  23.6   2   2   6.5e-18   5.7e-15   53.9  17.1    94   434   273   606   246   606 0.76 actin-like protein, putative [Plasmodium vivax]
+SCO67207.1           -            378 5577at5820           -            435   3.6e-13   48.0   0.1   1   3      0.26   2.3e+02   -0.8   0.0     6    40     4    38     2    65 0.87 actin-like protein, putative [Plasmodium vivax]
+SCO67207.1           -            378 5577at5820           -            435   3.6e-13   48.0   0.1   2   3   2.2e-14   1.9e-11   42.3   0.1    97   246    83   235    70   242 0.83 actin-like protein, putative [Plasmodium vivax]
+SCO67207.1           -            378 5577at5820           -            435   3.6e-13   48.0   0.1   3   3     0.036        32    2.0   0.0   347   427   285   367   264   374 0.74 actin-like protein, putative [Plasmodium vivax]
+#
+# Program:         hmmsearch
+# Version:         3.4 (Aug 2023)
+# Pipeline mode:   SEARCH
+# Query file:      /v3/work/00_inventory/busco/busco_downloads/lineages/plasmodium_odb10/hmms/5577at5820.hmm
+# Target file:     /v3/inputs/annotations/ncbi-datasets/PvT01.proteins.fa
+# Option settings: hmmsearch --domtblout /v3/work/00_inventory/busco/PvT01_proteins/run_plasmodium_odb10/hmmer_output/initial_run_results/5577at5820.out --cpu 1 /v3/work/00_inventory/busco/busco_downloads/lineages/plasmodium_odb10/hmms/5577at5820.hmm /v3/inputs/annotations/ncbi-datasets/PvT01.proteins.fa 
+# Current dir:     /v3/work/00_inventory/busco
+# Date:            Tue May 19 18:54:19 2026
+# [ok]

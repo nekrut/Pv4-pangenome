@@ -1,0 +1,18 @@
+#                                                                            --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name        accession   tlen query name           accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+#------------------- ---------- ----- -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+PVP01_0108000.1-p1   -           1056 2248at5820           -            708         0 1090.0  60.4   1   5    0.0034        22    1.7   0.1    18    32   100   114    97   127 0.89 | transcript=PVP01_0108000.1 | gene=PVP01_0108000 | organism=Plasmodium_vivax_P01 | gene_product=RAP protein, putative | transcript_product=RAP protein, putative | location=PvP01_01_v2:399535-402940(+) | protein_length=1056 | sequence_SO=chromosome | SO=protein_coding_gene | is_pseudo=false
+PVP01_0108000.1-p1   -           1056 2248at5820           -            708         0 1090.0  60.4   2   5   4.5e-66   2.9e-62  209.6   5.3    31   148   154   272   144   281 0.96 | transcript=PVP01_0108000.1 | gene=PVP01_0108000 | organism=Plasmodium_vivax_P01 | gene_product=RAP protein, putative | transcript_product=RAP protein, putative | location=PvP01_01_v2:399535-402940(+) | protein_length=1056 | sequence_SO=chromosome | SO=protein_coding_gene | is_pseudo=false
+PVP01_0108000.1-p1   -           1056 2248at5820           -            708         0 1090.0  60.4   3   5     3e-81     2e-77  259.7   8.3   155   288   314   447   296   458 0.94 | transcript=PVP01_0108000.1 | gene=PVP01_0108000 | organism=Plasmodium_vivax_P01 | gene_product=RAP protein, putative | transcript_product=RAP protein, putative | location=PvP01_01_v2:399535-402940(+) | protein_length=1056 | sequence_SO=chromosome | SO=protein_coding_gene | is_pseudo=false
+PVP01_0108000.1-p1   -           1056 2248at5820           -            708         0 1090.0  60.4   4   5  3.1e-111    2e-107  358.9  21.2   310   555   555   838   515   844 0.85 | transcript=PVP01_0108000.1 | gene=PVP01_0108000 | organism=Plasmodium_vivax_P01 | gene_product=RAP protein, putative | transcript_product=RAP protein, putative | location=PvP01_01_v2:399535-402940(+) | protein_length=1056 | sequence_SO=chromosome | SO=protein_coding_gene | is_pseudo=false
+PVP01_0108000.1-p1   -           1056 2248at5820           -            708         0 1090.0  60.4   5   5   2.9e-85   1.9e-81  273.0   0.4   552   708   887  1050   883  1050 0.95 | transcript=PVP01_0108000.1 | gene=PVP01_0108000 | organism=Plasmodium_vivax_P01 | gene_product=RAP protein, putative | transcript_product=RAP protein, putative | location=PvP01_01_v2:399535-402940(+) | protein_length=1056 | sequence_SO=chromosome | SO=protein_coding_gene | is_pseudo=false
+#
+# Program:         hmmsearch
+# Version:         3.4 (Aug 2023)
+# Pipeline mode:   SEARCH
+# Query file:      /v3/work/00_inventory/busco/busco_downloads/lineages/plasmodium_odb10/hmms/2248at5820.hmm
+# Target file:     /v3/inputs/annotations/plasmodb-68/PvP01.proteins.fa
+# Option settings: hmmsearch --domtblout /v3/work/00_inventory/busco/PvP01_proteins/run_plasmodium_odb10/hmmer_output/initial_run_results/2248at5820.out --cpu 1 /v3/work/00_inventory/busco/busco_downloads/lineages/plasmodium_odb10/hmms/2248at5820.hmm /v3/inputs/annotations/plasmodb-68/PvP01.proteins.fa 
+# Current dir:     /v3/work/00_inventory/busco
+# Date:            Tue May 19 17:34:55 2026
+# [ok]

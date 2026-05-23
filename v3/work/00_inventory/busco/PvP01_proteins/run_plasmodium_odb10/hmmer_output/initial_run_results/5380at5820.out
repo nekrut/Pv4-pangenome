@@ -1,0 +1,17 @@
+#                                                                            --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name        accession   tlen query name           accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+#------------------- ---------- ----- -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+PVP01_0934500.1-p1   -            758 5380at5820           -            446  8.5e-233  771.5  54.5   1   2  4.9e-129  1.1e-125  418.5  25.7     1   242    13   274    13   291 0.93 | transcript=PVP01_0934500.1 | gene=PVP01_0934500 | organism=Plasmodium_vivax_P01 | gene_product=FHA domain-containing protein, putative | transcript_product=FHA domain-containing protein, putative | location=PvP01_09_v2:1467263-1469698(+) | protein_length=758 | sequence_SO=chromosome | SO=protein_coding_gene | is_pseudo=false
+PVP01_0934500.1-p1   -            758 5380at5820           -            446  8.5e-233  771.5  54.5   2   2  5.3e-110  1.2e-106  355.8  21.1   232   435   297   519   281   527 0.93 | transcript=PVP01_0934500.1 | gene=PVP01_0934500 | organism=Plasmodium_vivax_P01 | gene_product=FHA domain-containing protein, putative | transcript_product=FHA domain-containing protein, putative | location=PvP01_09_v2:1467263-1469698(+) | protein_length=758 | sequence_SO=chromosome | SO=protein_coding_gene | is_pseudo=false
+PVP01_1408700.1-p1   -            442 5380at5820           -            446   7.1e-07   26.9   0.0   1   1   4.8e-10     1e-06   26.3   0.0   244   324   346   430   331   435 0.85 | transcript=PVP01_1408700.1 | gene=PVP01_1408700 | organism=Plasmodium_vivax_P01 | gene_product=centrosomal protein CEP170, putative | transcript_product=centrosomal protein CEP170, putative | location=PvP01_14_v2:398419-400192(-) | protein_length=442 | sequence_SO=chromosome | SO=protein_coding_gene | is_pseudo=false
+PVP01_1232900.1-p1   -           1029 5380at5820           -            446   7.4e-05   20.2   2.0   1   1   5.9e-08   0.00013   19.4   2.0   338   436   617   716   605   724 0.89 | transcript=PVP01_1232900.1 | gene=PVP01_1232900 | organism=Plasmodium_vivax_P01 | gene_product=splicing factor 1, putative | transcript_product=splicing factor 1, putative | location=PvP01_12_v2:1323265-1326509(-) | protein_length=1029 | sequence_SO=chromosome | SO=protein_coding_gene | is_pseudo=false
+#
+# Program:         hmmsearch
+# Version:         3.4 (Aug 2023)
+# Pipeline mode:   SEARCH
+# Query file:      /v3/work/00_inventory/busco/busco_downloads/lineages/plasmodium_odb10/hmms/5380at5820.hmm
+# Target file:     /v3/inputs/annotations/plasmodb-68/PvP01.proteins.fa
+# Option settings: hmmsearch --domtblout /v3/work/00_inventory/busco/PvP01_proteins/run_plasmodium_odb10/hmmer_output/initial_run_results/5380at5820.out --cpu 1 /v3/work/00_inventory/busco/busco_downloads/lineages/plasmodium_odb10/hmms/5380at5820.hmm /v3/inputs/annotations/plasmodb-68/PvP01.proteins.fa 
+# Current dir:     /v3/work/00_inventory/busco
+# Date:            Tue May 19 17:41:35 2026
+# [ok]

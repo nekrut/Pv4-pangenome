@@ -1,0 +1,17 @@
+#                                                                            --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name        accession   tlen query name           accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+#------------------- ---------- ----- -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+PVP01_1221400.1-p1   -            214 12922at5820          -            180   1.9e-99  329.8  15.6   1   1  1.3e-102   2.1e-99  329.6  15.6     1   180    24   214    24   214 0.96 | transcript=PVP01_1221400.1 | gene=PVP01_1221400 | organism=Plasmodium_vivax_P01 | gene_product=transmembrane emp24 domain-containing protein, putative | transcript_product=transmembrane emp24 domain-containing protein, putative | location=PvP01_12_v2:849946-850590(+) | protein_length=214 | sequence_SO=chromosome | SO=protein_coding_gene | is_pseudo=false
+PVP01_1415400.1-p1   -            205 12922at5820          -            180     3e-09   35.9  10.7   1   1   2.3e-12   3.8e-09   35.6  10.7    11   180    33   205    26   205 0.79 | transcript=PVP01_1415400.1 | gene=PVP01_1415400 | organism=Plasmodium_vivax_P01 | gene_product=transmembrane emp24 domain-containing protein, putative | transcript_product=transmembrane emp24 domain-containing protein, putative | location=PvP01_14_v2:686427-687702(-) | protein_length=205 | sequence_SO=chromosome | SO=protein_coding_gene | is_pseudo=false
+PVP01_0530600.1-p1   -            382 12922at5820          -            180   0.00073   18.4   2.9   1   1   8.3e-07    0.0014   17.5   2.9   102   179   304   381   286   382 0.95 | transcript=PVP01_0530600.1 | gene=PVP01_0530600 | organism=Plasmodium_vivax_P01 | gene_product=transmembrane emp24 domain-containing protein, putative | transcript_product=transmembrane emp24 domain-containing protein, putative | location=PvP01_05_v2:1287333-1288481(+) | protein_length=382 | sequence_SO=chromosome | SO=protein_coding_gene | is_pseudo=false
+PVP01_1006900.1-p1   -            213 12922at5820          -            180      0.11   11.2   9.0   1   1   8.9e-05      0.14   10.9   9.0    75   179   108   212    26   213 0.61 | transcript=PVP01_1006900.1 | gene=PVP01_1006900 | organism=Plasmodium_vivax_P01 | gene_product=transmembrane emp24 domain-containing protein, putative | transcript_product=transmembrane emp24 domain-containing protein, putative | location=PvP01_10_v2:301927-303112(-) | protein_length=213 | sequence_SO=chromosome | SO=protein_coding_gene | is_pseudo=false
+#
+# Program:         hmmsearch
+# Version:         3.4 (Aug 2023)
+# Pipeline mode:   SEARCH
+# Query file:      /v3/work/00_inventory/busco/busco_downloads/lineages/plasmodium_odb10/hmms/12922at5820.hmm
+# Target file:     /v3/inputs/annotations/plasmodb-68/PvP01.proteins.fa
+# Option settings: hmmsearch --domtblout /v3/work/00_inventory/busco/PvP01_proteins/run_plasmodium_odb10/hmmer_output/initial_run_results/12922at5820.out --cpu 1 /v3/work/00_inventory/busco/busco_downloads/lineages/plasmodium_odb10/hmms/12922at5820.hmm /v3/inputs/annotations/plasmodb-68/PvP01.proteins.fa 
+# Current dir:     /v3/work/00_inventory/busco
+# Date:            Tue May 19 17:28:14 2026
+# [ok]

@@ -1,0 +1,18 @@
+#                                                                            --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name        accession   tlen query name           accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+#------------------- ---------- ----- -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+PVP01_0527500.1-p1   -           1241 3256at5820           -            614         0 1126.5  83.3   1   4  2.7e-177  8.7e-174  578.1  35.7     1   320     5   328     5   352 0.92 | transcript=PVP01_0527500.1 | gene=PVP01_0527500 | organism=Plasmodium_vivax_P01 | gene_product=protein SOC1, putative | transcript_product=protein SOC1, putative | location=PvP01_05_v2:1135500-1139225(-) | protein_length=1241 | sequence_SO=chromosome | SO=protein_coding_gene | is_pseudo=false
+PVP01_0527500.1-p1   -           1241 3256at5820           -            614         0 1126.5  83.3   2   4   6.2e-10     2e-06   25.3   3.9   313   358   664   719   642   730 0.78 | transcript=PVP01_0527500.1 | gene=PVP01_0527500 | organism=Plasmodium_vivax_P01 | gene_product=protein SOC1, putative | transcript_product=protein SOC1, putative | location=PvP01_05_v2:1135500-1139225(-) | protein_length=1241 | sequence_SO=chromosome | SO=protein_coding_gene | is_pseudo=false
+PVP01_0527500.1-p1   -           1241 3256at5820           -            614         0 1126.5  83.3   3   4  1.2e-156  3.8e-153  509.9  23.5   346   597   768  1020   730  1033 0.93 | transcript=PVP01_0527500.1 | gene=PVP01_0527500 | organism=Plasmodium_vivax_P01 | gene_product=protein SOC1, putative | transcript_product=protein SOC1, putative | location=PvP01_05_v2:1135500-1139225(-) | protein_length=1241 | sequence_SO=chromosome | SO=protein_coding_gene | is_pseudo=false
+PVP01_0527500.1-p1   -           1241 3256at5820           -            614         0 1126.5  83.3   4   4   1.2e-10     4e-07   27.6   0.1   588   614  1117  1143  1098  1143 0.90 | transcript=PVP01_0527500.1 | gene=PVP01_0527500 | organism=Plasmodium_vivax_P01 | gene_product=protein SOC1, putative | transcript_product=protein SOC1, putative | location=PvP01_05_v2:1135500-1139225(-) | protein_length=1241 | sequence_SO=chromosome | SO=protein_coding_gene | is_pseudo=false
+PVP01_1208500.1-p1   -            207 3256at5820           -            614      0.12    9.5   4.9   1   1   4.2e-05      0.14    9.3   4.9   236   332    25   125     6   146 0.69 | transcript=PVP01_1208500.1 | gene=PVP01_1208500 | organism=Plasmodium_vivax_P01 | gene_product=DNA/RNA-binding protein Alba 2, putative | transcript_product=DNA/RNA-binding protein Alba 2, putative | location=PvP01_12_v2:352993-354003(-) | protein_length=207 | sequence_SO=chromosome | SO=protein_coding_gene | is_pseudo=false
+#
+# Program:         hmmsearch
+# Version:         3.4 (Aug 2023)
+# Pipeline mode:   SEARCH
+# Query file:      /v3/work/00_inventory/busco/busco_downloads/lineages/plasmodium_odb10/hmms/3256at5820.hmm
+# Target file:     /v3/inputs/annotations/plasmodb-68/PvP01.proteins.fa
+# Option settings: hmmsearch --domtblout /v3/work/00_inventory/busco/PvP01_proteins/run_plasmodium_odb10/hmmer_output/initial_run_results/3256at5820.out --cpu 1 /v3/work/00_inventory/busco/busco_downloads/lineages/plasmodium_odb10/hmms/3256at5820.hmm /v3/inputs/annotations/plasmodb-68/PvP01.proteins.fa 
+# Current dir:     /v3/work/00_inventory/busco
+# Date:            Tue May 19 17:36:12 2026
+# [ok]

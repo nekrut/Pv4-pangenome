@@ -1,0 +1,21 @@
+#                                                                            --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name        accession   tlen query name           accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+#------------------- ---------- ----- -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+SCO65111.1           -           1087 1806at5820           -            857         0 1367.5   3.2   1   4  1.5e-161  4.6e-158  525.8   0.0     1   284    14   304    14   322 0.96 LCCL domain-containing protein [Plasmodium vivax]
+SCO65111.1           -           1087 1806at5820           -            857         0 1367.5   3.2   2   4  6.8e-196  2.1e-192  639.4   0.1   283   699   360   846   351   861 0.91 LCCL domain-containing protein [Plasmodium vivax]
+SCO65111.1           -           1087 1806at5820           -            857         0 1367.5   3.2   3   4   3.6e-14   1.1e-10   38.2   0.0   709   753   893   939   866   952 0.86 LCCL domain-containing protein [Plasmodium vivax]
+SCO65111.1           -           1087 1806at5820           -            857         0 1367.5   3.2   4   4   5.9e-51   1.8e-47  160.0   0.0   749   857   966  1086   958  1086 0.91 LCCL domain-containing protein [Plasmodium vivax]
+SCO69519.1           -           1306 1806at5820           -            857   4.2e-12   42.9   7.6   1   4    0.0055        17    1.2   0.1   611   674   284   347   257   410 0.76 LCCL domain-containing protein, putative [Plasmodium vivax]
+SCO69519.1           -           1306 1806at5820           -            857   4.2e-12   42.9   7.6   2   4   4.2e-08   0.00013   18.2   0.1   649   697   727   783   681   805 0.63 LCCL domain-containing protein, putative [Plasmodium vivax]
+SCO69519.1           -           1306 1806at5820           -            857   4.2e-12   42.9   7.6   3   4   7.7e-06     0.023   10.7   0.1   652   674  1127  1150  1113  1156 0.83 LCCL domain-containing protein, putative [Plasmodium vivax]
+SCO69519.1           -           1306 1806at5820           -            857   4.2e-12   42.9   7.6   4   4   7.7e-07    0.0023   14.0   0.0   651   699  1239  1294  1228  1306 0.71 LCCL domain-containing protein, putative [Plasmodium vivax]
+#
+# Program:         hmmsearch
+# Version:         3.4 (Aug 2023)
+# Pipeline mode:   SEARCH
+# Query file:      /v3/work/00_inventory/busco/busco_downloads/lineages/plasmodium_odb10/hmms/1806at5820.hmm
+# Target file:     /v3/inputs/annotations/ncbi-datasets/PvT01.proteins.fa
+# Option settings: hmmsearch --domtblout /v3/work/00_inventory/busco/PvT01_proteins/run_plasmodium_odb10/hmmer_output/initial_run_results/1806at5820.out --cpu 1 /v3/work/00_inventory/busco/busco_downloads/lineages/plasmodium_odb10/hmms/1806at5820.hmm /v3/inputs/annotations/ncbi-datasets/PvT01.proteins.fa 
+# Current dir:     /v3/work/00_inventory/busco
+# Date:            Tue May 19 18:36:12 2026
+# [ok]

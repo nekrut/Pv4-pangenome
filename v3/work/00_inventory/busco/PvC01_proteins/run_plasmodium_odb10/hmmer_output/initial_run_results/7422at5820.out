@@ -1,0 +1,25 @@
+#                                                                            --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name        accession   tlen query name           accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+#------------------- ---------- ----- -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+SCO75552.1           -            445 7422at5820           -            352  5.5e-180  596.7  11.3   1   2  4.3e-183  6.8e-180  596.4   9.2     1   338     1   399     1   408 0.94 WD repeat-containing protein, putative [Plasmodium vivax]
+SCO75552.1           -            445 7422at5820           -            352  5.5e-180  596.7  11.3   2   2      0.53   8.3e+02   -2.5   0.0   339   352   428   441   425   441 0.88 WD repeat-containing protein, putative [Plasmodium vivax]
+SCO72943.1           -            660 7422at5820           -            352   0.00013   19.9   8.6   1   5    0.0013       2.1    6.1   0.1   197   303    56   165    34   175 0.60 ribosome assembly protein 4, putative [Plasmodium vivax]
+SCO72943.1           -            660 7422at5820           -            352   0.00013   19.9   8.6   2   5      0.56   8.8e+02   -2.6   0.0    88   110   186   208   168   215 0.77 ribosome assembly protein 4, putative [Plasmodium vivax]
+SCO72943.1           -            660 7422at5820           -            352   0.00013   19.9   8.6   3   5      0.12   1.9e+02   -0.3   0.9    88   147   393   453   356   466 0.74 ribosome assembly protein 4, putative [Plasmodium vivax]
+SCO72943.1           -            660 7422at5820           -            352   0.00013   19.9   8.6   4   5     0.062        98    0.6   0.2    41    92   427   477   421   484 0.76 ribosome assembly protein 4, putative [Plasmodium vivax]
+SCO72943.1           -            660 7422at5820           -            352   0.00013   19.9   8.6   5   5   3.1e-06    0.0049   14.7   0.1    81   147   510   578   483   582 0.80 ribosome assembly protein 4, putative [Plasmodium vivax]
+SCO71232.1           -            322 7422at5820           -            352   0.00037   18.4   1.7   1   4   9.9e-05      0.16    9.8   0.0   254   295   106   150    92   162 0.80 receptor for activated c kinase, putative [Plasmodium vivax]
+SCO71232.1           -            322 7422at5820           -            352   0.00037   18.4   1.7   2   4     0.012        19    3.0   0.4   270   305   167   203   146   211 0.77 receptor for activated c kinase, putative [Plasmodium vivax]
+SCO71232.1           -            322 7422at5820           -            352   0.00037   18.4   1.7   3   4      0.39   6.1e+02   -2.0   0.0   278   304   217   244   210   256 0.79 receptor for activated c kinase, putative [Plasmodium vivax]
+SCO71232.1           -            322 7422at5820           -            352   0.00037   18.4   1.7   4   4     0.014        23    2.7   0.0    48    94   266   316   252   319 0.72 receptor for activated c kinase, putative [Plasmodium vivax]
+SCO70851.1           -            327 7422at5820           -            352     0.016   13.0   0.0   1   1     2e-05     0.031   12.1   0.0    75   130   151   206   120   225 0.90 eukaryotic translation initiation factor 3 subunit I, putative [Plasmodium vivax]
+#
+# Program:         hmmsearch
+# Version:         3.4 (Aug 2023)
+# Pipeline mode:   SEARCH
+# Query file:      /v3/work/00_inventory/busco/busco_downloads/lineages/plasmodium_odb10/hmms/7422at5820.hmm
+# Target file:     /v3/inputs/annotations/ncbi-datasets/PvC01.proteins.fa
+# Option settings: hmmsearch --domtblout /v3/work/00_inventory/busco/PvC01_proteins/run_plasmodium_odb10/hmmer_output/initial_run_results/7422at5820.out --cpu 1 /v3/work/00_inventory/busco/busco_downloads/lineages/plasmodium_odb10/hmms/7422at5820.hmm /v3/inputs/annotations/ncbi-datasets/PvC01.proteins.fa 
+# Current dir:     /v3/work/00_inventory/busco
+# Date:            Tue May 19 18:58:53 2026
+# [ok]

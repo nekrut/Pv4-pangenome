@@ -1,0 +1,17 @@
+#                                                                            --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name        accession   tlen query name           accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+#------------------- ---------- ----- -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+PVP01_0204800.1-p1   -            138 13859at5820          -            126   3.6e-67  222.7   1.3   1   1   8.8e-70   2.9e-66  219.7   1.3     1   125     1   137     1   138 0.95 | transcript=PVP01_0204800.1 | gene=PVP01_0204800 | organism=Plasmodium_vivax_P01 | gene_product=FAD-linked sulfhydryl oxidase ERV1, putative | transcript_product=FAD-linked sulfhydryl oxidase ERV1, putative | location=PvP01_02_v2:225948-226364(-) | protein_length=138 | sequence_SO=chromosome | SO=protein_coding_gene | is_pseudo=false
+PVP01_0221200.1-p1   -            407 13859at5820          -            126       2.8    6.5  11.5   1   3     0.023        77    1.8   0.1    76   122    19    63     2    67 0.75 | transcript=PVP01_0221200.1 | gene=PVP01_0221200 | organism=Plasmodium_vivax_P01 | gene_product=PIR protein | transcript_product=PIR protein | location=PvP01_02_v2:926891-928368(-) | protein_length=407 | sequence_SO=chromosome | SO=protein_coding_gene | is_pseudo=false
+PVP01_0221200.1-p1   -            407 13859at5820          -            126       2.8    6.5  11.5   2   3   0.00051       1.7    7.2   5.4    29   111    85   170    79   186 0.74 | transcript=PVP01_0221200.1 | gene=PVP01_0221200 | organism=Plasmodium_vivax_P01 | gene_product=PIR protein | transcript_product=PIR protein | location=PvP01_02_v2:926891-928368(-) | protein_length=407 | sequence_SO=chromosome | SO=protein_coding_gene | is_pseudo=false
+PVP01_0221200.1-p1   -            407 13859at5820          -            126       2.8    6.5  11.5   3   3     0.071   2.3e+02    0.3   0.1    54    83   172   199   162   206 0.76 | transcript=PVP01_0221200.1 | gene=PVP01_0221200 | organism=Plasmodium_vivax_P01 | gene_product=PIR protein | transcript_product=PIR protein | location=PvP01_02_v2:926891-928368(-) | protein_length=407 | sequence_SO=chromosome | SO=protein_coding_gene | is_pseudo=false
+#
+# Program:         hmmsearch
+# Version:         3.4 (Aug 2023)
+# Pipeline mode:   SEARCH
+# Query file:      /v3/work/00_inventory/busco/busco_downloads/lineages/plasmodium_odb10/hmms/13859at5820.hmm
+# Target file:     /v3/inputs/annotations/plasmodb-68/PvP01.proteins.fa
+# Option settings: hmmsearch --domtblout /v3/work/00_inventory/busco/PvP01_proteins/run_plasmodium_odb10/hmmer_output/initial_run_results/13859at5820.out --cpu 1 /v3/work/00_inventory/busco/busco_downloads/lineages/plasmodium_odb10/hmms/13859at5820.hmm /v3/inputs/annotations/plasmodb-68/PvP01.proteins.fa 
+# Current dir:     /v3/work/00_inventory/busco
+# Date:            Tue May 19 17:31:36 2026
+# [ok]

@@ -1,0 +1,17 @@
+#                                                                            --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name        accession   tlen query name           accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+#------------------- ---------- ----- -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+PVP01_1123900.1-p1   -            643 4198at5820           -            542         0 1138.8  36.6   1   3     2e-26   6.4e-23   79.5   0.8     1    57     1    57     1    64 0.96 | transcript=PVP01_1123900.1 | gene=PVP01_1123900 | organism=Plasmodium_vivax_P01 | gene_product=poly(A) polymerase PAP, putative | transcript_product=poly(A) polymerase PAP, putative | location=PvP01_11_v2:1042546-1044477(-) | protein_length=643 | sequence_SO=chromosome | SO=protein_coding_gene | is_pseudo=false
+PVP01_1123900.1-p1   -            643 4198at5820           -            542         0 1138.8  36.6   2   3  8.2e-239  2.7e-235  780.4   9.5    45   408    78   441    66   450 0.96 | transcript=PVP01_1123900.1 | gene=PVP01_1123900 | organism=Plasmodium_vivax_P01 | gene_product=poly(A) polymerase PAP, putative | transcript_product=poly(A) polymerase PAP, putative | location=PvP01_11_v2:1042546-1044477(-) | protein_length=643 | sequence_SO=chromosome | SO=protein_coding_gene | is_pseudo=false
+PVP01_1123900.1-p1   -            643 4198at5820           -            542         0 1138.8  36.6   3   3   2.7e-90   8.8e-87  290.3  11.4   400   542   463   605   456   605 0.98 | transcript=PVP01_1123900.1 | gene=PVP01_1123900 | organism=Plasmodium_vivax_P01 | gene_product=poly(A) polymerase PAP, putative | transcript_product=poly(A) polymerase PAP, putative | location=PvP01_11_v2:1042546-1044477(-) | protein_length=643 | sequence_SO=chromosome | SO=protein_coding_gene | is_pseudo=false
+PVP01_0530700.1-p1   -           4377 4198at5820           -            542      0.05   10.6   0.0   1   1   2.7e-05     0.087    9.8   0.0   137   301  2354  2526  2346  2535 0.70 | transcript=PVP01_0530700.1 | gene=PVP01_0530700 | organism=Plasmodium_vivax_P01 | gene_product=erythrocyte membrane-associated antigen, putative | transcript_product=erythrocyte membrane-associated antigen, putative | location=PvP01_05_v2:1289809-1302942(-) | protein_length=4377 | sequence_SO=chromosome | SO=protein_coding_gene | is_pseudo=false
+#
+# Program:         hmmsearch
+# Version:         3.4 (Aug 2023)
+# Pipeline mode:   SEARCH
+# Query file:      /v3/work/00_inventory/busco/busco_downloads/lineages/plasmodium_odb10/hmms/4198at5820.hmm
+# Target file:     /v3/inputs/annotations/plasmodb-68/PvP01.proteins.fa
+# Option settings: hmmsearch --domtblout /v3/work/00_inventory/busco/PvP01_proteins/run_plasmodium_odb10/hmmer_output/initial_run_results/4198at5820.out --cpu 1 /v3/work/00_inventory/busco/busco_downloads/lineages/plasmodium_odb10/hmms/4198at5820.hmm /v3/inputs/annotations/plasmodb-68/PvP01.proteins.fa 
+# Current dir:     /v3/work/00_inventory/busco
+# Date:            Tue May 19 17:40:38 2026
+# [ok]

@@ -1,0 +1,18 @@
+#                                                                            --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name        accession   tlen query name           accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+#------------------- ---------- ----- -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+PVX_001060.1-p1      -            724 3925at5820           -            649         0 1334.7  88.9   1   1         0         0 1334.5  88.9     1   649     3   662     3   662 0.99 | transcript=PVX_001060.1 | gene=PVX_001060 | organism=Plasmodium_vivax_Sal-1 | gene_product=splicing factor, putative | transcript_product=splicing factor, putative | location=Pv_Sal1_chr03:51285-54275(-) | protein_length=724 | sequence_SO=chromosome | SO=protein_coding_gene | is_pseudo=false
+PVX_091160.1-p1      -           1296 3925at5820           -            649   4.5e-11   40.0  39.5   1   4     3e-05     0.083    9.4   1.4   117   256   372   504   356   519 0.83 | transcript=PVX_091160.1 | gene=PVX_091160 | organism=Plasmodium_vivax_Sal-1 | gene_product=pre-mRNA-processing factor 6, putative | transcript_product=pre-mRNA-processing factor 6, putative | location=Pv_Sal1_chr09:302140-306199(+) | protein_length=1296 | sequence_SO=chromosome | SO=protein_coding_gene | is_pseudo=false
+PVX_091160.1-p1      -           1296 3925at5820           -            649   4.5e-11   40.0  39.5   2   4   1.8e-13     5e-10   36.6  12.9    72   224   627   780   552   796 0.84 | transcript=PVX_091160.1 | gene=PVX_091160 | organism=Plasmodium_vivax_Sal-1 | gene_product=pre-mRNA-processing factor 6, putative | transcript_product=pre-mRNA-processing factor 6, putative | location=Pv_Sal1_chr09:302140-306199(+) | protein_length=1296 | sequence_SO=chromosome | SO=protein_coding_gene | is_pseudo=false
+PVX_091160.1-p1      -           1296 3925at5820           -            649   4.5e-11   40.0  39.5   3   4   5.5e-05      0.15    8.6   0.0    88   131   907   950   901   965 0.87 | transcript=PVX_091160.1 | gene=PVX_091160 | organism=Plasmodium_vivax_Sal-1 | gene_product=pre-mRNA-processing factor 6, putative | transcript_product=pre-mRNA-processing factor 6, putative | location=Pv_Sal1_chr09:302140-306199(+) | protein_length=1296 | sequence_SO=chromosome | SO=protein_coding_gene | is_pseudo=false
+PVX_091160.1-p1      -           1296 3925at5820           -            649   4.5e-11   40.0  39.5   4   4      0.18   5.1e+02   -3.1   6.8   104   268  1028  1192  1008  1203 0.73 | transcript=PVX_091160.1 | gene=PVX_091160 | organism=Plasmodium_vivax_Sal-1 | gene_product=pre-mRNA-processing factor 6, putative | transcript_product=pre-mRNA-processing factor 6, putative | location=Pv_Sal1_chr09:302140-306199(+) | protein_length=1296 | sequence_SO=chromosome | SO=protein_coding_gene | is_pseudo=false
+#
+# Program:         hmmsearch
+# Version:         3.4 (Aug 2023)
+# Pipeline mode:   SEARCH
+# Query file:      /v3/work/00_inventory/busco/busco_downloads/lineages/plasmodium_odb10/hmms/3925at5820.hmm
+# Target file:     /v3/inputs/annotations/plasmodb-68/Sal-I.proteins.fa
+# Option settings: hmmsearch --domtblout /v3/work/00_inventory/busco/Sal-I_proteins/run_plasmodium_odb10/hmmer_output/initial_run_results/3925at5820.out --cpu 1 /v3/work/00_inventory/busco/busco_downloads/lineages/plasmodium_odb10/hmms/3925at5820.hmm /v3/inputs/annotations/plasmodb-68/Sal-I.proteins.fa 
+# Current dir:     /v3/work/00_inventory/busco
+# Date:            Tue May 19 17:39:19 2026
+# [ok]

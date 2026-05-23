@@ -1,0 +1,21 @@
+#                                                                            --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name        accession   tlen query name           accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+#------------------- ---------- ----- -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+SCO69209.1           -           1424 2866at5820           -            593  1.8e-271  900.0  47.7   1   5   7.6e-14   2.3e-10   37.8   0.1     1    37     1    39     1    43 0.92 conserved Plasmodium protein, unknown function [Plasmodium vivax]
+SCO69209.1           -           1424 2866at5820           -            593  1.8e-271  900.0  47.7   2   5   7.9e-60   2.4e-56  189.6   0.1    35   158   192   329   186   370 0.82 conserved Plasmodium protein, unknown function [Plasmodium vivax]
+SCO69209.1           -           1424 2866at5820           -            593  1.8e-271  900.0  47.7   3   5    0.0042        13    2.3   3.7   147   175   506   534   502   538 0.87 conserved Plasmodium protein, unknown function [Plasmodium vivax]
+SCO69209.1           -           1424 2866at5820           -            593  1.8e-271  900.0  47.7   4   5  3.5e-195  1.1e-191  636.6  23.8   156   536   532   963   530   967 0.88 conserved Plasmodium protein, unknown function [Plasmodium vivax]
+SCO69209.1           -           1424 2866at5820           -            593  1.8e-271  900.0  47.7   5   5   1.7e-16   5.1e-13   46.5   1.2   549   593  1380  1424  1364  1424 0.78 conserved Plasmodium protein, unknown function [Plasmodium vivax]
+SCO68786.1           -            881 2866at5820           -            593   1.2e-21   75.1   0.0   1   3    0.0021       6.3    3.3   0.0   226   272    16    61    12    63 0.85 protein phosphatase containing kelch-like domains, putative [Plasmodium vivax]
+SCO68786.1           -            881 2866at5820           -            593   1.2e-21   75.1   0.0   2   3   8.8e-10   2.7e-06   24.3   0.0    83   149    54   116    45   121 0.90 protein phosphatase containing kelch-like domains, putative [Plasmodium vivax]
+SCO68786.1           -            881 2866at5820           -            593   1.2e-21   75.1   0.0   3   3   3.8e-17   1.2e-13   48.7   0.0   216   424   116   321   105   348 0.81 protein phosphatase containing kelch-like domains, putative [Plasmodium vivax]
+#
+# Program:         hmmsearch
+# Version:         3.4 (Aug 2023)
+# Pipeline mode:   SEARCH
+# Query file:      /v3/work/00_inventory/busco/busco_downloads/lineages/plasmodium_odb10/hmms/2866at5820.hmm
+# Target file:     /v3/inputs/annotations/ncbi-datasets/PvT01.proteins.fa
+# Option settings: hmmsearch --domtblout /v3/work/00_inventory/busco/PvT01_proteins/run_plasmodium_odb10/hmmer_output/initial_run_results/2866at5820.out --cpu 1 /v3/work/00_inventory/busco/busco_downloads/lineages/plasmodium_odb10/hmms/2866at5820.hmm /v3/inputs/annotations/ncbi-datasets/PvT01.proteins.fa 
+# Current dir:     /v3/work/00_inventory/busco
+# Date:            Tue May 19 18:46:15 2026
+# [ok]

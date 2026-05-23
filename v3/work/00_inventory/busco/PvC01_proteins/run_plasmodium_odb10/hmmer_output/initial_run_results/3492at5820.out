@@ -1,0 +1,25 @@
+#                                                                            --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name        accession   tlen query name           accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+#------------------- ---------- ----- -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+SCO70997.1           -            945 3492at5820           -            673         0 1381.9  49.9   1   4   5.3e-11   6.7e-08   29.9   4.0     2    36     2    38     1    48 0.85 replication factor C subunit 1, putative [Plasmodium vivax]
+SCO70997.1           -            945 3492at5820           -            673         0 1381.9  49.9   2   4      0.12   1.5e+02   -1.0   0.1    33    45    99   111    74   114 0.82 replication factor C subunit 1, putative [Plasmodium vivax]
+SCO70997.1           -            945 3492at5820           -            673         0 1381.9  49.9   3   4   1.4e-59   1.8e-56  190.4   0.5    42   142   224   324   194   326 0.95 replication factor C subunit 1, putative [Plasmodium vivax]
+SCO70997.1           -            945 3492at5820           -            673         0 1381.9  49.9   4   4         0         0 1174.7  27.2   138   672   390   930   387   931 0.99 replication factor C subunit 1, putative [Plasmodium vivax]
+SCO70583.1           -           1085 3492at5820           -            673     2e-22   77.9   5.7   1   2   1.6e-25     2e-22   77.9   5.7   143   370   261   496   206   499 0.82 replication factor c protein, putative [Plasmodium vivax]
+SCO70583.1           -           1085 3492at5820           -            673     2e-22   77.9   5.7   2   2         5   6.3e+03  -11.5  11.6   432   524   607   691   548   734 0.51 replication factor c protein, putative [Plasmodium vivax]
+SCO74280.1           -            344 3492at5820           -            673     2e-19   68.0   1.7   1   2   0.00027      0.35    7.7   0.0   144   170    15    41     6    46 0.88 replication factor C subunit 3, putative [Plasmodium vivax]
+SCO74280.1           -            344 3492at5820           -            673     2e-19   68.0   1.7   2   2   5.8e-20   7.3e-17   59.5   0.4   202   376    50   226    45   238 0.82 replication factor C subunit 3, putative [Plasmodium vivax]
+SCO75657.1           -            336 3492at5820           -            673   4.6e-18   63.5   4.1   1   2   1.6e-05      0.02   11.8   0.1   132   170     6    44     1    49 0.77 replication factor C subunit 4, putative [Plasmodium vivax]
+SCO75657.1           -            336 3492at5820           -            673   4.6e-18   63.5   4.1   2   2   5.8e-18   7.3e-15   52.9   2.1   188   372    39   219    36   237 0.80 replication factor C subunit 4, putative [Plasmodium vivax]
+SCO71010.1           -            330 3492at5820           -            673   9.1e-15   52.6   4.7   1   2   1.7e-05     0.021   11.7   0.1   141   169     3    31     1    37 0.86 replication factor C subunit 2, putative [Plasmodium vivax]
+SCO71010.1           -            330 3492at5820           -            673   9.1e-15   52.6   4.7   2   2   8.3e-15     1e-11   42.5   0.8   202   371    41   219    29   232 0.75 replication factor C subunit 2, putative [Plasmodium vivax]
+#
+# Program:         hmmsearch
+# Version:         3.4 (Aug 2023)
+# Pipeline mode:   SEARCH
+# Query file:      /v3/work/00_inventory/busco/busco_downloads/lineages/plasmodium_odb10/hmms/3492at5820.hmm
+# Target file:     /v3/inputs/annotations/ncbi-datasets/PvC01.proteins.fa
+# Option settings: hmmsearch --domtblout /v3/work/00_inventory/busco/PvC01_proteins/run_plasmodium_odb10/hmmer_output/initial_run_results/3492at5820.out --cpu 1 /v3/work/00_inventory/busco/busco_downloads/lineages/plasmodium_odb10/hmms/3492at5820.hmm /v3/inputs/annotations/ncbi-datasets/PvC01.proteins.fa 
+# Current dir:     /v3/work/00_inventory/busco
+# Date:            Tue May 19 18:39:08 2026
+# [ok]

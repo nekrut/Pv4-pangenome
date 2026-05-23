@@ -1,0 +1,17 @@
+#                                                                            --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name        accession   tlen query name           accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+#------------------- ---------- ----- -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+PVP01_1259200.1-p1   -           1713 1981at5820           -           1463         0 1559.9  45.9   1   4  9.7e-186  6.3e-182  605.8   1.1     1   519     1   539     1   583 0.79 | transcript=PVP01_1259200.1 | gene=PVP01_1259200 | organism=Plasmodium_vivax_P01 | gene_product=calponin homology domain-containing protein, putative | transcript_product=calponin homology domain-containing protein, putative | location=PvP01_12_v2:2447764-2452905(-) | protein_length=1713 | sequence_SO=chromosome | SO=protein_coding_gene | is_pseudo=false
+PVP01_1259200.1-p1   -           1713 1981at5820           -           1463         0 1559.9  45.9   2   4   6.1e-83     4e-79  265.2   4.2   555   843   617   910   578   924 0.83 | transcript=PVP01_1259200.1 | gene=PVP01_1259200 | organism=Plasmodium_vivax_P01 | gene_product=calponin homology domain-containing protein, putative | transcript_product=calponin homology domain-containing protein, putative | location=PvP01_12_v2:2447764-2452905(-) | protein_length=1713 | sequence_SO=chromosome | SO=protein_coding_gene | is_pseudo=false
+PVP01_1259200.1-p1   -           1713 1981at5820           -           1463         0 1559.9  45.9   3   4  7.4e-123  4.8e-119  397.5   8.9   849  1154   967  1273   944  1312 0.82 | transcript=PVP01_1259200.1 | gene=PVP01_1259200 | organism=Plasmodium_vivax_P01 | gene_product=calponin homology domain-containing protein, putative | transcript_product=calponin homology domain-containing protein, putative | location=PvP01_12_v2:2447764-2452905(-) | protein_length=1713 | sequence_SO=chromosome | SO=protein_coding_gene | is_pseudo=false
+PVP01_1259200.1-p1   -           1713 1981at5820           -           1463         0 1559.9  45.9   4   4   3.6e-95   2.3e-91  305.7   8.3  1179  1463  1385  1709  1333  1709 0.81 | transcript=PVP01_1259200.1 | gene=PVP01_1259200 | organism=Plasmodium_vivax_P01 | gene_product=calponin homology domain-containing protein, putative | transcript_product=calponin homology domain-containing protein, putative | location=PvP01_12_v2:2447764-2452905(-) | protein_length=1713 | sequence_SO=chromosome | SO=protein_coding_gene | is_pseudo=false
+#
+# Program:         hmmsearch
+# Version:         3.4 (Aug 2023)
+# Pipeline mode:   SEARCH
+# Query file:      /v3/work/00_inventory/busco/busco_downloads/lineages/plasmodium_odb10/hmms/1981at5820.hmm
+# Target file:     /v3/inputs/annotations/plasmodb-68/PvP01.proteins.fa
+# Option settings: hmmsearch --domtblout /v3/work/00_inventory/busco/PvP01_proteins/run_plasmodium_odb10/hmmer_output/initial_run_results/1981at5820.out --cpu 1 /v3/work/00_inventory/busco/busco_downloads/lineages/plasmodium_odb10/hmms/1981at5820.hmm /v3/inputs/annotations/plasmodb-68/PvP01.proteins.fa 
+# Current dir:     /v3/work/00_inventory/busco
+# Date:            Tue May 19 17:33:37 2026
+# [ok]

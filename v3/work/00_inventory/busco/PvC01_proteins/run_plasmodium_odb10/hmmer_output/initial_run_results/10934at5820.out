@@ -1,0 +1,23 @@
+#                                                                            --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name        accession   tlen query name           accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+#------------------- ---------- ----- -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+SCO71346.1           -            275 10934at5820          -            179    9e-113  372.9  18.1   1   1    1e-115  1.1e-112  372.7  18.1     1   179    97   275    97   275 0.99 conserved Plasmodium protein, unknown function [Plasmodium vivax]
+SCO74740.1           -            149 10934at5820          -            179   2.6e-06   26.1   2.7   1   3     0.016        17    3.9   0.0    12    56     5    31     1    44 0.58 calmodulin, putative [Plasmodium vivax]
+SCO74740.1           -            149 10934at5820          -            179   2.6e-06   26.1   2.7   2   3   0.00064      0.67    8.5   0.0   148   178    45    75    42    76 0.89 calmodulin, putative [Plasmodium vivax]
+SCO74740.1           -            149 10934at5820          -            179   2.6e-06   26.1   2.7   3   3   0.00033      0.35    9.4   0.3    40    92    88   147    75   148 0.63 calmodulin, putative [Plasmodium vivax]
+SCO70337.1           -            107 10934at5820          -            179    0.0021   16.6   1.3   1   1   4.4e-06    0.0047   15.5   1.3    65   112    46    90    19   107 0.81 centrin, putative [Plasmodium vivax]
+SCO70858.1           -            529 10934at5820          -            179    0.0023   16.5   7.5   1   2    0.0015       1.6    7.3   0.1   137   173   366   403   331   408 0.70 calcium-dependent protein kinase 4, putative [Plasmodium vivax]
+SCO70858.1           -            529 10934at5820          -            179    0.0023   16.5   7.5   2   2    0.0092       9.6    4.7   3.3    57    94   419   456   415   526 0.56 calcium-dependent protein kinase 4, putative [Plasmodium vivax]
+SCO74013.1           -            563 10934at5820          -            179    0.0028   16.2  13.8   1   2       1.6   1.7e+03   -2.6   0.3     9    47   154   190   147   193 0.69 calcium-dependent protein kinase 5, putative [Plasmodium vivax]
+SCO74013.1           -            563 10934at5820          -            179    0.0028   16.2  13.8   2   2   6.1e-06    0.0064   15.1   6.5    27   176   415   559   391   562 0.72 calcium-dependent protein kinase 5, putative [Plasmodium vivax]
+SCO74449.1           -            168 10934at5820          -            179    0.0089   14.6   4.1   1   1    0.0054       5.6    5.5   4.1    80    93    78    91    10   165 0.46 centrin-2, putative [Plasmodium vivax]
+#
+# Program:         hmmsearch
+# Version:         3.4 (Aug 2023)
+# Pipeline mode:   SEARCH
+# Query file:      /v3/work/00_inventory/busco/busco_downloads/lineages/plasmodium_odb10/hmms/10934at5820.hmm
+# Target file:     /v3/inputs/annotations/ncbi-datasets/PvC01.proteins.fa
+# Option settings: hmmsearch --domtblout /v3/work/00_inventory/busco/PvC01_proteins/run_plasmodium_odb10/hmmer_output/initial_run_results/10934at5820.out --cpu 1 /v3/work/00_inventory/busco/busco_downloads/lineages/plasmodium_odb10/hmms/10934at5820.hmm /v3/inputs/annotations/ncbi-datasets/PvC01.proteins.fa 
+# Current dir:     /v3/work/00_inventory/busco
+# Date:            Tue May 19 18:31:13 2026
+# [ok]

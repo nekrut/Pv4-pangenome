@@ -1,0 +1,17 @@
+#                                                                            --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name        accession   tlen query name           accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+#------------------- ---------- ----- -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+PVP01_0115100.1-p1   -            216 11061at5820          -            167   6.9e-92  304.2   5.5   1   1   3.9e-95   8.5e-92  303.9   5.5     8   167    46   216    39   216 0.94 | transcript=PVP01_0115100.1 | gene=PVP01_0115100 | organism=Plasmodium_vivax_P01 | gene_product=N-acetyltransferase, GNAT family, putative | transcript_product=N-acetyltransferase, GNAT family, putative | location=PvP01_01_v2:673788-674980(+) | protein_length=216 | sequence_SO=chromosome | SO=protein_coding_gene | is_pseudo=false
+PVP01_0803100.1-p1   -            152 11061at5820          -            167    0.0017   16.7   3.1   1   1   9.9e-07    0.0022   16.3   3.1    76   163    53   146     5   150 0.75 | transcript=PVP01_0803100.1 | gene=PVP01_0803100 | organism=Plasmodium_vivax_P01 | gene_product=N-terminal acetyltransferase A complex catalytic subunit ARD1, putative | transcript_product=N-terminal acetyltransferase A complex catalytic subunit ARD1, putative | location=PvP01_08_v2:151264-151722(-) | protein_length=152 | sequence_SO=chromosome | SO=protein_coding_gene | is_pseudo=false
+PVP01_0205600.1-p1   -            159 11061at5820          -            167     0.053   11.8   1.4   1   2       0.3   6.5e+02   -1.5   0.1   152   164     4    16     2    20 0.77 | transcript=PVP01_0205600.1 | gene=PVP01_0205600 | organism=Plasmodium_vivax_P01 | gene_product=N-acetyltransferase, GNAT family, putative | transcript_product=N-acetyltransferase, GNAT family, putative | location=PvP01_02_v2:242136-242736(+) | protein_length=159 | sequence_SO=chromosome | SO=protein_coding_gene | is_pseudo=false
+PVP01_0205600.1-p1   -            159 11061at5820          -            167     0.053   11.8   1.4   2   2   3.8e-05     0.083   11.2   0.1   107   167    90   150    68   150 0.91 | transcript=PVP01_0205600.1 | gene=PVP01_0205600 | organism=Plasmodium_vivax_P01 | gene_product=N-acetyltransferase, GNAT family, putative | transcript_product=N-acetyltransferase, GNAT family, putative | location=PvP01_02_v2:242136-242736(+) | protein_length=159 | sequence_SO=chromosome | SO=protein_coding_gene | is_pseudo=false
+#
+# Program:         hmmsearch
+# Version:         3.4 (Aug 2023)
+# Pipeline mode:   SEARCH
+# Query file:      /v3/work/00_inventory/busco/busco_downloads/lineages/plasmodium_odb10/hmms/11061at5820.hmm
+# Target file:     /v3/inputs/annotations/plasmodb-68/PvP01.proteins.fa
+# Option settings: hmmsearch --domtblout /v3/work/00_inventory/busco/PvP01_proteins/run_plasmodium_odb10/hmmer_output/initial_run_results/11061at5820.out --cpu 1 /v3/work/00_inventory/busco/busco_downloads/lineages/plasmodium_odb10/hmms/11061at5820.hmm /v3/inputs/annotations/plasmodb-68/PvP01.proteins.fa 
+# Current dir:     /v3/work/00_inventory/busco
+# Date:            Tue May 19 17:28:16 2026
+# [ok]

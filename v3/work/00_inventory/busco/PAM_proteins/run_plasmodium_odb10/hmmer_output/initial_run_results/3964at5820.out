@@ -1,0 +1,18 @@
+#                                                                            --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name        accession   tlen query name           accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+#------------------- ---------- ----- -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+CAI7722191.1         -            860 3964at5820           -            560  6.6e-281  931.3  68.9   1   5   1.6e-10     1e-06   26.1   0.8     6    29    39    62    34    65 0.93 | transcript=PVPAM_120042900_t1 | gene=PVPAM_120042900 | organism=Plasmodium_vivax_PAM | gene_product=zinc finger protein, putative | transcript_product=zinc finger protein, putative | location=CASCJQ010000012:1480633-1483215(+) | protein_length=860 | sequence_SO=supercontig | SO=protein_coding_gene | is_pseudo=false
+CAI7722191.1         -            860 3964at5820           -            560  6.6e-281  931.3  68.9   2   5     2e-61   1.3e-57  194.2   9.9    29   134   102   207    86   221 0.96 | transcript=PVPAM_120042900_t1 | gene=PVPAM_120042900 | organism=Plasmodium_vivax_PAM | gene_product=zinc finger protein, putative | transcript_product=zinc finger protein, putative | location=CASCJQ010000012:1480633-1483215(+) | protein_length=860 | sequence_SO=supercontig | SO=protein_coding_gene | is_pseudo=false
+CAI7722191.1         -            860 3964at5820           -            560  6.6e-281  931.3  68.9   3   5   2.7e-95   1.8e-91  306.0   6.9   132   326   290   496   284   501 0.93 | transcript=PVPAM_120042900_t1 | gene=PVPAM_120042900 | organism=Plasmodium_vivax_PAM | gene_product=zinc finger protein, putative | transcript_product=zinc finger protein, putative | location=CASCJQ010000012:1480633-1483215(+) | protein_length=860 | sequence_SO=supercontig | SO=protein_coding_gene | is_pseudo=false
+CAI7722191.1         -            860 3964at5820           -            560  6.6e-281  931.3  68.9   4   5   1.8e-48   1.2e-44  151.4   3.9   315   400   521   607   507   616 0.92 | transcript=PVPAM_120042900_t1 | gene=PVPAM_120042900 | organism=Plasmodium_vivax_PAM | gene_product=zinc finger protein, putative | transcript_product=zinc finger protein, putative | location=CASCJQ010000012:1480633-1483215(+) | protein_length=860 | sequence_SO=supercontig | SO=protein_coding_gene | is_pseudo=false
+CAI7722191.1         -            860 3964at5820           -            560  6.6e-281  931.3  68.9   5   5   1.6e-86     1e-82  277.1  16.7   394   560   673   860   665   860 0.91 | transcript=PVPAM_120042900_t1 | gene=PVPAM_120042900 | organism=Plasmodium_vivax_PAM | gene_product=zinc finger protein, putative | transcript_product=zinc finger protein, putative | location=CASCJQ010000012:1480633-1483215(+) | protein_length=860 | sequence_SO=supercontig | SO=protein_coding_gene | is_pseudo=false
+#
+# Program:         hmmsearch
+# Version:         3.4 (Aug 2023)
+# Pipeline mode:   SEARCH
+# Query file:      /v3/work/00_inventory/busco/busco_downloads/lineages/plasmodium_odb10/hmms/3964at5820.hmm
+# Target file:     /v3/inputs/annotations/plasmodb-68/PAM.proteins.fa
+# Option settings: hmmsearch --domtblout /v3/work/00_inventory/busco/PAM_proteins/run_plasmodium_odb10/hmmer_output/initial_run_results/3964at5820.out --cpu 1 /v3/work/00_inventory/busco/busco_downloads/lineages/plasmodium_odb10/hmms/3964at5820.hmm /v3/inputs/annotations/plasmodb-68/PAM.proteins.fa 
+# Current dir:     /v3/work/00_inventory/busco
+# Date:            Tue May 19 17:39:41 2026
+# [ok]

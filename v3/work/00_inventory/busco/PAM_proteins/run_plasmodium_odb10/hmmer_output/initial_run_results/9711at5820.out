@@ -1,0 +1,17 @@
+#                                                                            --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name        accession   tlen query name           accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+#------------------- ---------- ----- -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+CAI7723599.1         -            336 9711at5820           -            260  8.5e-126  417.2  14.0   1   2   7.6e-69   1.6e-65  219.6   3.2     1   135    30   168    30   173 0.95 | transcript=PVPAM_140052300_t1 | gene=PVPAM_140052300 | organism=Plasmodium_vivax_PAM | gene_product=haloacid dehalogenase-like hydrolase, putative | transcript_product=haloacid dehalogenase-like hydrolase, putative | location=CASCJQ010000014:2037763-2038871(+) | protein_length=336 | sequence_SO=supercontig | SO=protein_coding_gene | is_pseudo=false
+CAI7723599.1         -            336 9711at5820           -            260  8.5e-126  417.2  14.0   2   2     1e-63   2.3e-60  202.8   3.2   131   260   189   334   178   334 0.89 | transcript=PVPAM_140052300_t1 | gene=PVPAM_140052300 | organism=Plasmodium_vivax_PAM | gene_product=haloacid dehalogenase-like hydrolase, putative | transcript_product=haloacid dehalogenase-like hydrolase, putative | location=CASCJQ010000014:2037763-2038871(+) | protein_length=336 | sequence_SO=supercontig | SO=protein_coding_gene | is_pseudo=false
+CAI7723601.1         -            293 9711at5820           -            260   7.9e-23   79.7   9.2   1   1     3e-25   6.5e-22   76.7   9.2     2   257    10   289     9   292 0.76 | transcript=PVPAM_140052500_t1 | gene=PVPAM_140052500 | organism=Plasmodium_vivax_PAM | gene_product=haloacid dehalogenase-like hydrolase, putative | transcript_product=haloacid dehalogenase-like hydrolase, putative | location=CASCJQ010000014:2047286-2048167(+) | protein_length=293 | sequence_SO=supercontig | SO=protein_coding_gene | is_pseudo=false
+CAI7719289.1         -            292 9711at5820           -            260   3.1e-21   74.5   4.9   1   1     1e-23   2.2e-20   71.7   4.9     8   252    22   285    17   290 0.76 | transcript=PVPAM_060029600_t1 | gene=PVPAM_060029600 | organism=Plasmodium_vivax_PAM | gene_product=haloacid dehalogenase-like hydrolase, putative | transcript_product=haloacid dehalogenase-like hydrolase, putative | location=CASCJQ010000006:1013542-1014420(+) | protein_length=292 | sequence_SO=supercontig | SO=protein_coding_gene | is_pseudo=false
+#
+# Program:         hmmsearch
+# Version:         3.4 (Aug 2023)
+# Pipeline mode:   SEARCH
+# Query file:      /v3/work/00_inventory/busco/busco_downloads/lineages/plasmodium_odb10/hmms/9711at5820.hmm
+# Target file:     /v3/inputs/annotations/plasmodb-68/PAM.proteins.fa
+# Option settings: hmmsearch --domtblout /v3/work/00_inventory/busco/PAM_proteins/run_plasmodium_odb10/hmmer_output/initial_run_results/9711at5820.out --cpu 1 /v3/work/00_inventory/busco/busco_downloads/lineages/plasmodium_odb10/hmms/9711at5820.hmm /v3/inputs/annotations/plasmodb-68/PAM.proteins.fa 
+# Current dir:     /v3/work/00_inventory/busco
+# Date:            Tue May 19 17:52:20 2026
+# [ok]

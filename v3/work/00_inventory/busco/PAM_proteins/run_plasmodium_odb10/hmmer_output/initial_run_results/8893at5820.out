@@ -1,0 +1,16 @@
+#                                                                            --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name        accession   tlen query name           accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+#------------------- ---------- ----- -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+CAI7721176.1         -            311 8893at5820           -            280  4.4e-186  615.2   5.3   1   1  7.1e-189  1.5e-185  613.5   5.3     1   280     1   302     1   302 0.97 | transcript=PVPAM_110007800_t1 | gene=PVPAM_110007800 | organism=Plasmodium_vivax_PAM | gene_product=26S proteasome regulatory subunit RPN11, putative | transcript_product=26S proteasome regulatory subunit RPN11, putative | location=CASCJQ010000011:115168-116369(+) | protein_length=311 | sequence_SO=supercontig | SO=protein_coding_gene | is_pseudo=false
+CAI7719568.1         -            328 8893at5820           -            280     2e-06   25.9   0.0   1   1   1.7e-09   3.7e-06   25.0   0.0    30   116    19   109     8   143 0.85 | transcript=PVPAM_070018200_t1 | gene=PVPAM_070018200 | organism=Plasmodium_vivax_PAM | gene_product=26S proteasome regulatory subunit RPN8, putative | transcript_product=26S proteasome regulatory subunit RPN8, putative | location=CASCJQ010000007:650503-651641(+) | protein_length=328 | sequence_SO=supercontig | SO=protein_coding_gene | is_pseudo=false
+CAI7719625.1         -            320 8893at5820           -            280    0.0018   16.2   0.0   1   1   1.6e-06    0.0035   15.2   0.0    25   118    25   120     8   145 0.84 | transcript=PVPAM_070023900_t1 | gene=PVPAM_070023900 | organism=Plasmodium_vivax_PAM | gene_product=eukaryotic translation initiation factor 3 subunit F, putative | transcript_product=eukaryotic translation initiation factor 3 subunit F, putative | location=CASCJQ010000007:841211-842365(-) | protein_length=320 | sequence_SO=supercontig | SO=protein_coding_gene | is_pseudo=false
+#
+# Program:         hmmsearch
+# Version:         3.4 (Aug 2023)
+# Pipeline mode:   SEARCH
+# Query file:      /v3/work/00_inventory/busco/busco_downloads/lineages/plasmodium_odb10/hmms/8893at5820.hmm
+# Target file:     /v3/inputs/annotations/plasmodb-68/PAM.proteins.fa
+# Option settings: hmmsearch --domtblout /v3/work/00_inventory/busco/PAM_proteins/run_plasmodium_odb10/hmmer_output/initial_run_results/8893at5820.out --cpu 1 /v3/work/00_inventory/busco/busco_downloads/lineages/plasmodium_odb10/hmms/8893at5820.hmm /v3/inputs/annotations/plasmodb-68/PAM.proteins.fa 
+# Current dir:     /v3/work/00_inventory/busco
+# Date:            Tue May 19 17:48:59 2026
+# [ok]

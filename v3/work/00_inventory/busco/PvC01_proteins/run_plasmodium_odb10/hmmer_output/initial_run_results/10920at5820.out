@@ -1,0 +1,16 @@
+#                                                                            --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name        accession   tlen query name           accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+#------------------- ---------- ----- -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+SCO74146.1           -            478 10920at5820          -            318  4.1e-137  455.5  73.2   1   3   2.3e-17   1.5e-13   49.6   9.6     1    53     1    72     1    85 0.78 micro-fibrillar-associated protein, putative [Plasmodium vivax]
+SCO74146.1           -            478 10920at5820          -            318  4.1e-137  455.5  73.2   2   3   6.3e-11   3.9e-07   28.5   2.6    51    87   118   156   101   163 0.84 micro-fibrillar-associated protein, putative [Plasmodium vivax]
+SCO74146.1           -            478 10920at5820          -            318  4.1e-137  455.5  73.2   3   3  1.5e-118  9.7e-115  382.0  45.6    83   318   223   477   161   477 0.87 micro-fibrillar-associated protein, putative [Plasmodium vivax]
+#
+# Program:         hmmsearch
+# Version:         3.4 (Aug 2023)
+# Pipeline mode:   SEARCH
+# Query file:      /v3/work/00_inventory/busco/busco_downloads/lineages/plasmodium_odb10/hmms/10920at5820.hmm
+# Target file:     /v3/inputs/annotations/ncbi-datasets/PvC01.proteins.fa
+# Option settings: hmmsearch --domtblout /v3/work/00_inventory/busco/PvC01_proteins/run_plasmodium_odb10/hmmer_output/initial_run_results/10920at5820.out --cpu 1 /v3/work/00_inventory/busco/busco_downloads/lineages/plasmodium_odb10/hmms/10920at5820.hmm /v3/inputs/annotations/ncbi-datasets/PvC01.proteins.fa 
+# Current dir:     /v3/work/00_inventory/busco
+# Date:            Tue May 19 18:31:09 2026
+# [ok]

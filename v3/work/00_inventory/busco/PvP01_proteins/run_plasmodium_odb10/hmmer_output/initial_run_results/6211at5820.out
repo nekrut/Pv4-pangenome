@@ -1,0 +1,16 @@
+#                                                                            --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name        accession   tlen query name           accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+#------------------- ---------- ----- -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+PVP01_0919100.1-p1   -            577 6211at5820           -            402  3.3e-250  827.9  20.8   1   1  8.3e-253  1.8e-249  825.5  20.8     1   402     3   433     3   433 0.95 | transcript=PVP01_0919100.1 | gene=PVP01_0919100 | organism=Plasmodium_vivax_P01 | gene_product=nucleolar protein 56, putative | transcript_product=nucleolar protein 56, putative | location=PvP01_09_v2:841898-843631(+) | protein_length=577 | sequence_SO=chromosome | SO=protein_coding_gene | is_pseudo=false
+PVP01_0808500.1-p1   -            479 6211at5820           -            402     3e-73  245.2  11.5   1   1   1.7e-76   3.7e-73  244.9  11.5     3   386     2   405     1   420 0.89 | transcript=PVP01_0808500.1 | gene=PVP01_0808500 | organism=Plasmodium_vivax_P01 | gene_product=nucleolar protein 5, putative | transcript_product=nucleolar protein 5, putative | location=PvP01_08_v2:382622-384061(-) | protein_length=479 | sequence_SO=chromosome | SO=protein_coding_gene | is_pseudo=false
+PVP01_0308400.1-p1   -            540 6211at5820           -            402   5.8e-32  109.3   4.8   1   1   4.3e-35   9.3e-32  108.6   4.8   149   383   153   394   145   403 0.89 | transcript=PVP01_0308400.1 | gene=PVP01_0308400 | organism=Plasmodium_vivax_P01 | gene_product=U4/U6 small nuclear ribonucleoprotein PRP31, putative | transcript_product=U4/U6 small nuclear ribonucleoprotein PRP31, putative | location=PvP01_03_v2:405408-407266(-) | protein_length=540 | sequence_SO=chromosome | SO=protein_coding_gene | is_pseudo=false
+#
+# Program:         hmmsearch
+# Version:         3.4 (Aug 2023)
+# Pipeline mode:   SEARCH
+# Query file:      /v3/work/00_inventory/busco/busco_downloads/lineages/plasmodium_odb10/hmms/6211at5820.hmm
+# Target file:     /v3/inputs/annotations/plasmodb-68/PvP01.proteins.fa
+# Option settings: hmmsearch --domtblout /v3/work/00_inventory/busco/PvP01_proteins/run_plasmodium_odb10/hmmer_output/initial_run_results/6211at5820.out --cpu 1 /v3/work/00_inventory/busco/busco_downloads/lineages/plasmodium_odb10/hmms/6211at5820.hmm /v3/inputs/annotations/plasmodb-68/PvP01.proteins.fa 
+# Current dir:     /v3/work/00_inventory/busco
+# Date:            Tue May 19 17:45:30 2026
+# [ok]

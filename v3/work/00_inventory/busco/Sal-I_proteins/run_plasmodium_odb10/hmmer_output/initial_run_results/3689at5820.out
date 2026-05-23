@@ -1,0 +1,16 @@
+#                                                                            --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name        accession   tlen query name           accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+#------------------- ---------- ----- -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+PVX_117625.1-p1      -            717 3689at5820           -            618         0 1199.0  63.8   1   1         0         0 1185.9  63.8     1   618     7   717     7   717 0.93 | transcript=PVX_117625.1 | gene=PVX_117625 | organism=Plasmodium_vivax_Sal-1 | gene_product=V-type H(+)-translocating pyrophosphatase, putative | transcript_product=V-type H(+)-translocating pyrophosphatase, putative | location=Pv_Sal1_chr12:2012958-2015111(+) | protein_length=717 | sequence_SO=chromosome | SO=protein_coding_gene | is_pseudo=false
+PVX_100710.1-p1      -           1046 3689at5820           -            618  7.1e-111  370.2  35.3   1   2   4.8e-41   1.3e-37  128.1  11.5    50   229   296   485   284   509 0.86 | transcript=PVX_100710.1 | gene=PVX_100710 | organism=Plasmodium_vivax_Sal-1 | gene_product=vacuolar-type H+ pumping pyrophosphatase, putative | transcript_product=vacuolar-type H+ pumping pyrophosphatase, putative | location=Pv_Sal1_chr14:2315238-2318601(-) | protein_length=1046 | sequence_SO=chromosome | SO=protein_coding_gene | is_pseudo=false
+PVX_100710.1-p1      -           1046 3689at5820           -            618  7.1e-111  370.2  35.3   2   2   4.7e-77   1.3e-73  247.1  15.8   230   606   626  1037   616  1044 0.83 | transcript=PVX_100710.1 | gene=PVX_100710 | organism=Plasmodium_vivax_Sal-1 | gene_product=vacuolar-type H+ pumping pyrophosphatase, putative | transcript_product=vacuolar-type H+ pumping pyrophosphatase, putative | location=Pv_Sal1_chr14:2315238-2318601(-) | protein_length=1046 | sequence_SO=chromosome | SO=protein_coding_gene | is_pseudo=false
+#
+# Program:         hmmsearch
+# Version:         3.4 (Aug 2023)
+# Pipeline mode:   SEARCH
+# Query file:      /v3/work/00_inventory/busco/busco_downloads/lineages/plasmodium_odb10/hmms/3689at5820.hmm
+# Target file:     /v3/inputs/annotations/plasmodb-68/Sal-I.proteins.fa
+# Option settings: hmmsearch --domtblout /v3/work/00_inventory/busco/Sal-I_proteins/run_plasmodium_odb10/hmmer_output/initial_run_results/3689at5820.out --cpu 1 /v3/work/00_inventory/busco/busco_downloads/lineages/plasmodium_odb10/hmms/3689at5820.hmm /v3/inputs/annotations/plasmodb-68/Sal-I.proteins.fa 
+# Current dir:     /v3/work/00_inventory/busco
+# Date:            Tue May 19 17:38:18 2026
+# [ok]

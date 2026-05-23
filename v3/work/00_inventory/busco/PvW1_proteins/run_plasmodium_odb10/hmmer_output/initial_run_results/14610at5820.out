@@ -1,0 +1,16 @@
+#                                                                            --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name        accession   tlen query name           accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+#------------------- ---------- ----- -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+CAG9479951.1         -            114 14610at5820          -             95   1.4e-48  161.5   0.5   1   1   8.4e-52   1.7e-48  161.3   0.5     1    95     9   110     9   110 0.94 | transcript=PVW1_050033000_t1 | gene=PVW1_050033000 | organism=Plasmodium_vivax_PvW1 | gene_product=unspecified product | transcript_product=unspecified product | location=CAJZCX010000010:1185306-1186043(+) | protein_length=114 | sequence_SO=supercontig | SO=protein_coding_gene | is_pseudo=false
+CAG9479637.1         -             95 14610at5820          -             95     0.014   14.1   0.2   1   1   9.5e-06     0.019   13.7   0.2    23    76    10    61     2    75 0.77 | transcript=PVW1_050010000_t1 | gene=PVW1_050010000 | organism=Plasmodium_vivax_PvW1 | gene_product=U6 snRNA-associated Sm-like protein LSm8 [Source:UniProtKB/TrEMBL;Acc:A0A1G4GT53] | transcript_product=U6 snRNA-associated Sm-like protein LSm8 [Source:UniProtKB/TrEMBL;Acc:A0A1G4GT53] | location=CAJZCX010000010:263520-264337(-) | protein_length=95 | sequence_SO=supercontig | SO=protein_coding_gene | is_pseudo=false
+CAG9476115.1         -            201 14610at5820          -             95     0.034   12.9   0.1   1   1   2.6e-05     0.053   12.2   0.1    26    66    14    55     3    77 0.72 | transcript=PVW1_130040500_t1 | gene=PVW1_130040500 | organism=Plasmodium_vivax_PvW1 | gene_product=Sm domain-containing protein [Source:UniProtKB/TrEMBL;Acc:A0A1G4HIW4] | transcript_product=Sm domain-containing protein [Source:UniProtKB/TrEMBL;Acc:A0A1G4HIW4] | location=CAJZCX010000006:1551363-1552212(+) | protein_length=201 | sequence_SO=supercontig | SO=protein_coding_gene | is_pseudo=false
+#
+# Program:         hmmsearch
+# Version:         3.4 (Aug 2023)
+# Pipeline mode:   SEARCH
+# Query file:      /v3/work/00_inventory/busco/busco_downloads/lineages/plasmodium_odb10/hmms/14610at5820.hmm
+# Target file:     /v3/inputs/annotations/plasmodb-68/PvW1.proteins.fa
+# Option settings: hmmsearch --domtblout /v3/work/00_inventory/busco/PvW1_proteins/run_plasmodium_odb10/hmmer_output/initial_run_results/14610at5820.out --cpu 1 /v3/work/00_inventory/busco/busco_downloads/lineages/plasmodium_odb10/hmms/14610at5820.hmm /v3/inputs/annotations/plasmodb-68/PvW1.proteins.fa 
+# Current dir:     /v3/work/00_inventory/busco
+# Date:            Tue May 19 17:33:56 2026
+# [ok]

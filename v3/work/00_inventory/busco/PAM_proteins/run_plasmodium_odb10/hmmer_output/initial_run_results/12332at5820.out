@@ -1,0 +1,16 @@
+#                                                                            --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name        accession   tlen query name           accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+#------------------- ---------- ----- -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+CAI7720037.1         -            206 12332at5820          -            157   1.6e-83  277.0  16.7   1   1   8.2e-87   2.7e-83  276.3  16.7     1   157    22   192    22   192 0.94 | transcript=PVPAM_080025900_t1 | gene=PVPAM_080025900 | organism=Plasmodium_vivax_PAM | gene_product=thioredoxin-like protein, putative | transcript_product=thioredoxin-like protein, putative | location=CASCJQ010000008:953261-954385(+) | protein_length=206 | sequence_SO=supercontig | SO=protein_coding_gene | is_pseudo=false
+CAI7723353.1         -            550 12332at5820          -            157     0.034   12.7   3.0   1   2   1.3e-05     0.041   12.4   0.3    39   104    60   128    38   158 0.80 | transcript=PVPAM_140027200_t1 | gene=PVPAM_140027200 | organism=Plasmodium_vivax_PAM | gene_product=thioredoxin, putative | transcript_product=thioredoxin, putative | location=CASCJQ010000014:960942-962594(+) | protein_length=550 | sequence_SO=supercontig | SO=protein_coding_gene | is_pseudo=false
+CAI7723353.1         -            550 12332at5820          -            157     0.034   12.7   3.0   2   2      0.11   3.5e+02   -0.3   0.1    24    48   219   243   212   251 0.85 | transcript=PVPAM_140027200_t1 | gene=PVPAM_140027200 | organism=Plasmodium_vivax_PAM | gene_product=thioredoxin, putative | transcript_product=thioredoxin, putative | location=CASCJQ010000014:960942-962594(+) | protein_length=550 | sequence_SO=supercontig | SO=protein_coding_gene | is_pseudo=false
+#
+# Program:         hmmsearch
+# Version:         3.4 (Aug 2023)
+# Pipeline mode:   SEARCH
+# Query file:      /v3/work/00_inventory/busco/busco_downloads/lineages/plasmodium_odb10/hmms/12332at5820.hmm
+# Target file:     /v3/inputs/annotations/plasmodb-68/PAM.proteins.fa
+# Option settings: hmmsearch --domtblout /v3/work/00_inventory/busco/PAM_proteins/run_plasmodium_odb10/hmmer_output/initial_run_results/12332at5820.out --cpu 1 /v3/work/00_inventory/busco/busco_downloads/lineages/plasmodium_odb10/hmms/12332at5820.hmm /v3/inputs/annotations/plasmodb-68/PAM.proteins.fa 
+# Current dir:     /v3/work/00_inventory/busco
+# Date:            Tue May 19 17:26:35 2026
+# [ok]

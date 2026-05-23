@@ -1,0 +1,18 @@
+#                                                                            --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name        accession   tlen query name           accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+#------------------- ---------- ----- -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+PVX_091245.1-p1      -            257 11854at5820          -            190  5.9e-107  354.0  16.3   1   2   4.5e-31   1.2e-27   95.4   0.2     1    53     1    53     1    61 0.95 | transcript=PVX_091245.1 | gene=PVX_091245 | organism=Plasmodium_vivax_Sal-1 | gene_product=hypothetical protein, conserved | transcript_product=hypothetical protein, conserved | location=Pv_Sal1_chr09:358812-360342(+) | protein_length=257 | sequence_SO=chromosome | SO=protein_coding_gene | is_pseudo=false
+PVX_091245.1-p1      -            257 11854at5820          -            190  5.9e-107  354.0  16.3   2   2   3.7e-82     1e-78  262.0  10.9    46   190    99   251    95   251 0.95 | transcript=PVX_091245.1 | gene=PVX_091245 | organism=Plasmodium_vivax_Sal-1 | gene_product=hypothetical protein, conserved | transcript_product=hypothetical protein, conserved | location=Pv_Sal1_chr09:358812-360342(+) | protein_length=257 | sequence_SO=chromosome | SO=protein_coding_gene | is_pseudo=false
+PVX_123970.1-p1      -            407 11854at5820          -            190   1.1e-05   23.8   3.4   1   3    0.0002      0.55    8.5   0.0    18    48     6    37     2    59 0.81 | transcript=PVX_123970.1 | gene=PVX_123970 | organism=Plasmodium_vivax_Sal-1 | gene_product=ataxin-3, putative | transcript_product=ataxin-3, putative | location=Pv_Sal1_chr14:1936275-1938325(+) | protein_length=407 | sequence_SO=chromosome | SO=protein_coding_gene | is_pseudo=false
+PVX_123970.1-p1      -            407 11854at5820          -            190   1.1e-05   23.8   3.4   2   3     8e-06     0.022   13.0   1.5   132   172   121   160    76   176 0.82 | transcript=PVX_123970.1 | gene=PVX_123970 | organism=Plasmodium_vivax_Sal-1 | gene_product=ataxin-3, putative | transcript_product=ataxin-3, putative | location=Pv_Sal1_chr14:1936275-1938325(+) | protein_length=407 | sequence_SO=chromosome | SO=protein_coding_gene | is_pseudo=false
+PVX_123970.1-p1      -            407 11854at5820          -            190   1.1e-05   23.8   3.4   3   3      0.15     4e+02   -0.9   0.0   124   156   314   347   308   379 0.69 | transcript=PVX_123970.1 | gene=PVX_123970 | organism=Plasmodium_vivax_Sal-1 | gene_product=ataxin-3, putative | transcript_product=ataxin-3, putative | location=Pv_Sal1_chr14:1936275-1938325(+) | protein_length=407 | sequence_SO=chromosome | SO=protein_coding_gene | is_pseudo=false
+#
+# Program:         hmmsearch
+# Version:         3.4 (Aug 2023)
+# Pipeline mode:   SEARCH
+# Query file:      /v3/work/00_inventory/busco/busco_downloads/lineages/plasmodium_odb10/hmms/11854at5820.hmm
+# Target file:     /v3/inputs/annotations/plasmodb-68/Sal-I.proteins.fa
+# Option settings: hmmsearch --domtblout /v3/work/00_inventory/busco/Sal-I_proteins/run_plasmodium_odb10/hmmer_output/initial_run_results/11854at5820.out --cpu 1 /v3/work/00_inventory/busco/busco_downloads/lineages/plasmodium_odb10/hmms/11854at5820.hmm /v3/inputs/annotations/plasmodb-68/Sal-I.proteins.fa 
+# Current dir:     /v3/work/00_inventory/busco
+# Date:            Tue May 19 17:24:54 2026
+# [ok]

@@ -1,0 +1,16 @@
+#                                                                            --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name        accession   tlen query name           accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+#------------------- ---------- ----- -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+PVP01_1017100.1-p1   -            260 10175at5820          -            256  1.4e-176  583.6  17.6   1   1  7.1e-180  1.6e-176  583.5  17.6     1   256     1   257     1   257 0.99 | transcript=PVP01_1017100.1 | gene=PVP01_1017100 | organism=Plasmodium_vivax_P01 | gene_product=60S ribosomal protein L2, putative | transcript_product=60S ribosomal protein L2, putative | location=PvP01_10_v2:754842-755850(+) | protein_length=260 | sequence_SO=chromosome | SO=protein_coding_gene | is_pseudo=false
+PVP01_0933500.1-p1   -            313 10175at5820          -            256   2.3e-23   81.5   1.2   1   1   1.5e-26   3.2e-23   81.1   1.2     8   221    67   272    56   291 0.90 | transcript=PVP01_0933500.1 | gene=PVP01_0933500 | organism=Plasmodium_vivax_P01 | gene_product=50S ribosomal protein L2, putative | transcript_product=50S ribosomal protein L2, putative | location=PvP01_09_v2:1433117-1434058(+) | protein_length=313 | sequence_SO=chromosome | SO=protein_coding_gene | is_pseudo=false
+PVP01_API01400.1-p1  -            245 10175at5820          -            256   6.3e-07   27.7   0.2   1   1   4.1e-10     9e-07   27.1   0.2   100   227   114   234    90   244 0.78 | transcript=PVP01_API01400.1 | gene=PVP01_API01400 | organism=Plasmodium_vivax_P01 | gene_product=apicoplast ribosomal protein L2, putative | transcript_product=apicoplast ribosomal protein L2, putative | location=PvP01_API_v2:2597-3334(+) | protein_length=245 | sequence_SO=apicoplast_chromosome | SO=protein_coding_gene | is_pseudo=false
+#
+# Program:         hmmsearch
+# Version:         3.4 (Aug 2023)
+# Pipeline mode:   SEARCH
+# Query file:      /v3/work/00_inventory/busco/busco_downloads/lineages/plasmodium_odb10/hmms/10175at5820.hmm
+# Target file:     /v3/inputs/annotations/plasmodb-68/PvP01.proteins.fa
+# Option settings: hmmsearch --domtblout /v3/work/00_inventory/busco/PvP01_proteins/run_plasmodium_odb10/hmmer_output/initial_run_results/10175at5820.out --cpu 1 /v3/work/00_inventory/busco/busco_downloads/lineages/plasmodium_odb10/hmms/10175at5820.hmm /v3/inputs/annotations/plasmodb-68/PvP01.proteins.fa 
+# Current dir:     /v3/work/00_inventory/busco
+# Date:            Tue May 19 17:24:55 2026
+# [ok]

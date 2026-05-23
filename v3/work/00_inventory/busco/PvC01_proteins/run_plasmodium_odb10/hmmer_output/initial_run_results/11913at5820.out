@@ -1,0 +1,26 @@
+#                                                                            --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name        accession   tlen query name           accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+#------------------- ---------- ----- -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+SCO73055.1           -            203 11913at5820          -            182  2.4e-115  381.2   6.9   1   1  3.9e-116  2.2e-113  374.7   6.9     1   182     1   201     1   201 0.94 peptidyl-prolyl cis-trans isomerase, putative [Plasmodium vivax]
+SCO72649.1           -            167 11913at5820          -            182   5.6e-45  151.9   0.6   1   1   1.1e-47   6.1e-45  151.7   0.6    34   175     3   150     1   157 0.91 peptidyl-prolyl cis-trans isomerase, putative [Plasmodium vivax]
+SCO73250.1           -            737 11913at5820          -            182   8.1e-39  131.8   0.5   1   1   3.5e-41     2e-38  130.5   0.5    27   176   578   732   558   736 0.89 peptidyl-prolyl cis-trans isomerase, putative [Plasmodium vivax]
+SCO72326.1           -            170 11913at5820          -            182   1.4e-33  114.7   0.1   1   1   3.3e-36   1.9e-33  114.3   0.1    44   158    22   148     9   163 0.87 peptidyl-prolyl cis-trans isomerase, putative [Plasmodium vivax]
+SCO72643.1           -            193 11913at5820          -            182     2e-29  101.2   0.5   1   1   4.5e-32   2.6e-29  100.8   0.5    45   170    48   183    18   192 0.84 peptidyl-prolyl cis-trans isomerase 11, putative [Plasmodium vivax]
+SCO70501.1           -            262 11913at5820          -            182     2e-25   88.1   0.9   1   1   3.5e-28     2e-25   88.1   0.9    40   161   106   244    74   260 0.80 cyclophilin, putative [Plasmodium vivax]
+SCO74839.1           -            456 11913at5820          -            182   1.7e-23   81.9   0.7   1   2   2.9e-26   1.7e-23   81.9   0.7    31   173    12   162     3   168 0.86 cyclophilin, putative [Plasmodium vivax]
+SCO74839.1           -            456 11913at5820          -            182   1.7e-23   81.9   0.7   2   2       4.5   2.6e+03   -3.4   0.2     7    29   303   325   301   330 0.75 cyclophilin, putative [Plasmodium vivax]
+SCO74602.1           -            226 11913at5820          -            182   7.9e-20   69.9   0.4   1   1     2e-22   1.1e-19   69.4   0.4    44   175    24   169     8   174 0.84 peptidyl-prolyl cis-trans isomerase, putative [Plasmodium vivax]
+SCO75405.1           -            276 11913at5820          -            182   2.3e-16   58.6   0.7   1   1   6.1e-19   3.5e-16   58.0   0.7    17   176    51   220    41   224 0.76 peptidyl-prolyl cis-trans isomerase, putative [Plasmodium vivax]
+SCO70517.1           -            587 11913at5820          -            182   2.8e-09   35.5   0.1   1   1   1.3e-11   7.4e-09   34.2   0.1    84   160    99   174    58   191 0.82 peptidyl-prolyl cis-trans isomerase, putative [Plasmodium vivax]
+SCO72066.1           -            616 11913at5820          -            182    0.0002   19.7   1.5   1   2       1.7   9.6e+02   -2.1   0.1     8    50    52    95    48   104 0.73 peptidyl-prolyl cis-trans isomerase, putative [Plasmodium vivax]
+SCO72066.1           -            616 11913at5820          -            182    0.0002   19.7   1.5   2   2   6.5e-07   0.00037   18.8   0.2    20    72   309   363   302   368 0.88 peptidyl-prolyl cis-trans isomerase, putative [Plasmodium vivax]
+#
+# Program:         hmmsearch
+# Version:         3.4 (Aug 2023)
+# Pipeline mode:   SEARCH
+# Query file:      /v3/work/00_inventory/busco/busco_downloads/lineages/plasmodium_odb10/hmms/11913at5820.hmm
+# Target file:     /v3/inputs/annotations/ncbi-datasets/PvC01.proteins.fa
+# Option settings: hmmsearch --domtblout /v3/work/00_inventory/busco/PvC01_proteins/run_plasmodium_odb10/hmmer_output/initial_run_results/11913at5820.out --cpu 1 /v3/work/00_inventory/busco/busco_downloads/lineages/plasmodium_odb10/hmms/11913at5820.hmm /v3/inputs/annotations/ncbi-datasets/PvC01.proteins.fa 
+# Current dir:     /v3/work/00_inventory/busco
+# Date:            Tue May 19 18:28:08 2026
+# [ok]

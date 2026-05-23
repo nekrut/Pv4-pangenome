@@ -1,0 +1,16 @@
+#                                                                            --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name        accession   tlen query name           accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+#------------------- ---------- ----- -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+PVX_085435.1-p1      -            452 7376at5820           -            354  3.9e-200  662.4  21.5   1   2  1.1e-142  3.2e-139  462.1   1.3     1   224     1   230     1   234 0.98 | transcript=PVX_085435.1 | gene=PVX_085435 | organism=Plasmodium_vivax_Sal-1 | gene_product=mannose-1-phosphate guanyltransferase, putative | transcript_product=mannose-1-phosphate guanyltransferase, putative | location=Pv_Sal1_chr13:1169586-1171263(+) | protein_length=452 | sequence_SO=chromosome | SO=protein_coding_gene | is_pseudo=false
+PVX_085435.1-p1      -            452 7376at5820           -            354  3.9e-200  662.4  21.5   2   2   6.4e-64   1.8e-60  203.1  12.9   229   354   308   452   306   452 0.93 | transcript=PVX_085435.1 | gene=PVX_085435 | organism=Plasmodium_vivax_Sal-1 | gene_product=mannose-1-phosphate guanyltransferase, putative | transcript_product=mannose-1-phosphate guanyltransferase, putative | location=Pv_Sal1_chr13:1169586-1171263(+) | protein_length=452 | sequence_SO=chromosome | SO=protein_coding_gene | is_pseudo=false
+PVX_096175.1-p1      -            243 7376at5820           -            354    0.0003   18.2   2.5   1   1   1.7e-07   0.00047   17.5   2.5   246   295   149   198   144   211 0.78 | transcript=PVX_096175.1 | gene=PVX_096175 | organism=Plasmodium_vivax_Sal-1 | gene_product=dynactin subunit 5, putative | transcript_product=dynactin subunit 5, putative | location=Pv_Sal1_chr03:705829-706560(-) | protein_length=243 | sequence_SO=chromosome | SO=protein_coding_gene | is_pseudo=false
+#
+# Program:         hmmsearch
+# Version:         3.4 (Aug 2023)
+# Pipeline mode:   SEARCH
+# Query file:      /v3/work/00_inventory/busco/busco_downloads/lineages/plasmodium_odb10/hmms/7376at5820.hmm
+# Target file:     /v3/inputs/annotations/plasmodb-68/Sal-I.proteins.fa
+# Option settings: hmmsearch --domtblout /v3/work/00_inventory/busco/Sal-I_proteins/run_plasmodium_odb10/hmmer_output/initial_run_results/7376at5820.out --cpu 1 /v3/work/00_inventory/busco/busco_downloads/lineages/plasmodium_odb10/hmms/7376at5820.hmm /v3/inputs/annotations/plasmodb-68/Sal-I.proteins.fa 
+# Current dir:     /v3/work/00_inventory/busco
+# Date:            Tue May 19 17:47:12 2026
+# [ok]

@@ -1,0 +1,20 @@
+#                                                                            --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name        accession   tlen query name           accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+#------------------- ---------- ----- -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+SCO73581.1           -           9333 0at5820              -           7235         0 12433.1 553.3   1   6         0         0 3352.7 182.8     1  1854     1  2110     1  2127 0.92 HECT-domain (ubiquitin-transferase), putative [Plasmodium vivax]
+SCO73581.1           -           9333 0at5820              -           7235         0 12433.1 553.3   2   6         0         0 7187.3 298.8  1852  6260  2158  7850  2122  7860 0.91 HECT-domain (ubiquitin-transferase), putative [Plasmodium vivax]
+SCO73581.1           -           9333 0at5820              -           7235         0 12433.1 553.3   3   6   1.2e-07   0.00037   14.3   8.5  6247  6351  7925  8055  7909  8061 0.64 HECT-domain (ubiquitin-transferase), putative [Plasmodium vivax]
+SCO73581.1           -           9333 0at5820              -           7235         0 12433.1 553.3   4   6  7.7e-158  2.4e-154  512.9  23.5  6275  6586  8042  8356  8029  8395 0.81 HECT-domain (ubiquitin-transferase), putative [Plasmodium vivax]
+SCO73581.1           -           9333 0at5820              -           7235         0 12433.1 553.3   5   6  2.5e-164    8e-161  534.5   0.1  6583  6839  8529  8789  8511  8811 0.89 HECT-domain (ubiquitin-transferase), putative [Plasmodium vivax]
+SCO73581.1           -           9333 0at5820              -           7235         0 12433.1 553.3   6   6  1.9e-257  5.9e-254  843.7  10.7  6848  7235  8917  9333  8887  9333 0.95 HECT-domain (ubiquitin-transferase), putative [Plasmodium vivax]
+SCO72680.1           -           1992 0at5820              -           7235   4.1e-13   44.0   0.4   1   1   1.9e-16   6.1e-13   43.5   0.4  7040  7220  1809  1991  1803  1992 0.80 ubiquitin-protein ligase, putative [Plasmodium vivax]
+#
+# Program:         hmmsearch
+# Version:         3.4 (Aug 2023)
+# Pipeline mode:   SEARCH
+# Query file:      /v3/work/00_inventory/busco/busco_downloads/lineages/plasmodium_odb10/hmms/0at5820.hmm
+# Target file:     /v3/inputs/annotations/ncbi-datasets/PvC01.proteins.fa
+# Option settings: hmmsearch --domtblout /v3/work/00_inventory/busco/PvC01_proteins/run_plasmodium_odb10/hmmer_output/initial_run_results/0at5820.out --cpu 1 /v3/work/00_inventory/busco/busco_downloads/lineages/plasmodium_odb10/hmms/0at5820.hmm /v3/inputs/annotations/ncbi-datasets/PvC01.proteins.fa 
+# Current dir:     /v3/work/00_inventory/busco
+# Date:            Tue May 19 18:27:21 2026
+# [ok]

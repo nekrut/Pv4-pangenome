@@ -1,0 +1,19 @@
+#                                                                            --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name        accession   tlen query name           accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+#------------------- ---------- ----- -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+SCO67238.1           -            741 5859at5820           -            502    2e-229  761.1 107.7   1   5   1.4e-35   4.3e-32  110.1   4.7     2    95    66   183    65   186 0.84 conserved Plasmodium protein, unknown function [Plasmodium vivax]
+SCO67238.1           -            741 5859at5820           -            502    2e-229  761.1 107.7   2   5   4.7e-15   1.4e-11   42.4   3.3    89   139   208   264   202   282 0.86 conserved Plasmodium protein, unknown function [Plasmodium vivax]
+SCO67238.1           -            741 5859at5820           -            502    2e-229  761.1 107.7   3   5   3.8e-13   1.2e-09   36.1   3.8   138   176   287   329   279   332 0.86 conserved Plasmodium protein, unknown function [Plasmodium vivax]
+SCO67238.1           -            741 5859at5820           -            502    2e-229  761.1 107.7   4   5   2.5e-16   7.6e-13   46.6   0.0   176   220   364   408   360   424 0.91 conserved Plasmodium protein, unknown function [Plasmodium vivax]
+SCO67238.1           -            741 5859at5820           -            502    2e-229  761.1 107.7   5   5  9.3e-167  2.8e-163  542.8  71.0   215   493   437   715   426   723 0.98 conserved Plasmodium protein, unknown function [Plasmodium vivax]
+SCO69668.1           -            151 5859at5820           -            502     0.015   12.6   1.0   1   1   6.1e-06     0.019   12.3   1.0   139   216    26   108     8   115 0.74 CCAAT-binding transcription factor, putative [Plasmodium vivax]
+#
+# Program:         hmmsearch
+# Version:         3.4 (Aug 2023)
+# Pipeline mode:   SEARCH
+# Query file:      /v3/work/00_inventory/busco/busco_downloads/lineages/plasmodium_odb10/hmms/5859at5820.hmm
+# Target file:     /v3/inputs/annotations/ncbi-datasets/PvT01.proteins.fa
+# Option settings: hmmsearch --domtblout /v3/work/00_inventory/busco/PvT01_proteins/run_plasmodium_odb10/hmmer_output/initial_run_results/5859at5820.out --cpu 1 /v3/work/00_inventory/busco/busco_downloads/lineages/plasmodium_odb10/hmms/5859at5820.hmm /v3/inputs/annotations/ncbi-datasets/PvT01.proteins.fa 
+# Current dir:     /v3/work/00_inventory/busco
+# Date:            Tue May 19 18:57:24 2026
+# [ok]

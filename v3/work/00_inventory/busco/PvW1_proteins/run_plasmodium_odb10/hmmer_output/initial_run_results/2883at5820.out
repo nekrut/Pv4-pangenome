@@ -1,0 +1,17 @@
+#                                                                            --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name        accession   tlen query name           accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+#------------------- ---------- ----- -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+CAG9472208.1         -            761 2883at5820           -            635         0 1359.6  26.5   1   2   3.1e-66   9.4e-63  211.1   9.3     3   142    53   210    12   222 0.93 | transcript=PVW1_140038800_t1 | gene=PVW1_140038800 | organism=Plasmodium_vivax_PvW1 | gene_product=unspecified product | transcript_product=unspecified product | location=CAJZCX010000003:1478788-1481073(-) | protein_length=761 | sequence_SO=supercontig | SO=protein_coding_gene | is_pseudo=false
+CAG9472208.1         -            761 2883at5820           -            635         0 1359.6  26.5   2   2         0         0 1154.5   9.1   141   635   264   761   257   761 0.99 | transcript=PVW1_140038800_t1 | gene=PVW1_140038800 | organism=Plasmodium_vivax_PvW1 | gene_product=unspecified product | transcript_product=unspecified product | location=CAJZCX010000003:1478788-1481073(-) | protein_length=761 | sequence_SO=supercontig | SO=protein_coding_gene | is_pseudo=false
+CAG9480623.1         -            556 2883at5820           -            635   4.4e-09   33.8   5.8   1   2   1.6e-12   4.9e-09   33.6   2.3   171   459   113   414   100   432 0.73 | transcript=PVW1_070030200_t1 | gene=PVW1_070030200 | organism=Plasmodium_vivax_PvW1 | gene_product=AA_TRNA_LIGASE_II domain-containing protein [Source:UniProtKB/TrEMBL;Acc:A0A1G4HAS0] | transcript_product=AA_TRNA_LIGASE_II domain-containing protein [Source:UniProtKB/TrEMBL;Acc:A0A1G4HAS0] | location=CAJZCX010000011:1104694-1106364(-) | protein_length=556 | sequence_SO=supercontig | SO=protein_coding_gene | is_pseudo=false
+CAG9480623.1         -            556 2883at5820           -            635   4.4e-09   33.8   5.8   2   2     0.015        44    0.7   0.1   454   491   457   493   441   502 0.83 | transcript=PVW1_070030200_t1 | gene=PVW1_070030200 | organism=Plasmodium_vivax_PvW1 | gene_product=AA_TRNA_LIGASE_II domain-containing protein [Source:UniProtKB/TrEMBL;Acc:A0A1G4HAS0] | transcript_product=AA_TRNA_LIGASE_II domain-containing protein [Source:UniProtKB/TrEMBL;Acc:A0A1G4HAS0] | location=CAJZCX010000011:1104694-1106364(-) | protein_length=556 | sequence_SO=supercontig | SO=protein_coding_gene | is_pseudo=false
+#
+# Program:         hmmsearch
+# Version:         3.4 (Aug 2023)
+# Pipeline mode:   SEARCH
+# Query file:      /v3/work/00_inventory/busco/busco_downloads/lineages/plasmodium_odb10/hmms/2883at5820.hmm
+# Target file:     /v3/inputs/annotations/plasmodb-68/PvW1.proteins.fa
+# Option settings: hmmsearch --domtblout /v3/work/00_inventory/busco/PvW1_proteins/run_plasmodium_odb10/hmmer_output/initial_run_results/2883at5820.out --cpu 1 /v3/work/00_inventory/busco/busco_downloads/lineages/plasmodium_odb10/hmms/2883at5820.hmm /v3/inputs/annotations/plasmodb-68/PvW1.proteins.fa 
+# Current dir:     /v3/work/00_inventory/busco
+# Date:            Tue May 19 17:38:19 2026
+# [ok]

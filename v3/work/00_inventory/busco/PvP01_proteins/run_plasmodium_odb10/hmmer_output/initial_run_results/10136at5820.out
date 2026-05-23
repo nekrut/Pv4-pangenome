@@ -1,0 +1,17 @@
+#                                                                            --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name        accession   tlen query name           accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+#------------------- ---------- ----- -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+PVP01_1461700.1-p1   -            341 10136at5820          -            255  5.6e-160  528.9  29.4   1   1  6.2e-161  1.3e-157  521.1  29.4     1   255     1   273     1   273 0.97 | transcript=PVP01_1461700.1 | gene=PVP01_1461700 | organism=Plasmodium_vivax_P01 | gene_product=ADP-ribosylation factor GTPase-activating protein 1, putative | transcript_product=ADP-ribosylation factor GTPase-activating protein 1, putative | location=PvP01_14_v2:2666530-2667555(-) | protein_length=341 | sequence_SO=chromosome | SO=protein_coding_gene | is_pseudo=false
+PVP01_0115600.1-p1   -            465 10136at5820          -            255   6.5e-23   79.8   0.8   1   1   6.7e-26   1.5e-22   78.7   0.8    17    90    36   109    26   131 0.88 | transcript=PVP01_0115600.1 | gene=PVP01_0115600 | organism=Plasmodium_vivax_P01 | gene_product=GTPase-activating protein, putative | transcript_product=GTPase-activating protein, putative | location=PvP01_01_v2:700507-701904(+) | protein_length=465 | sequence_SO=chromosome | SO=protein_coding_gene | is_pseudo=false
+PVP01_1007600.1-p1   -            538 10136at5820          -            255   1.7e-18   65.3   2.6   1   2   7.8e-22   1.7e-18   65.3   2.6    17    98    22   104    12   208 0.83 | transcript=PVP01_1007600.1 | gene=PVP01_1007600 | organism=Plasmodium_vivax_P01 | gene_product=ADP-ribosylation factor GTPase-activating protein 2, putative | transcript_product=ADP-ribosylation factor GTPase-activating protein 2, putative | location=PvP01_10_v2:344261-346584(+) | protein_length=538 | sequence_SO=chromosome | SO=protein_coding_gene | is_pseudo=false
+PVP01_1007600.1-p1   -            538 10136at5820          -            255   1.7e-18   65.3   2.6   2   2      0.84   1.8e+03   -3.6   0.2   156   179   464   487   425   494 0.58 | transcript=PVP01_1007600.1 | gene=PVP01_1007600 | organism=Plasmodium_vivax_P01 | gene_product=ADP-ribosylation factor GTPase-activating protein 2, putative | transcript_product=ADP-ribosylation factor GTPase-activating protein 2, putative | location=PvP01_10_v2:344261-346584(+) | protein_length=538 | sequence_SO=chromosome | SO=protein_coding_gene | is_pseudo=false
+#
+# Program:         hmmsearch
+# Version:         3.4 (Aug 2023)
+# Pipeline mode:   SEARCH
+# Query file:      /v3/work/00_inventory/busco/busco_downloads/lineages/plasmodium_odb10/hmms/10136at5820.hmm
+# Target file:     /v3/inputs/annotations/plasmodb-68/PvP01.proteins.fa
+# Option settings: hmmsearch --domtblout /v3/work/00_inventory/busco/PvP01_proteins/run_plasmodium_odb10/hmmer_output/initial_run_results/10136at5820.out --cpu 1 /v3/work/00_inventory/busco/busco_downloads/lineages/plasmodium_odb10/hmms/10136at5820.hmm /v3/inputs/annotations/plasmodb-68/PvP01.proteins.fa 
+# Current dir:     /v3/work/00_inventory/busco
+# Date:            Tue May 19 17:24:47 2026
+# [ok]

@@ -1,0 +1,17 @@
+#                                                                            --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name        accession   tlen query name           accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+#------------------- ---------- ----- -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+CAI7721948.1         -            626 5947at5820           -            488  1.5e-293  972.4  41.3   1   3  5.2e-184  1.7e-180  599.5  13.9     1   301     1   315     1   319 0.96 | transcript=PVPAM_120018400_t1 | gene=PVPAM_120018400 | organism=Plasmodium_vivax_PAM | gene_product=sodium-dependent phosphate transporter, putative | transcript_product=sodium-dependent phosphate transporter, putative | location=CASCJQ010000012:576001-578032(-) | protein_length=626 | sequence_SO=supercontig | SO=protein_coding_gene | is_pseudo=false
+CAI7721948.1         -            626 5947at5820           -            488  1.5e-293  972.4  41.3   2   3   8.5e-96   2.7e-92  308.6   4.6   275   443   372   539   354   546 0.89 | transcript=PVPAM_120018400_t1 | gene=PVPAM_120018400 | organism=Plasmodium_vivax_PAM | gene_product=sodium-dependent phosphate transporter, putative | transcript_product=sodium-dependent phosphate transporter, putative | location=CASCJQ010000012:576001-578032(-) | protein_length=626 | sequence_SO=supercontig | SO=protein_coding_gene | is_pseudo=false
+CAI7721948.1         -            626 5947at5820           -            488  1.5e-293  972.4  41.3   3   3   1.7e-25   5.6e-22   76.6   6.9   444   488   572   616   566   616 0.98 | transcript=PVPAM_120018400_t1 | gene=PVPAM_120018400 | organism=Plasmodium_vivax_PAM | gene_product=sodium-dependent phosphate transporter, putative | transcript_product=sodium-dependent phosphate transporter, putative | location=CASCJQ010000012:576001-578032(-) | protein_length=626 | sequence_SO=supercontig | SO=protein_coding_gene | is_pseudo=false
+CAI7718132.1         -            704 5947at5820           -            488     0.019   12.2   0.7   1   1   9.2e-06      0.03   11.6   0.7   242   285    10    53     3    95 0.80 | transcript=PVPAM_030012800_t1 | gene=PVPAM_030012800 | organism=Plasmodium_vivax_PAM | gene_product=tRNA N6-adenosine threonylcarbamoyltransferase, putative | transcript_product=tRNA N6-adenosine threonylcarbamoyltransferase, putative | location=CASCJQ010000003:361297-364181(+) | protein_length=704 | sequence_SO=supercontig | SO=protein_coding_gene | is_pseudo=false
+#
+# Program:         hmmsearch
+# Version:         3.4 (Aug 2023)
+# Pipeline mode:   SEARCH
+# Query file:      /v3/work/00_inventory/busco/busco_downloads/lineages/plasmodium_odb10/hmms/5947at5820.hmm
+# Target file:     /v3/inputs/annotations/plasmodb-68/PAM.proteins.fa
+# Option settings: hmmsearch --domtblout /v3/work/00_inventory/busco/PAM_proteins/run_plasmodium_odb10/hmmer_output/initial_run_results/5947at5820.out --cpu 1 /v3/work/00_inventory/busco/busco_downloads/lineages/plasmodium_odb10/hmms/5947at5820.hmm /v3/inputs/annotations/plasmodb-68/PAM.proteins.fa 
+# Current dir:     /v3/work/00_inventory/busco
+# Date:            Tue May 19 17:44:12 2026
+# [ok]

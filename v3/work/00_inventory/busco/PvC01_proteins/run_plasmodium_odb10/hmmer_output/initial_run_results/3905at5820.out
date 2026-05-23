@@ -1,0 +1,17 @@
+#                                                                            --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name        accession   tlen query name           accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+#------------------- ---------- ----- -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+SCO74021.1           -            654 3905at5820           -            584         0 1200.2  26.3   1   3  1.9e-101   5.9e-98  327.4   4.3     1   176     1   184     1   191 0.96 tryptophan--tRNA ligase, putative [Plasmodium vivax]
+SCO74021.1           -            654 3905at5820           -            584         0 1200.2  26.3   2   3  2.5e-204  7.9e-201  667.1   6.2   175   469   207   503   202   512 0.99 tryptophan--tRNA ligase, putative [Plasmodium vivax]
+SCO74021.1           -            654 3905at5820           -            584         0 1200.2  26.3   3   3   4.5e-68   1.4e-64  217.2   1.0   463   584   529   652   516   652 0.95 tryptophan--tRNA ligase, putative [Plasmodium vivax]
+SCO72348.1           -            145 3905at5820           -            584     0.052   10.6   3.9   1   1   1.9e-05     0.061   10.4   3.9   481   584     4   114     1   114 0.76 protein phosphatase inhibitor 2, putative [Plasmodium vivax]
+#
+# Program:         hmmsearch
+# Version:         3.4 (Aug 2023)
+# Pipeline mode:   SEARCH
+# Query file:      /v3/work/00_inventory/busco/busco_downloads/lineages/plasmodium_odb10/hmms/3905at5820.hmm
+# Target file:     /v3/inputs/annotations/ncbi-datasets/PvC01.proteins.fa
+# Option settings: hmmsearch --domtblout /v3/work/00_inventory/busco/PvC01_proteins/run_plasmodium_odb10/hmmer_output/initial_run_results/3905at5820.out --cpu 1 /v3/work/00_inventory/busco/busco_downloads/lineages/plasmodium_odb10/hmms/3905at5820.hmm /v3/inputs/annotations/ncbi-datasets/PvC01.proteins.fa 
+# Current dir:     /v3/work/00_inventory/busco
+# Date:            Tue May 19 18:41:11 2026
+# [ok]

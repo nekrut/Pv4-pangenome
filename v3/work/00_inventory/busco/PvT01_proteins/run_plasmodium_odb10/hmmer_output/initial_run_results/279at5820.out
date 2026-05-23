@@ -1,0 +1,30 @@
+#                                                                            --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name        accession   tlen query name           accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+#------------------- ---------- ----- -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+SCO66939.1           -           2387 279at5820            -           1909         0 4087.3 111.4   1   6         0         0 1485.6   4.0     1   621     1   633     1   693 0.96 DNA-directed RNA polymerase II subunit RPB1, putative [Plasmodium vivax]
+SCO66939.1           -           2387 279at5820            -           1909         0 4087.3 111.4   2   6  4.6e-280  9.3e-277  920.1   9.2   632  1033   705  1120   698  1125 0.99 DNA-directed RNA polymerase II subunit RPB1, putative [Plasmodium vivax]
+SCO66939.1           -           2387 279at5820            -           1909         0 4087.3 111.4   3   6   0.00061       1.2    4.5   0.0  1030  1051  1178  1199  1171  1214 0.86 DNA-directed RNA polymerase II subunit RPB1, putative [Plasmodium vivax]
+SCO66939.1           -           2387 279at5820            -           1909         0 4087.3 111.4   4   6  4.7e-196  9.5e-193  641.5  15.2  1055  1372  1251  1584  1239  1599 0.92 DNA-directed RNA polymerase II subunit RPB1, putative [Plasmodium vivax]
+SCO66939.1           -           2387 279at5820            -           1909         0 4087.3 111.4   5   6  1.2e-279  2.4e-276  918.7  27.9  1360  1825  1760  2272  1737  2272 0.94 DNA-directed RNA polymerase II subunit RPB1, putative [Plasmodium vivax]
+SCO66939.1           -           2387 279at5820            -           1909         0 4087.3 111.4   6   6     2e-56     4e-53  178.6  34.9  1781  1909  2242  2387  2242  2387 0.82 DNA-directed RNA polymerase II subunit RPB1, putative [Plasmodium vivax]
+SCO68634.1           -           1961 279at5820            -           1909  7.3e-228  757.9  40.8   1   5   2.9e-21   5.8e-18   62.0  12.0    17   190    91   274    84   285 0.79 DNA-directed RNA polymerase III largest subunit, putative [Plasmodium vivax]
+SCO68634.1           -           1961 279at5820            -           1909  7.3e-228  757.9  40.8   2   5   3.2e-42   6.5e-39  131.4   0.1   266   443   299   479   273   484 0.92 DNA-directed RNA polymerase III largest subunit, putative [Plasmodium vivax]
+SCO68634.1           -           1961 279at5820            -           1909  7.3e-228  757.9  40.8   3   5  3.3e-128  6.8e-125  416.5   3.8   456   934   537  1010   522  1020 0.94 DNA-directed RNA polymerase III largest subunit, putative [Plasmodium vivax]
+SCO68634.1           -           1961 279at5820            -           1909  7.3e-228  757.9  40.8   4   5   1.9e-26   3.9e-23   79.1   0.1  1133  1230  1463  1558  1438  1609 0.88 DNA-directed RNA polymerase III largest subunit, putative [Plasmodium vivax]
+SCO68634.1           -           1961 279at5820            -           1909  7.3e-228  757.9  40.8   5   5   3.4e-28   6.9e-25   84.9   1.7  1424  1565  1802  1942  1787  1956 0.93 DNA-directed RNA polymerase III largest subunit, putative [Plasmodium vivax]
+SCO67803.1           -           2713 279at5820            -           1909    5e-141  470.0  21.2   1   6   2.7e-11   5.6e-08   28.9   1.4    17   120    12   119     5   154 0.79 RNA polymerase I, putative [Plasmodium vivax]
+SCO67803.1           -           2713 279at5820            -           1909    5e-141  470.0  21.2   2   6   5.7e-50   1.2e-46  157.1   0.5   317   584   557   833   532   837 0.84 RNA polymerase I, putative [Plasmodium vivax]
+SCO67803.1           -           2713 279at5820            -           1909    5e-141  470.0  21.2   3   6   1.1e-13   2.2e-10   36.8   0.0   591   726   915  1057   905  1071 0.79 RNA polymerase I, putative [Plasmodium vivax]
+SCO67803.1           -           2713 279at5820            -           1909    5e-141  470.0  21.2   4   6   1.8e-45   3.7e-42  142.2   0.2   795   929  1537  1672  1507  1694 0.90 RNA polymerase I, putative [Plasmodium vivax]
+SCO67803.1           -           2713 279at5820            -           1909    5e-141  470.0  21.2   5   6   4.9e-21   9.9e-18   61.2   0.0  1132  1196  1801  1863  1789  1909 0.86 RNA polymerase I, putative [Plasmodium vivax]
+SCO67803.1           -           2713 279at5820            -           1909    5e-141  470.0  21.2   6   6   1.1e-18   2.3e-15   53.4   0.4  1419  1561  2564  2707  2542  2711 0.91 RNA polymerase I, putative [Plasmodium vivax]
+#
+# Program:         hmmsearch
+# Version:         3.4 (Aug 2023)
+# Pipeline mode:   SEARCH
+# Query file:      /v3/work/00_inventory/busco/busco_downloads/lineages/plasmodium_odb10/hmms/279at5820.hmm
+# Target file:     /v3/inputs/annotations/ncbi-datasets/PvT01.proteins.fa
+# Option settings: hmmsearch --domtblout /v3/work/00_inventory/busco/PvT01_proteins/run_plasmodium_odb10/hmmer_output/initial_run_results/279at5820.out --cpu 1 /v3/work/00_inventory/busco/busco_downloads/lineages/plasmodium_odb10/hmms/279at5820.hmm /v3/inputs/annotations/ncbi-datasets/PvT01.proteins.fa 
+# Current dir:     /v3/work/00_inventory/busco
+# Date:            Tue May 19 18:45:00 2026
+# [ok]

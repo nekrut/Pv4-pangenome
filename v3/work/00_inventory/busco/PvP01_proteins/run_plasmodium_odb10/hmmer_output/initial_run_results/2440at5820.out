@@ -1,0 +1,17 @@
+#                                                                            --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name        accession   tlen query name           accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+#------------------- ---------- ----- -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+PVP01_1432900.1-p1   -           1272 2440at5820           -           1001         0 1559.3 163.4   1   4  4.5e-185  2.9e-181  603.4  24.3     1   331    10   359    10   370 0.95 | transcript=PVP01_1432900.1 | gene=PVP01_1432900 | organism=Plasmodium_vivax_P01 | gene_product=GPI ethanolamine phosphate transferase 3, putative | transcript_product=GPI ethanolamine phosphate transferase 3, putative | location=PvP01_14_v2:1429866-1434287(+) | protein_length=1272 | sequence_SO=chromosome | SO=protein_coding_gene | is_pseudo=false
+PVP01_1432900.1-p1   -           1272 2440at5820           -           1001         0 1559.3 163.4   2   4   2.2e-35   1.4e-31  107.9   0.1   329   390   381   442   376   445 0.97 | transcript=PVP01_1432900.1 | gene=PVP01_1432900 | organism=Plasmodium_vivax_P01 | gene_product=GPI ethanolamine phosphate transferase 3, putative | transcript_product=GPI ethanolamine phosphate transferase 3, putative | location=PvP01_14_v2:1429866-1434287(+) | protein_length=1272 | sequence_SO=chromosome | SO=protein_coding_gene | is_pseudo=false
+PVP01_1432900.1-p1   -           1272 2440at5820           -           1001         0 1559.3 163.4   3   4   2.2e-85   1.5e-81  273.4  32.8   389   581   501   711   498   720 0.89 | transcript=PVP01_1432900.1 | gene=PVP01_1432900 | organism=Plasmodium_vivax_P01 | gene_product=GPI ethanolamine phosphate transferase 3, putative | transcript_product=GPI ethanolamine phosphate transferase 3, putative | location=PvP01_14_v2:1429866-1434287(+) | protein_length=1272 | sequence_SO=chromosome | SO=protein_coding_gene | is_pseudo=false
+PVP01_1432900.1-p1   -           1272 2440at5820           -           1001         0 1559.3 163.4   4   4  3.6e-179  2.3e-175  583.9  86.2   564  1001   774  1272   745  1272 0.88 | transcript=PVP01_1432900.1 | gene=PVP01_1432900 | organism=Plasmodium_vivax_P01 | gene_product=GPI ethanolamine phosphate transferase 3, putative | transcript_product=GPI ethanolamine phosphate transferase 3, putative | location=PvP01_14_v2:1429866-1434287(+) | protein_length=1272 | sequence_SO=chromosome | SO=protein_coding_gene | is_pseudo=false
+#
+# Program:         hmmsearch
+# Version:         3.4 (Aug 2023)
+# Pipeline mode:   SEARCH
+# Query file:      /v3/work/00_inventory/busco/busco_downloads/lineages/plasmodium_odb10/hmms/2440at5820.hmm
+# Target file:     /v3/inputs/annotations/plasmodb-68/PvP01.proteins.fa
+# Option settings: hmmsearch --domtblout /v3/work/00_inventory/busco/PvP01_proteins/run_plasmodium_odb10/hmmer_output/initial_run_results/2440at5820.out --cpu 1 /v3/work/00_inventory/busco/busco_downloads/lineages/plasmodium_odb10/hmms/2440at5820.hmm /v3/inputs/annotations/plasmodb-68/PvP01.proteins.fa 
+# Current dir:     /v3/work/00_inventory/busco
+# Date:            Tue May 19 17:36:02 2026
+# [ok]

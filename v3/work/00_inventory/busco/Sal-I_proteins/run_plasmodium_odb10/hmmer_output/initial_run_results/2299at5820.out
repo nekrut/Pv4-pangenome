@@ -1,0 +1,17 @@
+#                                                                            --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name        accession   tlen query name           accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+#------------------- ---------- ----- -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+PVX_092430.1-p1      -           1068 2299at5820           -            811         0 1485.5  96.6   1   4  1.3e-102   7.2e-99  330.3  11.5     1   180     1   190     1   195 0.96 | transcript=PVX_092430.1 | gene=PVX_092430 | organism=Plasmodium_vivax_Sal-1 | gene_product=tudor staphylococcal nuclease, putative | transcript_product=tudor staphylococcal nuclease, putative | location=Pv_Sal1_chr09:1366821-1370257(+) | protein_length=1068 | sequence_SO=chromosome | SO=protein_coding_gene | is_pseudo=false
+PVX_092430.1-p1      -           1068 2299at5820           -            811         0 1485.5  96.6   2   4  8.9e-150  4.9e-146  486.3  16.8   179   416   258   496   246   522 0.95 | transcript=PVX_092430.1 | gene=PVX_092430 | organism=Plasmodium_vivax_Sal-1 | gene_product=tudor staphylococcal nuclease, putative | transcript_product=tudor staphylococcal nuclease, putative | location=Pv_Sal1_chr09:1366821-1370257(+) | protein_length=1068 | sequence_SO=chromosome | SO=protein_coding_gene | is_pseudo=false
+PVX_092430.1-p1      -           1068 2299at5820           -            811         0 1485.5  96.6   3   4   2.7e-67   1.5e-63  213.5   6.9   406   523   566   687   553   700 0.94 | transcript=PVX_092430.1 | gene=PVX_092430 | organism=Plasmodium_vivax_Sal-1 | gene_product=tudor staphylococcal nuclease, putative | transcript_product=tudor staphylococcal nuclease, putative | location=Pv_Sal1_chr09:1366821-1370257(+) | protein_length=1068 | sequence_SO=chromosome | SO=protein_coding_gene | is_pseudo=false
+PVX_092430.1-p1      -           1068 2299at5820           -            811         0 1485.5  96.6   4   4  2.8e-145  1.6e-141  471.4  37.5   522   811   722  1066   715  1066 0.92 | transcript=PVX_092430.1 | gene=PVX_092430 | organism=Plasmodium_vivax_Sal-1 | gene_product=tudor staphylococcal nuclease, putative | transcript_product=tudor staphylococcal nuclease, putative | location=Pv_Sal1_chr09:1366821-1370257(+) | protein_length=1068 | sequence_SO=chromosome | SO=protein_coding_gene | is_pseudo=false
+#
+# Program:         hmmsearch
+# Version:         3.4 (Aug 2023)
+# Pipeline mode:   SEARCH
+# Query file:      /v3/work/00_inventory/busco/busco_downloads/lineages/plasmodium_odb10/hmms/2299at5820.hmm
+# Target file:     /v3/inputs/annotations/plasmodb-68/Sal-I.proteins.fa
+# Option settings: hmmsearch --domtblout /v3/work/00_inventory/busco/Sal-I_proteins/run_plasmodium_odb10/hmmer_output/initial_run_results/2299at5820.out --cpu 1 /v3/work/00_inventory/busco/busco_downloads/lineages/plasmodium_odb10/hmms/2299at5820.hmm /v3/inputs/annotations/plasmodb-68/Sal-I.proteins.fa 
+# Current dir:     /v3/work/00_inventory/busco
+# Date:            Tue May 19 17:35:06 2026
+# [ok]

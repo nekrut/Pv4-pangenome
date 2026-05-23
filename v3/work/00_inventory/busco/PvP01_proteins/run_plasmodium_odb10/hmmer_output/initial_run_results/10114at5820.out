@@ -1,0 +1,16 @@
+#                                                                            --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name        accession   tlen query name           accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+#------------------- ---------- ----- -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+PVP01_1008200.1-p1   -            364 10114at5820          -            259  4.1e-142  470.4   4.4   1   1  2.9e-145  6.3e-142  469.8   4.4    10   259    99   361    95   361 0.95 | transcript=PVP01_1008200.1 | gene=PVP01_1008200 | organism=Plasmodium_vivax_P01 | gene_product=RNA methyltransferase, putative | transcript_product=RNA methyltransferase, putative | location=PvP01_10_v2:360563-361812(+) | protein_length=364 | sequence_SO=chromosome | SO=protein_coding_gene | is_pseudo=false
+PVP01_0615800.1-p1   -            214 10114at5820          -            259   5.1e-06   24.4   0.7   1   1   2.9e-09   6.3e-06   24.1   0.7   123   257     4   142     1   144 0.78 | transcript=PVP01_0615800.1 | gene=PVP01_0615800 | organism=Plasmodium_vivax_P01 | gene_product=RNA methyltransferase, putative | transcript_product=RNA methyltransferase, putative | location=PvP01_06_v2:664879-665523(+) | protein_length=214 | sequence_SO=chromosome | SO=protein_coding_gene | is_pseudo=false
+PVP01_1320000.1-p1   -           2324 10114at5820          -            259    0.0014   16.4   0.3   1   1   1.2e-06    0.0026   15.5   0.3    77   256  2137  2317  2110  2320 0.77 | transcript=PVP01_1320000.1 | gene=PVP01_1320000 | organism=Plasmodium_vivax_P01 | gene_product=rRNA (adenosine-2'-O-)-methyltransferase, putative | transcript_product=rRNA (adenosine-2'-O-)-methyltransferase, putative | location=PvP01_13_v2:904395-911369(-) | protein_length=2324 | sequence_SO=chromosome | SO=protein_coding_gene | is_pseudo=false
+#
+# Program:         hmmsearch
+# Version:         3.4 (Aug 2023)
+# Pipeline mode:   SEARCH
+# Query file:      /v3/work/00_inventory/busco/busco_downloads/lineages/plasmodium_odb10/hmms/10114at5820.hmm
+# Target file:     /v3/inputs/annotations/plasmodb-68/PvP01.proteins.fa
+# Option settings: hmmsearch --domtblout /v3/work/00_inventory/busco/PvP01_proteins/run_plasmodium_odb10/hmmer_output/initial_run_results/10114at5820.out --cpu 1 /v3/work/00_inventory/busco/busco_downloads/lineages/plasmodium_odb10/hmms/10114at5820.hmm /v3/inputs/annotations/plasmodb-68/PvP01.proteins.fa 
+# Current dir:     /v3/work/00_inventory/busco
+# Date:            Tue May 19 17:24:43 2026
+# [ok]

@@ -1,0 +1,17 @@
+#                                                                            --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name        accession   tlen query name           accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+#------------------- ---------- ----- -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+PVX_091050.1-p1      -            154 13128at5820          -            142   2.1e-85  282.3  12.3   1   1   1.3e-88   2.4e-85  282.1  12.3     1   142     6   153     6   153 0.96 | transcript=PVX_091050.1 | gene=PVX_091050 | organism=Plasmodium_vivax_Sal-1 | gene_product=prefoldin, putative | transcript_product=prefoldin, putative | location=Pv_Sal1_chr09:213329-214545(-) | protein_length=154 | sequence_SO=chromosome | SO=protein_coding_gene | is_pseudo=false
+PVX_098810.1-p1      -            302 13128at5820          -            142    0.0056   15.1   4.4   1   1   9.9e-06     0.018   13.5   4.4    73   130    65   122    17   131 0.70 | transcript=PVX_098810.1 | gene=PVX_098810 | organism=Plasmodium_vivax_Sal-1 | gene_product=hypothetical protein, conserved | transcript_product=hypothetical protein, conserved | location=Pv_Sal1_chr07:268642-269550(-) | protein_length=302 | sequence_SO=chromosome | SO=protein_coding_gene | is_pseudo=false
+PVX_092025.1-p1      -            247 13128at5820          -            142     0.045   12.2   5.6   1   2      0.36   6.6e+02   -1.3   0.1    96   123    33    60    17    67 0.77 | transcript=PVX_092025.1 | gene=PVX_092025 | organism=Plasmodium_vivax_Sal-1 | gene_product=prefoldin subunit 5, putative | transcript_product=prefoldin subunit 5, putative | location=Pv_Sal1_chr09:1036957-1038066(-) | protein_length=247 | sequence_SO=chromosome | SO=protein_coding_gene | is_pseudo=false
+PVX_092025.1-p1      -            247 13128at5820          -            142     0.045   12.2   5.6   2   2   6.3e-06     0.012   14.1   1.8    60   134   137   211   110   220 0.77 | transcript=PVX_092025.1 | gene=PVX_092025 | organism=Plasmodium_vivax_Sal-1 | gene_product=prefoldin subunit 5, putative | transcript_product=prefoldin subunit 5, putative | location=Pv_Sal1_chr09:1036957-1038066(-) | protein_length=247 | sequence_SO=chromosome | SO=protein_coding_gene | is_pseudo=false
+#
+# Program:         hmmsearch
+# Version:         3.4 (Aug 2023)
+# Pipeline mode:   SEARCH
+# Query file:      /v3/work/00_inventory/busco/busco_downloads/lineages/plasmodium_odb10/hmms/13128at5820.hmm
+# Target file:     /v3/inputs/annotations/plasmodb-68/Sal-I.proteins.fa
+# Option settings: hmmsearch --domtblout /v3/work/00_inventory/busco/Sal-I_proteins/run_plasmodium_odb10/hmmer_output/initial_run_results/13128at5820.out --cpu 1 /v3/work/00_inventory/busco/busco_downloads/lineages/plasmodium_odb10/hmms/13128at5820.hmm /v3/inputs/annotations/plasmodb-68/Sal-I.proteins.fa 
+# Current dir:     /v3/work/00_inventory/busco
+# Date:            Tue May 19 17:28:46 2026
+# [ok]

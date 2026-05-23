@@ -1,0 +1,18 @@
+#                                                                            --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name        accession   tlen query name           accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+#------------------- ---------- ----- -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+CAI7719513.1         -            302 12478at5820          -            175   4.3e-84  279.1  20.3   1   2   4.2e-81   9.1e-78  258.5  14.7     1   152     7   170     7   180 0.92 | transcript=PVPAM_070012700_t1 | gene=PVPAM_070012700 | organism=Plasmodium_vivax_PAM | gene_product=prefoldin-like protein, putative | transcript_product=prefoldin-like protein, putative | location=CASCJQ010000007:424481-425389(-) | protein_length=302 | sequence_SO=supercontig | SO=protein_coding_gene | is_pseudo=false
+CAI7719513.1         -            302 12478at5820          -            175   4.3e-84  279.1  20.3   2   2   8.1e-09   1.8e-05   23.1   0.2   152   174   274   296   260   297 0.86 | transcript=PVPAM_070012700_t1 | gene=PVPAM_070012700 | organism=Plasmodium_vivax_PAM | gene_product=prefoldin-like protein, putative | transcript_product=prefoldin-like protein, putative | location=CASCJQ010000007:424481-425389(-) | protein_length=302 | sequence_SO=supercontig | SO=protein_coding_gene | is_pseudo=false
+CAI7720365.1         -            154 12478at5820          -            175   5.9e-05   21.4   4.8   1   1   6.6e-08   0.00014   20.2   4.8    63   120    88   145    12   152 0.84 | transcript=PVPAM_090013000_t1 | gene=PVPAM_090013000 | organism=Plasmodium_vivax_PAM | gene_product=prefoldin, putative | transcript_product=prefoldin, putative | location=CASCJQ010000009:449619-450835(-) | protein_length=154 | sequence_SO=supercontig | SO=protein_coding_gene | is_pseudo=false
+CAI7720567.1         -            247 12478at5820          -            175   8.5e-05   20.9   3.1   1   2      0.44   9.5e+02   -2.1   0.1    17    41    41    65    21    79 0.60 | transcript=PVPAM_090033200_t1 | gene=PVPAM_090033200 | organism=Plasmodium_vivax_PAM | gene_product=prefoldin subunit 5, putative | transcript_product=prefoldin subunit 5, putative | location=CASCJQ010000009:1274498-1275599(-) | protein_length=247 | sequence_SO=supercontig | SO=protein_coding_gene | is_pseudo=false
+CAI7720567.1         -            247 12478at5820          -            175   8.5e-05   20.9   3.1   2   2   3.9e-08   8.5e-05   20.9   3.1    34   122   123   213    94   225 0.76 | transcript=PVPAM_090033200_t1 | gene=PVPAM_090033200 | organism=Plasmodium_vivax_PAM | gene_product=prefoldin subunit 5, putative | transcript_product=prefoldin subunit 5, putative | location=CASCJQ010000009:1274498-1275599(-) | protein_length=247 | sequence_SO=supercontig | SO=protein_coding_gene | is_pseudo=false
+#
+# Program:         hmmsearch
+# Version:         3.4 (Aug 2023)
+# Pipeline mode:   SEARCH
+# Query file:      /v3/work/00_inventory/busco/busco_downloads/lineages/plasmodium_odb10/hmms/12478at5820.hmm
+# Target file:     /v3/inputs/annotations/plasmodb-68/PAM.proteins.fa
+# Option settings: hmmsearch --domtblout /v3/work/00_inventory/busco/PAM_proteins/run_plasmodium_odb10/hmmer_output/initial_run_results/12478at5820.out --cpu 1 /v3/work/00_inventory/busco/busco_downloads/lineages/plasmodium_odb10/hmms/12478at5820.hmm /v3/inputs/annotations/plasmodb-68/PAM.proteins.fa 
+# Current dir:     /v3/work/00_inventory/busco
+# Date:            Tue May 19 17:27:03 2026
+# [ok]

@@ -1,0 +1,17 @@
+#                                                                            --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name        accession   tlen query name           accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+#------------------- ---------- ----- -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+PVP01_0724200.1-p1   -            448 5762at5820           -            413    3e-284  940.7  16.3   1   1  3.9e-287  8.4e-284  939.3  16.3     1   413     1   444     1   444 0.98 | transcript=PVP01_0724200.1 | gene=PVP01_0724200 | organism=Plasmodium_vivax_P01 | gene_product=histone deacetylase 1, putative | transcript_product=histone deacetylase 1, putative | location=PvP01_07_v2:1030792-1032138(-) | protein_length=448 | sequence_SO=chromosome | SO=protein_coding_gene | is_pseudo=false
+PVP01_0807700.1-p1   -           2242 5762at5820           -            413   4.8e-14   50.8   0.3   1   2   1.9e-11   4.1e-08   31.3   0.1    96   200   864   972   856   979 0.75 | transcript=PVP01_0807700.1 | gene=PVP01_0807700 | organism=Plasmodium_vivax_P01 | gene_product=histone deacetylase 2, putative | transcript_product=histone deacetylase 2, putative | location=PvP01_08_v2:334516-341244(+) | protein_length=2242 | sequence_SO=chromosome | SO=protein_coding_gene | is_pseudo=false
+PVP01_0807700.1-p1   -           2242 5762at5820           -            413   4.8e-14   50.8   0.3   2   2   4.9e-07    0.0011   16.7   0.0   199   293  1123  1222  1111  1244 0.77 | transcript=PVP01_0807700.1 | gene=PVP01_0807700 | organism=Plasmodium_vivax_P01 | gene_product=histone deacetylase 2, putative | transcript_product=histone deacetylase 2, putative | location=PvP01_08_v2:334516-341244(+) | protein_length=2242 | sequence_SO=chromosome | SO=protein_coding_gene | is_pseudo=false
+PVP01_1027400.1-p1   -            443 5762at5820           -            413   3.6e-13   47.9   3.5   1   1   2.6e-16   5.7e-13   47.2   3.5   126   260   247   386   223   418 0.80 | transcript=PVP01_1027400.1 | gene=PVP01_1027400 | organism=Plasmodium_vivax_P01 | gene_product=histone deacetylase, putative | transcript_product=histone deacetylase, putative | location=PvP01_10_v2:1181388-1182840(+) | protein_length=443 | sequence_SO=chromosome | SO=protein_coding_gene | is_pseudo=false
+#
+# Program:         hmmsearch
+# Version:         3.4 (Aug 2023)
+# Pipeline mode:   SEARCH
+# Query file:      /v3/work/00_inventory/busco/busco_downloads/lineages/plasmodium_odb10/hmms/5762at5820.hmm
+# Target file:     /v3/inputs/annotations/plasmodb-68/PvP01.proteins.fa
+# Option settings: hmmsearch --domtblout /v3/work/00_inventory/busco/PvP01_proteins/run_plasmodium_odb10/hmmer_output/initial_run_results/5762at5820.out --cpu 1 /v3/work/00_inventory/busco/busco_downloads/lineages/plasmodium_odb10/hmms/5762at5820.hmm /v3/inputs/annotations/plasmodb-68/PvP01.proteins.fa 
+# Current dir:     /v3/work/00_inventory/busco
+# Date:            Tue May 19 17:43:13 2026
+# [ok]

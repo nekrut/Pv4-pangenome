@@ -1,0 +1,16 @@
+#                                                                            --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name        accession   tlen query name           accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+#------------------- ---------- ----- -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+PVX_098060.1-p1      -            747 5500at5820           -            471  3.3e-191  634.2   9.3   1   3     3e-61   1.7e-57  193.4   0.2     2   176    15   246    14   255 0.83 | transcript=PVX_098060.1 | gene=PVX_098060 | organism=Plasmodium_vivax_Sal-1 | gene_product=hypothetical protein, conserved | transcript_product=hypothetical protein, conserved | location=Pv_Sal1_chr10:932042-935030(-) | protein_length=747 | sequence_SO=chromosome | SO=protein_coding_gene | is_pseudo=false
+PVX_098060.1-p1      -            747 5500at5820           -            471  3.3e-191  634.2   9.3   2   3   2.3e-34   1.3e-30  104.7   0.3   175   242   344   411   326   419 0.87 | transcript=PVX_098060.1 | gene=PVX_098060 | organism=Plasmodium_vivax_Sal-1 | gene_product=hypothetical protein, conserved | transcript_product=hypothetical protein, conserved | location=Pv_Sal1_chr10:932042-935030(-) | protein_length=747 | sequence_SO=chromosome | SO=protein_coding_gene | is_pseudo=false
+PVX_098060.1-p1      -            747 5500at5820           -            471  3.3e-191  634.2   9.3   3   3  1.9e-105  1.1e-101  339.1   0.3   240   471   485   732   483   732 0.94 | transcript=PVX_098060.1 | gene=PVX_098060 | organism=Plasmodium_vivax_Sal-1 | gene_product=hypothetical protein, conserved | transcript_product=hypothetical protein, conserved | location=Pv_Sal1_chr10:932042-935030(-) | protein_length=747 | sequence_SO=chromosome | SO=protein_coding_gene | is_pseudo=false
+#
+# Program:         hmmsearch
+# Version:         3.4 (Aug 2023)
+# Pipeline mode:   SEARCH
+# Query file:      /v3/work/00_inventory/busco/busco_downloads/lineages/plasmodium_odb10/hmms/5500at5820.hmm
+# Target file:     /v3/inputs/annotations/plasmodb-68/Sal-I.proteins.fa
+# Option settings: hmmsearch --domtblout /v3/work/00_inventory/busco/Sal-I_proteins/run_plasmodium_odb10/hmmer_output/initial_run_results/5500at5820.out --cpu 1 /v3/work/00_inventory/busco/busco_downloads/lineages/plasmodium_odb10/hmms/5500at5820.hmm /v3/inputs/annotations/plasmodb-68/Sal-I.proteins.fa 
+# Current dir:     /v3/work/00_inventory/busco
+# Date:            Tue May 19 17:42:02 2026
+# [ok]

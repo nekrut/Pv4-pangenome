@@ -1,0 +1,16 @@
+#                                                                            --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name        accession   tlen query name           accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+#------------------- ---------- ----- -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+PVX_115365.1-p1      -            311 8893at5820           -            280  3.8e-186  615.2   5.3   1   1  7.1e-189  1.3e-185  613.5   5.3     1   280     1   302     1   302 0.97 | transcript=PVX_115365.1 | gene=PVX_115365 | organism=Plasmodium_vivax_Sal-1 | gene_product=26S proteasome regulatory subunit RPN11, putative | transcript_product=26S proteasome regulatory subunit RPN11, putative | location=Pv_Sal1_chr11:122508-123709(+) | protein_length=311 | sequence_SO=chromosome | SO=protein_coding_gene | is_pseudo=false
+PVX_099080.1-p1      -            328 8893at5820           -            280   1.7e-06   25.9   0.0   1   1   1.7e-09   3.2e-06   25.0   0.0    30   116    19   109     8   143 0.85 | transcript=PVX_099080.1 | gene=PVX_099080 | organism=Plasmodium_vivax_Sal-1 | gene_product=26S proteasome regulatory subunit RPN8, putative | transcript_product=26S proteasome regulatory subunit RPN8, putative | location=Pv_Sal1_chr07:494593-495731(+) | protein_length=328 | sequence_SO=chromosome | SO=protein_coding_gene | is_pseudo=false
+PVX_099335.1-p1      -            320 8893at5820           -            280    0.0015   16.2   0.0   1   1   1.6e-06     0.003   15.2   0.0    25   118    25   120     8   145 0.84 | transcript=PVX_099335.1 | gene=PVX_099335 | organism=Plasmodium_vivax_Sal-1 | gene_product=eukaryotic translation initiation factor 3 subunit 5, putative | transcript_product=eukaryotic translation initiation factor 3 subunit 5, putative | location=Pv_Sal1_chr07:685719-686873(-) | protein_length=320 | sequence_SO=chromosome | SO=protein_coding_gene | is_pseudo=false
+#
+# Program:         hmmsearch
+# Version:         3.4 (Aug 2023)
+# Pipeline mode:   SEARCH
+# Query file:      /v3/work/00_inventory/busco/busco_downloads/lineages/plasmodium_odb10/hmms/8893at5820.hmm
+# Target file:     /v3/inputs/annotations/plasmodb-68/Sal-I.proteins.fa
+# Option settings: hmmsearch --domtblout /v3/work/00_inventory/busco/Sal-I_proteins/run_plasmodium_odb10/hmmer_output/initial_run_results/8893at5820.out --cpu 1 /v3/work/00_inventory/busco/busco_downloads/lineages/plasmodium_odb10/hmms/8893at5820.hmm /v3/inputs/annotations/plasmodb-68/Sal-I.proteins.fa 
+# Current dir:     /v3/work/00_inventory/busco
+# Date:            Tue May 19 17:48:59 2026
+# [ok]

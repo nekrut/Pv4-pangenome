@@ -1,0 +1,17 @@
+#                                                                            --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name        accession   tlen query name           accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+#------------------- ---------- ----- -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+CAI7722768.1         -            668 5597at5820           -            454  3.8e-231  766.1  28.8   1   3   9.6e-18   3.1e-14   51.1   0.1     2    42    17    57    16    62 0.94 | transcript=PVPAM_130026900_t1 | gene=PVPAM_130026900 | organism=Plasmodium_vivax_PAM | gene_product=eukaryotic translation initiation factor eIF2A, putative | transcript_product=eukaryotic translation initiation factor eIF2A, putative | location=CASCJQ010000013:994332-996338(+) | protein_length=668 | sequence_SO=supercontig | SO=protein_coding_gene | is_pseudo=false
+CAI7722768.1         -            668 5597at5820           -            454  3.8e-231  766.1  28.8   2   3   4.4e-48   1.4e-44  151.1   0.7    41   140    87   203    79   209 0.86 | transcript=PVPAM_130026900_t1 | gene=PVPAM_130026900 | organism=Plasmodium_vivax_PAM | gene_product=eukaryotic translation initiation factor eIF2A, putative | transcript_product=eukaryotic translation initiation factor eIF2A, putative | location=CASCJQ010000013:994332-996338(+) | protein_length=668 | sequence_SO=supercontig | SO=protein_coding_gene | is_pseudo=false
+CAI7722768.1         -            668 5597at5820           -            454  3.8e-231  766.1  28.8   3   3  1.4e-174  4.5e-171  568.1  17.6   139   448   256   598   253   603 0.94 | transcript=PVPAM_130026900_t1 | gene=PVPAM_130026900 | organism=Plasmodium_vivax_PAM | gene_product=eukaryotic translation initiation factor eIF2A, putative | transcript_product=eukaryotic translation initiation factor eIF2A, putative | location=CASCJQ010000013:994332-996338(+) | protein_length=668 | sequence_SO=supercontig | SO=protein_coding_gene | is_pseudo=false
+CAI7719143.1         -           2336 5597at5820           -            454   4.7e-31  106.6   2.9   1   1   3.3e-34   1.1e-30  105.4   2.9   220   411   366   562   361   591 0.88 | transcript=PVPAM_060015000_t1 | gene=PVPAM_060015000 | organism=Plasmodium_vivax_PAM | gene_product=eukaryotic translation initiation factor subunit eIF2A, putative | transcript_product=eukaryotic translation initiation factor subunit eIF2A, putative | location=CASCJQ010000006:412522-419773(+) | protein_length=2336 | sequence_SO=supercontig | SO=protein_coding_gene | is_pseudo=false
+#
+# Program:         hmmsearch
+# Version:         3.4 (Aug 2023)
+# Pipeline mode:   SEARCH
+# Query file:      /v3/work/00_inventory/busco/busco_downloads/lineages/plasmodium_odb10/hmms/5597at5820.hmm
+# Target file:     /v3/inputs/annotations/plasmodb-68/PAM.proteins.fa
+# Option settings: hmmsearch --domtblout /v3/work/00_inventory/busco/PAM_proteins/run_plasmodium_odb10/hmmer_output/initial_run_results/5597at5820.out --cpu 1 /v3/work/00_inventory/busco/busco_downloads/lineages/plasmodium_odb10/hmms/5597at5820.hmm /v3/inputs/annotations/plasmodb-68/PAM.proteins.fa 
+# Current dir:     /v3/work/00_inventory/busco
+# Date:            Tue May 19 17:42:28 2026
+# [ok]

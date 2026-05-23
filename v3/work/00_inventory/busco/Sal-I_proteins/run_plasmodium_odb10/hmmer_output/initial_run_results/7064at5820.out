@@ -1,0 +1,15 @@
+#                                                                            --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name        accession   tlen query name           accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+#------------------- ---------- ----- -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+PVX_091380.1-p1      -            394 7064at5820           -            338  1.1e-202  670.4   4.2   1   1  4.8e-206  1.3e-202  670.2   4.2     2   337    39   393    38   394 0.97 | transcript=PVX_091380.1 | gene=PVX_091380 | organism=Plasmodium_vivax_Sal-1 | gene_product=glycerol-3-phosphate dehydrogenase, putative | transcript_product=glycerol-3-phosphate dehydrogenase, putative | location=Pv_Sal1_chr09:469020-471593(-) | protein_length=394 | sequence_SO=chromosome | SO=protein_coding_gene | is_pseudo=false
+PVX_123490.1-p1      -            367 7064at5820           -            338  2.9e-109  363.3   6.5   1   1  1.3e-112  3.6e-109  363.0   6.5     2   327    12   358    11   365 0.92 | transcript=PVX_123490.1 | gene=PVX_123490 | organism=Plasmodium_vivax_Sal-1 | gene_product=glycerol-3-phosphate dehydrogenase, putative | transcript_product=glycerol-3-phosphate dehydrogenase, putative | location=Pv_Sal1_chr14:1469555-1471385(+) | protein_length=367 | sequence_SO=chromosome | SO=protein_coding_gene | is_pseudo=false
+#
+# Program:         hmmsearch
+# Version:         3.4 (Aug 2023)
+# Pipeline mode:   SEARCH
+# Query file:      /v3/work/00_inventory/busco/busco_downloads/lineages/plasmodium_odb10/hmms/7064at5820.hmm
+# Target file:     /v3/inputs/annotations/plasmodb-68/Sal-I.proteins.fa
+# Option settings: hmmsearch --domtblout /v3/work/00_inventory/busco/Sal-I_proteins/run_plasmodium_odb10/hmmer_output/initial_run_results/7064at5820.out --cpu 1 /v3/work/00_inventory/busco/busco_downloads/lineages/plasmodium_odb10/hmms/7064at5820.hmm /v3/inputs/annotations/plasmodb-68/Sal-I.proteins.fa 
+# Current dir:     /v3/work/00_inventory/busco
+# Date:            Tue May 19 17:45:44 2026
+# [ok]

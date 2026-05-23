@@ -1,0 +1,17 @@
+#                                                                            --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name        accession   tlen query name           accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+#------------------- ---------- ----- -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+CAI7718165.1         -           1003 4241at5820           -            734         0 1126.4 100.4   1   4   9.2e-41     6e-37  125.8   1.8     2    71     1    70     1    88 0.96 | transcript=PVPAM_030016500_t1 | gene=PVPAM_030016500 | organism=Plasmodium_vivax_PAM | gene_product=protein SDA1, putative | transcript_product=protein SDA1, putative | location=CASCJQ010000003:492908-495919(-) | protein_length=1003 | sequence_SO=supercontig | SO=protein_coding_gene | is_pseudo=false
+CAI7718165.1         -           1003 4241at5820           -            734         0 1126.4 100.4   2   4   7.8e-48     5e-44  149.2   9.6    85   192   155   263   120   268 0.82 | transcript=PVPAM_030016500_t1 | gene=PVPAM_030016500 | organism=Plasmodium_vivax_PAM | gene_product=protein SDA1, putative | transcript_product=protein SDA1, putative | location=CASCJQ010000003:492908-495919(-) | protein_length=1003 | sequence_SO=supercontig | SO=protein_coding_gene | is_pseudo=false
+CAI7718165.1         -           1003 4241at5820           -            734         0 1126.4 100.4   3   4  1.7e-183  1.1e-179  597.7  26.9   191   580   309   734   305   800 0.84 | transcript=PVPAM_030016500_t1 | gene=PVPAM_030016500 | organism=Plasmodium_vivax_PAM | gene_product=protein SDA1, putative | transcript_product=protein SDA1, putative | location=CASCJQ010000003:492908-495919(-) | protein_length=1003 | sequence_SO=supercontig | SO=protein_coding_gene | is_pseudo=false
+CAI7718165.1         -           1003 4241at5820           -            734         0 1126.4 100.4   4   4   2.6e-83   1.7e-79  266.5  38.4   556   734   822  1003   814  1003 0.95 | transcript=PVPAM_030016500_t1 | gene=PVPAM_030016500 | organism=Plasmodium_vivax_PAM | gene_product=protein SDA1, putative | transcript_product=protein SDA1, putative | location=CASCJQ010000003:492908-495919(-) | protein_length=1003 | sequence_SO=supercontig | SO=protein_coding_gene | is_pseudo=false
+#
+# Program:         hmmsearch
+# Version:         3.4 (Aug 2023)
+# Pipeline mode:   SEARCH
+# Query file:      /v3/work/00_inventory/busco/busco_downloads/lineages/plasmodium_odb10/hmms/4241at5820.hmm
+# Target file:     /v3/inputs/annotations/plasmodb-68/PAM.proteins.fa
+# Option settings: hmmsearch --domtblout /v3/work/00_inventory/busco/PAM_proteins/run_plasmodium_odb10/hmmer_output/initial_run_results/4241at5820.out --cpu 1 /v3/work/00_inventory/busco/busco_downloads/lineages/plasmodium_odb10/hmms/4241at5820.hmm /v3/inputs/annotations/plasmodb-68/PAM.proteins.fa 
+# Current dir:     /v3/work/00_inventory/busco
+# Date:            Tue May 19 17:40:53 2026
+# [ok]

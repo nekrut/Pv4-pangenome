@@ -1,0 +1,17 @@
+#                                                                            --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name        accession   tlen query name           accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+#------------------- ---------- ----- -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+CAG9476925.1         -            245 12123at5820          -            215  7.5e-112  370.7  41.7   1   2     6e-17   1.2e-13   49.7   0.4     1    33     1    33     1    44 0.93 | transcript=PVW1_090030100_t1 | gene=PVW1_090030100 | organism=Plasmodium_vivax_PvW1 | gene_product=Ribosome biogenesis regulatory protein [Source:UniProtKB/TrEMBL;Acc:A0A1G4HCT4] | transcript_product=Ribosome biogenesis regulatory protein [Source:UniProtKB/TrEMBL;Acc:A0A1G4HCT4] | location=CAJZCX010000007:1139799-1140918(-) | protein_length=245 | sequence_SO=supercontig | SO=protein_coding_gene | is_pseudo=false
+CAG9476925.1         -            245 12123at5820          -            215  7.5e-112  370.7  41.7   2   2  3.6e-101   7.3e-98  325.0  35.9    33   215    53   245    34   245 0.95 | transcript=PVW1_090030100_t1 | gene=PVW1_090030100 | organism=Plasmodium_vivax_PvW1 | gene_product=Ribosome biogenesis regulatory protein [Source:UniProtKB/TrEMBL;Acc:A0A1G4HCT4] | transcript_product=Ribosome biogenesis regulatory protein [Source:UniProtKB/TrEMBL;Acc:A0A1G4HCT4] | location=CAJZCX010000007:1139799-1140918(-) | protein_length=245 | sequence_SO=supercontig | SO=protein_coding_gene | is_pseudo=false
+CAG9472436.1         -            517 12123at5820          -            215    0.0092   14.1   0.0   1   1     8e-06     0.016   13.3   0.0   128   193    31    96    19   114 0.79 | transcript=PVW1_140060600_t1 | gene=PVW1_140060600 | organism=Plasmodium_vivax_PvW1 | gene_product=unspecified product | transcript_product=unspecified product | location=CAJZCX010000003:2429575-2431128(-) | protein_length=517 | sequence_SO=supercontig | SO=protein_coding_gene | is_pseudo=false
+CAG9473380.1         -            228 12123at5820          -            215     0.011   13.8   0.0   1   1   7.7e-06     0.016   13.4   0.0    94   146    37    89    27   107 0.79 | transcript=PVW1_120036600_t1 | gene=PVW1_120036600 | organism=Plasmodium_vivax_PvW1 | gene_product=SAM-dependent RNA methyltransferase, putative [Source:UniProtKB/TrEMBL;Acc:A0A1G4H1F3] | transcript_product=SAM-dependent RNA methyltransferase, putative [Source:UniProtKB/TrEMBL;Acc:A0A1G4H1F3] | location=CAJZCX010000004:1340925-1341611(-) | protein_length=228 | sequence_SO=supercontig | SO=protein_coding_gene | is_pseudo=false
+#
+# Program:         hmmsearch
+# Version:         3.4 (Aug 2023)
+# Pipeline mode:   SEARCH
+# Query file:      /v3/work/00_inventory/busco/busco_downloads/lineages/plasmodium_odb10/hmms/12123at5820.hmm
+# Target file:     /v3/inputs/annotations/plasmodb-68/PvW1.proteins.fa
+# Option settings: hmmsearch --domtblout /v3/work/00_inventory/busco/PvW1_proteins/run_plasmodium_odb10/hmmer_output/initial_run_results/12123at5820.out --cpu 1 /v3/work/00_inventory/busco/busco_downloads/lineages/plasmodium_odb10/hmms/12123at5820.hmm /v3/inputs/annotations/plasmodb-68/PvW1.proteins.fa 
+# Current dir:     /v3/work/00_inventory/busco
+# Date:            Tue May 19 17:25:46 2026
+# [ok]

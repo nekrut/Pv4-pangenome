@@ -1,0 +1,15 @@
+#                                                                            --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name        accession   tlen query name           accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+#------------------- ---------- ----- -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+PVX_084285.1-p1      -            562 4916at5820           -            463  2.7e-275  911.4  20.9   1   2  4.1e-255  2.3e-251  832.5  18.1     1   400    20   427    20   437 0.98 | transcript=PVX_084285.1 | gene=PVX_084285 | organism=Plasmodium_vivax_Sal-1 | gene_product=O-phosphoseryl-tRNA(Sec) selenium transferase, putative | transcript_product=O-phosphoseryl-tRNA(Sec) selenium transferase, putative | location=Pv_Sal1_chr13:144589-146786(-) | protein_length=562 | sequence_SO=chromosome | SO=protein_coding_gene | is_pseudo=false
+PVX_084285.1-p1      -            562 4916at5820           -            463  2.7e-275  911.4  20.9   2   2   7.9e-27   4.4e-23   79.9   0.0   394   463   479   551   466   551 0.83 | transcript=PVX_084285.1 | gene=PVX_084285 | organism=Plasmodium_vivax_Sal-1 | gene_product=O-phosphoseryl-tRNA(Sec) selenium transferase, putative | transcript_product=O-phosphoseryl-tRNA(Sec) selenium transferase, putative | location=Pv_Sal1_chr13:144589-146786(-) | protein_length=562 | sequence_SO=chromosome | SO=protein_coding_gene | is_pseudo=false
+#
+# Program:         hmmsearch
+# Version:         3.4 (Aug 2023)
+# Pipeline mode:   SEARCH
+# Query file:      /v3/work/00_inventory/busco/busco_downloads/lineages/plasmodium_odb10/hmms/4916at5820.hmm
+# Target file:     /v3/inputs/annotations/plasmodb-68/Sal-I.proteins.fa
+# Option settings: hmmsearch --domtblout /v3/work/00_inventory/busco/Sal-I_proteins/run_plasmodium_odb10/hmmer_output/initial_run_results/4916at5820.out --cpu 1 /v3/work/00_inventory/busco/busco_downloads/lineages/plasmodium_odb10/hmms/4916at5820.hmm /v3/inputs/annotations/plasmodb-68/Sal-I.proteins.fa 
+# Current dir:     /v3/work/00_inventory/busco
+# Date:            Tue May 19 17:39:37 2026
+# [ok]

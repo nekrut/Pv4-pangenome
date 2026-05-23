@@ -1,0 +1,17 @@
+#                                                                            --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name        accession   tlen query name           accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+#------------------- ---------- ----- -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+PVX_081245.1-p1      -            114 14799at5820          -             80     7e-49  162.5   2.8   1   1   4.9e-52     9e-49  162.1   2.8     1    80    31   114    31   114 0.98 | transcript=PVX_081245.1 | gene=PVX_081245 | organism=Plasmodium_vivax_Sal-1 | gene_product=hypothetical protein, conserved | transcript_product=hypothetical protein, conserved | location=Pv_Sal1_chr02:194537-195283(+) | protein_length=114 | sequence_SO=chromosome | SO=protein_coding_gene | is_pseudo=false
+PVX_089970.1-p1      -            296 14799at5820          -             80    0.0019   16.9   0.4   1   1     3e-06    0.0056   15.4   0.4     7    51   139   183   133   212 0.84 | transcript=PVX_089970.1 | gene=PVX_089970 | organism=Plasmodium_vivax_Sal-1 | gene_product=hypothetical protein, conserved | transcript_product=hypothetical protein, conserved | location=Pv_Sal1_chr05:989710-992155(-) | protein_length=296 | sequence_SO=chromosome | SO=protein_coding_gene | is_pseudo=false
+PVX_084710.1-p1      -            417 14799at5820          -             80     0.029   13.1   0.5   1   2         1   1.9e+03   -2.3   0.2    25    39    96   110    85   115 0.75 | transcript=PVX_084710.1 | gene=PVX_084710 | organism=Plasmodium_vivax_Sal-1 | gene_product=GTP-binding protein, putative | transcript_product=GTP-binding protein, putative | location=Pv_Sal1_chr13:561330-562583(-) | protein_length=417 | sequence_SO=chromosome | SO=protein_coding_gene | is_pseudo=false
+PVX_084710.1-p1      -            417 14799at5820          -             80     0.029   13.1   0.5   2   2   7.3e-05      0.13   11.0   0.0    10    45   162   197   157   204 0.89 | transcript=PVX_084710.1 | gene=PVX_084710 | organism=Plasmodium_vivax_Sal-1 | gene_product=GTP-binding protein, putative | transcript_product=GTP-binding protein, putative | location=Pv_Sal1_chr13:561330-562583(-) | protein_length=417 | sequence_SO=chromosome | SO=protein_coding_gene | is_pseudo=false
+#
+# Program:         hmmsearch
+# Version:         3.4 (Aug 2023)
+# Pipeline mode:   SEARCH
+# Query file:      /v3/work/00_inventory/busco/busco_downloads/lineages/plasmodium_odb10/hmms/14799at5820.hmm
+# Target file:     /v3/inputs/annotations/plasmodb-68/Sal-I.proteins.fa
+# Option settings: hmmsearch --domtblout /v3/work/00_inventory/busco/Sal-I_proteins/run_plasmodium_odb10/hmmer_output/initial_run_results/14799at5820.out --cpu 1 /v3/work/00_inventory/busco/busco_downloads/lineages/plasmodium_odb10/hmms/14799at5820.hmm /v3/inputs/annotations/plasmodb-68/Sal-I.proteins.fa 
+# Current dir:     /v3/work/00_inventory/busco
+# Date:            Tue May 19 17:34:23 2026
+# [ok]

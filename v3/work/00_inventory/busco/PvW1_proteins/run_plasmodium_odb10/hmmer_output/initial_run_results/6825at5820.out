@@ -1,0 +1,16 @@
+#                                                                            --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name        accession   tlen query name           accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+#------------------- ---------- ----- -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+CAG9483390.1         -            510 6825at5820           -            409  4.4e-218  722.5   5.8   1   2    2e-175    6e-172  570.5   4.3     1   316    48   378    48   391 0.97 | transcript=PVW1_030019600_t1 | gene=PVW1_030019600 | organism=Plasmodium_vivax_PvW1 | gene_product=Cysteine desulfurase [Source:UniProtKB/TrEMBL;Acc:A0A1G4H7G5] | transcript_product=Cysteine desulfurase [Source:UniProtKB/TrEMBL;Acc:A0A1G4H7G5] | location=CAJZCX010000014:649051-650719(+) | protein_length=510 | sequence_SO=supercontig | SO=protein_coding_gene | is_pseudo=false
+CAG9483390.1         -            510 6825at5820           -            409  4.4e-218  722.5   5.8   2   2   3.2e-48   9.9e-45  151.5   0.0   321   408   411   504   409   505 0.96 | transcript=PVW1_030019600_t1 | gene=PVW1_030019600 | organism=Plasmodium_vivax_PvW1 | gene_product=Cysteine desulfurase [Source:UniProtKB/TrEMBL;Acc:A0A1G4H7G5] | transcript_product=Cysteine desulfurase [Source:UniProtKB/TrEMBL;Acc:A0A1G4H7G5] | location=CAJZCX010000014:649051-650719(+) | protein_length=510 | sequence_SO=supercontig | SO=protein_coding_gene | is_pseudo=false
+CAG9484212.1         -            517 6825at5820           -            409   2.3e-25   87.7   6.4   1   1   1.2e-28   3.6e-25   87.1   6.4    25   248   112   333   103   345 0.87 | transcript=PVW1_020020500_t1 | gene=PVW1_020020500 | organism=Plasmodium_vivax_PvW1 | gene_product=Cysteine desulfurase [Source:UniProtKB/TrEMBL;Acc:A0A1G4H769] | transcript_product=Cysteine desulfurase [Source:UniProtKB/TrEMBL;Acc:A0A1G4H769] | location=CAJZCX010000015:692166-693719(-) | protein_length=517 | sequence_SO=supercontig | SO=protein_coding_gene | is_pseudo=false
+#
+# Program:         hmmsearch
+# Version:         3.4 (Aug 2023)
+# Pipeline mode:   SEARCH
+# Query file:      /v3/work/00_inventory/busco/busco_downloads/lineages/plasmodium_odb10/hmms/6825at5820.hmm
+# Target file:     /v3/inputs/annotations/plasmodb-68/PvW1.proteins.fa
+# Option settings: hmmsearch --domtblout /v3/work/00_inventory/busco/PvW1_proteins/run_plasmodium_odb10/hmmer_output/initial_run_results/6825at5820.out --cpu 1 /v3/work/00_inventory/busco/busco_downloads/lineages/plasmodium_odb10/hmms/6825at5820.hmm /v3/inputs/annotations/plasmodb-68/PvW1.proteins.fa 
+# Current dir:     /v3/work/00_inventory/busco
+# Date:            Tue May 19 17:44:43 2026
+# [ok]

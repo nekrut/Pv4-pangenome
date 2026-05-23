@@ -1,0 +1,20 @@
+#                                                                            --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name        accession   tlen query name           accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+#------------------- ---------- ----- -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+SCO72579.1           -            344 9265at5820           -            270  1.2e-158  525.5  24.8   1   1  1.1e-161  1.4e-158  525.3  24.8     1   270    30   309    30   309 0.98 endoplasmic reticulum-resident calcium binding protein, putative [Plasmodium vivax]
+SCO74740.1           -            149 9265at5820           -            270   3.2e-09   35.5   5.0   1   2   8.8e-11   1.1e-07   30.5   0.6    98   198     7   109     1   114 0.83 calmodulin, putative [Plasmodium vivax]
+SCO74740.1           -            149 9265at5820           -            270   3.2e-09   35.5   5.0   2   2   0.00096       1.2    7.4   0.3   134   163   115   144   109   148 0.90 calmodulin, putative [Plasmodium vivax]
+SCO70623.1           -            168 9265at5820           -            270   6.2e-05   21.5  11.9   1   2   0.00071       0.9    7.8   0.2   134   163    22    51    14    65 0.78 centrin-1, putative [Plasmodium vivax]
+SCO70623.1           -            168 9265at5820           -            270   6.2e-05   21.5  11.9   2   2   7.9e-07   0.00099   17.5  10.4    31   163    29   160    26   166 0.82 centrin-1, putative [Plasmodium vivax]
+SCO72548.1           -            167 9265at5820           -            270   0.00011   20.6  14.1   1   1   9.6e-07    0.0012   17.2  14.2    57   200    12   153     4   162 0.79 centrin-4, putative [Plasmodium vivax]
+SCO70337.1           -            107 9265at5820           -            270   0.00066   18.1   0.8   1   1   8.4e-07     0.001   17.4   0.5   170   199    43    72    24    80 0.78 centrin, putative [Plasmodium vivax]
+#
+# Program:         hmmsearch
+# Version:         3.4 (Aug 2023)
+# Pipeline mode:   SEARCH
+# Query file:      /v3/work/00_inventory/busco/busco_downloads/lineages/plasmodium_odb10/hmms/9265at5820.hmm
+# Target file:     /v3/inputs/annotations/ncbi-datasets/PvC01.proteins.fa
+# Option settings: hmmsearch --domtblout /v3/work/00_inventory/busco/PvC01_proteins/run_plasmodium_odb10/hmmer_output/initial_run_results/9265at5820.out --cpu 1 /v3/work/00_inventory/busco/busco_downloads/lineages/plasmodium_odb10/hmms/9265at5820.hmm /v3/inputs/annotations/ncbi-datasets/PvC01.proteins.fa 
+# Current dir:     /v3/work/00_inventory/busco
+# Date:            Tue May 19 19:09:20 2026
+# [ok]

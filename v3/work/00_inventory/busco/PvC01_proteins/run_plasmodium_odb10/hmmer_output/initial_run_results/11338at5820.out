@@ -1,0 +1,26 @@
+#                                                                            --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name        accession   tlen query name           accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+#------------------- ---------- ----- -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+SCO74848.1           -            383 11338at5820          -            249  1.2e-100  334.5  37.2   1   4   1.2e-28   9.7e-26   89.1   0.1     3    53     1    51     1    57 0.95 DnaJ protein, putative [Plasmodium vivax]
+SCO74848.1           -            383 11338at5820          -            249  1.2e-100  334.5  37.2   2   4   1.7e-28   1.3e-25   88.7   4.5    48   126    78   166    72   171 0.83 DnaJ protein, putative [Plasmodium vivax]
+SCO74848.1           -            383 11338at5820          -            249  1.2e-100  334.5  37.2   3   4   2.7e-44   2.1e-41  140.4  16.2   104   228   195   342   188   348 0.82 DnaJ protein, putative [Plasmodium vivax]
+SCO74848.1           -            383 11338at5820          -            249  1.2e-100  334.5  37.2   4   4   6.5e-07   0.00051   18.0   0.2   228   249   361   382   356   382 0.89 DnaJ protein, putative [Plasmodium vivax]
+SCO71058.1           -            328 11338at5820          -            249   1.1e-07   30.1   0.4   1   1   2.5e-10   1.9e-07   29.2   0.4    11    81     1    74     1    82 0.80 protein SIS1, putative [Plasmodium vivax]
+SCO74702.1           -            421 11338at5820          -            249   5.5e-07   27.7   0.5   1   2     7e-10   5.5e-07   27.7   0.5    10    81    23    90    19   104 0.84 HSP40, subfamily A, putative, putative [Plasmodium vivax]
+SCO74702.1           -            421 11338at5820          -            249   5.5e-07   27.7   0.5   2   2       1.1   8.8e+02   -2.4   2.0    95   130   352   365   329   407 0.51 HSP40, subfamily A, putative, putative [Plasmodium vivax]
+SCO74692.1           -            245 11338at5820          -            249   2.3e-05   22.4   0.2   1   1   4.2e-08   3.3e-05   21.9   0.2    33    80    20    73     6    90 0.83 DnaJ domain containing protein [Plasmodium vivax]
+SCO74557.1           -            406 11338at5820          -            249   2.5e-05   22.3   0.1   1   1   6.1e-08   4.8e-05   21.4   0.1    12    88    80   159    73   166 0.75 40 kDa heat shock protein, putative [Plasmodium vivax]
+SCO70713.1           -            420 11338at5820          -            249   2.5e-05   22.3   3.5   1   1   5.5e-08   4.3e-05   21.5   3.5    14   126    85   200    81   226 0.75 heat shock protein, putative [Plasmodium vivax]
+SCO71946.1           -            378 11338at5820          -            249   0.00021   19.2   0.1   1   2   2.7e-07   0.00021   19.2   0.1    30    79    64   117    55   130 0.81 DnaJ protein, putative [Plasmodium vivax]
+SCO71946.1           -            378 11338at5820          -            249   0.00021   19.2   0.1   2   2       1.6   1.3e+03   -3.0   3.3    92   157   269   337   250   348 0.61 DnaJ protein, putative [Plasmodium vivax]
+SCO74084.1           -            334 11338at5820          -            249    0.0032   15.4   0.0   1   1     8e-06    0.0063   14.4   0.0    14    78    43   108    32   118 0.73 DNAJ like protein, putative [Plasmodium vivax]
+#
+# Program:         hmmsearch
+# Version:         3.4 (Aug 2023)
+# Pipeline mode:   SEARCH
+# Query file:      /v3/work/00_inventory/busco/busco_downloads/lineages/plasmodium_odb10/hmms/11338at5820.hmm
+# Target file:     /v3/inputs/annotations/ncbi-datasets/PvC01.proteins.fa
+# Option settings: hmmsearch --domtblout /v3/work/00_inventory/busco/PvC01_proteins/run_plasmodium_odb10/hmmer_output/initial_run_results/11338at5820.out --cpu 1 /v3/work/00_inventory/busco/busco_downloads/lineages/plasmodium_odb10/hmms/11338at5820.hmm /v3/inputs/annotations/ncbi-datasets/PvC01.proteins.fa 
+# Current dir:     /v3/work/00_inventory/busco
+# Date:            Tue May 19 18:32:49 2026
+# [ok]

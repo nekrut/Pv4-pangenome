@@ -1,0 +1,22 @@
+#                                                                            --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name        accession   tlen query name           accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+#------------------- ---------- ----- -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+SCO69476.1           -           1860 571at5820            -           1466         0 2926.7 120.0   1   4  3.4e-211  6.9e-208  691.7  24.5     1   356     6   435     6   441 0.95 plastid replication-repair enzyme, putative [Plasmodium vivax]
+SCO69476.1           -           1860 571at5820            -           1466         0 2926.7 120.0   2   4  7.3e-244  1.5e-240  800.0  11.6   355   748   522   933   506   952 0.93 plastid replication-repair enzyme, putative [Plasmodium vivax]
+SCO69476.1           -           1860 571at5820            -           1466         0 2926.7 120.0   3   4   5.6e-43   1.1e-39  134.2   0.7   744   838  1029  1124  1013  1135 0.91 plastid replication-repair enzyme, putative [Plasmodium vivax]
+SCO69476.1           -           1860 571at5820            -           1466         0 2926.7 120.0   4   4         0         0 1317.6  60.5   839  1466  1220  1860  1215  1860 0.98 plastid replication-repair enzyme, putative [Plasmodium vivax]
+SCO68144.1           -           1221 571at5820            -           1466   1.3e-12   44.5  28.6   1   4      0.28   5.7e+02   -4.0   0.1   986  1022   347   386   339   388 0.63 DNA polymerase 1, putative [Plasmodium vivax]
+SCO68144.1           -           1221 571at5820            -           1466   1.3e-12   44.5  28.6   2   4     0.015        30    0.3   4.0  1046  1138   528   620   510   631 0.78 DNA polymerase 1, putative [Plasmodium vivax]
+SCO68144.1           -           1221 571at5820            -           1466   1.3e-12   44.5  28.6   3   4   9.5e-13   1.9e-09   34.0   3.8  1165  1227   785   848   745   854 0.76 DNA polymerase 1, putative [Plasmodium vivax]
+SCO68144.1           -           1221 571at5820            -           1466   1.3e-12   44.5  28.6   4   4   9.5e-10   1.9e-06   24.1   1.3  1240  1401   911  1068   906  1141 0.83 DNA polymerase 1, putative [Plasmodium vivax]
+SCO65141.1           -            481 571at5820            -           1466   3.7e-07   26.5   2.4   1   1   2.6e-10   5.2e-07   26.0   2.4   950  1079   153   280   136   303 0.82 DNA binding protein, putative [Plasmodium vivax]
+#
+# Program:         hmmsearch
+# Version:         3.4 (Aug 2023)
+# Pipeline mode:   SEARCH
+# Query file:      /v3/work/00_inventory/busco/busco_downloads/lineages/plasmodium_odb10/hmms/571at5820.hmm
+# Target file:     /v3/inputs/annotations/ncbi-datasets/PvT01.proteins.fa
+# Option settings: hmmsearch --domtblout /v3/work/00_inventory/busco/PvT01_proteins/run_plasmodium_odb10/hmmer_output/initial_run_results/571at5820.out --cpu 1 /v3/work/00_inventory/busco/busco_downloads/lineages/plasmodium_odb10/hmms/571at5820.hmm /v3/inputs/annotations/ncbi-datasets/PvT01.proteins.fa 
+# Current dir:     /v3/work/00_inventory/busco
+# Date:            Tue May 19 18:56:12 2026
+# [ok]

@@ -1,0 +1,17 @@
+#                                                                            --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name        accession   tlen query name           accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+#------------------- ---------- ----- -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+PVX_123400.1-p1      -            201 12714at5820          -            145   1.1e-62  208.5   8.2   1   2     3e-56   8.4e-53  176.4   2.4     2   114    18   143    17   149 0.91 | transcript=PVX_123400.1 | gene=PVX_123400 | organism=Plasmodium_vivax_Sal-1 | gene_product=SET domain containing protein | transcript_product=SET domain containing protein | location=Pv_Sal1_chr14:1421662-1422483(-) | protein_length=201 | sequence_SO=chromosome | SO=protein_coding_gene | is_pseudo=false
+PVX_123400.1-p1      -            201 12714at5820          -            145   1.1e-62  208.5   8.2   2   2   6.8e-13   1.9e-09   35.8   0.3   114   145   160   195   148   195 0.86 | transcript=PVX_123400.1 | gene=PVX_123400 | organism=Plasmodium_vivax_Sal-1 | gene_product=SET domain containing protein | transcript_product=SET domain containing protein | location=Pv_Sal1_chr14:1421662-1422483(-) | protein_length=201 | sequence_SO=chromosome | SO=protein_coding_gene | is_pseudo=false
+PVX_098940.1-p1      -           1072 12714at5820          -            145     0.066   11.3   3.2   1   2     0.034        95    1.1   0.3    16    77   371   433   359   456 0.82 | transcript=PVX_098940.1 | gene=PVX_098940 | organism=Plasmodium_vivax_Sal-1 | gene_product=SET domain protein, putative | transcript_product=SET domain protein, putative | location=Pv_Sal1_chr07:373691-376909(-) | protein_length=1072 | sequence_SO=chromosome | SO=protein_coding_gene | is_pseudo=false
+PVX_098940.1-p1      -           1072 12714at5820          -            145     0.066   11.3   3.2   2   2     6e-05      0.17   10.0   0.2    87   138   561   611   531   617 0.72 | transcript=PVX_098940.1 | gene=PVX_098940 | organism=Plasmodium_vivax_Sal-1 | gene_product=SET domain protein, putative | transcript_product=SET domain protein, putative | location=Pv_Sal1_chr07:373691-376909(-) | protein_length=1072 | sequence_SO=chromosome | SO=protein_coding_gene | is_pseudo=false
+#
+# Program:         hmmsearch
+# Version:         3.4 (Aug 2023)
+# Pipeline mode:   SEARCH
+# Query file:      /v3/work/00_inventory/busco/busco_downloads/lineages/plasmodium_odb10/hmms/12714at5820.hmm
+# Target file:     /v3/inputs/annotations/plasmodb-68/Sal-I.proteins.fa
+# Option settings: hmmsearch --domtblout /v3/work/00_inventory/busco/Sal-I_proteins/run_plasmodium_odb10/hmmer_output/initial_run_results/12714at5820.out --cpu 1 /v3/work/00_inventory/busco/busco_downloads/lineages/plasmodium_odb10/hmms/12714at5820.hmm /v3/inputs/annotations/plasmodb-68/Sal-I.proteins.fa 
+# Current dir:     /v3/work/00_inventory/busco
+# Date:            Tue May 19 17:27:41 2026
+# [ok]

@@ -1,0 +1,15 @@
+#                                                                            --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name        accession   tlen query name           accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+#------------------- ---------- ----- -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+CAI7723785.1         -            384 10851at5820          -            301  9.1e-125  414.4  13.6   1   2   5.8e-40   3.7e-36  123.4   2.0     1   116    22   164    22   181 0.91 | transcript=PVPAM_140070800_t1 | gene=PVPAM_140070800 | organism=Plasmodium_vivax_PAM | gene_product=5-formyltetrahydrofolate cyclo-ligase, putative | transcript_product=5-formyltetrahydrofolate cyclo-ligase, putative | location=CASCJQ010000014:2800103-2801257(-) | protein_length=384 | sequence_SO=supercontig | SO=protein_coding_gene | is_pseudo=false
+CAI7723785.1         -            384 10851at5820          -            301  9.1e-125  414.4  13.6   2   2   1.4e-92   9.3e-89  296.1   4.9   115   300   198   383   168   384 0.92 | transcript=PVPAM_140070800_t1 | gene=PVPAM_140070800 | organism=Plasmodium_vivax_PAM | gene_product=5-formyltetrahydrofolate cyclo-ligase, putative | transcript_product=5-formyltetrahydrofolate cyclo-ligase, putative | location=CASCJQ010000014:2800103-2801257(-) | protein_length=384 | sequence_SO=supercontig | SO=protein_coding_gene | is_pseudo=false
+#
+# Program:         hmmsearch
+# Version:         3.4 (Aug 2023)
+# Pipeline mode:   SEARCH
+# Query file:      /v3/work/00_inventory/busco/busco_downloads/lineages/plasmodium_odb10/hmms/10851at5820.hmm
+# Target file:     /v3/inputs/annotations/plasmodb-68/PAM.proteins.fa
+# Option settings: hmmsearch --domtblout /v3/work/00_inventory/busco/PAM_proteins/run_plasmodium_odb10/hmmer_output/initial_run_results/10851at5820.out --cpu 1 /v3/work/00_inventory/busco/busco_downloads/lineages/plasmodium_odb10/hmms/10851at5820.hmm /v3/inputs/annotations/plasmodb-68/PAM.proteins.fa 
+# Current dir:     /v3/work/00_inventory/busco
+# Date:            Tue May 19 17:27:31 2026
+# [ok]

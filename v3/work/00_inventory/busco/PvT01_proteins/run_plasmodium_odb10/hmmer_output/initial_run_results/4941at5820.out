@@ -1,0 +1,21 @@
+#                                                                            --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name        accession   tlen query name           accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+#------------------- ---------- ----- -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+SCO68044.1           -            529 4941at5820           -            494         0 1086.8  29.7   1   1         0         0 1085.8  29.7     1   494    11   529    11   529 0.97 T-complex protein 1, delta subunit, putative [Plasmodium vivax]
+SCO66918.1           -            535 4941at5820           -            494   3.7e-73  245.2  20.7   1   1   7.7e-76   5.9e-73  244.6  20.7    10   491    26   529    17   531 0.90 T-complex protein 1 subunit epsilon, putative [Plasmodium vivax]
+SCO70050.1           -            544 4941at5820           -            494   3.7e-66  222.2  16.2   1   1   6.4e-69   4.9e-66  221.8  16.2    27   491    52   526    17   528 0.91 T-complex protein 1 subunit gamma, putative [Plasmodium vivax]
+SCO67420.1           -            543 4941at5820           -            494   5.7e-63  211.6   9.5   1   1   1.1e-65   8.1e-63  211.1   9.5    27   491    44   531     6   533 0.87 T-complex protein 1, alpha subunit, putative [Plasmodium vivax]
+SCO67053.1           -            532 4941at5820           -            494   6.1e-60  201.6  12.9   1   1     1e-62     8e-60  201.3  12.9    34   493    63   524    52   525 0.87 T-complex protein 1 subunit beta, putative [Plasmodium vivax]
+SCO67040.1           -            540 4941at5820           -            494   3.2e-54  182.8  12.4   1   1   5.4e-57   4.1e-54  182.4  12.4    32   491    57   524    33   526 0.87 T-complex protein 1, eta subunit, putative [Plasmodium vivax]
+SCO65614.1           -            544 4941at5820           -            494   3.3e-35  120.0  26.3   1   1   5.6e-38   4.3e-35  119.7  26.3    34   492    61   524    49   526 0.89 T-complex protein 1 subunit theta, putative [Plasmodium vivax]
+SCO68305.1           -            529 4941at5820           -            494   9.2e-26   88.9  13.7   1   1   1.7e-28   1.3e-25   88.4  13.7    28   428    48   469    17   486 0.84 T-complex protein 1 subunit zeta, putative [Plasmodium vivax]
+#
+# Program:         hmmsearch
+# Version:         3.4 (Aug 2023)
+# Pipeline mode:   SEARCH
+# Query file:      /v3/work/00_inventory/busco/busco_downloads/lineages/plasmodium_odb10/hmms/4941at5820.hmm
+# Target file:     /v3/inputs/annotations/ncbi-datasets/PvT01.proteins.fa
+# Option settings: hmmsearch --domtblout /v3/work/00_inventory/busco/PvT01_proteins/run_plasmodium_odb10/hmmer_output/initial_run_results/4941at5820.out --cpu 1 /v3/work/00_inventory/busco/busco_downloads/lineages/plasmodium_odb10/hmms/4941at5820.hmm /v3/inputs/annotations/ncbi-datasets/PvT01.proteins.fa 
+# Current dir:     /v3/work/00_inventory/busco
+# Date:            Tue May 19 18:48:52 2026
+# [ok]

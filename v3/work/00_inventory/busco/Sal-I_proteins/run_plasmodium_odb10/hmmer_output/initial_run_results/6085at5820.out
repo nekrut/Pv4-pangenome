@@ -1,0 +1,17 @@
+#                                                                            --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name        accession   tlen query name           accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+#------------------- ---------- ----- -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+PVX_089500.1-p1      -            639 6085at5820           -            335  4.7e-101  336.5  46.9   1   4   2.8e-32   1.6e-28   98.2   4.8     1   100     1   123     1   150 0.83 | transcript=PVX_089500.1 | gene=PVX_089500 | organism=Plasmodium_vivax_Sal-1 | gene_product=dynactin subunit 6, putative | transcript_product=dynactin subunit 6, putative | location=Pv_Sal1_chr05:610728-613385(-) | protein_length=639 | sequence_SO=chromosome | SO=protein_coding_gene | is_pseudo=false
+PVX_089500.1-p1      -            639 6085at5820           -            335  4.7e-101  336.5  46.9   2   4   1.1e-09   6.4e-06   23.8   0.0    99   129   208   238   205   248 0.90 | transcript=PVX_089500.1 | gene=PVX_089500 | organism=Plasmodium_vivax_Sal-1 | gene_product=dynactin subunit 6, putative | transcript_product=dynactin subunit 6, putative | location=Pv_Sal1_chr05:610728-613385(-) | protein_length=639 | sequence_SO=chromosome | SO=protein_coding_gene | is_pseudo=false
+PVX_089500.1-p1      -            639 6085at5820           -            335  4.7e-101  336.5  46.9   3   4     2e-09   1.1e-05   23.0  18.9   132   201   312   397   294   403 0.64 | transcript=PVX_089500.1 | gene=PVX_089500 | organism=Plasmodium_vivax_Sal-1 | gene_product=dynactin subunit 6, putative | transcript_product=dynactin subunit 6, putative | location=Pv_Sal1_chr05:610728-613385(-) | protein_length=639 | sequence_SO=chromosome | SO=protein_coding_gene | is_pseudo=false
+PVX_089500.1-p1      -            639 6085at5820           -            335  4.7e-101  336.5  46.9   4   4   9.4e-64   5.2e-60  201.6   5.1   216   335   499   628   484   628 0.91 | transcript=PVX_089500.1 | gene=PVX_089500 | organism=Plasmodium_vivax_Sal-1 | gene_product=dynactin subunit 6, putative | transcript_product=dynactin subunit 6, putative | location=Pv_Sal1_chr05:610728-613385(-) | protein_length=639 | sequence_SO=chromosome | SO=protein_coding_gene | is_pseudo=false
+#
+# Program:         hmmsearch
+# Version:         3.4 (Aug 2023)
+# Pipeline mode:   SEARCH
+# Query file:      /v3/work/00_inventory/busco/busco_downloads/lineages/plasmodium_odb10/hmms/6085at5820.hmm
+# Target file:     /v3/inputs/annotations/plasmodb-68/Sal-I.proteins.fa
+# Option settings: hmmsearch --domtblout /v3/work/00_inventory/busco/Sal-I_proteins/run_plasmodium_odb10/hmmer_output/initial_run_results/6085at5820.out --cpu 1 /v3/work/00_inventory/busco/busco_downloads/lineages/plasmodium_odb10/hmms/6085at5820.hmm /v3/inputs/annotations/plasmodb-68/Sal-I.proteins.fa 
+# Current dir:     /v3/work/00_inventory/busco
+# Date:            Tue May 19 17:45:04 2026
+# [ok]

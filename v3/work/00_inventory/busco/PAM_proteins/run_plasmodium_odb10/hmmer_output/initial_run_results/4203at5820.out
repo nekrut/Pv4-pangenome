@@ -1,0 +1,17 @@
+#                                                                            --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name        accession   tlen query name           accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+#------------------- ---------- ----- -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+CAI7722792.1         -            857 4203at5820           -            593  4.4e-248  823.2 124.2   1   4  6.1e-195    4e-191  635.1  39.9     1   359    13   404    13   430 0.90 | transcript=PVPAM_130029300_t1 | gene=PVPAM_130029300 | organism=Plasmodium_vivax_PAM | gene_product=ataxin-2 like protein, putative | transcript_product=ataxin-2 like protein, putative | location=CASCJQ010000013:1088929-1093528(+) | protein_length=857 | sequence_SO=supercontig | SO=protein_coding_gene | is_pseudo=false
+CAI7722792.1         -            857 4203at5820           -            593  4.4e-248  823.2 124.2   2   4    0.0015       9.5    3.1  24.1   333   438   418   525   410   561 0.64 | transcript=PVPAM_130029300_t1 | gene=PVPAM_130029300 | organism=Plasmodium_vivax_PAM | gene_product=ataxin-2 like protein, putative | transcript_product=ataxin-2 like protein, putative | location=CASCJQ010000013:1088929-1093528(+) | protein_length=857 | sequence_SO=supercontig | SO=protein_coding_gene | is_pseudo=false
+CAI7722792.1         -            857 4203at5820           -            593  4.4e-248  823.2 124.2   3   4   0.00047         3    4.7   0.6   392   408   577   592   562   597 0.78 | transcript=PVPAM_130029300_t1 | gene=PVPAM_130029300 | organism=Plasmodium_vivax_PAM | gene_product=ataxin-2 like protein, putative | transcript_product=ataxin-2 like protein, putative | location=CASCJQ010000013:1088929-1093528(+) | protein_length=857 | sequence_SO=supercontig | SO=protein_coding_gene | is_pseudo=false
+CAI7722792.1         -            857 4203at5820           -            593  4.4e-248  823.2 124.2   4   4   7.6e-61   4.9e-57  192.3  40.3   408   592   621   856   615   857 0.83 | transcript=PVPAM_130029300_t1 | gene=PVPAM_130029300 | organism=Plasmodium_vivax_PAM | gene_product=ataxin-2 like protein, putative | transcript_product=ataxin-2 like protein, putative | location=CASCJQ010000013:1088929-1093528(+) | protein_length=857 | sequence_SO=supercontig | SO=protein_coding_gene | is_pseudo=false
+#
+# Program:         hmmsearch
+# Version:         3.4 (Aug 2023)
+# Pipeline mode:   SEARCH
+# Query file:      /v3/work/00_inventory/busco/busco_downloads/lineages/plasmodium_odb10/hmms/4203at5820.hmm
+# Target file:     /v3/inputs/annotations/plasmodb-68/PAM.proteins.fa
+# Option settings: hmmsearch --domtblout /v3/work/00_inventory/busco/PAM_proteins/run_plasmodium_odb10/hmmer_output/initial_run_results/4203at5820.out --cpu 1 /v3/work/00_inventory/busco/busco_downloads/lineages/plasmodium_odb10/hmms/4203at5820.hmm /v3/inputs/annotations/plasmodb-68/PAM.proteins.fa 
+# Current dir:     /v3/work/00_inventory/busco
+# Date:            Tue May 19 17:40:44 2026
+# [ok]

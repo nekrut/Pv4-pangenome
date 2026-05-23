@@ -1,0 +1,18 @@
+#                                                                            --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name        accession   tlen query name           accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+#------------------- ---------- ----- -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+PVP01_1314100.1-p1   -            191 12990at5820          -            158   1.5e-83  276.9  16.3   1   2   8.5e-21   2.8e-17   61.6   0.9     1    54     1    63     1    68 0.87 | transcript=PVP01_1314100.1 | gene=PVP01_1314100 | organism=Plasmodium_vivax_P01 | gene_product=ER membrane protein complex subunit 4, putative | transcript_product=ER membrane protein complex subunit 4, putative | location=PvP01_13_v2:642211-642786(+) | protein_length=191 | sequence_SO=chromosome | SO=protein_coding_gene | is_pseudo=false
+PVP01_1314100.1-p1   -            191 12990at5820          -            158   1.5e-83  276.9  16.3   2   2   7.7e-70   2.5e-66  220.9   9.2    42   158    65   187    59   187 0.94 | transcript=PVP01_1314100.1 | gene=PVP01_1314100 | organism=Plasmodium_vivax_P01 | gene_product=ER membrane protein complex subunit 4, putative | transcript_product=ER membrane protein complex subunit 4, putative | location=PvP01_13_v2:642211-642786(+) | protein_length=191 | sequence_SO=chromosome | SO=protein_coding_gene | is_pseudo=false
+PVP01_1440500.1-p1   -            814 12990at5820          -            158      0.53    8.7   4.9   1   3     0.057   1.9e+02    0.4   0.0    55   115   392   452   355   460 0.84 | transcript=PVP01_1440500.1 | gene=PVP01_1440500 | organism=Plasmodium_vivax_P01 | gene_product=endoplasmin, putative | transcript_product=endoplasmin, putative | location=PvP01_14_v2:1723317-1725761(-) | protein_length=814 | sequence_SO=chromosome | SO=protein_coding_gene | is_pseudo=false
+PVP01_1440500.1-p1   -            814 12990at5820          -            158      0.53    8.7   4.9   2   3   0.00043       1.4    7.3   1.5     8    51   483   528   477   559 0.75 | transcript=PVP01_1440500.1 | gene=PVP01_1440500 | organism=Plasmodium_vivax_P01 | gene_product=endoplasmin, putative | transcript_product=endoplasmin, putative | location=PvP01_14_v2:1723317-1725761(-) | protein_length=814 | sequence_SO=chromosome | SO=protein_coding_gene | is_pseudo=false
+PVP01_1440500.1-p1   -            814 12990at5820          -            158      0.53    8.7   4.9   3   3      0.15   4.8e+02   -0.9   0.1    22    50   550   578   534   586 0.72 | transcript=PVP01_1440500.1 | gene=PVP01_1440500 | organism=Plasmodium_vivax_P01 | gene_product=endoplasmin, putative | transcript_product=endoplasmin, putative | location=PvP01_14_v2:1723317-1725761(-) | protein_length=814 | sequence_SO=chromosome | SO=protein_coding_gene | is_pseudo=false
+#
+# Program:         hmmsearch
+# Version:         3.4 (Aug 2023)
+# Pipeline mode:   SEARCH
+# Query file:      /v3/work/00_inventory/busco/busco_downloads/lineages/plasmodium_odb10/hmms/12990at5820.hmm
+# Target file:     /v3/inputs/annotations/plasmodb-68/PvP01.proteins.fa
+# Option settings: hmmsearch --domtblout /v3/work/00_inventory/busco/PvP01_proteins/run_plasmodium_odb10/hmmer_output/initial_run_results/12990at5820.out --cpu 1 /v3/work/00_inventory/busco/busco_downloads/lineages/plasmodium_odb10/hmms/12990at5820.hmm /v3/inputs/annotations/plasmodb-68/PvP01.proteins.fa 
+# Current dir:     /v3/work/00_inventory/busco
+# Date:            Tue May 19 17:28:24 2026
+# [ok]

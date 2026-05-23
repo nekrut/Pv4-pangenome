@@ -1,0 +1,18 @@
+#                                                                            --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name        accession   tlen query name           accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+#------------------- ---------- ----- -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+PVX_083095.1-p1      -            812 3472at5820           -            585         0 1090.7  45.7   1   4   1.3e-52   3.7e-49  166.2   4.1     1    93    42   134    42   137 0.97 | transcript=PVX_083095.1 | gene=PVX_083095 | organism=Plasmodium_vivax_Sal-1 | gene_product=aminomethyl transferase, putative | transcript_product=aminomethyl transferase, putative | location=Pv_Sal1_chr12:413950-416388(-) | protein_length=812 | sequence_SO=chromosome | SO=protein_coding_gene | is_pseudo=false
+PVX_083095.1-p1      -            812 3472at5820           -            585         0 1090.7  45.7   2   4   4.8e-30   1.3e-26   91.7   0.1    90   157   156   226   150   237 0.92 | transcript=PVX_083095.1 | gene=PVX_083095 | organism=Plasmodium_vivax_Sal-1 | gene_product=aminomethyl transferase, putative | transcript_product=aminomethyl transferase, putative | location=Pv_Sal1_chr12:413950-416388(-) | protein_length=812 | sequence_SO=chromosome | SO=protein_coding_gene | is_pseudo=false
+PVX_083095.1-p1      -            812 3472at5820           -            585         0 1090.7  45.7   3   4  3.2e-121  8.8e-118  392.8  17.3   155   382   330   588   322   599 0.93 | transcript=PVX_083095.1 | gene=PVX_083095 | organism=Plasmodium_vivax_Sal-1 | gene_product=aminomethyl transferase, putative | transcript_product=aminomethyl transferase, putative | location=Pv_Sal1_chr12:413950-416388(-) | protein_length=812 | sequence_SO=chromosome | SO=protein_coding_gene | is_pseudo=false
+PVX_083095.1-p1      -            812 3472at5820           -            585         0 1090.7  45.7   4   4  1.1e-139  3.2e-136  453.7   3.9   377   585   604   812   597   812 0.99 | transcript=PVX_083095.1 | gene=PVX_083095 | organism=Plasmodium_vivax_Sal-1 | gene_product=aminomethyl transferase, putative | transcript_product=aminomethyl transferase, putative | location=Pv_Sal1_chr12:413950-416388(-) | protein_length=812 | sequence_SO=chromosome | SO=protein_coding_gene | is_pseudo=false
+PVX_115235.1-p1      -            400 3472at5820           -            585   2.2e-46  157.1   9.2   1   1   1.9e-49   5.2e-46  155.9   9.2   197   543    39   376    27   390 0.90 | transcript=PVX_115235.1 | gene=PVX_115235 | organism=Plasmodium_vivax_Sal-1 | gene_product=glycine cleavage system T protein, putative | transcript_product=glycine cleavage system T protein, putative | location=Pv_Sal1_chr11:219653-221230(-) | protein_length=400 | sequence_SO=chromosome | SO=protein_coding_gene | is_pseudo=false
+#
+# Program:         hmmsearch
+# Version:         3.4 (Aug 2023)
+# Pipeline mode:   SEARCH
+# Query file:      /v3/work/00_inventory/busco/busco_downloads/lineages/plasmodium_odb10/hmms/3472at5820.hmm
+# Target file:     /v3/inputs/annotations/plasmodb-68/Sal-I.proteins.fa
+# Option settings: hmmsearch --domtblout /v3/work/00_inventory/busco/Sal-I_proteins/run_plasmodium_odb10/hmmer_output/initial_run_results/3472at5820.out --cpu 1 /v3/work/00_inventory/busco/busco_downloads/lineages/plasmodium_odb10/hmms/3472at5820.hmm /v3/inputs/annotations/plasmodb-68/Sal-I.proteins.fa 
+# Current dir:     /v3/work/00_inventory/busco
+# Date:            Tue May 19 17:36:54 2026
+# [ok]

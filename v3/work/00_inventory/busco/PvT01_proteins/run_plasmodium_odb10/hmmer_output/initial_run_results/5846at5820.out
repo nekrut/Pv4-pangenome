@@ -1,0 +1,17 @@
+#                                                                            --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name        accession   tlen query name           accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+#------------------- ---------- ----- -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+SCO69873.1           -            681 5846at5820           -            503  1.6e-277  919.6  49.7   1   2   3.5e-62   1.1e-58  197.7  16.2     1   138     1   137     1   164 0.81 aquaporin, putative [Plasmodium vivax]
+SCO69873.1           -            681 5846at5820           -            503  1.6e-277  919.6  49.7   2   2  4.3e-223  1.3e-219  728.5  24.4   118   503   276   681   256   681 0.90 aquaporin, putative [Plasmodium vivax]
+SCO70054.1           -           1984 5846at5820           -            503     0.027   11.6   2.4   1   2   0.00013      0.41    7.7   0.3   161   202   158   199   148   202 0.91 myosin D, putative [Plasmodium vivax]
+SCO70054.1           -           1984 5846at5820           -            503     0.027   11.6   2.4   2   2    0.0033       9.9    3.2   0.1   139   193   564   614   539   622 0.77 myosin D, putative [Plasmodium vivax]
+#
+# Program:         hmmsearch
+# Version:         3.4 (Aug 2023)
+# Pipeline mode:   SEARCH
+# Query file:      /v3/work/00_inventory/busco/busco_downloads/lineages/plasmodium_odb10/hmms/5846at5820.hmm
+# Target file:     /v3/inputs/annotations/ncbi-datasets/PvT01.proteins.fa
+# Option settings: hmmsearch --domtblout /v3/work/00_inventory/busco/PvT01_proteins/run_plasmodium_odb10/hmmer_output/initial_run_results/5846at5820.out --cpu 1 /v3/work/00_inventory/busco/busco_downloads/lineages/plasmodium_odb10/hmms/5846at5820.hmm /v3/inputs/annotations/ncbi-datasets/PvT01.proteins.fa 
+# Current dir:     /v3/work/00_inventory/busco
+# Date:            Tue May 19 18:57:18 2026
+# [ok]

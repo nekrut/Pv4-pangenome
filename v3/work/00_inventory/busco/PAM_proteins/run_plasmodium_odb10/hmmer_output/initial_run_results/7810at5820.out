@@ -1,0 +1,17 @@
+#                                                                            --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name        accession   tlen query name           accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+#------------------- ---------- ----- -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+CAI7723522.1         -            422 7810at5820           -            335  1.1e-170  565.8  21.8   1   1  8.1e-174  1.3e-170  565.5  21.8     2   329     1   387     1   399 0.94 | transcript=PVPAM_140044600_t1 | gene=PVPAM_140044600 | organism=Plasmodium_vivax_PAM | gene_product=PPPDE peptidase domain-containing protein, putative | transcript_product=PPPDE peptidase domain-containing protein, putative | location=CASCJQ010000014:1654976-1656581(+) | protein_length=422 | sequence_SO=supercontig | SO=protein_coding_gene | is_pseudo=false
+CAI7719633.1         -            289 7810at5820           -            335   2.2e-05   22.4   0.5   1   1     2e-08   3.2e-05   21.9   0.5    32   123    17   106     9   114 0.80 | transcript=PVPAM_070024700_t1 | gene=PVPAM_070024700 | organism=Plasmodium_vivax_PAM | gene_product=PPPDE peptidase, putative | transcript_product=PPPDE peptidase, putative | location=CASCJQ010000007:881503-882487(-) | protein_length=289 | sequence_SO=supercontig | SO=protein_coding_gene | is_pseudo=false
+CAI7719965.1         -            213 7810at5820           -            335   3.4e-05   21.8   1.3   1   1   4.4e-08     7e-05   20.7   1.3     6   134    42   163    38   176 0.82 | transcript=PVPAM_080018700_t2 | gene=PVPAM_080018700 | organism=Plasmodium_vivax_PAM | gene_product=PPPDE peptidase, putative | transcript_product=PPPDE putative peptidase domain containing protein, putative | location=CASCJQ010000008:643046-645005(+) | protein_length=213 | sequence_SO=supercontig | SO=protein_coding_gene | is_pseudo=false
+CAI7719964.1         -            214 7810at5820           -            335   0.00018   19.4   2.2   1   1   4.2e-07   0.00068   17.5   2.2     7   134    43   164    38   174 0.72 | transcript=PVPAM_080018700_t1 | gene=PVPAM_080018700 | organism=Plasmodium_vivax_PAM | gene_product=PPPDE peptidase, putative | transcript_product=PPPDE peptidase, putative | location=CASCJQ010000008:643046-645005(+) | protein_length=214 | sequence_SO=supercontig | SO=protein_coding_gene | is_pseudo=false
+#
+# Program:         hmmsearch
+# Version:         3.4 (Aug 2023)
+# Pipeline mode:   SEARCH
+# Query file:      /v3/work/00_inventory/busco/busco_downloads/lineages/plasmodium_odb10/hmms/7810at5820.hmm
+# Target file:     /v3/inputs/annotations/plasmodb-68/PAM.proteins.fa
+# Option settings: hmmsearch --domtblout /v3/work/00_inventory/busco/PAM_proteins/run_plasmodium_odb10/hmmer_output/initial_run_results/7810at5820.out --cpu 1 /v3/work/00_inventory/busco/busco_downloads/lineages/plasmodium_odb10/hmms/7810at5820.hmm /v3/inputs/annotations/plasmodb-68/PAM.proteins.fa 
+# Current dir:     /v3/work/00_inventory/busco
+# Date:            Tue May 19 17:48:53 2026
+# [ok]

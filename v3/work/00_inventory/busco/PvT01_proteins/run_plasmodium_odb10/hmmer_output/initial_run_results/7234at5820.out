@@ -1,0 +1,21 @@
+#                                                                            --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name        accession   tlen query name           accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+#------------------- ---------- ----- -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+SCO66244.1           -            583 7234at5820           -            374  1.6e-216  716.9  29.6   1   4  6.3e-116  1.9e-112  374.4  14.0     1   188    19   215    19   219 0.96 tRNA N6-adenosine threonylcarbamoyltransferase, putative [Plasmodium vivax]
+SCO66244.1           -            583 7234at5820           -            374  1.6e-216  716.9  29.6   2   4     2e-21     6e-18   63.4   0.0   187   233   256   302   244   333 0.78 tRNA N6-adenosine threonylcarbamoyltransferase, putative [Plasmodium vivax]
+SCO66244.1           -            583 7234at5820           -            374  1.6e-216  716.9  29.6   3   4   6.5e-10     2e-06   25.5   0.3   223   257   366   411   360   416 0.80 tRNA N6-adenosine threonylcarbamoyltransferase, putative [Plasmodium vivax]
+SCO66244.1           -            583 7234at5820           -            374  1.6e-216  716.9  29.6   4   4   3.8e-82   1.2e-78  263.2   0.4   254   374   463   583   438   583 0.96 tRNA N6-adenosine threonylcarbamoyltransferase, putative [Plasmodium vivax]
+SCO65319.1           -            704 7234at5820           -            374   9.1e-09   33.2  10.6   1   4    0.0027       8.3    3.7   1.2     1   110    89   208    89   224 0.75 tRNA N6-adenosine threonylcarbamoyltransferase, putative [Plasmodium vivax]
+SCO65319.1           -            704 7234at5820           -            374   9.1e-09   33.2  10.6   2   4   7.9e-07    0.0024   15.4   0.0   119   162   348   394   339   456 0.81 tRNA N6-adenosine threonylcarbamoyltransferase, putative [Plasmodium vivax]
+SCO65319.1           -            704 7234at5820           -            374   9.1e-09   33.2  10.6   3   4   1.1e-07   0.00034   18.1   0.6   260   318   467   529   458   537 0.84 tRNA N6-adenosine threonylcarbamoyltransferase, putative [Plasmodium vivax]
+SCO65319.1           -            704 7234at5820           -            374   9.1e-09   33.2  10.6   4   4      0.24   7.4e+02   -2.7   0.0   331   348   643   660   640   672 0.82 tRNA N6-adenosine threonylcarbamoyltransferase, putative [Plasmodium vivax]
+#
+# Program:         hmmsearch
+# Version:         3.4 (Aug 2023)
+# Pipeline mode:   SEARCH
+# Query file:      /v3/work/00_inventory/busco/busco_downloads/lineages/plasmodium_odb10/hmms/7234at5820.hmm
+# Target file:     /v3/inputs/annotations/ncbi-datasets/PvT01.proteins.fa
+# Option settings: hmmsearch --domtblout /v3/work/00_inventory/busco/PvT01_proteins/run_plasmodium_odb10/hmmer_output/initial_run_results/7234at5820.out --cpu 1 /v3/work/00_inventory/busco/busco_downloads/lineages/plasmodium_odb10/hmms/7234at5820.hmm /v3/inputs/annotations/ncbi-datasets/PvT01.proteins.fa 
+# Current dir:     /v3/work/00_inventory/busco
+# Date:            Tue May 19 18:57:46 2026
+# [ok]

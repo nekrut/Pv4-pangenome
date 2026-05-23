@@ -1,0 +1,16 @@
+#                                                                            --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name        accession   tlen query name           accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+#------------------- ---------- ----- -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+PVP01_0939300.1-p1   -            143 14530at5820          -            116   6.4e-52  173.4  20.0   1   1   5.6e-53   1.8e-49  165.5  20.0     7   116    16   142     7   142 0.91 | transcript=PVP01_0939300.1 | gene=PVP01_0939300 | organism=Plasmodium_vivax_P01 | gene_product=conserved protein, unknown function | transcript_product=conserved protein, unknown function | location=PvP01_09_v2:1682690-1683121(-) | protein_length=143 | sequence_SO=chromosome | SO=protein_coding_gene | is_pseudo=false
+PVP01_1239800.1-p1   -            792 14530at5820          -            116      0.25   10.3  14.6   1   2     0.016        52    2.8   0.5    69   110   519   560   483   566 0.77 | transcript=PVP01_1239800.1 | gene=PVP01_1239800 | organism=Plasmodium_vivax_P01 | gene_product=magnesium transporter, putative | transcript_product=magnesium transporter, putative | location=PvP01_12_v2:1589118-1591715(-) | protein_length=792 | sequence_SO=chromosome | SO=protein_coding_gene | is_pseudo=false
+PVP01_1239800.1-p1   -            792 14530at5820          -            116      0.25   10.3  14.6   2   2   8.6e-05      0.28   10.1   7.9    35   105   699   771   654   779 0.80 | transcript=PVP01_1239800.1 | gene=PVP01_1239800 | organism=Plasmodium_vivax_P01 | gene_product=magnesium transporter, putative | transcript_product=magnesium transporter, putative | location=PvP01_12_v2:1589118-1591715(-) | protein_length=792 | sequence_SO=chromosome | SO=protein_coding_gene | is_pseudo=false
+#
+# Program:         hmmsearch
+# Version:         3.4 (Aug 2023)
+# Pipeline mode:   SEARCH
+# Query file:      /v3/work/00_inventory/busco/busco_downloads/lineages/plasmodium_odb10/hmms/14530at5820.hmm
+# Target file:     /v3/inputs/annotations/plasmodb-68/PvP01.proteins.fa
+# Option settings: hmmsearch --domtblout /v3/work/00_inventory/busco/PvP01_proteins/run_plasmodium_odb10/hmmer_output/initial_run_results/14530at5820.out --cpu 1 /v3/work/00_inventory/busco/busco_downloads/lineages/plasmodium_odb10/hmms/14530at5820.hmm /v3/inputs/annotations/plasmodb-68/PvP01.proteins.fa 
+# Current dir:     /v3/work/00_inventory/busco
+# Date:            Tue May 19 17:33:42 2026
+# [ok]

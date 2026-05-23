@@ -1,0 +1,17 @@
+#                                                                            --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name        accession   tlen query name           accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+#------------------- ---------- ----- -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+PVP01_1002800.1-p1   -            664 5293at5820           -            530  8.2e-274  908.0  54.7   1   4   1.8e-07    0.0012   16.5   0.0     1    33     1    33     1    54 0.88 | transcript=PVP01_1002800.1 | gene=PVP01_1002800 | organism=Plasmodium_vivax_P01 | gene_product=SURF1 domain-containing protein, putative | transcript_product=SURF1 domain-containing protein, putative | location=PvP01_10_v2:151961-153955(-) | protein_length=664 | sequence_SO=chromosome | SO=protein_coding_gene | is_pseudo=false
+PVP01_1002800.1-p1   -            664 5293at5820           -            530  8.2e-274  908.0  54.7   2   4  8.4e-109  5.5e-105  350.9   9.4    38   240    98   304    74   312 0.91 | transcript=PVP01_1002800.1 | gene=PVP01_1002800 | organism=Plasmodium_vivax_P01 | gene_product=SURF1 domain-containing protein, putative | transcript_product=SURF1 domain-containing protein, putative | location=PvP01_10_v2:151961-153955(-) | protein_length=664 | sequence_SO=chromosome | SO=protein_coding_gene | is_pseudo=false
+PVP01_1002800.1-p1   -            664 5293at5820           -            530  8.2e-274  908.0  54.7   3   4  4.5e-134    3e-130  434.3  15.7   225   473   331   587   308   591 0.91 | transcript=PVP01_1002800.1 | gene=PVP01_1002800 | organism=Plasmodium_vivax_P01 | gene_product=SURF1 domain-containing protein, putative | transcript_product=SURF1 domain-containing protein, putative | location=PvP01_10_v2:151961-153955(-) | protein_length=664 | sequence_SO=chromosome | SO=protein_coding_gene | is_pseudo=false
+PVP01_1002800.1-p1   -            664 5293at5820           -            530  8.2e-274  908.0  54.7   4   4   8.9e-39   5.8e-35  119.8  11.1   471   530   605   664   593   664 0.95 | transcript=PVP01_1002800.1 | gene=PVP01_1002800 | organism=Plasmodium_vivax_P01 | gene_product=SURF1 domain-containing protein, putative | transcript_product=SURF1 domain-containing protein, putative | location=PvP01_10_v2:151961-153955(-) | protein_length=664 | sequence_SO=chromosome | SO=protein_coding_gene | is_pseudo=false
+#
+# Program:         hmmsearch
+# Version:         3.4 (Aug 2023)
+# Pipeline mode:   SEARCH
+# Query file:      /v3/work/00_inventory/busco/busco_downloads/lineages/plasmodium_odb10/hmms/5293at5820.hmm
+# Target file:     /v3/inputs/annotations/plasmodb-68/PvP01.proteins.fa
+# Option settings: hmmsearch --domtblout /v3/work/00_inventory/busco/PvP01_proteins/run_plasmodium_odb10/hmmer_output/initial_run_results/5293at5820.out --cpu 1 /v3/work/00_inventory/busco/busco_downloads/lineages/plasmodium_odb10/hmms/5293at5820.hmm /v3/inputs/annotations/plasmodb-68/PvP01.proteins.fa 
+# Current dir:     /v3/work/00_inventory/busco
+# Date:            Tue May 19 17:41:04 2026
+# [ok]

@@ -1,0 +1,19 @@
+#                                                                            --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name        accession   tlen query name           accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+#------------------- ---------- ----- -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+SCO74806.1           -            810 2441at5820           -            746         0 1549.7  62.5   1   1         0         0 1549.3  62.5     2   746    10   810     9   810 0.96 DNA mismatch repair protein MSH2, putative [Plasmodium vivax]
+SCO70415.1           -            880 2441at5820           -            746    2e-201  669.5  40.1   1   2     6e-44   1.3e-40  137.9  16.0     6   247    39   296    35   302 0.92 DNA mismatch repair protein MSH2, putative [Plasmodium vivax]
+SCO70415.1           -            880 2441at5820           -            746    2e-201  669.5  40.1   2   2  9.7e-165    2e-161  537.2  16.1   259   699   339   815   332   820 0.93 DNA mismatch repair protein MSH2, putative [Plasmodium vivax]
+SCO73297.1           -           1296 2441at5820           -            746   8.3e-67  224.4  16.8   1   3     9e-14   1.9e-10   38.1   6.4    49   282   525   765   495   850 0.76 DNA mismatch repair protein MSH6, putative [Plasmodium vivax]
+SCO73297.1           -           1296 2441at5820           -            746   8.3e-67  224.4  16.8   2   3    0.0011       2.4    4.7   0.0   435   461   944   970   883   974 0.90 DNA mismatch repair protein MSH6, putative [Plasmodium vivax]
+SCO73297.1           -           1296 2441at5820           -            746   8.3e-67  224.4  16.8   3   3   9.8e-59     2e-55  186.7   1.4   466   691  1029  1257  1012  1269 0.91 DNA mismatch repair protein MSH6, putative [Plasmodium vivax]
+#
+# Program:         hmmsearch
+# Version:         3.4 (Aug 2023)
+# Pipeline mode:   SEARCH
+# Query file:      /v3/work/00_inventory/busco/busco_downloads/lineages/plasmodium_odb10/hmms/2441at5820.hmm
+# Target file:     /v3/inputs/annotations/ncbi-datasets/PvC01.proteins.fa
+# Option settings: hmmsearch --domtblout /v3/work/00_inventory/busco/PvC01_proteins/run_plasmodium_odb10/hmmer_output/initial_run_results/2441at5820.out --cpu 1 /v3/work/00_inventory/busco/busco_downloads/lineages/plasmodium_odb10/hmms/2441at5820.hmm /v3/inputs/annotations/ncbi-datasets/PvC01.proteins.fa 
+# Current dir:     /v3/work/00_inventory/busco
+# Date:            Tue May 19 18:40:19 2026
+# [ok]

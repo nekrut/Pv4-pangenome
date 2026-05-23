@@ -1,0 +1,17 @@
+#                                                                            --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name        accession   tlen query name           accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+#------------------- ---------- ----- -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+CAI7718851.1         -            639 6085at5820           -            335  1.2e-101  338.7  46.7   1   4   2.8e-32   1.8e-28   98.2   4.8     1   100     1   123     1   150 0.83 | transcript=PVPAM_050024500_t1 | gene=PVPAM_050024500 | organism=Plasmodium_vivax_PAM | gene_product=dynactin subunit 6, putative | transcript_product=dynactin subunit 6, putative | location=CASCJQ010000005:840902-843559(-) | protein_length=639 | sequence_SO=supercontig | SO=protein_coding_gene | is_pseudo=false
+CAI7718851.1         -            639 6085at5820           -            335  1.2e-101  338.7  46.7   2   4   1.1e-09   7.4e-06   23.8   0.0    99   129   208   238   205   248 0.90 | transcript=PVPAM_050024500_t1 | gene=PVPAM_050024500 | organism=Plasmodium_vivax_PAM | gene_product=dynactin subunit 6, putative | transcript_product=dynactin subunit 6, putative | location=CASCJQ010000005:840902-843559(-) | protein_length=639 | sequence_SO=supercontig | SO=protein_coding_gene | is_pseudo=false
+CAI7718851.1         -            639 6085at5820           -            335  1.2e-101  338.7  46.7   3   4     2e-09   1.3e-05   23.0  18.9   132   201   312   397   294   403 0.64 | transcript=PVPAM_050024500_t1 | gene=PVPAM_050024500 | organism=Plasmodium_vivax_PAM | gene_product=dynactin subunit 6, putative | transcript_product=dynactin subunit 6, putative | location=CASCJQ010000005:840902-843559(-) | protein_length=639 | sequence_SO=supercontig | SO=protein_coding_gene | is_pseudo=false
+CAI7718851.1         -            639 6085at5820           -            335  1.2e-101  338.7  46.7   4   4     2e-64   1.3e-60  203.8   5.0   216   335   499   628   484   628 0.91 | transcript=PVPAM_050024500_t1 | gene=PVPAM_050024500 | organism=Plasmodium_vivax_PAM | gene_product=dynactin subunit 6, putative | transcript_product=dynactin subunit 6, putative | location=CASCJQ010000005:840902-843559(-) | protein_length=639 | sequence_SO=supercontig | SO=protein_coding_gene | is_pseudo=false
+#
+# Program:         hmmsearch
+# Version:         3.4 (Aug 2023)
+# Pipeline mode:   SEARCH
+# Query file:      /v3/work/00_inventory/busco/busco_downloads/lineages/plasmodium_odb10/hmms/6085at5820.hmm
+# Target file:     /v3/inputs/annotations/plasmodb-68/PAM.proteins.fa
+# Option settings: hmmsearch --domtblout /v3/work/00_inventory/busco/PAM_proteins/run_plasmodium_odb10/hmmer_output/initial_run_results/6085at5820.out --cpu 1 /v3/work/00_inventory/busco/busco_downloads/lineages/plasmodium_odb10/hmms/6085at5820.hmm /v3/inputs/annotations/plasmodb-68/PAM.proteins.fa 
+# Current dir:     /v3/work/00_inventory/busco
+# Date:            Tue May 19 17:45:04 2026
+# [ok]

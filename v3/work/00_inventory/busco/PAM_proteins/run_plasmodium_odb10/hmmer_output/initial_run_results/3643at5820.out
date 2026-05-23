@@ -1,0 +1,18 @@
+#                                                                            --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name        accession   tlen query name           accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+#------------------- ---------- ----- -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+CAI7719991.1         -            851 3643at5820           -            585  1.3e-300  996.6  43.2   1   5   1.7e-68   1.1e-64  217.5   6.4     1   133     1   153     1   161 0.89 | transcript=PVPAM_080021300_t1 | gene=PVPAM_080021300 | organism=Plasmodium_vivax_PAM | gene_product=ribonuclease, putative | transcript_product=ribonuclease, putative | location=CASCJQ010000008:767546-770101(+) | protein_length=851 | sequence_SO=supercontig | SO=protein_coding_gene | is_pseudo=false
+CAI7719991.1         -            851 3643at5820           -            585  1.3e-300  996.6  43.2   2   5   2.7e-46   1.8e-42  144.2   0.3   130   218   205   294   188   299 0.91 | transcript=PVPAM_080021300_t1 | gene=PVPAM_080021300 | organism=Plasmodium_vivax_PAM | gene_product=ribonuclease, putative | transcript_product=ribonuclease, putative | location=CASCJQ010000008:767546-770101(+) | protein_length=851 | sequence_SO=supercontig | SO=protein_coding_gene | is_pseudo=false
+CAI7719991.1         -            851 3643at5820           -            585  1.3e-300  996.6  43.2   3   5  2.4e-143  1.6e-139  464.7  11.5   218   442   358   583   355   585 0.99 | transcript=PVPAM_080021300_t1 | gene=PVPAM_080021300 | organism=Plasmodium_vivax_PAM | gene_product=ribonuclease, putative | transcript_product=ribonuclease, putative | location=CASCJQ010000008:767546-770101(+) | protein_length=851 | sequence_SO=supercontig | SO=protein_coding_gene | is_pseudo=false
+CAI7719991.1         -            851 3643at5820           -            585  1.3e-300  996.6  43.2   4   5   1.4e-29     9e-26   89.0   0.1   443   513   665   739   661   754 0.88 | transcript=PVPAM_080021300_t1 | gene=PVPAM_080021300 | organism=Plasmodium_vivax_PAM | gene_product=ribonuclease, putative | transcript_product=ribonuclease, putative | location=CASCJQ010000008:767546-770101(+) | protein_length=851 | sequence_SO=supercontig | SO=protein_coding_gene | is_pseudo=false
+CAI7719991.1         -            851 3643at5820           -            585  1.3e-300  996.6  43.2   5   5   3.2e-31   2.1e-27   94.4   0.6   511   584   762   848   754   849 0.90 | transcript=PVPAM_080021300_t1 | gene=PVPAM_080021300 | organism=Plasmodium_vivax_PAM | gene_product=ribonuclease, putative | transcript_product=ribonuclease, putative | location=CASCJQ010000008:767546-770101(+) | protein_length=851 | sequence_SO=supercontig | SO=protein_coding_gene | is_pseudo=false
+#
+# Program:         hmmsearch
+# Version:         3.4 (Aug 2023)
+# Pipeline mode:   SEARCH
+# Query file:      /v3/work/00_inventory/busco/busco_downloads/lineages/plasmodium_odb10/hmms/3643at5820.hmm
+# Target file:     /v3/inputs/annotations/plasmodb-68/PAM.proteins.fa
+# Option settings: hmmsearch --domtblout /v3/work/00_inventory/busco/PAM_proteins/run_plasmodium_odb10/hmmer_output/initial_run_results/3643at5820.out --cpu 1 /v3/work/00_inventory/busco/busco_downloads/lineages/plasmodium_odb10/hmms/3643at5820.hmm /v3/inputs/annotations/plasmodb-68/PAM.proteins.fa 
+# Current dir:     /v3/work/00_inventory/busco
+# Date:            Tue May 19 17:37:45 2026
+# [ok]

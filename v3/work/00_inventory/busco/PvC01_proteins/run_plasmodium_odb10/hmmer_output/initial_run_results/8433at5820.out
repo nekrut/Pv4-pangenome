@@ -1,0 +1,19 @@
+#                                                                            --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name        accession   tlen query name           accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+#------------------- ---------- ----- -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+SCO73912.1           -            348 8433at5820           -            306  2.9e-192  636.3  16.5   1   1  2.7e-195  3.4e-192  636.1  16.5     1   306    18   348    18   348 0.96 TBC domain protein, putative [Plasmodium vivax]
+SCO75279.1           -            595 8433at5820           -            306   1.8e-13   49.2  16.4   1   2   6.9e-07   0.00087   17.4   0.8     5    66    26    93    22   101 0.72 TBC domain protein, putative [Plasmodium vivax]
+SCO75279.1           -            595 8433at5820           -            306   1.8e-13   49.2  16.4   2   2   1.3e-12   1.6e-09   36.2   8.7   102   276   310   482   298   509 0.79 TBC domain protein, putative [Plasmodium vivax]
+SCO74180.1           -            620 8433at5820           -            306   1.5e-10   39.6   6.3   1   1   2.7e-12   3.4e-09   35.1   6.2    74   237   153   347   141   357 0.73 GTPase-activating protein, putative [Plasmodium vivax]
+SCO72629.1           -            372 8433at5820           -            306   3.7e-06   25.2   9.8   1   1   5.2e-09   6.5e-06   24.3   8.9    63   273   124   328    71   353 0.75 GTPase-activating protein, putative [Plasmodium vivax]
+SCO75158.1           -            151 8433at5820           -            306    0.0035   15.4   0.8   1   1   5.5e-06    0.0069   14.4   0.8   139   202    31    95     6   104 0.80 CCAAT-binding transcription factor, putative [Plasmodium vivax]
+#
+# Program:         hmmsearch
+# Version:         3.4 (Aug 2023)
+# Pipeline mode:   SEARCH
+# Query file:      /v3/work/00_inventory/busco/busco_downloads/lineages/plasmodium_odb10/hmms/8433at5820.hmm
+# Target file:     /v3/inputs/annotations/ncbi-datasets/PvC01.proteins.fa
+# Option settings: hmmsearch --domtblout /v3/work/00_inventory/busco/PvC01_proteins/run_plasmodium_odb10/hmmer_output/initial_run_results/8433at5820.out --cpu 1 /v3/work/00_inventory/busco/busco_downloads/lineages/plasmodium_odb10/hmms/8433at5820.hmm /v3/inputs/annotations/ncbi-datasets/PvC01.proteins.fa 
+# Current dir:     /v3/work/00_inventory/busco
+# Date:            Tue May 19 19:05:46 2026
+# [ok]

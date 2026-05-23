@@ -1,0 +1,17 @@
+#                                                                            --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name        accession   tlen query name           accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+#------------------- ---------- ----- -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+PVX_000845.1-p1      -            174 12530at5820          -            147   5.1e-58  193.7  22.6   1   1   2.2e-60     6e-57  190.3  22.6     1   147     1   174     1   174 0.89 | transcript=PVX_000845.1 | gene=PVX_000845 | organism=Plasmodium_vivax_Sal-1 | gene_product=hypothetical protein, conserved | transcript_product=hypothetical protein, conserved | location=Pv_Sal1_chr03:261490-262014(-) | protein_length=174 | sequence_SO=chromosome | SO=protein_coding_gene | is_pseudo=false
+PVX_086065.1-p1      -            663 12530at5820          -            147     0.006   15.1   2.8   1   3   1.4e-05     0.037   12.5   0.7    64   118   146   200   123   213 0.81 | transcript=PVX_086065.1 | gene=PVX_086065 | organism=Plasmodium_vivax_Sal-1 | gene_product=pre-mRNA-splicing factor 38B, putative | transcript_product=pre-mRNA-splicing factor 38B, putative | location=Pv_Sal1_chr13:1800290-1803274(-) | protein_length=663 | sequence_SO=chromosome | SO=protein_coding_gene | is_pseudo=false
+PVX_086065.1-p1      -            663 12530at5820          -            147     0.006   15.1   2.8   2   3     0.044   1.2e+02    1.1   0.0    46   111   248   316   233   323 0.66 | transcript=PVX_086065.1 | gene=PVX_086065 | organism=Plasmodium_vivax_Sal-1 | gene_product=pre-mRNA-splicing factor 38B, putative | transcript_product=pre-mRNA-splicing factor 38B, putative | location=Pv_Sal1_chr13:1800290-1803274(-) | protein_length=663 | sequence_SO=chromosome | SO=protein_coding_gene | is_pseudo=false
+PVX_086065.1-p1      -            663 12530at5820          -            147     0.006   15.1   2.8   3   3      0.72     2e+03   -2.8   0.0     5    30   621   646   607   652 0.68 | transcript=PVX_086065.1 | gene=PVX_086065 | organism=Plasmodium_vivax_Sal-1 | gene_product=pre-mRNA-splicing factor 38B, putative | transcript_product=pre-mRNA-splicing factor 38B, putative | location=Pv_Sal1_chr13:1800290-1803274(-) | protein_length=663 | sequence_SO=chromosome | SO=protein_coding_gene | is_pseudo=false
+#
+# Program:         hmmsearch
+# Version:         3.4 (Aug 2023)
+# Pipeline mode:   SEARCH
+# Query file:      /v3/work/00_inventory/busco/busco_downloads/lineages/plasmodium_odb10/hmms/12530at5820.hmm
+# Target file:     /v3/inputs/annotations/plasmodb-68/Sal-I.proteins.fa
+# Option settings: hmmsearch --domtblout /v3/work/00_inventory/busco/Sal-I_proteins/run_plasmodium_odb10/hmmer_output/initial_run_results/12530at5820.out --cpu 1 /v3/work/00_inventory/busco/busco_downloads/lineages/plasmodium_odb10/hmms/12530at5820.hmm /v3/inputs/annotations/plasmodb-68/Sal-I.proteins.fa 
+# Current dir:     /v3/work/00_inventory/busco
+# Date:            Tue May 19 17:27:08 2026
+# [ok]

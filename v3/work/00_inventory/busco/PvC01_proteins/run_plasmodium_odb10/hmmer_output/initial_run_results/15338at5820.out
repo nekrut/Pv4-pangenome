@@ -1,0 +1,21 @@
+#                                                                            --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name        accession   tlen query name           accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+#------------------- ---------- ----- -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+SCO75273.1           -             75 15338at5820          -             57   1.2e-33  113.5  16.9   1   2   1.9e-10     3e-07   29.0   2.0     1    19     2    20     2    26 0.92 conserved Plasmodium protein, unknown function [Plasmodium vivax]
+SCO75273.1           -             75 15338at5820          -             57   1.2e-33  113.5  16.9   2   2     1e-29   1.6e-26   90.7   7.5     8    57    26    75    19    75 0.89 conserved Plasmodium protein, unknown function [Plasmodium vivax]
+SCO72099.1           -            309 15338at5820          -             57    0.0026   16.4   4.4   1   2    0.0065        10    4.9   0.0    39    55    74    90    67    92 0.82 conserved Plasmodium protein, unknown function [Plasmodium vivax]
+SCO72099.1           -            309 15338at5820          -             57    0.0026   16.4   4.4   2   2     6e-05     0.094   11.4   1.8    10    42   106   139    99   143 0.89 conserved Plasmodium protein, unknown function [Plasmodium vivax]
+SCO73865.1           -            281 15338at5820          -             57    0.0073   14.9   2.0   1   1   1.2e-05      0.02   13.6   2.0     6    51   195   243   191   247 0.90 Plasmodium exported protein, unknown function [Plasmodium vivax]
+SCA60137.1           -            350 15338at5820          -             57      0.11   11.2  14.0   1   3   5.3e-05     0.083   11.6   3.3     6    48    41    82    37    85 0.85 Plasmodium vivax Vir protein, putative [Plasmodium vivax]
+SCA60137.1           -            350 15338at5820          -             57      0.11   11.2  14.0   2   3      0.12   1.8e+02    0.9   0.4    26    39   113   126    97   136 0.76 Plasmodium vivax Vir protein, putative [Plasmodium vivax]
+SCA60137.1           -            350 15338at5820          -             57      0.11   11.2  14.0   3   3     0.015        24    3.7   0.1     6    34   161   187   157   194 0.83 Plasmodium vivax Vir protein, putative [Plasmodium vivax]
+#
+# Program:         hmmsearch
+# Version:         3.4 (Aug 2023)
+# Pipeline mode:   SEARCH
+# Query file:      /v3/work/00_inventory/busco/busco_downloads/lineages/plasmodium_odb10/hmms/15338at5820.hmm
+# Target file:     /v3/inputs/annotations/ncbi-datasets/PvC01.proteins.fa
+# Option settings: hmmsearch --domtblout /v3/work/00_inventory/busco/PvC01_proteins/run_plasmodium_odb10/hmmer_output/initial_run_results/15338at5820.out --cpu 1 /v3/work/00_inventory/busco/busco_downloads/lineages/plasmodium_odb10/hmms/15338at5820.hmm /v3/inputs/annotations/ncbi-datasets/PvC01.proteins.fa 
+# Current dir:     /v3/work/00_inventory/busco
+# Date:            Tue May 19 18:34:16 2026
+# [ok]

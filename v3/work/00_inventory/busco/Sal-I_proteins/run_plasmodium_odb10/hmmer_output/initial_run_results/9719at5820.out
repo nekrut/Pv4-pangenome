@@ -1,0 +1,17 @@
+#                                                                            --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name        accession   tlen query name           accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+#------------------- ---------- ----- -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+PVX_084270.1-p1      -            386 9719at5820           -            278  2.7e-151  500.7  13.5   1   2  1.2e-109  3.4e-106  352.7   2.2     1   207     2   214     2   235 0.94 | transcript=PVX_084270.1 | gene=PVX_084270 | organism=Plasmodium_vivax_Sal-1 | gene_product=cytidine deaminase, putative | transcript_product=cytidine deaminase, putative | location=Pv_Sal1_chr13:133885-135045(+) | protein_length=386 | sequence_SO=chromosome | SO=protein_coding_gene | is_pseudo=false
+PVX_084270.1-p1      -            386 9719at5820           -            278  2.7e-151  500.7  13.5   2   2     6e-49   1.7e-45  153.6   3.7   205   278   312   385   305   385 0.96 | transcript=PVX_084270.1 | gene=PVX_084270 | organism=Plasmodium_vivax_Sal-1 | gene_product=cytidine deaminase, putative | transcript_product=cytidine deaminase, putative | location=Pv_Sal1_chr13:133885-135045(+) | protein_length=386 | sequence_SO=chromosome | SO=protein_coding_gene | is_pseudo=false
+PVX_083365.1-p1      -            245 9719at5820           -            278     0.056   10.9   4.2   1   2     0.083   2.3e+02   -1.0   0.0   157   188    35    69     5   111 0.61 | transcript=PVX_083365.1 | gene=PVX_083365 | organism=Plasmodium_vivax_Sal-1 | gene_product=cytidine and deoxycytidylate deaminase, putative | transcript_product=cytidine and deoxycytidylate deaminase, putative | location=Pv_Sal1_chr12:171794-173147(-) | protein_length=245 | sequence_SO=chromosome | SO=protein_coding_gene | is_pseudo=false
+PVX_083365.1-p1      -            245 9719at5820           -            278     0.056   10.9   4.2   2   2   1.2e-05     0.034   11.6   1.8   202   260   142   200   136   212 0.82 | transcript=PVX_083365.1 | gene=PVX_083365 | organism=Plasmodium_vivax_Sal-1 | gene_product=cytidine and deoxycytidylate deaminase, putative | transcript_product=cytidine and deoxycytidylate deaminase, putative | location=Pv_Sal1_chr12:171794-173147(-) | protein_length=245 | sequence_SO=chromosome | SO=protein_coding_gene | is_pseudo=false
+#
+# Program:         hmmsearch
+# Version:         3.4 (Aug 2023)
+# Pipeline mode:   SEARCH
+# Query file:      /v3/work/00_inventory/busco/busco_downloads/lineages/plasmodium_odb10/hmms/9719at5820.hmm
+# Target file:     /v3/inputs/annotations/plasmodb-68/Sal-I.proteins.fa
+# Option settings: hmmsearch --domtblout /v3/work/00_inventory/busco/Sal-I_proteins/run_plasmodium_odb10/hmmer_output/initial_run_results/9719at5820.out --cpu 1 /v3/work/00_inventory/busco/busco_downloads/lineages/plasmodium_odb10/hmms/9719at5820.hmm /v3/inputs/annotations/plasmodb-68/Sal-I.proteins.fa 
+# Current dir:     /v3/work/00_inventory/busco
+# Date:            Tue May 19 17:52:23 2026
+# [ok]

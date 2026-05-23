@@ -1,0 +1,25 @@
+#                                                                            --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name        accession   tlen query name           accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+#------------------- ---------- ----- -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+SCO73155.1           -            739 6067at5820           -            491  1.1e-205  682.6  60.6   1   5  2.4e-164  2.1e-161  536.6  24.8     2   384    19   440    18   445 0.82 zinc finger protein, putative [Plasmodium vivax]
+SCO73155.1           -            739 6067at5820           -            491  1.1e-205  682.6  60.6   2   5         7   6.3e+03   -8.7  18.6   324   374   433   486   425   500 0.54 zinc finger protein, putative [Plasmodium vivax]
+SCO73155.1           -            739 6067at5820           -            491  1.1e-205  682.6  60.6   3   5     7e-15   6.3e-12   43.6   5.0   328   408   496   578   489   584 0.86 zinc finger protein, putative [Plasmodium vivax]
+SCO73155.1           -            739 6067at5820           -            491  1.1e-205  682.6  60.6   4   5   8.1e-11   7.3e-08   30.2   0.0   400   440   611   651   602   655 0.89 zinc finger protein, putative [Plasmodium vivax]
+SCO73155.1           -            739 6067at5820           -            491  1.1e-205  682.6  60.6   5   5   3.9e-29   3.5e-26   90.6   0.4   442   491   690   739   686   739 0.96 zinc finger protein, putative [Plasmodium vivax]
+SCO72089.1           -            219 6067at5820           -            491     0.088   10.1   8.3   1   1   0.00013      0.11    9.8   8.3   319   454    77   213    67   216 0.58 conserved Plasmodium protein, unknown function [Plasmodium vivax]
+SCO75023.1           -            132 6067at5820           -            491       1.1    6.5  11.7   1   1    0.0014       1.3    6.3  11.7   314   400    18   102     3   124 0.48 conserved Plasmodium protein, unknown function [Plasmodium vivax]
+SCO73259.1           -            143 6067at5820           -            491       1.3    6.3  14.4   1   1    0.0018       1.6    6.0  14.4   307   390    35   118    29   135 0.60 conserved Plasmodium protein, unknown function [Plasmodium vivax]
+SCO72036.1           -             99 6067at5820           -            491       2.6    5.3  15.3   1   1    0.0028       2.6    5.3  15.3   327   376    10    57     1    83 0.42 hypothetical protein PVC01_070031400 [Plasmodium vivax]
+SCO72509.1           -            320 6067at5820           -            491         5    4.3  26.4   1   2   0.00016      0.14    9.4  19.8   324   394    93   162    77   186 0.36 hypothetical protein, conserved [Plasmodium vivax]
+SCO72509.1           -            320 6067at5820           -            491         5    4.3  26.4   2   2      0.53   4.8e+02   -2.2   0.4   314   339   272   297   231   312 0.47 hypothetical protein, conserved [Plasmodium vivax]
+SCO73062.1           -            667 6067at5820           -            491         6    4.1  17.4   1   1     0.012        10    3.3  17.4   319   401    40   132    27   185 0.39 RNA helicase 1, putative [Plasmodium vivax]
+#
+# Program:         hmmsearch
+# Version:         3.4 (Aug 2023)
+# Pipeline mode:   SEARCH
+# Query file:      /v3/work/00_inventory/busco/busco_downloads/lineages/plasmodium_odb10/hmms/6067at5820.hmm
+# Target file:     /v3/inputs/annotations/ncbi-datasets/PvC01.proteins.fa
+# Option settings: hmmsearch --domtblout /v3/work/00_inventory/busco/PvC01_proteins/run_plasmodium_odb10/hmmer_output/initial_run_results/6067at5820.out --cpu 1 /v3/work/00_inventory/busco/busco_downloads/lineages/plasmodium_odb10/hmms/6067at5820.hmm /v3/inputs/annotations/ncbi-datasets/PvC01.proteins.fa 
+# Current dir:     /v3/work/00_inventory/busco
+# Date:            Tue May 19 18:59:07 2026
+# [ok]

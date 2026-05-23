@@ -1,0 +1,17 @@
+#                                                                            --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name        accession   tlen query name           accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+#------------------- ---------- ----- -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+CAI7723795.1         -            666 3911at5820           -            533         0 1072.4  36.9   1   3   7.8e-45   2.5e-41  140.5   6.6     1    84     1    91     1   101 0.97 | transcript=PVPAM_140071800_t1 | gene=PVPAM_140071800 | organism=Plasmodium_vivax_PAM | gene_product=delta-aminolevulinic acid synthetase, putative | transcript_product=delta-aminolevulinic acid synthetase, putative | location=CASCJQ010000014:2836267-2838413(+) | protein_length=666 | sequence_SO=supercontig | SO=protein_coding_gene | is_pseudo=false
+CAI7723795.1         -            666 3911at5820           -            533         0 1072.4  36.9   2   3   7.5e-39   2.4e-35  120.7   0.6    84   160   182   258   160   266 0.91 | transcript=PVPAM_140071800_t1 | gene=PVPAM_140071800 | organism=Plasmodium_vivax_PAM | gene_product=delta-aminolevulinic acid synthetase, putative | transcript_product=delta-aminolevulinic acid synthetase, putative | location=CASCJQ010000014:2836267-2838413(+) | protein_length=666 | sequence_SO=supercontig | SO=protein_coding_gene | is_pseudo=false
+CAI7723795.1         -            666 3911at5820           -            533         0 1072.4  36.9   3   3  2.3e-251  7.5e-248  822.1  15.3   149   533   283   666   273   666 0.98 | transcript=PVPAM_140071800_t1 | gene=PVPAM_140071800 | organism=Plasmodium_vivax_PAM | gene_product=delta-aminolevulinic acid synthetase, putative | transcript_product=delta-aminolevulinic acid synthetase, putative | location=CASCJQ010000014:2836267-2838413(+) | protein_length=666 | sequence_SO=supercontig | SO=protein_coding_gene | is_pseudo=false
+CAI7722975.1         -            571 3911at5820           -            533   1.6e-38  131.2   0.0   1   1   7.9e-42   2.5e-38  130.6   0.0   161   507   198   552   138   564 0.83 | transcript=PVPAM_130048100_t1 | gene=PVPAM_130048100 | organism=Plasmodium_vivax_PAM | gene_product=serine palmitoyltransferase, putative | transcript_product=serine palmitoyltransferase, putative | location=CASCJQ010000013:1892233-1893948(+) | protein_length=571 | sequence_SO=supercontig | SO=protein_coding_gene | is_pseudo=false
+#
+# Program:         hmmsearch
+# Version:         3.4 (Aug 2023)
+# Pipeline mode:   SEARCH
+# Query file:      /v3/work/00_inventory/busco/busco_downloads/lineages/plasmodium_odb10/hmms/3911at5820.hmm
+# Target file:     /v3/inputs/annotations/plasmodb-68/PAM.proteins.fa
+# Option settings: hmmsearch --domtblout /v3/work/00_inventory/busco/PAM_proteins/run_plasmodium_odb10/hmmer_output/initial_run_results/3911at5820.out --cpu 1 /v3/work/00_inventory/busco/busco_downloads/lineages/plasmodium_odb10/hmms/3911at5820.hmm /v3/inputs/annotations/plasmodb-68/PAM.proteins.fa 
+# Current dir:     /v3/work/00_inventory/busco
+# Date:            Tue May 19 17:39:17 2026
+# [ok]

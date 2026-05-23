@@ -1,0 +1,16 @@
+#                                                                            --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name        accession   tlen query name           accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+#------------------- ---------- ----- -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+CAI7720023.1         -            193 11928at5820          -            157  3.5e-103  341.0   5.9   1   2   0.00015      0.49    9.1   0.0     1    13     1    13     1    26 0.86 | transcript=PVPAM_080024500_t1 | gene=PVPAM_080024500 | organism=Plasmodium_vivax_PAM | gene_product=cytochrome b-c1 complex subunit 7, putative | transcript_product=cytochrome b-c1 complex subunit 7, putative | location=CASCJQ010000008:882238-883063(-) | protein_length=193 | sequence_SO=supercontig | SO=protein_coding_gene | is_pseudo=false
+CAI7720023.1         -            193 11928at5820          -            157  3.5e-103  341.0   5.9   2   2  5.5e-104  1.8e-100  332.2   3.6     8   157    39   192    33   192 0.95 | transcript=PVPAM_080024500_t1 | gene=PVPAM_080024500 | organism=Plasmodium_vivax_PAM | gene_product=cytochrome b-c1 complex subunit 7, putative | transcript_product=cytochrome b-c1 complex subunit 7, putative | location=CASCJQ010000008:882238-883063(-) | protein_length=193 | sequence_SO=supercontig | SO=protein_coding_gene | is_pseudo=false
+CAI7720902.1         -            130 11928at5820          -            157    0.0044   15.7   0.0   1   1   1.7e-06    0.0055   15.4   0.0    36    84    52    99    20   122 0.83 | transcript=PVPAM_100017000_t1 | gene=PVPAM_100017000 | organism=Plasmodium_vivax_PAM | gene_product=cytochrome c oxidase subunit ApiCOX18, putative | transcript_product=cytochrome c oxidase subunit ApiCOX18, putative | location=CASCJQ010000010:523778-524499(+) | protein_length=130 | sequence_SO=supercontig | SO=protein_coding_gene | is_pseudo=false
+#
+# Program:         hmmsearch
+# Version:         3.4 (Aug 2023)
+# Pipeline mode:   SEARCH
+# Query file:      /v3/work/00_inventory/busco/busco_downloads/lineages/plasmodium_odb10/hmms/11928at5820.hmm
+# Target file:     /v3/inputs/annotations/plasmodb-68/PAM.proteins.fa
+# Option settings: hmmsearch --domtblout /v3/work/00_inventory/busco/PAM_proteins/run_plasmodium_odb10/hmmer_output/initial_run_results/11928at5820.out --cpu 1 /v3/work/00_inventory/busco/busco_downloads/lineages/plasmodium_odb10/hmms/11928at5820.hmm /v3/inputs/annotations/plasmodb-68/PAM.proteins.fa 
+# Current dir:     /v3/work/00_inventory/busco
+# Date:            Tue May 19 17:25:07 2026
+# [ok]

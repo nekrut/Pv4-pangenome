@@ -1,0 +1,19 @@
+#                                                                            --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name        accession   tlen query name           accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+#------------------- ---------- ----- -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+SCO69988.1           -            511 7258at5820           -            328  3.2e-166  550.9  35.7   1   4   1.6e-24     5e-21   73.7   0.1     1    62     5    75     5    87 0.82 nucleus export protein BRR6, putative [Plasmodium vivax]
+SCO69988.1           -            511 7258at5820           -            328  3.2e-166  550.9  35.7   2   4  9.5e-138  2.9e-134  445.8  13.1    45   267   129   370   125   401 0.94 nucleus export protein BRR6, putative [Plasmodium vivax]
+SCO69988.1           -            511 7258at5820           -            328  3.2e-166  550.9  35.7   3   4     1e-07   0.00031   18.5   2.4   265   298   400   442   396   447 0.80 nucleus export protein BRR6, putative [Plasmodium vivax]
+SCO69988.1           -            511 7258at5820           -            328  3.2e-166  550.9  35.7   4   4   4.5e-10   1.4e-06   26.2   1.8   281   328   456   509   447   509 0.72 nucleus export protein BRR6, putative [Plasmodium vivax]
+SCO67241.1           -            276 7258at5820           -            328     0.011   13.3   5.5   1   2   0.00053       1.6    6.3   0.1   204   259    11    68     2    74 0.76 rhomboid protease ROM1, putative [Plasmodium vivax]
+SCO67241.1           -            276 7258at5820           -            328     0.011   13.3   5.5   2   2   9.2e-05      0.28    8.8   1.5   133   159   187   213   178   220 0.88 rhomboid protease ROM1, putative [Plasmodium vivax]
+#
+# Program:         hmmsearch
+# Version:         3.4 (Aug 2023)
+# Pipeline mode:   SEARCH
+# Query file:      /v3/work/00_inventory/busco/busco_downloads/lineages/plasmodium_odb10/hmms/7258at5820.hmm
+# Target file:     /v3/inputs/annotations/ncbi-datasets/PvT01.proteins.fa
+# Option settings: hmmsearch --domtblout /v3/work/00_inventory/busco/PvT01_proteins/run_plasmodium_odb10/hmmer_output/initial_run_results/7258at5820.out --cpu 1 /v3/work/00_inventory/busco/busco_downloads/lineages/plasmodium_odb10/hmms/7258at5820.hmm /v3/inputs/annotations/ncbi-datasets/PvT01.proteins.fa 
+# Current dir:     /v3/work/00_inventory/busco
+# Date:            Tue May 19 18:57:57 2026
+# [ok]

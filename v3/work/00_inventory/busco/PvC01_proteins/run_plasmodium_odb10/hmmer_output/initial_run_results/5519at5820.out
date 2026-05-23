@@ -1,0 +1,25 @@
+#                                                                            --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name        accession   tlen query name           accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+#------------------- ---------- ----- -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+SCO70519.1           -            564 5519at5820           -            481         0 1080.1   6.3   1   1         0         0 1077.0   6.3     1   481     1   564     1   564 0.99 serine/threonine protein phosphatase 2B catalytic subunit A, putative [Plasmodium vivax]
+SCO74921.1           -            304 5519at5820           -            481   3.6e-67  225.0   0.7   1   1   7.8e-70   4.9e-67  224.6   0.7    67   327    42   287    26   296 0.93 serine/threonine protein phosphatase PP1, putative [Plasmodium vivax]
+SCO73531.1           -            682 5519at5820           -            481   2.3e-60  202.6   0.9   1   2      0.47   2.9e+02   -2.2   0.1    23    69   205   251   188   266 0.75 serine/threonine protein phosphatase 5, putative [Plasmodium vivax]
+SCO73531.1           -            682 5519at5820           -            481   2.3e-60  202.6   0.9   2   2   3.6e-63   2.3e-60  202.6   0.9    53   336   389   662   376   678 0.90 serine/threonine protein phosphatase 5, putative [Plasmodium vivax]
+SCO70389.1           -            308 5519at5820           -            481   4.8e-60  201.5   1.0   1   1     1e-62   6.3e-60  201.2   1.0    57   340    25   293     5   306 0.90 serine/threonine protein phosphatase 6, putative [Plasmodium vivax]
+SCO72034.1           -            307 5519at5820           -            481   6.4e-59  197.8   1.5   1   1   1.7e-61   1.1e-58  197.1   1.5    45   328    11   279     6   290 0.91 serine/threonine protein phosphatase 4, putative [Plasmodium vivax]
+SCO72010.1           -            516 5519at5820           -            481   1.1e-52  177.3   0.4   1   1   2.4e-55   1.5e-52  176.8   0.4    62   324   233   486   199   503 0.88 protein phosphatase-beta, putative [Plasmodium vivax]
+SCO74249.1           -            878 5519at5820           -            481   2.9e-49  166.0   0.6   1   1   1.5e-51   9.1e-49  164.4   0.6    63   323   547   827   513   841 0.83 protein phosphatase containing kelch-like domains, putative [Plasmodium vivax]
+SCO74838.1           -            956 5519at5820           -            481   3.6e-30  103.0   3.0   1   1   1.1e-32     7e-30  102.1   3.0    81   333   240   488   221   497 0.84 serine/threonine protein phosphatase 7, putative [Plasmodium vivax]
+SCO71552.1           -           2032 5519at5820           -            481   2.1e-23   80.7   0.2   1   2    0.0048         3    4.3   0.0    61   126  1117  1185  1105  1193 0.77 serine/threonine protein phosphatase 8, putative [Plasmodium vivax]
+SCO71552.1           -           2032 5519at5820           -            481   2.1e-23   80.7   0.2   2   2   6.9e-24   4.4e-21   73.1   0.2   106   319  1232  1478  1227  1501 0.67 serine/threonine protein phosphatase 8, putative [Plasmodium vivax]
+SCO74218.1           -            381 5519at5820           -            481   7.7e-07   26.1   0.9   1   1   1.7e-09   1.1e-06   25.6   0.9    75   217    67   233    42   259 0.69 shewanella-like protein phosphatase 1, putative [Plasmodium vivax]
+#
+# Program:         hmmsearch
+# Version:         3.4 (Aug 2023)
+# Pipeline mode:   SEARCH
+# Query file:      /v3/work/00_inventory/busco/busco_downloads/lineages/plasmodium_odb10/hmms/5519at5820.hmm
+# Target file:     /v3/inputs/annotations/ncbi-datasets/PvC01.proteins.fa
+# Option settings: hmmsearch --domtblout /v3/work/00_inventory/busco/PvC01_proteins/run_plasmodium_odb10/hmmer_output/initial_run_results/5519at5820.out --cpu 1 /v3/work/00_inventory/busco/busco_downloads/lineages/plasmodium_odb10/hmms/5519at5820.hmm /v3/inputs/annotations/ncbi-datasets/PvC01.proteins.fa 
+# Current dir:     /v3/work/00_inventory/busco
+# Date:            Tue May 19 18:53:30 2026
+# [ok]

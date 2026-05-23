@@ -1,0 +1,28 @@
+#                                                                            --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name        accession   tlen query name           accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+#------------------- ---------- ----- -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+SCO66786.1           -            614 5653at5820           -            431  6.5e-227  752.2  54.9   1   4   7.6e-26   4.2e-23   80.6   2.2     1    66     5    77     5    80 0.92 RING zinc finger protein, putative [Plasmodium vivax]
+SCO66786.1           -            614 5653at5820           -            431  6.5e-227  752.2  54.9   2   4   1.5e-47   8.1e-45  152.2   7.8    62   157   180   275   164   286 0.93 RING zinc finger protein, putative [Plasmodium vivax]
+SCO66786.1           -            614 5653at5820           -            431  6.5e-227  752.2  54.9   3   4  2.6e-135  1.4e-132  441.3   9.6   152   378   294   522   281   538 0.97 RING zinc finger protein, putative [Plasmodium vivax]
+SCO66786.1           -            614 5653at5820           -            431  6.5e-227  752.2  54.9   4   4   1.1e-30   6.1e-28   96.6  11.7   370   431   552   614   539   614 0.91 RING zinc finger protein, putative [Plasmodium vivax]
+SCO67602.1           -            284 5653at5820           -            431   6.4e-10   37.2   1.5   1   1   2.4e-12   1.3e-09   36.1   1.5   373   429   223   280   208   282 0.90 RING zinc finger protein, putative [Plasmodium vivax]
+SCO66221.1           -            272 5653at5820           -            431   2.9e-08   31.8   1.7   1   1   7.2e-11     4e-08   31.3   1.7   365   427   198   261   146   264 0.78 zinc finger, C3HC4 type, putative [Plasmodium vivax]
+SCO66975.1           -           1201 5653at5820           -            431   9.8e-06   23.4   5.0   1   1     3e-08   1.7e-05   22.7   5.0   374   429  1142  1198  1117  1200 0.81 zinc finger protein, putative [Plasmodium vivax]
+SCO67000.1           -            746 5653at5820           -            431   5.6e-05   20.9   1.9   1   1   1.5e-07   8.6e-05   20.3   1.9   385   428   696   741   671   743 0.73 E3 ubiquitin-protein ligase, putative [Plasmodium vivax]
+SCO66756.1           -           1167 5653at5820           -            431   0.00021   19.0   0.3   1   1   5.6e-07   0.00031   18.5   0.3   375   429   366   425   324   427 0.77 E3 ubiquitin-protein ligase, putative [Plasmodium vivax]
+SCO69533.1           -            703 5653at5820           -            431   0.00086   17.0   8.4   1   1     3e-06    0.0016   16.1   8.4   384   427   652   698   616   701 0.71 RING zinc finger protein, putative [Plasmodium vivax]
+SCO68152.1           -             89 5653at5820           -            431    0.0046   14.6   9.3   1   1   9.1e-06     0.005   14.5   9.3   379   428    30    80     7    82 0.77 anaphase-promoting complex subunit 11, putative [Plasmodium vivax]
+SCO68124.1           -            519 5653at5820           -            431    0.0089   13.7   5.9   1   1   2.3e-05     0.013   13.2   5.9   369   429   348   405   324   407 0.69 E3 ubiquitin-protein ligase RNF5, putative [Plasmodium vivax]
+SCO68200.1           -            822 5653at5820           -            431     0.026   12.1   0.1   1   1   7.6e-05     0.042   11.4   0.1   227   303   115   190   110   196 0.84 AAA family ATPase, CDC48 subfamily, putative [Plasmodium vivax]
+SCO66931.1           -            108 5653at5820           -            431       1.9    6.0   7.1   1   2      0.17        95    0.4   0.2   366   400    13    46     2    53 0.69 E3 ubiquitin-protein ligase RBX1, putative [Plasmodium vivax]
+SCO66931.1           -            108 5653at5820           -            431       1.9    6.0   7.1   2   2     0.001      0.58    7.7   3.0   392   423    62    95    45   100 0.83 E3 ubiquitin-protein ligase RBX1, putative [Plasmodium vivax]
+#
+# Program:         hmmsearch
+# Version:         3.4 (Aug 2023)
+# Pipeline mode:   SEARCH
+# Query file:      /v3/work/00_inventory/busco/busco_downloads/lineages/plasmodium_odb10/hmms/5653at5820.hmm
+# Target file:     /v3/inputs/annotations/ncbi-datasets/PvT01.proteins.fa
+# Option settings: hmmsearch --domtblout /v3/work/00_inventory/busco/PvT01_proteins/run_plasmodium_odb10/hmmer_output/initial_run_results/5653at5820.out --cpu 1 /v3/work/00_inventory/busco/busco_downloads/lineages/plasmodium_odb10/hmms/5653at5820.hmm /v3/inputs/annotations/ncbi-datasets/PvT01.proteins.fa 
+# Current dir:     /v3/work/00_inventory/busco
+# Date:            Tue May 19 18:55:28 2026
+# [ok]

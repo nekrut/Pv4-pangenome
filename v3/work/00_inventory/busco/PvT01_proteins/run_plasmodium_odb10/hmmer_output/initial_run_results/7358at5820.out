@@ -1,0 +1,18 @@
+#                                                                            --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name        accession   tlen query name           accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+#------------------- ---------- ----- -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+SCO70264.1           -            594 7358at5820           -            422  3.9e-190  630.8  57.6   1   4   1.8e-05     0.054   11.0   0.0     1    34     1    33     1    41 0.84 tryptophan--tRNA ligase, putative [Plasmodium vivax]
+SCO70264.1           -            594 7358at5820           -            422  3.9e-190  630.8  57.6   2   4   1.1e-57   3.4e-54  183.0   9.3    22   146    44   175    34   179 0.87 tryptophan--tRNA ligase, putative [Plasmodium vivax]
+SCO70264.1           -            594 7358at5820           -            422  3.9e-190  630.8  57.6   3   4  3.2e-100   9.8e-97  323.1  28.5   131   312   239   434   233   492 0.85 tryptophan--tRNA ligase, putative [Plasmodium vivax]
+SCO70264.1           -            594 7358at5820           -            422  3.9e-190  630.8  57.6   4   4   6.7e-40     2e-36  124.4   3.0   332   422   503   594   477   594 0.89 tryptophan--tRNA ligase, putative [Plasmodium vivax]
+SCO64977.1           -            268 7358at5820           -            422     6e-05   20.7   1.7   1   1   2.8e-08   8.6e-05   20.2   1.1   181   277    79   168    55   171 0.89 tyrosine--tRNA ligase, putative [Plasmodium vivax]
+#
+# Program:         hmmsearch
+# Version:         3.4 (Aug 2023)
+# Pipeline mode:   SEARCH
+# Query file:      /v3/work/00_inventory/busco/busco_downloads/lineages/plasmodium_odb10/hmms/7358at5820.hmm
+# Target file:     /v3/inputs/annotations/ncbi-datasets/PvT01.proteins.fa
+# Option settings: hmmsearch --domtblout /v3/work/00_inventory/busco/PvT01_proteins/run_plasmodium_odb10/hmmer_output/initial_run_results/7358at5820.out --cpu 1 /v3/work/00_inventory/busco/busco_downloads/lineages/plasmodium_odb10/hmms/7358at5820.hmm /v3/inputs/annotations/ncbi-datasets/PvT01.proteins.fa 
+# Current dir:     /v3/work/00_inventory/busco
+# Date:            Tue May 19 18:58:22 2026
+# [ok]

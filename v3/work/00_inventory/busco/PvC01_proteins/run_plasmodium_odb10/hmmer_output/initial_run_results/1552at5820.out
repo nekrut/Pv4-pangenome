@@ -1,0 +1,31 @@
+#                                                                            --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name        accession   tlen query name           accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+#------------------- ---------- ----- -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+SCO74293.1           -           1071 1552at5820           -            902         0 1845.4  35.8   1   3  4.2e-303  4.4e-300  996.3  10.8     1   451    31   490    31   496 0.99 valine--tRNA ligase, putative [Plasmodium vivax]
+SCO74293.1           -           1071 1552at5820           -            902         0 1845.4  35.8   2   3    7e-166  7.3e-163  542.3   0.8   440   705   508   796   505   801 0.94 valine--tRNA ligase, putative [Plasmodium vivax]
+SCO74293.1           -           1071 1552at5820           -            902         0 1845.4  35.8   3   3   4.1e-98   4.3e-95  318.0   9.4   701   902   839  1071   833  1071 0.93 valine--tRNA ligase, putative [Plasmodium vivax]
+SCO74060.1           -           1206 1552at5820           -            902   1.5e-35  121.0  23.2   1   2   6.4e-12   6.7e-09   32.8   1.8    16   203    76   268    66   277 0.83 isoleucine--tRNA ligase, putative [Plasmodium vivax]
+SCO74060.1           -           1206 1552at5820           -            902   1.5e-35  121.0  23.2   2   2   1.5e-28   1.6e-25   87.8  14.0   250   736   397   906   391   914 0.73 isoleucine--tRNA ligase, putative [Plasmodium vivax]
+SCO72399.1           -           1298 1552at5820           -            902     9e-20   68.8   0.3   1   4   4.9e-18   5.1e-15   53.0   0.0    30   200   258   423   228   430 0.85 valine--tRNA ligase, putative [Plasmodium vivax]
+SCO72399.1           -           1298 1552at5820           -            902     9e-20   68.8   0.3   2   4      0.24   2.5e+02   -2.2   0.0   397   436   700   739   661   740 0.78 valine--tRNA ligase, putative [Plasmodium vivax]
+SCO72399.1           -           1298 1552at5820           -            902     9e-20   68.8   0.3   3   4   1.5e-05     0.016   11.7   0.0   464   524   813   877   799   881 0.75 valine--tRNA ligase, putative [Plasmodium vivax]
+SCO72399.1           -           1298 1552at5820           -            902     9e-20   68.8   0.3   4   4      0.18   1.9e+02   -1.8   0.0   530   553   920   943   917   957 0.86 valine--tRNA ligase, putative [Plasmodium vivax]
+SCO71218.1           -           1302 1552at5820           -            902   1.9e-08   31.3   2.5   1   3     1e-07   0.00011   18.9   0.4    36   197   151   295   144   313 0.80 leucine--tRNA ligase, putative [Plasmodium vivax]
+SCO71218.1           -           1302 1552at5820           -            902   1.9e-08   31.3   2.5   2   3     0.018        18    1.6   0.0   415   433   601   619   588   624 0.89 leucine--tRNA ligase, putative [Plasmodium vivax]
+SCO71218.1           -           1302 1552at5820           -            902   1.9e-08   31.3   2.5   3   3   0.00047      0.49    6.8   0.0   541   561   917   937   910   950 0.86 leucine--tRNA ligase, putative [Plasmodium vivax]
+SCO71719.1           -            886 1552at5820           -            902     2e-07   27.9  21.1   1   5     0.096     1e+02   -0.9   0.2   814   872    77   138    67   166 0.68 methionine--tRNA ligase, putative [Plasmodium vivax]
+SCO71719.1           -            886 1552at5820           -            902     2e-07   27.9  21.1   2   5   1.9e-06     0.002   14.6   1.8     5    93   188   278   184   340 0.77 methionine--tRNA ligase, putative [Plasmodium vivax]
+SCO71719.1           -            886 1552at5820           -            902     2e-07   27.9  21.1   3   5     0.021        22    1.3   0.1   371   434   369   435   351   445 0.81 methionine--tRNA ligase, putative [Plasmodium vivax]
+SCO71719.1           -            886 1552at5820           -            902     2e-07   27.9  21.1   4   5   1.4e-09   1.4e-06   25.1   0.1   469   561   440   529   435   550 0.82 methionine--tRNA ligase, putative [Plasmodium vivax]
+SCO71719.1           -            886 1552at5820           -            902     2e-07   27.9  21.1   5   5       1.3   1.3e+03   -4.6   0.9   720   786   670   738   614   757 0.63 methionine--tRNA ligase, putative [Plasmodium vivax]
+SCO75221.1           -            123 1552at5820           -            902     0.014   11.8   1.0   1   1   1.6e-05     0.017   11.6   1.0   617   707    15   103     6   115 0.83 conserved Plasmodium protein, unknown function [Plasmodium vivax]
+#
+# Program:         hmmsearch
+# Version:         3.4 (Aug 2023)
+# Pipeline mode:   SEARCH
+# Query file:      /v3/work/00_inventory/busco/busco_downloads/lineages/plasmodium_odb10/hmms/1552at5820.hmm
+# Target file:     /v3/inputs/annotations/ncbi-datasets/PvC01.proteins.fa
+# Option settings: hmmsearch --domtblout /v3/work/00_inventory/busco/PvC01_proteins/run_plasmodium_odb10/hmmer_output/initial_run_results/1552at5820.out --cpu 1 /v3/work/00_inventory/busco/busco_downloads/lineages/plasmodium_odb10/hmms/1552at5820.hmm /v3/inputs/annotations/ncbi-datasets/PvC01.proteins.fa 
+# Current dir:     /v3/work/00_inventory/busco
+# Date:            Tue May 19 18:34:35 2026
+# [ok]

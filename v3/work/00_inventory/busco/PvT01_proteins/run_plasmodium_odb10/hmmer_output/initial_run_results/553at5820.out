@@ -1,0 +1,21 @@
+#                                                                            --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name        accession   tlen query name           accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+#------------------- ---------- ----- -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+SCO69303.1           -           2254 553at5820            -           1244         0 2544.2  94.5   1   8         0         0 1017.7  12.0     1   445     2   446     2   453 0.99 acid phosphatase, putative [Plasmodium vivax]
+SCO69303.1           -           2254 553at5820            -           1244         0 2544.2  94.5   2   8   2.9e-25   1.8e-21   74.0   0.4   428   495   530   597   509   604 0.82 acid phosphatase, putative [Plasmodium vivax]
+SCO69303.1           -           2254 553at5820            -           1244         0 2544.2  94.5   3   8  3.8e-249  2.3e-245  815.6   8.8   487   861   666  1044   659  1077 0.96 acid phosphatase, putative [Plasmodium vivax]
+SCO69303.1           -           2254 553at5820            -           1244         0 2544.2  94.5   4   8   1.3e-06    0.0081   12.2   0.1   855   880  1079  1104  1063  1119 0.81 acid phosphatase, putative [Plasmodium vivax]
+SCO69303.1           -           2254 553at5820            -           1244         0 2544.2  94.5   5   8   1.1e-26   6.6e-23   78.7   3.2   875   934  1366  1425  1352  1435 0.90 acid phosphatase, putative [Plasmodium vivax]
+SCO69303.1           -           2254 553at5820            -           1244         0 2544.2  94.5   6   8  8.5e-101   5.2e-97  324.2   9.1   907  1080  1549  1721  1534  1746 0.92 acid phosphatase, putative [Plasmodium vivax]
+SCO69303.1           -           2254 553at5820            -           1244         0 2544.2  94.5   7   8   7.9e-27   4.8e-23   79.2   5.5  1028  1157  1929  2076  1920  2094 0.78 acid phosphatase, putative [Plasmodium vivax]
+SCO69303.1           -           2254 553at5820            -           1244         0 2544.2  94.5   8   8   5.1e-57   3.1e-53  179.2   6.6  1147  1244  2147  2245  2127  2245 0.91 acid phosphatase, putative [Plasmodium vivax]
+#
+# Program:         hmmsearch
+# Version:         3.4 (Aug 2023)
+# Pipeline mode:   SEARCH
+# Query file:      /v3/work/00_inventory/busco/busco_downloads/lineages/plasmodium_odb10/hmms/553at5820.hmm
+# Target file:     /v3/inputs/annotations/ncbi-datasets/PvT01.proteins.fa
+# Option settings: hmmsearch --domtblout /v3/work/00_inventory/busco/PvT01_proteins/run_plasmodium_odb10/hmmer_output/initial_run_results/553at5820.out --cpu 1 /v3/work/00_inventory/busco/busco_downloads/lineages/plasmodium_odb10/hmms/553at5820.hmm /v3/inputs/annotations/ncbi-datasets/PvT01.proteins.fa 
+# Current dir:     /v3/work/00_inventory/busco
+# Date:            Tue May 19 18:53:54 2026
+# [ok]

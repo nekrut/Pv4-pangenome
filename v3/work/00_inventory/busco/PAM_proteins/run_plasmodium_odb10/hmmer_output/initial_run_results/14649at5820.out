@@ -1,0 +1,17 @@
+#                                                                            --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name        accession   tlen query name           accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+#------------------- ---------- ----- -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+CAI7723497.1         -            103 14649at5820          -             82   2.6e-44  147.7   4.4   1   1   5.2e-47   1.7e-43  145.1   4.4     5    82    13   103     5   103 0.90 | transcript=PVPAM_140042000_t1 | gene=PVPAM_140042000 | organism=Plasmodium_vivax_PAM | gene_product=10 kDa chaperonin, putative | transcript_product=10 kDa chaperonin, putative | location=CASCJQ010000014:1574513-1575189(-) | protein_length=103 | sequence_SO=supercontig | SO=protein_coding_gene | is_pseudo=false
+CAI7722024.1         -            259 14649at5820          -             82   5.1e-09   34.6   3.1   1   3       1.3   4.2e+03   -3.6   0.0    11    21    19    29    17    35 0.73 | transcript=PVPAM_120026300_t1 | gene=PVPAM_120026300 | organism=Plasmodium_vivax_PAM | gene_product=20 kDa chaperonin, putative | transcript_product=20 kDa chaperonin, putative | location=CASCJQ010000012:846457-848321(-) | protein_length=259 | sequence_SO=supercontig | SO=protein_coding_gene | is_pseudo=false
+CAI7722024.1         -            259 14649at5820          -             82   5.1e-09   34.6   3.1   2   3   3.1e-09     1e-05   24.0   0.1    17    81    91   156    79   157 0.91 | transcript=PVPAM_120026300_t1 | gene=PVPAM_120026300 | organism=Plasmodium_vivax_PAM | gene_product=20 kDa chaperonin, putative | transcript_product=20 kDa chaperonin, putative | location=CASCJQ010000012:846457-848321(-) | protein_length=259 | sequence_SO=supercontig | SO=protein_coding_gene | is_pseudo=false
+CAI7722024.1         -            259 14649at5820          -             82   5.1e-09   34.6   3.1   3   3   7.3e-05      0.23   10.0   0.1    22    71   190   251   166   257 0.66 | transcript=PVPAM_120026300_t1 | gene=PVPAM_120026300 | organism=Plasmodium_vivax_PAM | gene_product=20 kDa chaperonin, putative | transcript_product=20 kDa chaperonin, putative | location=CASCJQ010000012:846457-848321(-) | protein_length=259 | sequence_SO=supercontig | SO=protein_coding_gene | is_pseudo=false
+#
+# Program:         hmmsearch
+# Version:         3.4 (Aug 2023)
+# Pipeline mode:   SEARCH
+# Query file:      /v3/work/00_inventory/busco/busco_downloads/lineages/plasmodium_odb10/hmms/14649at5820.hmm
+# Target file:     /v3/inputs/annotations/plasmodb-68/PAM.proteins.fa
+# Option settings: hmmsearch --domtblout /v3/work/00_inventory/busco/PAM_proteins/run_plasmodium_odb10/hmmer_output/initial_run_results/14649at5820.out --cpu 1 /v3/work/00_inventory/busco/busco_downloads/lineages/plasmodium_odb10/hmms/14649at5820.hmm /v3/inputs/annotations/plasmodb-68/PAM.proteins.fa 
+# Current dir:     /v3/work/00_inventory/busco
+# Date:            Tue May 19 17:34:03 2026
+# [ok]

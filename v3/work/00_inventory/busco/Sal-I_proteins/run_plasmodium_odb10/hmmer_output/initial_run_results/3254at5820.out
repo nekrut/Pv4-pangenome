@@ -1,0 +1,17 @@
+#                                                                            --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name        accession   tlen query name           accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+#------------------- ---------- ----- -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+PVX_110905.1-p1      -            723 3254at5820           -            580         0 1106.1  47.9   1   2  2.9e-177  7.9e-174  577.5  30.6     4   320    42   391    39   394 0.88 | transcript=PVX_110905.1 | gene=PVX_110905 | organism=Plasmodium_vivax_Sal-1 | gene_product=pyruvate kinase 2, putative | transcript_product=pyruvate kinase 2, putative | location=Pv_Sal1_chr06:870185-872356(-) | protein_length=723 | sequence_SO=chromosome | SO=protein_coding_gene | is_pseudo=false
+PVX_110905.1-p1      -            723 3254at5820           -            580         0 1106.1  47.9   2   2  3.1e-163  8.5e-160  531.2   9.3   317   579   440   722   435   723 0.94 | transcript=PVX_110905.1 | gene=PVX_110905 | organism=Plasmodium_vivax_Sal-1 | gene_product=pyruvate kinase 2, putative | transcript_product=pyruvate kinase 2, putative | location=Pv_Sal1_chr06:870185-872356(-) | protein_length=723 | sequence_SO=chromosome | SO=protein_coding_gene | is_pseudo=false
+PVX_114445.1-p1      -            511 3254at5820           -            580   1.4e-63  213.5   5.6   1   2   8.5e-31   2.3e-27   93.9   0.4    38   246    37   243    25   246 0.90 | transcript=PVX_114445.1 | gene=PVX_114445 | organism=Plasmodium_vivax_Sal-1 | gene_product=pyruvate kinase, putative | transcript_product=pyruvate kinase, putative | location=Pv_Sal1_chr11:961082-963372(-) | protein_length=511 | sequence_SO=chromosome | SO=protein_coding_gene | is_pseudo=false
+PVX_114445.1-p1      -            511 3254at5820           -            580   1.4e-63  213.5   5.6   2   2   2.1e-39   5.7e-36  122.3   0.7   320   446   249   374   246   510 0.81 | transcript=PVX_114445.1 | gene=PVX_114445 | organism=Plasmodium_vivax_Sal-1 | gene_product=pyruvate kinase, putative | transcript_product=pyruvate kinase, putative | location=Pv_Sal1_chr11:961082-963372(-) | protein_length=511 | sequence_SO=chromosome | SO=protein_coding_gene | is_pseudo=false
+#
+# Program:         hmmsearch
+# Version:         3.4 (Aug 2023)
+# Pipeline mode:   SEARCH
+# Query file:      /v3/work/00_inventory/busco/busco_downloads/lineages/plasmodium_odb10/hmms/3254at5820.hmm
+# Target file:     /v3/inputs/annotations/plasmodb-68/Sal-I.proteins.fa
+# Option settings: hmmsearch --domtblout /v3/work/00_inventory/busco/Sal-I_proteins/run_plasmodium_odb10/hmmer_output/initial_run_results/3254at5820.out --cpu 1 /v3/work/00_inventory/busco/busco_downloads/lineages/plasmodium_odb10/hmms/3254at5820.hmm /v3/inputs/annotations/plasmodb-68/Sal-I.proteins.fa 
+# Current dir:     /v3/work/00_inventory/busco
+# Date:            Tue May 19 17:36:10 2026
+# [ok]

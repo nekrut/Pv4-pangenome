@@ -1,0 +1,16 @@
+#                                                                            --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name        accession   tlen query name           accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+#------------------- ---------- ----- -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+CAI7722416.1         -            131 14830at5820          -             88   4.5e-32  108.7  15.5   1   1   1.7e-35   5.4e-32  108.5  12.5     8    88    37   131    28   131 0.83 | transcript=PVPAM_120065200_t1 | gene=PVPAM_120065200 | organism=Plasmodium_vivax_PAM | gene_product=conserved Plasmodium protein, unknown function | transcript_product=conserved Plasmodium protein, unknown function | location=CASCJQ010000012:2454406-2455194(+) | protein_length=131 | sequence_SO=supercontig | SO=protein_coding_gene | is_pseudo=false
+CAI7717791.1         -            582 14830at5820          -             88         2    7.3   9.4   1   2      0.11   3.6e+02    0.1   0.4    55    78   485   508   457   516 0.70 | transcript=PVPAM_010030500_t1 | gene=PVPAM_010030500 | organism=Plasmodium_vivax_PAM | gene_product=peptidyl-prolyl cis-trans isomerase, putative | transcript_product=peptidyl-prolyl cis-trans isomerase, putative | location=CASCJQ010000001:1138008-1139756(-) | protein_length=582 | sequence_SO=supercontig | SO=protein_coding_gene | is_pseudo=false
+CAI7717791.1         -            582 14830at5820          -             88         2    7.3   9.4   2   2   7.2e-05      0.23   10.3   3.0     6    61   516   570   511   580 0.85 | transcript=PVPAM_010030500_t1 | gene=PVPAM_010030500 | organism=Plasmodium_vivax_PAM | gene_product=peptidyl-prolyl cis-trans isomerase, putative | transcript_product=peptidyl-prolyl cis-trans isomerase, putative | location=CASCJQ010000001:1138008-1139756(-) | protein_length=582 | sequence_SO=supercontig | SO=protein_coding_gene | is_pseudo=false
+#
+# Program:         hmmsearch
+# Version:         3.4 (Aug 2023)
+# Pipeline mode:   SEARCH
+# Query file:      /v3/work/00_inventory/busco/busco_downloads/lineages/plasmodium_odb10/hmms/14830at5820.hmm
+# Target file:     /v3/inputs/annotations/plasmodb-68/PAM.proteins.fa
+# Option settings: hmmsearch --domtblout /v3/work/00_inventory/busco/PAM_proteins/run_plasmodium_odb10/hmmer_output/initial_run_results/14830at5820.out --cpu 1 /v3/work/00_inventory/busco/busco_downloads/lineages/plasmodium_odb10/hmms/14830at5820.hmm /v3/inputs/annotations/plasmodb-68/PAM.proteins.fa 
+# Current dir:     /v3/work/00_inventory/busco
+# Date:            Tue May 19 17:34:31 2026
+# [ok]

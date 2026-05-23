@@ -1,0 +1,31 @@
+#                                                                            --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name        accession   tlen query name           accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+#------------------- ---------- ----- -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+SCO69245.1           -           1734 1254at5820           -           1057         0 1811.9 157.7   1   8   6.1e-27   1.2e-23   81.5   5.3     1    74    30   113    30   119 0.88 conserved Plasmodium protein, unknown function [Plasmodium vivax]
+SCO69245.1           -           1734 1254at5820           -           1057         0 1811.9 157.7   2   8   3.1e-16   6.3e-13   46.0   0.8    71   114   194   241   189   251 0.85 conserved Plasmodium protein, unknown function [Plasmodium vivax]
+SCO69245.1           -           1734 1254at5820           -           1057         0 1811.9 157.7   3   8  1.5e-275    3e-272  904.6  59.0    82   588   329   852   318   858 0.93 conserved Plasmodium protein, unknown function [Plasmodium vivax]
+SCO69245.1           -           1734 1254at5820           -           1057         0 1811.9 157.7   4   8   4.1e-52   8.2e-49  164.8  15.5   581   694  1009  1126  1001  1129 0.93 conserved Plasmodium protein, unknown function [Plasmodium vivax]
+SCO69245.1           -           1734 1254at5820           -           1057         0 1811.9 157.7   5   8   1.5e-09   2.9e-06   23.9   0.0   686   720  1150  1185  1144  1188 0.84 conserved Plasmodium protein, unknown function [Plasmodium vivax]
+SCO69245.1           -           1734 1254at5820           -           1057         0 1811.9 157.7   6   8   1.6e-79   3.3e-76  255.5  14.1   720   854  1237  1371  1234  1384 0.96 conserved Plasmodium protein, unknown function [Plasmodium vivax]
+SCO69245.1           -           1734 1254at5820           -           1057         0 1811.9 157.7   7   8   3.5e-15   7.1e-12   42.5   0.7   854   894  1489  1529  1479  1534 0.86 conserved Plasmodium protein, unknown function [Plasmodium vivax]
+SCO69245.1           -           1734 1254at5820           -           1057         0 1811.9 157.7   8   8  1.1e-100   2.2e-97  325.7  15.7   887  1057  1556  1727  1551  1727 0.97 conserved Plasmodium protein, unknown function [Plasmodium vivax]
+SCO70028.1           -           1993 1254at5820           -           1057   3.5e-49  166.1 105.0   1   6   4.1e-28   8.3e-25   85.4  33.8   140   530   552   960   517   977 0.79 potassium channel, putative [Plasmodium vivax]
+SCO70028.1           -           1993 1254at5820           -           1057   3.5e-49  166.1 105.0   2   6   0.00064       1.3    5.3  12.7   489   596   995  1099   963  1138 0.68 potassium channel, putative [Plasmodium vivax]
+SCO70028.1           -           1993 1254at5820           -           1057   3.5e-49  166.1 105.0   3   6   9.1e-15   1.8e-11   41.2   8.2   593   659  1229  1294  1197  1333 0.75 potassium channel, putative [Plasmodium vivax]
+SCO70028.1           -           1993 1254at5820           -           1057   3.5e-49  166.1 105.0   4   6   2.4e-06    0.0048   13.3   0.1   696   741  1465  1511  1461  1517 0.90 potassium channel, putative [Plasmodium vivax]
+SCO70028.1           -           1993 1254at5820           -           1057   3.5e-49  166.1 105.0   5   6   1.4e-08   2.9e-05   20.7   4.6   743   802  1624  1685  1617  1742 0.79 potassium channel, putative [Plasmodium vivax]
+SCO70028.1           -           1993 1254at5820           -           1057   3.5e-49  166.1 105.0   6   6   1.7e-10   3.3e-07   27.1   9.3   892  1054  1807  1989  1799  1992 0.70 potassium channel, putative [Plasmodium vivax]
+SCO68792.1           -           1449 1254at5820           -           1057   6.8e-07   26.0  72.5   1   4         3   6.1e+03   -7.4   9.7   301   397    51   142    25   150 0.75 potassium channel, putative [Plasmodium vivax]
+SCO68792.1           -           1449 1254at5820           -           1057   6.8e-07   26.0  72.5   2   4   5.4e-10   1.1e-06   25.4  54.8   187   646   156   623   150   631 0.73 potassium channel, putative [Plasmodium vivax]
+SCO68792.1           -           1449 1254at5820           -           1057   6.8e-07   26.0  72.5   3   4     3e-07    0.0006   16.3   9.6   717   803  1183  1268  1160  1327 0.78 potassium channel, putative [Plasmodium vivax]
+SCO68792.1           -           1449 1254at5820           -           1057   6.8e-07   26.0  72.5   4   4      0.37   7.5e+02   -3.9  12.6   930  1052  1329  1448  1276  1449 0.75 potassium channel, putative [Plasmodium vivax]
+#
+# Program:         hmmsearch
+# Version:         3.4 (Aug 2023)
+# Pipeline mode:   SEARCH
+# Query file:      /v3/work/00_inventory/busco/busco_downloads/lineages/plasmodium_odb10/hmms/1254at5820.hmm
+# Target file:     /v3/inputs/annotations/ncbi-datasets/PvT01.proteins.fa
+# Option settings: hmmsearch --domtblout /v3/work/00_inventory/busco/PvT01_proteins/run_plasmodium_odb10/hmmer_output/initial_run_results/1254at5820.out --cpu 1 /v3/work/00_inventory/busco/busco_downloads/lineages/plasmodium_odb10/hmms/1254at5820.hmm /v3/inputs/annotations/ncbi-datasets/PvT01.proteins.fa 
+# Current dir:     /v3/work/00_inventory/busco
+# Date:            Tue May 19 18:29:57 2026
+# [ok]

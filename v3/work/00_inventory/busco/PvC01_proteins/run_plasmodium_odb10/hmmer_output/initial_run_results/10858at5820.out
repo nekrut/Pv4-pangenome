@@ -1,0 +1,25 @@
+#                                                                            --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name        accession   tlen query name           accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+#------------------- ---------- ----- -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+SCO74270.1           -            350 10858at5820          -            253  5.7e-123  407.9  60.4   1   3   7.3e-09   9.1e-06   23.9   5.9     1    38     1    41     1    51 0.70 zinc finger protein, putative [Plasmodium vivax]
+SCO74270.1           -            350 10858at5820          -            253  5.7e-123  407.9  60.4   2   3  7.5e-108  9.5e-105  348.2  36.1    24   250    50   290    41   293 0.87 zinc finger protein, putative [Plasmodium vivax]
+SCO74270.1           -            350 10858at5820          -            253  5.7e-123  407.9  60.4   3   3   3.5e-16   4.4e-13   47.8   3.7   211   252   308   349   298   350 0.87 zinc finger protein, putative [Plasmodium vivax]
+SCO72831.1           -           2193 10858at5820          -            253   4.4e-08   31.5  12.5   1   2   1.8e-08   2.3e-05   22.6   5.3    33    96   479   546   468   552 0.82 zinc finger protein, putative [Plasmodium vivax]
+SCO72831.1           -           2193 10858at5820          -            253   4.4e-08   31.5  12.5   2   2     2e-05     0.026   12.5   0.6    40    90   555   609   548   617 0.81 zinc finger protein, putative [Plasmodium vivax]
+SCO71563.1           -           1463 10858at5820          -            253   9.8e-07   27.0   9.1   1   2   9.6e-09   1.2e-05   23.5   3.9    48    98     2    56     1    61 0.82 zinc finger protein, putative [Plasmodium vivax]
+SCO71563.1           -           1463 10858at5820          -            253   9.8e-07   27.0   9.1   2   2    0.0014       1.8    6.5   0.2    43    73    63    92    56   107 0.80 zinc finger protein, putative [Plasmodium vivax]
+SCO72227.1           -            510 10858at5820          -            253   0.00012   20.2   8.5   1   3   9.3e-08   0.00012   20.2   8.5    24    98     5    84     1    93 0.77 zinc finger C-x8-C-x5-C-x3-H type, putative [Plasmodium vivax]
+SCO72227.1           -            510 10858at5820          -            253   0.00012   20.2   8.5   2   3   3.8e-05     0.047   11.7   1.5    45    72    97   124    83   134 0.81 zinc finger C-x8-C-x5-C-x3-H type, putative [Plasmodium vivax]
+SCO72227.1           -            510 10858at5820          -            253   0.00012   20.2   8.5   3   3      0.56   7.1e+02   -2.0   1.8   212   244   323   358   316   361 0.62 zinc finger C-x8-C-x5-C-x3-H type, putative [Plasmodium vivax]
+SCO72029.1           -           1234 10858at5820          -            253    0.0013   16.8   5.9   1   2   2.5e-06    0.0032   15.5   1.3    44    97     4    62     2    66 0.79 zinc finger protein, putative [Plasmodium vivax]
+SCO72029.1           -           1234 10858at5820          -            253    0.0013   16.8   5.9   2   2     0.021        26    2.7   0.2    46    70    74    98    63   108 0.83 zinc finger protein, putative [Plasmodium vivax]
+#
+# Program:         hmmsearch
+# Version:         3.4 (Aug 2023)
+# Pipeline mode:   SEARCH
+# Query file:      /v3/work/00_inventory/busco/busco_downloads/lineages/plasmodium_odb10/hmms/10858at5820.hmm
+# Target file:     /v3/inputs/annotations/ncbi-datasets/PvC01.proteins.fa
+# Option settings: hmmsearch --domtblout /v3/work/00_inventory/busco/PvC01_proteins/run_plasmodium_odb10/hmmer_output/initial_run_results/10858at5820.out --cpu 1 /v3/work/00_inventory/busco/busco_downloads/lineages/plasmodium_odb10/hmms/10858at5820.hmm /v3/inputs/annotations/ncbi-datasets/PvC01.proteins.fa 
+# Current dir:     /v3/work/00_inventory/busco
+# Date:            Tue May 19 18:30:47 2026
+# [ok]

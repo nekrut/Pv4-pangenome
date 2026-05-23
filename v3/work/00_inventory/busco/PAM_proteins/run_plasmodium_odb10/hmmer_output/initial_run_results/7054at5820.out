@@ -1,0 +1,16 @@
+#                                                                            --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name        accession   tlen query name           accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+#------------------- ---------- ----- -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+CAI7718577.1         -            442 7054at5820           -            307  2.5e-168  557.8  19.3   1   2   1.2e-79   3.9e-76  255.0   3.7    16   141   123   248   120   251 0.98 | transcript=PVPAM_040032100_t1 | gene=PVPAM_040032100 | organism=Plasmodium_vivax_PAM | gene_product=5'-3' exonuclease, putative | transcript_product=5'-3' exonuclease, putative | location=CASCJQ010000004:1121617-1122945(-) | protein_length=442 | sequence_SO=supercontig | SO=protein_coding_gene | is_pseudo=false
+CAI7718577.1         -            442 7054at5820           -            307  2.5e-168  557.8  19.3   2   2   5.9e-96   1.9e-92  308.5   7.8   139   307   264   437   258   437 0.96 | transcript=PVPAM_040032100_t1 | gene=PVPAM_040032100 | organism=Plasmodium_vivax_PAM | gene_product=5'-3' exonuclease, putative | transcript_product=5'-3' exonuclease, putative | location=CASCJQ010000004:1121617-1122945(-) | protein_length=442 | sequence_SO=supercontig | SO=protein_coding_gene | is_pseudo=false
+CAI7718128.1         -            623 7054at5820           -            307   4.4e-05   21.6   0.7   1   1   2.4e-08   7.7e-05   20.8   0.7   182   241   226   283   187   354 0.77 | transcript=PVPAM_030012400_t1 | gene=PVPAM_030012400 | organism=Plasmodium_vivax_PAM | gene_product=flap endonuclease 1, putative | transcript_product=flap endonuclease 1, putative | location=CASCJQ010000003:342440-344311(-) | protein_length=623 | sequence_SO=supercontig | SO=protein_coding_gene | is_pseudo=false
+#
+# Program:         hmmsearch
+# Version:         3.4 (Aug 2023)
+# Pipeline mode:   SEARCH
+# Query file:      /v3/work/00_inventory/busco/busco_downloads/lineages/plasmodium_odb10/hmms/7054at5820.hmm
+# Target file:     /v3/inputs/annotations/plasmodb-68/PAM.proteins.fa
+# Option settings: hmmsearch --domtblout /v3/work/00_inventory/busco/PAM_proteins/run_plasmodium_odb10/hmmer_output/initial_run_results/7054at5820.out --cpu 1 /v3/work/00_inventory/busco/busco_downloads/lineages/plasmodium_odb10/hmms/7054at5820.hmm /v3/inputs/annotations/plasmodb-68/PAM.proteins.fa 
+# Current dir:     /v3/work/00_inventory/busco
+# Date:            Tue May 19 17:45:39 2026
+# [ok]

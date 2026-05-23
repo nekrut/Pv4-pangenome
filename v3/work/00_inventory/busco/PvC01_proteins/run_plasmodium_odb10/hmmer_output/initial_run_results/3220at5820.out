@@ -1,0 +1,16 @@
+#                                                                            --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name        accession   tlen query name           accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+#------------------- ---------- ----- -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+SCO75464.1           -            813 3220at5820           -            603         0 1131.9  56.6   1   3     1e-11   6.5e-08   30.1   0.6    12    41    98   130    95   135 0.87 FbpA domain protein, putative [Plasmodium vivax]
+SCO75464.1           -            813 3220at5820           -            603         0 1131.9  56.6   2   3  1.1e-161  7.1e-158  525.3  18.6    38   312   152   449   144   454 0.96 FbpA domain protein, putative [Plasmodium vivax]
+SCO75464.1           -            813 3220at5820           -            603         0 1131.9  56.6   3   3  2.2e-180  1.4e-176  587.1  23.1   311   603   516   812   509   812 0.99 FbpA domain protein, putative [Plasmodium vivax]
+#
+# Program:         hmmsearch
+# Version:         3.4 (Aug 2023)
+# Pipeline mode:   SEARCH
+# Query file:      /v3/work/00_inventory/busco/busco_downloads/lineages/plasmodium_odb10/hmms/3220at5820.hmm
+# Target file:     /v3/inputs/annotations/ncbi-datasets/PvC01.proteins.fa
+# Option settings: hmmsearch --domtblout /v3/work/00_inventory/busco/PvC01_proteins/run_plasmodium_odb10/hmmer_output/initial_run_results/3220at5820.out --cpu 1 /v3/work/00_inventory/busco/busco_downloads/lineages/plasmodium_odb10/hmms/3220at5820.hmm /v3/inputs/annotations/ncbi-datasets/PvC01.proteins.fa 
+# Current dir:     /v3/work/00_inventory/busco
+# Date:            Tue May 19 18:37:59 2026
+# [ok]

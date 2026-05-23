@@ -1,0 +1,17 @@
+#                                                                            --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name        accession   tlen query name           accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+#------------------- ---------- ----- -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+PVP01_1138300.1-p1   -           1213 1943at5820           -            760         0 1457.1  68.6   1   4     0.017   1.1e+02   -0.4   5.2     9    49    34    73    25    83 0.66 | transcript=PVP01_1138300.1 | gene=PVP01_1138300 | organism=Plasmodium_vivax_P01 | gene_product=transcription elongation factor SPT5, putative | transcript_product=transcription elongation factor SPT5, putative | location=PvP01_11_v2:1624727-1628368(+) | protein_length=1213 | sequence_SO=chromosome | SO=protein_coding_gene | is_pseudo=false
+PVP01_1138300.1-p1   -           1213 1943at5820           -            760         0 1457.1  68.6   2   4  1.1e-156  7.4e-153  509.3  13.7     7   262    99   364    96   369 0.96 | transcript=PVP01_1138300.1 | gene=PVP01_1138300 | organism=Plasmodium_vivax_P01 | gene_product=transcription elongation factor SPT5, putative | transcript_product=transcription elongation factor SPT5, putative | location=PvP01_11_v2:1624727-1628368(+) | protein_length=1213 | sequence_SO=chromosome | SO=protein_coding_gene | is_pseudo=false
+PVP01_1138300.1-p1   -           1213 1943at5820           -            760         0 1457.1  68.6   3   4  9.3e-257  6.1e-253  840.3  26.8   261   666   436   859   429   869 0.96 | transcript=PVP01_1138300.1 | gene=PVP01_1138300 | organism=Plasmodium_vivax_P01 | gene_product=transcription elongation factor SPT5, putative | transcript_product=transcription elongation factor SPT5, putative | location=PvP01_11_v2:1624727-1628368(+) | protein_length=1213 | sequence_SO=chromosome | SO=protein_coding_gene | is_pseudo=false
+PVP01_1138300.1-p1   -           1213 1943at5820           -            760         0 1457.1  68.6   4   4   2.4e-40   1.6e-36  124.7   0.5   667   759  1106  1209  1093  1210 0.86 | transcript=PVP01_1138300.1 | gene=PVP01_1138300 | organism=Plasmodium_vivax_P01 | gene_product=transcription elongation factor SPT5, putative | transcript_product=transcription elongation factor SPT5, putative | location=PvP01_11_v2:1624727-1628368(+) | protein_length=1213 | sequence_SO=chromosome | SO=protein_coding_gene | is_pseudo=false
+#
+# Program:         hmmsearch
+# Version:         3.4 (Aug 2023)
+# Pipeline mode:   SEARCH
+# Query file:      /v3/work/00_inventory/busco/busco_downloads/lineages/plasmodium_odb10/hmms/1943at5820.hmm
+# Target file:     /v3/inputs/annotations/plasmodb-68/PvP01.proteins.fa
+# Option settings: hmmsearch --domtblout /v3/work/00_inventory/busco/PvP01_proteins/run_plasmodium_odb10/hmmer_output/initial_run_results/1943at5820.out --cpu 1 /v3/work/00_inventory/busco/busco_downloads/lineages/plasmodium_odb10/hmms/1943at5820.hmm /v3/inputs/annotations/plasmodb-68/PvP01.proteins.fa 
+# Current dir:     /v3/work/00_inventory/busco
+# Date:            Tue May 19 17:33:26 2026
+# [ok]

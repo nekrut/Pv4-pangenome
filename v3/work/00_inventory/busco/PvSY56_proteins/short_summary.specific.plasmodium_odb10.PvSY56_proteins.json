@@ -1,0 +1,66 @@
+{
+    "parameters": {
+        "out_path": "/v3/work/00_inventory/busco",
+        "cpu": "2",
+        "force": "True",
+        "restart": "False",
+        "quiet": "False",
+        "download_path": "/v3/work/00_inventory/busco/busco_downloads",
+        "datasets_version": "odb10",
+        "offline": "True",
+        "download_base_url": "https://busco-data.ezlab.org/v5/data/",
+        "auto-lineage": "False",
+        "auto-lineage-prok": "False",
+        "auto-lineage-euk": "False",
+        "use_augustus": "False",
+        "use_miniprot": "False",
+        "use_metaeuk": "False",
+        "skip_bbtools": "False",
+        "batch_mode": "False",
+        "tar": "False",
+        "opt-out-run-stats": "False",
+        "in": "/v3/inputs/annotations/plasmodb-68/PvSY56.proteins.fa",
+        "out": "PvSY56_proteins",
+        "mode": "proteins",
+        "lineage_dataset": "/v3/work/00_inventory/busco/busco_downloads/lineages/plasmodium_odb10",
+        "main_out": "/v3/work/00_inventory/busco/PvSY56_proteins",
+        "lineage_results_dir": "run_plasmodium_odb10",
+        "domain": "eukaryota",
+        "orthodb_version": "10.1"
+    },
+    "lineage_dataset": {
+        "name": "plasmodium_odb10",
+        "creation_date": "2024-01-08",
+        "number_of_buscos": "3642",
+        "number_of_species": "23"
+    },
+    "versions": {
+        "hmmsearch": 3.4,
+        "python": [
+            3,
+            10,
+            14,
+            "final",
+            0
+        ],
+        "busco": "5.8.0"
+    },
+    "results": {
+        "one_line_summary": "C:80.3%[S:80.3%,D:0.0%],F:5.2%,M:14.5%,n:3642",
+        "Complete percentage": 80.3,
+        "Complete BUSCOs": 2924,
+        "Single copy percentage": 80.3,
+        "Single copy BUSCOs": 2924,
+        "Multi copy percentage": 0.0,
+        "Multi copy BUSCOs": 0,
+        "Fragmented percentage": 5.2,
+        "Fragmented BUSCOs": 190,
+        "Missing percentage": 14.5,
+        "Missing BUSCOs": 528,
+        "n_markers": 3642,
+        "avg_identity": null,
+        "domain": "eukaryota",
+        "internal_stop_codon_count": 0,
+        "internal_stop_codon_percent": 0
+    }
+}

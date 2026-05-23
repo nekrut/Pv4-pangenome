@@ -1,0 +1,18 @@
+#                                                                            --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name        accession   tlen query name           accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+#------------------- ---------- ----- -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+SCO69190.1           -           1461 1243at5820           -           1068         0 2017.6  92.6   1   5     5e-80   3.1e-76  255.3   9.1     1   156     1   160     1   246 0.89 protein phosphatase, putative [Plasmodium vivax]
+SCO69190.1           -           1461 1243at5820           -           1068         0 2017.6  92.6   2   5  4.8e-150  2.9e-146  487.2  15.3   144   384   267   509   248   552 0.92 protein phosphatase, putative [Plasmodium vivax]
+SCO69190.1           -           1461 1243at5820           -           1068         0 2017.6  92.6   3   5         0         0 1147.1  17.9   386   949   651  1246   639  1258 0.93 protein phosphatase, putative [Plasmodium vivax]
+SCO69190.1           -           1461 1243at5820           -           1068         0 2017.6  92.6   4   5   4.3e-26   2.6e-22   76.8  10.4   934  1030  1277  1378  1265  1394 0.78 protein phosphatase, putative [Plasmodium vivax]
+SCO69190.1           -           1461 1243at5820           -           1068         0 2017.6  92.6   5   5   9.5e-25   5.8e-21   72.3  12.3   972  1068  1365  1461  1355  1461 0.85 protein phosphatase, putative [Plasmodium vivax]
+#
+# Program:         hmmsearch
+# Version:         3.4 (Aug 2023)
+# Pipeline mode:   SEARCH
+# Query file:      /v3/work/00_inventory/busco/busco_downloads/lineages/plasmodium_odb10/hmms/1243at5820.hmm
+# Target file:     /v3/inputs/annotations/ncbi-datasets/PvT01.proteins.fa
+# Option settings: hmmsearch --domtblout /v3/work/00_inventory/busco/PvT01_proteins/run_plasmodium_odb10/hmmer_output/initial_run_results/1243at5820.out --cpu 1 /v3/work/00_inventory/busco/busco_downloads/lineages/plasmodium_odb10/hmms/1243at5820.hmm /v3/inputs/annotations/ncbi-datasets/PvT01.proteins.fa 
+# Current dir:     /v3/work/00_inventory/busco
+# Date:            Tue May 19 18:29:38 2026
+# [ok]

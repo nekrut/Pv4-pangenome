@@ -1,0 +1,21 @@
+#                                                                            --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name        accession   tlen query name           accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+#------------------- ---------- ----- -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+SCO75354.1           -            827 3290at5820           -            564  6.8e-273  905.0  63.0   1   6   1.8e-58   5.5e-55  185.6  12.1    13   122    27   139    14   144 0.94 histone-arginine methyltransferase CARM1, putative [Plasmodium vivax]
+SCO75354.1           -            827 3290at5820           -            564  6.8e-273  905.0  63.0   2   6   3.5e-08   0.00011   19.5   0.2   120   153   167   202   159   207 0.87 histone-arginine methyltransferase CARM1, putative [Plasmodium vivax]
+SCO75354.1           -            827 3290at5820           -            564  6.8e-273  905.0  63.0   3   6     1e-05     0.032   11.4   0.3   138   166   276   304   262   306 0.87 histone-arginine methyltransferase CARM1, putative [Plasmodium vivax]
+SCO75354.1           -            827 3290at5820           -            564  6.8e-273  905.0  63.0   4   6     5e-20   1.6e-16   58.6   0.9   164   213   332   381   323   384 0.93 histone-arginine methyltransferase CARM1, putative [Plasmodium vivax]
+SCO75354.1           -            827 3290at5820           -            564  6.8e-273  905.0  63.0   5   6  4.7e-170  1.5e-166  553.9  24.1   210   490   439   719   430   729 0.99 histone-arginine methyltransferase CARM1, putative [Plasmodium vivax]
+SCO75354.1           -            827 3290at5820           -            564  6.8e-273  905.0  63.0   6   6   2.6e-30   8.2e-27   92.6   0.0   491   564   742   827   739   827 0.94 histone-arginine methyltransferase CARM1, putative [Plasmodium vivax]
+SCO74820.1           -            400 3290at5820           -            564   2.2e-57  193.5  16.9   1   2     2e-26   6.4e-23   79.7   4.6   206   316    72   183    51   184 0.83 protein arginine N-methyltransferase 1, putative [Plasmodium vivax]
+SCO74820.1           -            400 3290at5820           -            564   2.2e-57  193.5  16.9   2   2   2.4e-39   7.6e-36  122.4   4.0   341   544   179   380   175   385 0.92 protein arginine N-methyltransferase 1, putative [Plasmodium vivax]
+#
+# Program:         hmmsearch
+# Version:         3.4 (Aug 2023)
+# Pipeline mode:   SEARCH
+# Query file:      /v3/work/00_inventory/busco/busco_downloads/lineages/plasmodium_odb10/hmms/3290at5820.hmm
+# Target file:     /v3/inputs/annotations/ncbi-datasets/PvC01.proteins.fa
+# Option settings: hmmsearch --domtblout /v3/work/00_inventory/busco/PvC01_proteins/run_plasmodium_odb10/hmmer_output/initial_run_results/3290at5820.out --cpu 1 /v3/work/00_inventory/busco/busco_downloads/lineages/plasmodium_odb10/hmms/3290at5820.hmm /v3/inputs/annotations/ncbi-datasets/PvC01.proteins.fa 
+# Current dir:     /v3/work/00_inventory/busco
+# Date:            Tue May 19 18:38:17 2026
+# [ok]

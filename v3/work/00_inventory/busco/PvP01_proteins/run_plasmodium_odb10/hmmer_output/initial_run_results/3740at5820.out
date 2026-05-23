@@ -1,0 +1,17 @@
+#                                                                            --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name        accession   tlen query name           accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+#------------------- ---------- ----- -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+PVP01_1420200.1-p1   -            946 3740at5820           -            667         0 1163.7  74.7   1   4    0.0078        51    0.6   7.9     2    33     6    38     5    48 0.70 | transcript=PVP01_1420200.1 | gene=PVP01_1420200 | organism=Plasmodium_vivax_P01 | gene_product=tRNA (guanine(26)-N(2))-dimethyltransferase, putative | transcript_product=tRNA (guanine(26)-N(2))-dimethyltransferase, putative | location=PvP01_14_v2:873727-876567(-) | protein_length=946 | sequence_SO=chromosome | SO=protein_coding_gene | is_pseudo=false
+PVP01_1420200.1-p1   -            946 3740at5820           -            667         0 1163.7  74.7   2   4  1.2e-113  7.8e-110  366.8  33.1    25   228    61   264    36   312 0.88 | transcript=PVP01_1420200.1 | gene=PVP01_1420200 | organism=Plasmodium_vivax_P01 | gene_product=tRNA (guanine(26)-N(2))-dimethyltransferase, putative | transcript_product=tRNA (guanine(26)-N(2))-dimethyltransferase, putative | location=PvP01_14_v2:873727-876567(-) | protein_length=946 | sequence_SO=chromosome | SO=protein_coding_gene | is_pseudo=false
+PVP01_1420200.1-p1   -            946 3740at5820           -            667         0 1163.7  74.7   3   4  3.8e-114  2.5e-110  368.5   3.1   229   430   365   566   338   599 0.83 | transcript=PVP01_1420200.1 | gene=PVP01_1420200 | organism=Plasmodium_vivax_P01 | gene_product=tRNA (guanine(26)-N(2))-dimethyltransferase, putative | transcript_product=tRNA (guanine(26)-N(2))-dimethyltransferase, putative | location=PvP01_14_v2:873727-876567(-) | protein_length=946 | sequence_SO=chromosome | SO=protein_coding_gene | is_pseudo=false
+PVP01_1420200.1-p1   -            946 3740at5820           -            667         0 1163.7  74.7   4   4  3.9e-137  2.6e-133  444.4   8.6   430   666   698   945   677   946 0.92 | transcript=PVP01_1420200.1 | gene=PVP01_1420200 | organism=Plasmodium_vivax_P01 | gene_product=tRNA (guanine(26)-N(2))-dimethyltransferase, putative | transcript_product=tRNA (guanine(26)-N(2))-dimethyltransferase, putative | location=PvP01_14_v2:873727-876567(-) | protein_length=946 | sequence_SO=chromosome | SO=protein_coding_gene | is_pseudo=false
+#
+# Program:         hmmsearch
+# Version:         3.4 (Aug 2023)
+# Pipeline mode:   SEARCH
+# Query file:      /v3/work/00_inventory/busco/busco_downloads/lineages/plasmodium_odb10/hmms/3740at5820.hmm
+# Target file:     /v3/inputs/annotations/plasmodb-68/PvP01.proteins.fa
+# Option settings: hmmsearch --domtblout /v3/work/00_inventory/busco/PvP01_proteins/run_plasmodium_odb10/hmmer_output/initial_run_results/3740at5820.out --cpu 1 /v3/work/00_inventory/busco/busco_downloads/lineages/plasmodium_odb10/hmms/3740at5820.hmm /v3/inputs/annotations/plasmodb-68/PvP01.proteins.fa 
+# Current dir:     /v3/work/00_inventory/busco
+# Date:            Tue May 19 17:38:28 2026
+# [ok]

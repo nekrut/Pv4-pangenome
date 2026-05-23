@@ -1,0 +1,15 @@
+#                                                                            --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name        accession   tlen query name           accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+#------------------- ---------- ----- -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+PVP01_0113600.1-p1   -            981 2427at5820           -            822         0 1684.0  47.2   1   2  7.5e-126  4.9e-122  406.9   6.3     5   204    10   228     6   238 0.96 | transcript=PVP01_0113600.1 | gene=PVP01_0113600 | organism=Plasmodium_vivax_P01 | gene_product=V-type proton ATPase subunit a, putative | transcript_product=V-type proton ATPase subunit a, putative | location=PvP01_01_v2:607892-610837(+) | protein_length=981 | sequence_SO=chromosome | SO=protein_coding_gene | is_pseudo=false
+PVP01_0113600.1-p1   -            981 2427at5820           -            822         0 1684.0  47.2   2   2         0         0 1269.3  32.9   200   822   269   981   265   981 0.96 | transcript=PVP01_0113600.1 | gene=PVP01_0113600 | organism=Plasmodium_vivax_P01 | gene_product=V-type proton ATPase subunit a, putative | transcript_product=V-type proton ATPase subunit a, putative | location=PvP01_01_v2:607892-610837(+) | protein_length=981 | sequence_SO=chromosome | SO=protein_coding_gene | is_pseudo=false
+#
+# Program:         hmmsearch
+# Version:         3.4 (Aug 2023)
+# Pipeline mode:   SEARCH
+# Query file:      /v3/work/00_inventory/busco/busco_downloads/lineages/plasmodium_odb10/hmms/2427at5820.hmm
+# Target file:     /v3/inputs/annotations/plasmodb-68/PvP01.proteins.fa
+# Option settings: hmmsearch --domtblout /v3/work/00_inventory/busco/PvP01_proteins/run_plasmodium_odb10/hmmer_output/initial_run_results/2427at5820.out --cpu 1 /v3/work/00_inventory/busco/busco_downloads/lineages/plasmodium_odb10/hmms/2427at5820.hmm /v3/inputs/annotations/plasmodb-68/PvP01.proteins.fa 
+# Current dir:     /v3/work/00_inventory/busco
+# Date:            Tue May 19 17:35:59 2026
+# [ok]

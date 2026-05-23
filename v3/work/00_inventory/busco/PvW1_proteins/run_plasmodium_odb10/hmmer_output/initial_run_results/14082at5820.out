@@ -1,0 +1,17 @@
+#                                                                            --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name        accession   tlen query name           accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+#------------------- ---------- ----- -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+CAG9479875.1         -            150 14082at5820          -            136     5e-73  241.9   8.6   1   1   2.9e-76   5.8e-73  241.8   8.6     1   136     7   150     7   150 0.95 | transcript=PVW1_050025900_t1 | gene=PVW1_050025900 | organism=Plasmodium_vivax_PvW1 | gene_product=EF-hand domain-containing protein [Source:UniProtKB/TrEMBL;Acc:A0A1G4GTP2] | transcript_product=EF-hand domain-containing protein [Source:UniProtKB/TrEMBL;Acc:A0A1G4GTP2] | location=CAJZCX010000010:882068-883050(-) | protein_length=150 | sequence_SO=supercontig | SO=protein_coding_gene | is_pseudo=false
+CAG9481600.1         -            179 14082at5820          -            136   3.6e-05   22.2   5.1   1   1   1.4e-07   0.00028   19.3   5.1     2   130    34   170    33   174 0.79 | transcript=PVW1_060019200_t1 | gene=PVW1_060019200 | organism=Plasmodium_vivax_PvW1 | gene_product=Centrin-3, putative [Source:UniProtKB/TrEMBL;Acc:A0A1G4H9P9] | transcript_product=Centrin-3, putative [Source:UniProtKB/TrEMBL;Acc:A0A1G4H9P9] | location=CAJZCX010000012:616855-618255(-) | protein_length=179 | sequence_SO=supercontig | SO=protein_coding_gene | is_pseudo=false
+CAG9473927.1         -            168 14082at5820          -            136   0.00041   18.8   0.5   1   2      0.17   3.5e+02   -0.4   0.0     9    38    30    61    22    91 0.46 | transcript=PVW1_120075300_t1 | gene=PVW1_120075300 | organism=Plasmodium_vivax_PvW1 | gene_product=Centrin-2, putative [Source:UniProtKB/TrEMBL;Acc:A0A1G4HHQ0] | transcript_product=Centrin-2, putative [Source:UniProtKB/TrEMBL;Acc:A0A1G4HHQ0] | location=CAJZCX010000004:2951190-2951936(+) | protein_length=168 | sequence_SO=supercontig | SO=protein_coding_gene | is_pseudo=false
+CAG9473927.1         -            168 14082at5820          -            136   0.00041   18.8   0.5   2   2   6.9e-07    0.0014   17.1   0.2     2    65    96   164    95   167 0.82 | transcript=PVW1_120075300_t1 | gene=PVW1_120075300 | organism=Plasmodium_vivax_PvW1 | gene_product=Centrin-2, putative [Source:UniProtKB/TrEMBL;Acc:A0A1G4HHQ0] | transcript_product=Centrin-2, putative [Source:UniProtKB/TrEMBL;Acc:A0A1G4HHQ0] | location=CAJZCX010000004:2951190-2951936(+) | protein_length=168 | sequence_SO=supercontig | SO=protein_coding_gene | is_pseudo=false
+#
+# Program:         hmmsearch
+# Version:         3.4 (Aug 2023)
+# Pipeline mode:   SEARCH
+# Query file:      /v3/work/00_inventory/busco/busco_downloads/lineages/plasmodium_odb10/hmms/14082at5820.hmm
+# Target file:     /v3/inputs/annotations/plasmodb-68/PvW1.proteins.fa
+# Option settings: hmmsearch --domtblout /v3/work/00_inventory/busco/PvW1_proteins/run_plasmodium_odb10/hmmer_output/initial_run_results/14082at5820.out --cpu 1 /v3/work/00_inventory/busco/busco_downloads/lineages/plasmodium_odb10/hmms/14082at5820.hmm /v3/inputs/annotations/plasmodb-68/PvW1.proteins.fa 
+# Current dir:     /v3/work/00_inventory/busco
+# Date:            Tue May 19 17:32:24 2026
+# [ok]

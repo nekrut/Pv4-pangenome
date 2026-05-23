@@ -1,0 +1,17 @@
+#                                                                            --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name        accession   tlen query name           accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+#------------------- ---------- ----- -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+PVP01_0733100.1-p1   -            219 11291at5820          -            181  2.1e-119  394.2   7.6   1   1  1.1e-122  2.5e-119  393.9   7.6     1   181    38   219    38   219 0.99 | transcript=PVP01_0733100.1 | gene=PVP01_0733100 | organism=Plasmodium_vivax_P01 | gene_product=AP2 domain transcription factor, putative | transcript_product=AP2 domain transcription factor, putative | location=PvP01_07_v2:1365592-1366251(+) | protein_length=219 | sequence_SO=chromosome | SO=protein_coding_gene | is_pseudo=false
+PVP01_0807400.1-p1   -           1397 11291at5820          -            181   9.9e-07   27.0   0.4   1   2   8.8e-05      0.19    9.8   0.1    86   144   411   470   381   481 0.86 | transcript=PVP01_0807400.1 | gene=PVP01_0807400 | organism=Plasmodium_vivax_P01 | gene_product=AP2 domain transcription factor AP2-I, putative | transcript_product=AP2 domain transcription factor AP2-I, putative | location=PvP01_08_v2:310385-314578(-) | protein_length=1397 | sequence_SO=chromosome | SO=protein_coding_gene | is_pseudo=false
+PVP01_0807400.1-p1   -           1397 11291at5820          -            181   9.9e-07   27.0   0.4   2   2   2.5e-06    0.0054   14.8   0.0    93   156   618   682   612   694 0.86 | transcript=PVP01_0807400.1 | gene=PVP01_0807400 | organism=Plasmodium_vivax_P01 | gene_product=AP2 domain transcription factor AP2-I, putative | transcript_product=AP2 domain transcription factor AP2-I, putative | location=PvP01_08_v2:310385-314578(-) | protein_length=1397 | sequence_SO=chromosome | SO=protein_coding_gene | is_pseudo=false
+PVP01_1240400.1-p1   -           1253 11291at5820          -            181    0.0015   16.6   0.1   1   1   1.2e-06    0.0025   15.9   0.1    90   153   265   333   250   346 0.76 | transcript=PVP01_1240400.1 | gene=PVP01_1240400 | organism=Plasmodium_vivax_P01 | gene_product=AP2 domain transcription factor AP2-EXP, putative | transcript_product=AP2 domain transcription factor AP2-EXP, putative | location=PvP01_12_v2:1618559-1622320(+) | protein_length=1253 | sequence_SO=chromosome | SO=protein_coding_gene | is_pseudo=false
+#
+# Program:         hmmsearch
+# Version:         3.4 (Aug 2023)
+# Pipeline mode:   SEARCH
+# Query file:      /v3/work/00_inventory/busco/busco_downloads/lineages/plasmodium_odb10/hmms/11291at5820.hmm
+# Target file:     /v3/inputs/annotations/plasmodb-68/PvP01.proteins.fa
+# Option settings: hmmsearch --domtblout /v3/work/00_inventory/busco/PvP01_proteins/run_plasmodium_odb10/hmmer_output/initial_run_results/11291at5820.out --cpu 1 /v3/work/00_inventory/busco/busco_downloads/lineages/plasmodium_odb10/hmms/11291at5820.hmm /v3/inputs/annotations/plasmodb-68/PvP01.proteins.fa 
+# Current dir:     /v3/work/00_inventory/busco
+# Date:            Tue May 19 17:28:58 2026
+# [ok]

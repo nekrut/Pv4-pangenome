@@ -1,0 +1,17 @@
+#                                                                            --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name        accession   tlen query name           accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+#------------------- ---------- ----- -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+PVP01_0938000.1-p1   -            304 10296at5820          -            219  1.7e-135  448.2   3.0   1   2   1.4e-32   2.9e-29  100.9   0.1     1    65    46   117    46   142 0.86 | transcript=PVP01_0938000.1 | gene=PVP01_0938000 | organism=Plasmodium_vivax_P01 | gene_product=ribosomal protein S9, mitochondrial, putative | transcript_product=ribosomal protein S9, mitochondrial, putative | location=PvP01_09_v2:1637998-1638912(+) | protein_length=304 | sequence_SO=chromosome | SO=protein_coding_gene | is_pseudo=false
+PVP01_0938000.1-p1   -            304 10296at5820          -            219  1.7e-135  448.2   3.0   2   2  3.1e-108  6.7e-105  348.1   0.8    49   219   135   304   123   304 0.96 | transcript=PVP01_0938000.1 | gene=PVP01_0938000 | organism=Plasmodium_vivax_P01 | gene_product=ribosomal protein S9, mitochondrial, putative | transcript_product=ribosomal protein S9, mitochondrial, putative | location=PvP01_09_v2:1637998-1638912(+) | protein_length=304 | sequence_SO=chromosome | SO=protein_coding_gene | is_pseudo=false
+PVP01_1335500.1-p1   -            604 10296at5820          -            219   3.4e-10   38.6   1.8   1   1   3.9e-13   8.6e-10   37.2   1.8    91   219   475   604   450   604 0.85 | transcript=PVP01_1335500.1 | gene=PVP01_1335500 | organism=Plasmodium_vivax_P01 | gene_product=30S ribosomal protein S9, putative | transcript_product=30S ribosomal protein S9, putative | location=PvP01_13_v2:1536821-1538635(+) | protein_length=604 | sequence_SO=chromosome | SO=protein_coding_gene | is_pseudo=false
+PVP01_1426400.1-p1   -            144 10296at5820          -            219   1.3e-09   36.7   0.4   1   1     8e-13   1.7e-09   36.2   0.4    95   217     9   142     3   144 0.74 | transcript=PVP01_1426400.1 | gene=PVP01_1426400 | organism=Plasmodium_vivax_P01 | gene_product=40S ribosomal protein S16, putative | transcript_product=40S ribosomal protein S16, putative | location=PvP01_14_v2:1128221-1129202(+) | protein_length=144 | sequence_SO=chromosome | SO=protein_coding_gene | is_pseudo=false
+#
+# Program:         hmmsearch
+# Version:         3.4 (Aug 2023)
+# Pipeline mode:   SEARCH
+# Query file:      /v3/work/00_inventory/busco/busco_downloads/lineages/plasmodium_odb10/hmms/10296at5820.hmm
+# Target file:     /v3/inputs/annotations/plasmodb-68/PvP01.proteins.fa
+# Option settings: hmmsearch --domtblout /v3/work/00_inventory/busco/PvP01_proteins/run_plasmodium_odb10/hmmer_output/initial_run_results/10296at5820.out --cpu 1 /v3/work/00_inventory/busco/busco_downloads/lineages/plasmodium_odb10/hmms/10296at5820.hmm /v3/inputs/annotations/plasmodb-68/PvP01.proteins.fa 
+# Current dir:     /v3/work/00_inventory/busco
+# Date:            Tue May 19 17:25:30 2026
+# [ok]

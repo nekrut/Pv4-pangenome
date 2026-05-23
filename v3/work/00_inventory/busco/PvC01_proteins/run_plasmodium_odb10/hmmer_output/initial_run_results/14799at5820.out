@@ -1,0 +1,23 @@
+#                                                                            --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name        accession   tlen query name           accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+#------------------- ---------- ----- -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+SCO70584.1           -            114 14799at5820          -             80   7.9e-49  162.5   2.8   1   1   9.7e-52     1e-48  162.1   2.8     1    80    31   114    31   114 0.98 conserved Plasmodium protein, unknown function [Plasmodium vivax]
+SCO71427.1           -            296 14799at5820          -             80    0.0022   16.9   0.4   1   1   6.1e-06    0.0064   15.4   0.4     7    51   139   183   133   212 0.84 memo-like protein [Plasmodium vivax]
+SCA81740.1           -            247 14799at5820          -             80    0.0089   14.9   1.5   1   1   2.4e-05     0.026   13.5   1.5     3    43    73   117    71   136 0.77 Plasmodium exported protein, unknown function, partial [Plasmodium vivax]
+SCO74717.1           -            417 14799at5820          -             80     0.034   13.1   0.5   1   2       2.1   2.2e+03   -2.3   0.2    25    39    96   110    85   115 0.75 GTP-binding protein, putative [Plasmodium vivax]
+SCO74717.1           -            417 14799at5820          -             80     0.034   13.1   0.5   2   2   0.00015      0.15   11.0   0.0    10    45   162   197   157   204 0.89 GTP-binding protein, putative [Plasmodium vivax]
+SCA60823.1           -            270 14799at5820          -             80      0.22   10.5   8.1   1   3      0.92   9.7e+02   -1.2   0.1    12    20    38    46    28    69 0.69 Plasmodium exported protein, unknown function [Plasmodium vivax]
+SCA60823.1           -            270 14799at5820          -             80      0.22   10.5   8.1   2   3   0.00021      0.22   10.5   2.3     1    60   100   163   100   168 0.77 Plasmodium exported protein, unknown function [Plasmodium vivax]
+SCA60823.1           -            270 14799at5820          -             80      0.22   10.5   8.1   3   3      0.11   1.1e+02    1.8   0.0    27    44   202   219   189   224 0.79 Plasmodium exported protein, unknown function [Plasmodium vivax]
+SCO74259.1           -             84 14799at5820          -             80      0.86    8.6   4.7   1   2    0.0018       1.9    7.5   1.2    34    54     6    26     2    40 0.83 hypothetical protein PVC01_120045300 [Plasmodium vivax]
+SCO74259.1           -             84 14799at5820          -             80      0.86    8.6   4.7   2   2     0.053        56    2.8   0.3    34    55    32    53    28    60 0.79 hypothetical protein PVC01_120045300 [Plasmodium vivax]
+#
+# Program:         hmmsearch
+# Version:         3.4 (Aug 2023)
+# Pipeline mode:   SEARCH
+# Query file:      /v3/work/00_inventory/busco/busco_downloads/lineages/plasmodium_odb10/hmms/14799at5820.hmm
+# Target file:     /v3/inputs/annotations/ncbi-datasets/PvC01.proteins.fa
+# Option settings: hmmsearch --domtblout /v3/work/00_inventory/busco/PvC01_proteins/run_plasmodium_odb10/hmmer_output/initial_run_results/14799at5820.out --cpu 1 /v3/work/00_inventory/busco/busco_downloads/lineages/plasmodium_odb10/hmms/14799at5820.hmm /v3/inputs/annotations/ncbi-datasets/PvC01.proteins.fa 
+# Current dir:     /v3/work/00_inventory/busco
+# Date:            Tue May 19 18:36:12 2026
+# [ok]

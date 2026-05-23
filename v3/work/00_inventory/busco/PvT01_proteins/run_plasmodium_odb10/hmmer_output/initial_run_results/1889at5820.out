@@ -1,0 +1,21 @@
+#                                                                            --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name        accession   tlen query name           accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+#------------------- ---------- ----- -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+SCO64975.1           -           1407 1889at5820           -            910         0 1148.3  53.6   1   8   9.6e-79   5.9e-75  251.7   0.7     1   155     1   161     1   172 0.94 AP-3 complex subunit delta, putative [Plasmodium vivax]
+SCO64975.1           -           1407 1889at5820           -            910         0 1148.3  53.6   2   8   3.2e-60   1.9e-56  190.4   6.5   150   272   205   327   198   330 0.96 AP-3 complex subunit delta, putative [Plasmodium vivax]
+SCO64975.1           -           1407 1889at5820           -            910         0 1148.3  53.6   3   8   2.3e-47   1.4e-43  147.8   1.8   273   359   358   449   352   451 0.92 AP-3 complex subunit delta, putative [Plasmodium vivax]
+SCO64975.1           -           1407 1889at5820           -            910         0 1148.3  53.6   4   8   1.2e-80   7.4e-77  258.0   1.8   361   538   498   681   496   686 0.95 AP-3 complex subunit delta, putative [Plasmodium vivax]
+SCO64975.1           -           1407 1889at5820           -            910         0 1148.3  53.6   5   8   1.4e-53   8.3e-50  168.4   6.1   544   679   772   920   755   923 0.89 AP-3 complex subunit delta, putative [Plasmodium vivax]
+SCO64975.1           -           1407 1889at5820           -            910         0 1148.3  53.6   6   8   2.4e-05      0.15    8.8   0.1   685   703   971   989   956   991 0.86 AP-3 complex subunit delta, putative [Plasmodium vivax]
+SCO64975.1           -           1407 1889at5820           -            910         0 1148.3  53.6   7   8   1.6e-08   9.9e-05   19.3   0.1   704   761  1072  1144  1068  1157 0.72 AP-3 complex subunit delta, putative [Plasmodium vivax]
+SCO64975.1           -           1407 1889at5820           -            910         0 1148.3  53.6   8   8   1.6e-41   9.8e-38  128.5   0.0   759   910  1197  1397  1186  1397 0.83 AP-3 complex subunit delta, putative [Plasmodium vivax]
+#
+# Program:         hmmsearch
+# Version:         3.4 (Aug 2023)
+# Pipeline mode:   SEARCH
+# Query file:      /v3/work/00_inventory/busco/busco_downloads/lineages/plasmodium_odb10/hmms/1889at5820.hmm
+# Target file:     /v3/inputs/annotations/ncbi-datasets/PvT01.proteins.fa
+# Option settings: hmmsearch --domtblout /v3/work/00_inventory/busco/PvT01_proteins/run_plasmodium_odb10/hmmer_output/initial_run_results/1889at5820.out --cpu 1 /v3/work/00_inventory/busco/busco_downloads/lineages/plasmodium_odb10/hmms/1889at5820.hmm /v3/inputs/annotations/ncbi-datasets/PvT01.proteins.fa 
+# Current dir:     /v3/work/00_inventory/busco
+# Date:            Tue May 19 18:36:37 2026
+# [ok]

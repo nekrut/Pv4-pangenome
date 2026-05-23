@@ -1,0 +1,24 @@
+#                                                                            --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name        accession   tlen query name           accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+#------------------- ---------- ----- -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+SCO73266.1           -            270 14730at5820          -            238     9e-97  321.8  39.1   1   1   1.2e-99   9.1e-97  321.8  37.6     1   236     1   252     1   255 0.70 conserved Plasmodium protein, unknown function [Plasmodium vivax]
+SCO74415.1           -            357 14730at5820          -            238     0.049   11.7  14.6   1   1   0.00011     0.085   10.9  14.6   128   184    50   112     9   130 0.44 conserved Plasmodium protein, unknown function [Plasmodium vivax]
+SCO72677.1           -            351 14730at5820          -            238     0.068   11.2  19.6   1   1   0.00014      0.11   10.6  19.6   136   218    19   117     3   142 0.32 tRNA m(1)G methyltransferase, putative [Plasmodium vivax]
+SCO70895.1           -            850 14730at5820          -            238      0.11   10.5   9.3   1   2     0.049        38    2.2   9.4   178   207    57    84    43   105 0.40 ATP-dependent RNA helicase DBP7, putative [Plasmodium vivax]
+SCO70895.1           -            850 14730at5820          -            238      0.11   10.5   9.3   2   2    0.0044       3.5    5.6   0.0    49    91   747   791   728   826 0.84 ATP-dependent RNA helicase DBP7, putative [Plasmodium vivax]
+SCO75353.1           -           1419 14730at5820          -            238      0.81    7.7  36.5   1   2       3.4   2.7e+03   -3.8   2.1   184   212   802   830   790   854 0.32 conserved Plasmodium protein, unknown function [Plasmodium vivax]
+SCO75353.1           -           1419 14730at5820          -            238      0.81    7.7  36.5   2   2   5.6e-06    0.0044   15.1  26.7   160   234  1151  1264  1085  1269 0.51 conserved Plasmodium protein, unknown function [Plasmodium vivax]
+SCO72036.1           -             99 14730at5820          -            238         1    7.4  32.7   1   1    0.0014       1.1    7.2  32.7   163   218     5    56     1    72 0.53 hypothetical protein PVC01_070031400 [Plasmodium vivax]
+SCO75411.1           -            404 14730at5820          -            238         2    6.4  22.8   1   1    0.0044       3.5    5.6  22.8   131   216   176   259   163   279 0.30 conserved Plasmodium protein, unknown function [Plasmodium vivax]
+SCO72180.1           -           1261 14730at5820          -            238       6.6    4.7  14.2   1   2   0.00047      0.37    8.8   7.9   128   190    32    91     8   138 0.50 U5 small nuclear ribonuclear protein, putative [Plasmodium vivax]
+SCO72180.1           -           1261 14730at5820          -            238       6.6    4.7  14.2   2   2       0.7   5.5e+02   -1.6   0.4    39    60   407   428   402   442 0.74 U5 small nuclear ribonuclear protein, putative [Plasmodium vivax]
+#
+# Program:         hmmsearch
+# Version:         3.4 (Aug 2023)
+# Pipeline mode:   SEARCH
+# Query file:      /v3/work/00_inventory/busco/busco_downloads/lineages/plasmodium_odb10/hmms/14730at5820.hmm
+# Target file:     /v3/inputs/annotations/ncbi-datasets/PvC01.proteins.fa
+# Option settings: hmmsearch --domtblout /v3/work/00_inventory/busco/PvC01_proteins/run_plasmodium_odb10/hmmer_output/initial_run_results/14730at5820.out --cpu 1 /v3/work/00_inventory/busco/busco_downloads/lineages/plasmodium_odb10/hmms/14730at5820.hmm /v3/inputs/annotations/ncbi-datasets/PvC01.proteins.fa 
+# Current dir:     /v3/work/00_inventory/busco
+# Date:            Tue May 19 18:36:05 2026
+# [ok]

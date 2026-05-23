@@ -1,0 +1,14 @@
+#                                                                            --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name        accession   tlen query name           accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+#------------------- ---------- ----- -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+CAI7719972.1         -            109 14538at5820          -             96   3.1e-60  199.0   3.7   1   1   5.5e-64   3.6e-60  198.8   3.7     1    96    11   109    11   109 0.99 | transcript=PVPAM_080019400_t1 | gene=PVPAM_080019400 | organism=Plasmodium_vivax_PAM | gene_product=(malaria parasite P. vivax) hypothetical protein [Source:UniProtKB/TrEMBL;Acc:A0A1G4GW12] | transcript_product=(malaria parasite P. vivax) hypothetical protein [Source:UniProtKB/TrEMBL;Acc:A0A1G4GW12] | location=CASCJQ010000008:663195-663524(+) | protein_length=109 | sequence_SO=supercontig | SO=protein_coding_gene | is_pseudo=false
+#
+# Program:         hmmsearch
+# Version:         3.4 (Aug 2023)
+# Pipeline mode:   SEARCH
+# Query file:      /v3/work/00_inventory/busco/busco_downloads/lineages/plasmodium_odb10/hmms/14538at5820.hmm
+# Target file:     /v3/inputs/annotations/plasmodb-68/PAM.proteins.fa
+# Option settings: hmmsearch --domtblout /v3/work/00_inventory/busco/PAM_proteins/run_plasmodium_odb10/hmmer_output/initial_run_results/14538at5820.out --cpu 1 /v3/work/00_inventory/busco/busco_downloads/lineages/plasmodium_odb10/hmms/14538at5820.hmm /v3/inputs/annotations/plasmodb-68/PAM.proteins.fa 
+# Current dir:     /v3/work/00_inventory/busco
+# Date:            Tue May 19 17:33:43 2026
+# [ok]

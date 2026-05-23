@@ -1,0 +1,17 @@
+#                                                                            --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name        accession   tlen query name           accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+#------------------- ---------- ----- -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+SCO66597.1           -            698 4182at5820           -            521         0 1035.3  18.0   1   4   9.3e-09   5.7e-05   20.3   1.7    10    40    56    95    36   112 0.74 fumarate hydratase, putative [Plasmodium vivax]
+SCO66597.1           -            698 4182at5820           -            521         0 1035.3  18.0   2   4   1.1e-89   6.7e-86  287.3   1.2    35   175   117   257    96   280 0.94 fumarate hydratase, putative [Plasmodium vivax]
+SCO66597.1           -            698 4182at5820           -            521         0 1035.3  18.0   3   4  4.8e-120  2.9e-116  387.5   0.3   173   352   299   478   274   496 0.94 fumarate hydratase, putative [Plasmodium vivax]
+SCO66597.1           -            698 4182at5820           -            521         0 1035.3  18.0   4   4    9e-109  5.4e-105  350.3   0.0   344   521   509   698   499   698 0.95 fumarate hydratase, putative [Plasmodium vivax]
+#
+# Program:         hmmsearch
+# Version:         3.4 (Aug 2023)
+# Pipeline mode:   SEARCH
+# Query file:      /v3/work/00_inventory/busco/busco_downloads/lineages/plasmodium_odb10/hmms/4182at5820.hmm
+# Target file:     /v3/inputs/annotations/ncbi-datasets/PvT01.proteins.fa
+# Option settings: hmmsearch --domtblout /v3/work/00_inventory/busco/PvT01_proteins/run_plasmodium_odb10/hmmer_output/initial_run_results/4182at5820.out --cpu 1 /v3/work/00_inventory/busco/busco_downloads/lineages/plasmodium_odb10/hmms/4182at5820.hmm /v3/inputs/annotations/ncbi-datasets/PvT01.proteins.fa 
+# Current dir:     /v3/work/00_inventory/busco
+# Date:            Tue May 19 18:46:05 2026
+# [ok]

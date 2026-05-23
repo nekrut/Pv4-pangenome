@@ -1,0 +1,20 @@
+#                                                                            --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name        accession   tlen query name           accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+#------------------- ---------- ----- -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+SCO74852.1           -            120 13951at5820          -            105   5.8e-42  140.9  24.0   1   2   5.3e-24   8.3e-21   72.9   7.4    14    60     1    47     1    51 0.97 copper transporter, putative [Plasmodium vivax]
+SCO74852.1           -            120 13951at5820          -            105   5.8e-42  140.9  24.0   2   2     2e-24   3.2e-21   74.2   8.7    47   105    60   118    58   118 0.97 copper transporter, putative [Plasmodium vivax]
+SCO74523.1           -            340 13951at5820          -            105   2.8e-19   68.0   8.7   1   2   6.9e-09   1.1e-05   24.3   0.0     8    58   192   242   185   249 0.91 copper transporter, putative [Plasmodium vivax]
+SCO74523.1           -            340 13951at5820          -            105   2.8e-19   68.0   8.7   2   2   4.9e-15   7.8e-12   44.1   5.8    62   104   271   313   261   314 0.92 copper transporter, putative [Plasmodium vivax]
+SCA81894.1           -            470 13951at5820          -            105     0.014   14.3   2.1   1   1   2.1e-05     0.033   13.1   2.1     3    63    99   161    97   178 0.69 VIR protein [Plasmodium vivax]
+SCO74381.1           -             76 13951at5820          -            105       1.4    7.9  12.7   1   2      0.13     2e+02    0.9   1.5    34    60     3    30     1    41 0.61 conserved Plasmodium protein, unknown function [Plasmodium vivax]
+SCO74381.1           -             76 13951at5820          -            105       1.4    7.9  12.7   2   2   3.8e-05      0.06   12.3   4.6    20    50    44    74    32    75 0.87 conserved Plasmodium protein, unknown function [Plasmodium vivax]
+#
+# Program:         hmmsearch
+# Version:         3.4 (Aug 2023)
+# Pipeline mode:   SEARCH
+# Query file:      /v3/work/00_inventory/busco/busco_downloads/lineages/plasmodium_odb10/hmms/13951at5820.hmm
+# Target file:     /v3/inputs/annotations/ncbi-datasets/PvC01.proteins.fa
+# Option settings: hmmsearch --domtblout /v3/work/00_inventory/busco/PvC01_proteins/run_plasmodium_odb10/hmmer_output/initial_run_results/13951at5820.out --cpu 1 /v3/work/00_inventory/busco/busco_downloads/lineages/plasmodium_odb10/hmms/13951at5820.hmm /v3/inputs/annotations/ncbi-datasets/PvC01.proteins.fa 
+# Current dir:     /v3/work/00_inventory/busco
+# Date:            Tue May 19 18:34:02 2026
+# [ok]

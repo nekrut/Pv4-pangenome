@@ -1,0 +1,17 @@
+#                                                                            --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name        accession   tlen query name           accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+#------------------- ---------- ----- -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+PVP01_1429900.1-p1   -            681 5846at5820           -            503  1.9e-278  922.7  50.0   1   2   3.5e-62   1.1e-58  197.7  16.2     1   138     1   137     1   164 0.81 | transcript=PVP01_1429900.1 | gene=PVP01_1429900 | organism=Plasmodium_vivax_P01 | gene_product=aquaporin, putative | transcript_product=aquaporin, putative | location=PvP01_14_v2:1287683-1289728(-) | protein_length=681 | sequence_SO=chromosome | SO=protein_coding_gene | is_pseudo=false
+PVP01_1429900.1-p1   -            681 5846at5820           -            503  1.9e-278  922.7  50.0   2   2  4.9e-224  1.6e-220  731.6  24.6   118   503   276   681   256   681 0.90 | transcript=PVP01_1429900.1 | gene=PVP01_1429900 | organism=Plasmodium_vivax_P01 | gene_product=aquaporin, putative | transcript_product=aquaporin, putative | location=PvP01_14_v2:1287683-1289728(-) | protein_length=681 | sequence_SO=chromosome | SO=protein_coding_gene | is_pseudo=false
+PVP01_1448000.1-p1   -           1872 5846at5820           -            503     0.019   12.2   2.0   1   2   0.00012      0.38    7.9   0.2   161   202    99   140    86   143 0.91 | transcript=PVP01_1448000.1 | gene=PVP01_1448000 | organism=Plasmodium_vivax_P01 | gene_product=myosin J, putative | transcript_product=myosin J, putative | location=PvP01_14_v2:2078986-2085183(-) | protein_length=1872 | sequence_SO=chromosome | SO=protein_coding_gene | is_pseudo=false
+PVP01_1448000.1-p1   -           1872 5846at5820           -            503     0.019   12.2   2.0   2   2    0.0031        10    3.3   0.1   139   193   498   548   473   556 0.77 | transcript=PVP01_1448000.1 | gene=PVP01_1448000 | organism=Plasmodium_vivax_P01 | gene_product=myosin J, putative | transcript_product=myosin J, putative | location=PvP01_14_v2:2078986-2085183(-) | protein_length=1872 | sequence_SO=chromosome | SO=protein_coding_gene | is_pseudo=false
+#
+# Program:         hmmsearch
+# Version:         3.4 (Aug 2023)
+# Pipeline mode:   SEARCH
+# Query file:      /v3/work/00_inventory/busco/busco_downloads/lineages/plasmodium_odb10/hmms/5846at5820.hmm
+# Target file:     /v3/inputs/annotations/plasmodb-68/PvP01.proteins.fa
+# Option settings: hmmsearch --domtblout /v3/work/00_inventory/busco/PvP01_proteins/run_plasmodium_odb10/hmmer_output/initial_run_results/5846at5820.out --cpu 1 /v3/work/00_inventory/busco/busco_downloads/lineages/plasmodium_odb10/hmms/5846at5820.hmm /v3/inputs/annotations/plasmodb-68/PvP01.proteins.fa 
+# Current dir:     /v3/work/00_inventory/busco
+# Date:            Tue May 19 17:43:43 2026
+# [ok]

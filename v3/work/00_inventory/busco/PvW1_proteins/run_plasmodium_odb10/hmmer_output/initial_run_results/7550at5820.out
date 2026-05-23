@@ -1,0 +1,15 @@
+#                                                                            --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name        accession   tlen query name           accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+#------------------- ---------- ----- -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+CAG9475467.1         -            426 7550at5820           -            311  3.6e-156  517.5  36.9   1   2     6e-72   3.7e-68  228.5  12.5     7   140    61   194    56   211 0.95 | transcript=PVW1_130014600_t1 | gene=PVW1_130014600 | organism=Plasmodium_vivax_PvW1 | gene_product=DUF4460 domain-containing protein [Source:UniProtKB/TrEMBL;Acc:A0A1G4H2V9] | transcript_product=DUF4460 domain-containing protein [Source:UniProtKB/TrEMBL;Acc:A0A1G4H2V9] | location=CAJZCX010000006:439061-440609(+) | protein_length=426 | sequence_SO=supercontig | SO=protein_coding_gene | is_pseudo=false
+CAG9475467.1         -            426 7550at5820           -            311  3.6e-156  517.5  36.9   2   2   1.7e-91     1e-87  292.7  16.8   132   311   219   421   214   421 0.92 | transcript=PVW1_130014600_t1 | gene=PVW1_130014600 | organism=Plasmodium_vivax_PvW1 | gene_product=DUF4460 domain-containing protein [Source:UniProtKB/TrEMBL;Acc:A0A1G4H2V9] | transcript_product=DUF4460 domain-containing protein [Source:UniProtKB/TrEMBL;Acc:A0A1G4H2V9] | location=CAJZCX010000006:439061-440609(+) | protein_length=426 | sequence_SO=supercontig | SO=protein_coding_gene | is_pseudo=false
+#
+# Program:         hmmsearch
+# Version:         3.4 (Aug 2023)
+# Pipeline mode:   SEARCH
+# Query file:      /v3/work/00_inventory/busco/busco_downloads/lineages/plasmodium_odb10/hmms/7550at5820.hmm
+# Target file:     /v3/inputs/annotations/plasmodb-68/PvW1.proteins.fa
+# Option settings: hmmsearch --domtblout /v3/work/00_inventory/busco/PvW1_proteins/run_plasmodium_odb10/hmmer_output/initial_run_results/7550at5820.out --cpu 1 /v3/work/00_inventory/busco/busco_downloads/lineages/plasmodium_odb10/hmms/7550at5820.hmm /v3/inputs/annotations/plasmodb-68/PvW1.proteins.fa 
+# Current dir:     /v3/work/00_inventory/busco
+# Date:            Tue May 19 17:48:00 2026
+# [ok]

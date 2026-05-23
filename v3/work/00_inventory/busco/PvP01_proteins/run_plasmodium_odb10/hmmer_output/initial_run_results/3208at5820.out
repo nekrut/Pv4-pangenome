@@ -1,0 +1,16 @@
+#                                                                            --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name        accession   tlen query name           accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+#------------------- ---------- ----- -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+PVP01_1031800.1-p1   -            867 3208at5820           -            635         0 1191.5  86.4   1   3   7.7e-58   5.1e-54  182.1  12.8     1   104    78   181    78   186 0.98 | transcript=PVP01_1031800.1 | gene=PVP01_1031800 | organism=Plasmodium_vivax_P01 | gene_product=cell division control protein 6, putative | transcript_product=cell division control protein 6, putative | location=PvP01_10_v2:1368079-1370682(-) | protein_length=867 | sequence_SO=chromosome | SO=protein_coding_gene | is_pseudo=false
+PVP01_1031800.1-p1   -            867 3208at5820           -            635         0 1191.5  86.4   2   3  2.7e-147  1.7e-143  477.7  29.4    98   339   195   440   191   449 0.97 | transcript=PVP01_1031800.1 | gene=PVP01_1031800 | organism=Plasmodium_vivax_P01 | gene_product=cell division control protein 6, putative | transcript_product=cell division control protein 6, putative | location=PvP01_10_v2:1368079-1370682(-) | protein_length=867 | sequence_SO=chromosome | SO=protein_coding_gene | is_pseudo=false
+PVP01_1031800.1-p1   -            867 3208at5820           -            635         0 1191.5  86.4   3   3  2.1e-167  1.4e-163  544.1  28.1   338   635   526   862   511   862 0.91 | transcript=PVP01_1031800.1 | gene=PVP01_1031800 | organism=Plasmodium_vivax_P01 | gene_product=cell division control protein 6, putative | transcript_product=cell division control protein 6, putative | location=PvP01_10_v2:1368079-1370682(-) | protein_length=867 | sequence_SO=chromosome | SO=protein_coding_gene | is_pseudo=false
+#
+# Program:         hmmsearch
+# Version:         3.4 (Aug 2023)
+# Pipeline mode:   SEARCH
+# Query file:      /v3/work/00_inventory/busco/busco_downloads/lineages/plasmodium_odb10/hmms/3208at5820.hmm
+# Target file:     /v3/inputs/annotations/plasmodb-68/PvP01.proteins.fa
+# Option settings: hmmsearch --domtblout /v3/work/00_inventory/busco/PvP01_proteins/run_plasmodium_odb10/hmmer_output/initial_run_results/3208at5820.out --cpu 1 /v3/work/00_inventory/busco/busco_downloads/lineages/plasmodium_odb10/hmms/3208at5820.hmm /v3/inputs/annotations/plasmodb-68/PvP01.proteins.fa 
+# Current dir:     /v3/work/00_inventory/busco
+# Date:            Tue May 19 17:36:05 2026
+# [ok]

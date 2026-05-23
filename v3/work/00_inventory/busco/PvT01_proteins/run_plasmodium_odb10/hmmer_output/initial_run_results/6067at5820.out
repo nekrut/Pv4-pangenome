@@ -1,0 +1,24 @@
+#                                                                            --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name        accession   tlen query name           accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+#------------------- ---------- ----- -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+SCO67703.1           -            749 6067at5820           -            491  6.7e-206  683.3  60.3   1   5  6.1e-165  5.3e-162  538.6  19.2     2   383    19   432    18   442 0.82 zinc finger protein, putative [Plasmodium vivax]
+SCO67703.1           -            749 6067at5820           -            491  6.7e-206  683.3  60.3   2   5         7   6.1e+03   -8.2  19.5   322   373   441   495   428   508 0.45 zinc finger protein, putative [Plasmodium vivax]
+SCO67703.1           -            749 6067at5820           -            491  6.7e-206  683.3  60.3   3   5   6.1e-15   5.3e-12   43.8   4.8   328   408   506   588   499   594 0.86 zinc finger protein, putative [Plasmodium vivax]
+SCO67703.1           -            749 6067at5820           -            491  6.7e-206  683.3  60.3   4   5   8.2e-11   7.1e-08   30.2   0.0   400   440   621   661   612   665 0.89 zinc finger protein, putative [Plasmodium vivax]
+SCO67703.1           -            749 6067at5820           -            491  6.7e-206  683.3  60.3   5   5     4e-29   3.5e-26   90.6   0.4   442   491   700   749   696   749 0.96 zinc finger protein, putative [Plasmodium vivax]
+SCO66558.1           -            414 6067at5820           -            491     0.015   12.6   1.5   1   1   2.6e-05     0.022   12.0   1.5   335   372    82   119    34   166 0.63 lipoate-protein ligase 2, putative [Plasmodium vivax]
+SCO66902.1           -            129 6067at5820           -            491      0.11    9.8  16.7   1   1   0.00014      0.12    9.6  16.7   327   404    30   110     5   126 0.51 hypothetical protein PVT01_080023500 [Plasmodium vivax]
+SCO66657.1           -            226 6067at5820           -            491      0.24    8.7  11.2   1   1   0.00035      0.31    8.3  11.2   312   454    80   220    69   223 0.54 conserved Plasmodium protein, unknown function [Plasmodium vivax]
+SCO69548.1           -            132 6067at5820           -            491         1    6.5  11.7   1   1    0.0014       1.2    6.3  11.7   314   400    18   102     3   124 0.48 conserved Plasmodium protein, unknown function [Plasmodium vivax]
+SCO67804.1           -            143 6067at5820           -            491       1.2    6.3  14.4   1   1    0.0018       1.5    6.0  14.4   307   390    35   118    29   135 0.60 conserved Plasmodium protein, unknown function [Plasmodium vivax]
+SCO67619.1           -            667 6067at5820           -            491       5.8    4.1  17.4   1   1     0.012        10    3.3  17.4   319   401    40   132    27   185 0.39 RNA helicase 1, putative [Plasmodium vivax]
+#
+# Program:         hmmsearch
+# Version:         3.4 (Aug 2023)
+# Pipeline mode:   SEARCH
+# Query file:      /v3/work/00_inventory/busco/busco_downloads/lineages/plasmodium_odb10/hmms/6067at5820.hmm
+# Target file:     /v3/inputs/annotations/ncbi-datasets/PvT01.proteins.fa
+# Option settings: hmmsearch --domtblout /v3/work/00_inventory/busco/PvT01_proteins/run_plasmodium_odb10/hmmer_output/initial_run_results/6067at5820.out --cpu 1 /v3/work/00_inventory/busco/busco_downloads/lineages/plasmodium_odb10/hmms/6067at5820.hmm /v3/inputs/annotations/ncbi-datasets/PvT01.proteins.fa 
+# Current dir:     /v3/work/00_inventory/busco
+# Date:            Tue May 19 18:59:07 2026
+# [ok]

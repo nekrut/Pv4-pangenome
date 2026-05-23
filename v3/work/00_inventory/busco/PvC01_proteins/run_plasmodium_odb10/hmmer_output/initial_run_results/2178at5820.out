@@ -1,0 +1,25 @@
+#                                                                            --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name        accession   tlen query name           accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+#------------------- ---------- ----- -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+SCO72748.1           -           1216 2178at5820           -            722         0 1062.0  38.2   1   7   1.3e-24   1.6e-21   74.8   3.4     1    56    38    93    38   137 0.81 autophagy-related protein 7, putative [Plasmodium vivax]
+SCO72748.1           -           1216 2178at5820           -            722         0 1062.0  38.2   2   7   1.3e-59   1.7e-56  190.4   8.6    62   216   187   365   181   407 0.85 autophagy-related protein 7, putative [Plasmodium vivax]
+SCO72748.1           -           1216 2178at5820           -            722         0 1062.0  38.2   3   7   2.8e-46   3.6e-43  146.4   1.5   226   319   469   568   455   572 0.92 autophagy-related protein 7, putative [Plasmodium vivax]
+SCO72748.1           -           1216 2178at5820           -            722         0 1062.0  38.2   4   7   0.00088       1.1    5.9   0.0   320   336   652   668   646   678 0.87 autophagy-related protein 7, putative [Plasmodium vivax]
+SCO72748.1           -           1216 2178at5820           -            722         0 1062.0  38.2   5   7     1e-96   1.3e-93  313.1   0.0   339   532   710   910   698   921 0.92 autophagy-related protein 7, putative [Plasmodium vivax]
+SCO72748.1           -           1216 2178at5820           -            722         0 1062.0  38.2   6   7   1.7e-64   2.1e-61  206.6   0.0   526   643   965  1082   952  1090 0.95 autophagy-related protein 7, putative [Plasmodium vivax]
+SCO72748.1           -           1216 2178at5820           -            722         0 1062.0  38.2   7   7   1.3e-42   1.6e-39  134.2   0.2   639   722  1132  1216  1123  1216 0.96 autophagy-related protein 7, putative [Plasmodium vivax]
+SCO75617.1           -            631 2178at5820           -            722   4.3e-15   53.5   1.2   1   1   5.9e-18   7.4e-15   52.7   1.2   376   532     7   169     4   196 0.79 SUMO-activating enzyme subunit 2, putative [Plasmodium vivax]
+SCO71340.1           -            406 2178at5820           -            722   2.1e-10   38.0   0.0   1   1   2.4e-13     3e-10   37.5   0.0   389   470     4    82     1   120 0.90 NEDD8-activating enzyme E1 catalytic subunit, putative [Plasmodium vivax]
+SCO74057.1           -           1676 2178at5820           -            722   2.2e-10   37.9   3.0   1   2   1.3e-06    0.0017   15.2   1.6   383   464   209   288   195   305 0.87 ubiquitin-activating enzyme, putative [Plasmodium vivax]
+SCO74057.1           -           1676 2178at5820           -            722   2.2e-10   37.9   3.0   2   2   1.9e-08   2.4e-05   21.3   0.0   386   463   668   751   661   766 0.76 ubiquitin-activating enzyme, putative [Plasmodium vivax]
+SCO73433.1           -            534 2178at5820           -            722   7.2e-08   29.6   0.1   1   1     1e-10   1.3e-07   28.8   0.1   383   464    98   177    73   215 0.83 ubiquitin-activating enzyme, putative [Plasmodium vivax]
+#
+# Program:         hmmsearch
+# Version:         3.4 (Aug 2023)
+# Pipeline mode:   SEARCH
+# Query file:      /v3/work/00_inventory/busco/busco_downloads/lineages/plasmodium_odb10/hmms/2178at5820.hmm
+# Target file:     /v3/inputs/annotations/ncbi-datasets/PvC01.proteins.fa
+# Option settings: hmmsearch --domtblout /v3/work/00_inventory/busco/PvC01_proteins/run_plasmodium_odb10/hmmer_output/initial_run_results/2178at5820.out --cpu 1 /v3/work/00_inventory/busco/busco_downloads/lineages/plasmodium_odb10/hmms/2178at5820.hmm /v3/inputs/annotations/ncbi-datasets/PvC01.proteins.fa 
+# Current dir:     /v3/work/00_inventory/busco
+# Date:            Tue May 19 18:38:18 2026
+# [ok]

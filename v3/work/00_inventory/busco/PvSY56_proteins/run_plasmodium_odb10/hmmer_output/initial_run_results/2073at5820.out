@@ -1,0 +1,24 @@
+#                                                                                                             --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name                                         accession   tlen query name           accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+#                                 ------------------- ---------- ----- -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+GCA_003402215.1|PVP01_0620000|PVP01_0620000.1|unknown -            886 2073at5820           -            783         0 1492.5  50.3   1   1         0         0 1488.1  50.3     1   779     1   879     1   886 0.93 -
+GCA_003402215.1|PVP01_0804700|PVP01_0804700.1|unknown -            750 2073at5820           -            783   8.8e-66  220.6  22.1   1   2   9.7e-46     1e-42  144.3   9.1   179   407   164   403   152   410 0.87 -
+GCA_003402215.1|PVP01_0804700|PVP01_0804700.1|unknown -            750 2073at5820           -            783   8.8e-66  220.6  22.1   2   2   7.1e-27   7.5e-24   82.0   5.1   407   617   496   719   492   724 0.83 -
+GCA_003402215.1|PVP01_1221800|PVP01_1221800.1|unknown -           1248 2073at5820           -            783   5.2e-20   69.3   0.9   1   3     8e-07   0.00085   15.6   0.0   178   245   100   169    80   201 0.81 -
+GCA_003402215.1|PVP01_1221800|PVP01_1221800.1|unknown -           1248 2073at5820           -            783   5.2e-20   69.3   0.9   2   3     0.025        27    0.8   0.0   330   389   530   591   521   605 0.82 -
+GCA_003402215.1|PVP01_1221800|PVP01_1221800.1|unknown -           1248 2073at5820           -            783   5.2e-20   69.3   0.9   3   3   5.9e-17   6.3e-14   49.2   0.0   406   488   668   752   658   773 0.86 -
+GCA_003402215.1|PVP01_1244900|PVP01_1244900.1|unknown -           1071 2073at5820           -            783   5.5e-13   46.0   0.1   1   3     5e-06    0.0053   13.0   0.0   177   232    73   128    57   148 0.86 -
+GCA_003402215.1|PVP01_1244900|PVP01_1244900.1|unknown -           1071 2073at5820           -            783   5.5e-13   46.0   0.1   2   3   1.6e-10   1.7e-07   27.9   0.0   409   474   568   635   547   647 0.89 -
+GCA_003402215.1|PVP01_1244900|PVP01_1244900.1|unknown -           1071 2073at5820           -            783   5.5e-13   46.0   0.1   3   3     0.032        34    0.4   0.0   472   503   670   701   653   713 0.85 -
+GCA_003402215.1|PVP01_0506200|PVP01_0506200.1|unknown -           1310 2073at5820           -            783   3.4e-08   30.2   0.7   1   2   3.2e-11   3.4e-08   30.2   0.7   179   356   156   338   151   349 0.74 -
+GCA_003402215.1|PVP01_0506200|PVP01_0506200.1|unknown -           1310 2073at5820           -            783   3.4e-08   30.2   0.7   2   2      0.14   1.5e+02   -1.7   0.1    97   141  1071  1115  1054  1127 0.79 -
+#
+# Program:         hmmsearch
+# Version:         3.4 (Aug 2023)
+# Pipeline mode:   SEARCH
+# Query file:      /v3/work/00_inventory/busco/busco_downloads/lineages/plasmodium_odb10/hmms/2073at5820.hmm
+# Target file:     /v3/inputs/annotations/plasmodb-68/PvSY56.proteins.fa
+# Option settings: hmmsearch --domtblout /v3/work/00_inventory/busco/PvSY56_proteins/run_plasmodium_odb10/hmmer_output/initial_run_results/2073at5820.out --cpu 1 /v3/work/00_inventory/busco/busco_downloads/lineages/plasmodium_odb10/hmms/2073at5820.hmm /v3/inputs/annotations/plasmodb-68/PvSY56.proteins.fa 
+# Current dir:     /v3/work/00_inventory/busco
+# Date:            Tue May 19 18:04:46 2026
+# [ok]

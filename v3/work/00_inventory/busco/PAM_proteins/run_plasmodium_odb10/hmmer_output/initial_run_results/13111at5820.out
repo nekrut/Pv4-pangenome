@@ -1,0 +1,17 @@
+#                                                                            --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name        accession   tlen query name           accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+#------------------- ---------- ----- -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+CAI7718256.1         -            148 13111at5820          -            125   2.8e-85  281.3   2.1   1   1     1e-88   3.3e-85  281.1   2.1     1   125    13   137    13   137 1.00 | transcript=PVPAM_030025600_t1 | gene=PVPAM_030025600 | organism=Plasmodium_vivax_PAM | gene_product=mago nashi protein homologue, putative | transcript_product=mago nashi protein homologue, putative | location=CASCJQ010000003:852651-853637(+) | protein_length=148 | sequence_SO=supercontig | SO=protein_coding_gene | is_pseudo=false
+CAI7722598.1         -            354 13111at5820          -            125      0.03   13.0  11.0   1   3       1.4   4.6e+03   -3.7   0.0    80    97    20    37    16    41 0.71 | transcript=PVPAM_130010000_t1 | gene=PVPAM_130010000 | organism=Plasmodium_vivax_PAM | gene_product=PIR protein | transcript_product=PIR protein | location=CASCJQ010000013:242475-243817(-) | protein_length=354 | sequence_SO=supercontig | SO=protein_coding_gene | is_pseudo=false
+CAI7722598.1         -            354 13111at5820          -            125      0.03   13.0  11.0   2   3   9.9e-06     0.032   12.9   4.5     9    96    56   140    49   178 0.76 | transcript=PVPAM_130010000_t1 | gene=PVPAM_130010000 | organism=Plasmodium_vivax_PAM | gene_product=PIR protein | transcript_product=PIR protein | location=CASCJQ010000013:242475-243817(-) | protein_length=354 | sequence_SO=supercontig | SO=protein_coding_gene | is_pseudo=false
+CAI7722598.1         -            354 13111at5820          -            125      0.03   13.0  11.0   3   3    0.0073        24    3.6   0.4    25    65   200   242   167   254 0.72 | transcript=PVPAM_130010000_t1 | gene=PVPAM_130010000 | organism=Plasmodium_vivax_PAM | gene_product=PIR protein | transcript_product=PIR protein | location=CASCJQ010000013:242475-243817(-) | protein_length=354 | sequence_SO=supercontig | SO=protein_coding_gene | is_pseudo=false
+#
+# Program:         hmmsearch
+# Version:         3.4 (Aug 2023)
+# Pipeline mode:   SEARCH
+# Query file:      /v3/work/00_inventory/busco/busco_downloads/lineages/plasmodium_odb10/hmms/13111at5820.hmm
+# Target file:     /v3/inputs/annotations/plasmodb-68/PAM.proteins.fa
+# Option settings: hmmsearch --domtblout /v3/work/00_inventory/busco/PAM_proteins/run_plasmodium_odb10/hmmer_output/initial_run_results/13111at5820.out --cpu 1 /v3/work/00_inventory/busco/busco_downloads/lineages/plasmodium_odb10/hmms/13111at5820.hmm /v3/inputs/annotations/plasmodb-68/PAM.proteins.fa 
+# Current dir:     /v3/work/00_inventory/busco
+# Date:            Tue May 19 17:28:43 2026
+# [ok]

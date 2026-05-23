@@ -1,0 +1,19 @@
+#                                                                            --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name        accession   tlen query name           accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+#------------------- ---------- ----- -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+SCO70113.1           -            547 5386at5820           -            445  2.1e-297  984.4   2.3   1   1  1.6e-300  2.5e-297  984.2   2.3     1   443    72   536    72   538 0.97 ATP synthase subunit beta, mitochondrial, putative [Plasmodium vivax]
+SCO69706.1           -            611 5386at5820           -            445   6.4e-29   99.6   0.0   1   2       0.1   1.5e+02   -0.5   0.0    27    87    43   105    34   146 0.69 V-type proton ATPase catalytic subunit A, putative [Plasmodium vivax]
+SCO69706.1           -            611 5386at5820           -            445   6.4e-29   99.6   0.0   2   2     2e-31   3.1e-28   97.3   0.0    93   395   205   516   196   527 0.84 V-type proton ATPase catalytic subunit A, putative [Plasmodium vivax]
+SCO65292.1           -            494 5386at5820           -            445   1.1e-23   82.4   0.1   1   1   1.7e-26   2.6e-23   81.1   0.1    57   395   100   449    63   459 0.81 V-type proton ATPase subunit B, putative [Plasmodium vivax]
+SCO65583.1           -            564 5386at5820           -            445   8.1e-13   46.5   1.4   1   2   5.3e-16   8.1e-13   46.5   1.4    58   336   142   424   123   467 0.79 ATP synthase F1, alpha subunit, putative [Plasmodium vivax]
+SCO65583.1           -            564 5386at5820           -            445   8.1e-13   46.5   1.4   2   2     0.087   1.3e+02   -0.3   0.1   337   380   474   516   456   534 0.86 ATP synthase F1, alpha subunit, putative [Plasmodium vivax]
+#
+# Program:         hmmsearch
+# Version:         3.4 (Aug 2023)
+# Pipeline mode:   SEARCH
+# Query file:      /v3/work/00_inventory/busco/busco_downloads/lineages/plasmodium_odb10/hmms/5386at5820.hmm
+# Target file:     /v3/inputs/annotations/ncbi-datasets/PvT01.proteins.fa
+# Option settings: hmmsearch --domtblout /v3/work/00_inventory/busco/PvT01_proteins/run_plasmodium_odb10/hmmer_output/initial_run_results/5386at5820.out --cpu 1 /v3/work/00_inventory/busco/busco_downloads/lineages/plasmodium_odb10/hmms/5386at5820.hmm /v3/inputs/annotations/ncbi-datasets/PvT01.proteins.fa 
+# Current dir:     /v3/work/00_inventory/busco
+# Date:            Tue May 19 18:51:26 2026
+# [ok]

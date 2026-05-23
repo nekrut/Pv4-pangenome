@@ -1,0 +1,16 @@
+#                                                                            --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name        accession   tlen query name           accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+#------------------- ---------- ----- -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+PVP01_1011600.1-p1   -            274 10405at5820          -            143   8.5e-82  270.4  23.5   1   2   4.9e-67   1.6e-63  211.2   1.2     1    98   106   206   106   211 0.96 | transcript=PVP01_1011600.1 | gene=PVP01_1011600 | organism=Plasmodium_vivax_P01 | gene_product=18S rRNA (guanine-N(7))-methyltransferase, putative | transcript_product=18S rRNA (guanine-N(7))-methyltransferase, putative | location=PvP01_10_v2:537402-539577(+) | protein_length=274 | sequence_SO=chromosome | SO=protein_coding_gene | is_pseudo=false
+PVP01_1011600.1-p1   -            274 10405at5820          -            143   8.5e-82  270.4  23.5   2   2     9e-22   2.9e-18   64.5  15.1    96   143   225   273   221   273 0.95 | transcript=PVP01_1011600.1 | gene=PVP01_1011600 | organism=Plasmodium_vivax_P01 | gene_product=18S rRNA (guanine-N(7))-methyltransferase, putative | transcript_product=18S rRNA (guanine-N(7))-methyltransferase, putative | location=PvP01_10_v2:537402-539577(+) | protein_length=274 | sequence_SO=chromosome | SO=protein_coding_gene | is_pseudo=false
+PVP01_1443500.1-p1   -            317 10405at5820          -            143       3.4    5.9  10.6   1   1    0.0031        10    4.4  10.6    97   143   262   312   255   312 0.84 | transcript=PVP01_1443500.1 | gene=PVP01_1443500 | organism=Plasmodium_vivax_P01 | gene_product=rRNA-processing protein FCF1, putative | transcript_product=rRNA-processing protein FCF1, putative | location=PvP01_14_v2:1891729-1892862(+) | protein_length=317 | sequence_SO=chromosome | SO=protein_coding_gene | is_pseudo=false
+#
+# Program:         hmmsearch
+# Version:         3.4 (Aug 2023)
+# Pipeline mode:   SEARCH
+# Query file:      /v3/work/00_inventory/busco/busco_downloads/lineages/plasmodium_odb10/hmms/10405at5820.hmm
+# Target file:     /v3/inputs/annotations/plasmodb-68/PvP01.proteins.fa
+# Option settings: hmmsearch --domtblout /v3/work/00_inventory/busco/PvP01_proteins/run_plasmodium_odb10/hmmer_output/initial_run_results/10405at5820.out --cpu 1 /v3/work/00_inventory/busco/busco_downloads/lineages/plasmodium_odb10/hmms/10405at5820.hmm /v3/inputs/annotations/plasmodb-68/PvP01.proteins.fa 
+# Current dir:     /v3/work/00_inventory/busco
+# Date:            Tue May 19 17:26:00 2026
+# [ok]

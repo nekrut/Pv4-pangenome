@@ -1,0 +1,17 @@
+#                                                                            --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name        accession   tlen query name           accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+#------------------- ---------- ----- -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+CAI7722047.1         -            626 9325at5820           -            435  1.7e-185  615.9  68.8   1   4   2.6e-10   1.7e-06   26.0   0.0     2    38    24    61    23    88 0.80 | transcript=PVPAM_120028500_t1 | gene=PVPAM_120028500 | organism=Plasmodium_vivax_PAM | gene_product=GPI transamidase subunit PIG-U, putative | transcript_product=GPI transamidase subunit PIG-U, putative | location=CASCJQ010000012:908303-911368(-) | protein_length=626 | sequence_SO=supercontig | SO=protein_coding_gene | is_pseudo=false
+CAI7722047.1         -            626 9325at5820           -            435  1.7e-185  615.9  68.8   2   4   1.2e-23   8.1e-20   69.9   6.6    35   101    91   177    75   179 0.82 | transcript=PVPAM_120028500_t1 | gene=PVPAM_120028500 | organism=Plasmodium_vivax_PAM | gene_product=GPI transamidase subunit PIG-U, putative | transcript_product=GPI transamidase subunit PIG-U, putative | location=CASCJQ010000012:908303-911368(-) | protein_length=626 | sequence_SO=supercontig | SO=protein_coding_gene | is_pseudo=false
+CAI7722047.1         -            626 9325at5820           -            435  1.7e-185  615.9  68.8   3   4   1.5e-10   9.7e-07   26.8   0.1   101   133   218   255   215   259 0.87 | transcript=PVPAM_120028500_t1 | gene=PVPAM_120028500 | organism=Plasmodium_vivax_PAM | gene_product=GPI transamidase subunit PIG-U, putative | transcript_product=GPI transamidase subunit PIG-U, putative | location=CASCJQ010000012:908303-911368(-) | protein_length=626 | sequence_SO=supercontig | SO=protein_coding_gene | is_pseudo=false
+CAI7722047.1         -            626 9325at5820           -            435  1.7e-185  615.9  68.8   4   4  3.4e-153  2.2e-149  496.9  47.9   133   435   287   624   282   624 0.90 | transcript=PVPAM_120028500_t1 | gene=PVPAM_120028500 | organism=Plasmodium_vivax_PAM | gene_product=GPI transamidase subunit PIG-U, putative | transcript_product=GPI transamidase subunit PIG-U, putative | location=CASCJQ010000012:908303-911368(-) | protein_length=626 | sequence_SO=supercontig | SO=protein_coding_gene | is_pseudo=false
+#
+# Program:         hmmsearch
+# Version:         3.4 (Aug 2023)
+# Pipeline mode:   SEARCH
+# Query file:      /v3/work/00_inventory/busco/busco_downloads/lineages/plasmodium_odb10/hmms/9325at5820.hmm
+# Target file:     /v3/inputs/annotations/plasmodb-68/PAM.proteins.fa
+# Option settings: hmmsearch --domtblout /v3/work/00_inventory/busco/PAM_proteins/run_plasmodium_odb10/hmmer_output/initial_run_results/9325at5820.out --cpu 1 /v3/work/00_inventory/busco/busco_downloads/lineages/plasmodium_odb10/hmms/9325at5820.hmm /v3/inputs/annotations/plasmodb-68/PAM.proteins.fa 
+# Current dir:     /v3/work/00_inventory/busco
+# Date:            Tue May 19 17:50:40 2026
+# [ok]

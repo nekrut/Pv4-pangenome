@@ -1,0 +1,16 @@
+#                                                                            --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name        accession   tlen query name           accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+#------------------- ---------- ----- -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+CAI7721319.1         -            323 8569at5820           -            274  6.8e-148  490.2  33.9   1   1  2.5e-151  8.2e-148  489.9  33.9     6   274    21   321    16   321 0.93 | transcript=PVPAM_110022200_t1 | gene=PVPAM_110022200 | organism=Plasmodium_vivax_PAM | gene_product=RNA polymerase II transcription factor B subunit 4, putative | transcript_product=RNA polymerase II transcription factor B subunit 4, putative | location=CASCJQ010000011:717907-718878(-) | protein_length=323 | sequence_SO=supercontig | SO=protein_coding_gene | is_pseudo=false
+CAI7723315.1         -            401 8569at5820           -            274    0.0018   16.5  11.4   1   2   5.5e-07    0.0018   16.5  11.4   131   238   201   313   176   322 0.79 | transcript=PVPAM_140023400_t1 | gene=PVPAM_140023400 | organism=Plasmodium_vivax_PAM | gene_product=TFIIH basal transcription factor subunit, putative | transcript_product=TFIIH basal transcription factor subunit, putative | location=CASCJQ010000014:815257-817146(+) | protein_length=401 | sequence_SO=supercontig | SO=protein_coding_gene | is_pseudo=false
+CAI7723315.1         -            401 8569at5820           -            274    0.0018   16.5  11.4   2   2     0.013        43    2.2   3.8   208   255   349   397   343   401 0.82 | transcript=PVPAM_140023400_t1 | gene=PVPAM_140023400 | organism=Plasmodium_vivax_PAM | gene_product=TFIIH basal transcription factor subunit, putative | transcript_product=TFIIH basal transcription factor subunit, putative | location=CASCJQ010000014:815257-817146(+) | protein_length=401 | sequence_SO=supercontig | SO=protein_coding_gene | is_pseudo=false
+#
+# Program:         hmmsearch
+# Version:         3.4 (Aug 2023)
+# Pipeline mode:   SEARCH
+# Query file:      /v3/work/00_inventory/busco/busco_downloads/lineages/plasmodium_odb10/hmms/8569at5820.hmm
+# Target file:     /v3/inputs/annotations/plasmodb-68/PAM.proteins.fa
+# Option settings: hmmsearch --domtblout /v3/work/00_inventory/busco/PAM_proteins/run_plasmodium_odb10/hmmer_output/initial_run_results/8569at5820.out --cpu 1 /v3/work/00_inventory/busco/busco_downloads/lineages/plasmodium_odb10/hmms/8569at5820.hmm /v3/inputs/annotations/plasmodb-68/PAM.proteins.fa 
+# Current dir:     /v3/work/00_inventory/busco
+# Date:            Tue May 19 17:47:34 2026
+# [ok]

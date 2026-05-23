@@ -1,0 +1,16 @@
+#                                                                            --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name        accession   tlen query name           accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+#------------------- ---------- ----- -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+CAI7723033.1         -            637 6428at5820           -            483    7e-251  831.4  31.8   1   2         2   6.5e+03   -7.5  11.7     1    79     1    76     1   109 0.45 | transcript=PVPAM_130053900_t1 | gene=PVPAM_130053900 | organism=Plasmodium_vivax_PAM | gene_product=cytidine diphosphate-diacylglycerol synthase, putative | transcript_product=cytidine diphosphate-diacylglycerol synthase, putative | location=CASCJQ010000013:2159289-2161202(-) | protein_length=637 | sequence_SO=supercontig | SO=protein_coding_gene | is_pseudo=false
+CAI7723033.1         -            637 6428at5820           -            483    7e-251  831.4  31.8   2   2  2.2e-254    7e-251  831.4  31.8    17   482   125   618   106   619 0.91 | transcript=PVPAM_130053900_t1 | gene=PVPAM_130053900 | organism=Plasmodium_vivax_PAM | gene_product=cytidine diphosphate-diacylglycerol synthase, putative | transcript_product=cytidine diphosphate-diacylglycerol synthase, putative | location=CASCJQ010000013:2159289-2161202(-) | protein_length=637 | sequence_SO=supercontig | SO=protein_coding_gene | is_pseudo=false
+CAI7719216.1         -            178 6428at5820           -            483       1.2    6.2  11.3   1   1   0.00048       1.5    5.8  11.3    14   117    20   121     8   130 0.78 | transcript=PVPAM_060022300_t1 | gene=PVPAM_060022300 | organism=Plasmodium_vivax_PAM | gene_product=conserved Plasmodium protein, unknown function | transcript_product=conserved Plasmodium protein, unknown function | location=CASCJQ010000006:755145-756274(+) | protein_length=178 | sequence_SO=supercontig | SO=protein_coding_gene | is_pseudo=false
+#
+# Program:         hmmsearch
+# Version:         3.4 (Aug 2023)
+# Pipeline mode:   SEARCH
+# Query file:      /v3/work/00_inventory/busco/busco_downloads/lineages/plasmodium_odb10/hmms/6428at5820.hmm
+# Target file:     /v3/inputs/annotations/plasmodb-68/PAM.proteins.fa
+# Option settings: hmmsearch --domtblout /v3/work/00_inventory/busco/PAM_proteins/run_plasmodium_odb10/hmmer_output/initial_run_results/6428at5820.out --cpu 1 /v3/work/00_inventory/busco/busco_downloads/lineages/plasmodium_odb10/hmms/6428at5820.hmm /v3/inputs/annotations/plasmodb-68/PAM.proteins.fa 
+# Current dir:     /v3/work/00_inventory/busco
+# Date:            Tue May 19 17:46:28 2026
+# [ok]

@@ -1,0 +1,17 @@
+#                                                                            --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name        accession   tlen query name           accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+#------------------- ---------- ----- -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+PVX_086995.1-p1      -            219 11291at5820          -            181  1.8e-119  394.2   7.6   1   1  1.1e-122  2.1e-119  393.9   7.6     1   181    38   219    38   219 0.99 | transcript=PVX_086995.1 | gene=PVX_086995 | organism=Plasmodium_vivax_Sal-1 | gene_product=transcription factor with AP2 domain(s), putative | transcript_product=transcription factor with AP2 domain(s), putative | location=Pv_Sal1_chr07:1306917-1307576(+) | protein_length=219 | sequence_SO=chromosome | SO=protein_coding_gene | is_pseudo=false
+PVX_094580.1-p1      -           1381 11291at5820          -            181   8.1e-07   27.1   0.4   1   2   8.7e-05      0.16    9.8   0.1    86   144   411   470   381   481 0.86 | transcript=PVX_094580.1 | gene=PVX_094580 | organism=Plasmodium_vivax_Sal-1 | gene_product=transcription factor with AP2 domain(s), putative | transcript_product=transcription factor with AP2 domain(s), putative | location=Pv_Sal1_chr08:341579-345724(-) | protein_length=1381 | sequence_SO=chromosome | SO=protein_coding_gene | is_pseudo=false
+PVX_094580.1-p1      -           1381 11291at5820          -            181   8.1e-07   27.1   0.4   2   2   2.5e-06    0.0045   14.9   0.0    93   156   618   682   612   694 0.86 | transcript=PVX_094580.1 | gene=PVX_094580 | organism=Plasmodium_vivax_Sal-1 | gene_product=transcription factor with AP2 domain(s), putative | transcript_product=transcription factor with AP2 domain(s), putative | location=Pv_Sal1_chr08:341579-345724(-) | protein_length=1381 | sequence_SO=chromosome | SO=protein_coding_gene | is_pseudo=false
+PVX_117145.1-p1      -           1223 11291at5820          -            181    0.0013   16.7   0.1   1   1   1.1e-06    0.0021   16.0   0.1    90   153   234   302   219   315 0.76 | transcript=PVX_117145.1 | gene=PVX_117145 | organism=Plasmodium_vivax_Sal-1 | gene_product=transcription factor with AP2 domain(s), putative | transcript_product=transcription factor with AP2 domain(s), putative | location=Pv_Sal1_chr12:1588169-1591840(+) | protein_length=1223 | sequence_SO=chromosome | SO=protein_coding_gene | is_pseudo=false
+#
+# Program:         hmmsearch
+# Version:         3.4 (Aug 2023)
+# Pipeline mode:   SEARCH
+# Query file:      /v3/work/00_inventory/busco/busco_downloads/lineages/plasmodium_odb10/hmms/11291at5820.hmm
+# Target file:     /v3/inputs/annotations/plasmodb-68/Sal-I.proteins.fa
+# Option settings: hmmsearch --domtblout /v3/work/00_inventory/busco/Sal-I_proteins/run_plasmodium_odb10/hmmer_output/initial_run_results/11291at5820.out --cpu 1 /v3/work/00_inventory/busco/busco_downloads/lineages/plasmodium_odb10/hmms/11291at5820.hmm /v3/inputs/annotations/plasmodb-68/Sal-I.proteins.fa 
+# Current dir:     /v3/work/00_inventory/busco
+# Date:            Tue May 19 17:28:58 2026
+# [ok]

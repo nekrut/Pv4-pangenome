@@ -1,0 +1,16 @@
+#                                                                            --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name        accession   tlen query name           accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+#------------------- ---------- ----- -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+SCO75676.1           -            115 14241at5820          -            109   1.1e-69  230.2   5.6   1   1   3.8e-73   1.2e-69  230.0   5.6     1   109     1   115     1   115 0.98 translation initiation factor SUI1, putative [Plasmodium vivax]
+SCO75333.1           -            270 14241at5820          -            109   7.9e-06   24.6   0.3   1   2      0.43   1.4e+03   -1.9   1.8    15    42    60    86    54    99 0.81 translation initiation factor SUI1, putative [Plasmodium vivax]
+SCO75333.1           -            270 14241at5820          -            109   7.9e-06   24.6   0.3   2   2   2.5e-09   7.9e-06   24.6   0.3    25    99   180   255   164   258 0.88 translation initiation factor SUI1, putative [Plasmodium vivax]
+#
+# Program:         hmmsearch
+# Version:         3.4 (Aug 2023)
+# Pipeline mode:   SEARCH
+# Query file:      /v3/work/00_inventory/busco/busco_downloads/lineages/plasmodium_odb10/hmms/14241at5820.hmm
+# Target file:     /v3/inputs/annotations/ncbi-datasets/PvC01.proteins.fa
+# Option settings: hmmsearch --domtblout /v3/work/00_inventory/busco/PvC01_proteins/run_plasmodium_odb10/hmmer_output/initial_run_results/14241at5820.out --cpu 1 /v3/work/00_inventory/busco/busco_downloads/lineages/plasmodium_odb10/hmms/14241at5820.hmm /v3/inputs/annotations/ncbi-datasets/PvC01.proteins.fa 
+# Current dir:     /v3/work/00_inventory/busco
+# Date:            Tue May 19 18:34:44 2026
+# [ok]

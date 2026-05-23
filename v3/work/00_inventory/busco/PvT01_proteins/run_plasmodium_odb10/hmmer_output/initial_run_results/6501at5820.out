@@ -1,0 +1,26 @@
+#                                                                            --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name        accession   tlen query name           accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+#------------------- ---------- ----- -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+SCO67294.1           -            478 6501at5820           -            376  6.9e-218  721.4  24.9   1   2   1.2e-73   1.4e-70  236.6   2.5     1   129     1   140     1   145 0.95 AP-4 complex subunit mu, putative [Plasmodium vivax]
+SCO67294.1           -            478 6501at5820           -            376  6.9e-218  721.4  24.9   2   2  7.9e-151  9.5e-148  490.6  14.6   126   376   198   476   178   476 0.93 AP-4 complex subunit mu, putative [Plasmodium vivax]
+SCO69701.1           -            458 6501at5820           -            376   1.7e-49  167.3  24.2   1   2     3e-35   3.6e-32  110.2  13.6     3   203     4   229     2   231 0.78 AP-1 complex subunit mu-1, putative [Plasmodium vivax]
+SCO69701.1           -            458 6501at5820           -            376   1.7e-49  167.3  24.2   2   2   1.2e-20   1.4e-17   62.2   2.8   196   375   253   455   245   456 0.77 AP-1 complex subunit mu-1, putative [Plasmodium vivax]
+SCO69943.1           -            617 6501at5820           -            376   1.9e-26   91.4  65.4   1   5   1.8e-08   2.1e-05   22.1  29.9     3   217     2   239     1   250 0.66 AP-2 complex subunit mu, putative [Plasmodium vivax]
+SCO69943.1           -            617 6501at5820           -            376   1.9e-26   91.4  65.4   2   5   5.6e-09   6.8e-06   23.7   7.8   139   200   249   310   212   317 0.75 AP-2 complex subunit mu, putative [Plasmodium vivax]
+SCO69943.1           -            617 6501at5820           -            376   1.9e-26   91.4  65.4   3   5   7.9e-13   9.7e-10   36.4   0.2   200   253   361   414   354   422 0.92 AP-2 complex subunit mu, putative [Plasmodium vivax]
+SCO69943.1           -            617 6501at5820           -            376   1.9e-26   91.4  65.4   4   5    0.0078       9.5    3.5   3.7   257   357   455   564   435   570 0.66 AP-2 complex subunit mu, putative [Plasmodium vivax]
+SCO69943.1           -            617 6501at5820           -            376   1.9e-26   91.4  65.4   5   5   1.9e-08   2.3e-05   22.0   4.6   291   376   534   617   530   617 0.80 AP-2 complex subunit mu, putative [Plasmodium vivax]
+SCO69043.1           -            772 6501at5820           -            376   6.5e-09   33.7  10.4   1   3   2.7e-05     0.033   11.6   0.5    50   109    73   134    56   170 0.82 clathrin coat assembly protein AP50, putative [Plasmodium vivax]
+SCO69043.1           -            772 6501at5820           -            376   6.5e-09   33.7  10.4   2   3   1.6e-10   1.9e-07   28.8   0.2   125   207   198   285   184   300 0.81 clathrin coat assembly protein AP50, putative [Plasmodium vivax]
+SCO69043.1           -            772 6501at5820           -            376   6.5e-09   33.7  10.4   3   3       1.5   1.8e+03   -4.0   0.5   122   166   560   605   547   618 0.46 clathrin coat assembly protein AP50, putative [Plasmodium vivax]
+SCO67280.1           -            155 6501at5820           -            376   0.00092   16.7   0.8   1   1   9.3e-07    0.0011   16.5   0.8    68   126    80   138    53   151 0.84 AP-1 complex subunit sigma, putative [Plasmodium vivax]
+#
+# Program:         hmmsearch
+# Version:         3.4 (Aug 2023)
+# Pipeline mode:   SEARCH
+# Query file:      /v3/work/00_inventory/busco/busco_downloads/lineages/plasmodium_odb10/hmms/6501at5820.hmm
+# Target file:     /v3/inputs/annotations/ncbi-datasets/PvT01.proteins.fa
+# Option settings: hmmsearch --domtblout /v3/work/00_inventory/busco/PvT01_proteins/run_plasmodium_odb10/hmmer_output/initial_run_results/6501at5820.out --cpu 1 /v3/work/00_inventory/busco/busco_downloads/lineages/plasmodium_odb10/hmms/6501at5820.hmm /v3/inputs/annotations/ncbi-datasets/PvT01.proteins.fa 
+# Current dir:     /v3/work/00_inventory/busco
+# Date:            Tue May 19 18:50:34 2026
+# [ok]

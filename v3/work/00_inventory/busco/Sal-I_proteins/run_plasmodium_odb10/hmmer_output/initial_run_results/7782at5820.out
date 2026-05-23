@@ -1,0 +1,17 @@
+#                                                                            --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name        accession   tlen query name           accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+#------------------- ---------- ----- -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+PVX_100880.1-p1      -            753 7782at5820           -            305  2.9e-171  566.8  15.4   1   2   1.8e-41   4.8e-38  129.2   0.4     2    81    12    94    11   104 0.93 | transcript=PVX_100880.1 | gene=PVX_100880 | organism=Plasmodium_vivax_Sal-1 | gene_product=sphingomyelin phosphodiesterase, putative | transcript_product=sphingomyelin phosphodiesterase, putative | location=Pv_Sal1_chr14:2444708-2446969(-) | protein_length=753 | sequence_SO=chromosome | SO=protein_coding_gene | is_pseudo=false
+PVX_100880.1-p1      -            753 7782at5820           -            305  2.9e-171  566.8  15.4   2   2  1.5e-136    4e-133  441.5   9.2    73   305   484   719   455   719 0.94 | transcript=PVX_100880.1 | gene=PVX_100880 | organism=Plasmodium_vivax_Sal-1 | gene_product=sphingomyelin phosphodiesterase, putative | transcript_product=sphingomyelin phosphodiesterase, putative | location=Pv_Sal1_chr14:2444708-2446969(-) | protein_length=753 | sequence_SO=chromosome | SO=protein_coding_gene | is_pseudo=false
+PVX_091230.1-p1      -            870 7782at5820           -            305   2.5e-06   25.1   0.4   1   2      0.46   1.3e+03   -3.5   0.1   175   213   215   256   197   263 0.61 | transcript=PVX_091230.1 | gene=PVX_091230 | organism=Plasmodium_vivax_Sal-1 | gene_product=endonuclease/exonuclease/phosphatase domain containing protein | transcript_product=endonuclease/exonuclease/phosphatase domain containing protein | location=Pv_Sal1_chr09:350102-352948(+) | protein_length=870 | sequence_SO=chromosome | SO=protein_coding_gene | is_pseudo=false
+PVX_091230.1-p1      -            870 7782at5820           -            305   2.5e-06   25.1   0.4   2   2     9e-10   2.5e-06   25.1   0.4   118   198   624   704   618   738 0.91 | transcript=PVX_091230.1 | gene=PVX_091230 | organism=Plasmodium_vivax_Sal-1 | gene_product=endonuclease/exonuclease/phosphatase domain containing protein | transcript_product=endonuclease/exonuclease/phosphatase domain containing protein | location=Pv_Sal1_chr09:350102-352948(+) | protein_length=870 | sequence_SO=chromosome | SO=protein_coding_gene | is_pseudo=false
+#
+# Program:         hmmsearch
+# Version:         3.4 (Aug 2023)
+# Pipeline mode:   SEARCH
+# Query file:      /v3/work/00_inventory/busco/busco_downloads/lineages/plasmodium_odb10/hmms/7782at5820.hmm
+# Target file:     /v3/inputs/annotations/plasmodb-68/Sal-I.proteins.fa
+# Option settings: hmmsearch --domtblout /v3/work/00_inventory/busco/Sal-I_proteins/run_plasmodium_odb10/hmmer_output/initial_run_results/7782at5820.out --cpu 1 /v3/work/00_inventory/busco/busco_downloads/lineages/plasmodium_odb10/hmms/7782at5820.hmm /v3/inputs/annotations/plasmodb-68/Sal-I.proteins.fa 
+# Current dir:     /v3/work/00_inventory/busco
+# Date:            Tue May 19 17:48:49 2026
+# [ok]

@@ -1,0 +1,22 @@
+#                                                                            --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name        accession   tlen query name           accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+#------------------- ---------- ----- -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+SCO67764.1           -            288 9899at5820           -            239    1e-139  462.2   2.9   1   1  1.3e-141  1.6e-138  458.3   2.9     1   239    26   283    26   283 0.96 GTP-binding protein, putative [Plasmodium vivax]
+SCO69028.1           -           1010 9899at5820           -            239   9.7e-26   89.1   0.3   1   1   1.8e-28   2.2e-25   87.9   0.3    54   191   154   293   137   331 0.88 GTP-binding protein, putative [Plasmodium vivax]
+SCO69855.1           -            289 9899at5820           -            239   3.9e-12   44.5   8.5   1   1   4.4e-15   5.3e-12   44.1   8.5     5   189    56   253    53   280 0.75 GTPase, putative [Plasmodium vivax]
+SCO69293.1           -            780 9899at5820           -            239   1.5e-05   23.0   0.0   1   4      0.93   1.1e+03   -2.8   0.5   161   197    24    62    19    79 0.72 large ribosomal subunit associated GTPase, putative [Plasmodium vivax]
+SCO69293.1           -            780 9899at5820           -            239   1.5e-05   23.0   0.0   2   4         2   2.4e+03   -3.9   0.0    18    33   112   127   104   130 0.85 large ribosomal subunit associated GTPase, putative [Plasmodium vivax]
+SCO69293.1           -            780 9899at5820           -            239   1.5e-05   23.0   0.0   3   4       2.1   2.6e+03   -4.0   0.1    11    27   393   409   389   419 0.62 large ribosomal subunit associated GTPase, putative [Plasmodium vivax]
+SCO69293.1           -            780 9899at5820           -            239   1.5e-05   23.0   0.0   4   4   1.3e-08   1.5e-05   23.0   0.0    55   145   536   631   510   642 0.75 large ribosomal subunit associated GTPase, putative [Plasmodium vivax]
+SCO69365.1           -            518 9899at5820           -            239   0.00054   17.9   0.2   1   2     0.056        68    1.2   0.2    30    85   259   316   248   323 0.77 nucleolar GTP-binding protein 2, putative [Plasmodium vivax]
+SCO69365.1           -            518 9899at5820           -            239   0.00054   17.9   0.2   2   2     6e-06    0.0073   14.2   0.0    57   111   322   375   316   390 0.86 nucleolar GTP-binding protein 2, putative [Plasmodium vivax]
+#
+# Program:         hmmsearch
+# Version:         3.4 (Aug 2023)
+# Pipeline mode:   SEARCH
+# Query file:      /v3/work/00_inventory/busco/busco_downloads/lineages/plasmodium_odb10/hmms/9899at5820.hmm
+# Target file:     /v3/inputs/annotations/ncbi-datasets/PvT01.proteins.fa
+# Option settings: hmmsearch --domtblout /v3/work/00_inventory/busco/PvT01_proteins/run_plasmodium_odb10/hmmer_output/initial_run_results/9899at5820.out --cpu 1 /v3/work/00_inventory/busco/busco_downloads/lineages/plasmodium_odb10/hmms/9899at5820.hmm /v3/inputs/annotations/ncbi-datasets/PvT01.proteins.fa 
+# Current dir:     /v3/work/00_inventory/busco
+# Date:            Tue May 19 19:16:05 2026
+# [ok]

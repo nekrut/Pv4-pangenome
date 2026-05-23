@@ -1,0 +1,21 @@
+#                                                                            --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name        accession   tlen query name           accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+#------------------- ---------- ----- -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+SCO66276.1           -            479 6562at5820           -            346  1.5e-193  641.3   9.5   1   1  6.6e-196  5.8e-193  639.3   9.5     6   346    67   438    63   438 0.95 aspartyl protease, putative [Plasmodium vivax]
+SCO67004.1           -            438 6562at5820           -            346   1.4e-37  128.4   0.0   1   1   2.7e-40   2.3e-37  127.7   0.0    14   345    95   435    89   436 0.83 aspartyl proteinase, putative [Plasmodium vivax]
+SCO68790.1           -            373 6562at5820           -            346   7.3e-32  109.6   2.1   1   1   1.1e-34   9.8e-32  109.2   2.1    25   344    50   372    44   373 0.79 aspartyl proteinase, putative [Plasmodium vivax]
+SCO69511.1           -            450 6562at5820           -            346   7.3e-27   93.1   6.8   1   1   1.7e-29   1.5e-26   92.1   6.8    24   345   138   449   126   450 0.81 plasmepsin IV, putative [Plasmodium vivax]
+SCO64974.1           -            545 6562at5820           -            346     7e-14   50.4   0.4   1   1   1.2e-16   1.1e-13   49.9   0.4    25   333   213   518   203   524 0.76 plasmepsin X, putative [Plasmodium vivax]
+SCO69304.1           -            723 6562at5820           -            346   1.5e-11   42.8   1.7   1   2   6.3e-13   5.5e-10   37.6   0.7    23   206   258   449   248   460 0.75 aspartyl protease, putative [Plasmodium vivax]
+SCO69304.1           -            723 6562at5820           -            346   1.5e-11   42.8   1.7   2   2     0.013        12    3.7   0.0   219   335   580   689   572   698 0.76 aspartyl protease, putative [Plasmodium vivax]
+SCO70100.1           -            552 6562at5820           -            346      0.03   12.2   0.0   1   1     8e-05     0.069   11.0   0.0   123   183   241   303   221   312 0.83 aspartyl protease, putative [Plasmodium vivax]
+#
+# Program:         hmmsearch
+# Version:         3.4 (Aug 2023)
+# Pipeline mode:   SEARCH
+# Query file:      /v3/work/00_inventory/busco/busco_downloads/lineages/plasmodium_odb10/hmms/6562at5820.hmm
+# Target file:     /v3/inputs/annotations/ncbi-datasets/PvT01.proteins.fa
+# Option settings: hmmsearch --domtblout /v3/work/00_inventory/busco/PvT01_proteins/run_plasmodium_odb10/hmmer_output/initial_run_results/6562at5820.out --cpu 1 /v3/work/00_inventory/busco/busco_downloads/lineages/plasmodium_odb10/hmms/6562at5820.hmm /v3/inputs/annotations/ncbi-datasets/PvT01.proteins.fa 
+# Current dir:     /v3/work/00_inventory/busco
+# Date:            Tue May 19 18:50:57 2026
+# [ok]

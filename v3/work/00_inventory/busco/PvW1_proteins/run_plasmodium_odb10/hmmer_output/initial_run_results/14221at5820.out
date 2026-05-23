@@ -1,0 +1,16 @@
+#                                                                            --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name        accession   tlen query name           accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+#------------------- ---------- ----- -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+CAG9474913.1         -            140 14221at5820          -             90   3.4e-58  192.0   4.5   1   1   1.6e-61   4.8e-58  191.6   4.5     1    90    51   140    51   140 0.99 | transcript=PVW1_100039800_t1 | gene=PVW1_100039800 | organism=Plasmodium_vivax_PvW1 | gene_product=SWIB/MDM2 domain-containing protein [Source:UniProtKB/TrEMBL;Acc:A0A1G4GYM4] | transcript_product=SWIB/MDM2 domain-containing protein [Source:UniProtKB/TrEMBL;Acc:A0A1G4GYM4] | location=CAJZCX010000005:1615279-1615701(+) | protein_length=140 | sequence_SO=supercontig | SO=protein_coding_gene | is_pseudo=false
+CAG9478062.1         -            820 14221at5820          -             90   0.00057   18.2   1.5   1   2      0.45   1.4e+03   -2.2   0.1    60    89   219   248   213   249 0.70 | transcript=PVW1_110043600_t1 | gene=PVW1_110043600 | organism=Plasmodium_vivax_PvW1 | gene_product=SWIB/MDM2 domain-containing protein [Source:UniProtKB/TrEMBL;Acc:A0A1G4HFN7] | transcript_product=SWIB/MDM2 domain-containing protein [Source:UniProtKB/TrEMBL;Acc:A0A1G4HFN7] | location=CAJZCX010000008:1640315-1642777(+) | protein_length=820 | sequence_SO=supercontig | SO=protein_coding_gene | is_pseudo=false
+CAG9478062.1         -            820 14221at5820          -             90   0.00057   18.2   1.5   2   2   3.9e-07    0.0012   17.2   0.1    16    86   267   335   261   338 0.86 | transcript=PVW1_110043600_t1 | gene=PVW1_110043600 | organism=Plasmodium_vivax_PvW1 | gene_product=SWIB/MDM2 domain-containing protein [Source:UniProtKB/TrEMBL;Acc:A0A1G4HFN7] | transcript_product=SWIB/MDM2 domain-containing protein [Source:UniProtKB/TrEMBL;Acc:A0A1G4HFN7] | location=CAJZCX010000008:1640315-1642777(+) | protein_length=820 | sequence_SO=supercontig | SO=protein_coding_gene | is_pseudo=false
+#
+# Program:         hmmsearch
+# Version:         3.4 (Aug 2023)
+# Pipeline mode:   SEARCH
+# Query file:      /v3/work/00_inventory/busco/busco_downloads/lineages/plasmodium_odb10/hmms/14221at5820.hmm
+# Target file:     /v3/inputs/annotations/plasmodb-68/PvW1.proteins.fa
+# Option settings: hmmsearch --domtblout /v3/work/00_inventory/busco/PvW1_proteins/run_plasmodium_odb10/hmmer_output/initial_run_results/14221at5820.out --cpu 1 /v3/work/00_inventory/busco/busco_downloads/lineages/plasmodium_odb10/hmms/14221at5820.hmm /v3/inputs/annotations/plasmodb-68/PvW1.proteins.fa 
+# Current dir:     /v3/work/00_inventory/busco
+# Date:            Tue May 19 17:32:49 2026
+# [ok]

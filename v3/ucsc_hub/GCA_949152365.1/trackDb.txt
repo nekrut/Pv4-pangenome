@@ -1,0 +1,115 @@
+track brc_pangenome_align
+compositeTrack on
+shortLabel Pangenome align
+longLabel  BRC pangenome alignments (multiz + pairwise chains)
+type bed
+group brc_pangenome
+visibility full
+
+    track PAM_multiz
+    parent brc_pangenome_align on
+    shortLabel PAM multiz
+    longLabel  PAM-hinge 8-way multiz
+    type bigMaf
+    bigDataUrl PAM.multiz.maf.bb
+    summary PAM.multiz.maf.bb.bai
+    visibility pack
+    speciesOrder PvP01 Sal-I PvW1 PAM PvSY56 PvT01 PvC01 MHC087
+
+    track chain_to_GCA_900093555.2
+    parent brc_pangenome_align off
+    shortLabel chain → PvP01
+    longLabel  Chain from PAM to PvP01
+    type chain GCA_900093555.2
+    bigDataUrl chains/GCA_949152365.1_to_GCA_900093555.2.chain.gz
+    visibility hide
+
+    track chain_to_GCA_000002415.2
+    parent brc_pangenome_align off
+    shortLabel chain → Sal-I
+    longLabel  Chain from PAM to Sal-I
+    type chain GCA_000002415.2
+    bigDataUrl chains/GCA_949152365.1_to_GCA_000002415.2.chain.gz
+    visibility hide
+
+    track chain_to_GCA_914969965.1
+    parent brc_pangenome_align off
+    shortLabel chain → PvW1
+    longLabel  Chain from PAM to PvW1
+    type chain GCA_914969965.1
+    bigDataUrl chains/GCA_949152365.1_to_GCA_914969965.1.chain.gz
+    visibility hide
+
+    track chain_to_GCA_003402215.1
+    parent brc_pangenome_align off
+    shortLabel chain → PvSY56
+    longLabel  Chain from PAM to PvSY56
+    type chain GCA_003402215.1
+    bigDataUrl chains/GCA_949152365.1_to_GCA_003402215.1.chain.gz
+    visibility hide
+
+    track chain_to_GCA_900093545.1
+    parent brc_pangenome_align off
+    shortLabel chain → PvT01
+    longLabel  Chain from PAM to PvT01
+    type chain GCA_900093545.1
+    bigDataUrl chains/GCA_949152365.1_to_GCA_900093545.1.chain.gz
+    visibility hide
+
+    track chain_to_GCA_900093535.1
+    parent brc_pangenome_align off
+    shortLabel chain → PvC01
+    longLabel  Chain from PAM to PvC01
+    type chain GCA_900093535.1
+    bigDataUrl chains/GCA_949152365.1_to_GCA_900093535.1.chain.gz
+    visibility hide
+
+    track chain_to_GCA_040114635.1
+    parent brc_pangenome_align off
+    shortLabel chain → MHC087
+    longLabel  Chain from PAM to MHC087
+    type chain GCA_040114635.1
+    bigDataUrl chains/GCA_949152365.1_to_GCA_040114635.1.chain.gz
+    visibility hide
+
+
+track brc_pangenome_annot
+compositeTrack on
+shortLabel Pangenome annot
+longLabel  BRC pangenome annotations (Liftoff+TOGA2 projections from anchor strains)
+type bigBed 12
+group brc_pangenome
+visibility pack
+
+    track annot_from_PvP01
+    parent brc_pangenome_annot off
+    shortLabel annot from PvP01
+    longLabel  Genes projected from PvP01 via Liftoff+TOGA2
+    type bigBed 12
+    bigDataUrl annot_from_PvP01.bb
+    visibility dense
+
+    track annot_from_PvW1
+    parent brc_pangenome_annot off
+    shortLabel annot from PvW1
+    longLabel  Genes projected from PvW1 via Liftoff+TOGA2
+    type bigBed 12
+    bigDataUrl annot_from_PvW1.bb
+    visibility dense
+
+    track annot_from_PAM
+    parent brc_pangenome_annot off
+    shortLabel annot from PAM
+    longLabel  Genes projected from PAM via Liftoff+TOGA2
+    type bigBed 12
+    bigDataUrl annot_from_PAM.bb
+    visibility dense
+
+    track annot_from_PvSY56
+    parent brc_pangenome_annot off
+    shortLabel annot from PvSY56
+    longLabel  Genes projected from PvSY56 via Liftoff+TOGA2
+    type bigBed 12
+    bigDataUrl annot_from_PvSY56.bb
+    visibility dense
+

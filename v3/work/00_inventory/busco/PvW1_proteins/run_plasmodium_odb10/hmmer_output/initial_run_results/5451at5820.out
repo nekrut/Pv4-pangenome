@@ -1,0 +1,16 @@
+#                                                                            --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name        accession   tlen query name           accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+#------------------- ---------- ----- -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+CAG9476617.1         -            631 5451at5820           -            515  9.9e-293  970.1  38.3   1   2  3.8e-257  1.1e-253  841.2  32.2     1   437     1   445     1   450 0.98 | transcript=PVW1_090013100_t1 | gene=PVW1_090013100 | organism=Plasmodium_vivax_PvW1 | gene_product=Intu_longin_1 domain-containing protein [Source:UniProtKB/TrEMBL;Acc:A0A1G4GX49] | transcript_product=Intu_longin_1 domain-containing protein [Source:UniProtKB/TrEMBL;Acc:A0A1G4GX49] | location=CAJZCX010000007:426922-430276(+) | protein_length=631 | sequence_SO=supercontig | SO=protein_coding_gene | is_pseudo=false
+CAG9476617.1         -            631 5451at5820           -            515  9.9e-293  970.1  38.3   2   2   1.9e-42   5.7e-39  132.8   0.3   432   515   547   631   516   631 0.91 | transcript=PVW1_090013100_t1 | gene=PVW1_090013100 | organism=Plasmodium_vivax_PvW1 | gene_product=Intu_longin_1 domain-containing protein [Source:UniProtKB/TrEMBL;Acc:A0A1G4GX49] | transcript_product=Intu_longin_1 domain-containing protein [Source:UniProtKB/TrEMBL;Acc:A0A1G4GX49] | location=CAJZCX010000007:426922-430276(+) | protein_length=631 | sequence_SO=supercontig | SO=protein_coding_gene | is_pseudo=false
+CAG9473677.1         -            121 5451at5820           -            515    0.0016   15.9   0.7   1   1     6e-07    0.0018   15.7   0.7   434   507     3    78     1    87 0.81 | transcript=PVW1_120059600_t1 | gene=PVW1_120059600 | organism=Plasmodium_vivax_PvW1 | gene_product=Thioredoxin domain-containing protein [Source:UniProtKB/TrEMBL;Acc:A0A1G4H1U7] | transcript_product=Thioredoxin domain-containing protein [Source:UniProtKB/TrEMBL;Acc:A0A1G4H1U7] | location=CAJZCX010000004:2319767-2320132(+) | protein_length=121 | sequence_SO=supercontig | SO=protein_coding_gene | is_pseudo=false
+#
+# Program:         hmmsearch
+# Version:         3.4 (Aug 2023)
+# Pipeline mode:   SEARCH
+# Query file:      /v3/work/00_inventory/busco/busco_downloads/lineages/plasmodium_odb10/hmms/5451at5820.hmm
+# Target file:     /v3/inputs/annotations/plasmodb-68/PvW1.proteins.fa
+# Option settings: hmmsearch --domtblout /v3/work/00_inventory/busco/PvW1_proteins/run_plasmodium_odb10/hmmer_output/initial_run_results/5451at5820.out --cpu 1 /v3/work/00_inventory/busco/busco_downloads/lineages/plasmodium_odb10/hmms/5451at5820.hmm /v3/inputs/annotations/plasmodb-68/PvW1.proteins.fa 
+# Current dir:     /v3/work/00_inventory/busco
+# Date:            Tue May 19 17:41:48 2026
+# [ok]

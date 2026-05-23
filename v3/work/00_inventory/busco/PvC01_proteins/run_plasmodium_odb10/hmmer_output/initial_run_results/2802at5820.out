@@ -1,0 +1,23 @@
+#                                                                            --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name        accession   tlen query name           accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+#------------------- ---------- ----- -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+SCO74143.1           -           1066 2802at5820           -            850         0 1335.5  25.1   1   2  8.5e-250  1.8e-246  819.0  14.9     1   505     5   570     5   578 0.91 DEAD box helicase, putative [Plasmodium vivax]
+SCO74143.1           -           1066 2802at5820           -            850         0 1335.5  25.1   2   2  7.1e-159  1.5e-155  518.3   2.5   517   838   653  1025   635  1031 0.87 DEAD box helicase, putative [Plasmodium vivax]
+SCO74982.1           -           1103 2802at5820           -            850   6.8e-46  155.5  63.4   1   4    0.0025       5.2    3.7   0.1    25    90     9    78     5    82 0.64 DNA repair helicase, putative [Plasmodium vivax]
+SCO74982.1           -           1103 2802at5820           -            850   6.8e-46  155.5  63.4   2   4   9.5e-09     2e-05   21.6   4.9   147   258    82   202    77   210 0.64 DNA repair helicase, putative [Plasmodium vivax]
+SCO74982.1           -           1103 2802at5820           -            850   6.8e-46  155.5  63.4   3   4   1.4e-13     3e-10   37.6   1.9   298   379   212   297   201   321 0.81 DNA repair helicase, putative [Plasmodium vivax]
+SCO74982.1           -           1103 2802at5820           -            850   6.8e-46  155.5  63.4   4   4     5e-34   1.1e-30  105.2  37.6   419   840   391   814   357   823 0.76 DNA repair helicase, putative [Plasmodium vivax]
+SCO72101.1           -           1026 2802at5820           -            850   1.8e-18   64.7  35.5   1   4     0.027        56    0.3   0.0    62    86    34    58    15    73 0.78 TFIIH basal transcription factor complex helicase XPD subunit, putative [Plasmodium vivax]
+SCO72101.1           -           1026 2802at5820           -            850   1.8e-18   64.7  35.5   2   4      0.18   3.8e+02   -2.5   0.0   183   206    69    91    59    99 0.80 TFIIH basal transcription factor complex helicase XPD subunit, putative [Plasmodium vivax]
+SCO72101.1           -           1026 2802at5820           -            850   1.8e-18   64.7  35.5   3   4   2.6e-06    0.0054   13.6  17.6   217   379   155   360   140   390 0.62 TFIIH basal transcription factor complex helicase XPD subunit, putative [Plasmodium vivax]
+SCO72101.1           -           1026 2802at5820           -            850   1.8e-18   64.7  35.5   4   4   1.4e-18     3e-15   54.1   6.5   535   816   705   967   697   994 0.84 TFIIH basal transcription factor complex helicase XPD subunit, putative [Plasmodium vivax]
+#
+# Program:         hmmsearch
+# Version:         3.4 (Aug 2023)
+# Pipeline mode:   SEARCH
+# Query file:      /v3/work/00_inventory/busco/busco_downloads/lineages/plasmodium_odb10/hmms/2802at5820.hmm
+# Target file:     /v3/inputs/annotations/ncbi-datasets/PvC01.proteins.fa
+# Option settings: hmmsearch --domtblout /v3/work/00_inventory/busco/PvC01_proteins/run_plasmodium_odb10/hmmer_output/initial_run_results/2802at5820.out --cpu 1 /v3/work/00_inventory/busco/busco_downloads/lineages/plasmodium_odb10/hmms/2802at5820.hmm /v3/inputs/annotations/ncbi-datasets/PvC01.proteins.fa 
+# Current dir:     /v3/work/00_inventory/busco
+# Date:            Tue May 19 18:45:10 2026
+# [ok]

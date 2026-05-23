@@ -1,0 +1,27 @@
+#                                                                            --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name        accession   tlen query name           accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+#------------------- ---------- ----- -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+SCO72832.1           -           1574 813at5820            -           1226         0 2357.7  76.0   1   4         0         0 1238.6  48.5     1   700    59   853    59   866 0.92 DNA-directed RNA polymerase I subunit RPA2, putative [Plasmodium vivax]
+SCO72832.1           -           1574 813at5820            -           1226         0 2357.7  76.0   2   4  3.4e-105  7.2e-102  340.2   0.9   710   871   967  1134   962  1145 0.96 DNA-directed RNA polymerase I subunit RPA2, putative [Plasmodium vivax]
+SCO72832.1           -           1574 813at5820            -           1226         0 2357.7  76.0   3   4  3.8e-103  7.9e-100  333.5   0.1   868  1029  1164  1332  1154  1338 0.94 DNA-directed RNA polymerase I subunit RPA2, putative [Plasmodium vivax]
+SCO72832.1           -           1574 813at5820            -           1226         0 2357.7  76.0   4   4  1.8e-139  3.9e-136  453.8   7.5  1029  1226  1377  1574  1368  1574 0.99 DNA-directed RNA polymerase I subunit RPA2, putative [Plasmodium vivax]
+SCO74642.1           -           1427 813at5820            -           1226  4.5e-109  364.1  30.2   1   5     5e-12     1e-08   31.6  13.3    42   209   229   397   206   612 0.81 DNA-directed RNA polymerase III subunit RPC2, putative [Plasmodium vivax]
+SCO74642.1           -           1427 813at5820            -           1226  4.5e-109  364.1  30.2   2   5   1.2e-12   2.6e-09   33.7   0.0   476   640   663   819   638   829 0.70 DNA-directed RNA polymerase III subunit RPC2, putative [Plasmodium vivax]
+SCO74642.1           -           1427 813at5820            -           1226  4.5e-109  364.1  30.2   3   5   1.5e-33   3.2e-30  102.9   0.1   713   864   855  1009   838  1014 0.91 DNA-directed RNA polymerase III subunit RPC2, putative [Plasmodium vivax]
+SCO74642.1           -           1427 813at5820            -           1226  4.5e-109  364.1  30.2   4   5   5.4e-31   1.1e-27   94.5   0.0   920  1005  1175  1265  1123  1269 0.81 DNA-directed RNA polymerase III subunit RPC2, putative [Plasmodium vivax]
+SCO74642.1           -           1427 813at5820            -           1226  4.5e-109  364.1  30.2   5   5   3.5e-35   7.2e-32  108.4   1.6  1040  1154  1268  1382  1261  1425 0.96 DNA-directed RNA polymerase III subunit RPC2, putative [Plasmodium vivax]
+SCO71033.1           -           1346 813at5820            -           1226  1.3e-106  356.0  19.7   1   5   3.4e-09   7.1e-06   22.3   0.0    44   184    48   211    37   228 0.78 DNA-directed RNA polymerase II subunit RPB2, putative [Plasmodium vivax]
+SCO71033.1           -           1346 813at5820            -           1226  1.3e-106  356.0  19.7   2   5   3.7e-09   7.7e-06   22.1   0.0   472   540   488   558   456   571 0.72 DNA-directed RNA polymerase II subunit RPB2, putative [Plasmodium vivax]
+SCO71033.1           -           1346 813at5820            -           1226  1.3e-106  356.0  19.7   3   5   3.1e-34   6.5e-31  105.2   1.1   690   852   675   835   619   843 0.83 DNA-directed RNA polymerase II subunit RPB2, putative [Plasmodium vivax]
+SCO71033.1           -           1346 813at5820            -           1226  1.3e-106  356.0  19.7   4   5   7.2e-35   1.5e-31  107.3   0.1   918  1012  1086  1180  1071  1184 0.96 DNA-directed RNA polymerase II subunit RPB2, putative [Plasmodium vivax]
+SCO71033.1           -           1346 813at5820            -           1226  1.3e-106  356.0  19.7   5   5   5.6e-35   1.2e-31  107.7   2.6  1044  1214  1185  1341  1178  1346 0.87 DNA-directed RNA polymerase II subunit RPB2, putative [Plasmodium vivax]
+#
+# Program:         hmmsearch
+# Version:         3.4 (Aug 2023)
+# Pipeline mode:   SEARCH
+# Query file:      /v3/work/00_inventory/busco/busco_downloads/lineages/plasmodium_odb10/hmms/813at5820.hmm
+# Target file:     /v3/inputs/annotations/ncbi-datasets/PvC01.proteins.fa
+# Option settings: hmmsearch --domtblout /v3/work/00_inventory/busco/PvC01_proteins/run_plasmodium_odb10/hmmer_output/initial_run_results/813at5820.out --cpu 1 /v3/work/00_inventory/busco/busco_downloads/lineages/plasmodium_odb10/hmms/813at5820.hmm /v3/inputs/annotations/ncbi-datasets/PvC01.proteins.fa 
+# Current dir:     /v3/work/00_inventory/busco
+# Date:            Tue May 19 19:06:32 2026
+# [ok]

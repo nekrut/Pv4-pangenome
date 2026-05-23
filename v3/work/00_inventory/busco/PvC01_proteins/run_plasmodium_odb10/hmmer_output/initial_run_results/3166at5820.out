@@ -1,0 +1,18 @@
+#                                                                            --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name        accession   tlen query name           accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+#------------------- ---------- ----- -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+SCO72284.1           -           1064 3166at5820           -            656         0 1135.8  84.6   1   5   8.4e-59   5.3e-55  185.5  10.2     1   102     1   102     1   113 0.98 translation initiation factor eIF-2B subunit delta, putative [Plasmodium vivax]
+SCO72284.1           -           1064 3166at5820           -            656         0 1135.8  84.6   2   5   6.5e-08   0.00041   17.3   0.0   100   130   165   195   153   206 0.82 translation initiation factor eIF-2B subunit delta, putative [Plasmodium vivax]
+SCO72284.1           -           1064 3166at5820           -            656         0 1135.8  84.6   3   5  1.2e-210  7.4e-207  687.2  41.1   128   466   296   637   271   653 0.94 translation initiation factor eIF-2B subunit delta, putative [Plasmodium vivax]
+SCO72284.1           -           1064 3166at5820           -            656         0 1135.8  84.6   4   5   6.7e-14   4.2e-10   37.1   0.0   462   499   672   709   665   722 0.92 translation initiation factor eIF-2B subunit delta, putative [Plasmodium vivax]
+SCO72284.1           -           1064 3166at5820           -            656         0 1135.8  84.6   5   5   8.6e-69   5.4e-65  218.5  16.5   500   656   899  1064   878  1064 0.86 translation initiation factor eIF-2B subunit delta, putative [Plasmodium vivax]
+#
+# Program:         hmmsearch
+# Version:         3.4 (Aug 2023)
+# Pipeline mode:   SEARCH
+# Query file:      /v3/work/00_inventory/busco/busco_downloads/lineages/plasmodium_odb10/hmms/3166at5820.hmm
+# Target file:     /v3/inputs/annotations/ncbi-datasets/PvC01.proteins.fa
+# Option settings: hmmsearch --domtblout /v3/work/00_inventory/busco/PvC01_proteins/run_plasmodium_odb10/hmmer_output/initial_run_results/3166at5820.out --cpu 1 /v3/work/00_inventory/busco/busco_downloads/lineages/plasmodium_odb10/hmms/3166at5820.hmm /v3/inputs/annotations/ncbi-datasets/PvC01.proteins.fa 
+# Current dir:     /v3/work/00_inventory/busco
+# Date:            Tue May 19 18:37:46 2026
+# [ok]

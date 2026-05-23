@@ -1,0 +1,16 @@
+#                                                                            --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name        accession   tlen query name           accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+#------------------- ---------- ----- -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+CAG9472507.1         -            228 12996at5820          -            190  1.1e-110  366.2  44.7   1   2  1.3e-110  3.9e-107  354.6  38.0     1   179     1   180     1   190 0.97 | transcript=PVW1_140067100_t1 | gene=PVW1_140067100 | organism=Plasmodium_vivax_PvW1 | gene_product=Vacuolar-sorting protein SNF7, putative [Source:UniProtKB/TrEMBL;Acc:A0A1G4HL73] | transcript_product=Vacuolar-sorting protein SNF7, putative [Source:UniProtKB/TrEMBL;Acc:A0A1G4HL73] | location=CAJZCX010000003:2681505-2683144(-) | protein_length=228 | sequence_SO=supercontig | SO=protein_coding_gene | is_pseudo=false
+CAG9472507.1         -            228 12996at5820          -            190  1.1e-110  366.2  44.7   2   2   7.9e-07    0.0024   16.1   0.5   174   190   212   228   199   228 0.85 | transcript=PVW1_140067100_t1 | gene=PVW1_140067100 | organism=Plasmodium_vivax_PvW1 | gene_product=Vacuolar-sorting protein SNF7, putative [Source:UniProtKB/TrEMBL;Acc:A0A1G4HL73] | transcript_product=Vacuolar-sorting protein SNF7, putative [Source:UniProtKB/TrEMBL;Acc:A0A1G4HL73] | location=CAJZCX010000003:2681505-2683144(-) | protein_length=228 | sequence_SO=supercontig | SO=protein_coding_gene | is_pseudo=false
+CAG9473990.1         -            231 12996at5820          -            190   5.5e-07   28.0  28.1   1   1   2.5e-10   7.5e-07   27.5  28.1    21   182    12   180     1   199 0.74 | transcript=PVW1_120080100_t1 | gene=PVW1_120080100 | organism=Plasmodium_vivax_PvW1 | gene_product=Vacuolar protein sorting-associated protein 60, putative [Source:UniProtKB/TrEMBL;Acc:A0A565A247] | transcript_product=Vacuolar protein sorting-associated protein 60, putative [Source:UniProtKB/TrEMBL;Acc:A0A565A247] | location=CAJZCX010000004:3174913-3176012(+) | protein_length=231 | sequence_SO=supercontig | SO=protein_coding_gene | is_pseudo=false
+#
+# Program:         hmmsearch
+# Version:         3.4 (Aug 2023)
+# Pipeline mode:   SEARCH
+# Query file:      /v3/work/00_inventory/busco/busco_downloads/lineages/plasmodium_odb10/hmms/12996at5820.hmm
+# Target file:     /v3/inputs/annotations/plasmodb-68/PvW1.proteins.fa
+# Option settings: hmmsearch --domtblout /v3/work/00_inventory/busco/PvW1_proteins/run_plasmodium_odb10/hmmer_output/initial_run_results/12996at5820.out --cpu 1 /v3/work/00_inventory/busco/busco_downloads/lineages/plasmodium_odb10/hmms/12996at5820.hmm /v3/inputs/annotations/plasmodb-68/PvW1.proteins.fa 
+# Current dir:     /v3/work/00_inventory/busco
+# Date:            Tue May 19 17:28:26 2026
+# [ok]

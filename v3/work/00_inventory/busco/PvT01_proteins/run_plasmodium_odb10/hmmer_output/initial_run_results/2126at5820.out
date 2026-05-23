@@ -1,0 +1,20 @@
+#                                                                            --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name        accession   tlen query name           accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+#------------------- ---------- ----- -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+SCO65841.1           -            991 2126at5820           -            781  2.5e-232  772.0  63.5   1   4   2.7e-35   5.5e-32  109.5  11.3   235   302    55   122    49   135 0.93 serine/threonine protein kinase VPS15, putative [Plasmodium vivax]
+SCO65841.1           -            991 2126at5820           -            781  2.5e-232  772.0  63.5   2   4     2e-64     4e-61  205.9  10.8   313   417   331   435   323   438 0.97 serine/threonine protein kinase VPS15, putative [Plasmodium vivax]
+SCO65841.1           -            991 2126at5820           -            781  2.5e-232  772.0  63.5   3   4   1.6e-43   3.3e-40  136.7   0.0   415   528   487   618   477   622 0.88 serine/threonine protein kinase VPS15, putative [Plasmodium vivax]
+SCO65841.1           -            991 2126at5820           -            781  2.5e-232  772.0  63.5   4   4  6.4e-100   1.3e-96  323.2  26.5   526   771   641   926   635   933 0.89 serine/threonine protein kinase VPS15, putative [Plasmodium vivax]
+SCO65383.1           -            310 2126at5820           -            781   8.6e-05   19.6   2.3   1   2   4.2e-08   8.6e-05   19.6   2.3    60   179    24   150    13   197 0.83 serine/threonine-protein kinase NEK4, putative [Plasmodium vivax]
+SCO65383.1           -            310 2126at5820           -            781   8.6e-05   19.6   2.3   2   2      0.14   2.8e+02   -2.0   0.0    19    29   228   238   220   284 0.57 serine/threonine-protein kinase NEK4, putative [Plasmodium vivax]
+SCO69291.1           -            718 2126at5820           -            781    0.0077   13.1   2.9   1   1   6.1e-06     0.012   12.4   2.9    69   177    51   162    36   168 0.76 mitogen-activated protein kinase 1, putative [Plasmodium vivax]
+#
+# Program:         hmmsearch
+# Version:         3.4 (Aug 2023)
+# Pipeline mode:   SEARCH
+# Query file:      /v3/work/00_inventory/busco/busco_downloads/lineages/plasmodium_odb10/hmms/2126at5820.hmm
+# Target file:     /v3/inputs/annotations/ncbi-datasets/PvT01.proteins.fa
+# Option settings: hmmsearch --domtblout /v3/work/00_inventory/busco/PvT01_proteins/run_plasmodium_odb10/hmmer_output/initial_run_results/2126at5820.out --cpu 1 /v3/work/00_inventory/busco/busco_downloads/lineages/plasmodium_odb10/hmms/2126at5820.hmm /v3/inputs/annotations/ncbi-datasets/PvT01.proteins.fa 
+# Current dir:     /v3/work/00_inventory/busco
+# Date:            Tue May 19 18:37:58 2026
+# [ok]

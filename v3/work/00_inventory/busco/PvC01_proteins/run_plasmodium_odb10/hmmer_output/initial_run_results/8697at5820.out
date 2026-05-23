@@ -1,0 +1,19 @@
+#                                                                            --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name        accession   tlen query name           accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+#------------------- ---------- ----- -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+SCO74964.1           -            314 8697at5820           -            271  4.3e-148  490.7  24.2   1   2   3.2e-09   6.6e-06   24.4   0.1     1    24     9    32     9    37 0.93 alpha/beta hydrolase, putative [Plasmodium vivax]
+SCO74964.1           -            314 8697at5820           -            271  4.3e-148  490.7  24.2   2   2  2.1e-144  4.3e-141  467.7  21.1    17   271    47   314    34   314 0.96 alpha/beta hydrolase, putative [Plasmodium vivax]
+SCO71237.1           -            705 8697at5820           -            271   1.4e-20   72.5  14.2   1   2   1.7e-19   3.6e-16   58.1   5.3    20   131   354   473   338   501 0.81 alpha/beta hydrolase, putative [Plasmodium vivax]
+SCO71237.1           -            705 8697at5820           -            271   1.4e-20   72.5  14.2   2   2     1e-07   0.00022   19.4   1.5   207   270   614   673   576   674 0.80 alpha/beta hydrolase, putative [Plasmodium vivax]
+SCO70557.1           -            361 8697at5820           -            271     0.065   11.3   3.2   1   2     0.016        34    2.4   0.1    53    92   104   144    63   154 0.82 Alpha/beta hydrolase family/Serine aminopeptidase, S33/Uncharacterised conserved protein (DUF2305), putative [Plasmodium vivax]
+SCO70557.1           -            361 8697at5820           -            271     0.065   11.3   3.2   2   2   0.00013      0.28    9.3   0.4   206   266   292   351   164   355 0.68 Alpha/beta hydrolase family/Serine aminopeptidase, S33/Uncharacterised conserved protein (DUF2305), putative [Plasmodium vivax]
+#
+# Program:         hmmsearch
+# Version:         3.4 (Aug 2023)
+# Pipeline mode:   SEARCH
+# Query file:      /v3/work/00_inventory/busco/busco_downloads/lineages/plasmodium_odb10/hmms/8697at5820.hmm
+# Target file:     /v3/inputs/annotations/ncbi-datasets/PvC01.proteins.fa
+# Option settings: hmmsearch --domtblout /v3/work/00_inventory/busco/PvC01_proteins/run_plasmodium_odb10/hmmer_output/initial_run_results/8697at5820.out --cpu 1 /v3/work/00_inventory/busco/busco_downloads/lineages/plasmodium_odb10/hmms/8697at5820.hmm /v3/inputs/annotations/ncbi-datasets/PvC01.proteins.fa 
+# Current dir:     /v3/work/00_inventory/busco
+# Date:            Tue May 19 19:06:56 2026
+# [ok]

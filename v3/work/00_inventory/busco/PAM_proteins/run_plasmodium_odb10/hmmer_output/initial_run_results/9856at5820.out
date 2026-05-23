@@ -1,0 +1,16 @@
+#                                                                            --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name        accession   tlen query name           accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+#------------------- ---------- ----- -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+CAI7720344.1         -            261 9856at5820           -            219  2.5e-132  437.9  12.3   1   2     6e-79   1.9e-75  251.9   2.2     1   112     2   113     2   130 0.96 | transcript=PVPAM_090010900_t1 | gene=PVPAM_090010900 | organism=Plasmodium_vivax_PAM | gene_product=40S ribosomal protein S4, putative | transcript_product=40S ribosomal protein S4, putative | location=CASCJQ010000009:360758-362190(-) | protein_length=261 | sequence_SO=supercontig | SO=protein_coding_gene | is_pseudo=false
+CAI7720344.1         -            261 9856at5820           -            219  2.5e-132  437.9  12.3   2   2   9.3e-59     3e-55  185.9   4.6   117   219   157   261   118   261 0.90 | transcript=PVPAM_090010900_t1 | gene=PVPAM_090010900 | organism=Plasmodium_vivax_PAM | gene_product=40S ribosomal protein S4, putative | transcript_product=40S ribosomal protein S4, putative | location=CASCJQ010000009:360758-362190(-) | protein_length=261 | sequence_SO=supercontig | SO=protein_coding_gene | is_pseudo=false
+CAI7721668.1         -            361 9856at5820           -            219      0.02   13.2   0.7   1   1   9.5e-06     0.031   12.6   0.7    46   100    86   138    76   178 0.85 | transcript=PVPAM_110057100_t1 | gene=PVPAM_110057100 | organism=Plasmodium_vivax_PAM | gene_product=PIR protein | transcript_product=PIR protein | location=CASCJQ010000011:2209652-2210983(-) | protein_length=361 | sequence_SO=supercontig | SO=protein_coding_gene | is_pseudo=false
+#
+# Program:         hmmsearch
+# Version:         3.4 (Aug 2023)
+# Pipeline mode:   SEARCH
+# Query file:      /v3/work/00_inventory/busco/busco_downloads/lineages/plasmodium_odb10/hmms/9856at5820.hmm
+# Target file:     /v3/inputs/annotations/plasmodb-68/PAM.proteins.fa
+# Option settings: hmmsearch --domtblout /v3/work/00_inventory/busco/PAM_proteins/run_plasmodium_odb10/hmmer_output/initial_run_results/9856at5820.out --cpu 1 /v3/work/00_inventory/busco/busco_downloads/lineages/plasmodium_odb10/hmms/9856at5820.hmm /v3/inputs/annotations/plasmodb-68/PAM.proteins.fa 
+# Current dir:     /v3/work/00_inventory/busco
+# Date:            Tue May 19 17:52:56 2026
+# [ok]

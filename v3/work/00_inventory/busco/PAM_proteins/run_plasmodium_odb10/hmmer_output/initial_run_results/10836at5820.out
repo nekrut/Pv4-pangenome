@@ -1,0 +1,16 @@
+#                                                                            --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name        accession   tlen query name           accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+#------------------- ---------- ----- -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+CAI7721349.1         -            345 10836at5820          -            288  1.9e-131  436.5  43.9   1   1  1.7e-133  3.6e-130  432.4  43.9     7   288    16   331    11   331 0.90 | transcript=PVPAM_110025200_t1 | gene=PVPAM_110025200 | organism=Plasmodium_vivax_PAM | gene_product=protease, putative | transcript_product=protease, putative | location=CASCJQ010000011:855386-857769(-) | protein_length=345 | sequence_SO=supercontig | SO=protein_coding_gene | is_pseudo=false
+CAI7722332.1         -            211 10836at5820          -            288     0.014   13.7   0.1   1   1   1.1e-05     0.024   12.8   0.1   144   201    65   123    62   135 0.86 | transcript=PVPAM_120056900_t2 | gene=PVPAM_120056900 | organism=Plasmodium_vivax_PAM | gene_product=ubiE/COQ5 methyltransferase family/Tellurite resistance protein TehB/Methyltransferase small domain/Methyltransferase domain containing protein, putative | transcript_product=methyltransferase AAMT, putative | location=CASCJQ010000012:2106753-2108251(-) | protein_length=211 | sequence_SO=supercontig | SO=protein_coding_gene | is_pseudo=false
+CAI7722333.1         -            284 10836at5820          -            288     0.024   12.9   0.1   1   1   1.9e-05     0.041   12.1   0.1   144   201   138   196   135   207 0.86 | transcript=PVPAM_120056900_t1 | gene=PVPAM_120056900 | organism=Plasmodium_vivax_PAM | gene_product=ubiE/COQ5 methyltransferase family/Tellurite resistance protein TehB/Methyltransferase small domain/Methyltransferase domain containing protein, putative | transcript_product=ubiE/COQ5 methyltransferase family/Tellurite resistance protein TehB/Methyltransferase small domain/Methyltransferase domain containing protein, putative | location=CASCJQ010000012:2106753-2109665(-) | protein_length=284 | sequence_SO=supercontig | SO=protein_coding_gene | is_pseudo=false
+#
+# Program:         hmmsearch
+# Version:         3.4 (Aug 2023)
+# Pipeline mode:   SEARCH
+# Query file:      /v3/work/00_inventory/busco/busco_downloads/lineages/plasmodium_odb10/hmms/10836at5820.hmm
+# Target file:     /v3/inputs/annotations/plasmodb-68/PAM.proteins.fa
+# Option settings: hmmsearch --domtblout /v3/work/00_inventory/busco/PAM_proteins/run_plasmodium_odb10/hmmer_output/initial_run_results/10836at5820.out --cpu 1 /v3/work/00_inventory/busco/busco_downloads/lineages/plasmodium_odb10/hmms/10836at5820.hmm /v3/inputs/annotations/plasmodb-68/PAM.proteins.fa 
+# Current dir:     /v3/work/00_inventory/busco
+# Date:            Tue May 19 17:27:25 2026
+# [ok]

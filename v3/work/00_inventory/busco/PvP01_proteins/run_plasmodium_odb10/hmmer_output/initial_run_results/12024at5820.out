@@ -1,0 +1,16 @@
+#                                                                            --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name        accession   tlen query name           accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+#------------------- ---------- ----- -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+PVP01_0112100.1-p1   -            240 12024at5820          -            195    7e-103  340.7   4.3   1   1  4.9e-106  1.1e-102  340.1   4.3     1   195     3   238     3   238 0.92 | transcript=PVP01_0112100.1 | gene=PVP01_0112100 | organism=Plasmodium_vivax_P01 | gene_product=ubiquitin regulatory protein, putative | transcript_product=ubiquitin regulatory protein, putative | location=PvP01_01_v2:553010-554065(-) | protein_length=240 | sequence_SO=chromosome | SO=protein_coding_gene | is_pseudo=false
+PVP01_0733400.1-p1   -            455 12024at5820          -            195   1.2e-05   23.4   1.1   1   1   1.1e-08   2.4e-05   22.5   1.1    65   164   285   382   260   388 0.81 | transcript=PVP01_0733400.1 | gene=PVP01_0733400 | organism=Plasmodium_vivax_P01 | gene_product=UBX domain-containing protein, putative | transcript_product=UBX domain-containing protein, putative | location=PvP01_07_v2:1372584-1374229(+) | protein_length=455 | sequence_SO=chromosome | SO=protein_coding_gene | is_pseudo=false
+PVP01_0929700.1-p1   -            321 12024at5820          -            195     0.016   13.2   1.1   1   1   1.4e-05     0.031   12.3   1.1    46    98   132   181   127   192 0.89 | transcript=PVP01_0929700.1 | gene=PVP01_0929700 | organism=Plasmodium_vivax_P01 | gene_product=spermidine synthase, putative | transcript_product=spermidine synthase, putative | location=PvP01_09_v2:1293398-1294830(+) | protein_length=321 | sequence_SO=chromosome | SO=protein_coding_gene | is_pseudo=false
+#
+# Program:         hmmsearch
+# Version:         3.4 (Aug 2023)
+# Pipeline mode:   SEARCH
+# Query file:      /v3/work/00_inventory/busco/busco_downloads/lineages/plasmodium_odb10/hmms/12024at5820.hmm
+# Target file:     /v3/inputs/annotations/plasmodb-68/PvP01.proteins.fa
+# Option settings: hmmsearch --domtblout /v3/work/00_inventory/busco/PvP01_proteins/run_plasmodium_odb10/hmmer_output/initial_run_results/12024at5820.out --cpu 1 /v3/work/00_inventory/busco/busco_downloads/lineages/plasmodium_odb10/hmms/12024at5820.hmm /v3/inputs/annotations/plasmodb-68/PvP01.proteins.fa 
+# Current dir:     /v3/work/00_inventory/busco
+# Date:            Tue May 19 17:25:21 2026
+# [ok]

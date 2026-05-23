@@ -1,0 +1,16 @@
+#                                                                            --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name        accession   tlen query name           accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+#------------------- ---------- ----- -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+PVP01_0925100.1-p1   -            582 5631at5820           -            439    2e-247  819.5   6.5   1   2  1.4e-107  4.4e-104  347.1   1.0    26   187   128   289   112   297 0.95 | transcript=PVP01_0925100.1 | gene=PVP01_0925100 | organism=Plasmodium_vivax_P01 | gene_product=pyruvate dehydrogenase E1 component subunit alpha, putative | transcript_product=pyruvate dehydrogenase E1 component subunit alpha, putative | location=PvP01_09_v2:1118915-1120663(+) | protein_length=582 | sequence_SO=chromosome | SO=protein_coding_gene | is_pseudo=false
+PVP01_0925100.1-p1   -            582 5631at5820           -            439    2e-247  819.5   6.5   2   2    2e-146  6.6e-143  475.1   0.4   186   439   327   582   325   582 0.99 | transcript=PVP01_0925100.1 | gene=PVP01_0925100 | organism=Plasmodium_vivax_P01 | gene_product=pyruvate dehydrogenase E1 component subunit alpha, putative | transcript_product=pyruvate dehydrogenase E1 component subunit alpha, putative | location=PvP01_09_v2:1118915-1120663(+) | protein_length=582 | sequence_SO=chromosome | SO=protein_coding_gene | is_pseudo=false
+PVP01_1413600.1-p1   -            431 5631at5820           -            439   1.2e-35  121.6   1.4   1   1   5.4e-39   1.8e-35  121.1   1.4    53   356    82   381    71   423 0.83 | transcript=PVP01_1413600.1 | gene=PVP01_1413600 | organism=Plasmodium_vivax_P01 | gene_product=2-oxoisovalerate dehydrogenase subunit alpha, mitochondrial, putative | transcript_product=2-oxoisovalerate dehydrogenase subunit alpha, mitochondrial, putative | location=PvP01_14_v2:593863-595158(+) | protein_length=431 | sequence_SO=chromosome | SO=protein_coding_gene | is_pseudo=false
+#
+# Program:         hmmsearch
+# Version:         3.4 (Aug 2023)
+# Pipeline mode:   SEARCH
+# Query file:      /v3/work/00_inventory/busco/busco_downloads/lineages/plasmodium_odb10/hmms/5631at5820.hmm
+# Target file:     /v3/inputs/annotations/plasmodb-68/PvP01.proteins.fa
+# Option settings: hmmsearch --domtblout /v3/work/00_inventory/busco/PvP01_proteins/run_plasmodium_odb10/hmmer_output/initial_run_results/5631at5820.out --cpu 1 /v3/work/00_inventory/busco/busco_downloads/lineages/plasmodium_odb10/hmms/5631at5820.hmm /v3/inputs/annotations/plasmodb-68/PvP01.proteins.fa 
+# Current dir:     /v3/work/00_inventory/busco
+# Date:            Tue May 19 17:42:37 2026
+# [ok]

@@ -1,0 +1,17 @@
+#                                                                            --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name        accession   tlen query name           accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+#------------------- ---------- ----- -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+PVP01_0526500.1-p1   -            437 7917at5820           -            410  3.4e-231  765.7  24.4   1   2   1.9e-18   6.3e-15   53.4   0.0     1    70     1    71     1    93 0.91 | transcript=PVP01_0526500.1 | gene=PVP01_0526500 | organism=Plasmodium_vivax_P01 | gene_product=mRNA-binding protein PUF2, putative | transcript_product=mRNA-binding protein PUF2, putative | location=PvP01_05_v2:1072310-1074121(-) | protein_length=437 | sequence_SO=chromosome | SO=protein_coding_gene | is_pseudo=false
+PVP01_0526500.1-p1   -            437 7917at5820           -            410  3.4e-231  765.7  24.4   2   2  2.3e-217  7.6e-214  708.6  26.5    87   410   113   437    95   437 0.99 | transcript=PVP01_0526500.1 | gene=PVP01_0526500 | organism=Plasmodium_vivax_P01 | gene_product=mRNA-binding protein PUF2, putative | transcript_product=mRNA-binding protein PUF2, putative | location=PvP01_05_v2:1072310-1074121(-) | protein_length=437 | sequence_SO=chromosome | SO=protein_coding_gene | is_pseudo=false
+PVP01_1015200.1-p1   -           1556 7917at5820           -            410   9.1e-34  115.5  13.9   1   2     6e-12   1.9e-08   32.1   0.2   173   265   663   756   645   759 0.91 | transcript=PVP01_1015200.1 | gene=PVP01_1015200 | organism=Plasmodium_vivax_P01 | gene_product=mRNA-binding protein PUF1, putative | transcript_product=mRNA-binding protein PUF1, putative | location=PvP01_10_v2:682482-687693(+) | protein_length=1556 | sequence_SO=chromosome | SO=protein_coding_gene | is_pseudo=false
+PVP01_1015200.1-p1   -           1556 7917at5820           -            410   9.1e-34  115.5  13.9   2   2   1.5e-28   4.8e-25   86.7   8.8   194   402   757   963   753   969 0.94 | transcript=PVP01_1015200.1 | gene=PVP01_1015200 | organism=Plasmodium_vivax_P01 | gene_product=mRNA-binding protein PUF1, putative | transcript_product=mRNA-binding protein PUF1, putative | location=PvP01_10_v2:682482-687693(+) | protein_length=1556 | sequence_SO=chromosome | SO=protein_coding_gene | is_pseudo=false
+#
+# Program:         hmmsearch
+# Version:         3.4 (Aug 2023)
+# Pipeline mode:   SEARCH
+# Query file:      /v3/work/00_inventory/busco/busco_downloads/lineages/plasmodium_odb10/hmms/7917at5820.hmm
+# Target file:     /v3/inputs/annotations/plasmodb-68/PvP01.proteins.fa
+# Option settings: hmmsearch --domtblout /v3/work/00_inventory/busco/PvP01_proteins/run_plasmodium_odb10/hmmer_output/initial_run_results/7917at5820.out --cpu 1 /v3/work/00_inventory/busco/busco_downloads/lineages/plasmodium_odb10/hmms/7917at5820.hmm /v3/inputs/annotations/plasmodb-68/PvP01.proteins.fa 
+# Current dir:     /v3/work/00_inventory/busco
+# Date:            Tue May 19 17:49:19 2026
+# [ok]

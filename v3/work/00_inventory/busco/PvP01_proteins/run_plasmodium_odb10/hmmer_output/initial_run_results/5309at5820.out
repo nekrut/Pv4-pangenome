@@ -1,0 +1,17 @@
+#                                                                            --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name        accession   tlen query name           accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+#------------------- ---------- ----- -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+PVP01_1135400.1-p1   -            654 5309at5820           -            536  1.8e-262  870.0  40.3   1   2  1.1e-110  3.6e-107  357.4  13.4     1   233     1   257     1   269 0.91 | transcript=PVP01_1135400.1 | gene=PVP01_1135400 | organism=Plasmodium_vivax_P01 | gene_product=syntaxin-binding protein, putative | transcript_product=syntaxin-binding protein, putative | location=PvP01_11_v2:1521915-1523879(+) | protein_length=654 | sequence_SO=chromosome | SO=protein_coding_gene | is_pseudo=false
+PVP01_1135400.1-p1   -            654 5309at5820           -            536  1.8e-262  870.0  40.3   2   2    6e-156    2e-152  506.8  18.9   227   536   288   649   286   649 0.91 | transcript=PVP01_1135400.1 | gene=PVP01_1135400 | organism=Plasmodium_vivax_P01 | gene_product=syntaxin-binding protein, putative | transcript_product=syntaxin-binding protein, putative | location=PvP01_11_v2:1521915-1523879(+) | protein_length=654 | sequence_SO=chromosome | SO=protein_coding_gene | is_pseudo=false
+PVP01_0619100.1-p1   -            657 5309at5820           -            536   2.4e-10   37.8  24.0   1   2   9.4e-12   3.1e-08   30.9  12.0    24   228    41   278    32   292 0.75 | transcript=PVP01_0619100.1 | gene=PVP01_0619100 | organism=Plasmodium_vivax_P01 | gene_product=Sec1 family protein, putative | transcript_product=Sec1 family protein, putative | location=PvP01_06_v2:784912-786885(-) | protein_length=657 | sequence_SO=chromosome | SO=protein_coding_gene | is_pseudo=false
+PVP01_0619100.1-p1   -            657 5309at5820           -            536   2.4e-10   37.8  24.0   2   2   0.00023      0.74    6.5   4.0   477   528   590   641   424   648 0.82 | transcript=PVP01_0619100.1 | gene=PVP01_0619100 | organism=Plasmodium_vivax_P01 | gene_product=Sec1 family protein, putative | transcript_product=Sec1 family protein, putative | location=PvP01_06_v2:784912-786885(-) | protein_length=657 | sequence_SO=chromosome | SO=protein_coding_gene | is_pseudo=false
+#
+# Program:         hmmsearch
+# Version:         3.4 (Aug 2023)
+# Pipeline mode:   SEARCH
+# Query file:      /v3/work/00_inventory/busco/busco_downloads/lineages/plasmodium_odb10/hmms/5309at5820.hmm
+# Target file:     /v3/inputs/annotations/plasmodb-68/PvP01.proteins.fa
+# Option settings: hmmsearch --domtblout /v3/work/00_inventory/busco/PvP01_proteins/run_plasmodium_odb10/hmmer_output/initial_run_results/5309at5820.out --cpu 1 /v3/work/00_inventory/busco/busco_downloads/lineages/plasmodium_odb10/hmms/5309at5820.hmm /v3/inputs/annotations/plasmodb-68/PvP01.proteins.fa 
+# Current dir:     /v3/work/00_inventory/busco
+# Date:            Tue May 19 17:41:09 2026
+# [ok]

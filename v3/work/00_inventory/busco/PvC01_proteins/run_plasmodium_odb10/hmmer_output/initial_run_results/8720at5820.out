@@ -1,0 +1,25 @@
+#                                                                            --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name        accession   tlen query name           accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+#------------------- ---------- ----- -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+SCO71428.1           -            946 8720at5820           -            583  8.2e-224  743.0 227.3   1   5  4.7e-209  4.9e-206  684.3  70.2     2   369     4   395     3   408 0.92 conserved Plasmodium protein, unknown function [Plasmodium vivax]
+SCO71428.1           -            946 8720at5820           -            583  8.2e-224  743.0 227.3   2   5   4.4e-21   4.7e-18   63.6  51.5   371   518   451   594   402   601 0.65 conserved Plasmodium protein, unknown function [Plasmodium vivax]
+SCO71428.1           -            946 8720at5820           -            583  8.2e-224  743.0 227.3   3   5    0.0055       5.8    3.8  69.5   414   568   532   690   531   706 0.55 conserved Plasmodium protein, unknown function [Plasmodium vivax]
+SCO71428.1           -            946 8720at5820           -            583  8.2e-224  743.0 227.3   4   5    0.0019         2    5.4  42.6   403   550   687   830   683   860 0.44 conserved Plasmodium protein, unknown function [Plasmodium vivax]
+SCO71428.1           -            946 8720at5820           -            583  8.2e-224  743.0 227.3   5   5       1.4   1.4e+03   -4.0   4.2   415   479   858   925   849   946 0.40 conserved Plasmodium protein, unknown function [Plasmodium vivax]
+SCO72751.1           -            310 8720at5820           -            583    0.0011   16.1  40.9   1   2   1.1e-06    0.0011   16.1  40.9   434   580    62   209    29   217 0.42 large ribosomal subunit processing factor, putative [Plasmodium vivax]
+SCO72751.1           -            310 8720at5820           -            583    0.0011   16.1  40.9   2   2      0.25   2.7e+02   -1.6   0.6   240   260   263   284   231   301 0.48 large ribosomal subunit processing factor, putative [Plasmodium vivax]
+SCO71570.1           -             93 8720at5820           -            583    0.0081   13.3   8.0   1   1     8e-06    0.0083   13.2   8.0   405   550    11    61     2    87 0.37 hypothetical protein PVC01_060010700 [Plasmodium vivax]
+SCO72375.1           -             87 8720at5820           -            583      0.26    8.3   8.8   1   1   0.00027      0.29    8.2   8.8   420   551    13    60     2    79 0.28 hypothetical protein PVC01_080027900 [Plasmodium vivax]
+SCO71422.1           -            323 8720at5820           -            583      0.49    7.4  22.7   1   1   0.00059      0.62    7.1  22.7   492   568    83   152    43   237 0.42 conserved Plasmodium protein, unknown function [Plasmodium vivax]
+SCO75089.1           -            385 8720at5820           -            583      0.51    7.3  46.5   1   2   3.2e-05     0.033   11.2  39.3   432   566    67   198    32   218 0.68 Plasmodium exported protein, unknown function [Plasmodium vivax]
+SCO75089.1           -            385 8720at5820           -            583      0.51    7.3  46.5   2   2     0.053        56    0.6   0.7   394   441   284   328   227   380 0.66 Plasmodium exported protein, unknown function [Plasmodium vivax]
+#
+# Program:         hmmsearch
+# Version:         3.4 (Aug 2023)
+# Pipeline mode:   SEARCH
+# Query file:      /v3/work/00_inventory/busco/busco_downloads/lineages/plasmodium_odb10/hmms/8720at5820.hmm
+# Target file:     /v3/inputs/annotations/ncbi-datasets/PvC01.proteins.fa
+# Option settings: hmmsearch --domtblout /v3/work/00_inventory/busco/PvC01_proteins/run_plasmodium_odb10/hmmer_output/initial_run_results/8720at5820.out --cpu 1 /v3/work/00_inventory/busco/busco_downloads/lineages/plasmodium_odb10/hmms/8720at5820.hmm /v3/inputs/annotations/ncbi-datasets/PvC01.proteins.fa 
+# Current dir:     /v3/work/00_inventory/busco
+# Date:            Tue May 19 19:07:04 2026
+# [ok]

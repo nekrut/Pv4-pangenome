@@ -1,0 +1,18 @@
+#                                                                            --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name        accession   tlen query name           accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+#------------------- ---------- ----- -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+SCO74225.1           -            213 11107at5820          -            195  1.7e-125  414.9  30.1   1   1  1.2e-128  1.9e-125  414.7  30.1     1   195    12   209    12   209 0.99 derlin-1, putative [Plasmodium vivax]
+SCO71695.1           -            262 11107at5820          -            195   6.4e-23   80.2  21.5   1   1   4.9e-26   7.8e-23   79.9  21.5     3   176    16   195    14   213 0.87 DER1-like protein, putative [Plasmodium vivax]
+SCO74391.1           -            355 11107at5820          -            195   1.2e-05   23.8  15.4   1   1   1.4e-08   2.2e-05   23.0  15.4     3   191   155   342   153   346 0.70 DER1-like protein, putative [Plasmodium vivax]
+SCO70388.1           -            415 11107at5820          -            195   2.4e-05   22.9  23.6   1   2   1.9e-08     3e-05   22.6  10.0     1   119   169   283   169   292 0.73 DER1-like protein, putative [Plasmodium vivax]
+SCO70388.1           -            415 11107at5820          -            195   2.4e-05   22.9  23.6   2   2    0.0021       3.2    6.1   5.6   115   170   322   380   311   392 0.78 DER1-like protein, putative [Plasmodium vivax]
+#
+# Program:         hmmsearch
+# Version:         3.4 (Aug 2023)
+# Pipeline mode:   SEARCH
+# Query file:      /v3/work/00_inventory/busco/busco_downloads/lineages/plasmodium_odb10/hmms/11107at5820.hmm
+# Target file:     /v3/inputs/annotations/ncbi-datasets/PvC01.proteins.fa
+# Option settings: hmmsearch --domtblout /v3/work/00_inventory/busco/PvC01_proteins/run_plasmodium_odb10/hmmer_output/initial_run_results/11107at5820.out --cpu 1 /v3/work/00_inventory/busco/busco_downloads/lineages/plasmodium_odb10/hmms/11107at5820.hmm /v3/inputs/annotations/ncbi-datasets/PvC01.proteins.fa 
+# Current dir:     /v3/work/00_inventory/busco
+# Date:            Tue May 19 18:31:49 2026
+# [ok]

@@ -1,0 +1,18 @@
+#                                                                            --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name        accession   tlen query name           accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+#------------------- ---------- ----- -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+SCO66808.1           -            860 3643at5820           -            585  1.2e-299  993.3  44.5   1   5   1.7e-68   1.1e-64  217.5   6.4     1   133     1   153     1   161 0.89 small subunit rRNA synthesis-associated protein, putative [Plasmodium vivax]
+SCO66808.1           -            860 3643at5820           -            585  1.2e-299  993.3  44.5   2   5   2.3e-46   1.4e-42  144.5   0.5   128   218   203   294   187   299 0.90 small subunit rRNA synthesis-associated protein, putative [Plasmodium vivax]
+SCO66808.1           -            860 3643at5820           -            585  1.2e-299  993.3  44.5   3   5    2e-142  1.2e-138  461.7  12.2   218   442   358   583   355   585 0.99 small subunit rRNA synthesis-associated protein, putative [Plasmodium vivax]
+SCO66808.1           -            860 3643at5820           -            585  1.2e-299  993.3  44.5   4   5   1.4e-29   8.6e-26   89.0   0.1   443   513   674   748   670   763 0.88 small subunit rRNA synthesis-associated protein, putative [Plasmodium vivax]
+SCO66808.1           -            860 3643at5820           -            585  1.2e-299  993.3  44.5   5   5   3.3e-31     2e-27   94.4   0.6   511   584   771   857   763   858 0.90 small subunit rRNA synthesis-associated protein, putative [Plasmodium vivax]
+#
+# Program:         hmmsearch
+# Version:         3.4 (Aug 2023)
+# Pipeline mode:   SEARCH
+# Query file:      /v3/work/00_inventory/busco/busco_downloads/lineages/plasmodium_odb10/hmms/3643at5820.hmm
+# Target file:     /v3/inputs/annotations/ncbi-datasets/PvT01.proteins.fa
+# Option settings: hmmsearch --domtblout /v3/work/00_inventory/busco/PvT01_proteins/run_plasmodium_odb10/hmmer_output/initial_run_results/3643at5820.out --cpu 1 /v3/work/00_inventory/busco/busco_downloads/lineages/plasmodium_odb10/hmms/3643at5820.hmm /v3/inputs/annotations/ncbi-datasets/PvT01.proteins.fa 
+# Current dir:     /v3/work/00_inventory/busco
+# Date:            Tue May 19 18:39:47 2026
+# [ok]

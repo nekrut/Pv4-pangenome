@@ -1,0 +1,16 @@
+#                                                                            --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name        accession   tlen query name           accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+#------------------- ---------- ----- -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+CAI7719211.1         -             66 15537at5820          -             46   1.6e-32  110.0  15.1   1   1   5.8e-36   1.9e-32  109.8  15.1     1    46    21    66    21    66 0.99 | transcript=PVPAM_060021800_t1 | gene=PVPAM_060021800 | organism=Plasmodium_vivax_PAM | gene_product=cytochrome c oxidase copper chaperone, putative | transcript_product=cytochrome c oxidase copper chaperone, putative | location=CASCJQ010000006:740864-741064(+) | protein_length=66 | sequence_SO=supercontig | SO=protein_coding_gene | is_pseudo=false
+CAI7721730.1         -            121 15537at5820          -             46     0.029   13.1   0.2   1   2     9e-06     0.029   13.1   0.2    10    45    57    95    54    96 0.85 | transcript=PVPAM_110063100_t1 | gene=PVPAM_110063100 | organism=Plasmodium_vivax_PAM | gene_product=VIR protein [Source:UniProtKB/TrEMBL;Acc:A0A1G4EER6] | transcript_product=VIR protein [Source:UniProtKB/TrEMBL;Acc:A0A1G4EER6] | location=CASCJQ010000011:2482595-2483101(-) | protein_length=121 | sequence_SO=supercontig | SO=protein_coding_gene | is_pseudo=false
+CAI7721730.1         -            121 15537at5820          -             46     0.029   13.1   0.2   2   2      0.59   1.9e+03   -2.3   0.1    28    36   107   115   105   119 0.75 | transcript=PVPAM_110063100_t1 | gene=PVPAM_110063100 | organism=Plasmodium_vivax_PAM | gene_product=VIR protein [Source:UniProtKB/TrEMBL;Acc:A0A1G4EER6] | transcript_product=VIR protein [Source:UniProtKB/TrEMBL;Acc:A0A1G4EER6] | location=CASCJQ010000011:2482595-2483101(-) | protein_length=121 | sequence_SO=supercontig | SO=protein_coding_gene | is_pseudo=false
+#
+# Program:         hmmsearch
+# Version:         3.4 (Aug 2023)
+# Pipeline mode:   SEARCH
+# Query file:      /v3/work/00_inventory/busco/busco_downloads/lineages/plasmodium_odb10/hmms/15537at5820.hmm
+# Target file:     /v3/inputs/annotations/plasmodb-68/PAM.proteins.fa
+# Option settings: hmmsearch --domtblout /v3/work/00_inventory/busco/PAM_proteins/run_plasmodium_odb10/hmmer_output/initial_run_results/15537at5820.out --cpu 1 /v3/work/00_inventory/busco/busco_downloads/lineages/plasmodium_odb10/hmms/15537at5820.hmm /v3/inputs/annotations/plasmodb-68/PAM.proteins.fa 
+# Current dir:     /v3/work/00_inventory/busco
+# Date:            Tue May 19 17:31:24 2026
+# [ok]

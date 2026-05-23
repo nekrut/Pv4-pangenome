@@ -1,0 +1,16 @@
+#                                                                            --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name        accession   tlen query name           accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+#------------------- ---------- ----- -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+PVX_091020.1-p1      -            168 14565at5820          -            154   3.1e-74  246.3  30.8   1   1   1.3e-77   3.5e-74  246.1  30.8     1   154     5   168     5   168 0.97 | transcript=PVX_091020.1 | gene=PVX_091020 | organism=Plasmodium_vivax_Sal-1 | gene_product=hypothetical protein, conserved | transcript_product=hypothetical protein, conserved | location=Pv_Sal1_chr09:176825-177463(+) | protein_length=168 | sequence_SO=chromosome | SO=protein_coding_gene | is_pseudo=false
+PVX_083025.1-p1      -            241 14565at5820          -            154      0.18   10.0  16.7   1   2     0.011        30    2.8   0.3    57   107    36    86    21    99 0.79 | transcript=PVX_083025.1 | gene=PVX_083025 | organism=Plasmodium_vivax_Sal-1 | gene_product=sporozoite protein essential for cell traversal, putative | transcript_product=sporozoite protein essential for cell traversal, putative | location=Pv_Sal1_chr12:507753-509112(+) | protein_length=241 | sequence_SO=chromosome | SO=protein_coding_gene | is_pseudo=false
+PVX_083025.1-p1      -            241 14565at5820          -            154      0.18   10.0  16.7   2   2   4.4e-05      0.12   10.6  11.9     5   141    89   224    85   236 0.85 | transcript=PVX_083025.1 | gene=PVX_083025 | organism=Plasmodium_vivax_Sal-1 | gene_product=sporozoite protein essential for cell traversal, putative | transcript_product=sporozoite protein essential for cell traversal, putative | location=Pv_Sal1_chr12:507753-509112(+) | protein_length=241 | sequence_SO=chromosome | SO=protein_coding_gene | is_pseudo=false
+#
+# Program:         hmmsearch
+# Version:         3.4 (Aug 2023)
+# Pipeline mode:   SEARCH
+# Query file:      /v3/work/00_inventory/busco/busco_downloads/lineages/plasmodium_odb10/hmms/14565at5820.hmm
+# Target file:     /v3/inputs/annotations/plasmodb-68/Sal-I.proteins.fa
+# Option settings: hmmsearch --domtblout /v3/work/00_inventory/busco/Sal-I_proteins/run_plasmodium_odb10/hmmer_output/initial_run_results/14565at5820.out --cpu 1 /v3/work/00_inventory/busco/busco_downloads/lineages/plasmodium_odb10/hmms/14565at5820.hmm /v3/inputs/annotations/plasmodb-68/Sal-I.proteins.fa 
+# Current dir:     /v3/work/00_inventory/busco
+# Date:            Tue May 19 17:33:49 2026
+# [ok]

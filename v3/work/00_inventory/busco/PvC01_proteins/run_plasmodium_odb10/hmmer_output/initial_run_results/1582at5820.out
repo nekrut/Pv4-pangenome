@@ -1,0 +1,22 @@
+#                                                                            --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name        accession   tlen query name           accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+#------------------- ---------- ----- -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+SCO72669.1           -           1323 1582at5820           -           1005         0 1872.9  59.7   1   6  7.3e-161  1.5e-157  524.5  10.7     1   242     1   243     1   245 0.99 insulinase, putative [Plasmodium vivax]
+SCO72669.1           -           1323 1582at5820           -           1005         0 1872.9  59.7   2   6   3.9e-70   8.2e-67  224.2   0.0   238   368   267   402   258   410 0.93 insulinase, putative [Plasmodium vivax]
+SCO72669.1           -           1323 1582at5820           -           1005         0 1872.9  59.7   3   6   5.6e-98   1.2e-94  316.4   9.4   353   532   437   620   433   625 0.97 insulinase, putative [Plasmodium vivax]
+SCO72669.1           -           1323 1582at5820           -           1005         0 1872.9  59.7   4   6  7.2e-130  1.5e-126  421.9   4.4   527   760   653   891   633   917 0.92 insulinase, putative [Plasmodium vivax]
+SCO72669.1           -           1323 1582at5820           -           1005         0 1872.9  59.7   5   6  1.5e-125  3.1e-122  407.7   3.5   753   993   963  1231   956  1238 0.93 insulinase, putative [Plasmodium vivax]
+SCO72669.1           -           1323 1582at5820           -           1005         0 1872.9  59.7   6   6     0.014        29    0.6   0.3   988  1005  1305  1322  1300  1322 0.87 insulinase, putative [Plasmodium vivax]
+SCO73479.1           -           1153 1582at5820           -           1005   5.6e-11   39.3  31.0   1   1   1.5e-13   3.2e-10   36.9  31.0    45   498   114   607    87   629 0.73 falcilysin, putative [Plasmodium vivax]
+SCO72096.1           -            467 1582at5820           -           1005   2.4e-06   24.0   1.5   1   2   4.3e-09     9e-06   22.1   0.3    49   230    59   226    36   295 0.84 mitochondrial-processing peptidase subunit beta, putative [Plasmodium vivax]
+SCO72096.1           -            467 1582at5820           -           1005   2.4e-06   24.0   1.5   2   2     0.011        23    0.9   0.0   878   943   369   437   344   449 0.83 mitochondrial-processing peptidase subunit beta, putative [Plasmodium vivax]
+#
+# Program:         hmmsearch
+# Version:         3.4 (Aug 2023)
+# Pipeline mode:   SEARCH
+# Query file:      /v3/work/00_inventory/busco/busco_downloads/lineages/plasmodium_odb10/hmms/1582at5820.hmm
+# Target file:     /v3/inputs/annotations/ncbi-datasets/PvC01.proteins.fa
+# Option settings: hmmsearch --domtblout /v3/work/00_inventory/busco/PvC01_proteins/run_plasmodium_odb10/hmmer_output/initial_run_results/1582at5820.out --cpu 1 /v3/work/00_inventory/busco/busco_downloads/lineages/plasmodium_odb10/hmms/1582at5820.hmm /v3/inputs/annotations/ncbi-datasets/PvC01.proteins.fa 
+# Current dir:     /v3/work/00_inventory/busco
+# Date:            Tue May 19 18:34:48 2026
+# [ok]

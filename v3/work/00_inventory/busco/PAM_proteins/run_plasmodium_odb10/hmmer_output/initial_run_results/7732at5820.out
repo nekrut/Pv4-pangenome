@@ -1,0 +1,16 @@
+#                                                                            --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name        accession   tlen query name           accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+#------------------- ---------- ----- -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+CAI7721478.1         -            651 7732at5820           -            528  5.2e-219  727.0  56.0   1   3   7.5e-75   4.8e-71  238.7  11.4     1   216     1   246     1   249 0.89 | transcript=PVPAM_110038300_t1 | gene=PVPAM_110038300 | organism=Plasmodium_vivax_PAM | gene_product=GPI-anchored wall transfer protein 1, putative | transcript_product=GPI-anchored wall transfer protein 1, putative | location=CASCJQ010000011:1405993-1407948(+) | protein_length=651 | sequence_SO=supercontig | SO=protein_coding_gene | is_pseudo=false
+CAI7721478.1         -            651 7732at5820           -            528  5.2e-219  727.0  56.0   2   3   1.3e-95   8.4e-92  307.2  19.2   214   397   288   479   285   481 0.94 | transcript=PVPAM_110038300_t1 | gene=PVPAM_110038300 | organism=Plasmodium_vivax_PAM | gene_product=GPI-anchored wall transfer protein 1, putative | transcript_product=GPI-anchored wall transfer protein 1, putative | location=CASCJQ010000011:1405993-1407948(+) | protein_length=651 | sequence_SO=supercontig | SO=protein_coding_gene | is_pseudo=false
+CAI7721478.1         -            651 7732at5820           -            528  5.2e-219  727.0  56.0   3   3   1.2e-60   7.9e-57  191.8   9.4   399   523   514   637   510   642 0.97 | transcript=PVPAM_110038300_t1 | gene=PVPAM_110038300 | organism=Plasmodium_vivax_PAM | gene_product=GPI-anchored wall transfer protein 1, putative | transcript_product=GPI-anchored wall transfer protein 1, putative | location=CASCJQ010000011:1405993-1407948(+) | protein_length=651 | sequence_SO=supercontig | SO=protein_coding_gene | is_pseudo=false
+#
+# Program:         hmmsearch
+# Version:         3.4 (Aug 2023)
+# Pipeline mode:   SEARCH
+# Query file:      /v3/work/00_inventory/busco/busco_downloads/lineages/plasmodium_odb10/hmms/7732at5820.hmm
+# Target file:     /v3/inputs/annotations/plasmodb-68/PAM.proteins.fa
+# Option settings: hmmsearch --domtblout /v3/work/00_inventory/busco/PAM_proteins/run_plasmodium_odb10/hmmer_output/initial_run_results/7732at5820.out --cpu 1 /v3/work/00_inventory/busco/busco_downloads/lineages/plasmodium_odb10/hmms/7732at5820.hmm /v3/inputs/annotations/plasmodb-68/PAM.proteins.fa 
+# Current dir:     /v3/work/00_inventory/busco
+# Date:            Tue May 19 17:48:40 2026
+# [ok]

@@ -1,0 +1,338 @@
+# hmmsearch :: search profile(s) against a sequence database
+# HMMER 3.4 (Aug 2023); http://hmmer.org/
+# Copyright (C) 2023 Howard Hughes Medical Institute.
+# Freely distributed under the BSD open source license.
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+# query HMM file:                  /v3/work/00_inventory/busco/busco_downloads/lineages/plasmodium_odb10/hmms/99at5820.hmm
+# target sequence database:        /v3/inputs/annotations/ncbi-datasets/PvT01.proteins.fa
+# per-dom hits tabular output:     /v3/work/00_inventory/busco/PvT01_proteins/run_plasmodium_odb10/hmmer_output/initial_run_results/99at5820.out
+# number of worker threads:        1
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+Query:       99at5820  [M=3542]
+Scores for complete sequences (score includes all domains):
+   --- full sequence ---   --- best 1 domain ---    -#dom-
+    E-value  score  bias    E-value  score  bias    exp  N  Sequence   Description
+    ------- ------ -----    ------- ------ -----   ---- --  --------   -----------
+          0 4966.7   0.0          0 4961.7   0.0    3.0  1  SCO66936.1  conserved Plasmodium protein, unknown function [P
+  ------ inclusion threshold ------
+        5.4    1.8  17.0        7.3    1.3  17.0    1.0  1  SCO67619.1  RNA helicase 1, putative [Plasmodium vivax]
+        7.3    1.3   6.9        9.1    1.0   6.9    1.0  1  SCO69086.1  conserved Plasmodium protein, unknown function [P
+        8.8    1.1  11.2         11    0.7  11.2    1.0  1  SCO68124.1  E3 ubiquitin-protein ligase RNF5, putative [Plasm
+
+
+Domain annotation for each sequence (and alignments):
+>> SCO66936.1  conserved Plasmodium protein, unknown function [Plasmodium vivax]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ! 4961.7   0.0         0         0       1    3542 []       1    4659 []       1    4659 [] 0.88
+
+  Alignments for each domain:
+  == domain 1  score: 4961.7 bits;  conditional E-value: 0
+    99at5820    1 mrkkgniknfeleeiifiLLnCLDedkklnreivntLkiyilyhkceiLnyvfsfLqiqkvshenqklLLlLvyDfvhyciynrfsnvvdeyleeek 97  
+                  m+k+++i+n+eleei+fiLLnCLDe+kk+nrei+ntLk+y+lyhk++iLnyvfsfLqiqkvshenqklLL+Lv+Dfvhyci+nrfsn+vdeyl e k
+  SCO66936.1    1 MKKRASITNLELEEIVFILLNCLDEEKKKNREIINTLKVYLLYHKGQILNYVFSFLQIQKVSHENQKLLLCLVHDFVHYCIHNRFSNTVDEYLGEVK 97  
+                  9************************************************************************************************ PP
+
+    99at5820   98 kneekeekk........................sieeekfkDikifdnilkytffDGDeyCfvye................................ 138 
+                  +ne ++e++                        +  +++fkD++if+nil+y+ffDGDe+Cf+++                                
+  SCO66936.1   98 RNEGEKEERadtqkggsqrggpqkgdtqkgdtqKGGTHRFKDLHIFENILRYSFFDGDEHCFLFQdlpegvflpdavplqgdaaeggalqqadsgta 194 
+                  **99888778********************9887789************************************************************ PP
+
+    99at5820  139 ........................vkrd..qnifkedkisklkclkkeeykllliekkklak......................knkkkseinniik 187 
+                                                 +if++dki+kl clkkeeyk+++i+++++ak                      ++k++seinnii+
+  SCO66936.1  195 fsprgslhfatdgnprersmrsmkR--RgrGSIFHQDKIAKLLCLKKEEYKTAMISEREAAKksnqctsphvaasaplggippqNAKETSEINNIIR 289 
+                  *********************9633..3359************************9988766222222222222222222222156899******** PP
+
+    99at5820  188 niinfiLnellfikknDerhkimtkLLiLCiikeDaylkkkiiekvnyyldseed........................adekvsn.......knnn 253 
+                  nii+f+Lne+lfik++Derh imtkLLiLC+++eDaylkkk++ek+n++l                             +              +++
+  SCO66936.1  290 NIIDFLLNEILFIKRDDERHGIMTKLLILCVVREDAYLKKKLVEKLNGCLRVGGAalpvgdspegggkptiekggsekvS-----GekvgndkVSSE 381 
+                  **************************************************976558999999999999988888544443.....355555652333 PP
+
+    99at5820  254 nnnkknskvyiyleLyidifmqvPhLtknvLidifksilsldksnkhidliykillkifqdiqfPsvLysiiymnkkykkknfiipnkkntnvyien 350 
+                  n   +n+k+ +yleLyid+++qvPhLtk+vL+++f+++lsl++s+ h+dl++k++++ifqdiqfPsvLy+ii+mn+kyk+knfiipnk++tnv+ien
+  SCO66936.1  382 NVRGDNPKLRAYLELYIDLLTQVPHLTKSVLNEFFSAVLSLGQSTTHADLTHKVMTQIFQDIQFPSVLYTIIRMNTKYKRKNFIIPNKHHTNVFIEN 478 
+                  444569******************************************************************************************* PP
+
+    99at5820  351 dviqLslentseDtcttytresslnsnllkkse.........ifndnikqeklykkkekek..........ssehliknanngekeeskekds.... 424 
+                  d+i+LslentseDtcttytresslnsn+l +s+         ifn++ ++++l + +e+e+          sseh++++a            s    
+  SCO66936.1  479 DIIHLSLENTSEDTCTTYTRESSLNSNVLGRSNtpgksntpgIFNNSGRKANLRRPTEGERngkgtsykdpSSEHTSRDA------------Spcev 563 
+                  ***************************9876543333334449***************9994444444444222322222............13455 PP
+
+    99at5820  425 ............................dskaeseke.....klilksnikdkkesdlase.....eenkedkytvekedengknk........... 472 
+                                              d  a+s++      ++++k+ ++++k+s++a+e     +e +e++ytv++  e + ++           
+  SCO66936.1  564 fydahngevepdgwdtppggecsqgrgsDGGAQSNWGpskgkNNLVKAFQREAKPSEHAAEpfrneSEGSEKYYTVKNWREGAVCQvpegsggspke 660 
+                  5555666677788888888888888776333333333666668999999999**9999987643213446889999998887777788889999976 PP
+
+    99at5820  473 ........dekeeklkkkdavknseekekkkiedikkvckklldlylniilslkysnenyikiLyiiskllLyinneelikkvlevyiyyflvffns 561 
+                             +   + + a +   eke++k+e+ ++vc+k+l+lyl+++++lk+s+eny+k+Lyiiskl+Ly+nn+el+kkv+e +i+yflvff++
+  SCO66936.1  661 kgdlprgkGILSPVASPHAAAQLPLEKERRKAEETTAVCSKMLALYLSMLPTLKRSSENYRKLLYIISKLVLYVNNDELTKKVIEECIHYFLVFFHA 757 
+                  6665544211222333444578889************************************************************************ PP
+
+    99at5820  562 tinnveisdissiynndsqikinyinlkelPnyniinsfriiLqkclnkihlivvftnqilkvayalLyilinknysinnsksivkkitsnsyvstf 658 
+                  t+nn+++s+is+ yn+d q++iny+++++lP+y++insfr+iLqkcl+kihliv+f+++ lkvaya+L+ +in+ny+++n+k+i+++itsn+yvstf
+  SCO66936.1  758 TVNNASVSEISGGYNKDLQVHINYSSVRGLPQYSVINSFRSILQKCLTKIHLIVGFASHTLKVAYAILLTMINQNYTMSNAKGIANYITSNVYVSTF 854 
+                  ************************************************************************************************* PP
+
+    99at5820  659 ieiieifnifisCiytnnlvfnllkeklksnnkveiivsLiiLkqyillissdlssdniivylsnqnikkk.keykksfkkLnsfisDtek.nntni 753 
+                  +e++e+fnifi+C+yt+nlv+++++ek+ks++kve+ivsL++L+qy+llis+d++s+n +v+lsnqn+k+k + ykk+fk+L+sfi+D+++ n++n+
+  SCO66936.1  855 VEVMELFNIFITCAYTSNLVLSFIREKVKSSVKVEVIVSLTLLRQYLLLISGDIGSGNNMVHLSNQNMKTKgGPYKKCFKRLSSFITDANRtNTSNV 951 
+                  **********************************************************************9779****************9999*** PP
+
+    99at5820  754 eliiqivaslserfnnDLsiiyllLeisLlLsyheyfnsfsynpnvilgLlpkvssPLlvlyk.eeakkeevsekiqikdnatskenslnldkkekn 849 
+                  el+iq+va+ls+rf+nDLsiiy+lLei+LlLsyh++f+s s+npnvilgLlp+vssPL++ly+  ea+++   e+   ++++ + ++s +   k + 
+  SCO66936.1  952 ELVIQMVANLSDRFCNDLSIIYMLLEINLLLSYHQHFDSSSFNPNVILGLLPRVSSPLCDLYMgGEAEQSGKGEQSGKSRKSGKGKQSGK-SGKGE- 1046
+                  **************************************************************8677777766655543333322222222.22211. PP
+
+    99at5820  850 iy.................eekrnnmedeiktWlliPnkyvikilqlllnillseeskfklknkkyGysvdengtiidinnesnevlkngfkynklf 929 
+                                      +   +  +eiktWlliP+k+viki+++l+n llseeskfk++nkkyGy vd++gtiid+nn++nevl+ngf++n++f
+  SCO66936.1 1047 -AlppsgeppleghhpgerINPMGHHGQEIKTWLLIPSKHVIKIMHFLINTLLSEESKFKKQNKKYGYEVDDSGTIIDANNNANEVLQNGFHHNRMF 1142
+                  .123556667777777443444455679********************************************************************* PP
+
+    99at5820  930 yDihlhffiymlPsvsyikkLislafqknfslysprvLypLlfeylvniknsykivlllLkaLniiCisLynymvkknLrihsrlhfnylvLPnisk 1026
+                  +D+h+++fi+m Psv+y+kkLi+laf+k++++ysprvLypLlfe+lv++k+s+kiv ++LkaLni+Ci+L+n+mvkk+Lr+hsrlh+nylvLPnis+
+  SCO66936.1 1143 FDVHWNYFIFMDPSVPYVKKLIALAFEKHLCFYSPRVLYPLLFELLVDVKRSFKIVATILKALNIMCILLHNHMVKKHLRLHSRLHYNYLVLPNISN 1239
+                  ************************************************************************************************* PP
+
+    99at5820 1027 iisvLfmyclhenfvvsfLslqLisilrsftqnksiksvqsltyfelllkvlkl..............klleeslysrkilkei...........rk 1098
+                  +isvLfmyc+h+++vvsfLslqLisilrsftq+ksi+svqs+tyfelll++++l               l++ +lysr+ilk+i           +k
+  SCO66936.1 1240 VISVLFMYCTHSDIVVSFLSLQLISILRSFTQGKSIASVQSFTYFELLLSLVRLssqavarkgdraaaPLAGGNLYSRRILKRIialsgggkkkpQK 1336
+                  *******************************************************************99***********************99989 PP
+
+    99at5820 1099 kkekekkakyyksliklsykkiakriskkllnvyLks......kkkkrkinkiikkyfnvdlkei................................ 1157
+                  +++++k+a+yy+sl+k +y++ia+ isk++l+v+L++      k ++rk+++i+++yf+vdl+                                  
+  SCO66936.1 1337 HTAAVKRARYYRSLVKGCYREIARGISKRVLDVSLNVsrgacrKGWRRKVRAIARHYFSVDLGGAsnerhasekhasekhanetplgaippmvstpc 1433
+                  999*********************************999999999**************************************************** PP
+
+    99at5820 1158 ........................ieslslkitkilrllkklfssyvkkeiekiynyqtyiitffyilvellriiqsnkefentlfylsiinllCvi 1230
+                                          +esls+++t+il+l++++fssyvk+ei +iyny++y++tffy+lvel+r+++s++efe+tl+yls+inllCvi
+  SCO66936.1 1434 sldvgtlvganppgegeastchaaTESLSSRFTRILHLMQTFFSSYVKVEIGRIYNYHSYVTTFFYSLVELVRLLKSSQEFESTLLYLSVINLLCVI 1530
+                  ************************************************************************************************* PP
+
+    99at5820 1231 vkylkekyanklitiffkLneevaineeenllltLyknfsyiykthffnlykekCttlytknCiecikllrkdi...kkssenqlDfnnfilLsnky 1324
+                  +k++++kyank+itiffkLneev++neeenl+ltLy+nfs+iy++hff lykekCtt y++nCieci+l+r+d+   kks+enqlDfnnf+lLsnky
+  SCO66936.1 1531 IKQFSGKYANKMITIFFKLNEEVPVNEEENLFLTLYMNFSTIYRSHFFILYKEKCTTPYMRNCIECIQLMRADClsfKKSTENQLDFNNFMLLSNKY 1627
+                  *************************************************************************9999******************** PP
+
+    99at5820 1325 nsDiskeknienvlqylneyqkvykknilkidekree...........................krlesevvnkekkkvn.leklkkkLdksnevvk 1393
+                  ++D+s+ekn++++++ylneyq+vy++++l++   +e                              ++++vv++++ +vn +++lkk+L++snevv+
+  SCO66936.1 1628 STDMSREKNVSRFVHYLNEYQAVYRARLLQLGICSEGgggphhkgekkhmdvkripptgenfhdGAMQNKVVHETTLQVNhQDDLKKRLYQSNEVVR 1724
+                  *******************************8877768889999999************9999866899999999999873689************* PP
+
+    99at5820 1394 ksvelledklgsyilqndinfsisksfkqeitsyyiesllkkknllrvlfllnniyysDvankkssafslfGkssnvinaenirntLiLsmGlclkk 1490
+                  ks++lledklgsyilqndi+fsisk+f+q++ts+yies+l+k+nl+rvlflln+iy+sDvan+kssafs+fGks+nvinaenir+tLiL+mG+cl+k
+  SCO66936.1 1725 KSYQLLEDKLGSYILQNDISFSISKQFHQDVTSHYIESILHKNNLFRVLFLLNSIYHSDVANRKSSAFSIFGKSTNVINAENIRSTLILTMGKCLRK 1821
+                  ************************************************************************************************* PP
+
+    99at5820 1491 ipskkfedLykirevyvnekifaiyvkkvyvnlvkyn.afenilfdkddsv..ieeivkeiisnkqkyvdekykdeinlnikikkellsslekeesa 1584
+                  +ps+k++dL+ ir+vy+nek+faiyvk+vyv+l++y+ ++ n+++++dds    e+iv+e++sn+q+yvde+yk+ei++n+ +++++ls +ek++s 
+  SCO66936.1 1822 VPSSKVRDLHVIRDVYMNEKLFAIYVKHVYVPLARYStSLGNAIHGRDDSPltEEHIVREVLSNRQRYVDERYKEEIKMNALVRRDILSGVEKRDSG 1918
+                  ***********************************97369**********866799****************************************9 PP
+
+    99at5820 1585 sse.............kss....................ssnlskeklsllifqlLvDPiiislyqekeavlqksLlkslkkiskklkkikeki... 1645
+                  +s+             + +                     + l++ek++ll+fqlLvDPii+sly+ekea+lq+sLl++lk++skklk+i+      
+  SCO66936.1 1919 ESSqcgpppmsakvnvN-AsvsasvnsaslanaanpanlWKRLPSEKINLLVFQLLVDPIICSLYEEKEATLQASLLRALKMVSKKLKCIRAPGgea 2014
+                  99855555555544440.044444555556666666554556*************************************************665999 PP
+
+    99at5820 1646 ..............................lnylDiknkrciikDiCeeylkenlnevkfysclyiykfiiiyssLyylsnidnltlPisnisltsv 1712
+                                                +n+lD ++++c+ +D+C++y+ken+++v+fyscl+iyk+i+i+s+Lyy++n+d+++lPis++++t+v
+  SCO66936.1 2015 ahrhrmkwdhyanrvrgnleatttpqpyvvTNTLDRPTRWCSTQDVCDHYMKENVKDVPFYSCLCIYKYIVIHSALYYVANFDEQPLPISSMTFTGV 2111
+                  9************************************************************************************************ PP
+
+    99at5820 1713 ekfalyfkr...eiinkseyylkeeikkkesedeqtsneeki......lelekeefyikeik.ldkkielk.......snkviyndyfsellke... 1789
+                    +alyfk+   +i++kse++l+e++k + s++++ sne+k+      l+l+ke+++i +i+ ++++ie++       s++viyndyfs+l+ke   
+  SCO66936.1 2112 GLYALYFKQerrIITSKSEHQLREDLKASGSNGSNGSNESKKknqfeeLHLQKEQHIIGKIDmWGRMIEWEyrtidapSERVIYNDYFSDLVKErgs 2208
+                  ********87778***************99888877776633355666899*********964789998875555555899***********98444 PP
+
+    99at5820 1790 ...................kldiskdsyeillnaLktiyyslfireplnfqsvfiivdvLinLlLkivlnekkkiyqkfqenke............. 1854
+                                     +ldi +d+y++l+naLk+i+y+lf++ep++f+s++iivdvL++LlLkivlne+k++y k++++++             
+  SCO66936.1 2209 kndstqggaspghsppsepHLDIPSDTYANLKNALKSIHYCLFVEEPMQFHSALIIVDVLTRLLLKIVLNERKQMYCKWHDSADvvgqgpnmagqna 2305
+                  4444444444444444444589*************************************************************************** PP
+
+    99at5820 1855 ..................kiknlrekelkekkkkkkeikkkrkkklekekikkk..geeiaedsnnesnnk.......................... 1905
+                                    +++++r+++ +ek+k+k+ + +k k+++ k++++k+    + ++++n +  n+                          
+  SCO66936.1 2306 desltnegvaakngasnlDTAHVRSDQPEEKQKNKSANISKGKRTIPKGNVTKEkkLPQGVNHTNGKMRNNeltggtpngeeqtehhggatsshvah 2402
+                  ****************9999999************999999***********76332345566663333334888999999999999999999999* PP
+
+    99at5820 1906 ...................kdeekenkledkdaklkkkltkekkkkkkrkksekkkne...................nnkifknlskyekislscln 1964
+                                      de++ +k    d++    ++++kkkkk++k+ e++++e                   n+k f++l+kye ++lscln
+  SCO66936.1 2403 qrggdgrakwdgrrksqrgADEDTGSKGILPDEHF-PGVAEQKKKKKSSKRIERGHTEghtddplranrrenkllhsNSKPFRYLRKYEGAALSCLN 2498
+                  *******9999999888874444444444445555.55666666666677777777777777777777777777777******************** PP
+
+    99at5820 1965 liisiivkavldinsffllskiikyihdlcvstniaevkflsfriiteivinsa...................................ekseeket 2026
+                  li siivka+l+++sf+l++kiiky+hd+cv+tniaevkf+sfri+++ivi++a                                   +k+++  +
+  SCO66936.1 2499 LISSIIVKAALRMDSFPLQFKIIKYLHDTCVATNIAEVKFVSFRILSQIVISAArvgtpnggcrmgpldgappaedtqtghlkvcrlseKKHHHGGE 2595
+                  *****************************************************9******************************9998733333333 PP
+
+    99at5820 2027 kekekkk.kekekk....keeeneneeenksllsynssnfekyfslifssssnisygnlfDlnnekekkeeeaens..........vsdkdkeneek 2108
+                  ++ +++k k++e++        n+n++e k+l+s+nssnfekyf+lifs+ +nisygn+fD+n+e++++ + +e s          +s+++   + +
+  SCO66936.1 2596 IDGDRSKgKRHEDEathgGGRANRNDHEGKNLSSCNSSNFEKYFNLIFSPGGNISYGNFFDANDEHGGMPNRNEGShesgggdsgrCSSHRGGPDGQ 2692
+                  33332220111222233466789******************************************9988764443333454444445566667799* PP
+
+    99at5820 2109 ekssekylnssnenek........nkeekdekekdklndaegs.....ssksk............................................ 2148
+                  ++sse+yl s  + e         +        ++  + ++g+         +                                            
+  SCO66936.1 2693 NDSSEHYLDSVSNAEGnviketaiE-------GAGGNHLHRGEttlrgE---Sggagklnghmgsdkgsnssimydpsdsdsppggaadhvphmdeg 2779
+                  *******977665555243322220.......22222222222223330...13344455556666666788999999******************* PP
+
+    99at5820 2149 ..................sldekneakeeknylCeCiglLiPyikDkekiisylsicsicvllgklkkvkilskshfiyfflnslevilnvlsklkk 2227
+                                    + d k+eak e+nylCeCiglLiPy+kD+e++isyls+cs+c+llgkl++ ++ls++hf++ff+n++evil+ ls+   
+  SCO66936.1 2780 gslqeqssgekneakneaKSDVKSEAKGERNYLCECIGLLIPYVKDPERVISYLSVCSVCALLGKLQRGRMLSNWHFVHFFFNRIEVILDGLSSPVT 2876
+                  ******999999988877666679******************************************************************9998655 PP
+
+    99at5820 2228 kakkkkkkekkkklikk..............kklsdkekentlekdkinekkeeeks..ekkkke................................ 2276
+                  +  + ++ ++k + ++               k + d ++ ntle+d  n+ ++   +  e+   +                                
+  SCO66936.1 2877 NRVRGRRAKRKAERERAtwkgkldgqigntwKGKFDGQTGNTLEEDPPNQPNSGAANcdEHP--Teetfrdegeginektccsdgggsdgggsvred 2971
+                  54444444443322222232234444776776777888888998885554444333310222..13578999************************* PP
+
+    99at5820 2277 .......................................kfsyknirknlyniefekkfykkvekkikeinsekyqkkfikkls....nkkkeinly 2330
+                                                         ++sy+n+r+n++++e +++f+ kv ++i+eins++yq++fik+l+    n++ke+n+y
+  SCO66936.1 2972 evgeiaydeakvtkeglnglprcerghrreprhrrlappRISYQNVRSNMRTVERHNHFLVKVGTRIREINSGTYQTRFIKRLGqltnNTRKETNVY 3068
+                  ***********************************************************************************9999999******* PP
+
+    99at5820 2331 klindiiiedfsedekksyvntLiscihnknkkvsinglnlLmyyilkekidkedieiimnrvlselyyytkvnvlneksknn.............. 2413
+                  k ++d i+e++s++ek+syvn+Liscihnkn++v+i+glnlLmy++++e+++++di++im+rvl+e++yytkvnvl+++ ++               
+  SCO66936.1 3069 KAMSDAISEVLSNEEKMSYVNCLISCIHNKNRQVAISGLNLLMYHTWAEQMSHQDIDVIMSRVLNEVHYYTKVNVLSGSGESPpsgsfskaapprgt 3165
+                  *******************************************************************************988788999999999999 PP
+
+    99at5820 2414 ...............akakik......dnnekdrenekkkenelnntleayynikkkrkkknilersLriilllCrkhfyvvinklCtlqskynyeh 2489
+                                 a+++i+      + n++d +++++++n+ +n  ++    +k  + +n+ler+Lr il+lCrkh+yvv+nklCtlqsky+yeh
+  SCO66936.1 3166 depnstleayrimcrARQDIEgppkgiSINRCDIRSDNRRDNQRDNPRDNL--RDKPVRGPNVLERALRTILVLCRKHPYVVVNKLCTLQSKYSYEH 3260
+                  999999888888844222333666655688888888888888888888874..58999*************************************** PP
+
+    99at5820 2490 iyfiymiCnnekllsktldylfyilnnldtlklnnnlsnilsllfhflkfrnkyiknytkkyfveLflivfyvLGvkqLshlsg............. 2573
+                  +yfi+miCnne+ll+kt+dylfy++n+ldtlkl++nlsnilsl+fhflkfrn yi++yt++yfveLf+i+f+vLGvkqL+h+sg             
+  SCO66936.1 3261 VYFIFMICNNERLLHKTMDYLFYLMNSLDTLKLTKNLSNILSLVFHFLKFRNGYIRDYTRRYFVELFVIMFFVLGVKQLGHMSGvlagaakgravva 3357
+                  ************************************************************************************************* PP
+
+    99at5820 2574 ............eksldkenllkeekeeek......eeekakeeni.............lekereeadkaidkekdkagiae............... 2624
+                              +      ++ +  +++++      ++++ + +++             +                                     
+  SCO66936.1 3358 ekvfppsgllggQ------HYAEGGEQVKEqakceaKSQRGEADKTeeaigvgspelpeQ---------------------Ahevdqkedpiarvae 3427
+                  8888885555442......33333333322111111222222222222233333333321.....................0223333344444555 PP
+
+    99at5820 2625 .............eenikveeennnekss....ekeeatkkkkeaevnkslfflkkksilksknikkvskeeynkkiyknytcsisvnntlnClnii 2704
+                               ++   ++++nn e +s      +++ +++ ++ vn+s+ffl+++sil+s+++kkvs+ e++kkiy+nytcsisvnntlnC++ii
+  SCO66936.1 3428 kfqerrglpgrsnTKGSPTQSRNNAEGNSrdgaPLHTESDDNFAKVVNGSPFFLRRNSILRSRDVKKVSRGEFSKKIYQNYTCSISVNNTLNCVRII 3524
+                  66666667665542222344444444444343322333444556779************************************************** PP
+
+    99at5820 2705 kellkLnkkkkiLnyyeehkveklLyykhsfenGLikliyifLkn............................................rndcikvf 2757
+                  kellkLn +k+iL+++ee++veklLyykhsfenGLi+l+ i+L++                                            r++c+kvf
+  SCO66936.1 3525 KELLKLNGRKRILRRIEEGRVEKLLYYKHSFENGLIELVRIVLSSlggsatrgsgsrgsgargstireclprgsgtreiftrgsaprceRGHCRKVF 3621
+                  ************************************************************************************************* PP
+
+    99at5820 2758 kfleiflksdninyiiisliiLsqlllCikieeenlkiieplikvLysinckkyknslvtkyLhisfknlfiifkdik.yqlekglelfsllikeey 2853
+                   fleiflks+niny+iisl++LsqlllC++ie+en++++ep+ikvLy++nc+++ n++vtkyLh++f+nlfiifk+i+ yqle+g+e++++likeey
+  SCO66936.1 3622 GFLEIFLKSRNINYVIISLVTLSQLLLCMRIEPENVRLVEPIIKVLYQVNCTHK-NDVVTKYLHLCFTNLFIIFKAIReYQLETGSEPVPVLIKEEY 3717
+                  ****************************************************65.**********************55****************** PP
+
+    99at5820 2854 alniLnsLfknldnndknivketLkafkeackyesekWPsslcasfikiLtdpkviliylnsseamekiyiCkilceifrtlrrekek......... 2941
+                  ++n+LnsLf++ld++d+nivk+tLkafkeacky++e+WPs+lcas++++Lt+p+v+l+ylnssea+eki++C+il+e+frtlr+e+++         
+  SCO66936.1 3718 TINVLNSLFVYLDSSDRNIVKVTLKAFKEACKYAREQWPSPLCASYVNMLTTPSVVLPYLNSSEAAEKILMCGILREVFRTLRWERQHkgglapptq 3814
+                  ************************************************************************************************* PP
+
+    99at5820 2942 ..klkkkhlyeiatyLlihLvDkrkkvsknvWlaLkellkfkfsdhvndtLlyfdeklflskeek......................eqkeinikke 3014
+                    +l kkhlyeiatyL+ihLvDkrk+vs+nvW+aLke+l++kfs+hvn+tLl+fd+klfl++ ++                      + ++i+i++e
+  SCO66936.1 3815 tdTLPKKHLYEIATYLMIHLVDKRKNVSANVWKALKEFLRWKFSHHVNSTLLFFDRKLFLPSGVEvgryevvrsqvcrssvgmsqvdRARRITIQRE 3911
+                  *************************************************************************************99899******* PP
+
+    99at5820 3015 yfkkkkak.........................gskkeiseg.vsnvpakeekkilnkaaek........................ekkkekkkkke 3061
+                  yfk+  a+                         gs++ei+ g vs+vpa++    +++ +ek                        +         +
+  SCO66936.1 3912 YFKGAGAEegeqvategadydyfakglawdeksGSVGEINGGmVSCVPADTPTGGHTNGVEKahqqkvaphgrnttgetrkkgkkkK---------R 3999
+                  **8866668888999999999999999999998888999988667777776653333322223445667778888887654433211.........2 PP
+
+    99at5820 3062 .........kktnksdeesdnsesesskevkkqkiniyyykllveifiPLiiCiDtkvsykknlfaelnkyLyendleekeeennsl...kkendeL 3146
+                             +nksdeesd s+++ss evkk++in++yykllvei+iPLiiCiDtkvs+k++lfaeln yLy++d++ +ee+++sl   kke+d+L
+  SCO66936.1 4000 nrnrrhstnSAANKSDEESDVSQAYSSPEVKKERINTHYYKLLVEICIPLIICIDTKVSLKRDLFAELNGYLYGADVDPNEEDRDSLlsvKKESDRL 4096
+                  2234455557789**********************************************************************9986555899**** PP
+
+    99at5820 3147 yniffkelklnlkninslyrayiiLlnsrkyldkklwnvnipisedvikmikeyelkstksraehvLfGdLknyvkeeiekie.............. 3229
+                  ++iff++l++nl++ins+yra+iiLl+sr+yl+ ++wn+nipi++d+++mi+eye+kstksraehvLfGdL nyv+  + +                
+  SCO66936.1 4097 QQIFFTNLQMNLSSINSVYRAFIILLSSRSYLGPNVWNANIPINQDIERMISEYEVKSTKSRAEHVLFGDLSNYVHAWKRRERtdgggradiggrtn 4193
+                  ***************************************************************************7655433355889999999999 PP
+
+    99at5820 3230 ..........kkkekskennisksftsvltdsilntlsetlnysyDnfflnd.svs...kseisk.ekdskegnakeelenykv............. 3298
+                            k++e + e++++ks+tsv+tdsil+tls+t+nysyD++f+n+ svs   ++e+++  kds+eg+a ++++n+ +             
+  SCO66936.1 4194 rgeekqnkrkKQREATGEDAMQKSITSVWTDSILSTLSGTFNYSYDGAFFNSlSVSgsvEKEYTHrGKDSTEGDAIRTPHNCSRagwshqairmint 4290
+                  99999999877778899*******************************99963333222456666699**************999************ PP
+
+    99at5820 3299 .........ndsdeedelvyekkekenkiesskfdkv.....lsereeekensaigeneenn...esidekeeenlkke.................. 3360
+                           ++s++e+ + +  k++e k+++ +++++     l +re++k+++aig++ e        d+ + e+++k                   
+  SCO66936.1 4291 sgsappngdTSSEAEN-ADVC-KGEEPKEGPPPQGRAisthnLPSREGKKDHAAIGPSGEPPsdePPSDDGQGEEVNKVapleegqgtplqrefpsl 4385
+                  *****99753333333.4434.67789999999999966666667889999999998855435554455555555555566677777777777**** PP
+
+    99at5820 3361 ..............nnenyaifisssdeeeekeeeekre.................................kqfikrklkkiqllnkkynfvdkfk 3410
+                                ++enya+f+sssde+e   +e++ +                                 +qf++rk++kiqlln+ky++vdkfk
+  SCO66936.1 4386 eykrsrsfdpgerlSDENYANFVSSSDEGEAAGKEASVKdayvrdapvgdsllkdvtppaellnytpgdrsaSQFVRRKFAKIQLLNQKYSCVDKFK 4482
+                  *****************************9977666655699******************************************************* PP
+
+    99at5820 3411 nvqnlkleenlLywielLkflkedPpelvlskeik.....adffessLiCaLtvikfvsltlnckklykvtlkslnee................... 3483
+                  + +nlk+e++lL+wie+LkflkedPpe++l++e+k     adffes+LiC+L+v+kfvsl+l+ckkl++vtlk + +e                   
+  SCO66936.1 4483 TALNLKMETSLLQWIEMLKFLKEDPPEFILPRETKaahhlADFFESALICTLSVVKFVSLSLDCKKLHRVTLKRMRREaqalevaptvnaklsakvg 4579
+                  *********************************994444459*********************************9999****************** PP
+
+    99at5820 3484 ...........deekkieemyfihlLsistkLeaLcssiskqLctfLqeekt..........hlpiiksLsiLsiLkpsa 3542
+                             + ++++ee+yfi+lLsi++kLeaLcssiskqLc+fLqe+++          hlpii++L+ LsiLkps+
+  SCO66936.1 4580 gagggeeephsHLQHRMEETYFIQLLSICMKLEALCSSISKQLCAFLQEQHApdrtpdraaeHLPIIRALAALSILKPSP 4659
+                  **********999***********************************97633333444455****************95 PP
+
+>> SCO67619.1  RNA helicase 1, putative [Plasmodium vivax]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?    1.3  17.0    0.0048       7.3     383     536 ..      36     191 ..      16     206 .. 0.49
+
+  Alignments for each domain:
+  == domain 1  score: 1.3 bits;  conditional E-value: 0.0048
+    99at5820 383 eifndnikqeklykkkekekssehliknanngekeeskekdsdskaesekeklilksnikdkkesdlaseeenkedkytvekedengknkdekeeklkk 481
+                 + f dn+ ++ l +kk+++++ e   ++ +++e++ +++ +s++++  e+ +++ ++++++k+ +++++++ +++++ +v  + +++  +   + kl+ 
+  SCO67619.1  36 KRFMDNLVNSFLSEKKKRKDQEED-EEEGEEDEEGTEQNDSSENSSGAENGDNLEEKERRKKDGKEKKKKSVKEKKQNQVPVNMQKSLLETFYKMKLQA 133
+                 335666666555555544433333.33333333344444444444444444555555544444444444433333333333334444444444444444 PP
+
+    99at5820 482 kdavknseekekkkiedikkvckklldlylniils.lk..ysnenyikiLyiiskllL 536
+                 +++  ++ e  +kk e+i +  +k l+  l+ + +  k    +en++ i  + sk  L
+  SCO67619.1 134 QNNEVDETEEIRKKEEKILAQVSKALNAPLQSVKErAKgiVYSENFKTIWTLPSKYKL 191
+                 4444444555566666676666677777666544313322346777777776666655 PP
+
+>> SCO69086.1  conserved Plasmodium protein, unknown function [Plasmodium vivax]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?    1.0   6.9     0.006       9.1    1879    1941 ..     271     332 ..     206     356 .. 0.35
+
+  Alignments for each domain:
+  == domain 1  score: 1.0 bits;  conditional E-value: 0.006
+    99at5820 1879 kkklekekikkkgeeiaedsnnesnnkkdeekenkledkdaklkkkltkekkkkkkrkksekk 1941
+                   ++   e+++++++++ + ++++sn kkd+ +++  +dk+++ +   +k+kk  ++   ++k+
+  SCO69086.1  271 DEEGGLEEVDENNDKRDDGDDSSSNDKKDDGDDSSSNDKKDDGDDGASKDKKDDEDDG-ESKD 332 
+                  2222222333222222222222222232222222222222222222222222221111.1111 PP
+
+>> SCO68124.1  E3 ubiquitin-protein ligase RNF5, putative [Plasmodium vivax]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?    0.7  11.2    0.0074        11    1839    1945 ..     234     358 ..     213     389 .. 0.38
+
+  Alignments for each domain:
+  == domain 1  score: 0.7 bits;  conditional E-value: 0.0074
+    99at5820 1839 lnekkkiyqkfqenke.........kiknlrekelkekkkkkkeikkkrkkklekekikkk...geeiaedsnnesnnk...kdeek........en 1912
+                  +n k+++ +   +++          ++k+ ++++ ++ + k++ +k+k+kk   +++i k+   g  +ae +n ++ n+   +   k        + 
+  SCO68124.1  234 VNRKNRLGEGAPKEQGtraersqtdEAKDEETHHSNDVMIKDRGVKEKYKKLRFEDDIYKEnadG--KAEATNGQDPNQgetN---KmeekspisKD 325 
+                  33444433333332222222221111222222222222223333333333333333333331111..1111111111111111...11111233322 PP
+
+    99at5820 1913 kledkdaklkkkltkekkkkkkrkksekkknen 1945
+                  + + + +++++++++++k+++++kk++ ++n+ 
+  SCO68124.1  326 NQNVEPTNANNTSEEKNKTEENAKKNTTSENDG 358 
+                  222222222222222223333333333333333 PP
+
+
+
+Internal pipeline statistics summary:
+-------------------------------------
+Query model(s):                            1  (3542 nodes)
+Target sequences:                       6077  (3972224 residues searched)
+Passed MSV filter:                      3194  (0.525588); expected 121.5 (0.02)
+Passed bias filter:                      403  (0.0663156); expected 121.5 (0.02)
+Passed Vit filter:                       184  (0.0302781); expected 6.1 (0.001)
+Passed Fwd filter:                        83  (0.0136581); expected 0.1 (1e-05)
+Initial search space (Z):               6077  [actual number of targets]
+Domain search space  (domZ):               4  [number of targets reported over threshold]
+# CPU time: 8.73u 0.18s 00:00:08.91 Elapsed: 00:00:08.94
+# Mc/sec: 1572.03
+//
+[ok]

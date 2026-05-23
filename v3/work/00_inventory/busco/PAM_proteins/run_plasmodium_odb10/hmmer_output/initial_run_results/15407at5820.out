@@ -1,0 +1,16 @@
+#                                                                            --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name        accession   tlen query name           accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+#------------------- ---------- ----- -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+CAI7718856.1         -             99 15407at5820          -             88   5.2e-53  176.2  11.0   1   1   2.7e-56   5.9e-53  176.0  11.0     1    88     6    95     6    95 0.97 | transcript=PVPAM_050025000_t1 | gene=PVPAM_050025000 | organism=Plasmodium_vivax_PAM | gene_product=high mobility group protein B2, putative | transcript_product=high mobility group protein B2, putative | location=CASCJQ010000005:860006-860305(+) | protein_length=99 | sequence_SO=supercontig | SO=protein_coding_gene | is_pseudo=false
+CAI7722672.1         -            107 15407at5820          -             88   6.9e-31  105.3   6.5   1   1   4.1e-34   8.7e-31  104.9   6.5     8    88    20   102    15   102 0.91 | transcript=PVPAM_130017300_t1 | gene=PVPAM_130017300 | organism=Plasmodium_vivax_PAM | gene_product=high mobility group protein B1, putative | transcript_product=high mobility group protein B1, putative | location=CASCJQ010000013:571461-571784(-) | protein_length=107 | sequence_SO=supercontig | SO=protein_coding_gene | is_pseudo=false
+CAI7721265.1         -            251 15407at5820          -             88     0.011   14.9   0.6   1   1   1.3e-05     0.027   13.6   0.6    19    88     6    82     1    82 0.73 | transcript=PVPAM_110016700_t1 | gene=PVPAM_110016700 | organism=Plasmodium_vivax_PAM | gene_product=high mobility group protein B4, putative | transcript_product=high mobility group protein B4, putative | location=CASCJQ010000011:496087-498556(+) | protein_length=251 | sequence_SO=supercontig | SO=protein_coding_gene | is_pseudo=false
+#
+# Program:         hmmsearch
+# Version:         3.4 (Aug 2023)
+# Pipeline mode:   SEARCH
+# Query file:      /v3/work/00_inventory/busco/busco_downloads/lineages/plasmodium_odb10/hmms/15407at5820.hmm
+# Target file:     /v3/inputs/annotations/plasmodb-68/PAM.proteins.fa
+# Option settings: hmmsearch --domtblout /v3/work/00_inventory/busco/PAM_proteins/run_plasmodium_odb10/hmmer_output/initial_run_results/15407at5820.out --cpu 1 /v3/work/00_inventory/busco/busco_downloads/lineages/plasmodium_odb10/hmms/15407at5820.hmm /v3/inputs/annotations/plasmodb-68/PAM.proteins.fa 
+# Current dir:     /v3/work/00_inventory/busco
+# Date:            Tue May 19 17:31:13 2026
+# [ok]

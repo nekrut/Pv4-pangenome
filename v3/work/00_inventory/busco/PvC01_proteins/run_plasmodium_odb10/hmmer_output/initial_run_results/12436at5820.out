@@ -1,0 +1,21 @@
+#                                                                            --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name        accession   tlen query name           accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+#------------------- ---------- ----- -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+SCO75108.1           -            208 12436at5820          -            161   9.8e-90  296.9  23.4   1   2   2.4e-29   2.5e-26   90.7   0.1     1    52     1    54     1    73 0.84 SNARE protein, putative [Plasmodium vivax]
+SCO75108.1           -            208 12436at5820          -            161   9.8e-90  296.9  23.4   2   2   1.8e-65   1.9e-62  208.1  19.1    44   161    82   208    70   208 0.94 SNARE protein, putative [Plasmodium vivax]
+SCO74141.1           -            220 12436at5820          -            161   5.1e-07   28.0   0.3   1   1   7.2e-10   7.6e-07   27.4   0.3    67   138   141   214   120   219 0.85 SNARE protein, putative [Plasmodium vivax]
+SCO74006.1           -            718 12436at5820          -            161    0.0014   16.8   1.0   1   1   3.2e-06    0.0034   15.6   1.0    59   126   533   601   513   636 0.78 conserved Plasmodium protein, unknown function [Plasmodium vivax]
+SCO74832.1           -            295 12436at5820          -            161    0.0017   16.5   3.1   1   1   3.1e-06    0.0032   15.6   3.1    56   144   197   292   176   295 0.79 60S ribosomal protein L5, putative [Plasmodium vivax]
+SCO71233.1           -            344 12436at5820          -            161     0.031   12.5   4.8   1   1   5.3e-05     0.056   11.6   4.8    43   152   219   330   211   339 0.83 SNARE protein, putative [Plasmodium vivax]
+SCO71861.1           -            199 12436at5820          -            161      0.22    9.7   7.6   1   2     0.037        39    2.4   0.2    71   101    50    80     8    95 0.80 prenylated protein, putative [Plasmodium vivax]
+SCO71861.1           -            199 12436at5820          -            161      0.22    9.7   7.6   2   2   0.00018      0.19    9.9   2.9    86   135   140   188    88   193 0.62 prenylated protein, putative [Plasmodium vivax]
+#
+# Program:         hmmsearch
+# Version:         3.4 (Aug 2023)
+# Pipeline mode:   SEARCH
+# Query file:      /v3/work/00_inventory/busco/busco_downloads/lineages/plasmodium_odb10/hmms/12436at5820.hmm
+# Target file:     /v3/inputs/annotations/ncbi-datasets/PvC01.proteins.fa
+# Option settings: hmmsearch --domtblout /v3/work/00_inventory/busco/PvC01_proteins/run_plasmodium_odb10/hmmer_output/initial_run_results/12436at5820.out --cpu 1 /v3/work/00_inventory/busco/busco_downloads/lineages/plasmodium_odb10/hmms/12436at5820.hmm /v3/inputs/annotations/ncbi-datasets/PvC01.proteins.fa 
+# Current dir:     /v3/work/00_inventory/busco
+# Date:            Tue May 19 18:29:37 2026
+# [ok]

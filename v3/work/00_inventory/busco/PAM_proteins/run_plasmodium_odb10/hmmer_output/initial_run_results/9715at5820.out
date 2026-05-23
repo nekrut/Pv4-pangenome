@@ -1,0 +1,17 @@
+#                                                                            --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name        accession   tlen query name           accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+#------------------- ---------- ----- -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+CAI7721861.1         -            417 9715at5820           -            357  2.6e-222  736.0  36.1   1   2  8.7e-168  2.8e-164  545.2  15.6     1   274     1   312     1   317 0.98 | transcript=PVPAM_120009500_t1 | gene=PVPAM_120009500 | organism=Plasmodium_vivax_PAM | gene_product=GPN-loop GTPase, putative | transcript_product=GPN-loop GTPase, putative | location=CASCJQ010000012:179461-180714(-) | protein_length=417 | sequence_SO=supercontig | SO=protein_coding_gene | is_pseudo=false
+CAI7721861.1         -            417 9715at5820           -            357  2.6e-222  736.0  36.1   2   2   5.6e-62   1.8e-58  197.1  13.2   256   357   316   417   311   417 0.96 | transcript=PVPAM_120009500_t1 | gene=PVPAM_120009500 | organism=Plasmodium_vivax_PAM | gene_product=GPN-loop GTPase, putative | transcript_product=GPN-loop GTPase, putative | location=CASCJQ010000012:179461-180714(-) | protein_length=417 | sequence_SO=supercontig | SO=protein_coding_gene | is_pseudo=false
+CAI7719619.1         -            357 9715at5820           -            357   1.1e-37  128.8  12.8   1   2   1.6e-07    0.0005   18.0   0.0     1    47     1    47     1    49 0.93 | transcript=PVPAM_070023300_t1 | gene=PVPAM_070023300 | organism=Plasmodium_vivax_PAM | gene_product=GPN-loop GTPase, putative | transcript_product=GPN-loop GTPase, putative | location=CASCJQ010000007:820298-821371(+) | protein_length=357 | sequence_SO=supercontig | SO=protein_coding_gene | is_pseudo=false
+CAI7719619.1         -            357 9715at5820           -            357   1.1e-37  128.8  12.8   2   2   2.4e-34   7.6e-31  106.2  15.4    72   340    49   303    42   308 0.84 | transcript=PVPAM_070023300_t1 | gene=PVPAM_070023300 | organism=Plasmodium_vivax_PAM | gene_product=GPN-loop GTPase, putative | transcript_product=GPN-loop GTPase, putative | location=CASCJQ010000007:820298-821371(+) | protein_length=357 | sequence_SO=supercontig | SO=protein_coding_gene | is_pseudo=false
+#
+# Program:         hmmsearch
+# Version:         3.4 (Aug 2023)
+# Pipeline mode:   SEARCH
+# Query file:      /v3/work/00_inventory/busco/busco_downloads/lineages/plasmodium_odb10/hmms/9715at5820.hmm
+# Target file:     /v3/inputs/annotations/plasmodb-68/PAM.proteins.fa
+# Option settings: hmmsearch --domtblout /v3/work/00_inventory/busco/PAM_proteins/run_plasmodium_odb10/hmmer_output/initial_run_results/9715at5820.out --cpu 1 /v3/work/00_inventory/busco/busco_downloads/lineages/plasmodium_odb10/hmms/9715at5820.hmm /v3/inputs/annotations/plasmodb-68/PAM.proteins.fa 
+# Current dir:     /v3/work/00_inventory/busco
+# Date:            Tue May 19 17:52:22 2026
+# [ok]

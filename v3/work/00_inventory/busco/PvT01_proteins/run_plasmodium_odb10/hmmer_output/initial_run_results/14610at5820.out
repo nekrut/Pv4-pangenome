@@ -1,0 +1,16 @@
+#                                                                            --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name        accession   tlen query name           accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+#------------------- ---------- ----- -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+SCO66005.1           -            114 14610at5820          -             95   1.4e-48  161.5   0.5   1   1   8.4e-52   1.7e-48  161.3   0.5     1    95     9   110     9   110 0.94 conserved Plasmodium protein, unknown function [Plasmodium vivax]
+SCO65779.1           -             95 14610at5820          -             95     0.014   14.1   0.2   1   1   9.5e-06     0.019   13.7   0.2    23    76    10    61     2    75 0.77 U6 snRNA-associated Sm-like protein LSm8, putative [Plasmodium vivax]
+SCO69442.1           -            201 14610at5820          -             95     0.034   12.9   0.1   1   1   2.6e-05     0.053   12.2   0.1    26    66    14    55     3    77 0.72 small nuclear ribonucleoprotein-associated protein B, putative [Plasmodium vivax]
+#
+# Program:         hmmsearch
+# Version:         3.4 (Aug 2023)
+# Pipeline mode:   SEARCH
+# Query file:      /v3/work/00_inventory/busco/busco_downloads/lineages/plasmodium_odb10/hmms/14610at5820.hmm
+# Target file:     /v3/inputs/annotations/ncbi-datasets/PvT01.proteins.fa
+# Option settings: hmmsearch --domtblout /v3/work/00_inventory/busco/PvT01_proteins/run_plasmodium_odb10/hmmer_output/initial_run_results/14610at5820.out --cpu 1 /v3/work/00_inventory/busco/busco_downloads/lineages/plasmodium_odb10/hmms/14610at5820.hmm /v3/inputs/annotations/ncbi-datasets/PvT01.proteins.fa 
+# Current dir:     /v3/work/00_inventory/busco
+# Date:            Tue May 19 18:35:46 2026
+# [ok]

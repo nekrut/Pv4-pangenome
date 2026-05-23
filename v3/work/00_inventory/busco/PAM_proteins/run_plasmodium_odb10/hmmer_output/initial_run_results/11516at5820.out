@@ -1,0 +1,17 @@
+#                                                                            --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name        accession   tlen query name           accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+#------------------- ---------- ----- -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+CAI7722325.1         -            294 11516at5820          -            233  1.3e-109  363.8  11.5   1   1  9.2e-113    2e-109  363.2  11.5     2   232    21   283    20   284 0.90 | transcript=PVPAM_120056200_t1 | gene=PVPAM_120056200 | organism=Plasmodium_vivax_PAM | gene_product=polyprenol reductase, putative | transcript_product=polyprenol reductase, putative | location=CASCJQ010000012:2068706-2070762(+) | protein_length=294 | sequence_SO=supercontig | SO=protein_coding_gene | is_pseudo=false
+CAI7720645.1         -            296 11516at5820          -            233   1.1e-08   33.6   7.3   1   1   9.3e-12     2e-08   32.7   7.3    92   214   126   257    96   279 0.65 | transcript=PVPAM_090040900_t1 | gene=PVPAM_090040900 | organism=Plasmodium_vivax_PAM | gene_product=3-oxo-5-alpha-steroid 4-dehydrogenase, putative | transcript_product=3-oxo-5-alpha-steroid 4-dehydrogenase, putative | location=CASCJQ010000009:1579347-1581727(-) | protein_length=296 | sequence_SO=supercontig | SO=protein_coding_gene | is_pseudo=false
+CAI7718922.1         -            334 11516at5820          -            233    0.0057   14.8   0.1   1   2   2.6e-06    0.0057   14.8   0.1    14    47    32    65    27    74 0.88 | transcript=PVPAM_050031400_t1 | gene=PVPAM_050031400 | organism=Plasmodium_vivax_PAM | gene_product=Plasmodium exported protein (PHIST), unknown function | transcript_product=Plasmodium exported protein (PHIST), unknown function | location=CASCJQ010000005:1093668-1094845(-) | protein_length=334 | sequence_SO=supercontig | SO=protein_coding_gene | is_pseudo=false
+CAI7718922.1         -            334 11516at5820          -            233    0.0057   14.8   0.1   2   2         1   2.2e+03   -3.5   0.1    29    45   311   327   281   329 0.62 | transcript=PVPAM_050031400_t1 | gene=PVPAM_050031400 | organism=Plasmodium_vivax_PAM | gene_product=Plasmodium exported protein (PHIST), unknown function | transcript_product=Plasmodium exported protein (PHIST), unknown function | location=CASCJQ010000005:1093668-1094845(-) | protein_length=334 | sequence_SO=supercontig | SO=protein_coding_gene | is_pseudo=false
+#
+# Program:         hmmsearch
+# Version:         3.4 (Aug 2023)
+# Pipeline mode:   SEARCH
+# Query file:      /v3/work/00_inventory/busco/busco_downloads/lineages/plasmodium_odb10/hmms/11516at5820.hmm
+# Target file:     /v3/inputs/annotations/plasmodb-68/PAM.proteins.fa
+# Option settings: hmmsearch --domtblout /v3/work/00_inventory/busco/PAM_proteins/run_plasmodium_odb10/hmmer_output/initial_run_results/11516at5820.out --cpu 1 /v3/work/00_inventory/busco/busco_downloads/lineages/plasmodium_odb10/hmms/11516at5820.hmm /v3/inputs/annotations/plasmodb-68/PAM.proteins.fa 
+# Current dir:     /v3/work/00_inventory/busco
+# Date:            Tue May 19 17:30:21 2026
+# [ok]

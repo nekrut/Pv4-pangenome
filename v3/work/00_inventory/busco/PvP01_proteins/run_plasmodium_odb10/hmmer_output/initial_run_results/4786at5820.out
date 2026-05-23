@@ -1,0 +1,17 @@
+#                                                                            --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name        accession   tlen query name           accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+#------------------- ---------- ----- -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+PVP01_1016000.1-p1   -            557 4786at5820           -            474  2.4e-268  888.8  23.6   1   1  1.7e-267  5.7e-264  874.4  23.6     2   474     4   548     3   548 0.92 | transcript=PVP01_1016000.1 | gene=PVP01_1016000 | organism=Plasmodium_vivax_P01 | gene_product=zinc finger protein, putative | transcript_product=zinc finger protein, putative | location=PvP01_10_v2:713772-715578(+) | protein_length=557 | sequence_SO=chromosome | SO=protein_coding_gene | is_pseudo=false
+PVP01_1266600.1-p1   -           1198 4786at5820           -            474   2.1e-28   97.6  15.8   1   3      0.26   8.6e+02   -3.4   0.1    22   104    57   141    50   149 0.62 | transcript=PVP01_1266600.1 | gene=PVP01_1266600 | organism=Plasmodium_vivax_P01 | gene_product=zinc finger protein, putative | transcript_product=zinc finger protein, putative | location=PvP01_12_v2:2767345-2771131(+) | protein_length=1198 | sequence_SO=chromosome | SO=protein_coding_gene | is_pseudo=false
+PVP01_1266600.1-p1   -           1198 4786at5820           -            474   2.1e-28   97.6  15.8   2   3   6.3e-32   2.1e-28   97.6  15.8   209   441   241   481   231   517 0.88 | transcript=PVP01_1266600.1 | gene=PVP01_1266600 | organism=Plasmodium_vivax_P01 | gene_product=zinc finger protein, putative | transcript_product=zinc finger protein, putative | location=PvP01_12_v2:2767345-2771131(+) | protein_length=1198 | sequence_SO=chromosome | SO=protein_coding_gene | is_pseudo=false
+PVP01_1266600.1-p1   -           1198 4786at5820           -            474   2.1e-28   97.6  15.8   3   3      0.25     8e+02   -3.3   0.6   350   395   939   984   912  1021 0.68 | transcript=PVP01_1266600.1 | gene=PVP01_1266600 | organism=Plasmodium_vivax_P01 | gene_product=zinc finger protein, putative | transcript_product=zinc finger protein, putative | location=PvP01_12_v2:2767345-2771131(+) | protein_length=1198 | sequence_SO=chromosome | SO=protein_coding_gene | is_pseudo=false
+#
+# Program:         hmmsearch
+# Version:         3.4 (Aug 2023)
+# Pipeline mode:   SEARCH
+# Query file:      /v3/work/00_inventory/busco/busco_downloads/lineages/plasmodium_odb10/hmms/4786at5820.hmm
+# Target file:     /v3/inputs/annotations/plasmodb-68/PvP01.proteins.fa
+# Option settings: hmmsearch --domtblout /v3/work/00_inventory/busco/PvP01_proteins/run_plasmodium_odb10/hmmer_output/initial_run_results/4786at5820.out --cpu 1 /v3/work/00_inventory/busco/busco_downloads/lineages/plasmodium_odb10/hmms/4786at5820.hmm /v3/inputs/annotations/plasmodb-68/PvP01.proteins.fa 
+# Current dir:     /v3/work/00_inventory/busco
+# Date:            Tue May 19 17:43:01 2026
+# [ok]

@@ -1,0 +1,19 @@
+#                                                                            --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name        accession   tlen query name           accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+#------------------- ---------- ----- -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+SCO75413.1           -            548 5985at5820           -            451  1.5e-249  826.7  36.2   1   2   8.3e-34   2.6e-30  103.9   7.5    11    84    63   136    53   148 0.94 serine--tRNA ligase, putative [Plasmodium vivax]
+SCO75413.1           -            548 5985at5820           -            451  1.5e-249  826.7  36.2   2   2  2.2e-223  6.9e-220  728.8  20.7    83   451   172   548   156   548 0.97 serine--tRNA ligase, putative [Plasmodium vivax]
+SCO70860.1           -            638 5985at5820           -            451   3.4e-39  133.2  21.2   1   4     0.018        58    0.6  13.7    24   144    96   216    79   228 0.67 serine--tRNA ligase, putative [Plasmodium vivax]
+SCO70860.1           -            638 5985at5820           -            451   3.4e-39  133.2  21.2   2   4   0.00057       1.8    5.6   0.0   192   241   304   352   274   355 0.93 serine--tRNA ligase, putative [Plasmodium vivax]
+SCO70860.1           -            638 5985at5820           -            451   3.4e-39  133.2  21.2   3   4     4e-38   1.2e-34  118.2   0.2   240   397   386   542   383   556 0.95 serine--tRNA ligase, putative [Plasmodium vivax]
+SCO70860.1           -            638 5985at5820           -            451   3.4e-39  133.2  21.2   4   4   1.5e-05     0.048   10.8   0.0   396   446   584   630   578   634 0.86 serine--tRNA ligase, putative [Plasmodium vivax]
+#
+# Program:         hmmsearch
+# Version:         3.4 (Aug 2023)
+# Pipeline mode:   SEARCH
+# Query file:      /v3/work/00_inventory/busco/busco_downloads/lineages/plasmodium_odb10/hmms/5985at5820.hmm
+# Target file:     /v3/inputs/annotations/ncbi-datasets/PvC01.proteins.fa
+# Option settings: hmmsearch --domtblout /v3/work/00_inventory/busco/PvC01_proteins/run_plasmodium_odb10/hmmer_output/initial_run_results/5985at5820.out --cpu 1 /v3/work/00_inventory/busco/busco_downloads/lineages/plasmodium_odb10/hmms/5985at5820.hmm /v3/inputs/annotations/ncbi-datasets/PvC01.proteins.fa 
+# Current dir:     /v3/work/00_inventory/busco
+# Date:            Tue May 19 18:58:15 2026
+# [ok]

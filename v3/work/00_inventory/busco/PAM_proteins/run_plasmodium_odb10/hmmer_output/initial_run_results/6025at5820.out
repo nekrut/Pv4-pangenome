@@ -1,0 +1,17 @@
+#                                                                            --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name        accession   tlen query name           accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+#------------------- ---------- ----- -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+CAI7722275.1         -            594 6025at5820           -            445  1.4e-234  777.0  10.5   1   4     2e-16   1.3e-12   45.4   0.0     1    41     1    41     1    47 0.93 | transcript=PVPAM_120051200_t1 | gene=PVPAM_120051200 | organism=Plasmodium_vivax_PAM | gene_product=snRNA-activating protein complex subunit 3, putative | transcript_product=snRNA-activating protein complex subunit 3, putative | location=CASCJQ010000012:1874770-1876554(+) | protein_length=594 | sequence_SO=supercontig | SO=protein_coding_gene | is_pseudo=false
+CAI7722275.1         -            594 6025at5820           -            445  1.4e-234  777.0  10.5   2   4   9.3e-09     6e-05   20.1   0.0    39    65    64    90    59    93 0.89 | transcript=PVPAM_120051200_t1 | gene=PVPAM_120051200 | organism=Plasmodium_vivax_PAM | gene_product=snRNA-activating protein complex subunit 3, putative | transcript_product=snRNA-activating protein complex subunit 3, putative | location=CASCJQ010000012:1874770-1876554(+) | protein_length=594 | sequence_SO=supercontig | SO=protein_coding_gene | is_pseudo=false
+CAI7722275.1         -            594 6025at5820           -            445  1.4e-234  777.0  10.5   3   4     7e-17   4.5e-13   46.9   0.0    62   109   162   218   147   234 0.87 | transcript=PVPAM_120051200_t1 | gene=PVPAM_120051200 | organism=Plasmodium_vivax_PAM | gene_product=snRNA-activating protein complex subunit 3, putative | transcript_product=snRNA-activating protein complex subunit 3, putative | location=CASCJQ010000012:1874770-1876554(+) | protein_length=594 | sequence_SO=supercontig | SO=protein_coding_gene | is_pseudo=false
+CAI7722275.1         -            594 6025at5820           -            445  1.4e-234  777.0  10.5   4   4  2.9e-203  1.9e-199  661.2   8.7   108   445   245   594   236   594 0.96 | transcript=PVPAM_120051200_t1 | gene=PVPAM_120051200 | organism=Plasmodium_vivax_PAM | gene_product=snRNA-activating protein complex subunit 3, putative | transcript_product=snRNA-activating protein complex subunit 3, putative | location=CASCJQ010000012:1874770-1876554(+) | protein_length=594 | sequence_SO=supercontig | SO=protein_coding_gene | is_pseudo=false
+#
+# Program:         hmmsearch
+# Version:         3.4 (Aug 2023)
+# Pipeline mode:   SEARCH
+# Query file:      /v3/work/00_inventory/busco/busco_downloads/lineages/plasmodium_odb10/hmms/6025at5820.hmm
+# Target file:     /v3/inputs/annotations/plasmodb-68/PAM.proteins.fa
+# Option settings: hmmsearch --domtblout /v3/work/00_inventory/busco/PAM_proteins/run_plasmodium_odb10/hmmer_output/initial_run_results/6025at5820.out --cpu 1 /v3/work/00_inventory/busco/busco_downloads/lineages/plasmodium_odb10/hmms/6025at5820.hmm /v3/inputs/annotations/plasmodb-68/PAM.proteins.fa 
+# Current dir:     /v3/work/00_inventory/busco
+# Date:            Tue May 19 17:44:41 2026
+# [ok]

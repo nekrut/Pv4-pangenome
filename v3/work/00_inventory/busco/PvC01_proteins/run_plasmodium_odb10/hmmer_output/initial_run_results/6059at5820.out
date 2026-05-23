@@ -1,0 +1,16 @@
+#                                                                            --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name        accession   tlen query name           accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+#------------------- ---------- ----- -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+SCO72880.1           -            506 6059at5820           -            417    7e-215  712.3  30.4   1   2   2.1e-68   6.5e-65  218.2   0.9     1   111    30   142    30   151 0.96 adrenodoxin reductase, putative [Plasmodium vivax]
+SCO72880.1           -            506 6059at5820           -            417    7e-215  712.3  30.4   2   2  1.5e-153  4.7e-150  498.7  22.6   111   417   163   501   152   501 0.92 adrenodoxin reductase, putative [Plasmodium vivax]
+SCO73267.1           -           2228 6059at5820           -            417      0.16    9.4   2.7   1   1   9.3e-05      0.29    8.6   2.7   241   324  2019  2102  2014  2110 0.83 guanidine nucleotide exchange factor, putative [Plasmodium vivax]
+#
+# Program:         hmmsearch
+# Version:         3.4 (Aug 2023)
+# Pipeline mode:   SEARCH
+# Query file:      /v3/work/00_inventory/busco/busco_downloads/lineages/plasmodium_odb10/hmms/6059at5820.hmm
+# Target file:     /v3/inputs/annotations/ncbi-datasets/PvC01.proteins.fa
+# Option settings: hmmsearch --domtblout /v3/work/00_inventory/busco/PvC01_proteins/run_plasmodium_odb10/hmmer_output/initial_run_results/6059at5820.out --cpu 1 /v3/work/00_inventory/busco/busco_downloads/lineages/plasmodium_odb10/hmms/6059at5820.hmm /v3/inputs/annotations/ncbi-datasets/PvC01.proteins.fa 
+# Current dir:     /v3/work/00_inventory/busco
+# Date:            Tue May 19 18:59:01 2026
+# [ok]

@@ -1,0 +1,22 @@
+#                                                                            --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name        accession   tlen query name           accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+#------------------- ---------- ----- -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+SCO66421.1           -           1080 2890at5820           -            563  6.9e-247  818.9  38.4   1   5   3.4e-21     7e-18   62.9   1.2     1    69     1    92     1    96 0.74 SET domain protein, putative [Plasmodium vivax]
+SCO66421.1           -           1080 2890at5820           -            563  6.9e-247  818.9  38.4   2   5   5.8e-07    0.0012   15.9   0.0    67    91   113   138   105   147 0.85 SET domain protein, putative [Plasmodium vivax]
+SCO66421.1           -           1080 2890at5820           -            563  6.9e-247  818.9  38.4   3   5   3.4e-45   6.8e-42  142.2   1.2    97   190   369   463   361   471 0.95 SET domain protein, putative [Plasmodium vivax]
+SCO66421.1           -           1080 2890at5820           -            563  6.9e-247  818.9  38.4   4   5   1.1e-80   2.3e-77  259.3   2.9   185   333   533   679   526   690 0.93 SET domain protein, putative [Plasmodium vivax]
+SCO66421.1           -           1080 2890at5820           -            563  6.9e-247  818.9  38.4   5   5  3.2e-110  6.5e-107  356.8   7.9   341   563   839  1074   834  1074 0.95 SET domain protein, putative [Plasmodium vivax]
+SCO67251.1           -            791 2890at5820           -            563   4.6e-15   53.6  15.6   1   2   3.7e-07   0.00075   16.6   0.5   110   183   343   418   317   442 0.73 SET domain protein, putative [Plasmodium vivax]
+SCO67251.1           -            791 2890at5820           -            563   4.6e-15   53.6  15.6   2   2   1.6e-14   3.2e-11   40.9   8.7   217   466   493   750   473   764 0.69 SET domain protein, putative [Plasmodium vivax]
+SCO67816.1           -           1557 2890at5820           -            563   2.3e-06   24.9   0.4   1   2   1.1e-09   2.3e-06   24.9   0.4   237   386   460   612   453   658 0.85 SET domain protein, putative [Plasmodium vivax]
+SCO67816.1           -           1557 2890at5820           -            563   2.3e-06   24.9   0.4   2   2      0.34   6.9e+02   -3.1   0.1   447   482   830   864   826   881 0.75 SET domain protein, putative [Plasmodium vivax]
+#
+# Program:         hmmsearch
+# Version:         3.4 (Aug 2023)
+# Pipeline mode:   SEARCH
+# Query file:      /v3/work/00_inventory/busco/busco_downloads/lineages/plasmodium_odb10/hmms/2890at5820.hmm
+# Target file:     /v3/inputs/annotations/ncbi-datasets/PvT01.proteins.fa
+# Option settings: hmmsearch --domtblout /v3/work/00_inventory/busco/PvT01_proteins/run_plasmodium_odb10/hmmer_output/initial_run_results/2890at5820.out --cpu 1 /v3/work/00_inventory/busco/busco_downloads/lineages/plasmodium_odb10/hmms/2890at5820.hmm /v3/inputs/annotations/ncbi-datasets/PvT01.proteins.fa 
+# Current dir:     /v3/work/00_inventory/busco
+# Date:            Tue May 19 18:46:34 2026
+# [ok]

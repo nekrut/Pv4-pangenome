@@ -1,0 +1,17 @@
+#                                                                            --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name        accession   tlen query name           accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+#------------------- ---------- ----- -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+PVX_092290.1-p1      -            754 5380at5820           -            446  4.8e-233  772.1  53.6   1   2  4.3e-129  7.9e-126  418.7  25.5     1   242    13   274    13   291 0.93 | transcript=PVX_092290.1 | gene=PVX_092290 | organism=Plasmodium_vivax_Sal-1 | gene_product=hypothetical protein, conserved | transcript_product=hypothetical protein, conserved | location=Pv_Sal1_chr09:1237423-1239858(+) | protein_length=754 | sequence_SO=chromosome | SO=protein_coding_gene | is_pseudo=false
+PVX_092290.1-p1      -            754 5380at5820           -            446  4.8e-233  772.1  53.6   2   2    3e-110  5.6e-107  356.6  20.2   232   435   297   519   286   527 0.93 | transcript=PVX_092290.1 | gene=PVX_092290 | organism=Plasmodium_vivax_Sal-1 | gene_product=hypothetical protein, conserved | transcript_product=hypothetical protein, conserved | location=Pv_Sal1_chr09:1237423-1239858(+) | protein_length=754 | sequence_SO=chromosome | SO=protein_coding_gene | is_pseudo=false
+PVX_122218.1-p1      -            418 5380at5820           -            446   5.5e-07   27.0   0.1   1   1   4.3e-10   7.9e-07   26.5   0.1   244   324   322   406   306   411 0.85 | transcript=PVX_122218.1 | gene=PVX_122218 | organism=Plasmodium_vivax_Sal-1 | gene_product=fork head domain protein, putative | transcript_product=fork head domain protein, putative | location=Pv_Sal1_chr14:386199-387920(-) | protein_length=418 | sequence_SO=chromosome | SO=protein_coding_gene | is_pseudo=false
+PVX_116785.1-p1      -           1016 5380at5820           -            446   6.2e-05   20.3   2.0   1   1   5.8e-08   0.00011   19.5   2.0   338   436   604   703   592   711 0.89 | transcript=PVX_116785.1 | gene=PVX_116785 | organism=Plasmodium_vivax_Sal-1 | gene_product=splicing factor 1, putative | transcript_product=splicing factor 1, putative | location=Pv_Sal1_chr12:1293026-1296231(-) | protein_length=1016 | sequence_SO=chromosome | SO=protein_coding_gene | is_pseudo=false
+#
+# Program:         hmmsearch
+# Version:         3.4 (Aug 2023)
+# Pipeline mode:   SEARCH
+# Query file:      /v3/work/00_inventory/busco/busco_downloads/lineages/plasmodium_odb10/hmms/5380at5820.hmm
+# Target file:     /v3/inputs/annotations/plasmodb-68/Sal-I.proteins.fa
+# Option settings: hmmsearch --domtblout /v3/work/00_inventory/busco/Sal-I_proteins/run_plasmodium_odb10/hmmer_output/initial_run_results/5380at5820.out --cpu 1 /v3/work/00_inventory/busco/busco_downloads/lineages/plasmodium_odb10/hmms/5380at5820.hmm /v3/inputs/annotations/plasmodb-68/Sal-I.proteins.fa 
+# Current dir:     /v3/work/00_inventory/busco
+# Date:            Tue May 19 17:41:35 2026
+# [ok]

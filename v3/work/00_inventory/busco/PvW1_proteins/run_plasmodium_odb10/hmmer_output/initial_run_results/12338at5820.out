@@ -1,0 +1,16 @@
+#                                                                            --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name        accession   tlen query name           accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+#------------------- ---------- ----- -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+CAG9475857.1         -            283 12338at5820          -            264  5.3e-152  503.0  33.4   1   1    3e-155  6.2e-152  502.8  33.4     1   264     5   283     5   283 0.96 | transcript=PVW1_130031500_t1 | gene=PVW1_130031500 | organism=Plasmodium_vivax_PvW1 | gene_product=60S ribosomal protein L7a [Source:UniProtKB/TrEMBL;Acc:A0A1G4HIS6] | transcript_product=60S ribosomal protein L7a [Source:UniProtKB/TrEMBL;Acc:A0A1G4HIS6] | location=CAJZCX010000006:1165173-1166255(-) | protein_length=283 | sequence_SO=supercontig | SO=protein_coding_gene | is_pseudo=false
+CAG9479969.1         -            217 12338at5820          -            264   1.7e-06   26.0   4.3   1   1     1e-09     2e-06   25.7   4.3   122   207    81   173    28   207 0.67 | transcript=PVW1_050034400_t1 | gene=PVW1_050034400 | organism=Plasmodium_vivax_PvW1 | gene_product=Ribosomal_L7Ae domain-containing protein [Source:UniProtKB/TrEMBL;Acc:A0A1G4GTU2] | transcript_product=Ribosomal_L7Ae domain-containing protein [Source:UniProtKB/TrEMBL;Acc:A0A1G4GTU2] | location=CAJZCX010000010:1232820-1233473(-) | protein_length=217 | sequence_SO=supercontig | SO=protein_coding_gene | is_pseudo=false
+CAG9476901.1         -            145 12338at5820          -            264   4.3e-06   24.7   0.0   1   1   2.5e-09     5e-06   24.4   0.0   139   192    52   109    33   133 0.76 | transcript=PVW1_090029100_t1 | gene=PVW1_090029100 | organism=Plasmodium_vivax_PvW1 | gene_product=Ribonucloprotein [Source:UniProtKB/TrEMBL;Acc:A0A1G4GXQ7] | transcript_product=Ribonucloprotein [Source:UniProtKB/TrEMBL;Acc:A0A1G4GXQ7] | location=CAJZCX010000007:1102304-1103032(+) | protein_length=145 | sequence_SO=supercontig | SO=protein_coding_gene | is_pseudo=false
+#
+# Program:         hmmsearch
+# Version:         3.4 (Aug 2023)
+# Pipeline mode:   SEARCH
+# Query file:      /v3/work/00_inventory/busco/busco_downloads/lineages/plasmodium_odb10/hmms/12338at5820.hmm
+# Target file:     /v3/inputs/annotations/plasmodb-68/PvW1.proteins.fa
+# Option settings: hmmsearch --domtblout /v3/work/00_inventory/busco/PvW1_proteins/run_plasmodium_odb10/hmmer_output/initial_run_results/12338at5820.out --cpu 1 /v3/work/00_inventory/busco/busco_downloads/lineages/plasmodium_odb10/hmms/12338at5820.hmm /v3/inputs/annotations/plasmodb-68/PvW1.proteins.fa 
+# Current dir:     /v3/work/00_inventory/busco
+# Date:            Tue May 19 17:26:35 2026
+# [ok]

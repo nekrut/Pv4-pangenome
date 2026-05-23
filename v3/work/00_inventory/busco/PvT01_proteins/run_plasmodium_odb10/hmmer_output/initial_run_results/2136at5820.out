@@ -1,0 +1,22 @@
+#                                                                            --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name        accession   tlen query name           accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+#------------------- ---------- ----- -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+SCO65096.1           -           1511 2136at5820           -            816         0 1413.2  65.8   1   7   5.3e-68   1.6e-64  216.9   1.3     2   116     1   115     1   123 0.98 phosphatidylinositol-4-phosphate 5-kinase, putative [Plasmodium vivax]
+SCO65096.1           -           1511 2136at5820           -            816         0 1413.2  65.8   2   7   8.3e-53   2.5e-49  166.7   4.4   115   225   168   280   160   291 0.87 phosphatidylinositol-4-phosphate 5-kinase, putative [Plasmodium vivax]
+SCO65096.1           -           1511 2136at5820           -            816         0 1413.2  65.8   3   7   3.7e-05      0.11    9.1   0.3   207   239   289   322   277   326 0.86 phosphatidylinositol-4-phosphate 5-kinase, putative [Plasmodium vivax]
+SCO65096.1           -           1511 2136at5820           -            816         0 1413.2  65.8   4   7   2.5e-09   7.6e-06   22.9   0.7   244   289   672   719   640   728 0.80 phosphatidylinositol-4-phosphate 5-kinase, putative [Plasmodium vivax]
+SCO65096.1           -           1511 2136at5820           -            816         0 1413.2  65.8   5   7   2.5e-05     0.075    9.6   0.0   262   293   803   834   767   839 0.80 phosphatidylinositol-4-phosphate 5-kinase, putative [Plasmodium vivax]
+SCO65096.1           -           1511 2136at5820           -            816         0 1413.2  65.8   6   7   6.3e-32   1.9e-28   97.6   0.4   293   362   912   983   909   986 0.94 phosphatidylinositol-4-phosphate 5-kinase, putative [Plasmodium vivax]
+SCO65096.1           -           1511 2136at5820           -            816         0 1413.2  65.8   7   7  3.6e-279  1.1e-275  915.4  23.7   363   816  1040  1511  1035  1511 0.96 phosphatidylinositol-4-phosphate 5-kinase, putative [Plasmodium vivax]
+SCO68933.1           -            177 2136at5820           -            816   1.3e-05   22.0   3.2   1   2   2.2e-07   0.00066   16.4   0.2    11    96     7    90     2   104 0.81 calcineurin subunit B, putative [Plasmodium vivax]
+SCO68933.1           -            177 2136at5820           -            816   1.3e-05   22.0   3.2   2   2   0.00021      0.63    6.6   0.7    70   138   101   169    93   175 0.73 calcineurin subunit B, putative [Plasmodium vivax]
+#
+# Program:         hmmsearch
+# Version:         3.4 (Aug 2023)
+# Pipeline mode:   SEARCH
+# Query file:      /v3/work/00_inventory/busco/busco_downloads/lineages/plasmodium_odb10/hmms/2136at5820.hmm
+# Target file:     /v3/inputs/annotations/ncbi-datasets/PvT01.proteins.fa
+# Option settings: hmmsearch --domtblout /v3/work/00_inventory/busco/PvT01_proteins/run_plasmodium_odb10/hmmer_output/initial_run_results/2136at5820.out --cpu 1 /v3/work/00_inventory/busco/busco_downloads/lineages/plasmodium_odb10/hmms/2136at5820.hmm /v3/inputs/annotations/ncbi-datasets/PvT01.proteins.fa 
+# Current dir:     /v3/work/00_inventory/busco
+# Date:            Tue May 19 18:38:01 2026
+# [ok]

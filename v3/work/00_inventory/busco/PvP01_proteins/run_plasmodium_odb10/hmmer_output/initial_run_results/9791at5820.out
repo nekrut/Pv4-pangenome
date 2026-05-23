@@ -1,0 +1,17 @@
+#                                                                            --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name        accession   tlen query name           accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+#------------------- ---------- ----- -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+PVP01_1444500.1-p1   -            293 9791at5820           -            263  1.1e-168  557.6  12.2   1   1  6.1e-172  1.3e-168  557.2  12.2     1   263    10   293    10   293 0.97 | transcript=PVP01_1444500.1 | gene=PVP01_1444500 | organism=Plasmodium_vivax_P01 | gene_product=haloacid dehalogenase-like hydrolase, putative | transcript_product=haloacid dehalogenase-like hydrolase, putative | location=PvP01_14_v2:1929717-1930598(+) | protein_length=293 | sequence_SO=chromosome | SO=protein_coding_gene | is_pseudo=false
+PVP01_0618500.1-p1   -            292 9791at5820           -            263   1.4e-30  104.8   4.0   1   1   8.2e-34   1.8e-30  104.5   4.0     8   256    23   287    17   291 0.83 | transcript=PVP01_0618500.1 | gene=PVP01_0618500 | organism=Plasmodium_vivax_P01 | gene_product=haloacid dehalogenase-like hydrolase, putative | transcript_product=haloacid dehalogenase-like hydrolase, putative | location=PvP01_06_v2:761897-762775(+) | protein_length=292 | sequence_SO=chromosome | SO=protein_coding_gene | is_pseudo=false
+PVP01_1444300.1-p1   -            336 9791at5820           -            263   6.5e-15   53.5   2.9   1   2   8.3e-11   1.8e-07   29.0   1.5     4    85    34   114    31   206 0.81 | transcript=PVP01_1444300.1 | gene=PVP01_1444300 | organism=Plasmodium_vivax_P01 | gene_product=haloacid dehalogenase-like hydrolase, putative | transcript_product=haloacid dehalogenase-like hydrolase, putative | location=PvP01_14_v2:1920365-1921473(+) | protein_length=336 | sequence_SO=chromosome | SO=protein_coding_gene | is_pseudo=false
+PVP01_1444300.1-p1   -            336 9791at5820           -            263   6.5e-15   53.5   2.9   2   2   3.7e-09   8.1e-06   23.6   0.0   191   258   257   330   231   334 0.84 | transcript=PVP01_1444300.1 | gene=PVP01_1444300 | organism=Plasmodium_vivax_P01 | gene_product=haloacid dehalogenase-like hydrolase, putative | transcript_product=haloacid dehalogenase-like hydrolase, putative | location=PvP01_14_v2:1920365-1921473(+) | protein_length=336 | sequence_SO=chromosome | SO=protein_coding_gene | is_pseudo=false
+#
+# Program:         hmmsearch
+# Version:         3.4 (Aug 2023)
+# Pipeline mode:   SEARCH
+# Query file:      /v3/work/00_inventory/busco/busco_downloads/lineages/plasmodium_odb10/hmms/9791at5820.hmm
+# Target file:     /v3/inputs/annotations/plasmodb-68/PvP01.proteins.fa
+# Option settings: hmmsearch --domtblout /v3/work/00_inventory/busco/PvP01_proteins/run_plasmodium_odb10/hmmer_output/initial_run_results/9791at5820.out --cpu 1 /v3/work/00_inventory/busco/busco_downloads/lineages/plasmodium_odb10/hmms/9791at5820.hmm /v3/inputs/annotations/plasmodb-68/PvP01.proteins.fa 
+# Current dir:     /v3/work/00_inventory/busco
+# Date:            Tue May 19 17:52:42 2026
+# [ok]

@@ -1,0 +1,16 @@
+#                                                                            --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name        accession   tlen query name           accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+#------------------- ---------- ----- -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+PVX_099320.1-p1      -            395 7856at5820           -            367    7e-227  750.8  10.0   1   1  2.9e-230  8.1e-227  750.6  10.0     1   367     1   395     1   395 0.96 | transcript=PVX_099320.1 | gene=PVX_099320 | organism=Plasmodium_vivax_Sal-1 | gene_product=glideosome-associated protein 50, putative | transcript_product=glideosome-associated protein 50, putative | location=Pv_Sal1_chr07:674882-676069(-) | protein_length=395 | sequence_SO=chromosome | SO=protein_coding_gene | is_pseudo=false
+PVX_117230.1-p1      -           1373 7856at5820           -            367   2.8e-16   57.8   9.7   1   2   4.7e-15   1.3e-11   42.4   6.6    75   271   711   913   698   921 0.76 | transcript=PVX_117230.1 | gene=PVX_117230 | organism=Plasmodium_vivax_Sal-1 | gene_product=Ser/Thr protein phosphatase family protein | transcript_product=Ser/Thr protein phosphatase family protein | location=Pv_Sal1_chr12:1689009-1693130(-) | protein_length=1373 | sequence_SO=chromosome | SO=protein_coding_gene | is_pseudo=false
+PVX_117230.1-p1      -           1373 7856at5820           -            367   2.8e-16   57.8   9.7   2   2     7e-07    0.0019   15.5   0.0   267   309   955   997   941  1010 0.85 | transcript=PVX_117230.1 | gene=PVX_117230 | organism=Plasmodium_vivax_Sal-1 | gene_product=Ser/Thr protein phosphatase family protein | transcript_product=Ser/Thr protein phosphatase family protein | location=Pv_Sal1_chr12:1689009-1693130(-) | protein_length=1373 | sequence_SO=chromosome | SO=protein_coding_gene | is_pseudo=false
+#
+# Program:         hmmsearch
+# Version:         3.4 (Aug 2023)
+# Pipeline mode:   SEARCH
+# Query file:      /v3/work/00_inventory/busco/busco_downloads/lineages/plasmodium_odb10/hmms/7856at5820.hmm
+# Target file:     /v3/inputs/annotations/plasmodb-68/Sal-I.proteins.fa
+# Option settings: hmmsearch --domtblout /v3/work/00_inventory/busco/Sal-I_proteins/run_plasmodium_odb10/hmmer_output/initial_run_results/7856at5820.out --cpu 1 /v3/work/00_inventory/busco/busco_downloads/lineages/plasmodium_odb10/hmms/7856at5820.hmm /v3/inputs/annotations/plasmodb-68/Sal-I.proteins.fa 
+# Current dir:     /v3/work/00_inventory/busco
+# Date:            Tue May 19 17:49:04 2026
+# [ok]

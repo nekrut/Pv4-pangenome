@@ -1,0 +1,16 @@
+#                                                                            --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name        accession   tlen query name           accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+#------------------- ---------- ----- -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+SCO71331.1           -             99 15407at5820          -             88     5e-53  176.2  11.0   1   1   2.7e-56   5.8e-53  176.0  11.0     1    88     6    95     6    95 0.97 high mobility group protein B2, putative [Plasmodium vivax]
+SCO74607.1           -            107 15407at5820          -             88   6.7e-31  105.3   6.5   1   1   4.1e-34   8.5e-31  104.9   6.5     8    88    20   102    15   102 0.91 high mobility group protein B1, putative [Plasmodium vivax]
+SCO73494.1           -            251 15407at5820          -             88     0.011   14.9   0.6   1   1   1.3e-05     0.026   13.6   0.6    19    88     6    82     1    82 0.73 high mobility group protein B4, putative [Plasmodium vivax]
+#
+# Program:         hmmsearch
+# Version:         3.4 (Aug 2023)
+# Pipeline mode:   SEARCH
+# Query file:      /v3/work/00_inventory/busco/busco_downloads/lineages/plasmodium_odb10/hmms/15407at5820.hmm
+# Target file:     /v3/inputs/annotations/ncbi-datasets/PvC01.proteins.fa
+# Option settings: hmmsearch --domtblout /v3/work/00_inventory/busco/PvC01_proteins/run_plasmodium_odb10/hmmer_output/initial_run_results/15407at5820.out --cpu 1 /v3/work/00_inventory/busco/busco_downloads/lineages/plasmodium_odb10/hmms/15407at5820.hmm /v3/inputs/annotations/ncbi-datasets/PvC01.proteins.fa 
+# Current dir:     /v3/work/00_inventory/busco
+# Date:            Tue May 19 18:34:24 2026
+# [ok]

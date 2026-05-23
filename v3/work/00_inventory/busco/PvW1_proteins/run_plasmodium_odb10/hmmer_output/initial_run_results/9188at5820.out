@@ -1,0 +1,17 @@
+#                                                                            --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name        accession   tlen query name           accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+#------------------- ---------- ----- -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+CAG9482579.1         -            314 9188at5820           -            283    2e-141  468.8  34.3   1   1  1.1e-144  2.3e-141  468.6  34.3     1   283     1   314     1   314 0.92 | transcript=PVW1_040020500_t1 | gene=PVW1_040020500 | organism=Plasmodium_vivax_PvW1 | gene_product=t-SNARE coiled-coil homology domain-containing protein [Source:UniProtKB/TrEMBL;Acc:A0A1G4H874] | transcript_product=t-SNARE coiled-coil homology domain-containing protein [Source:UniProtKB/TrEMBL;Acc:A0A1G4H874] | location=CAJZCX010000013:672902-673846(-) | protein_length=314 | sequence_SO=supercontig | SO=protein_coding_gene | is_pseudo=false
+CAG9475702.1         -            451 9188at5820           -            283   1.6e-12   45.8  13.5   1   2   0.00059       1.2    6.8   6.0    47   149   158   275   144   281 0.58 | transcript=PVW1_130024600_t1 | gene=PVW1_130024600 | organism=Plasmodium_vivax_PvW1 | gene_product=unspecified product | transcript_product=unspecified product | location=CAJZCX010000006:904528-905883(+) | protein_length=451 | sequence_SO=supercontig | SO=protein_coding_gene | is_pseudo=false
+CAG9475702.1         -            451 9188at5820           -            283   1.6e-12   45.8  13.5   2   2   3.6e-15   7.3e-12   43.6   0.8   187   279   349   441   320   444 0.94 | transcript=PVW1_130024600_t1 | gene=PVW1_130024600 | organism=Plasmodium_vivax_PvW1 | gene_product=unspecified product | transcript_product=unspecified product | location=CAJZCX010000006:904528-905883(+) | protein_length=451 | sequence_SO=supercontig | SO=protein_coding_gene | is_pseudo=false
+CAG9473385.1         -            281 9188at5820           -            283     0.008   14.0   7.6   1   1   5.5e-06     0.011   13.5   7.6    19   276    22   279     7   281 0.65 | transcript=PVW1_120037100_t1 | gene=PVW1_120037100 | organism=Plasmodium_vivax_PvW1 | gene_product=t-SNARE coiled-coil homology domain-containing protein [Source:UniProtKB/TrEMBL;Acc:A0A1G4HGN4] | transcript_product=t-SNARE coiled-coil homology domain-containing protein [Source:UniProtKB/TrEMBL;Acc:A0A1G4HGN4] | location=CAJZCX010000004:1354392-1355961(+) | protein_length=281 | sequence_SO=supercontig | SO=protein_coding_gene | is_pseudo=false
+#
+# Program:         hmmsearch
+# Version:         3.4 (Aug 2023)
+# Pipeline mode:   SEARCH
+# Query file:      /v3/work/00_inventory/busco/busco_downloads/lineages/plasmodium_odb10/hmms/9188at5820.hmm
+# Target file:     /v3/inputs/annotations/plasmodb-68/PvW1.proteins.fa
+# Option settings: hmmsearch --domtblout /v3/work/00_inventory/busco/PvW1_proteins/run_plasmodium_odb10/hmmer_output/initial_run_results/9188at5820.out --cpu 1 /v3/work/00_inventory/busco/busco_downloads/lineages/plasmodium_odb10/hmms/9188at5820.hmm /v3/inputs/annotations/plasmodb-68/PvW1.proteins.fa 
+# Current dir:     /v3/work/00_inventory/busco
+# Date:            Tue May 19 17:50:07 2026
+# [ok]

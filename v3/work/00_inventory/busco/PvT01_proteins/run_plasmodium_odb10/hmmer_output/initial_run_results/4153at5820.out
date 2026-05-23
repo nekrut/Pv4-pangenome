@@ -1,0 +1,16 @@
+#                                                                            --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name        accession   tlen query name           accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+#------------------- ---------- ----- -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+SCO67651.1           -            685 4153at5820           -            573         0 1016.1  62.1   1   2  6.2e-184  1.9e-180  599.7  24.2     1   336     1   356     1   359 0.95 ubiquitin fusion degradation protein 1, putative [Plasmodium vivax]
+SCO67651.1           -            685 4153at5820           -            573         0 1016.1  62.1   2   2  2.9e-130  8.8e-127  422.5  29.9   334   572   401   684   395   685 0.97 ubiquitin fusion degradation protein 1, putative [Plasmodium vivax]
+SCO69409.1           -            281 4153at5820           -            573   4.6e-17   60.2   0.0   1   1     2e-20   6.2e-17   59.8   0.0    71   233    40   198    24   218 0.88 ubiquitin fusion degradation protein UFD1, putative [Plasmodium vivax]
+#
+# Program:         hmmsearch
+# Version:         3.4 (Aug 2023)
+# Pipeline mode:   SEARCH
+# Query file:      /v3/work/00_inventory/busco/busco_downloads/lineages/plasmodium_odb10/hmms/4153at5820.hmm
+# Target file:     /v3/inputs/annotations/ncbi-datasets/PvT01.proteins.fa
+# Option settings: hmmsearch --domtblout /v3/work/00_inventory/busco/PvT01_proteins/run_plasmodium_odb10/hmmer_output/initial_run_results/4153at5820.out --cpu 1 /v3/work/00_inventory/busco/busco_downloads/lineages/plasmodium_odb10/hmms/4153at5820.hmm /v3/inputs/annotations/ncbi-datasets/PvT01.proteins.fa 
+# Current dir:     /v3/work/00_inventory/busco
+# Date:            Tue May 19 18:45:47 2026
+# [ok]

@@ -1,0 +1,17 @@
+#                                                                            --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name        accession   tlen query name           accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+#------------------- ---------- ----- -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+CAI7723808.1         -            539 7901at5820           -            399  9.6e-166  550.4  47.0   1   2   6.8e-88   2.2e-84  282.5  20.7     1   210    25   280    25   286 0.89 | transcript=PVPAM_140073100_t1 | gene=PVPAM_140073100 | organism=Plasmodium_vivax_PAM | gene_product=GPI mannosyltransferase 2, putative | transcript_product=GPI mannosyltransferase 2, putative | location=CASCJQ010000014:2880420-2882182(+) | protein_length=539 | sequence_SO=supercontig | SO=protein_coding_gene | is_pseudo=false
+CAI7723808.1         -            539 7901at5820           -            399  9.6e-166  550.4  47.0   2   2   8.6e-82   2.8e-78  262.4  18.3   213   399   318   539   311   539 0.88 | transcript=PVPAM_140073100_t1 | gene=PVPAM_140073100 | organism=Plasmodium_vivax_PAM | gene_product=GPI mannosyltransferase 2, putative | transcript_product=GPI mannosyltransferase 2, putative | location=CASCJQ010000014:2880420-2882182(+) | protein_length=539 | sequence_SO=supercontig | SO=protein_coding_gene | is_pseudo=false
+CAI7718574.1         -            277 7901at5820           -            399      0.25    9.0  11.1   1   2   0.00079       2.5    5.7   5.1   225   270     3    48     1    86 0.68 | transcript=PVPAM_040031800_t1 | gene=PVPAM_040031800 | organism=Plasmodium_vivax_PAM | gene_product=translocation protein SEC66, putative | transcript_product=translocation protein SEC66, putative | location=CASCJQ010000004:1104239-1106044(-) | protein_length=277 | sequence_SO=supercontig | SO=protein_coding_gene | is_pseudo=false
+CAI7718574.1         -            277 7901at5820           -            399      0.25    9.0  11.1   2   2   0.00033       1.1    7.0   0.3   219   274   124   179   115   198 0.87 | transcript=PVPAM_040031800_t1 | gene=PVPAM_040031800 | organism=Plasmodium_vivax_PAM | gene_product=translocation protein SEC66, putative | transcript_product=translocation protein SEC66, putative | location=CASCJQ010000004:1104239-1106044(-) | protein_length=277 | sequence_SO=supercontig | SO=protein_coding_gene | is_pseudo=false
+#
+# Program:         hmmsearch
+# Version:         3.4 (Aug 2023)
+# Pipeline mode:   SEARCH
+# Query file:      /v3/work/00_inventory/busco/busco_downloads/lineages/plasmodium_odb10/hmms/7901at5820.hmm
+# Target file:     /v3/inputs/annotations/plasmodb-68/PAM.proteins.fa
+# Option settings: hmmsearch --domtblout /v3/work/00_inventory/busco/PAM_proteins/run_plasmodium_odb10/hmmer_output/initial_run_results/7901at5820.out --cpu 1 /v3/work/00_inventory/busco/busco_downloads/lineages/plasmodium_odb10/hmms/7901at5820.hmm /v3/inputs/annotations/plasmodb-68/PAM.proteins.fa 
+# Current dir:     /v3/work/00_inventory/busco
+# Date:            Tue May 19 17:49:18 2026
+# [ok]

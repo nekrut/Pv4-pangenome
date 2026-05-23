@@ -1,0 +1,19 @@
+#                                                                            --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name        accession   tlen query name           accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+#------------------- ---------- ----- -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+SCO67937.1           -             92 14943at5820          -             89     2e-57  189.8  13.3   1   1   1.9e-60   2.3e-57  189.7  13.3     1    89     1    92     1    92 0.97 mitochondrial import inner membrane translocase subunit TIM9, putative [Plasmodium vivax]
+SCO69379.1           -            110 14943at5820          -             89    0.0083   14.8   4.2   1   1   1.2e-05     0.015   14.0   4.2    33    66    33    65     4    86 0.88 mitochondrial import inner membrane translocase subunit TIM8, putative [Plasmodium vivax]
+SCO67885.1           -             76 14943at5820          -             89     0.011   14.5   2.4   1   2      0.15   1.8e+02    0.9   0.0    72    87     7    22     4    23 0.85 mitochondrial inner membrane TIM10 associated protein, putative [Plasmodium vivax]
+SCO67885.1           -             76 14943at5820          -             89     0.011   14.5   2.4   2   2   1.4e-05     0.017   13.8   2.3    32    66    18    52     9    74 0.79 mitochondrial inner membrane TIM10 associated protein, putative [Plasmodium vivax]
+SCO69187.1           -             75 14943at5820          -             89     0.011   14.4   0.3   1   1     1e-05     0.013   14.2   0.3    30    74    21    65     2    73 0.81 mitochondrial import inner membrane translocase subunit TIM10, putative [Plasmodium vivax]
+SCO70177.1           -             93 14943at5820          -             89     0.016   13.9   0.8   1   1   1.7e-05      0.02   13.6   0.8    33    66    35    67    24    86 0.84 mitochondrial import inner membrane translocase subunit TIM13, putative [Plasmodium vivax]
+#
+# Program:         hmmsearch
+# Version:         3.4 (Aug 2023)
+# Pipeline mode:   SEARCH
+# Query file:      /v3/work/00_inventory/busco/busco_downloads/lineages/plasmodium_odb10/hmms/14943at5820.hmm
+# Target file:     /v3/inputs/annotations/ncbi-datasets/PvT01.proteins.fa
+# Option settings: hmmsearch --domtblout /v3/work/00_inventory/busco/PvT01_proteins/run_plasmodium_odb10/hmmer_output/initial_run_results/14943at5820.out --cpu 1 /v3/work/00_inventory/busco/busco_downloads/lineages/plasmodium_odb10/hmms/14943at5820.hmm /v3/inputs/annotations/ncbi-datasets/PvT01.proteins.fa 
+# Current dir:     /v3/work/00_inventory/busco
+# Date:            Tue May 19 18:36:32 2026
+# [ok]

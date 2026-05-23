@@ -1,0 +1,21 @@
+#                                                                            --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name        accession   tlen query name           accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+#------------------- ---------- ----- -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+SCO70152.1           -            992 2837at5820           -            761         0 1456.7  32.5   1   4    0.0069        21    1.7   0.0     1    26     2    28     2    37 0.76 DNA gyrase subunit B, putative [Plasmodium vivax]
+SCO70152.1           -            992 2837at5820           -            761         0 1456.7  32.5   2   4   4.4e-76   1.3e-72  243.7   0.8    37   149   106   218    72   233 0.86 DNA gyrase subunit B, putative [Plasmodium vivax]
+SCO70152.1           -            992 2837at5820           -            761         0 1456.7  32.5   3   4         0         0 1075.2  19.3   139   683   258   850   244   857 0.96 DNA gyrase subunit B, putative [Plasmodium vivax]
+SCO70152.1           -            992 2837at5820           -            761         0 1456.7  32.5   4   4   1.4e-45   4.1e-42  142.9   0.1   682   760   911   989   889   990 0.91 DNA gyrase subunit B, putative [Plasmodium vivax]
+SCO69271.1           -           1502 2837at5820           -            761   1.2e-17   62.0  25.8   1   4   3.7e-06     0.011   12.5   0.7    69   133    54   125    41   258 0.69 DNA topoisomerase 2, putative [Plasmodium vivax]
+SCO69271.1           -           1502 2837at5820           -            761   1.2e-17   62.0  25.8   2   4   2.3e-16   6.9e-13   46.2   4.6   327   548   355   574   317   578 0.77 DNA topoisomerase 2, putative [Plasmodium vivax]
+SCO69271.1           -           1502 2837at5820           -            761   1.2e-17   62.0  25.8   3   4   1.1e-08   3.2e-05   20.9   0.2   579   630   576   628   567   703 0.81 DNA topoisomerase 2, putative [Plasmodium vivax]
+SCO69271.1           -           1502 2837at5820           -            761   1.2e-17   62.0  25.8   4   4         2   6.1e+03   -6.9   2.9   547   582  1075  1111  1069  1131 0.62 DNA topoisomerase 2, putative [Plasmodium vivax]
+#
+# Program:         hmmsearch
+# Version:         3.4 (Aug 2023)
+# Pipeline mode:   SEARCH
+# Query file:      /v3/work/00_inventory/busco/busco_downloads/lineages/plasmodium_odb10/hmms/2837at5820.hmm
+# Target file:     /v3/inputs/annotations/ncbi-datasets/PvT01.proteins.fa
+# Option settings: hmmsearch --domtblout /v3/work/00_inventory/busco/PvT01_proteins/run_plasmodium_odb10/hmmer_output/initial_run_results/2837at5820.out --cpu 1 /v3/work/00_inventory/busco/busco_downloads/lineages/plasmodium_odb10/hmms/2837at5820.hmm /v3/inputs/annotations/ncbi-datasets/PvT01.proteins.fa 
+# Current dir:     /v3/work/00_inventory/busco
+# Date:            Tue May 19 18:46:06 2026
+# [ok]

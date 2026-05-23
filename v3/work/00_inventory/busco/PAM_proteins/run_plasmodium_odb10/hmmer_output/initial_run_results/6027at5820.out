@@ -1,0 +1,17 @@
+#                                                                            --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name        accession   tlen query name           accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+#------------------- ---------- ----- -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+CAI7723298.1         -            679 6027at5820           -            485  2.1e-219  727.7  27.5   1   4   8.4e-10   5.4e-06   23.8   0.0     1    53     8    73     8    98 0.77 | transcript=PVPAM_140021700_t1 | gene=PVPAM_140021700 | organism=Plasmodium_vivax_PAM | gene_product=methionyl-tRNA formyltransferase, putative | transcript_product=methionyl-tRNA formyltransferase, putative | location=CASCJQ010000014:745697-747736(+) | protein_length=679 | sequence_SO=supercontig | SO=protein_coding_gene | is_pseudo=false
+CAI7723298.1         -            679 6027at5820           -            485  2.1e-219  727.7  27.5   2   4     0.038   2.4e+02   -1.4   0.0    72    83   140   151   121   158 0.79 | transcript=PVPAM_140021700_t1 | gene=PVPAM_140021700 | organism=Plasmodium_vivax_PAM | gene_product=methionyl-tRNA formyltransferase, putative | transcript_product=methionyl-tRNA formyltransferase, putative | location=CASCJQ010000014:745697-747736(+) | protein_length=679 | sequence_SO=supercontig | SO=protein_coding_gene | is_pseudo=false
+CAI7723298.1         -            679 6027at5820           -            485  2.1e-219  727.7  27.5   3   4    4e-148  2.6e-144  480.0  11.7    81   337   191   459   157   481 0.95 | transcript=PVPAM_140021700_t1 | gene=PVPAM_140021700 | organism=Plasmodium_vivax_PAM | gene_product=methionyl-tRNA formyltransferase, putative | transcript_product=methionyl-tRNA formyltransferase, putative | location=CASCJQ010000014:745697-747736(+) | protein_length=679 | sequence_SO=supercontig | SO=protein_coding_gene | is_pseudo=false
+CAI7723298.1         -            679 6027at5820           -            485  2.1e-219  727.7  27.5   4   4   2.7e-71   1.7e-67  226.6   5.2   353   485   529   679   503   679 0.84 | transcript=PVPAM_140021700_t1 | gene=PVPAM_140021700 | organism=Plasmodium_vivax_PAM | gene_product=methionyl-tRNA formyltransferase, putative | transcript_product=methionyl-tRNA formyltransferase, putative | location=CASCJQ010000014:745697-747736(+) | protein_length=679 | sequence_SO=supercontig | SO=protein_coding_gene | is_pseudo=false
+#
+# Program:         hmmsearch
+# Version:         3.4 (Aug 2023)
+# Pipeline mode:   SEARCH
+# Query file:      /v3/work/00_inventory/busco/busco_downloads/lineages/plasmodium_odb10/hmms/6027at5820.hmm
+# Target file:     /v3/inputs/annotations/plasmodb-68/PAM.proteins.fa
+# Option settings: hmmsearch --domtblout /v3/work/00_inventory/busco/PAM_proteins/run_plasmodium_odb10/hmmer_output/initial_run_results/6027at5820.out --cpu 1 /v3/work/00_inventory/busco/busco_downloads/lineages/plasmodium_odb10/hmms/6027at5820.hmm /v3/inputs/annotations/plasmodb-68/PAM.proteins.fa 
+# Current dir:     /v3/work/00_inventory/busco
+# Date:            Tue May 19 17:44:42 2026
+# [ok]

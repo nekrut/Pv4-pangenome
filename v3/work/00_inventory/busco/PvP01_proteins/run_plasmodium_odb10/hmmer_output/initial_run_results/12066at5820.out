@@ -1,0 +1,16 @@
+#                                                                            --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name        accession   tlen query name           accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+#------------------- ---------- ----- -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+PVP01_0702800.1-p1   -            185 12066at5820          -            168   2.3e-92  306.0  16.9   1   1   1.6e-95   5.1e-92  304.9  16.9     1   168     1   185     1   185 0.94 | transcript=PVP01_0702800.1 | gene=PVP01_0702800 | organism=Plasmodium_vivax_P01 | gene_product=signal peptidase complex subunit 3, putative | transcript_product=signal peptidase complex subunit 3, putative | location=PvP01_07_v2:168770-169327(-) | protein_length=185 | sequence_SO=chromosome | SO=protein_coding_gene | is_pseudo=false
+PVP01_1002350.1-p1   -            123 12066at5820          -            168     0.024   13.1   0.1   1   2   0.00097       3.2    6.2   0.1     4    51     3    52     1    54 0.82 | transcript=PVP01_1002350.1 | gene=PVP01_1002350 | organism=Plasmodium_vivax_P01 | gene_product=early transcribed membrane protein | transcript_product=early transcribed membrane protein | location=PvP01_10_v2:126343-126714(+) | protein_length=123 | sequence_SO=chromosome | SO=protein_coding_gene | is_pseudo=false
+PVP01_1002350.1-p1   -            123 12066at5820          -            168     0.024   13.1   0.1   2   2   0.00065       2.1    6.8   0.0     9    56    51    98    47   108 0.79 | transcript=PVP01_1002350.1 | gene=PVP01_1002350 | organism=Plasmodium_vivax_P01 | gene_product=early transcribed membrane protein | transcript_product=early transcribed membrane protein | location=PvP01_10_v2:126343-126714(+) | protein_length=123 | sequence_SO=chromosome | SO=protein_coding_gene | is_pseudo=false
+#
+# Program:         hmmsearch
+# Version:         3.4 (Aug 2023)
+# Pipeline mode:   SEARCH
+# Query file:      /v3/work/00_inventory/busco/busco_downloads/lineages/plasmodium_odb10/hmms/12066at5820.hmm
+# Target file:     /v3/inputs/annotations/plasmodb-68/PvP01.proteins.fa
+# Option settings: hmmsearch --domtblout /v3/work/00_inventory/busco/PvP01_proteins/run_plasmodium_odb10/hmmer_output/initial_run_results/12066at5820.out --cpu 1 /v3/work/00_inventory/busco/busco_downloads/lineages/plasmodium_odb10/hmms/12066at5820.hmm /v3/inputs/annotations/plasmodb-68/PvP01.proteins.fa 
+# Current dir:     /v3/work/00_inventory/busco
+# Date:            Tue May 19 17:25:33 2026
+# [ok]

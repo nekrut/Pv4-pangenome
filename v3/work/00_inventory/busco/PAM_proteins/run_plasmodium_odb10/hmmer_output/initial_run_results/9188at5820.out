@@ -1,0 +1,17 @@
+#                                                                            --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name        accession   tlen query name           accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+#------------------- ---------- ----- -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+CAI7718505.1         -            314 9188at5820           -            283  2.1e-141  468.8  34.3   1   1  1.1e-144  2.4e-141  468.6  34.3     1   283     1   314     1   314 0.92 | transcript=PVPAM_040024900_t1 | gene=PVPAM_040024900 | organism=Plasmodium_vivax_PAM | gene_product=syntaxin, Qa-SNARE family, putative | transcript_product=syntaxin, Qa-SNARE family, putative | location=CASCJQ010000004:840937-841881(-) | protein_length=314 | sequence_SO=supercontig | SO=protein_coding_gene | is_pseudo=false
+CAI7722829.1         -            461 9188at5820           -            283   9.3e-13   46.7  13.4   1   2   0.00033      0.71    7.7   5.9    47   146   163   277   149   285 0.58 | transcript=PVPAM_130033100_t1 | gene=PVPAM_130033100 | organism=Plasmodium_vivax_PAM | gene_product=syntaxin, Qa-SNARE family, putative | transcript_product=syntaxin, Qa-SNARE family, putative | location=CASCJQ010000013:1285255-1286640(+) | protein_length=461 | sequence_SO=supercontig | SO=protein_coding_gene | is_pseudo=false
+CAI7722829.1         -            461 9188at5820           -            283   9.3e-13   46.7  13.4   2   2   3.8e-15   8.1e-12   43.6   0.8   187   279   359   451   330   454 0.94 | transcript=PVPAM_130033100_t1 | gene=PVPAM_130033100 | organism=Plasmodium_vivax_PAM | gene_product=syntaxin, Qa-SNARE family, putative | transcript_product=syntaxin, Qa-SNARE family, putative | location=CASCJQ010000013:1285255-1286640(+) | protein_length=461 | sequence_SO=supercontig | SO=protein_coding_gene | is_pseudo=false
+CAI7722034.1         -            281 9188at5820           -            283    0.0085   14.0   7.6   1   1   5.5e-06     0.012   13.5   7.6    19   276    22   279     7   281 0.65 | transcript=PVPAM_120027300_t1 | gene=PVPAM_120027300 | organism=Plasmodium_vivax_PAM | gene_product=syntaxin, Qa-SNARE family, putative | transcript_product=syntaxin, Qa-SNARE family, putative | location=CASCJQ010000012:873487-875027(+) | protein_length=281 | sequence_SO=supercontig | SO=protein_coding_gene | is_pseudo=false
+#
+# Program:         hmmsearch
+# Version:         3.4 (Aug 2023)
+# Pipeline mode:   SEARCH
+# Query file:      /v3/work/00_inventory/busco/busco_downloads/lineages/plasmodium_odb10/hmms/9188at5820.hmm
+# Target file:     /v3/inputs/annotations/plasmodb-68/PAM.proteins.fa
+# Option settings: hmmsearch --domtblout /v3/work/00_inventory/busco/PAM_proteins/run_plasmodium_odb10/hmmer_output/initial_run_results/9188at5820.out --cpu 1 /v3/work/00_inventory/busco/busco_downloads/lineages/plasmodium_odb10/hmms/9188at5820.hmm /v3/inputs/annotations/plasmodb-68/PAM.proteins.fa 
+# Current dir:     /v3/work/00_inventory/busco
+# Date:            Tue May 19 17:50:07 2026
+# [ok]

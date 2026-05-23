@@ -1,0 +1,28 @@
+#                                                                            --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name        accession   tlen query name           accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+#------------------- ---------- ----- -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+SCO67420.1           -            543 4696at5820           -            156  5.5e-103  339.8   3.0   1   1  1.7e-105    1e-102  339.0   3.0     1   156    21   177    21   177 0.99 T-complex protein 1, alpha subunit, putative [Plasmodium vivax]
+SCO66918.1           -            535 4696at5820           -            156   5.5e-35  118.9   6.1   1   1   2.2e-37   1.3e-34  117.7   6.1     2   156    35   191    34   191 0.94 T-complex protein 1 subunit epsilon, putative [Plasmodium vivax]
+SCO67040.1           -            540 4696at5820           -            156   1.4e-34  117.6   2.3   1   1   4.6e-37   2.8e-34  116.7   2.3     2   153    31   185    30   188 0.91 T-complex protein 1, eta subunit, putative [Plasmodium vivax]
+SCO70050.1           -            544 4696at5820           -            156   2.5e-34  116.8   1.9   1   2   4.1e-37   2.5e-34  116.8   1.9     2   156    30   184    29   184 0.96 T-complex protein 1 subunit gamma, putative [Plasmodium vivax]
+SCO70050.1           -            544 4696at5820           -            156   2.5e-34  116.8   1.9   2   2       2.6   1.6e+03   -2.7   0.0    20    43   282   305   271   337 0.67 T-complex protein 1 subunit gamma, putative [Plasmodium vivax]
+SCO67053.1           -            532 4696at5820           -            156   9.7e-34  114.9   0.2   1   1   3.5e-36   2.1e-33  113.8   0.2     5   153    31   188    27   191 0.87 T-complex protein 1 subunit beta, putative [Plasmodium vivax]
+SCO68044.1           -            529 4696at5820           -            156   3.2e-30  103.5   3.2   1   1   1.4e-32   8.5e-30  102.1   3.2     2   153    29   180    28   183 0.93 T-complex protein 1, delta subunit, putative [Plasmodium vivax]
+SCO65614.1           -            544 4696at5820           -            156   9.1e-19   66.3   2.8   1   1   5.9e-21   3.6e-18   64.3   2.8     3   153    33   186    31   189 0.83 T-complex protein 1 subunit theta, putative [Plasmodium vivax]
+SCO68305.1           -            529 4696at5820           -            156   1.3e-18   65.8   1.6   1   1   6.3e-21   3.8e-18   64.2   1.6     4   147    27   174    24   183 0.86 T-complex protein 1 subunit zeta, putative [Plasmodium vivax]
+SCO70077.1           -            710 4696at5820           -            156   1.2e-10   39.8   1.4   1   4      0.19   1.2e+02    0.9   0.4   100   125    49    74    43    80 0.86 60 kDa chaperonin, putative [Plasmodium vivax]
+SCO70077.1           -            710 4696at5820           -            156   1.2e-10   39.8   1.4   2   4     2e-13   1.2e-10   39.8   1.4     5   131    89   217    85   241 0.85 60 kDa chaperonin, putative [Plasmodium vivax]
+SCO70077.1           -            710 4696at5820           -            156   1.2e-10   39.8   1.4   3   4      0.54   3.3e+02   -0.5   0.1    87   119   403   435   390   453 0.68 60 kDa chaperonin, putative [Plasmodium vivax]
+SCO70077.1           -            710 4696at5820           -            156   1.2e-10   39.8   1.4   4   4       3.2   1.9e+03   -3.0   0.2    98   125   584   611   555   636 0.60 60 kDa chaperonin, putative [Plasmodium vivax]
+SCO66874.1           -            580 4696at5820           -            156   1.2e-08   33.4   2.8   1   2   2.8e-10   1.7e-07   29.6   0.9     5   129    51   177    47   218 0.85 heat shock protein 60, putative [Plasmodium vivax]
+SCO66874.1           -            580 4696at5820           -            156   1.2e-08   33.4   2.8   2   2     0.051        31    2.8   0.0    87   131   315   358   309   365 0.80 heat shock protein 60, putative [Plasmodium vivax]
+#
+# Program:         hmmsearch
+# Version:         3.4 (Aug 2023)
+# Pipeline mode:   SEARCH
+# Query file:      /v3/work/00_inventory/busco/busco_downloads/lineages/plasmodium_odb10/hmms/4696at5820.hmm
+# Target file:     /v3/inputs/annotations/ncbi-datasets/PvT01.proteins.fa
+# Option settings: hmmsearch --domtblout /v3/work/00_inventory/busco/PvT01_proteins/run_plasmodium_odb10/hmmer_output/initial_run_results/4696at5820.out --cpu 1 /v3/work/00_inventory/busco/busco_downloads/lineages/plasmodium_odb10/hmms/4696at5820.hmm /v3/inputs/annotations/ncbi-datasets/PvT01.proteins.fa 
+# Current dir:     /v3/work/00_inventory/busco
+# Date:            Tue May 19 18:49:39 2026
+# [ok]

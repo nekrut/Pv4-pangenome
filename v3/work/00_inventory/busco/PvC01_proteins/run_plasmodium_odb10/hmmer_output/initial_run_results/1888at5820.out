@@ -1,0 +1,20 @@
+#                                                                            --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name        accession   tlen query name           accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+#------------------- ---------- ----- -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+SCO74463.1           -           1055 1888at5820           -            838         0 1501.2  86.3   1   6   5.6e-22   1.8e-18   64.7   0.6     1    52     1    54     1    56 0.94 histidine--tRNA ligase, putative [Plasmodium vivax]
+SCO74463.1           -           1055 1888at5820           -            838         0 1501.2  86.3   2   6   3.7e-19   1.2e-15   55.3   3.7    50    87    85   122    82   126 0.95 histidine--tRNA ligase, putative [Plasmodium vivax]
+SCO74463.1           -           1055 1888at5820           -            838         0 1501.2  86.3   3   6     1e-87   3.2e-84  282.2  20.0    86   277   153   362   151   378 0.93 histidine--tRNA ligase, putative [Plasmodium vivax]
+SCO74463.1           -           1055 1888at5820           -            838         0 1501.2  86.3   4   6   4.3e-37   1.3e-33  114.7   1.3   267   354   400   488   390   512 0.85 histidine--tRNA ligase, putative [Plasmodium vivax]
+SCO74463.1           -           1055 1888at5820           -            838         0 1501.2  86.3   5   6  3.6e-243  1.1e-239  796.4  18.7   356   719   526   893   514   896 0.98 histidine--tRNA ligase, putative [Plasmodium vivax]
+SCO74463.1           -           1055 1888at5820           -            838         0 1501.2  86.3   6   6   5.9e-68   1.9e-64  216.8   4.5   719   838   930  1052   920  1052 0.96 histidine--tRNA ligase, putative [Plasmodium vivax]
+SCO72100.1           -            623 1888at5820           -            838     3e-10   37.4   7.6   1   1   3.7e-13   1.2e-09   35.5   7.6   461   704   221   457   211   473 0.71 histidine--tRNA ligase, putative [Plasmodium vivax]
+#
+# Program:         hmmsearch
+# Version:         3.4 (Aug 2023)
+# Pipeline mode:   SEARCH
+# Query file:      /v3/work/00_inventory/busco/busco_downloads/lineages/plasmodium_odb10/hmms/1888at5820.hmm
+# Target file:     /v3/inputs/annotations/ncbi-datasets/PvC01.proteins.fa
+# Option settings: hmmsearch --domtblout /v3/work/00_inventory/busco/PvC01_proteins/run_plasmodium_odb10/hmmer_output/initial_run_results/1888at5820.out --cpu 1 /v3/work/00_inventory/busco/busco_downloads/lineages/plasmodium_odb10/hmms/1888at5820.hmm /v3/inputs/annotations/ncbi-datasets/PvC01.proteins.fa 
+# Current dir:     /v3/work/00_inventory/busco
+# Date:            Tue May 19 18:36:36 2026
+# [ok]

@@ -1,0 +1,16 @@
+#                                                                            --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name        accession   tlen query name           accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+#------------------- ---------- ----- -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+SCO73197.1           -             86 15051at5820          -             76   1.1e-49  165.0   0.3   1   1     6e-53   1.3e-49  164.9   0.3     1    76     1    77     1    77 0.98 BolA-like protein, putative [Plasmodium vivax]
+SCO70661.1           -            265 15051at5820          -             76     0.019   13.7   0.1   1   1   2.1e-05     0.044   12.5   0.1    16    63    63   115    53   121 0.86 vacuolar protein sorting-associated protein VTA1, putative [Plasmodium vivax]
+SCO71887.1           -            613 15051at5820          -             76     0.036   12.8   0.2   1   1   5.4e-05      0.11   11.2   0.2     7    68   467   531   461   538 0.80 conserved Plasmodium protein, unknown function [Plasmodium vivax]
+#
+# Program:         hmmsearch
+# Version:         3.4 (Aug 2023)
+# Pipeline mode:   SEARCH
+# Query file:      /v3/work/00_inventory/busco/busco_downloads/lineages/plasmodium_odb10/hmms/15051at5820.hmm
+# Target file:     /v3/inputs/annotations/ncbi-datasets/PvC01.proteins.fa
+# Option settings: hmmsearch --domtblout /v3/work/00_inventory/busco/PvC01_proteins/run_plasmodium_odb10/hmmer_output/initial_run_results/15051at5820.out --cpu 1 /v3/work/00_inventory/busco/busco_downloads/lineages/plasmodium_odb10/hmms/15051at5820.hmm /v3/inputs/annotations/ncbi-datasets/PvC01.proteins.fa 
+# Current dir:     /v3/work/00_inventory/busco
+# Date:            Tue May 19 18:36:43 2026
+# [ok]

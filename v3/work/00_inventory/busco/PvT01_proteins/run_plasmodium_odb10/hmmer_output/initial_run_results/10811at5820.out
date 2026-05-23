@@ -1,0 +1,30 @@
+#                                                                            --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name        accession   tlen query name           accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+#------------------- ---------- ----- -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+SCO67309.1           -            286 10811at5820          -            241  6.1e-136  449.9  28.4   1   1  1.5e-138  7.6e-136  449.6  28.4     1   241     5   269     5   269 0.93 palmitoyltransferase, putative [Plasmodium vivax]
+SCO69800.1           -            297 10811at5820          -            241   1.7e-16   58.8  36.3   1   1   4.3e-18   2.2e-15   55.2  36.3    30   218    61   255     7   260 0.80 palmitoyltransferase, putative [Plasmodium vivax]
+SCO68295.1           -            284 10811at5820          -            241   2.1e-16   58.6  15.7   1   1     7e-19   3.5e-16   57.8  15.7    49   217    55   226    11   236 0.61 palmitoyltransferase, putative [Plasmodium vivax]
+SCO67614.1           -            437 10811at5820          -            241   2.2e-13   48.7  19.8   1   2       6.8   3.5e+03   -4.4   6.7   132   174   137   180   119   212 0.50 palmitoyltransferase, putative [Plasmodium vivax]
+SCO67614.1           -            437 10811at5820          -            241   2.2e-13   48.7  19.8   2   2   4.3e-16   2.2e-13   48.7  19.8    89   221   245   369   186   377 0.79 palmitoyltransferase, putative [Plasmodium vivax]
+SCO65595.1           -            272 10811at5820          -            241   2.4e-13   48.5  13.3   1   1   4.8e-16   2.4e-13   48.5  13.3    93   228    95   232    83   238 0.59 palmitoyltransferase, putative [Plasmodium vivax]
+SCO69812.1           -           1016 10811at5820          -            241   6.5e-13   47.1  32.8   1   1   1.4e-14   7.3e-12   43.7  32.8    62   218   109   268    25   279 0.75 palmitoyltransferase, putative [Plasmodium vivax]
+SCO65727.1           -            287 10811at5820          -            241     1e-12   46.5  11.8   1   2     0.083        42    1.9   0.1    40    67    16    42     9    52 0.76 palmitoyltransferase, putative [Plasmodium vivax]
+SCO65727.1           -            287 10811at5820          -            241     1e-12   46.5  11.8   2   2     2e-15     1e-12   46.5  11.8    88   202    98   219    77   249 0.67 palmitoyltransferase, putative [Plasmodium vivax]
+SCO67258.1           -            355 10811at5820          -            241   1.4e-12   46.0   5.7   1   1   6.4e-15   3.2e-12   44.8   5.7    91   216   157   279   140   303 0.67 palmitoyltransferase, putative [Plasmodium vivax]
+SCO68700.1           -            641 10811at5820          -            241   2.8e-09   35.2   3.7   1   1   1.1e-11   5.6e-09   34.2   3.7    87   155   434   500   421   540 0.79 palmitoyltransferase, putative [Plasmodium vivax]
+SCO67086.1           -            611 10811at5820          -            241   1.7e-07   29.4  18.9   1   2       2.5   1.3e+03   -3.0   0.4    47    62   267   281   253   305 0.57 palmitoyltransferase, putative [Plasmodium vivax]
+SCO67086.1           -            611 10811at5820          -            241   1.7e-07   29.4  18.9   2   2   3.3e-10   1.7e-07   29.4  18.9    92   218   432   548   404   562 0.63 palmitoyltransferase, putative [Plasmodium vivax]
+SCO66218.1           -            281 10811at5820          -            241   5.8e-07   27.6  13.3   1   2       1.4   7.2e+02   -2.2   5.0   140   187    23    71    13    82 0.50 palmitoyltransferase, putative [Plasmodium vivax]
+SCO66218.1           -            281 10811at5820          -            241   5.8e-07   27.6  13.3   2   2   1.1e-09   5.8e-07   27.6  13.3    89   220   109   232    58   245 0.71 palmitoyltransferase, putative [Plasmodium vivax]
+SCO66731.1           -            220 10811at5820          -            241    0.0016   16.4   0.3   1   2      0.51   2.6e+02   -0.7   0.0    22    41    44    61    25    69 0.54 Plasmodium exported protein, unknown function [Plasmodium vivax]
+SCO66731.1           -            220 10811at5820          -            241    0.0016   16.4   0.3   2   2   1.2e-05     0.006   14.5   0.1    27    66   164   203   138   209 0.87 Plasmodium exported protein, unknown function [Plasmodium vivax]
+#
+# Program:         hmmsearch
+# Version:         3.4 (Aug 2023)
+# Pipeline mode:   SEARCH
+# Query file:      /v3/work/00_inventory/busco/busco_downloads/lineages/plasmodium_odb10/hmms/10811at5820.hmm
+# Target file:     /v3/inputs/annotations/ncbi-datasets/PvT01.proteins.fa
+# Option settings: hmmsearch --domtblout /v3/work/00_inventory/busco/PvT01_proteins/run_plasmodium_odb10/hmmer_output/initial_run_results/10811at5820.out --cpu 1 /v3/work/00_inventory/busco/busco_downloads/lineages/plasmodium_odb10/hmms/10811at5820.hmm /v3/inputs/annotations/ncbi-datasets/PvT01.proteins.fa 
+# Current dir:     /v3/work/00_inventory/busco
+# Date:            Tue May 19 18:30:32 2026
+# [ok]

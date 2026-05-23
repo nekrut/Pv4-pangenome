@@ -1,0 +1,17 @@
+#                                                                            --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name        accession   tlen query name           accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+#------------------- ---------- ----- -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+PVX_113725a.1-p1     -             51 15611at5820          -             51   1.6e-38  129.0  12.7   1   1   9.1e-42   1.7e-38  128.9  12.7     1    51     1    51     1    51 0.99 | transcript=PVX_113725a.1 | gene=PVX_113725a | organism=Plasmodium_vivax_Sal-1 | gene_product=60S ribosomal protein L39, putative | transcript_product=60S ribosomal protein L39, putative | location=Pv_Sal1_chr11:1553309-1553906(+) | protein_length=51 | sequence_SO=chromosome | SO=protein_coding_gene | is_pseudo=false
+PVX_089895.1-p1      -            653 15611at5820          -             51     0.017   13.5   0.7   1   1   2.5e-05     0.047   12.2   0.7     2    29    49    76    48    96 0.90 | transcript=PVX_089895.1 | gene=PVX_089895 | organism=Plasmodium_vivax_Sal-1 | gene_product=glutamyl-tRNA(Gln) amidotransferase subunit A, putative | transcript_product=glutamyl-tRNA(Gln) amidotransferase subunit A, putative | location=Pv_Sal1_chr05:922710-924671(+) | protein_length=653 | sequence_SO=chromosome | SO=protein_coding_gene | is_pseudo=false
+PVX_086945.1-p1      -            404 15611at5820          -             51       1.1    7.8  10.7   1   2     0.002       3.7    6.1   0.9    16    49   114   149   101   150 0.79 | transcript=PVX_086945.1 | gene=PVX_086945 | organism=Plasmodium_vivax_Sal-1 | gene_product=Plasmodium exported protein, unknown function | transcript_product=Plasmodium exported protein, unknown function | location=Pv_Sal1_chr07:1353104-1354428(+) | protein_length=404 | sequence_SO=chromosome | SO=protein_coding_gene | is_pseudo=false
+PVX_086945.1-p1      -            404 15611at5820          -             51       1.1    7.8  10.7   2   2    0.0044         8    5.0   3.0    36    48   211   223   206   225 0.90 | transcript=PVX_086945.1 | gene=PVX_086945 | organism=Plasmodium_vivax_Sal-1 | gene_product=Plasmodium exported protein, unknown function | transcript_product=Plasmodium exported protein, unknown function | location=Pv_Sal1_chr07:1353104-1354428(+) | protein_length=404 | sequence_SO=chromosome | SO=protein_coding_gene | is_pseudo=false
+#
+# Program:         hmmsearch
+# Version:         3.4 (Aug 2023)
+# Pipeline mode:   SEARCH
+# Query file:      /v3/work/00_inventory/busco/busco_downloads/lineages/plasmodium_odb10/hmms/15611at5820.hmm
+# Target file:     /v3/inputs/annotations/plasmodb-68/Sal-I.proteins.fa
+# Option settings: hmmsearch --domtblout /v3/work/00_inventory/busco/Sal-I_proteins/run_plasmodium_odb10/hmmer_output/initial_run_results/15611at5820.out --cpu 1 /v3/work/00_inventory/busco/busco_downloads/lineages/plasmodium_odb10/hmms/15611at5820.hmm /v3/inputs/annotations/plasmodb-68/Sal-I.proteins.fa 
+# Current dir:     /v3/work/00_inventory/busco
+# Date:            Tue May 19 17:31:28 2026
+# [ok]

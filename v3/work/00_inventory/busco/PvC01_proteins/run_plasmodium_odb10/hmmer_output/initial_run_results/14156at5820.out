@@ -1,0 +1,20 @@
+#                                                                            --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name        accession   tlen query name           accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+#------------------- ---------- ----- -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+SCO72070.1           -            191 14156at5820          -            150   1.4e-80  267.3  19.2   1   2     0.021        32    3.3   0.2     3    19    24    40    21    47 0.83 NifU-like protein, putative [Plasmodium vivax]
+SCO72070.1           -            191 14156at5820          -            150   1.4e-80  267.3  19.2   2   2   1.1e-83   1.7e-80  267.1  14.1    13   150    50   191    43   191 0.95 NifU-like protein, putative [Plasmodium vivax]
+SCO71970.1           -            265 14156at5820          -            150   2.3e-07   29.7   1.5   1   1   1.5e-10   2.3e-07   29.7   1.5    80   138    91   147    36   158 0.89 NifU-like scaffold protein, putative [Plasmodium vivax]
+SCO72200.1           -            543 14156at5820          -            150     0.055   12.3   0.1   1   1   7.3e-05      0.11   11.2   0.0    22   139   293   418   286   430 0.74 conserved Plasmodium protein, unknown function [Plasmodium vivax]
+SCO70563.1           -            399 14156at5820          -            150     0.068   12.0   2.0   1   3      0.18   2.9e+02    0.2   0.1    52    67     6    21     3    57 0.76 VIR protein [Plasmodium vivax]
+SCO70563.1           -            399 14156at5820          -            150     0.068   12.0   2.0   2   3   0.00031      0.49    9.2   0.0    25    87    67   129    62   134 0.87 VIR protein [Plasmodium vivax]
+SCO70563.1           -            399 14156at5820          -            150     0.068   12.0   2.0   3   3      0.36   5.7e+02   -0.8   0.1    18    39   163   184   146   193 0.72 VIR protein [Plasmodium vivax]
+#
+# Program:         hmmsearch
+# Version:         3.4 (Aug 2023)
+# Pipeline mode:   SEARCH
+# Query file:      /v3/work/00_inventory/busco/busco_downloads/lineages/plasmodium_odb10/hmms/14156at5820.hmm
+# Target file:     /v3/inputs/annotations/ncbi-datasets/PvC01.proteins.fa
+# Option settings: hmmsearch --domtblout /v3/work/00_inventory/busco/PvC01_proteins/run_plasmodium_odb10/hmmer_output/initial_run_results/14156at5820.out --cpu 1 /v3/work/00_inventory/busco/busco_downloads/lineages/plasmodium_odb10/hmms/14156at5820.hmm /v3/inputs/annotations/ncbi-datasets/PvC01.proteins.fa 
+# Current dir:     /v3/work/00_inventory/busco
+# Date:            Tue May 19 18:34:35 2026
+# [ok]

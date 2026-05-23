@@ -1,0 +1,30 @@
+#                                                                            --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name        accession   tlen query name           accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+#------------------- ---------- ----- -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+SCO75201.1           -           1066 2273at5820           -            873         0 1677.7  32.0   1   2  4.4e-180  2.5e-177  590.3   0.0     1   330     7   393     7   401 0.98 translation initiation factor IF-2, putative [Plasmodium vivax]
+SCO75201.1           -           1066 2273at5820           -            873         0 1677.7  32.0   2   2         0         0 1081.1  29.1   324   873   447  1066   435  1066 0.92 translation initiation factor IF-2, putative [Plasmodium vivax]
+SCO71229.1           -           1162 2273at5820           -            873   4.3e-30  103.2   3.2   1   2   3.3e-28   1.9e-25   87.8   0.2   118   257   572   711   531   732 0.79 translation initiation factor IF-2, putative [Plasmodium vivax]
+SCO71229.1           -           1162 2273at5820           -            873   4.3e-30  103.2   3.2   2   2   2.2e-06    0.0013   15.6   0.3   333   459   746   875   720   884 0.81 translation initiation factor IF-2, putative [Plasmodium vivax]
+SCO73786.1           -            996 2273at5820           -            873   2.4e-16   57.7   1.6   1   3      0.39   2.2e+02   -1.8   3.7   525   590   204   273   202   354 0.65 translation initiation factor IF-2, putative [Plasmodium vivax]
+SCO73786.1           -            996 2273at5820           -            873   2.4e-16   57.7   1.6   2   3   2.7e-17   1.6e-14   51.7   0.2   138   255   407   542   380   672 0.76 translation initiation factor IF-2, putative [Plasmodium vivax]
+SCO73786.1           -            996 2273at5820           -            873   2.4e-16   57.7   1.6   3   3   4.8e-06    0.0028   14.5   0.1   778   851   780   856   769   860 0.91 translation initiation factor IF-2, putative [Plasmodium vivax]
+SCO73831.1           -            895 2273at5820           -            873   8.5e-08   29.4   7.2   1   1   3.3e-10   1.9e-07   28.3   7.2    96   343    77   340    37   363 0.68 elongation factor G, putative [Plasmodium vivax]
+SCO74081.1           -            456 2273at5820           -            873   5.6e-05   20.1   0.1   1   1   1.9e-07   0.00011   19.1   0.0   135   266    65   213    50   234 0.73 elongation factor Tu, mitochondrial precursor, putative [Plasmodium vivax]
+SCO71872.1           -            910 2273at5820           -            873   7.4e-05   19.7   2.6   1   2   1.3e-07   7.5e-05   19.6   0.6   158   267   219   331   194   356 0.81 GTP-binding protein, putative [Plasmodium vivax]
+SCO71872.1           -            910 2273at5820           -            873   7.4e-05   19.7   2.6   2   2      0.18     1e+02   -0.7   0.1   347   383   364   400   325   418 0.78 GTP-binding protein, putative [Plasmodium vivax]
+SCO75601.1           -           1101 2273at5820           -            873    0.0003   17.7   0.4   1   2   5.2e-07    0.0003   17.7   0.4   156   268    56   168    32   185 0.84 tetQ family GTPase, putative [Plasmodium vivax]
+SCO75601.1           -           1101 2273at5820           -            873    0.0003   17.7   0.4   2   2         2   1.1e+03   -4.1   0.2   606   627   931   952   905   969 0.47 tetQ family GTPase, putative [Plasmodium vivax]
+SCO73515.1           -            443 2273at5820           -            873    0.0041   13.9   0.0   1   1     1e-05    0.0059   13.4   0.0   165   270    61   173    42   210 0.74 elongation factor 1-alpha, putative [Plasmodium vivax]
+SCO73516.1           -            443 2273at5820           -            873    0.0041   13.9   0.0   1   1     1e-05    0.0059   13.4   0.0   165   270    61   173    42   210 0.74 elongation factor 1-alpha, putative [Plasmodium vivax]
+SCO72720.1           -            547 2273at5820           -            873    0.0044   13.8   0.0   1   1   1.2e-05    0.0066   13.2   0.0   175   302   175   308   156   320 0.70 translation elongation factor EF-1, subunit alpha, putative [Plasmodium vivax]
+SCO70593.1           -            789 2273at5820           -            873     0.018   11.8   0.0   1   1   4.8e-05     0.028   11.2   0.0   188   270   124   206   117   214 0.85 selenocysteine-specific elongation factor selB homologue, putative [Plasmodium vivax]
+#
+# Program:         hmmsearch
+# Version:         3.4 (Aug 2023)
+# Pipeline mode:   SEARCH
+# Query file:      /v3/work/00_inventory/busco/busco_downloads/lineages/plasmodium_odb10/hmms/2273at5820.hmm
+# Target file:     /v3/inputs/annotations/ncbi-datasets/PvC01.proteins.fa
+# Option settings: hmmsearch --domtblout /v3/work/00_inventory/busco/PvC01_proteins/run_plasmodium_odb10/hmmer_output/initial_run_results/2273at5820.out --cpu 1 /v3/work/00_inventory/busco/busco_downloads/lineages/plasmodium_odb10/hmms/2273at5820.hmm /v3/inputs/annotations/ncbi-datasets/PvC01.proteins.fa 
+# Current dir:     /v3/work/00_inventory/busco
+# Date:            Tue May 19 18:39:17 2026
+# [ok]

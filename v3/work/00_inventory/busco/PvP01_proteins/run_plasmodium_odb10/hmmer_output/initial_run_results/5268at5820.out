@@ -1,0 +1,17 @@
+#                                                                            --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name        accession   tlen query name           accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+#------------------- ---------- ----- -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+PVP01_0712700.1-p1   -            704 5268at5820           -            549  2.1e-268  890.2  12.5   1   3   6.6e-44   2.2e-40  137.6   0.0     1   115     1   125     1   137 0.87 | transcript=PVP01_0712700.1 | gene=PVP01_0712700 | organism=Plasmodium_vivax_P01 | gene_product=met-10+ like protein, putative | transcript_product=met-10+ like protein, putative | location=PvP01_07_v2:597669-600018(-) | protein_length=704 | sequence_SO=chromosome | SO=protein_coding_gene | is_pseudo=false
+PVP01_0712700.1-p1   -            704 5268at5820           -            549  2.1e-268  890.2  12.5   2   3  2.5e-169  8.1e-166  551.6   7.0   103   438   141   508   128   522 0.88 | transcript=PVP01_0712700.1 | gene=PVP01_0712700 | organism=Plasmodium_vivax_P01 | gene_product=met-10+ like protein, putative | transcript_product=met-10+ like protein, putative | location=PvP01_07_v2:597669-600018(-) | protein_length=704 | sequence_SO=chromosome | SO=protein_coding_gene | is_pseudo=false
+PVP01_0712700.1-p1   -            704 5268at5820           -            549  2.1e-268  890.2  12.5   3   3   8.5e-64   2.8e-60  203.3   0.1   432   548   568   697   515   698 0.88 | transcript=PVP01_0712700.1 | gene=PVP01_0712700 | organism=Plasmodium_vivax_P01 | gene_product=met-10+ like protein, putative | transcript_product=met-10+ like protein, putative | location=PvP01_07_v2:597669-600018(-) | protein_length=704 | sequence_SO=chromosome | SO=protein_coding_gene | is_pseudo=false
+PVP01_0603800.1-p1   -           1606 5268at5820           -            549    0.0023   15.4   1.6   1   1   1.1e-06    0.0037   14.7   1.6   254   356  1287  1400  1271  1415 0.74 | transcript=PVP01_0603800.1 | gene=PVP01_0603800 | organism=Plasmodium_vivax_P01 | gene_product=tRNA wybutosine-synthesizing protein, putative | transcript_product=tRNA wybutosine-synthesizing protein, putative | location=PvP01_06_v2:141806-146626(-) | protein_length=1606 | sequence_SO=chromosome | SO=protein_coding_gene | is_pseudo=false
+#
+# Program:         hmmsearch
+# Version:         3.4 (Aug 2023)
+# Pipeline mode:   SEARCH
+# Query file:      /v3/work/00_inventory/busco/busco_downloads/lineages/plasmodium_odb10/hmms/5268at5820.hmm
+# Target file:     /v3/inputs/annotations/plasmodb-68/PvP01.proteins.fa
+# Option settings: hmmsearch --domtblout /v3/work/00_inventory/busco/PvP01_proteins/run_plasmodium_odb10/hmmer_output/initial_run_results/5268at5820.out --cpu 1 /v3/work/00_inventory/busco/busco_downloads/lineages/plasmodium_odb10/hmms/5268at5820.hmm /v3/inputs/annotations/plasmodb-68/PvP01.proteins.fa 
+# Current dir:     /v3/work/00_inventory/busco
+# Date:            Tue May 19 17:41:00 2026
+# [ok]

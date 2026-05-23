@@ -1,0 +1,16 @@
+#                                                                            --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name        accession   tlen query name           accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+#------------------- ---------- ----- -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+SCO73925.1           -            416 8190at5820           -            350  3.6e-196  649.7  37.1   1   1    3e-198  9.5e-195  645.0  37.1    10   350    40   412    30   412 0.93 nucleoside transporter 1, putative [Plasmodium vivax]
+SCO71255.1           -            537 8190at5820           -            350   5.3e-12   44.0  10.9   1   2     0.017        54    1.2  15.6     6   145    67   218    62   248 0.71 nucleoside transporter 2, putative [Plasmodium vivax]
+SCO71255.1           -            537 8190at5820           -            350   5.3e-12   44.0  10.9   2   2   1.7e-15   5.3e-12   44.0  10.9   177   344   365   533   351   535 0.86 nucleoside transporter 2, putative [Plasmodium vivax]
+#
+# Program:         hmmsearch
+# Version:         3.4 (Aug 2023)
+# Pipeline mode:   SEARCH
+# Query file:      /v3/work/00_inventory/busco/busco_downloads/lineages/plasmodium_odb10/hmms/8190at5820.hmm
+# Target file:     /v3/inputs/annotations/ncbi-datasets/PvC01.proteins.fa
+# Option settings: hmmsearch --domtblout /v3/work/00_inventory/busco/PvC01_proteins/run_plasmodium_odb10/hmmer_output/initial_run_results/8190at5820.out --cpu 1 /v3/work/00_inventory/busco/busco_downloads/lineages/plasmodium_odb10/hmms/8190at5820.hmm /v3/inputs/annotations/ncbi-datasets/PvC01.proteins.fa 
+# Current dir:     /v3/work/00_inventory/busco
+# Date:            Tue May 19 19:06:42 2026
+# [ok]

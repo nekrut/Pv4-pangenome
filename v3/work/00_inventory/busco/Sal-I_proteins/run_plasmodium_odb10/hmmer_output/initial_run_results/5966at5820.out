@@ -1,0 +1,16 @@
+#                                                                            --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name        accession   tlen query name           accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+#------------------- ---------- ----- -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+PVX_099075.1-p1      -            528 5966at5820           -            417    9e-208  689.0  31.2   1   1  3.2e-209  5.8e-206  683.0  31.2     1   416     1   526     1   527 0.88 | transcript=PVX_099075.1 | gene=PVX_099075 | organism=Plasmodium_vivax_Sal-1 | gene_product=tRNA (adenine(58)-N(1))-methyltransferase non-catalytic subunit TRM6, putative | transcript_product=tRNA (adenine(58)-N(1))-methyltransferase non-catalytic subunit TRM6, putative | location=Pv_Sal1_chr07:491686-493272(-) | protein_length=528 | sequence_SO=chromosome | SO=protein_coding_gene | is_pseudo=false
+PVX_086980.1-p1      -            455 5966at5820           -            417     0.012   13.3   3.0   1   1   9.7e-06     0.018   12.7   3.0   205   304   228   327   222   350 0.57 | transcript=PVX_086980.1 | gene=PVX_086980 | organism=Plasmodium_vivax_Sal-1 | gene_product=hypothetical protein, conserved | transcript_product=hypothetical protein, conserved | location=Pv_Sal1_chr07:1313896-1315644(+) | protein_length=455 | sequence_SO=chromosome | SO=protein_coding_gene | is_pseudo=false
+PVX_098023.1-p1      -            143 5966at5820           -            417      0.23    9.0   7.5   1   1   0.00016      0.29    8.7   7.5   223   314    39   131    35   134 0.63 | transcript=PVX_098023.1 | gene=PVX_098023 | organism=Plasmodium_vivax_Sal-1 | gene_product=conserved Plasmodium protein, unknown function | transcript_product=conserved Plasmodium protein, unknown function | location=Pv_Sal1_chr10:962975-963665(+) | protein_length=143 | sequence_SO=chromosome | SO=protein_coding_gene | is_pseudo=false
+#
+# Program:         hmmsearch
+# Version:         3.4 (Aug 2023)
+# Pipeline mode:   SEARCH
+# Query file:      /v3/work/00_inventory/busco/busco_downloads/lineages/plasmodium_odb10/hmms/5966at5820.hmm
+# Target file:     /v3/inputs/annotations/plasmodb-68/Sal-I.proteins.fa
+# Option settings: hmmsearch --domtblout /v3/work/00_inventory/busco/Sal-I_proteins/run_plasmodium_odb10/hmmer_output/initial_run_results/5966at5820.out --cpu 1 /v3/work/00_inventory/busco/busco_downloads/lineages/plasmodium_odb10/hmms/5966at5820.hmm /v3/inputs/annotations/plasmodb-68/Sal-I.proteins.fa 
+# Current dir:     /v3/work/00_inventory/busco
+# Date:            Tue May 19 17:44:21 2026
+# [ok]

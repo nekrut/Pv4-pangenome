@@ -1,0 +1,25 @@
+#                                                                            --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name        accession   tlen query name           accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+#------------------- ---------- ----- -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+SCO69886.1           -           1226 2022at5820           -            968         0 1828.6 148.9   1   5   3.6e-47   5.5e-44  148.9   9.1     1    87     1    87     1   105 0.88 WD repeat-containing protein, putative [Plasmodium vivax]
+SCO69886.1           -           1226 2022at5820           -            968         0 1828.6 148.9   2   5  3.8e-198  5.8e-195  648.7  53.2    79   419   121   474   113   482 0.96 WD repeat-containing protein, putative [Plasmodium vivax]
+SCO69886.1           -           1226 2022at5820           -            968         0 1828.6 148.9   3   5   9.8e-05      0.15    8.5   2.4   418   448   512   545   503   566 0.78 WD repeat-containing protein, putative [Plasmodium vivax]
+SCO69886.1           -           1226 2022at5820           -            968         0 1828.6 148.9   4   5  2.3e-174  3.5e-171  569.9  33.9   444   758   591   959   579   974 0.96 WD repeat-containing protein, putative [Plasmodium vivax]
+SCO69886.1           -           1226 2022at5820           -            968         0 1828.6 148.9   5   5  2.5e-146  3.8e-143  477.1  18.7   756   968  1014  1226  1006  1226 0.99 WD repeat-containing protein, putative [Plasmodium vivax]
+SCO68631.1           -            533 2022at5820           -            968   0.00013   18.6   9.7   1   3     0.067     1e+02   -0.9   0.0   878   894   279   295   244   327 0.73 chromatin assembly factor 1 P55 subunit, putative [Plasmodium vivax]
+SCO68631.1           -            533 2022at5820           -            968   0.00013   18.6   9.7   2   3   2.7e-06    0.0041   13.6   0.9   850   898   328   379   310   382 0.83 chromatin assembly factor 1 P55 subunit, putative [Plasmodium vivax]
+SCO68631.1           -            533 2022at5820           -            968   0.00013   18.6   9.7   3   3   7.9e-05      0.12    8.8   2.0   812   892   382   461   370   467 0.85 chromatin assembly factor 1 P55 subunit, putative [Plasmodium vivax]
+SCO66129.1           -            720 2022at5820           -            968   0.00014   18.5   1.4   1   2   2.2e-05     0.034   10.6   0.0   553   647   372   465   352   499 0.86 cytoplasmic dynein intermediate chain, putative [Plasmodium vivax]
+SCO66129.1           -            720 2022at5820           -            968   0.00014   18.5   1.4   2   2   0.00032      0.48    6.8   0.3   830   893   587   649   537   689 0.80 cytoplasmic dynein intermediate chain, putative [Plasmodium vivax]
+SCO65843.1           -            324 2022at5820           -            968     0.004   13.7   6.1   1   2     2e-05     0.031   10.8   2.7   809   892    73   151    58   166 0.79 U5 snrnp-specific protein, putative [Plasmodium vivax]
+SCO65843.1           -            324 2022at5820           -            968     0.004   13.7   6.1   2   2    0.0018       2.7    4.3   0.1   873   930   215   276   178   316 0.61 U5 snrnp-specific protein, putative [Plasmodium vivax]
+#
+# Program:         hmmsearch
+# Version:         3.4 (Aug 2023)
+# Pipeline mode:   SEARCH
+# Query file:      /v3/work/00_inventory/busco/busco_downloads/lineages/plasmodium_odb10/hmms/2022at5820.hmm
+# Target file:     /v3/inputs/annotations/ncbi-datasets/PvT01.proteins.fa
+# Option settings: hmmsearch --domtblout /v3/work/00_inventory/busco/PvT01_proteins/run_plasmodium_odb10/hmmer_output/initial_run_results/2022at5820.out --cpu 1 /v3/work/00_inventory/busco/busco_downloads/lineages/plasmodium_odb10/hmms/2022at5820.hmm /v3/inputs/annotations/ncbi-datasets/PvT01.proteins.fa 
+# Current dir:     /v3/work/00_inventory/busco
+# Date:            Tue May 19 18:37:31 2026
+# [ok]

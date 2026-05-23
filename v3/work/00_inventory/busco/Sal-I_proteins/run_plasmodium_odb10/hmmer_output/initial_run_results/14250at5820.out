@@ -1,0 +1,17 @@
+#                                                                            --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name        accession   tlen query name           accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+#------------------- ---------- ----- -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+PVX_122020.1-p1      -            122 14250at5820          -            105   1.5e-58  194.1  12.6   1   1   9.4e-62   1.7e-58  193.9  12.6     1   105     3   116     3   116 0.96 | transcript=PVX_122020.1 | gene=PVX_122020 | organism=Plasmodium_vivax_Sal-1 | gene_product=hypothetical protein, conserved | transcript_product=hypothetical protein, conserved | location=Pv_Sal1_chr14:196778-197403(+) | protein_length=122 | sequence_SO=chromosome | SO=protein_coding_gene | is_pseudo=false
+PVX_089667.1-p1      -            150 14250at5820          -            105     0.018   13.9   1.6   1   1   2.3e-05     0.042   12.7   1.6     6    78    65   139    61   146 0.77 | transcript=PVX_089667.1 | gene=PVX_089667 | organism=Plasmodium_vivax_Sal-1 | gene_product=calmodulin-like protein | transcript_product=calmodulin-like protein | location=Pv_Sal1_chr05:749550-750532(-) | protein_length=150 | sequence_SO=chromosome | SO=protein_coding_gene | is_pseudo=false
+PVX_110830.1-p1      -            258 14250at5820          -            105     0.036   12.9   2.7   1   2     0.015        28    3.7   0.7    58    93   120   156   112   166 0.67 | transcript=PVX_110830.1 | gene=PVX_110830 | organism=Plasmodium_vivax_Sal-1 | gene_product=Plasmodium exported protein, unknown function | transcript_product=Plasmodium exported protein, unknown function | location=Pv_Sal1_chr06:951276-952199(+) | protein_length=258 | sequence_SO=chromosome | SO=protein_coding_gene | is_pseudo=false
+PVX_110830.1-p1      -            258 14250at5820          -            105     0.036   12.9   2.7   2   2   0.00044      0.82    8.6   0.0    37    75   210   248   182   257 0.86 | transcript=PVX_110830.1 | gene=PVX_110830 | organism=Plasmodium_vivax_Sal-1 | gene_product=Plasmodium exported protein, unknown function | transcript_product=Plasmodium exported protein, unknown function | location=Pv_Sal1_chr06:951276-952199(+) | protein_length=258 | sequence_SO=chromosome | SO=protein_coding_gene | is_pseudo=false
+#
+# Program:         hmmsearch
+# Version:         3.4 (Aug 2023)
+# Pipeline mode:   SEARCH
+# Query file:      /v3/work/00_inventory/busco/busco_downloads/lineages/plasmodium_odb10/hmms/14250at5820.hmm
+# Target file:     /v3/inputs/annotations/plasmodb-68/Sal-I.proteins.fa
+# Option settings: hmmsearch --domtblout /v3/work/00_inventory/busco/Sal-I_proteins/run_plasmodium_odb10/hmmer_output/initial_run_results/14250at5820.out --cpu 1 /v3/work/00_inventory/busco/busco_downloads/lineages/plasmodium_odb10/hmms/14250at5820.hmm /v3/inputs/annotations/plasmodb-68/Sal-I.proteins.fa 
+# Current dir:     /v3/work/00_inventory/busco
+# Date:            Tue May 19 17:32:56 2026
+# [ok]

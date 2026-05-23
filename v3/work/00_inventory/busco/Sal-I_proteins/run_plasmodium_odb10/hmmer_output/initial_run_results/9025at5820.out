@@ -1,0 +1,17 @@
+#                                                                            --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name        accession   tlen query name           accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+#------------------- ---------- ----- -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+PVX_114355.1-p1      -            473 9025at5820           -            367  1.4e-188  624.6  27.1   1   2     0.007        13    2.8   0.4    14    35    42    63    28    77 0.75 | transcript=PVX_114355.1 | gene=PVX_114355 | organism=Plasmodium_vivax_Sal-1 | gene_product=sphingomyelin synthase 1, putative | transcript_product=sphingomyelin synthase 1, putative | location=Pv_Sal1_chr11:1021057-1023172(-) | protein_length=473 | sequence_SO=chromosome | SO=protein_coding_gene | is_pseudo=false
+PVX_114355.1-p1      -            473 9025at5820           -            367  1.4e-188  624.6  27.1   2   2  7.4e-192  1.4e-188  624.6  27.1     8   367    93   464    86   464 0.94 | transcript=PVX_114355.1 | gene=PVX_114355 | organism=Plasmodium_vivax_Sal-1 | gene_product=sphingomyelin synthase 1, putative | transcript_product=sphingomyelin synthase 1, putative | location=Pv_Sal1_chr11:1021057-1023172(-) | protein_length=473 | sequence_SO=chromosome | SO=protein_coding_gene | is_pseudo=false
+PVX_114360.1-p1      -            400 9025at5820           -            367   5.5e-77  257.4  30.4   1   1   4.6e-80   8.4e-77  256.8  30.4     6   362    16   394    11   398 0.86 | transcript=PVX_114360.1 | gene=PVX_114360 | organism=Plasmodium_vivax_Sal-1 | gene_product=sphingomyelin synthase 2, putative | transcript_product=sphingomyelin synthase 2, putative | location=Pv_Sal1_chr11:1018352-1019554(-) | protein_length=400 | sequence_SO=chromosome | SO=protein_coding_gene | is_pseudo=false
+PVX_080620.1-p1      -            219 9025at5820           -            367     0.037   11.2   0.1   1   1   2.7e-05      0.05   10.8   0.1   284   332   121   169   107   191 0.86 | transcript=PVX_080620.1 | gene=PVX_080620 | organism=Plasmodium_vivax_Sal-1 | gene_product=hypothetical protein, conserved | transcript_product=hypothetical protein, conserved | location=Pv_Sal1_chr10:808020-808679(-) | protein_length=219 | sequence_SO=chromosome | SO=protein_coding_gene | is_pseudo=false
+#
+# Program:         hmmsearch
+# Version:         3.4 (Aug 2023)
+# Pipeline mode:   SEARCH
+# Query file:      /v3/work/00_inventory/busco/busco_downloads/lineages/plasmodium_odb10/hmms/9025at5820.hmm
+# Target file:     /v3/inputs/annotations/plasmodb-68/Sal-I.proteins.fa
+# Option settings: hmmsearch --domtblout /v3/work/00_inventory/busco/Sal-I_proteins/run_plasmodium_odb10/hmmer_output/initial_run_results/9025at5820.out --cpu 1 /v3/work/00_inventory/busco/busco_downloads/lineages/plasmodium_odb10/hmms/9025at5820.hmm /v3/inputs/annotations/plasmodb-68/Sal-I.proteins.fa 
+# Current dir:     /v3/work/00_inventory/busco
+# Date:            Tue May 19 17:49:35 2026
+# [ok]

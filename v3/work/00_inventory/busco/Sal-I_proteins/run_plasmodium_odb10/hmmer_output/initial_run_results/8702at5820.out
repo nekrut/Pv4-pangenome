@@ -1,0 +1,15 @@
+#                                                                            --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name        accession   tlen query name           accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+#------------------- ---------- ----- -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+PVX_099390.1-p1      -            466 8702at5820           -            393  4.5e-180  597.4  58.5   1   1  5.3e-183  1.5e-179  595.7  58.5     1   393     1   447     1   447 0.92 | transcript=PVX_099390.1 | gene=PVX_099390 | organism=Plasmodium_vivax_Sal-1 | gene_product=sugar transporter, putative | transcript_product=sugar transporter, putative | location=Pv_Sal1_chr07:736290-737690(+) | protein_length=466 | sequence_SO=chromosome | SO=protein_coding_gene | is_pseudo=false
+PVX_003665.1-p1      -            502 8702at5820           -            393     4e-24   84.0  29.5   1   1   4.6e-26   1.3e-22   79.0  29.5     8   393    30   467    24   469 0.70 | transcript=PVX_003665.1 | gene=PVX_003665 | organism=Plasmodium_vivax_Sal-1 | gene_product=hexose transporter | transcript_product=hexose transporter | location=Pv_Sal1_chr04:695796-697304(+) | protein_length=502 | sequence_SO=chromosome | SO=protein_coding_gene | is_pseudo=false
+#
+# Program:         hmmsearch
+# Version:         3.4 (Aug 2023)
+# Pipeline mode:   SEARCH
+# Query file:      /v3/work/00_inventory/busco/busco_downloads/lineages/plasmodium_odb10/hmms/8702at5820.hmm
+# Target file:     /v3/inputs/annotations/plasmodb-68/Sal-I.proteins.fa
+# Option settings: hmmsearch --domtblout /v3/work/00_inventory/busco/Sal-I_proteins/run_plasmodium_odb10/hmmer_output/initial_run_results/8702at5820.out --cpu 1 /v3/work/00_inventory/busco/busco_downloads/lineages/plasmodium_odb10/hmms/8702at5820.hmm /v3/inputs/annotations/plasmodb-68/Sal-I.proteins.fa 
+# Current dir:     /v3/work/00_inventory/busco
+# Date:            Tue May 19 17:48:11 2026
+# [ok]

@@ -1,0 +1,16 @@
+#                                                                            --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name        accession   tlen query name           accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+#------------------- ---------- ----- -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+SCO70357.1           -            334 8558at5820           -            276  5.1e-176  582.3  22.9   1   1    3e-179  6.2e-176  582.0  22.9     4   276    43   334    40   334 0.99 peptide chain release factor, putative [Plasmodium vivax]
+SCO72085.1           -            446 8558at5820           -            276   7.5e-30  102.9   3.3   1   1   5.8e-33   1.2e-29  102.2   3.3    25   259   186   411   166   427 0.79 peptide release factor, putative [Plasmodium vivax]
+SCO74796.1           -            300 8558at5820           -            276   1.1e-20   72.8   0.4   1   1     3e-23   6.3e-20   70.3   0.4     6   213    43   241    38   281 0.73 peptide chain release factor 1, putative [Plasmodium vivax]
+#
+# Program:         hmmsearch
+# Version:         3.4 (Aug 2023)
+# Pipeline mode:   SEARCH
+# Query file:      /v3/work/00_inventory/busco/busco_downloads/lineages/plasmodium_odb10/hmms/8558at5820.hmm
+# Target file:     /v3/inputs/annotations/ncbi-datasets/PvC01.proteins.fa
+# Option settings: hmmsearch --domtblout /v3/work/00_inventory/busco/PvC01_proteins/run_plasmodium_odb10/hmmer_output/initial_run_results/8558at5820.out --cpu 1 /v3/work/00_inventory/busco/busco_downloads/lineages/plasmodium_odb10/hmms/8558at5820.hmm /v3/inputs/annotations/ncbi-datasets/PvC01.proteins.fa 
+# Current dir:     /v3/work/00_inventory/busco
+# Date:            Tue May 19 19:06:16 2026
+# [ok]

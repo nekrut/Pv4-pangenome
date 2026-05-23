@@ -1,0 +1,16 @@
+#                                                                            --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name        accession   tlen query name           accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+#------------------- ---------- ----- -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+PVX_114475.1-p1      -            183 13392at5820          -            163  4.5e-106  350.0   6.7   1   1  1.9e-109  5.2e-106  349.7   6.7     1   163    21   183    21   183 1.00 | transcript=PVX_114475.1 | gene=PVX_114475 | organism=Plasmodium_vivax_Sal-1 | gene_product=mitochondrial import inner membrane translocase subunit TIM22, putative | transcript_product=mitochondrial import inner membrane translocase subunit TIM22, putative | location=Pv_Sal1_chr11:938836-939387(+) | protein_length=183 | sequence_SO=chromosome | SO=protein_coding_gene | is_pseudo=false
+PVX_084800.1-p1      -            162 13392at5820          -            163    0.0037   15.3   0.8   1   2      0.36   9.8e+02   -2.3   0.1    41    50    24    33    15    43 0.57 | transcript=PVX_084800.1 | gene=PVX_084800 | organism=Plasmodium_vivax_Sal-1 | gene_product=mitochondrial import inner membrane translocase subunit TIM17, putative | transcript_product=mitochondrial import inner membrane translocase subunit TIM17, putative | location=Pv_Sal1_chr13:645674-646162(+) | protein_length=162 | sequence_SO=chromosome | SO=protein_coding_gene | is_pseudo=false
+PVX_084800.1-p1      -            162 13392at5820          -            163    0.0037   15.3   0.8   2   2   2.1e-06    0.0059   14.6   0.0    93   140    66   113    60   139 0.86 | transcript=PVX_084800.1 | gene=PVX_084800 | organism=Plasmodium_vivax_Sal-1 | gene_product=mitochondrial import inner membrane translocase subunit TIM17, putative | transcript_product=mitochondrial import inner membrane translocase subunit TIM17, putative | location=Pv_Sal1_chr13:645674-646162(+) | protein_length=162 | sequence_SO=chromosome | SO=protein_coding_gene | is_pseudo=false
+#
+# Program:         hmmsearch
+# Version:         3.4 (Aug 2023)
+# Pipeline mode:   SEARCH
+# Query file:      /v3/work/00_inventory/busco/busco_downloads/lineages/plasmodium_odb10/hmms/13392at5820.hmm
+# Target file:     /v3/inputs/annotations/plasmodb-68/Sal-I.proteins.fa
+# Option settings: hmmsearch --domtblout /v3/work/00_inventory/busco/Sal-I_proteins/run_plasmodium_odb10/hmmer_output/initial_run_results/13392at5820.out --cpu 1 /v3/work/00_inventory/busco/busco_downloads/lineages/plasmodium_odb10/hmms/13392at5820.hmm /v3/inputs/annotations/plasmodb-68/Sal-I.proteins.fa 
+# Current dir:     /v3/work/00_inventory/busco
+# Date:            Tue May 19 17:30:07 2026
+# [ok]

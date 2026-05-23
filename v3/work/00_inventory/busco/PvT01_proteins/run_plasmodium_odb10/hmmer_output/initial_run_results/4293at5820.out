@@ -1,0 +1,19 @@
+#                                                                            --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name        accession   tlen query name           accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+#------------------- ---------- ----- -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+SCO67988.1           -            784 4293at5820           -            463  5.6e-235  778.8  43.8   1   4   7.1e-86   2.2e-82  275.7  14.1    31   180   176   325   147   330 0.90 DNase I-like protein, putative [Plasmodium vivax]
+SCO67988.1           -            784 4293at5820           -            463  5.6e-235  778.8  43.8   2   4   6.5e-30     2e-26   91.2   0.1   174   229   363   418   348   425 0.85 DNase I-like protein, putative [Plasmodium vivax]
+SCO67988.1           -            784 4293at5820           -            463  5.6e-235  778.8  43.8   3   4   2.2e-59   6.8e-56  188.4   7.3   225   343   451   581   448   598 0.86 DNase I-like protein, putative [Plasmodium vivax]
+SCO67988.1           -            784 4293at5820           -            463  5.6e-235  778.8  43.8   4   4   3.2e-74   9.7e-71  237.3   2.9   336   463   650   777   620   777 0.93 DNase I-like protein, putative [Plasmodium vivax]
+SCO67704.1           -           2742 4293at5820           -            463   2.6e-22   77.7  10.1   1   2   4.8e-20   1.5e-16   58.7   6.7    20   254  2340  2613  2330  2622 0.75 carbon catabolite repressor protein 4, putative [Plasmodium vivax]
+SCO67704.1           -           2742 4293at5820           -            463   2.6e-22   77.7  10.1   2   2   9.3e-08   0.00028   18.2   0.1   387   437  2660  2710  2641  2737 0.80 carbon catabolite repressor protein 4, putative [Plasmodium vivax]
+#
+# Program:         hmmsearch
+# Version:         3.4 (Aug 2023)
+# Pipeline mode:   SEARCH
+# Query file:      /v3/work/00_inventory/busco/busco_downloads/lineages/plasmodium_odb10/hmms/4293at5820.hmm
+# Target file:     /v3/inputs/annotations/ncbi-datasets/PvT01.proteins.fa
+# Option settings: hmmsearch --domtblout /v3/work/00_inventory/busco/PvT01_proteins/run_plasmodium_odb10/hmmer_output/initial_run_results/4293at5820.out --cpu 1 /v3/work/00_inventory/busco/busco_downloads/lineages/plasmodium_odb10/hmms/4293at5820.hmm /v3/inputs/annotations/ncbi-datasets/PvT01.proteins.fa 
+# Current dir:     /v3/work/00_inventory/busco
+# Date:            Tue May 19 18:47:02 2026
+# [ok]

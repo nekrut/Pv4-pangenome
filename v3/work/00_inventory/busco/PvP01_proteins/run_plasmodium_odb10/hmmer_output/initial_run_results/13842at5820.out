@@ -1,0 +1,17 @@
+#                                                                            --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name        accession   tlen query name           accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+#------------------- ---------- ----- -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+PVP01_0214200.1-p1   -            131 13842at5820          -            116   7.8e-61  202.0   7.8   1   1   5.4e-64   8.9e-61  201.8   7.8     1   116     8   131     8   131 0.97 | transcript=PVP01_0214200.1 | gene=PVP01_0214200 | organism=Plasmodium_vivax_P01 | gene_product=EF hand domain-containing protein, putative | transcript_product=EF hand domain-containing protein, putative | location=PvP01_02_v2:602358-603491(-) | protein_length=131 | sequence_SO=chromosome | SO=protein_coding_gene | is_pseudo=false
+PVP01_1260400.1-p1   -            168 13842at5820          -            116   0.00052   18.8   0.2   1   1   5.2e-07   0.00085   18.1   0.2     2   100    29   141    28   146 0.73 | transcript=PVP01_1260400.1 | gene=PVP01_1260400 | organism=Plasmodium_vivax_P01 | gene_product=centrin-2, putative | transcript_product=centrin-2, putative | location=PvP01_12_v2:2483484-2484244(+) | protein_length=168 | sequence_SO=chromosome | SO=protein_coding_gene | is_pseudo=false
+PVP01_0906300.1-p1   -            167 13842at5820          -            116   0.00093   17.9   6.1   1   1   5.7e-07   0.00093   17.9   6.1     5    99    22   130    18   140 0.75 | transcript=PVP01_0906300.1 | gene=PVP01_0906300 | organism=Plasmodium_vivax_P01 | gene_product=centrin-4, putative | transcript_product=centrin-4, putative | location=PvP01_09_v2:359830-360606(+) | protein_length=167 | sequence_SO=chromosome | SO=protein_coding_gene | is_pseudo=false
+PVP01_0520700.1-p1   -            150 13842at5820          -            116    0.0011   17.8   4.9   1   1   1.7e-06    0.0028   16.4   4.9     2   110    14   134    13   140 0.69 | transcript=PVP01_0520700.1 | gene=PVP01_0520700 | organism=Plasmodium_vivax_P01 | gene_product=calmodulin-like protein | transcript_product=calmodulin-like protein | location=PvP01_05_v2:849436-850418(-) | protein_length=150 | sequence_SO=chromosome | SO=protein_coding_gene | is_pseudo=false
+#
+# Program:         hmmsearch
+# Version:         3.4 (Aug 2023)
+# Pipeline mode:   SEARCH
+# Query file:      /v3/work/00_inventory/busco/busco_downloads/lineages/plasmodium_odb10/hmms/13842at5820.hmm
+# Target file:     /v3/inputs/annotations/plasmodb-68/PvP01.proteins.fa
+# Option settings: hmmsearch --domtblout /v3/work/00_inventory/busco/PvP01_proteins/run_plasmodium_odb10/hmmer_output/initial_run_results/13842at5820.out --cpu 1 /v3/work/00_inventory/busco/busco_downloads/lineages/plasmodium_odb10/hmms/13842at5820.hmm /v3/inputs/annotations/plasmodb-68/PvP01.proteins.fa 
+# Current dir:     /v3/work/00_inventory/busco
+# Date:            Tue May 19 17:31:33 2026
+# [ok]

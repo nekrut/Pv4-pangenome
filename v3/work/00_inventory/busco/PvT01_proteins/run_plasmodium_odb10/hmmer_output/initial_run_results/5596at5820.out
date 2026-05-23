@@ -1,0 +1,16 @@
+#                                                                            --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name        accession   tlen query name           accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+#------------------- ---------- ----- -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+SCO66830.1           -            641 5596at5820           -            461  1.4e-228  758.0  99.1   1   3  2.5e-105  1.5e-101  339.1  26.9     1   186    37   243    37   247 0.94 protein ARV1, putative [Plasmodium vivax]
+SCO66830.1           -            641 5596at5820           -            461  1.4e-228  758.0  99.1   2   3   9.1e-35   5.6e-31  106.5  11.3   187   284   317   423   312   441 0.89 protein ARV1, putative [Plasmodium vivax]
+SCO66830.1           -            641 5596at5820           -            461  1.4e-228  758.0  99.1   3   3  1.2e-100   7.2e-97  323.7  46.1   273   461   449   641   427   641 0.93 protein ARV1, putative [Plasmodium vivax]
+#
+# Program:         hmmsearch
+# Version:         3.4 (Aug 2023)
+# Pipeline mode:   SEARCH
+# Query file:      /v3/work/00_inventory/busco/busco_downloads/lineages/plasmodium_odb10/hmms/5596at5820.hmm
+# Target file:     /v3/inputs/annotations/ncbi-datasets/PvT01.proteins.fa
+# Option settings: hmmsearch --domtblout /v3/work/00_inventory/busco/PvT01_proteins/run_plasmodium_odb10/hmmer_output/initial_run_results/5596at5820.out --cpu 1 /v3/work/00_inventory/busco/busco_downloads/lineages/plasmodium_odb10/hmms/5596at5820.hmm /v3/inputs/annotations/ncbi-datasets/PvT01.proteins.fa 
+# Current dir:     /v3/work/00_inventory/busco
+# Date:            Tue May 19 18:54:32 2026
+# [ok]

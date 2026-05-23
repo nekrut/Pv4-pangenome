@@ -1,0 +1,17 @@
+#                                                                            --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name        accession   tlen query name           accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+#------------------- ---------- ----- -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+PVX_114610.1-p1      -            133 14436at5820          -            111   1.5e-67  223.4   5.8   1   1   6.2e-71   1.7e-67  223.2   5.8     1   111    18   131    18   131 0.98 | transcript=PVX_114610.1 | gene=PVX_114610 | organism=Plasmodium_vivax_Sal-1 | gene_product=hypothetical protein, conserved | transcript_product=hypothetical protein, conserved | location=Pv_Sal1_chr11:777881-779104(-) | protein_length=133 | sequence_SO=chromosome | SO=protein_coding_gene | is_pseudo=false
+PVX_118292.1-p1      -            229 14436at5820          -            111     0.085   11.7   3.3   1   3     0.053   1.5e+02    1.3   0.2    59    82    39    60    31    93 0.69 | transcript=PVX_118292.1 | gene=PVX_118292 | organism=Plasmodium_vivax_Sal-1 | gene_product=conserved Plasmodium protein, unknown function | transcript_product=conserved Plasmodium protein, unknown function | location=Pv_Sal1_chr12:2577501-2578715(-) | protein_length=229 | sequence_SO=chromosome | SO=protein_coding_gene | is_pseudo=false
+PVX_118292.1-p1      -            229 14436at5820          -            111     0.085   11.7   3.3   2   3   0.00012      0.32    9.9   0.1    65    92   141   168   132   181 0.85 | transcript=PVX_118292.1 | gene=PVX_118292 | organism=Plasmodium_vivax_Sal-1 | gene_product=conserved Plasmodium protein, unknown function | transcript_product=conserved Plasmodium protein, unknown function | location=Pv_Sal1_chr12:2577501-2578715(-) | protein_length=229 | sequence_SO=chromosome | SO=protein_coding_gene | is_pseudo=false
+PVX_118292.1-p1      -            229 14436at5820          -            111     0.085   11.7   3.3   3   3      0.46   1.3e+03   -1.7   0.1    61    83   183   205   170   212 0.61 | transcript=PVX_118292.1 | gene=PVX_118292 | organism=Plasmodium_vivax_Sal-1 | gene_product=conserved Plasmodium protein, unknown function | transcript_product=conserved Plasmodium protein, unknown function | location=Pv_Sal1_chr12:2577501-2578715(-) | protein_length=229 | sequence_SO=chromosome | SO=protein_coding_gene | is_pseudo=false
+#
+# Program:         hmmsearch
+# Version:         3.4 (Aug 2023)
+# Pipeline mode:   SEARCH
+# Query file:      /v3/work/00_inventory/busco/busco_downloads/lineages/plasmodium_odb10/hmms/14436at5820.hmm
+# Target file:     /v3/inputs/annotations/plasmodb-68/Sal-I.proteins.fa
+# Option settings: hmmsearch --domtblout /v3/work/00_inventory/busco/Sal-I_proteins/run_plasmodium_odb10/hmmer_output/initial_run_results/14436at5820.out --cpu 1 /v3/work/00_inventory/busco/busco_downloads/lineages/plasmodium_odb10/hmms/14436at5820.hmm /v3/inputs/annotations/plasmodb-68/Sal-I.proteins.fa 
+# Current dir:     /v3/work/00_inventory/busco
+# Date:            Tue May 19 17:33:27 2026
+# [ok]

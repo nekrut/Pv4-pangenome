@@ -1,0 +1,17 @@
+#                                                                            --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name        accession   tlen query name           accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+#------------------- ---------- ----- -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+SCO74304.1           -            604 6025at5820           -            445  1.6e-234  776.7  12.4   1   4   3.1e-17     2e-13   48.1   0.0     1    41     1    41     1    47 0.93 snRNA-activating protein complex subunit 3, putative [Plasmodium vivax]
+SCO74304.1           -            604 6025at5820           -            445  1.6e-234  776.7  12.4   2   4   9.4e-09   5.9e-05   20.1   0.0    39    65    64    90    59    93 0.89 snRNA-activating protein complex subunit 3, putative [Plasmodium vivax]
+SCO74304.1           -            604 6025at5820           -            445  1.6e-234  776.7  12.4   3   4   7.9e-17     5e-13   46.7   0.0    62   108   172   227   157   243 0.88 snRNA-activating protein complex subunit 3, putative [Plasmodium vivax]
+SCO74304.1           -            604 6025at5820           -            445  1.6e-234  776.7  12.4   4   4  3.5e-203  2.2e-199  661.0   8.1   109   445   256   604   246   604 0.96 snRNA-activating protein complex subunit 3, putative [Plasmodium vivax]
+#
+# Program:         hmmsearch
+# Version:         3.4 (Aug 2023)
+# Pipeline mode:   SEARCH
+# Query file:      /v3/work/00_inventory/busco/busco_downloads/lineages/plasmodium_odb10/hmms/6025at5820.hmm
+# Target file:     /v3/inputs/annotations/ncbi-datasets/PvC01.proteins.fa
+# Option settings: hmmsearch --domtblout /v3/work/00_inventory/busco/PvC01_proteins/run_plasmodium_odb10/hmmer_output/initial_run_results/6025at5820.out --cpu 1 /v3/work/00_inventory/busco/busco_downloads/lineages/plasmodium_odb10/hmms/6025at5820.hmm /v3/inputs/annotations/ncbi-datasets/PvC01.proteins.fa 
+# Current dir:     /v3/work/00_inventory/busco
+# Date:            Tue May 19 18:58:37 2026
+# [ok]

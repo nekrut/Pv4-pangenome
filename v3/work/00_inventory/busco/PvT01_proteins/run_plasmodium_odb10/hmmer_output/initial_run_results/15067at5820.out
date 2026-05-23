@@ -1,0 +1,26 @@
+#                                                                            --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name        accession   tlen query name           accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+#------------------- ---------- ----- -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+SCO65848.1           -             83 15067at5820          -             67   3.5e-44  147.1   3.0   1   1     1e-46   4.8e-44  146.7   3.0     5    67    21    83    18    83 0.98 small nuclear ribonucleoprotein G, putative [Plasmodium vivax]
+SCO69193.1           -            107 15067at5820          -             67   1.7e-08   32.9   0.4   1   1   1.7e-10   7.7e-08   30.7   0.4     6    58    28    89    23    96 0.77 U6 snRNA-associated Sm-like protein LSm7, putative [Plasmodium vivax]
+SCO68431.1           -             94 15067at5820          -             67   5.5e-07   28.0   0.0   1   1   1.6e-09   7.4e-07   27.6   0.0     9    56    34    83    25    93 0.82 small nuclear ribonucleoprotein E, putative [Plasmodium vivax]
+SCO65779.1           -             95 15067at5820          -             67   7.6e-06   24.3   0.8   1   1   2.1e-08     1e-05   23.9   0.8     8    57    16    68    11    78 0.86 U6 snRNA-associated Sm-like protein LSm8, putative [Plasmodium vivax]
+SCO69017.1           -            101 15067at5820          -             67   2.7e-05   22.5   1.6   1   1   2.4e-07   0.00011   20.6   1.4     6    37    24    55    19    98 0.82 U6 snRNA-associated Sm-like protein LSm5, putative [Plasmodium vivax]
+SCO65872.1           -             91 15067at5820          -             67   3.5e-05   22.2   0.7   1   1   2.1e-06     0.001   17.5   0.7    11    43    27    59    18    88 0.72 U6 snRNA-associated Sm-like protein LSm3, putative [Plasmodium vivax]
+SCO67343.1           -            149 15067at5820          -             67   5.3e-05   21.6   0.4   1   1     2e-07   9.5e-05   20.8   0.4    12    62    27    83    18    87 0.81 U6 snRNA-associated Sm-like protein LSm1, putative [Plasmodium vivax]
+SCO67175.1           -            127 15067at5820          -             67    0.0009   17.7   0.1   1   1   2.7e-06    0.0012   17.2   0.1    12    63    22    75    11    79 0.80 U6 snRNA-associated Sm-like protein LSm4, putative [Plasmodium vivax]
+SCO69442.1           -            201 15067at5820          -             67   0.00099   17.6   0.6   1   1     6e-06    0.0028   16.1   0.6     8    56    17    74    13    80 0.73 small nuclear ribonucleoprotein-associated protein B, putative [Plasmodium vivax]
+SCO67369.1           -             86 15067at5820          -             67     0.003   16.0   0.1   1   1   1.7e-05    0.0082   14.6   0.1    17    57    33    74    11    79 0.80 U6 snRNA-associated Sm-like protein LSm6, putative [Plasmodium vivax]
+SCO66419.1           -            116 15067at5820          -             67    0.0051   15.3   0.0   1   1   1.6e-05    0.0073   14.8   0.0    25    57    37    70    23    77 0.85 small nuclear ribonucleoprotein Sm D3, putative [Plasmodium vivax]
+SCO68676.1           -             77 15067at5820          -             67    0.0058   15.1   0.2   1   1   1.8e-05    0.0083   14.6   0.2     8    62    20    75    13    76 0.87 U6 snRNA-associated Sm-like protein LSm6, putative [Plasmodium vivax]
+SCO67355.1           -            127 15067at5820          -             67     0.034   12.6   3.2   1   1   0.00076      0.35    9.4   3.2     8    59    17    79    11    86 0.66 small nuclear ribonucleoprotein Sm D1, putative [Plasmodium vivax]
+#
+# Program:         hmmsearch
+# Version:         3.4 (Aug 2023)
+# Pipeline mode:   SEARCH
+# Query file:      /v3/work/00_inventory/busco/busco_downloads/lineages/plasmodium_odb10/hmms/15067at5820.hmm
+# Target file:     /v3/inputs/annotations/ncbi-datasets/PvT01.proteins.fa
+# Option settings: hmmsearch --domtblout /v3/work/00_inventory/busco/PvT01_proteins/run_plasmodium_odb10/hmmer_output/initial_run_results/15067at5820.out --cpu 1 /v3/work/00_inventory/busco/busco_downloads/lineages/plasmodium_odb10/hmms/15067at5820.hmm /v3/inputs/annotations/ncbi-datasets/PvT01.proteins.fa 
+# Current dir:     /v3/work/00_inventory/busco
+# Date:            Tue May 19 18:36:45 2026
+# [ok]

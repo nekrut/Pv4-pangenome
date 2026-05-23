@@ -1,0 +1,25 @@
+#                                                                            --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name        accession   tlen query name           accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+#------------------- ---------- ----- -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+SCO72221.1           -           2239 996at5820            -           1613         0 2327.2 116.5   1   3   7.7e-37     7e-34  115.2  22.8     1   232     1   371     1   388 0.81 histone deacetylase 2, putative [Plasmodium vivax]
+SCO72221.1           -           2239 996at5820            -           1613         0 2327.2 116.5   2   3         0         0 2056.7  77.8   249  1508   458  2080   436  2090 0.84 histone deacetylase 2, putative [Plasmodium vivax]
+SCO72221.1           -           2239 996at5820            -           1613         0 2327.2 116.5   3   3   3.5e-50   3.2e-47  159.4   1.0  1516  1611  2143  2238  2130  2239 0.93 histone deacetylase 2, putative [Plasmodium vivax]
+SCO72013.1           -            448 996at5820            -           1613   6.5e-15   52.3   3.4   1   2   5.3e-11   4.8e-08   29.6   1.4   566   630   138   200   123   202 0.90 histone deacetylase, putative [Plasmodium vivax]
+SCO72013.1           -            448 996at5820            -           1613   6.5e-15   52.3   3.4   2   2     5e-09   4.5e-06   23.0   0.0   746   819   202   275   200   280 0.96 histone deacetylase, putative [Plasmodium vivax]
+SCO73286.1           -            443 996at5820            -           1613   2.3e-12   43.9   4.9   1   2   4.1e-15   3.7e-12   43.2   3.8   565   630   255   320   246   337 0.93 histone deacetylase, putative [Plasmodium vivax]
+SCO73286.1           -            443 996at5820            -           1613   2.3e-12   43.9   4.9   2   2      0.12   1.1e+02   -1.5   0.0   796   851   360   414   341   415 0.83 histone deacetylase, putative [Plasmodium vivax]
+SCO74888.1           -            228 996at5820            -           1613    0.0027   13.8  15.6   1   1   3.2e-06    0.0029   13.7  15.6    17   149    25   162    14   221 0.63 conserved Plasmodium protein, unknown function [Plasmodium vivax]
+SCO73266.1           -            270 996at5820            -           1613    0.0032   13.6  17.0   1   1   4.8e-06    0.0043   13.2  17.0    27   193    23   260    17   265 0.55 conserved Plasmodium protein, unknown function [Plasmodium vivax]
+SCO72036.1           -             99 996at5820            -           1613      0.59    6.1  25.5   1   1   0.00062      0.56    6.2  25.5   632   687     7    62     1    88 0.60 hypothetical protein PVC01_070031400 [Plasmodium vivax]
+SCO72509.1           -            320 996at5820            -           1613       9.1    2.1  26.6   1   2   2.4e-05     0.022   10.8  15.8   638   700   102   165    65   185 0.40 hypothetical protein, conserved [Plasmodium vivax]
+SCO72509.1           -            320 996at5820            -           1613       9.1    2.1  26.6   2   2      0.48   4.3e+02   -3.4   3.0  1275  1346   234   296   213   311 0.40 hypothetical protein, conserved [Plasmodium vivax]
+#
+# Program:         hmmsearch
+# Version:         3.4 (Aug 2023)
+# Pipeline mode:   SEARCH
+# Query file:      /v3/work/00_inventory/busco/busco_downloads/lineages/plasmodium_odb10/hmms/996at5820.hmm
+# Target file:     /v3/inputs/annotations/ncbi-datasets/PvC01.proteins.fa
+# Option settings: hmmsearch --domtblout /v3/work/00_inventory/busco/PvC01_proteins/run_plasmodium_odb10/hmmer_output/initial_run_results/996at5820.out --cpu 1 /v3/work/00_inventory/busco/busco_downloads/lineages/plasmodium_odb10/hmms/996at5820.hmm /v3/inputs/annotations/ncbi-datasets/PvC01.proteins.fa 
+# Current dir:     /v3/work/00_inventory/busco
+# Date:            Tue May 19 19:16:29 2026
+# [ok]

@@ -1,0 +1,22 @@
+#                                                                            --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name        accession   tlen query name           accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+#------------------- ---------- ----- -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+SCO72300.1           -            567 5489at5820           -            451  1.2e-238  790.7  25.0   1   3   2.3e-13   2.9e-10   37.9   0.0    30    78    39    87    10   120 0.74 conserved Plasmodium protein, unknown function [Plasmodium vivax]
+SCO72300.1           -            567 5489at5820           -            451  1.2e-238  790.7  25.0   2   3    0.0042       5.3    4.1   0.0    59   114   136   197   117   203 0.66 conserved Plasmodium protein, unknown function [Plasmodium vivax]
+SCO72300.1           -            567 5489at5820           -            451  1.2e-238  790.7  25.0   3   3  2.4e-229  3.1e-226  749.8  20.3   116   449   233   567   228   567 0.99 conserved Plasmodium protein, unknown function [Plasmodium vivax]
+SCO75576.1           -            484 5489at5820           -            451   3.1e-27   93.8   8.1   1   1   3.8e-30   4.8e-27   93.2   8.1   157   335   187   357   128   389 0.81 nucleotidyltransferase, putative [Plasmodium vivax]
+SCO75521.1           -            904 5489at5820           -            451     7e-09   33.3   8.2   1   2      0.46   5.8e+02   -2.7  14.3    35   105    50   121    23   149 0.58 conserved Plasmodium protein, unknown function [Plasmodium vivax]
+SCO75521.1           -            904 5489at5820           -            451     7e-09   33.3   8.2   2   2   5.6e-12     7e-09   33.3   8.2   116   300   349   528   326   533 0.86 conserved Plasmodium protein, unknown function [Plasmodium vivax]
+SCO74065.1           -            808 5489at5820           -            451   1.1e-07   29.4   2.1   1   2   2.1e-10   2.6e-07   28.1   0.4   152   300   417   558   394   563 0.81 nucleotidyltransferase, putative [Plasmodium vivax]
+SCO74065.1           -            808 5489at5820           -            451   1.1e-07   29.4   2.1   2   2     0.058        73    0.3   0.1   355   372   574   591   567   638 0.77 nucleotidyltransferase, putative [Plasmodium vivax]
+SCO73363.1           -            573 5489at5820           -            451       1.2    6.1  10.2   1   1    0.0003      0.38    7.8   7.0    61   116    12    69     4   112 0.75 VIR protein [Plasmodium vivax]
+#
+# Program:         hmmsearch
+# Version:         3.4 (Aug 2023)
+# Pipeline mode:   SEARCH
+# Query file:      /v3/work/00_inventory/busco/busco_downloads/lineages/plasmodium_odb10/hmms/5489at5820.hmm
+# Target file:     /v3/inputs/annotations/ncbi-datasets/PvC01.proteins.fa
+# Option settings: hmmsearch --domtblout /v3/work/00_inventory/busco/PvC01_proteins/run_plasmodium_odb10/hmmer_output/initial_run_results/5489at5820.out --cpu 1 /v3/work/00_inventory/busco/busco_downloads/lineages/plasmodium_odb10/hmms/5489at5820.hmm /v3/inputs/annotations/ncbi-datasets/PvC01.proteins.fa 
+# Current dir:     /v3/work/00_inventory/busco
+# Date:            Tue May 19 18:52:39 2026
+# [ok]

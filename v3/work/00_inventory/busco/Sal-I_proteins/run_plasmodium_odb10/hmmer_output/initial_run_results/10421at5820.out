@@ -1,0 +1,17 @@
+#                                                                            --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name        accession   tlen query name           accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+#------------------- ---------- ----- -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+PVX_001980.1-p1      -            316 10421at5820          -            244    5e-136  450.3  30.0   1   2   6.3e-52   1.7e-48  163.6   6.1     1    95     7   103     7   124 0.90 | transcript=PVX_001980.1 | gene=PVX_001980 | organism=Plasmodium_vivax_Sal-1 | gene_product=ZIP domain-containing protein, putative | transcript_product=ZIP domain-containing protein, putative | location=Pv_Sal1_chr06:326310-327970(+) | protein_length=316 | sequence_SO=chromosome | SO=protein_coding_gene | is_pseudo=false
+PVX_001980.1-p1      -            316 10421at5820          -            244    5e-136  450.3  30.0   2   2   2.1e-91   5.7e-88  292.9  15.9    94   244   158   309   131   309 0.94 | transcript=PVX_001980.1 | gene=PVX_001980 | organism=Plasmodium_vivax_Sal-1 | gene_product=ZIP domain-containing protein, putative | transcript_product=ZIP domain-containing protein, putative | location=Pv_Sal1_chr06:326310-327970(+) | protein_length=316 | sequence_SO=chromosome | SO=protein_coding_gene | is_pseudo=false
+PVX_113615.1-p1      -            356 10421at5820          -            244   2.2e-14   52.0  17.1   1   2   1.5e-05     0.042   11.7   0.1    28    69    42    84    11   104 0.79 | transcript=PVX_113615.1 | gene=PVX_113615 | organism=Plasmodium_vivax_Sal-1 | gene_product=transporter protein, putative | transcript_product=transporter protein, putative | location=Pv_Sal1_chr11:1645258-1647470(+) | protein_length=356 | sequence_SO=chromosome | SO=protein_coding_gene | is_pseudo=false
+PVX_113615.1-p1      -            356 10421at5820          -            244   2.2e-14   52.0  17.1   2   2   8.5e-15   2.3e-11   42.0  13.1    95   223   178   308   147   330 0.79 | transcript=PVX_113615.1 | gene=PVX_113615 | organism=Plasmodium_vivax_Sal-1 | gene_product=transporter protein, putative | transcript_product=transporter protein, putative | location=Pv_Sal1_chr11:1645258-1647470(+) | protein_length=356 | sequence_SO=chromosome | SO=protein_coding_gene | is_pseudo=false
+#
+# Program:         hmmsearch
+# Version:         3.4 (Aug 2023)
+# Pipeline mode:   SEARCH
+# Query file:      /v3/work/00_inventory/busco/busco_downloads/lineages/plasmodium_odb10/hmms/10421at5820.hmm
+# Target file:     /v3/inputs/annotations/plasmodb-68/Sal-I.proteins.fa
+# Option settings: hmmsearch --domtblout /v3/work/00_inventory/busco/Sal-I_proteins/run_plasmodium_odb10/hmmer_output/initial_run_results/10421at5820.out --cpu 1 /v3/work/00_inventory/busco/busco_downloads/lineages/plasmodium_odb10/hmms/10421at5820.hmm /v3/inputs/annotations/plasmodb-68/Sal-I.proteins.fa 
+# Current dir:     /v3/work/00_inventory/busco
+# Date:            Tue May 19 17:26:06 2026
+# [ok]

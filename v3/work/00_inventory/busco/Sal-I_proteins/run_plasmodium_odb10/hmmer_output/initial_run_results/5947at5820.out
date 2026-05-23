@@ -1,0 +1,17 @@
+#                                                                            --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name        accession   tlen query name           accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+#------------------- ---------- ----- -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+PVX_082960.1-p1      -            626 5947at5820           -            488  1.8e-294  975.2  41.0   1   3  5.2e-184  1.4e-180  599.5  13.9     1   301     1   315     1   319 0.96 | transcript=PVX_082960.1 | gene=PVX_082960 | organism=Plasmodium_vivax_Sal-1 | gene_product=sodium-dependent phosphate transporter, putative | transcript_product=sodium-dependent phosphate transporter, putative | location=Pv_Sal1_chr12:553732-555787(-) | protein_length=626 | sequence_SO=chromosome | SO=protein_coding_gene | is_pseudo=false
+PVX_082960.1-p1      -            626 5947at5820           -            488  1.8e-294  975.2  41.0   2   3   1.2e-96   3.3e-93  311.4   4.3   275   443   372   539   354   546 0.89 | transcript=PVX_082960.1 | gene=PVX_082960 | organism=Plasmodium_vivax_Sal-1 | gene_product=sodium-dependent phosphate transporter, putative | transcript_product=sodium-dependent phosphate transporter, putative | location=Pv_Sal1_chr12:553732-555787(-) | protein_length=626 | sequence_SO=chromosome | SO=protein_coding_gene | is_pseudo=false
+PVX_082960.1-p1      -            626 5947at5820           -            488  1.8e-294  975.2  41.0   3   3   1.7e-25   4.8e-22   76.6   6.9   444   488   572   616   566   616 0.98 | transcript=PVX_082960.1 | gene=PVX_082960 | organism=Plasmodium_vivax_Sal-1 | gene_product=sodium-dependent phosphate transporter, putative | transcript_product=sodium-dependent phosphate transporter, putative | location=Pv_Sal1_chr12:553732-555787(-) | protein_length=626 | sequence_SO=chromosome | SO=protein_coding_gene | is_pseudo=false
+PVX_000800.1-p1      -            704 5947at5820           -            488      0.02   11.9   0.5   1   1   1.2e-05     0.032   11.3   0.5   242   281    10    49     3    85 0.85 | transcript=PVX_000800.1 | gene=PVX_000800 | organism=Plasmodium_vivax_Sal-1 | gene_product=tRNA N6-adenosine threonylcarbamoyltransferase, putative | transcript_product=tRNA N6-adenosine threonylcarbamoyltransferase, putative | location=Pv_Sal1_chr03:296699-299558(+) | protein_length=704 | sequence_SO=chromosome | SO=protein_coding_gene | is_pseudo=false
+#
+# Program:         hmmsearch
+# Version:         3.4 (Aug 2023)
+# Pipeline mode:   SEARCH
+# Query file:      /v3/work/00_inventory/busco/busco_downloads/lineages/plasmodium_odb10/hmms/5947at5820.hmm
+# Target file:     /v3/inputs/annotations/plasmodb-68/Sal-I.proteins.fa
+# Option settings: hmmsearch --domtblout /v3/work/00_inventory/busco/Sal-I_proteins/run_plasmodium_odb10/hmmer_output/initial_run_results/5947at5820.out --cpu 1 /v3/work/00_inventory/busco/busco_downloads/lineages/plasmodium_odb10/hmms/5947at5820.hmm /v3/inputs/annotations/plasmodb-68/Sal-I.proteins.fa 
+# Current dir:     /v3/work/00_inventory/busco
+# Date:            Tue May 19 17:44:12 2026
+# [ok]

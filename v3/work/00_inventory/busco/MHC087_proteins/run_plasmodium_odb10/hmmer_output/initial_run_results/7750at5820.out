@@ -1,0 +1,19 @@
+#                                                                                                             --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name                                         accession   tlen query name           accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+#                                 ------------------- ---------- ----- -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+GCA_040114635.1|PVP01_0928200|PVP01_0928200.1|unknown -            424 7750at5820           -            348  4.6e-179  593.4  18.9   1   1  3.4e-182  5.3e-179  593.2  18.9     1   348    24   407    24   407 0.93 -
+GCA_040114635.1|PVP01_0506500|PVP01_0506500.1|unknown -            482 7750at5820           -            348     1e-10   39.9   7.2   1   2   3.6e-11   5.7e-08   30.8   5.5     7   217    32   247    27   265 0.73 -
+GCA_040114635.1|PVP01_0506500|PVP01_0506500.1|unknown -            482 7750at5820           -            348     1e-10   39.9   7.2   2   2   0.00023      0.36    8.4   0.0    13    40   362   389   354   406 0.83 -
+GCA_040114635.1|PVP01_1202300|PVP01_1202300.1|unknown -            209 7750at5820           -            348     4e-05   21.4   0.7   1   2   2.6e-08     4e-05   21.4   0.7    20   106    43   128    20   142 0.63 -
+GCA_040114635.1|PVP01_1202300|PVP01_1202300.1|unknown -            209 7750at5820           -            348     4e-05   21.4   0.7   2   2      0.18   2.9e+02   -1.1   0.6   273   297   110   134    96   197 0.51 -
+GCA_040114635.1|PVP01_1249700|PVP01_1249700.1|unknown -            104 7750at5820           -            348   0.00054   17.7   0.2   1   1   3.7e-07   0.00058   17.6   0.2    14   104    10   100     1   104 0.75 -
+#
+# Program:         hmmsearch
+# Version:         3.4 (Aug 2023)
+# Pipeline mode:   SEARCH
+# Query file:      /v3/work/00_inventory/busco/busco_downloads/lineages/plasmodium_odb10/hmms/7750at5820.hmm
+# Target file:     /v3/inputs/annotations/ncbi-datasets/MHC087.proteins.fa
+# Option settings: hmmsearch --domtblout /v3/work/00_inventory/busco/MHC087_proteins/run_plasmodium_odb10/hmmer_output/initial_run_results/7750at5820.out --cpu 1 /v3/work/00_inventory/busco/busco_downloads/lineages/plasmodium_odb10/hmms/7750at5820.hmm /v3/inputs/annotations/ncbi-datasets/MHC087.proteins.fa 
+# Current dir:     /v3/work/00_inventory/busco
+# Date:            Tue May 19 18:19:45 2026
+# [ok]

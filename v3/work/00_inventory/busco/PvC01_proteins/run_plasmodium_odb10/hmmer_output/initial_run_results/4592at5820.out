@@ -1,0 +1,20 @@
+#                                                                            --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name        accession   tlen query name           accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+#------------------- ---------- ----- -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+SCO70920.1           -            841 4592at5820           -            509  2.6e-232  770.8  13.2   1   7       0.2   1.3e+03   -3.4   0.1     1    18     5    22     5    27 0.89 metallo-hydrolase/oxidoreductase, putative [Plasmodium vivax]
+SCO70920.1           -            841 4592at5820           -            509  2.6e-232  770.8  13.2   2   7   1.8e-06     0.011   13.2   0.0    23    48   130   155   126   171 0.86 metallo-hydrolase/oxidoreductase, putative [Plasmodium vivax]
+SCO70920.1           -            841 4592at5820           -            509  2.6e-232  770.8  13.2   3   7   0.00072       4.5    4.7   0.0    54    96   209   260   199   262 0.78 metallo-hydrolase/oxidoreductase, putative [Plasmodium vivax]
+SCO70920.1           -            841 4592at5820           -            509  2.6e-232  770.8  13.2   4   7  4.5e-104  2.8e-100  335.3   0.2    96   271   290   465   287   469 0.98 metallo-hydrolase/oxidoreductase, putative [Plasmodium vivax]
+SCO70920.1           -            841 4592at5820           -            509  2.6e-232  770.8  13.2   5   7     1e-87   6.6e-84  281.2   0.3   269   425   516   672   512   675 0.98 metallo-hydrolase/oxidoreductase, putative [Plasmodium vivax]
+SCO70920.1           -            841 4592at5820           -            509  2.6e-232  770.8  13.2   6   7   3.9e-38   2.4e-34  117.7   0.3   393   491   694   799   687   802 0.81 metallo-hydrolase/oxidoreductase, putative [Plasmodium vivax]
+SCO70920.1           -            841 4592at5820           -            509  2.6e-232  770.8  13.2   7   7   5.1e-09   3.2e-05   21.6   0.0   486   509   816   839   813   839 0.93 metallo-hydrolase/oxidoreductase, putative [Plasmodium vivax]
+#
+# Program:         hmmsearch
+# Version:         3.4 (Aug 2023)
+# Pipeline mode:   SEARCH
+# Query file:      /v3/work/00_inventory/busco/busco_downloads/lineages/plasmodium_odb10/hmms/4592at5820.hmm
+# Target file:     /v3/inputs/annotations/ncbi-datasets/PvC01.proteins.fa
+# Option settings: hmmsearch --domtblout /v3/work/00_inventory/busco/PvC01_proteins/run_plasmodium_odb10/hmmer_output/initial_run_results/4592at5820.out --cpu 1 /v3/work/00_inventory/busco/busco_downloads/lineages/plasmodium_odb10/hmms/4592at5820.hmm /v3/inputs/annotations/ncbi-datasets/PvC01.proteins.fa 
+# Current dir:     /v3/work/00_inventory/busco
+# Date:            Tue May 19 18:49:12 2026
+# [ok]

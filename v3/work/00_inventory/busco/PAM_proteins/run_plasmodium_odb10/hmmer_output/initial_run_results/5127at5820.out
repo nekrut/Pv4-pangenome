@@ -1,0 +1,17 @@
+#                                                                            --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name        accession   tlen query name           accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+#------------------- ---------- ----- -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+CAI7719278.1         -            729 5127at5820           -            497  8.1e-208  689.9  80.0   1   4   2.6e-19   1.7e-15   55.5   1.5     1    53    48   118    48   124 0.86 | transcript=PVPAM_060028500_t1 | gene=PVPAM_060028500 | organism=Plasmodium_vivax_PAM | gene_product=unspecified product | transcript_product=unspecified product | location=CASCJQ010000006:970272-972461(+) | protein_length=729 | sequence_SO=supercontig | SO=protein_coding_gene | is_pseudo=false
+CAI7719278.1         -            729 5127at5820           -            497  8.1e-208  689.9  80.0   2   4   3.9e-66   2.5e-62  210.0  25.4    50   248   157   414   147   419 0.85 | transcript=PVPAM_060028500_t1 | gene=PVPAM_060028500 | organism=Plasmodium_vivax_PAM | gene_product=unspecified product | transcript_product=unspecified product | location=CASCJQ010000006:970272-972461(+) | protein_length=729 | sequence_SO=supercontig | SO=protein_coding_gene | is_pseudo=false
+CAI7719278.1         -            729 5127at5820           -            497  8.1e-208  689.9  80.0   3   4   6.1e-72   3.9e-68  229.2   9.8   249   392   453   603   450   606 0.96 | transcript=PVPAM_060028500_t1 | gene=PVPAM_060028500 | organism=Plasmodium_vivax_PAM | gene_product=unspecified product | transcript_product=unspecified product | location=CASCJQ010000006:970272-972461(+) | protein_length=729 | sequence_SO=supercontig | SO=protein_coding_gene | is_pseudo=false
+CAI7719278.1         -            729 5127at5820           -            497  8.1e-208  689.9  80.0   4   4   1.3e-64   8.4e-61  205.0  19.8   387   497   618   728   613   728 0.97 | transcript=PVPAM_060028500_t1 | gene=PVPAM_060028500 | organism=Plasmodium_vivax_PAM | gene_product=unspecified product | transcript_product=unspecified product | location=CASCJQ010000006:970272-972461(+) | protein_length=729 | sequence_SO=supercontig | SO=protein_coding_gene | is_pseudo=false
+#
+# Program:         hmmsearch
+# Version:         3.4 (Aug 2023)
+# Pipeline mode:   SEARCH
+# Query file:      /v3/work/00_inventory/busco/busco_downloads/lineages/plasmodium_odb10/hmms/5127at5820.hmm
+# Target file:     /v3/inputs/annotations/plasmodb-68/PAM.proteins.fa
+# Option settings: hmmsearch --domtblout /v3/work/00_inventory/busco/PAM_proteins/run_plasmodium_odb10/hmmer_output/initial_run_results/5127at5820.out --cpu 1 /v3/work/00_inventory/busco/busco_downloads/lineages/plasmodium_odb10/hmms/5127at5820.hmm /v3/inputs/annotations/plasmodb-68/PAM.proteins.fa 
+# Current dir:     /v3/work/00_inventory/busco
+# Date:            Tue May 19 17:40:25 2026
+# [ok]

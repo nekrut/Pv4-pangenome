@@ -1,0 +1,16 @@
+#                                                                            --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name        accession   tlen query name           accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+#------------------- ---------- ----- -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+CAI7719672.1         -            216 11319at5820          -            196   2.7e-98  326.0  11.2   1   1  1.7e-101   5.4e-98  325.0  11.2     7   196     3   215     1   215 0.90 | transcript=PVPAM_070028600_t1 | gene=PVPAM_070028600 | organism=Plasmodium_vivax_PAM | gene_product=OTU domain-containing protein, putative | transcript_product=OTU domain-containing protein, putative | location=CASCJQ010000007:1036303-1036953(-) | protein_length=216 | sequence_SO=supercontig | SO=protein_coding_gene | is_pseudo=false
+CAI7719269.1         -            966 11319at5820          -            196   1.7e-18   65.6   3.7   1   2   5.4e-22   1.7e-18   65.6   3.7    77   194    60   178    52   180 0.89 | transcript=PVPAM_060027600_t1 | gene=PVPAM_060027600 | organism=Plasmodium_vivax_PAM | gene_product=OTU-like cysteine protease, putative | transcript_product=OTU-like cysteine protease, putative | location=CASCJQ010000006:932851-937092(+) | protein_length=966 | sequence_SO=supercontig | SO=protein_coding_gene | is_pseudo=false
+CAI7719269.1         -            966 11319at5820          -            196   1.7e-18   65.6   3.7   2   2      0.26   8.3e+02   -1.9   0.2    19    59   316   356   314   361 0.88 | transcript=PVPAM_060027600_t1 | gene=PVPAM_060027600 | organism=Plasmodium_vivax_PAM | gene_product=OTU-like cysteine protease, putative | transcript_product=OTU-like cysteine protease, putative | location=CASCJQ010000006:932851-937092(+) | protein_length=966 | sequence_SO=supercontig | SO=protein_coding_gene | is_pseudo=false
+#
+# Program:         hmmsearch
+# Version:         3.4 (Aug 2023)
+# Pipeline mode:   SEARCH
+# Query file:      /v3/work/00_inventory/busco/busco_downloads/lineages/plasmodium_odb10/hmms/11319at5820.hmm
+# Target file:     /v3/inputs/annotations/plasmodb-68/PAM.proteins.fa
+# Option settings: hmmsearch --domtblout /v3/work/00_inventory/busco/PAM_proteins/run_plasmodium_odb10/hmmer_output/initial_run_results/11319at5820.out --cpu 1 /v3/work/00_inventory/busco/busco_downloads/lineages/plasmodium_odb10/hmms/11319at5820.hmm /v3/inputs/annotations/plasmodb-68/PAM.proteins.fa 
+# Current dir:     /v3/work/00_inventory/busco
+# Date:            Tue May 19 17:29:03 2026
+# [ok]

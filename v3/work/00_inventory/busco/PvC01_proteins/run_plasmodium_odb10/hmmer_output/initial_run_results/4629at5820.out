@@ -1,0 +1,20 @@
+#                                                                            --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name        accession   tlen query name           accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+#------------------- ---------- ----- -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+SCO74346.1           -            710 4629at5820           -            542         0 1142.8  54.6   1   2   3.7e-44   7.7e-41  138.5   8.1     7    88    58   142    51   154 0.93 conserved Plasmodium protein, unknown function [Plasmodium vivax]
+SCO74346.1           -            710 4629at5820           -            542         0 1142.8  54.6   2   2         0         0 1010.0  38.4    79   542   228   710   212   710 0.98 conserved Plasmodium protein, unknown function [Plasmodium vivax]
+SCO75344.1           -            545 4629at5820           -            542   9.5e-18   62.3  10.5   1   4      0.14   2.9e+02   -2.0   0.1     6    39    63    96    58   117 0.82 karyopherin alpha, putative [Plasmodium vivax]
+SCO75344.1           -            545 4629at5820           -            542   9.5e-18   62.3  10.5   2   4    0.0063        13    2.4   0.0   381   430   127   175   106   183 0.81 karyopherin alpha, putative [Plasmodium vivax]
+SCO75344.1           -            545 4629at5820           -            542   9.5e-18   62.3  10.5   3   4   2.7e-05     0.056   10.3   0.1   327   412   149   243   139   256 0.68 karyopherin alpha, putative [Plasmodium vivax]
+SCO75344.1           -            545 4629at5820           -            542   9.5e-18   62.3  10.5   4   4   8.7e-17   1.8e-13   48.2   2.6   348   534   349   513   337   520 0.85 karyopherin alpha, putative [Plasmodium vivax]
+SCO72174.1           -            220 4629at5820           -            542    0.0019   15.1   1.6   1   1   1.1e-06    0.0023   14.8   1.6    75   160    16   103     9   150 0.77 ribosome-binding factor A, putative [Plasmodium vivax]
+#
+# Program:         hmmsearch
+# Version:         3.4 (Aug 2023)
+# Pipeline mode:   SEARCH
+# Query file:      /v3/work/00_inventory/busco/busco_downloads/lineages/plasmodium_odb10/hmms/4629at5820.hmm
+# Target file:     /v3/inputs/annotations/ncbi-datasets/PvC01.proteins.fa
+# Option settings: hmmsearch --domtblout /v3/work/00_inventory/busco/PvC01_proteins/run_plasmodium_odb10/hmmer_output/initial_run_results/4629at5820.out --cpu 1 /v3/work/00_inventory/busco/busco_downloads/lineages/plasmodium_odb10/hmms/4629at5820.hmm /v3/inputs/annotations/ncbi-datasets/PvC01.proteins.fa 
+# Current dir:     /v3/work/00_inventory/busco
+# Date:            Tue May 19 18:49:27 2026
+# [ok]

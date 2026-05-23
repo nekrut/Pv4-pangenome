@@ -1,0 +1,360 @@
+# hmmsearch :: search profile(s) against a sequence database
+# HMMER 3.4 (Aug 2023); http://hmmer.org/
+# Copyright (C) 2023 Howard Hughes Medical Institute.
+# Freely distributed under the BSD open source license.
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+# query HMM file:                  /v3/work/00_inventory/busco/busco_downloads/lineages/plasmodium_odb10/hmms/99at5820.hmm
+# target sequence database:        /v3/inputs/annotations/plasmodb-68/PvW1.proteins.fa
+# per-dom hits tabular output:     /v3/work/00_inventory/busco/PvW1_proteins/run_plasmodium_odb10/hmmer_output/initial_run_results/99at5820.out
+# number of worker threads:        1
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+Query:       99at5820  [M=3542]
+Scores for complete sequences (score includes all domains):
+   --- full sequence ---   --- best 1 domain ---    -#dom-
+    E-value  score  bias    E-value  score  bias    exp  N  Sequence     Description
+    ------- ------ -----    ------- ------ -----   ---- --  --------     -----------
+          0 4966.9   0.0          0 3206.4   0.0    3.1  2  CAG9479102.1  | transcript=PVW1_080027100_t1 | gene=PVW1_0800
+  ------ inclusion threshold ------
+        5.4    1.8  17.0        7.3    1.3  17.0    1.0  1  CAG9474786.1  | transcript=PVW1_100029800_t1 | gene=PVW1_1000
+        8.3    1.1  18.4        8.7    1.1  18.4    1.0  1  CAG9474932.1  | transcript=PVW1_100041400_t1 | gene=PVW1_1000
+        8.8    1.0  11.2         11    0.7  11.2    1.0  1  CAG9477804.1  | transcript=PVW1_110027800_t1 | gene=PVW1_1100
+
+
+Domain annotation for each sequence (and alignments):
+>> CAG9479102.1  | transcript=PVW1_080027100_t1 | gene=PVW1_080027100 | organism=Plasmodium_vivax_PvW1 | gene_product=un
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ! 3206.4   0.0         0         0       1    2255 [.       1    2906 [.       1    2945 [. 0.88
+   2 ! 1756.4   0.0         0         0    2276    3542 .]    3011    4659 .]    2972    4659 .] 0.87
+
+  Alignments for each domain:
+  == domain 1  score: 3206.4 bits;  conditional E-value: 0
+      99at5820    1 mrkkgniknfeleeiifiLLnCLDedkklnreivntLkiyilyhkceiLnyvfsfLqiqkvshenqklLLlLvyDfvhyciynrfsnvvdeylee 95  
+                    m+k+++i+n+eleei+fiLLnCLDe+kk+nrei+ntLk+y+lyhk++iLnyvfsfLqiqkvshenqklLL+Lv+Dfvhyci+nrfsn+vdeyl e
+  CAG9479102.1    1 MKKRASITNLELEEIVFILLNCLDEEKKKNREIINTLKVYLLYHKGQILNYVFSFLQIQKVSHENQKLLLCLVHDFVHYCIHNRFSNTVDEYLGE 95  
+                    9********************************************************************************************** PP
+
+      99at5820   96 ekkneekeekk.............................sieeekfkDikifdnilkytffDGDeyCfvye....................... 138 
+                     k+ne ++e++                             +  +++fkD++if+nil+y+ffDGDe+Cf+++                       
+  CAG9479102.1   96 VKRNEGEKEERadtqkggsqrggpqkgdtqkgdtqkggtpKGGTHRFKDLHIFENILRYSFFDGDEHCFLFQdlpegvflpdavplqgdaaegga 190 
+                    ****99888778***************************9999**************************************************** PP
+
+      99at5820  139 .................................vkrd..qnifkedkisklkclkkeeykllliekkklak......................kn 176 
+                                                            +if++dki+kl clkkeeyk+++i+++++ak                      ++
+  CAG9479102.1  191 lqqadsgtafsprgslhfatdgnprersmrsmkR--RgrGSIFHQDKIAKLLCLKKEEYKTAMISEREAAKksnqctsphvaasaplggippqNA 283 
+                    ******************************9633..3359************************9988766222222222222222222222156 PP
+
+      99at5820  177 kkkseinniikniinfiLnellfikknDerhkimtkLLiLCiikeDaylkkkiiekvnyyldseed........................adekv 247 
+                    k++seinnii+nii+f+Lne+lfik++Derh imtkLLiLC+++eDaylkkk++ek+n++l                             +    
+  CAG9479102.1  284 KETSEINNIIRNIIDFLLNEILFIKRDDERHGIMTKLLILCVVREDAYLKKKLVEKLNGCLRVGGAalpvgdspdgggkptiekggsekvS---- 374 
+                    899**********************************************************976558999999999999988888544443.... PP
+
+      99at5820  248 sn.......knnnnnnkknskvyiyleLyidifmqvPhLtknvLidifksilsldksnkhidliykillkifqdiqfPsvLysiiymnkkykkkn 335 
+                              +++n   +n+kv +yleLyid+++qvPhLtk+vL+++f+++lsl++s+ h+dl++k++++ifqdiqfPsvLy+ii+mn+kyk+kn
+  CAG9479102.1  375 -GekvgndkVSSENVRGDNPKVRAYLELYIDLLTQVPHLTKSVLNEFFSAVLSLGQSTTHADLTHKVMTQIFQDIQFPSVLYTIIRMNTKYKRKN 468 
+                    .355555652333444569**************************************************************************** PP
+
+      99at5820  336 fiipnkkntnvyiendviqLslentseDtcttytresslnsnllkkse.........ifndnikqeklykkkekek..........ssehlikna 411 
+                    fiipnk++tnv+iend+i+LslentseDtcttytresslnsn+l +s+         ifn++ +q++l + +e+e+          sseh++++a
+  CAG9479102.1  469 FIIPNKHHTNVFIENDIIHLSLENTSEDTCTTYTRESSLNSNVLGRSNtpgksntpgIFNNSGRQANLRRPTEGERngkgtsykdpSSEHTSRDA 563 
+                    ******************************************9876543333334449***************9994444444444223322222 PP
+
+      99at5820  412 nngekeeskekds................................dskaeseke.....klilksnikdkkesdlase.....eenkedkytvek 464 
+                                s                                d  a+s++      ++++k+ ++++k+s++a+e     +e +e++ytv++
+  CAG9479102.1  564 ------------SpcevfydahngevepdgwdtppggecsqgrgsDGVAQSNWGpskgkNNLVKAFQREAKPSEHAAEpfrneSEGSEKYYTVKN 646 
+                    ............13455555566667788888888888888887633333333366666899999999****99998764321334578999998 PP
+
+      99at5820  465 edengknk...................dekeeklkkkdavknseekekkkiedikkvckklldlylniilslkysnenyikiLyiiskllLyinn 540 
+                      + + ++                      +   + + a +   eke++k+e+ ++vc+k+l+lyl+++++lk+s+eny+k+Lyiiskl+Ly+nn
+  CAG9479102.1  647 WRKGAVCQvpegsggspkekgdlprgkGILSPVASPHAAAQLPLEKERRKAEETTAVCSKMLALYLSMLPTLKRSSENYRKLLYIISKLVLYVNN 741 
+                    77666666888888899766665544211222333444578889*************************************************** PP
+
+      99at5820  541 eelikkvlevyiyyflvffnstinnveisdissiynndsqikinyinlkelPnyniinsfriiLqkclnkihlivvftnqilkvayalLyilink 635 
+                    +el+kkv+e +i+yflvff++t+nn+++s+is+ yn+d q++iny+++++lP+y++insfr+iLqkcl+kihliv+f+ + lkvaya+L+ +in+
+  CAG9479102.1  742 DELTKKVIEECIHYFLVFFHATVNNASVSEISGGYNKDLQVHINYSSVRGLPQYSVINSFRSILQKCLTKIHLIVGFATHTLKVAYAILLTMINQ 836 
+                    *********************************************************************************************** PP
+
+      99at5820  636 nysinnsksivkkitsnsyvstfieiieifnifisCiytnnlvfnllkeklksnnkveiivsLiiLkqyillissdlssdniivylsnqnikkk. 729 
+                    ny+++n+k+i+++itsn+yvstf+e++e+fnifi+C+yt+nlv+++++ek+ks++kve+ivsL++L+qy+llis+d++s+n +v+lsnqn+k+k 
+  CAG9479102.1  837 NYTMSNAKGIANYITSNVYVSTFVEVMELFNIFITCAYTSNLVLSFIREKVKSSVKVEVIVSLTLLRQYLLLISGDIGSGNNMVHLSNQNMKTKg 931 
+                    *********************************************************************************************97 PP
+
+      99at5820  730 keykksfkkLnsfisDtek.nntnieliiqivaslserfnnDLsiiyllLeisLlLsyheyfnsfsynpnvilgLlpkvssPLlvlyk.eeakke 822 
+                    + ykk+fk+L+sfi+D+++ n++n+el+iq+va+ls+rf+nDLsiiy+lLei+LlLsyh++f+s s+npnvilgLlp+vssPL++ly+  ea+++
+  CAG9479102.1  932 GPYKKCFKRLSSFITDANRtNTSNVELVIQMVANLSDRFCNDLSIIYMLLEINLLLSYHQHFDSSSFNPNVILGLLPRVSSPLCDLYMgGEAEQS 1026
+                    79****************9999*****************************************************************86777777 PP
+
+      99at5820  823 evsekiqikdnatskenslnldkkekniy.................eekrnnmedeiktWlliPnkyvikilqlllnillseeskfklknkkyGy 900 
+                       e+   ++++ + ++s +   k +                     +   +  +eiktWlliP+k+viki+++l+n llseeskfk++nkkyGy
+  CAG9479102.1 1027 GKGEQSGKSRKSGKGKQSGK-SGKGE--AlppsgeppleghhpgerINPMGHHGQEIKTWLLIPSKHVIKIMHFLINTLLSEESKFKKQNKKYGY 1118
+                    66655543333322222222.22211..123556667777777443444455679**************************************** PP
+
+      99at5820  901 svdengtiidinnesnevlkngfkynklfyDihlhffiymlPsvsyikkLislafqknfslysprvLypLlfeylvniknsykivlllLkaLnii 995 
+                     vd++gtiid+nn++nevl+ngf++n++f+D+h+++fi+m Psv+y+kkLi+laf+k++++ysprvLypLlfe+lv++k+s+kiv ++LkaLni+
+  CAG9479102.1 1119 EVDDSGTIIDANNNANEVLQNGFHHNRMFFDVHWNYFIFMDPSVPYVKKLIALAFEKHLCFYSPRVLYPLLFELLVDVKRSFKIVATILKALNIM 1213
+                    *********************************************************************************************** PP
+
+      99at5820  996 CisLynymvkknLrihsrlhfnylvLPniskiisvLfmyclhenfvvsfLslqLisilrsftqnksiksvqsltyfelllkvlkl.......... 1080
+                    Ci+L+n+mvkk+Lr+hsrlh+nylvLPnis++isvLfmyc+h+++vvsfLslqLisilrsftq+ksi+svqs+tyfelll++++l          
+  CAG9479102.1 1214 CILLHNHMVKKHLRLHSRLHYNYLVLPNISNVISVLFMYCTHSDIVVSFLSLQLISILRSFTQGKSIASVQSFTYFELLLSLVRLssqavarkgd 1308
+                    *********************************************************************************************** PP
+
+      99at5820 1081 ....klleeslysrkilkei...........rkkkekekkakyyksliklsykkiakriskkllnvyLks......kkkkrkinkiikkyfnvdl 1154
+                         l++ slysr+ilk+i           +k+++++k+a+yy+sl+k +y++ia+ isk++l+v+L++      k ++rk+++i+++yf+vdl
+  CAG9479102.1 1309 raaaPLAGGSLYSRRILKRIialsgggkkkpQKHTAAVKRARYYRSLVKGCYREIARGISKRVLDVSLNVsrgacrKGWRRKVRAIARHYFSVDL 1403
+                    ***99***********************99989999*********************************999999999***************** PP
+
+      99at5820 1155 kei...................................................ieslslkitkilrllkklfssyvkkeiekiynyqtyiitff 1198
+                    +                                                     +esls+++t+il+l++++fssyvk+ei +iyny++y++tff
+  CAG9479102.1 1404 GGAsnerhasekhanetplgaippmvstpcsldvgtlvganppgegeastchaaTESLSSRFTRILHLMQTFFSSYVKVEIGRIYNYHSYVTTFF 1498
+                    *********************************************************************************************** PP
+
+      99at5820 1199 yilvellriiqsnkefentlfylsiinllCvivkylkekyanklitiffkLneevaineeenllltLyknfsyiykthffnlykekCttlytknC 1293
+                    y+lvel+r+++s++efe+tl+yls+inllCvi+k++++kyank+itiffkLneev++neeenl+ltLy+nfs+iy++hff lykekCtt y++nC
+  CAG9479102.1 1499 YSLVELVRLLKSSQEFESTLLYLSVINLLCVIIKQFSGKYANKMITIFFKLNEEVPVNEEENLFLTLYMNFSTIYRSHFFILYKEKCTTPYMRNC 1593
+                    *********************************************************************************************** PP
+
+      99at5820 1294 iecikllrkdi...kkssenqlDfnnfilLsnkynsDiskeknienvlqylneyqkvykknilkidekree........................ 1361
+                    ieci+l+r+d+   kks+enqlDfnnf+lLsnky++D+s+ekn++++++ylneyq+vy++++l++   +e                         
+  CAG9479102.1 1594 IECIQLMRADClsfKKSTENQLDFNNFMLLSNKYSTDMSREKNVSRFVHYLNEYQAVYRARLLQLGICSEGgggphhkgekkhmdvkripptgen 1688
+                    **********9999***************************************************8877768889999999************99 PP
+
+      99at5820 1362 ...krlesevvnkekkkvn.leklkkkLdksnevvkksvelledklgsyilqndinfsisksfkqeitsyyiesllkkknllrvlfllnniyysD 1452
+                         ++++vv++++ +vn +++lkk+L++snevv+ks++lledklgsyilqndi+fsisk+f+q++ts+yies+l+k+nl+rvlflln+iy+sD
+  CAG9479102.1 1689 fhdGAMQNKVVHETTLQVNhQDDLKKRLYQSNEVVRKSYQLLEDKLGSYILQNDISFSISKQFHQDVTSHYIESILHKNNLFRVLFLLNSIYHSD 1783
+                    99866899999999999873689************************************************************************ PP
+
+      99at5820 1453 vankkssafslfGkssnvinaenirntLiLsmGlclkkipskkfedLykirevyvnekifaiyvkkvyvnlvkyn.afenilfdkddsv..ieei 1544
+                    van+kssafs+fGks+nvinaenir+tLiL+mG+cl+k+ps+k++dL+ ir+vy+nek+faiyvk+vyv+l++y+ ++ n+++++dds    e+i
+  CAG9479102.1 1784 VANRKSSAFSIFGKSTNVINAENIRSTLILTMGKCLRKVPSSKVRDLHVIRDVYMNEKLFAIYVKHVYVPLARYStSLGNAIHGRDDSPltEEHI 1878
+                    *************************************************************************97369**********866799* PP
+
+      99at5820 1545 vkeiisnkqkyvdekykdeinlnikikkellsslekeesasse.............kss....................ssnlskeklsllifql 1606
+                    v+e++sn+q+yvde+yk+ei++n+ +++++ls +ek++s +s+             + +                     + l++ek++ll+fql
+  CAG9479102.1 1879 VREVLSNRQRYVDERYKEEIKMNALVRRDILSGVEKRDSGESSqcgpppmsakvnvN-AsvsasvnsaslanaanpanlWKRLPSEKINLLVFQL 1972
+                    ***************************************999855555555544440.044444555556666666554556************* PP
+
+      99at5820 1607 LvDPiiislyqekeavlqksLlkslkkiskklkkikeki.................................lnylDiknkrciikDiCeeylke 1668
+                    LvDPii+sly+ekea+lq+sLl++lk++skklk+i+                                    +n+lD ++++c+ +D+C++y+ke
+  CAG9479102.1 1973 LVDPIICSLYEEKEATLQASLLRALKMVSKKLKCIRAPGgeaahrhrmkwdhyanrvrgnleatttpqpyvvTNTLDRPTRWCSTQDVCDHYMKE 2067
+                    ************************************6659999**************************************************** PP
+
+      99at5820 1669 nlnevkfysclyiykfiiiyssLyylsnidnltlPisnisltsvekfalyfkr...eiinkseyylkeeikkkesedeqtsneeki......lel 1754
+                    n+++v+fyscl+iyk+i+i+s+Lyy++n+d+++lPis++++t+v  +alyfk+   +i++kse++l+e++k + s++++ sne+k+      l+l
+  CAG9479102.1 2068 NVKDVPFYSCLCIYKYIVIHSALYYVANFDEQPLPISSMTFTGVGLYALYFKQekrIITSKSEHQLREDLKASGSNGSNGSNESKKknqfeeLHL 2162
+                    ***************************************************986668***************99888877776633355666899 PP
+
+      99at5820 1755 ekeefyikeik.ldkkielk.......snkviyndyfsellke......................kldiskdsyeillnaLktiyyslfirepln 1819
+                    +ke+++i +i+ ++++ie++       s++viyndyfs+l+ke                      +ldi +d+y++l+naLk+i+y+lf++ep++
+  CAG9479102.1 2163 QKEQHIIGKIDmWGRMIEWEyrtidapSERVIYNDYFSDLVKErgskndstqggaspghsppsepHLDIPSDTYANLKNALKSIHYCLFVEEPMQ 2257
+                    *********964789998875555555899***********984444444444444444444444589*************************** PP
+
+      99at5820 1820 fqsvfiivdvLinLlLkivlnekkkiyqkfqenke...............................kiknlrekelkekkkkkkeikkkrkkkle 1883
+                    f+s++iivdvL++LlLkivlne+k++y k++++++                               +++++r+++ +ek+k+k+ + +k k+++ 
+  CAG9479102.1 2258 FHSALIIVDVLTRLLLKIVLNERKQMYCKWHDSADvvgqgpnmagqnadesltnegvaakngasnlDTAHVRSDQPEEKQKNKSANISKGKRTIP 2352
+                    ****************************************************************9999999************999999****** PP
+
+      99at5820 1884 kekikkk..geeiaedsnnesnnk.............................................kdeekenkledkdaklkkkltkekkk 1931
+                    k++++k+    + ++++n +  n+                                              de++ +k    d++    ++++kkk
+  CAG9479102.1 2353 KGNVTKEkkLPQGVNHTNGKMRNNeltggtpngeeqtehhggatsshvahqrggdgrakwdgrrksqrgADEDTGSKGILPDEHF-PGVAEQKKK 2446
+                    *****76332345566663333334888999999999999999999999********9999999888874444444444445555.556666666 PP
+
+      99at5820 1932 kkkrkksekkkne...................nnkifknlskyekislsclnliisiivkavldinsffllskiikyihdlcvstniaevkflsf 2007
+                    kk++k+ e++++e                   n+k f++l+kye ++lsclnli siivka+l+++sf+l++kiiky+hd+cv+tniaevkf+sf
+  CAG9479102.1 2447 KKSSKRIERGHTEghtddplranrrenkllhsNSKPFRYLRKYEGAALSCLNLISSIIVKAALRMDSFPLQFKIIKYLHDTCVATNIAEVKFVSF 2541
+                    66677777777777777777777777777777*************************************************************** PP
+
+      99at5820 2008 riiteivinsa...................................ekseeketkekekkk.kekekk....keeeneneeenksllsynssnfe 2062
+                    ri+++ivi++a                                   +k+++  +++ +++k k++e++        n+n++e k+l+s+nssnfe
+  CAG9479102.1 2542 RILSQIVISAArvgtpnggcrmgpldgappaedtqtghlkvcrlseKKHHHGGEIDGDRSKgKRHEDEathgGGRANRNDHEGKNLSSCNSSNFE 2636
+                    **********9******************************999873333333333332220111222233466789****************** PP
+
+      99at5820 2063 kyfslifssssnisygnlfDlnnekekkeeeaens..........vsdkdkeneekekssekylnssnenek........nkeekdekekdklnd 2139
+                    kyf+lifs+ +nisygn+fD+n+e++++ + +e s          +s+++   + +++sse+yl s  + e         +        ++  + 
+  CAG9479102.1 2637 KYFNLIFSPGGNISYGNFFDANDEHGGMPNRNEGShesgggdsgrCSSHRGGPDGQNDSSEHYLDSVSNAEGnviketaiE-------GAGGNHL 2724
+                    ************************9988764443333454444445566667799********977665555243322220.......2222222 PP
+
+      99at5820 2140 aegs.....ssksk..............................................................sldekneakeeknylCeCi 2167
+                    ++g+         +                                                              + d k+eak e+nylCeCi
+  CAG9479102.1 2725 HRGEttlrgE---SggagklnghmgsdkgsnssimydpsdsdsppggaadhvphmdeggslqeqssgekneakneaKSDVKSEAKGERNYLCECI 2816
+                    2222223330...13344455556666666788999999*************************999999988877666679************* PP
+
+      99at5820 2168 glLiPyikDkekiisylsicsicvllgklkkvkilskshfiyfflnslevilnvlsklkkkakkkkkkekkkklikk..kklsdkekent 2255
+                    glLiPy+kD+e++isyls+cs+c+llgkl++ ++ls++hf++ff+n++evil+ ls+   +  + ++ ++k + ++   k + d ++ nt
+  CAG9479102.1 2817 GLLIPYVKDPERVISYLSVCSVCALLGKLQRGRMLSNWHFVHFFFNRIEVILDGLSSPVTNRVRGRRAKRKAERERAtwKGKLDGQIGNT 2906
+                    *******************************************************99887777777777665544433333334444444 PP
+
+  == domain 2  score: 1756.4 bits;  conditional E-value: 0
+      99at5820 2276 e....kfsyknirknlyniefekkfykkvekkikeinsekyqkkfikkls....nkkkeinlyklindiiiedfsedekksyvntLiscihnknk 2362
+                    +    ++sy+n+r+n++++e +++f+ kv ++i+eins++yq++fik+l+    n++ke+n+yk ++d i+e++s++ek+syvn+Liscihnkn+
+  CAG9479102.1 3011 RlappRISYQNVRSNMRTVERHNHFLVKVGTRIREINSGTYQTRFIKRLGqltnNTRKETNVYKAMSDAISEVLSNEEKMSYVNCLISCIHNKNR 3105
+                    1344499******************************************9999999*************************************** PP
+
+      99at5820 2363 kvsinglnlLmyyilkekidkedieiimnrvlselyyytkvnvlneksknn.............................akakik......dnn 2422
+                    +v+i+glnlLmy++++e+++++di++im+rvl+e++yytkvnvl+++ ++                              a+++i+      + n
+  CAG9479102.1 3106 QVAISGLNLLMYHTWAEQMSHQDIDVIMSRVLNEVHYYTKVNVLSGSGESPpsgsfskaapprgtdepnstleayrimcrARQDIEgppkgiSIN 3200
+                    ***********************************************988788999999999999999999888888844222333666655688 PP
+
+      99at5820 2423 ekdrenekkkenelnntleayynikkkrkkknilersLriilllCrkhfyvvinklCtlqskynyehiyfiymiCnnekllsktldylfyilnnl 2517
+                    ++d +++++++n+ +n  ++    +k  + +n+ler+Lr il+lCrkh+yvv+nklCtlqsky+yeh+yfi+miCnne+ll+kt+dylfy++n+l
+  CAG9479102.1 3201 RCDIRSDNRRDNQRDNPRDNL--RDKPVRGPNVLERALRTILVLCRKHPYVVVNKLCTLQSKYSYEHVYFIFMICNNERLLHKTMDYLFYLMNSL 3293
+                    888888888888888888874..58999******************************************************************* PP
+
+      99at5820 2518 dtlklnnnlsnilsllfhflkfrnkyiknytkkyfveLflivfyvLGvkqLshlsg.........................eksldkenllkeek 2587
+                    dtlkl++nlsnilsl+fhflkfrn yi++yt++yfveLf+i+f+vLGvkqL+h+sg                         +      ++ +  +
+  CAG9479102.1 3294 DTLKLTKNLSNILSLVFHFLKFRNGYIRDYTRRYFVELFVIMFFVLGVKQLGHMSGvlagaakgravvaekvfppsgllggQ------HYAEGGE 3382
+                    *********************************************************************8888885555442......3333333 PP
+
+      99at5820 2588 eeek......eeekakeeni.............lekereeadkaidkekdkagiae............................eenikveeenn 2635
+                    ++++      ++++ + +++             +                                                  ++   ++++nn
+  CAG9479102.1 3383 QVKEqakceaKSQRGEADKTeeaigvgspelpeQ---------------------AhevdqkedpiarvaekfqerrglpgrsnTKGSPTQSRNN 3456
+                    3322111111222222222222233333333321.....................0223333344444555666666676655422223444444 PP
+
+      99at5820 2636 nekss....ekeeatkkkkeaevnkslfflkkksilksknikkvskeeynkkiyknytcsisvnntlnClniikellkLnkkkkiLnyyeehkve 2726
+                     e +s      ++  +++ ++ vn+s+ffl+++sil+s+++kkvs+ e++kkiy+nytcsisvnntlnC++iikellkLn +k+iL+++ee++ve
+  CAG9479102.1 3457 AEGNSrdgaPLHTDSDDNFAKVVNGSPFFLRRNSILRSRDVKKVSRGEFSKKIYQNYTCSISVNNTLNCVRIIKELLKLNGRKRILRRIEEGRVE 3551
+                    44444233322233344456779************************************************************************ PP
+
+      99at5820 2727 klLyykhsfenGLikliyifLkn.......................................rndcikvfkfleiflksdninyiiisliiLsql 2782
+                    klLyykhsfenGLi+l+ i+L++                                       r++c+kvf fleiflks+niny+iisl++Lsql
+  CAG9479102.1 3552 KLLYYKHSFENGLIELVRIVLSSlggsatrgsgargstireclprgsgtreiftrgsaprceRGHCRKVFGFLEIFLKSRNINYVIISLVTLSQL 3646
+                    *********************************************************************************************** PP
+
+      99at5820 2783 llCikieeenlkiieplikvLysinckkyknslvtkyLhisfknlfiifkdik.yqlekglelfsllikeeyalniLnsLfknldnndknivket 2876
+                    llC++ie+en++++ep+ikvLy++nc+++ n++vtkyLh++f+nlfiifk+i+ yqle+g+e++++likeey++n+LnsLf+ ld++d+nivk+t
+  CAG9479102.1 3647 LLCMRIEPENVRLVEPIIKVLYQVNCTHK-NDVVTKYLHLCFTNLFIIFKAIReYQLETGSEPVPVLIKEEYTINVLNSLFVCLDSSDRNIVKVT 3740
+                    ***************************65.**********************55***************************************** PP
+
+      99at5820 2877 LkafkeackyesekWPsslcasfikiLtdpkviliylnsseamekiyiCkilceifrtlrrekek...........klkkkhlyeiatyLlihLv 2960
+                    Lkafkeacky++e+WPs+lcas++++Lt+p+v+l+ylnssea+eki++C+il+e+frtlr+e+++           +l kkhlyeiatyL+ihLv
+  CAG9479102.1 3741 LKAFKEACKYAREQWPSPLCASYVNMLTTPSVVLPYLNSSEAAEKILMCGILREVFRTLRWERQHkgglapptqtdTLPKKHLYEIATYLMIHLV 3835
+                    *********************************************************************************************** PP
+
+      99at5820 2961 DkrkkvsknvWlaLkellkfkfsdhvndtLlyfdeklflskeek......................eqkeinikkeyfkkkkak........... 3022
+                    Dkrk+vs+nvW+aLke+l++kfs+hvn+tLl+fd+klfl++ ++                      + ++i+i++eyfk+  a+           
+  CAG9479102.1 3836 DKRKNVSANVWKALKEFLRWKFSHHVNSTLLFFDRKLFLPSGVEvgryevvrsqvcrssvgmsqvdRARRITIQREYFKGAGAEegeqvategad 3930
+                    ****************************************************************99899*********88666688889999999 PP
+
+      99at5820 3023 ..............gskkeiseg.vsnvpakeekkilnkaaek........................ekkkekkkkke.........kktnksde 3069
+                                  gs++ei+ g vs+vpa++    +++ +ek                        +         +           +nksde
+  CAG9479102.1 3931 ydyfakgldwdeksGSVGEINGGmVSCVPADTPTGGHTNGVEKahqqkvaphgrnttgetrkkgkkkK---------RnrnrrhstnSAANKSDE 4016
+                    99999999999998888999988667777776653333322223445667778888887654433211.........22234455557789**** PP
+
+      99at5820 3070 esdnsesesskevkkqkiniyyykllveifiPLiiCiDtkvsykknlfaelnkyLyendleekeeennsl...kkendeLyniffkelklnlkni 3161
+                    esd s+++ss evkk++in++yykllvei+iPLiiCiDtkvs+k++lfaeln yLy +d++ +ee+++sl   kke+d+L++iff++l++nl++i
+  CAG9479102.1 4017 ESDVSQAYSSPEVKKERINTHYYKLLVEICIPLIICIDTKVSLKRDLFAELNGYLYAADVDPNEEDRDSLlsvKKESDRLQQIFFTNLQMNLRSI 4111
+                    ******************************************************************9986555899******************* PP
+
+      99at5820 3162 nslyrayiiLlnsrkyldkklwnvnipisedvikmikeyelkstksraehvLfGdLknyvkeeiekie........................kkk 3232
+                    ns+yra+iiLl+sr+yl+ ++wn+nipi++d+++mi+eye+kstksraehvLfGdL nyv+  + +                          k++
+  CAG9479102.1 4112 NSVYRAFIILLSSRSYLGPNVWNANIPINQDIERMISEYEVKSTKSRAEHVLFGDLSNYVHAWKRRERtdgggradiggrtnrgeekqnkrkKQR 4206
+                    ************************************************************76554333558899999999999999999987777 PP
+
+      99at5820 3233 ekskennisksftsvltdsilntlsetlnysyDnfflnd.svs...kseisk.ekdskegnakeelenykv......................nd 3300
+                    e + e++++ks+tsv+tdsil+tls+t+nysyD++f+n+ svs   ++e+++  kds+eg+a ++++n+ +                      ++
+  CAG9479102.1 4207 EATGEDAMQKSITSVWTDSILSTLSGTFNYSYDGAFFNSlSVSgsvEKEYTHrGKDSTEGDAIRTPHNCSRagwshqairmintsgsappngdTS 4301
+                    8899*******************************99963333222456666699**************999*****************997533 PP
+
+      99at5820 3301 sdeedelvyekkekenkiesskfdkv.....lsereeekensaigeneenn...esidekeeenlkke........................... 3360
+                    s++e+ + +  k++e k+++ +++++     l +re++k+++aig++ e        d+ + e+++k                            
+  CAG9479102.1 4302 SEAEN-ADVC-KGEEPKEGPPPQGRAisthnLPSREGKKDHAAIGPSGEPPsdePPSDDGQGEEVNKVapleegqgtplqrefpsleykrsrsfd 4394
+                    33333.4434.67789999999999966666667889999999998855435554455555555555566677777777777************* PP
+
+      99at5820 3361 .....nnenyaifisssdeeeekeeeekre.................................kqfikrklkkiqllnkkynfvdkfknvqnlkl 3417
+                         ++enya+f+sssde+e   +e++ +                                 +qf++rk++kiqlln+ky++vdkfk+ +nlk+
+  CAG9479102.1 4395 pgerlSDENYANFVSSSDEGEAAGKETSVKdayvrdapvgdsllkdvtppaellnytpgdrsaSQFVRRKFAKIQLLNQKYSCVDKFKTALNLKM 4489
+                    ********************9977666555699************************************************************** PP
+
+      99at5820 3418 eenlLywielLkflkedPpelvlskeik.....adffessLiCaLtvikfvsltlnckklykvtlkslnee........................ 3483
+                    e++lL+wie+LkflkedPpe++l++e+k     adffes+LiC+L+v+kfvsl+l+ckkl++vtlk + +e                        
+  CAG9479102.1 4490 ETSLLQWIEMLKFLKEDPPEFILPRETKaahhlADFFESALICTLSVVKFVSLSLDCKKLHRVTLKRMRREaqalevaptvnaklsakvggaggg 4584
+                    **************************994444459*********************************9999*********************** PP
+
+      99at5820 3484 ......deekkieemyfihlLsistkLeaLcssiskqLctfLqeekt..........hlpiiksLsiLsiLkpsa 3542
+                          + ++++ee+yfi+lLsi++kLeaLcssiskqLc+fLqe+++          hlpii++L+ LsiLkps+
+  CAG9479102.1 4585 eeephsHLQHRMEETYFIQLLSICMKLEALCSSISKQLCAFLQEQHApdrtpdraaeHLPIIRALAALSILKPSP 4659
+                    *****999***********************************97633333444455****************95 PP
+
+>> CAG9474786.1  | transcript=PVW1_100029800_t1 | gene=PVW1_100029800 | organism=Plasmodium_vivax_PvW1 | gene_product=AT
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?    1.3  17.0    0.0048       7.3     383     536 ..      36     191 ..      16     206 .. 0.49
+
+  Alignments for each domain:
+  == domain 1  score: 1.3 bits;  conditional E-value: 0.0048
+      99at5820 383 eifndnikqeklykkkekekssehliknanngekeeskekdsdskaesekeklilksnikdkkesdlaseeenkedkytvekedengknkdekeekl 479
+                   + f dn+ ++ l +kk+++++ e   ++ +++e++ +++ +s++++  e+ +++ ++++++k+ +++++++ +++++ +v  + +++  +   + kl
+  CAG9474786.1  36 KRFMDNLVNSFLSEKKKRKDQEED-EEEGEEDEEGTEQNDSSENSSGAENGDNLEEKERRKKDGKEKKKKSVKEKKQNQVPVNMQKSLLETFYKMKL 131
+                   335666666555555544433333.333333333444444444444444445555555444444444444333333333333344444444444444 PP
+
+      99at5820 480 kkkdavknseekekkkiedikkvckklldlylniils.lk..ysnenyikiLyiiskllL 536
+                   + +++  ++ e  +kk e+i +  +k l+  l+ + +  k    +en++ i  + sk  L
+  CAG9474786.1 132 QAQNNEVDETEEIRKKEEKILAQVSKALNAPLQSVKErAKgiVYSENFKTIWTLPSKYKL 191
+                   444444444555566666676666677777666544313322346777777776666655 PP
+
+>> CAG9474932.1  | transcript=PVW1_100041400_t1 | gene=PVW1_100041400 | organism=Plasmodium_vivax_PvW1 | gene_product=un
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?    1.1  18.4    0.0057       8.7    1884    2277 ..      65     123 ..      24     146 .. 0.39
+
+  Alignments for each domain:
+  == domain 1  score: 1.1 bits;  conditional E-value: 0.0057
+      99at5820 1884 kekikkkgeeiaedsnnesnnkkdeekenkledkdaklkkkltkekkkkkkrkksekkknennkifknlskyekislsclnliisiivkavldin 1978
+                    k +i+                                                                                          
+  CAG9474932.1   65 KIRIE------------------------------------------------------------------------------------------ 69  
+                    22222.......................................................................................... PP
+
+      99at5820 1979 sffllskiikyihdlcvstniaevkflsfriiteivinsaekseeketkekekkkkekekkkeeeneneeenksllsynssnfekyfslifssss 2073
+                                                                                                                   
+  CAG9474932.1    - -----------------------------------------------------------------------------------------------    -
+                    ............................................................................................... PP
+
+      99at5820 2074 nisygnlfDlnnekekkeeeaensvsdkdkeneekekssekylnssneneknkeekdekekdklndaegsssksksldekneakeeknylCeCig 2168
+                                                                                                                   
+  CAG9474932.1    - -----------------------------------------------------------------------------------------------    -
+                    ............................................................................................... PP
+
+      99at5820 2169 lLiPyikDkekiisylsicsicvllgklkkvkilskshfiyfflnslevilnvlsklkkkakkkkkkekkkklikkkklsdkekentlekdkine 2263
+                                                                      l+vl++ +kk ++k+k++kk++++++kk+++++ke     +k++ 
+  CAG9474932.1   70 --------------------------------------------------LKVLQHRGKKGEEKEKEKKKERKKERKKKKERKKE-----RKKER 109 
+                    ..................................................22332222222222222222111111111111111.....11111 PP
+
+      99at5820 2264 kkeeeksekkkkek 2277
+                    kk+++++ekkkk++
+  CAG9474932.1  110 KKKKQEREKKKKTH 123 
+                    11111111111111 PP
+
+>> CAG9477804.1  | transcript=PVW1_110027800_t1 | gene=PVW1_110027800 | organism=Plasmodium_vivax_PvW1 | gene_product=un
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?    0.7  11.2    0.0074        11    1839    1945 ..     234     358 ..     213     389 .. 0.38
+
+  Alignments for each domain:
+  == domain 1  score: 0.7 bits;  conditional E-value: 0.0074
+      99at5820 1839 lnekkkiyqkfqenke.........kiknlrekelkekkkkkkeikkkrkkklekekikkk...geeiaedsnnesnnk...kdeek........ 1910
+                    +n k+++ +   +++          ++k+ ++++ ++ + k++ +k+k+kk   +++i k+   g  +ae +n ++ n+   +   k        
+  CAG9477804.1  234 VNRKNRLGEGAPKEQGtraersqtdEAKDEETHHSNDVMIKDRGVKEKYKKLRFEDDIYKEnadG--KAEATNGQDPNQgetN---Kmeekspis 323 
+                    33444433333332222222221111222222222222223333333333333333333331111..1111111111111111...111112333 PP
+
+      99at5820 1911 enkledkdaklkkkltkekkkkkkrkksekkknen 1945
+                    + + + + +++++++++++k+++++kk++ ++n+ 
+  CAG9477804.1  324 KDNQNVEPTNANNTSEEKNKTEENAKKNTTSENDG 358 
+                    22222222222222222223333333333333333 PP
+
+
+
+Internal pipeline statistics summary:
+-------------------------------------
+Query model(s):                            1  (3542 nodes)
+Target sequences:                       6075  (4075707 residues searched)
+Passed MSV filter:                      3200  (0.526749); expected 121.5 (0.02)
+Passed bias filter:                      405  (0.0666667); expected 121.5 (0.02)
+Passed Vit filter:                       200  (0.0329218); expected 6.1 (0.001)
+Passed Fwd filter:                        91  (0.0149794); expected 0.1 (1e-05)
+Initial search space (Z):               6075  [actual number of targets]
+Domain search space  (domZ):               4  [number of targets reported over threshold]
+# CPU time: 6.52u 0.07s 00:00:06.59 Elapsed: 00:00:06.57
+# Mc/sec: 2195.11
+//
+[ok]

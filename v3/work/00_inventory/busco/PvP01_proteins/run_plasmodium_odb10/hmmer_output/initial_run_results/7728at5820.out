@@ -1,0 +1,15 @@
+#                                                                            --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name        accession   tlen query name           accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+#------------------- ---------- ----- -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+PVP01_0615300.1-p1   -            470 7728at5820           -            353  1.1e-194  644.7  24.6   1   2  8.9e-187  5.8e-183  606.2  12.2     5   299     9   344     1   359 0.93 | transcript=PVP01_0615300.1 | gene=PVP01_0615300 | organism=Plasmodium_vivax_P01 | gene_product=claudin-like apicomplexan microneme protein, putative | transcript_product=claudin-like apicomplexan microneme protein, putative | location=PvP01_06_v2:645650-647062(-) | protein_length=470 | sequence_SO=chromosome | SO=protein_coding_gene | is_pseudo=false
+PVP01_0615300.1-p1   -            470 7728at5820           -            353  1.1e-194  644.7  24.6   2   2   1.1e-15   6.9e-12   43.5   4.5   298   353   400   470   386   470 0.82 | transcript=PVP01_0615300.1 | gene=PVP01_0615300 | organism=Plasmodium_vivax_P01 | gene_product=claudin-like apicomplexan microneme protein, putative | transcript_product=claudin-like apicomplexan microneme protein, putative | location=PvP01_06_v2:645650-647062(-) | protein_length=470 | sequence_SO=chromosome | SO=protein_coding_gene | is_pseudo=false
+#
+# Program:         hmmsearch
+# Version:         3.4 (Aug 2023)
+# Pipeline mode:   SEARCH
+# Query file:      /v3/work/00_inventory/busco/busco_downloads/lineages/plasmodium_odb10/hmms/7728at5820.hmm
+# Target file:     /v3/inputs/annotations/plasmodb-68/PvP01.proteins.fa
+# Option settings: hmmsearch --domtblout /v3/work/00_inventory/busco/PvP01_proteins/run_plasmodium_odb10/hmmer_output/initial_run_results/7728at5820.out --cpu 1 /v3/work/00_inventory/busco/busco_downloads/lineages/plasmodium_odb10/hmms/7728at5820.hmm /v3/inputs/annotations/plasmodb-68/PvP01.proteins.fa 
+# Current dir:     /v3/work/00_inventory/busco
+# Date:            Tue May 19 17:48:38 2026
+# [ok]

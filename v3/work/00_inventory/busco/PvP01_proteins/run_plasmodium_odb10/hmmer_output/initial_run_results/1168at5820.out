@@ -1,0 +1,17 @@
+#                                                                            --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name        accession   tlen query name           accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+#------------------- ---------- ----- -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+PVP01_1028500.1-p1   -           1286 1168at5820           -           1086         0 2268.0  22.4   1   1         0         0 2264.2  22.4     1  1086     6  1285     6  1285 0.97 | transcript=PVP01_1028500.1 | gene=PVP01_1028500 | organism=Plasmodium_vivax_P01 | gene_product=DNA mismatch repair protein MSH6, putative | transcript_product=DNA mismatch repair protein MSH6, putative | location=PvP01_10_v2:1216561-1220421(+) | protein_length=1286 | sequence_SO=chromosome | SO=protein_coding_gene | is_pseudo=false
+PVP01_0106900.1-p1   -            875 1168at5820           -           1086   2.4e-79  265.8  30.0   1   2   5.8e-14   1.3e-10   38.2  10.1   347   575    53   292    31   301 0.75 | transcript=PVP01_0106900.1 | gene=PVP01_0106900 | organism=Plasmodium_vivax_P01 | gene_product=DNA mismatch repair protein MSH2, putative | transcript_product=DNA mismatch repair protein MSH2, putative | location=PvP01_01_v2:359018-361645(+) | protein_length=875 | sequence_SO=chromosome | SO=protein_coding_gene | is_pseudo=false
+PVP01_0106900.1-p1   -            875 1168at5820           -           1086   2.4e-79  265.8  30.0   2   2   6.2e-73   1.4e-69  233.4  11.9   650  1050   398   801   389   808 0.89 | transcript=PVP01_0106900.1 | gene=PVP01_0106900 | organism=Plasmodium_vivax_P01 | gene_product=DNA mismatch repair protein MSH2, putative | transcript_product=DNA mismatch repair protein MSH2, putative | location=PvP01_01_v2:359018-361645(+) | protein_length=875 | sequence_SO=chromosome | SO=protein_coding_gene | is_pseudo=false
+PVP01_1321800.1-p1   -            810 1168at5820           -           1086   9.9e-74  247.1  41.4   1   1   5.8e-77   1.3e-73  246.8  41.4   448  1054   130   752    37   783 0.75 | transcript=PVP01_1321800.1 | gene=PVP01_1321800 | organism=Plasmodium_vivax_P01 | gene_product=DNA mismatch repair protein MSH2, putative | transcript_product=DNA mismatch repair protein MSH2, putative | location=PvP01_13_v2:974517-976949(-) | protein_length=810 | sequence_SO=chromosome | SO=protein_coding_gene | is_pseudo=false
+#
+# Program:         hmmsearch
+# Version:         3.4 (Aug 2023)
+# Pipeline mode:   SEARCH
+# Query file:      /v3/work/00_inventory/busco/busco_downloads/lineages/plasmodium_odb10/hmms/1168at5820.hmm
+# Target file:     /v3/inputs/annotations/plasmodb-68/PvP01.proteins.fa
+# Option settings: hmmsearch --domtblout /v3/work/00_inventory/busco/PvP01_proteins/run_plasmodium_odb10/hmmer_output/initial_run_results/1168at5820.out --cpu 1 /v3/work/00_inventory/busco/busco_downloads/lineages/plasmodium_odb10/hmms/1168at5820.hmm /v3/inputs/annotations/plasmodb-68/PvP01.proteins.fa 
+# Current dir:     /v3/work/00_inventory/busco
+# Date:            Tue May 19 17:24:18 2026
+# [ok]

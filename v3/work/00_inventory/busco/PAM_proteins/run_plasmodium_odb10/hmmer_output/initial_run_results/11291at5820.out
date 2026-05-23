@@ -1,0 +1,17 @@
+#                                                                            --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name        accession   tlen query name           accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+#------------------- ---------- ----- -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+CAI7719793.1         -            219 11291at5820          -            181  2.1e-119  394.2   7.6   1   1  1.1e-122  2.5e-119  393.9   7.6     1   181    38   219    38   219 0.99 | transcript=PVPAM_070040700_t1 | gene=PVPAM_070040700 | organism=Plasmodium_vivax_PAM | gene_product=AP2 domain transcription factor, putative | transcript_product=AP2 domain transcription factor, putative | location=CASCJQ010000007:1464067-1464726(+) | protein_length=219 | sequence_SO=supercontig | SO=protein_coding_gene | is_pseudo=false
+CAI7719973.1         -           1380 11291at5820          -            181   9.4e-07   27.1   0.4   1   2   8.7e-05      0.19    9.8   0.1    86   144   411   470   381   481 0.86 | transcript=PVPAM_080019500_t1 | gene=PVPAM_080019500 | organism=Plasmodium_vivax_PAM | gene_product=AP2 domain transcription factor AP2-I, putative | transcript_product=AP2 domain transcription factor AP2-I, putative | location=CASCJQ010000008:665457-669599(-) | protein_length=1380 | sequence_SO=supercontig | SO=protein_coding_gene | is_pseudo=false
+CAI7719973.1         -           1380 11291at5820          -            181   9.4e-07   27.1   0.4   2   2   2.5e-06    0.0053   14.9   0.0    93   156   618   682   612   694 0.86 | transcript=PVPAM_080019500_t1 | gene=PVPAM_080019500 | organism=Plasmodium_vivax_PAM | gene_product=AP2 domain transcription factor AP2-I, putative | transcript_product=AP2 domain transcription factor AP2-I, putative | location=CASCJQ010000008:665457-669599(-) | protein_length=1380 | sequence_SO=supercontig | SO=protein_coding_gene | is_pseudo=false
+CAI7722217.1         -           1240 11291at5820          -            181    0.0015   16.7   0.1   1   1   1.1e-06    0.0025   15.9   0.1    90   153   257   325   242   338 0.76 | transcript=PVPAM_120045500_t1 | gene=PVPAM_120045500 | organism=Plasmodium_vivax_PAM | gene_product=AP2 domain transcription factor AP2-EXP, putative | transcript_product=AP2 domain transcription factor AP2-EXP, putative | location=CASCJQ010000012:1604438-1608160(+) | protein_length=1240 | sequence_SO=supercontig | SO=protein_coding_gene | is_pseudo=false
+#
+# Program:         hmmsearch
+# Version:         3.4 (Aug 2023)
+# Pipeline mode:   SEARCH
+# Query file:      /v3/work/00_inventory/busco/busco_downloads/lineages/plasmodium_odb10/hmms/11291at5820.hmm
+# Target file:     /v3/inputs/annotations/plasmodb-68/PAM.proteins.fa
+# Option settings: hmmsearch --domtblout /v3/work/00_inventory/busco/PAM_proteins/run_plasmodium_odb10/hmmer_output/initial_run_results/11291at5820.out --cpu 1 /v3/work/00_inventory/busco/busco_downloads/lineages/plasmodium_odb10/hmms/11291at5820.hmm /v3/inputs/annotations/plasmodb-68/PAM.proteins.fa 
+# Current dir:     /v3/work/00_inventory/busco
+# Date:            Tue May 19 17:28:58 2026
+# [ok]

@@ -1,0 +1,27 @@
+#                                                                            --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name        accession   tlen query name           accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+#------------------- ---------- ----- -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+SCO68101.1           -            243 11633at5820          -            203   9.8e-98  324.4  20.8   1   1  1.7e-100   1.5e-97  323.8  20.8     1   203     2   223     2   223 0.95 conserved Plasmodium protein, unknown function [Plasmodium vivax]
+SCO68028.1           -            513 11633at5820          -            203   0.00014   20.2   0.2   1   3    0.0043       3.7    5.8   0.0    42    87    92   136    86   154 0.76 CUGBP Elav-like family member 1, putative [Plasmodium vivax]
+SCO68028.1           -            513 11633at5820          -            203   0.00014   20.2   0.2   2   3   0.00035       0.3    9.4   0.0    33    85   182   238   176   250 0.76 CUGBP Elav-like family member 1, putative [Plasmodium vivax]
+SCO68028.1           -            513 11633at5820          -            203   0.00014   20.2   0.2   3   3      0.16   1.4e+02    0.6   0.0    45    91   379   424   359   462 0.72 CUGBP Elav-like family member 1, putative [Plasmodium vivax]
+SCO65939.1           -            361 11633at5820          -            203   0.00026   19.4   0.7   1   2   0.00055      0.48    8.7   0.1    18    94    96   173    90   185 0.79 RNA-binding protein, putative [Plasmodium vivax]
+SCO65939.1           -            361 11633at5820          -            203   0.00026   19.4   0.7   2   2   0.00053      0.46    8.7   0.0    38    72   202   236   182   264 0.75 RNA-binding protein, putative [Plasmodium vivax]
+SCO69999.1           -            883 11633at5820          -            203   0.00097   17.5  10.3   1   4      0.49   4.3e+02   -0.9   0.0    38    93    16    70    10    82 0.75 polyadenylate-binding protein, putative [Plasmodium vivax]
+SCO69999.1           -            883 11633at5820          -            203   0.00097   17.5  10.3   2   4     0.045        39    2.4   0.2    40    74   106   140    92   172 0.78 polyadenylate-binding protein, putative [Plasmodium vivax]
+SCO69999.1           -            883 11633at5820          -            203   0.00097   17.5  10.3   3   4   0.00066      0.57    8.4   0.4    30    87   185   238   163   257 0.68 polyadenylate-binding protein, putative [Plasmodium vivax]
+SCO69999.1           -            883 11633at5820          -            203   0.00097   17.5  10.3   4   4   0.00016      0.14   10.5   0.1    30    82   441   494   431   513 0.75 polyadenylate-binding protein, putative [Plasmodium vivax]
+SCO69795.1           -            124 11633at5820          -            203    0.0012   17.2   3.8   1   1   1.9e-06    0.0017   16.7   3.8    34   139     4   105     1   120 0.69 RNA-binding protein, putative [Plasmodium vivax]
+SCO66561.1           -            202 11633at5820          -            203    0.0073   14.6   0.1   1   1   1.3e-05     0.011   14.0   0.1    31   102    64   131    38   143 0.82 RNA-binding protein, putative [Plasmodium vivax]
+SCO69394.1           -            475 11633at5820          -            203     0.091   11.0   4.2   1   2    0.0052       4.5    5.5   0.2    35    69    17    51     8    97 0.80 splicing factor 3B subunit 4, putative [Plasmodium vivax]
+SCO69394.1           -            475 11633at5820          -            203     0.091   11.0   4.2   2   2    0.0019       1.6    6.9   0.7    38    91   107   158    90   190 0.67 splicing factor 3B subunit 4, putative [Plasmodium vivax]
+#
+# Program:         hmmsearch
+# Version:         3.4 (Aug 2023)
+# Pipeline mode:   SEARCH
+# Query file:      /v3/work/00_inventory/busco/busco_downloads/lineages/plasmodium_odb10/hmms/11633at5820.hmm
+# Target file:     /v3/inputs/annotations/ncbi-datasets/PvT01.proteins.fa
+# Option settings: hmmsearch --domtblout /v3/work/00_inventory/busco/PvT01_proteins/run_plasmodium_odb10/hmmer_output/initial_run_results/11633at5820.out --cpu 1 /v3/work/00_inventory/busco/busco_downloads/lineages/plasmodium_odb10/hmms/11633at5820.hmm /v3/inputs/annotations/ncbi-datasets/PvT01.proteins.fa 
+# Current dir:     /v3/work/00_inventory/busco
+# Date:            Tue May 19 18:33:56 2026
+# [ok]

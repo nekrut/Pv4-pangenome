@@ -1,0 +1,22 @@
+#                                                                            --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name        accession   tlen query name           accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+#------------------- ---------- ----- -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+SCO73463.1           -           2120 2102at5820           -           1057         0 2036.8  92.3   1   7   9.2e-06     0.029   10.5   2.9     1    55     1    56     1    76 0.67 calpain, putative [Plasmodium vivax]
+SCO73463.1           -           2120 2102at5820           -           1057         0 2036.8  92.3   2   7   5.8e-08   0.00018   17.8   0.4    22    63   201   242   193   266 0.76 calpain, putative [Plasmodium vivax]
+SCO73463.1           -           2120 2102at5820           -           1057         0 2036.8  92.3   3   7     5e-55   1.6e-51  173.6   3.6    47   149   295   397   273   437 0.84 calpain, putative [Plasmodium vivax]
+SCO73463.1           -           2120 2102at5820           -           1057         0 2036.8  92.3   4   7   1.8e-06    0.0057   12.8   0.4   146   186   509   550   497   567 0.83 calpain, putative [Plasmodium vivax]
+SCO73463.1           -           2120 2102at5820           -           1057         0 2036.8  92.3   5   7    6e-163  1.9e-159  530.9   9.2   181   424   962  1205   922  1247 0.90 calpain, putative [Plasmodium vivax]
+SCO73463.1           -           2120 2102at5820           -           1057         0 2036.8  92.3   6   7  3.9e-199  1.2e-195  650.7  12.9   411   721  1405  1724  1383  1729 0.92 calpain, putative [Plasmodium vivax]
+SCO73463.1           -           2120 2102at5820           -           1057         0 2036.8  92.3   7   7  5.6e-206  1.8e-202  673.4  19.3   717  1057  1765  2117  1757  2117 0.96 calpain, putative [Plasmodium vivax]
+SCO73415.1           -            448 2102at5820           -           1057      0.17    7.9  10.0   1   2   9.6e-07     0.003   13.7   2.4   147   231    65   149    36   174 0.88 U1 small nuclear ribonucleoprotein, putative [Plasmodium vivax]
+SCO73415.1           -            448 2102at5820           -           1057      0.17    7.9  10.0   2   2     0.066   2.1e+02   -2.3   0.9    33    62   202   232   196   252 0.73 U1 small nuclear ribonucleoprotein, putative [Plasmodium vivax]
+#
+# Program:         hmmsearch
+# Version:         3.4 (Aug 2023)
+# Pipeline mode:   SEARCH
+# Query file:      /v3/work/00_inventory/busco/busco_downloads/lineages/plasmodium_odb10/hmms/2102at5820.hmm
+# Target file:     /v3/inputs/annotations/ncbi-datasets/PvC01.proteins.fa
+# Option settings: hmmsearch --domtblout /v3/work/00_inventory/busco/PvC01_proteins/run_plasmodium_odb10/hmmer_output/initial_run_results/2102at5820.out --cpu 1 /v3/work/00_inventory/busco/busco_downloads/lineages/plasmodium_odb10/hmms/2102at5820.hmm /v3/inputs/annotations/ncbi-datasets/PvC01.proteins.fa 
+# Current dir:     /v3/work/00_inventory/busco
+# Date:            Tue May 19 18:37:50 2026
+# [ok]

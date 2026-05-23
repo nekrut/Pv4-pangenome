@@ -1,0 +1,17 @@
+#                                                                            --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name        accession   tlen query name           accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+#------------------- ---------- ----- -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+PVP01_0821600.1-p1   -           4637 99at5820             -           3542         0 4976.2   0.0   1   1         0         0 4971.2   0.0     1  3542     1  4637     1  4637 0.88 | transcript=PVP01_0821600.1 | gene=PVP01_0821600 | organism=Plasmodium_vivax_P01 | gene_product=conserved Plasmodium protein, unknown function | transcript_product=conserved Plasmodium protein, unknown function | location=PvP01_08_v2:942584-956497(-) | protein_length=4637 | sequence_SO=chromosome | SO=protein_coding_gene | is_pseudo=false
+PVP01_0731600.1-p1   -            264 99at5820             -           3542       1.1    4.1  26.6   1   1   0.00083       1.4    3.8  26.6  1844  1970    63   193    58   221 0.42 | transcript=PVP01_0731600.1 | gene=PVP01_0731600 | organism=Plasmodium_vivax_P01 | gene_product=conserved Plasmodium protein, unknown function | transcript_product=conserved Plasmodium protein, unknown function | location=PvP01_07_v2:1327085-1327879(-) | protein_length=264 | sequence_SO=chromosome | SO=protein_coding_gene | is_pseudo=false
+PVP01_1005900.1-p1   -            667 99at5820             -           3542       5.8    1.8  17.0   1   1    0.0048       7.8    1.3  17.0   383   536    36   191    16   206 0.49 | transcript=PVP01_1005900.1 | gene=PVP01_1005900 | organism=Plasmodium_vivax_P01 | gene_product=ATP-dependent RNA helicase DDX41, putative | transcript_product=ATP-dependent RNA helicase DDX41, putative | location=PvP01_10_v2:267076-269079(-) | protein_length=667 | sequence_SO=chromosome | SO=protein_coding_gene | is_pseudo=false
+PVP01_1122200.1-p1   -            519 99at5820             -           3542       9.4    1.1  11.2   1   1    0.0074        12    0.7  11.2  1839  1945   234   358   213   389 0.38 | transcript=PVP01_1122200.1 | gene=PVP01_1122200 | organism=Plasmodium_vivax_P01 | gene_product=E3 ubiquitin-protein ligase RNF5, putative | transcript_product=E3 ubiquitin-protein ligase RNF5, putative | location=PvP01_11_v2:983496-985055(+) | protein_length=519 | sequence_SO=chromosome | SO=protein_coding_gene | is_pseudo=false
+#
+# Program:         hmmsearch
+# Version:         3.4 (Aug 2023)
+# Pipeline mode:   SEARCH
+# Query file:      /v3/work/00_inventory/busco/busco_downloads/lineages/plasmodium_odb10/hmms/99at5820.hmm
+# Target file:     /v3/inputs/annotations/plasmodb-68/PvP01.proteins.fa
+# Option settings: hmmsearch --domtblout /v3/work/00_inventory/busco/PvP01_proteins/run_plasmodium_odb10/hmmer_output/initial_run_results/99at5820.out --cpu 1 /v3/work/00_inventory/busco/busco_downloads/lineages/plasmodium_odb10/hmms/99at5820.hmm /v3/inputs/annotations/plasmodb-68/PvP01.proteins.fa 
+# Current dir:     /v3/work/00_inventory/busco
+# Date:            Tue May 19 17:53:42 2026
+# [ok]

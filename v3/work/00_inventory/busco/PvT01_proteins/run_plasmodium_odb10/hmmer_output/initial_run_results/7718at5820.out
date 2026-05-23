@@ -1,0 +1,16 @@
+#                                                                            --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name        accession   tlen query name           accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+#------------------- ---------- ----- -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+SCO68090.1           -            614 7718at5820           -            358  9.8e-156  516.7  12.7   1   3   4.2e-62   2.6e-58  196.3   2.3     1   128     1   140     1   144 0.90 bifunctional methylenetetrahydrofolate dehydrogenase/cyclohydrolase, putative [Plasmodium vivax]
+SCO68090.1           -            614 7718at5820           -            358  9.8e-156  516.7  12.7   2   3   4.9e-71     3e-67  225.7   0.4   139   296   252   426   241   436 0.89 bifunctional methylenetetrahydrofolate dehydrogenase/cyclohydrolase, putative [Plasmodium vivax]
+SCO68090.1           -            614 7718at5820           -            358  9.8e-156  516.7  12.7   3   3   3.8e-33   2.3e-29  101.0   0.1   296   357   552   613   548   614 0.97 bifunctional methylenetetrahydrofolate dehydrogenase/cyclohydrolase, putative [Plasmodium vivax]
+#
+# Program:         hmmsearch
+# Version:         3.4 (Aug 2023)
+# Pipeline mode:   SEARCH
+# Query file:      /v3/work/00_inventory/busco/busco_downloads/lineages/plasmodium_odb10/hmms/7718at5820.hmm
+# Target file:     /v3/inputs/annotations/ncbi-datasets/PvT01.proteins.fa
+# Option settings: hmmsearch --domtblout /v3/work/00_inventory/busco/PvT01_proteins/run_plasmodium_odb10/hmmer_output/initial_run_results/7718at5820.out --cpu 1 /v3/work/00_inventory/busco/busco_downloads/lineages/plasmodium_odb10/hmms/7718at5820.hmm /v3/inputs/annotations/ncbi-datasets/PvT01.proteins.fa 
+# Current dir:     /v3/work/00_inventory/busco
+# Date:            Tue May 19 19:03:13 2026
+# [ok]

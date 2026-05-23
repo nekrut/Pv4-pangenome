@@ -1,0 +1,16 @@
+#                                                                            --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name        accession   tlen query name           accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+#------------------- ---------- ----- -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+PVP01_0911400.1-p1   -            178 12150at5820          -            152   9.6e-96  316.2   5.5   1   2     0.013        43    2.4   0.1     1    10     1    10     1    14 0.89 | transcript=PVP01_0911400.1 | gene=PVP01_0911400 | organism=Plasmodium_vivax_P01 | gene_product=ribosomal protein L11, mitochondrial, putative | transcript_product=ribosomal protein L11, mitochondrial, putative | location=PvP01_09_v2:557502-558843(-) | protein_length=178 | sequence_SO=chromosome | SO=protein_coding_gene | is_pseudo=false
+PVP01_0911400.1-p1   -            178 12150at5820          -            152   9.6e-96  316.2   5.5   2   2   6.1e-99     2e-95  315.2   2.3     9   152    29   178    20   178 0.96 | transcript=PVP01_0911400.1 | gene=PVP01_0911400 | organism=Plasmodium_vivax_P01 | gene_product=ribosomal protein L11, mitochondrial, putative | transcript_product=ribosomal protein L11, mitochondrial, putative | location=PvP01_09_v2:557502-558843(-) | protein_length=178 | sequence_SO=chromosome | SO=protein_coding_gene | is_pseudo=false
+PVP01_0738800.1-p1   -            247 12150at5820          -            152     0.014   13.7   2.2   1   1     7e-06     0.023   13.0   2.2    97   149    98   151    78   154 0.82 | transcript=PVP01_0738800.1 | gene=PVP01_0738800 | organism=Plasmodium_vivax_P01 | gene_product=Plasmodium exported protein, unknown function | transcript_product=Plasmodium exported protein, unknown function | location=PvP01_07_v2:1626386-1627231(-) | protein_length=247 | sequence_SO=chromosome | SO=protein_coding_gene | is_pseudo=false
+#
+# Program:         hmmsearch
+# Version:         3.4 (Aug 2023)
+# Pipeline mode:   SEARCH
+# Query file:      /v3/work/00_inventory/busco/busco_downloads/lineages/plasmodium_odb10/hmms/12150at5820.hmm
+# Target file:     /v3/inputs/annotations/plasmodb-68/PvP01.proteins.fa
+# Option settings: hmmsearch --domtblout /v3/work/00_inventory/busco/PvP01_proteins/run_plasmodium_odb10/hmmer_output/initial_run_results/12150at5820.out --cpu 1 /v3/work/00_inventory/busco/busco_downloads/lineages/plasmodium_odb10/hmms/12150at5820.hmm /v3/inputs/annotations/plasmodb-68/PvP01.proteins.fa 
+# Current dir:     /v3/work/00_inventory/busco
+# Date:            Tue May 19 17:25:54 2026
+# [ok]

@@ -1,0 +1,17 @@
+#                                                                            --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name        accession   tlen query name           accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+#------------------- ---------- ----- -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+PVX_090125.1-p1      -            479 8484at5820           -            306    5e-148  490.7  24.9   1   4   6.4e-47   3.6e-43  146.4   2.4     2    80    24   102    23   109 0.95 | transcript=PVX_090125.1 | gene=PVX_090125 | organism=Plasmodium_vivax_Sal-1 | gene_product=hypothetical protein | transcript_product=hypothetical protein | location=Pv_Sal1_chr05:1156899-1158338(+) | protein_length=479 | sequence_SO=chromosome | SO=protein_coding_gene | is_pseudo=false
+PVX_090125.1-p1      -            479 8484at5820           -            306    5e-148  490.7  24.9   2   4   1.1e-51   6.1e-48  162.0   2.7    80   176   159   258   147   268 0.92 | transcript=PVX_090125.1 | gene=PVX_090125 | organism=Plasmodium_vivax_Sal-1 | gene_product=hypothetical protein | transcript_product=hypothetical protein | location=Pv_Sal1_chr05:1156899-1158338(+) | protein_length=479 | sequence_SO=chromosome | SO=protein_coding_gene | is_pseudo=false
+PVX_090125.1-p1      -            479 8484at5820           -            306    5e-148  490.7  24.9   3   4   4.8e-17   2.7e-13   48.3   0.0   173   215   282   324   275   333 0.89 | transcript=PVX_090125.1 | gene=PVX_090125 | organism=Plasmodium_vivax_Sal-1 | gene_product=hypothetical protein | transcript_product=hypothetical protein | location=Pv_Sal1_chr05:1156899-1158338(+) | protein_length=479 | sequence_SO=chromosome | SO=protein_coding_gene | is_pseudo=false
+PVX_090125.1-p1      -            479 8484at5820           -            306    5e-148  490.7  24.9   4   4     6e-47   3.3e-43  146.5   2.2   207   305   374   478   337   479 0.85 | transcript=PVX_090125.1 | gene=PVX_090125 | organism=Plasmodium_vivax_Sal-1 | gene_product=hypothetical protein | transcript_product=hypothetical protein | location=Pv_Sal1_chr05:1156899-1158338(+) | protein_length=479 | sequence_SO=chromosome | SO=protein_coding_gene | is_pseudo=false
+#
+# Program:         hmmsearch
+# Version:         3.4 (Aug 2023)
+# Pipeline mode:   SEARCH
+# Query file:      /v3/work/00_inventory/busco/busco_downloads/lineages/plasmodium_odb10/hmms/8484at5820.hmm
+# Target file:     /v3/inputs/annotations/plasmodb-68/Sal-I.proteins.fa
+# Option settings: hmmsearch --domtblout /v3/work/00_inventory/busco/Sal-I_proteins/run_plasmodium_odb10/hmmer_output/initial_run_results/8484at5820.out --cpu 1 /v3/work/00_inventory/busco/busco_downloads/lineages/plasmodium_odb10/hmms/8484at5820.hmm /v3/inputs/annotations/plasmodb-68/Sal-I.proteins.fa 
+# Current dir:     /v3/work/00_inventory/busco
+# Date:            Tue May 19 17:47:17 2026
+# [ok]

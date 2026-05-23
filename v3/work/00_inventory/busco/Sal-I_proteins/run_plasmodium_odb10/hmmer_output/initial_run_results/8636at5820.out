@@ -1,0 +1,16 @@
+#                                                                            --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name        accession   tlen query name           accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+#------------------- ---------- ----- -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+PVX_099507.1-p1      -            328 8636at5820           -            304  3.5e-181  599.5  32.1   1   1  1.4e-184    4e-181  599.3  32.1     1   304     2   328     2   328 0.96 | transcript=PVX_099507.1 | gene=PVX_099507 | organism=Plasmodium_vivax_Sal-1 | gene_product=hypothetical protein, conserved | transcript_product=hypothetical protein, conserved | location=Pv_Sal1_chr07:824097-825693(-) | protein_length=328 | sequence_SO=chromosome | SO=protein_coding_gene | is_pseudo=false
+PVX_089430.1-p1      -            347 8636at5820           -            304   8.2e-19   66.3  16.7   1   2   2.5e-11   6.8e-08   30.4   7.7    42   224    13   207     2   224 0.68 | transcript=PVX_089430.1 | gene=PVX_089430 | organism=Plasmodium_vivax_Sal-1 | gene_product=U3 small nucleolar ribonucleoprotein protein, putative | transcript_product=U3 small nucleolar ribonucleoprotein protein, putative | location=Pv_Sal1_chr05:547347-548390(+) | protein_length=347 | sequence_SO=chromosome | SO=protein_coding_gene | is_pseudo=false
+PVX_089430.1-p1      -            347 8636at5820           -            304   8.2e-19   66.3  16.7   2   2   1.3e-14   3.5e-11   41.2   1.6   228   299   272   343   266   346 0.93 | transcript=PVX_089430.1 | gene=PVX_089430 | organism=Plasmodium_vivax_Sal-1 | gene_product=U3 small nucleolar ribonucleoprotein protein, putative | transcript_product=U3 small nucleolar ribonucleoprotein protein, putative | location=Pv_Sal1_chr05:547347-548390(+) | protein_length=347 | sequence_SO=chromosome | SO=protein_coding_gene | is_pseudo=false
+#
+# Program:         hmmsearch
+# Version:         3.4 (Aug 2023)
+# Pipeline mode:   SEARCH
+# Query file:      /v3/work/00_inventory/busco/busco_downloads/lineages/plasmodium_odb10/hmms/8636at5820.hmm
+# Target file:     /v3/inputs/annotations/plasmodb-68/Sal-I.proteins.fa
+# Option settings: hmmsearch --domtblout /v3/work/00_inventory/busco/Sal-I_proteins/run_plasmodium_odb10/hmmer_output/initial_run_results/8636at5820.out --cpu 1 /v3/work/00_inventory/busco/busco_downloads/lineages/plasmodium_odb10/hmms/8636at5820.hmm /v3/inputs/annotations/plasmodb-68/Sal-I.proteins.fa 
+# Current dir:     /v3/work/00_inventory/busco
+# Date:            Tue May 19 17:47:52 2026
+# [ok]

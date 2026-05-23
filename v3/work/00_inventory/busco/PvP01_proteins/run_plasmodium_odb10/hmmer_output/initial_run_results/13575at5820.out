@@ -1,0 +1,16 @@
+#                                                                            --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name        accession   tlen query name           accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+#------------------- ---------- ----- -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+PVP01_0209500.1-p1   -            162 13575at5820          -            148   1.3e-82  273.4   9.1   1   1   4.6e-86   1.5e-82  273.3   9.1     1   148     7   162     7   162 0.96 | transcript=PVP01_0209500.1 | gene=PVP01_0209500 | organism=Plasmodium_vivax_P01 | gene_product=cyclase-associated protein, putative | transcript_product=cyclase-associated protein, putative | location=PvP01_02_v2:393224-393830(+) | protein_length=162 | sequence_SO=chromosome | SO=protein_coding_gene | is_pseudo=false
+PVP01_0815800.1-p1   -            335 13575at5820          -            148    0.0061   15.0   2.2   1   2      0.34   1.1e+03   -2.1   0.2    35    63    70    83    43   101 0.57 | transcript=PVP01_0815800.1 | gene=PVP01_0815800 | organism=Plasmodium_vivax_P01 | gene_product=tubulin binding cofactor c, putative | transcript_product=tubulin binding cofactor c, putative | location=PvP01_08_v2:695582-697744(-) | protein_length=335 | sequence_SO=chromosome | SO=protein_coding_gene | is_pseudo=false
+PVP01_0815800.1-p1   -            335 13575at5820          -            148    0.0061   15.0   2.2   2   2   1.9e-06    0.0061   15.0   2.2    39    99   156   216   123   249 0.78 | transcript=PVP01_0815800.1 | gene=PVP01_0815800 | organism=Plasmodium_vivax_P01 | gene_product=tubulin binding cofactor c, putative | transcript_product=tubulin binding cofactor c, putative | location=PvP01_08_v2:695582-697744(-) | protein_length=335 | sequence_SO=chromosome | SO=protein_coding_gene | is_pseudo=false
+#
+# Program:         hmmsearch
+# Version:         3.4 (Aug 2023)
+# Pipeline mode:   SEARCH
+# Query file:      /v3/work/00_inventory/busco/busco_downloads/lineages/plasmodium_odb10/hmms/13575at5820.hmm
+# Target file:     /v3/inputs/annotations/plasmodb-68/PvP01.proteins.fa
+# Option settings: hmmsearch --domtblout /v3/work/00_inventory/busco/PvP01_proteins/run_plasmodium_odb10/hmmer_output/initial_run_results/13575at5820.out --cpu 1 /v3/work/00_inventory/busco/busco_downloads/lineages/plasmodium_odb10/hmms/13575at5820.hmm /v3/inputs/annotations/plasmodb-68/PvP01.proteins.fa 
+# Current dir:     /v3/work/00_inventory/busco
+# Date:            Tue May 19 17:30:46 2026
+# [ok]

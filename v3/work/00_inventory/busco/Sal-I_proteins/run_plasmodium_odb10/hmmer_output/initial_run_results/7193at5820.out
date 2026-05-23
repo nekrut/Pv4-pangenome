@@ -1,0 +1,17 @@
+#                                                                            --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name        accession   tlen query name           accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+#------------------- ---------- ----- -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+PVX_089155.1-p1      -            414 7193at5820           -            316  1.5e-198  656.5  28.2   1   1  1.6e-200  2.9e-197  652.3  28.2     1   316    80   411    80   411 0.96 | transcript=PVX_089155.1 | gene=PVX_089155 | organism=Plasmodium_vivax_Sal-1 | gene_product=3'-5' exonuclease domain containing protein | transcript_product=3'-5' exonuclease domain containing protein | location=Pv_Sal1_chr05:350133-351377(-) | protein_length=414 | sequence_SO=chromosome | SO=protein_coding_gene | is_pseudo=false
+PVX_003670.1-p1      -            428 7193at5820           -            316   5.2e-36  122.5  19.7   1   2   5.3e-32   9.8e-29   98.6  10.8     5   184    73   261    69   270 0.86 | transcript=PVX_003670.1 | gene=PVX_003670 | organism=Plasmodium_vivax_Sal-1 | gene_product=3'-5' exonuclease domain containing protein | transcript_product=3'-5' exonuclease domain containing protein | location=Pv_Sal1_chr04:691120-692406(+) | protein_length=428 | sequence_SO=chromosome | SO=protein_coding_gene | is_pseudo=false
+PVX_003670.1-p1      -            428 7193at5820           -            316   5.2e-36  122.5  19.7   2   2   6.9e-11   1.3e-07   29.2   1.5   187   267   328   403   320   418 0.85 | transcript=PVX_003670.1 | gene=PVX_003670 | organism=Plasmodium_vivax_Sal-1 | gene_product=3'-5' exonuclease domain containing protein | transcript_product=3'-5' exonuclease domain containing protein | location=Pv_Sal1_chr04:691120-692406(+) | protein_length=428 | sequence_SO=chromosome | SO=protein_coding_gene | is_pseudo=false
+PVX_081475.1-p1      -            481 7193at5820           -            316   0.00012   19.5   1.2   1   1   1.1e-07    0.0002   18.7   1.2    40   102   139   202   133   213 0.83 | transcript=PVX_081475.1 | gene=PVX_081475 | organism=Plasmodium_vivax_Sal-1 | gene_product=DNA binding protein, putative | transcript_product=DNA binding protein, putative | location=Pv_Sal1_chr02:367363-368808(-) | protein_length=481 | sequence_SO=chromosome | SO=protein_coding_gene | is_pseudo=false
+#
+# Program:         hmmsearch
+# Version:         3.4 (Aug 2023)
+# Pipeline mode:   SEARCH
+# Query file:      /v3/work/00_inventory/busco/busco_downloads/lineages/plasmodium_odb10/hmms/7193at5820.hmm
+# Target file:     /v3/inputs/annotations/plasmodb-68/Sal-I.proteins.fa
+# Option settings: hmmsearch --domtblout /v3/work/00_inventory/busco/Sal-I_proteins/run_plasmodium_odb10/hmmer_output/initial_run_results/7193at5820.out --cpu 1 /v3/work/00_inventory/busco/busco_downloads/lineages/plasmodium_odb10/hmms/7193at5820.hmm /v3/inputs/annotations/plasmodb-68/Sal-I.proteins.fa 
+# Current dir:     /v3/work/00_inventory/busco
+# Date:            Tue May 19 17:46:35 2026
+# [ok]

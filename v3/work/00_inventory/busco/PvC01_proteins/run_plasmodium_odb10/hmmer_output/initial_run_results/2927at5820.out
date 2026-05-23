@@ -1,0 +1,18 @@
+#                                                                            --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name        accession   tlen query name           accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+#------------------- ---------- ----- -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+SCO73441.1           -            860 2927at5820           -            633         0 1344.1  37.6   1   2  2.4e-217  7.7e-214  710.2  22.5    12   340   189   517   178   521 0.98 aldehyde reductase, putative [Plasmodium vivax]
+SCO73441.1           -            860 2927at5820           -            633         0 1344.1  37.6   2   2  4.8e-196  1.5e-192  639.8   7.0   338   633   557   860   549   860 0.98 aldehyde reductase, putative [Plasmodium vivax]
+SCO74975.1           -           1122 2927at5820           -            633   1.5e-36  124.5  11.5   1   3   2.9e-14   9.2e-11   39.3   2.9   235   353   456   576   443   587 0.80 aldo-keto reductase, putative [Plasmodium vivax]
+SCO74975.1           -           1122 2927at5820           -            633   1.5e-36  124.5  11.5   2   3   3.1e-25   9.7e-22   75.6   0.3   382   534   582   744   576   748 0.84 aldo-keto reductase, putative [Plasmodium vivax]
+SCO74975.1           -           1122 2927at5820           -            633   1.5e-36  124.5  11.5   3   3   1.3e-06    0.0042   14.0   0.1   532   605   777   849   764   868 0.86 aldo-keto reductase, putative [Plasmodium vivax]
+#
+# Program:         hmmsearch
+# Version:         3.4 (Aug 2023)
+# Pipeline mode:   SEARCH
+# Query file:      /v3/work/00_inventory/busco/busco_downloads/lineages/plasmodium_odb10/hmms/2927at5820.hmm
+# Target file:     /v3/inputs/annotations/ncbi-datasets/PvC01.proteins.fa
+# Option settings: hmmsearch --domtblout /v3/work/00_inventory/busco/PvC01_proteins/run_plasmodium_odb10/hmmer_output/initial_run_results/2927at5820.out --cpu 1 /v3/work/00_inventory/busco/busco_downloads/lineages/plasmodium_odb10/hmms/2927at5820.hmm /v3/inputs/annotations/ncbi-datasets/PvC01.proteins.fa 
+# Current dir:     /v3/work/00_inventory/busco
+# Date:            Tue May 19 18:46:59 2026
+# [ok]

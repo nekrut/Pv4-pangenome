@@ -1,0 +1,79 @@
+# Large files moved to Dropbox staging (see writeup/LARGE_FILES_DROPBOX.md)
+projection/A1_wfmash/Pv4_cohort_on_*.vcf.gz
+projection/A1_wfmash/Pv4_cohort_on_*.vcf.gz.*
+projection/A1_wfmash/mg_renamed/Pv4_*.vcf.gz
+projection/A1_wfmash/mg_renamed/Pv4_*.vcf.gz.*
+projection/A2_lastz/Pv4_cohort_on_*.vcf.gz
+projection/A2_lastz/Pv4_cohort_on_*.vcf.gz.*
+projection/A2_kegalign/axt/*.axt
+projection/A2_kegalign/axt/*.axt.gz
+projection/B_graph/Pv4_cohort_on_*.vcf.gz
+projection/B_graph/Pv4_cohort_on_*.vcf.gz.*
+projection/B_graph/cohorts/
+projection/B_graph/sites/
+projection/B_graph/pangenome_on_*.vcf
+projection/B_graph/ref_gbz/
+
+# Multiz MAFs (38 GB → Dropbox after gzip)
+work/07_multiz/*/*.maf
+work/07_multiz/*/*.maf.gz
+
+# Soft-masked genomes (389 MB → Dropbox)
+genomes/softmasked/*.fa
+genomes/softmasked/*.fa.fai
+genomes/softmasked/*.fa.mmi
+
+# Browser, panagram index, 2-way PGGB (Dropbox)
+writeup/browser/
+panagram_2way/index/
+panagram_2way/venv/
+panagram_2way/panagram/
+cactus_2way/pggb_out/
+
+# Intermediate work dirs (recreatable; see writeup/INTERMEDIATES_DELETED.md)
+work/02a_liftoff/
+work/02b_triage/
+work/02c_toga/*-as-ref/
+work/02c_toga/*_prep_*/
+work/06_msa/8way_strict/
+work/06_msa/8way_relaxed/
+work/06_msa/8way_strict_v2/
+work/06_msa/8way_relaxed_v2/
+work/08_genespace/
+work/00_inventory/busco/busco_downloads/
+intermediate_files/
+TOGA2_ref_annotation_*/
+toga2_run_*/
+
+# Large tar.gz archives moved to staging (work_archives/)
+work/06_msa/core_v3_trees_archive.tar.gz
+work/06_msa/core_relaxed_trees_archive.tar.gz
+work/06_msa/core_v3_hyphy_archive.tar.gz
+work/06_msa/core_relaxed_hyphy_archive.tar.gz
+work/08_orthofinder_archive.tar.gz
+
+# Inflated work dirs replaced by *_archive.tar.gz
+work/02d_merged/*-as-ref/
+work/06_msa/core_v3/
+work/06_msa/core_v3_clean/
+work/06_msa/core_relaxed/
+work/06_msa/core_relaxed_clean/
+work/06_msa/core_v3_trees/
+work/06_msa/core_relaxed_trees/
+work/06_msa/core_v3_hyphy/
+work/06_msa/core_relaxed_hyphy/
+work/06_msa/core_relaxed_hyphy_va/
+work/08_orthofinder/
+
+# Build/runtime junk
+__pycache__/
+*.pyc
+*.swp
+.DS_Store
+nohup.out
+core
+*.log.[0-9]*
+
+# Logs (keep small ones, exclude bulky overnight)
+logs/overnight/*.log
+*.gff_db

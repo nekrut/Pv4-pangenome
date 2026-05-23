@@ -1,0 +1,17 @@
+#                                                                            --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name        accession   tlen query name           accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+#------------------- ---------- ----- -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+PVP01_1469200.1-p1   -           2257 415at5820            -           1796         0 2982.0 196.3   1   4         0         0 1654.3  74.7     1   916     1   972     1   999 0.95 | transcript=PVP01_1469200.1 | gene=PVP01_1469200 | organism=Plasmodium_vivax_P01 | gene_product=rhoptry neck protein 3, putative | transcript_product=rhoptry neck protein 3, putative | location=PvP01_14_v2:2934285-2942685(-) | protein_length=2257 | sequence_SO=chromosome | SO=protein_coding_gene | is_pseudo=false
+PVP01_1469200.1-p1   -           2257 415at5820            -           1796         0 2982.0 196.3   2   4    3e-275    2e-271  902.8  69.4   906  1501  1010  1699  1005  1709 0.89 | transcript=PVP01_1469200.1 | gene=PVP01_1469200 | organism=Plasmodium_vivax_P01 | gene_product=rhoptry neck protein 3, putative | transcript_product=rhoptry neck protein 3, putative | location=PvP01_14_v2:2934285-2942685(-) | protein_length=2257 | sequence_SO=chromosome | SO=protein_coding_gene | is_pseudo=false
+PVP01_1469200.1-p1   -           2257 415at5820            -           1796         0 2982.0 196.3   3   4    4e-108  2.6e-104  348.7  23.3  1489  1728  1877  2130  1848  2143 0.89 | transcript=PVP01_1469200.1 | gene=PVP01_1469200 | organism=Plasmodium_vivax_P01 | gene_product=rhoptry neck protein 3, putative | transcript_product=rhoptry neck protein 3, putative | location=PvP01_14_v2:2934285-2942685(-) | protein_length=2257 | sequence_SO=chromosome | SO=protein_coding_gene | is_pseudo=false
+PVP01_1469200.1-p1   -           2257 415at5820            -           1796         0 2982.0 196.3   4   4   4.6e-31     3e-27   93.2   5.0  1718  1796  2173  2257  2164  2257 0.87 | transcript=PVP01_1469200.1 | gene=PVP01_1469200 | organism=Plasmodium_vivax_P01 | gene_product=rhoptry neck protein 3, putative | transcript_product=rhoptry neck protein 3, putative | location=PvP01_14_v2:2934285-2942685(-) | protein_length=2257 | sequence_SO=chromosome | SO=protein_coding_gene | is_pseudo=false
+#
+# Program:         hmmsearch
+# Version:         3.4 (Aug 2023)
+# Pipeline mode:   SEARCH
+# Query file:      /v3/work/00_inventory/busco/busco_downloads/lineages/plasmodium_odb10/hmms/415at5820.hmm
+# Target file:     /v3/inputs/annotations/plasmodb-68/PvP01.proteins.fa
+# Option settings: hmmsearch --domtblout /v3/work/00_inventory/busco/PvP01_proteins/run_plasmodium_odb10/hmmer_output/initial_run_results/415at5820.out --cpu 1 /v3/work/00_inventory/busco/busco_downloads/lineages/plasmodium_odb10/hmms/415at5820.hmm /v3/inputs/annotations/plasmodb-68/PvP01.proteins.fa 
+# Current dir:     /v3/work/00_inventory/busco
+# Date:            Tue May 19 17:40:30 2026
+# [ok]

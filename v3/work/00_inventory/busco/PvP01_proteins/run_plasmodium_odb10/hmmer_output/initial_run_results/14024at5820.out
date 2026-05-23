@@ -1,0 +1,16 @@
+#                                                                            --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name        accession   tlen query name           accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+#------------------- ---------- ----- -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+PVP01_0508900.1-p1   -            119 14024at5820          -             93     7e-63  207.7   5.4   1   1   2.6e-66   8.6e-63  207.5   5.4     1    93    27   119    27   119 0.99 | transcript=PVP01_0508900.1 | gene=PVP01_0508900 | organism=Plasmodium_vivax_P01 | gene_product=ATP synthase-associated protein, putative | transcript_product=ATP synthase-associated protein, putative | location=PvP01_05_v2:405166-406225(-) | protein_length=119 | sequence_SO=chromosome | SO=protein_coding_gene | is_pseudo=false
+PVP01_0728500.1-p1   -            620 14024at5820          -             93      0.07   12.2   4.0   1   2      0.44   1.4e+03   -1.6   0.1    71    92   300   320   274   321 0.73 | transcript=PVP01_0728500.1 | gene=PVP01_0728500 | organism=Plasmodium_vivax_P01 | gene_product=procollagen lysine 5-dioxygenase, putative | transcript_product=procollagen lysine 5-dioxygenase, putative | location=PvP01_07_v2:1196360-1198222(+) | protein_length=620 | sequence_SO=chromosome | SO=protein_coding_gene | is_pseudo=false
+PVP01_0728500.1-p1   -            620 14024at5820          -             93      0.07   12.2   4.0   2   2   1.6e-05     0.051   12.6   1.1    18    68   555   604   533   613 0.72 | transcript=PVP01_0728500.1 | gene=PVP01_0728500 | organism=Plasmodium_vivax_P01 | gene_product=procollagen lysine 5-dioxygenase, putative | transcript_product=procollagen lysine 5-dioxygenase, putative | location=PvP01_07_v2:1196360-1198222(+) | protein_length=620 | sequence_SO=chromosome | SO=protein_coding_gene | is_pseudo=false
+#
+# Program:         hmmsearch
+# Version:         3.4 (Aug 2023)
+# Pipeline mode:   SEARCH
+# Query file:      /v3/work/00_inventory/busco/busco_downloads/lineages/plasmodium_odb10/hmms/14024at5820.hmm
+# Target file:     /v3/inputs/annotations/plasmodb-68/PvP01.proteins.fa
+# Option settings: hmmsearch --domtblout /v3/work/00_inventory/busco/PvP01_proteins/run_plasmodium_odb10/hmmer_output/initial_run_results/14024at5820.out --cpu 1 /v3/work/00_inventory/busco/busco_downloads/lineages/plasmodium_odb10/hmms/14024at5820.hmm /v3/inputs/annotations/plasmodb-68/PvP01.proteins.fa 
+# Current dir:     /v3/work/00_inventory/busco
+# Date:            Tue May 19 17:32:14 2026
+# [ok]

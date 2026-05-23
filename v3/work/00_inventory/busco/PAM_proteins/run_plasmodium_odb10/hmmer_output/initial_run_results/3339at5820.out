@@ -1,0 +1,17 @@
+#                                                                            --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name        accession   tlen query name           accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+#------------------- ---------- ----- -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+CAI7719997.1         -           1176 3339at5820           -            900         0 1264.3  93.9   1   4   8.2e-70   5.3e-66  221.8   9.5     8   152    19   168     2   179 0.95 | transcript=PVPAM_080021900_t1 | gene=PVPAM_080021900 | organism=Plasmodium_vivax_PAM | gene_product=conserved Plasmodium protein, unknown function | transcript_product=conserved Plasmodium protein, unknown function | location=CASCJQ010000008:786279-789930(-) | protein_length=1176 | sequence_SO=supercontig | SO=protein_coding_gene | is_pseudo=false
+CAI7719997.1         -           1176 3339at5820           -            900         0 1264.3  93.9   2   4   6.2e-59     4e-55  185.8   7.7   164   299   273   436   265   440 0.94 | transcript=PVPAM_080021900_t1 | gene=PVPAM_080021900 | organism=Plasmodium_vivax_PAM | gene_product=conserved Plasmodium protein, unknown function | transcript_product=conserved Plasmodium protein, unknown function | location=CASCJQ010000008:786279-789930(-) | protein_length=1176 | sequence_SO=supercontig | SO=protein_coding_gene | is_pseudo=false
+CAI7719997.1         -           1176 3339at5820           -            900         0 1264.3  93.9   3   4  3.6e-142  2.3e-138  461.3  34.6   297   677   462   920   454   929 0.86 | transcript=PVPAM_080021900_t1 | gene=PVPAM_080021900 | organism=Plasmodium_vivax_PAM | gene_product=conserved Plasmodium protein, unknown function | transcript_product=conserved Plasmodium protein, unknown function | location=CASCJQ010000008:786279-789930(-) | protein_length=1176 | sequence_SO=supercontig | SO=protein_coding_gene | is_pseudo=false
+CAI7719997.1         -           1176 3339at5820           -            900         0 1264.3  93.9   4   4  2.1e-126  1.3e-122  409.1  18.1   675   899   944  1175   939  1176 0.97 | transcript=PVPAM_080021900_t1 | gene=PVPAM_080021900 | organism=Plasmodium_vivax_PAM | gene_product=conserved Plasmodium protein, unknown function | transcript_product=conserved Plasmodium protein, unknown function | location=CASCJQ010000008:786279-789930(-) | protein_length=1176 | sequence_SO=supercontig | SO=protein_coding_gene | is_pseudo=false
+#
+# Program:         hmmsearch
+# Version:         3.4 (Aug 2023)
+# Pipeline mode:   SEARCH
+# Query file:      /v3/work/00_inventory/busco/busco_downloads/lineages/plasmodium_odb10/hmms/3339at5820.hmm
+# Target file:     /v3/inputs/annotations/plasmodb-68/PAM.proteins.fa
+# Option settings: hmmsearch --domtblout /v3/work/00_inventory/busco/PAM_proteins/run_plasmodium_odb10/hmmer_output/initial_run_results/3339at5820.out --cpu 1 /v3/work/00_inventory/busco/busco_downloads/lineages/plasmodium_odb10/hmms/3339at5820.hmm /v3/inputs/annotations/plasmodb-68/PAM.proteins.fa 
+# Current dir:     /v3/work/00_inventory/busco
+# Date:            Tue May 19 17:36:28 2026
+# [ok]

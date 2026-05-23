@@ -1,0 +1,21 @@
+#                                                                            --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name        accession   tlen query name           accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+#------------------- ---------- ----- -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+SCO67286.1           -            662 5737at5820           -            502  3.6e-231  766.6  63.4   1   2  3.6e-164  4.3e-161  535.4  49.1     9   370    30   451     1   456 0.93 myosin light chain B, putative [Plasmodium vivax]
+SCO67286.1           -            662 5737at5820           -            502  3.6e-231  766.6  63.4   2   2   4.1e-72   4.9e-69  231.7   6.4   367   502   520   659   498   659 0.93 myosin light chain B, putative [Plasmodium vivax]
+SCO66246.1           -            236 5737at5820           -            502   4.6e-09   33.9   9.8   1   2   0.00068      0.83    6.7   0.5   433   477     7    51     4    60 0.92 calmodulin, putative [Plasmodium vivax]
+SCO66246.1           -            236 5737at5820           -            502   4.6e-09   33.9   9.8   2   2   2.2e-11   2.6e-08   31.4   3.2   420   499   151   232   102   235 0.86 calmodulin, putative [Plasmodium vivax]
+SCO68125.1           -            140 5737at5820           -            502   2.9e-06   24.7   0.3   1   1   2.6e-09   3.1e-06   24.6   0.3   383   500    21   138     3   140 0.86 troponin c-like protein, putative [Plasmodium vivax]
+SCO70211.1           -            209 5737at5820           -            502   3.1e-05   21.3   0.5   1   1   2.8e-08   3.4e-05   21.2   0.5   405   477   112   187    47   207 0.76 myosin A tail domain interacting protein, putative [Plasmodium vivax]
+SCO69264.1           -            149 5737at5820           -            502   4.9e-05   20.6   1.7   1   2     0.052        63    0.5   0.0   434   496     8    70     5    76 0.80 calmodulin, putative [Plasmodium vivax]
+SCO69264.1           -            149 5737at5820           -            502   4.9e-05   20.6   1.7   2   2   5.9e-08   7.1e-05   20.1   1.2   414   500    62   147    43   149 0.83 calmodulin, putative [Plasmodium vivax]
+#
+# Program:         hmmsearch
+# Version:         3.4 (Aug 2023)
+# Pipeline mode:   SEARCH
+# Query file:      /v3/work/00_inventory/busco/busco_downloads/lineages/plasmodium_odb10/hmms/5737at5820.hmm
+# Target file:     /v3/inputs/annotations/ncbi-datasets/PvT01.proteins.fa
+# Option settings: hmmsearch --domtblout /v3/work/00_inventory/busco/PvT01_proteins/run_plasmodium_odb10/hmmer_output/initial_run_results/5737at5820.out --cpu 1 /v3/work/00_inventory/busco/busco_downloads/lineages/plasmodium_odb10/hmms/5737at5820.hmm /v3/inputs/annotations/ncbi-datasets/PvT01.proteins.fa 
+# Current dir:     /v3/work/00_inventory/busco
+# Date:            Tue May 19 18:56:16 2026
+# [ok]

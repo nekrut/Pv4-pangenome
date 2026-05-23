@@ -1,0 +1,18 @@
+#                                                                            --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name        accession   tlen query name           accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+#------------------- ---------- ----- -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+CAI7723326.1         -           1243 1717at5820           -           1017         0 1866.7 136.3   1   5  6.3e-264    4e-260  864.6  59.1     1   469     1   500     1   505 0.96 | transcript=PVPAM_140024500_t1 | gene=PVPAM_140024500 | organism=Plasmodium_vivax_PAM | gene_product=exportin-T, putative | transcript_product=exportin-T, putative | location=CASCJQ010000014:850038-854272(+) | protein_length=1243 | sequence_SO=supercontig | SO=protein_coding_gene | is_pseudo=false
+CAI7723326.1         -           1243 1717at5820           -           1017         0 1866.7 136.3   2   5   4.3e-59   2.8e-55  186.5  10.8   469   572   540   646   536   650 0.96 | transcript=PVPAM_140024500_t1 | gene=PVPAM_140024500 | organism=Plasmodium_vivax_PAM | gene_product=exportin-T, putative | transcript_product=exportin-T, putative | location=CASCJQ010000014:850038-854272(+) | protein_length=1243 | sequence_SO=supercontig | SO=protein_coding_gene | is_pseudo=false
+CAI7723326.1         -           1243 1717at5820           -           1017         0 1866.7 136.3   3   5   9.6e-15   6.2e-11   39.7   0.8   571   619   670   727   667   733 0.91 | transcript=PVPAM_140024500_t1 | gene=PVPAM_140024500 | organism=Plasmodium_vivax_PAM | gene_product=exportin-T, putative | transcript_product=exportin-T, putative | location=CASCJQ010000014:850038-854272(+) | protein_length=1243 | sequence_SO=supercontig | SO=protein_coding_gene | is_pseudo=false
+CAI7723326.1         -           1243 1717at5820           -           1017         0 1866.7 136.3   4   5   4.2e-89   2.7e-85  285.9  11.4   609   756   777   927   771   935 0.96 | transcript=PVPAM_140024500_t1 | gene=PVPAM_140024500 | organism=Plasmodium_vivax_PAM | gene_product=exportin-T, putative | transcript_product=exportin-T, putative | location=CASCJQ010000014:850038-854272(+) | protein_length=1243 | sequence_SO=supercontig | SO=protein_coding_gene | is_pseudo=false
+CAI7723326.1         -           1243 1717at5820           -           1017         0 1866.7 136.3   5   5  2.7e-157  1.7e-153  511.6  23.6   758  1017   979  1243   974  1243 0.98 | transcript=PVPAM_140024500_t1 | gene=PVPAM_140024500 | organism=Plasmodium_vivax_PAM | gene_product=exportin-T, putative | transcript_product=exportin-T, putative | location=CASCJQ010000014:850038-854272(+) | protein_length=1243 | sequence_SO=supercontig | SO=protein_coding_gene | is_pseudo=false
+#
+# Program:         hmmsearch
+# Version:         3.4 (Aug 2023)
+# Pipeline mode:   SEARCH
+# Query file:      /v3/work/00_inventory/busco/busco_downloads/lineages/plasmodium_odb10/hmms/1717at5820.hmm
+# Target file:     /v3/inputs/annotations/plasmodb-68/PAM.proteins.fa
+# Option settings: hmmsearch --domtblout /v3/work/00_inventory/busco/PAM_proteins/run_plasmodium_odb10/hmmer_output/initial_run_results/1717at5820.out --cpu 1 /v3/work/00_inventory/busco/busco_downloads/lineages/plasmodium_odb10/hmms/1717at5820.hmm /v3/inputs/annotations/plasmodb-68/PAM.proteins.fa 
+# Current dir:     /v3/work/00_inventory/busco
+# Date:            Tue May 19 17:32:17 2026
+# [ok]

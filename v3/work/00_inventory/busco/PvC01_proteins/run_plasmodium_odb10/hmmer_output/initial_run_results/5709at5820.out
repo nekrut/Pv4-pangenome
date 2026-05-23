@@ -1,0 +1,19 @@
+#                                                                            --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name        accession   tlen query name           accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+#------------------- ---------- ----- -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+SCO74454.1           -            716 5709at5820           -            348  4.5e-104  346.9  17.4   1   5   7.8e-42   2.5e-38  130.7   0.4     6   107    85   209    80   250 0.83 conserved Plasmodium protein, unknown function [Plasmodium vivax]
+SCO74454.1           -            716 5709at5820           -            348  4.5e-104  346.9  17.4   2   5     2e-14   6.4e-11   40.5   0.1   123   161   267   305   257   326 0.86 conserved Plasmodium protein, unknown function [Plasmodium vivax]
+SCO74454.1           -            716 5709at5820           -            348  4.5e-104  346.9  17.4   3   5     3e-34   9.3e-31  105.8   2.4   162   287   331   490   321   506 0.75 conserved Plasmodium protein, unknown function [Plasmodium vivax]
+SCO74454.1           -            716 5709at5820           -            348  4.5e-104  346.9  17.4   4   5   3.3e-13     1e-09   36.6   0.0   287   320   550   583   546   585 0.93 conserved Plasmodium protein, unknown function [Plasmodium vivax]
+SCO74454.1           -            716 5709at5820           -            348  4.5e-104  346.9  17.4   5   5   3.7e-13   1.2e-09   36.4   0.1   318   347   683   712   677   713 0.93 conserved Plasmodium protein, unknown function [Plasmodium vivax]
+SCO75732.1           -           1106 5709at5820           -            348     0.024   12.3   1.0   1   1   1.4e-05     0.043   11.5   1.0   116   162   220   266   215   273 0.84 protein phosphatase PPM4, putative [Plasmodium vivax]
+#
+# Program:         hmmsearch
+# Version:         3.4 (Aug 2023)
+# Pipeline mode:   SEARCH
+# Query file:      /v3/work/00_inventory/busco/busco_downloads/lineages/plasmodium_odb10/hmms/5709at5820.hmm
+# Target file:     /v3/inputs/annotations/ncbi-datasets/PvC01.proteins.fa
+# Option settings: hmmsearch --domtblout /v3/work/00_inventory/busco/PvC01_proteins/run_plasmodium_odb10/hmmer_output/initial_run_results/5709at5820.out --cpu 1 /v3/work/00_inventory/busco/busco_downloads/lineages/plasmodium_odb10/hmms/5709at5820.hmm /v3/inputs/annotations/ncbi-datasets/PvC01.proteins.fa 
+# Current dir:     /v3/work/00_inventory/busco
+# Date:            Tue May 19 18:56:07 2026
+# [ok]

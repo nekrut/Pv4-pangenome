@@ -1,0 +1,20 @@
+#                                                                            --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name        accession   tlen query name           accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+#------------------- ---------- ----- -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+SCO71414.1           -            218 1620at5820           -           1443     0.083    8.8  15.9   1   1    0.0001     0.093    8.6  15.9   608   733    63   185    24   206 0.64 conserved protein, unknown function [Plasmodium vivax]
+SCO72249.1           -            381 1620at5820           -           1443      0.47    6.3  28.2   1   1   0.00068      0.61    5.9  28.2   650   800    70   237    37   245 0.48 conserved Plasmodium protein, unknown function [Plasmodium vivax]
+SCO71156.1           -            370 1620at5820           -           1443      0.78    5.5  45.9   1   1    0.0013       1.2    5.0  45.9   554   789    86   326    78   344 0.54 protein MAK16, putative [Plasmodium vivax]
+SCO71724.1           -            406 1620at5820           -           1443      0.83    5.4  24.9   1   1    0.0014       1.2    4.9  24.9   678   792   211   346   191   385 0.50 conserved Plasmodium protein, unknown function [Plasmodium vivax]
+SCO73062.1           -            667 1620at5820           -           1443       1.2    4.9  21.7   1   1     0.002       1.8    4.3  21.7   701   824    34   157     4   187 0.52 RNA helicase 1, putative [Plasmodium vivax]
+SCO71640.1           -           1752 1620at5820           -           1443       3.5    3.4  12.6   1   1    0.0056         5    2.8  12.6   719   753  1224  1259  1089  1297 0.49 conserved Plasmodium protein, unknown function [Plasmodium vivax]
+SCO74134.1           -           2967 1620at5820           -           1443       3.6    3.3  17.7   1   1    0.0076       6.8    2.4  17.7   679   883  1719  1929  1678  1957 0.59 conserved Plasmodium protein, unknown function [Plasmodium vivax]
+#
+# Program:         hmmsearch
+# Version:         3.4 (Aug 2023)
+# Pipeline mode:   SEARCH
+# Query file:      /v3/work/00_inventory/busco/busco_downloads/lineages/plasmodium_odb10/hmms/1620at5820.hmm
+# Target file:     /v3/inputs/annotations/ncbi-datasets/PvC01.proteins.fa
+# Option settings: hmmsearch --domtblout /v3/work/00_inventory/busco/PvC01_proteins/run_plasmodium_odb10/hmmer_output/initial_run_results/1620at5820.out --cpu 1 /v3/work/00_inventory/busco/busco_downloads/lineages/plasmodium_odb10/hmms/1620at5820.hmm /v3/inputs/annotations/ncbi-datasets/PvC01.proteins.fa 
+# Current dir:     /v3/work/00_inventory/busco
+# Date:            Tue May 19 18:34:59 2026
+# [ok]

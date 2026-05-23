@@ -1,0 +1,21 @@
+#                                                                            --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name        accession   tlen query name           accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+#------------------- ---------- ----- -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+SCO73075.1           -            410 7632at5820           -            322  2.2e-174  577.4   6.0   1   2     0.016        25    2.2   0.2     1    30     1    32     1    58 0.71 kelch protein, putative [Plasmodium vivax]
+SCO73075.1           -            410 7632at5820           -            322  2.2e-174  577.4   6.0   2   2  1.4e-177  2.2e-174  577.4   6.0    17   322    88   406    66   406 0.94 kelch protein, putative [Plasmodium vivax]
+SCO73960.1           -            712 7632at5820           -            322   1.6e-31  108.0   0.7   1   2   1.9e-10     3e-07   28.2   0.0   190   281   430   516   425   520 0.90 kelch protein K13, putative [Plasmodium vivax]
+SCO73960.1           -            712 7632at5820           -            322   1.6e-31  108.0   0.7   2   2   1.6e-24   2.5e-21   74.5   0.3    90   285   520   708   518   711 0.82 kelch protein K13, putative [Plasmodium vivax]
+SCO74311.1           -            647 7632at5820           -            322   2.3e-09   35.2   7.0   1   2   2.9e-08   4.6e-05   21.0   0.5   232   300    83   153    68   174 0.85 kelch domain-containing protein [Plasmodium vivax]
+SCO74311.1           -            647 7632at5820           -            322   2.3e-09   35.2   7.0   2   2   0.00013       0.2    9.1   0.2   134   206   350   426   341   471 0.60 kelch domain-containing protein [Plasmodium vivax]
+SCO72801.1           -           2392 7632at5820           -            322   0.00082   16.9   0.0   1   2     0.006       9.5    3.6   0.0   266   315  1295  1349  1265  1358 0.74 conserved Plasmodium protein, unknown function [Plasmodium vivax]
+SCO72801.1           -           2392 7632at5820           -            322   0.00082   16.9   0.0   2   2   4.5e-05      0.07   10.6   0.0   232   301  1435  1508  1418  1529 0.84 conserved Plasmodium protein, unknown function [Plasmodium vivax]
+#
+# Program:         hmmsearch
+# Version:         3.4 (Aug 2023)
+# Pipeline mode:   SEARCH
+# Query file:      /v3/work/00_inventory/busco/busco_downloads/lineages/plasmodium_odb10/hmms/7632at5820.hmm
+# Target file:     /v3/inputs/annotations/ncbi-datasets/PvC01.proteins.fa
+# Option settings: hmmsearch --domtblout /v3/work/00_inventory/busco/PvC01_proteins/run_plasmodium_odb10/hmmer_output/initial_run_results/7632at5820.out --cpu 1 /v3/work/00_inventory/busco/busco_downloads/lineages/plasmodium_odb10/hmms/7632at5820.hmm /v3/inputs/annotations/ncbi-datasets/PvC01.proteins.fa 
+# Current dir:     /v3/work/00_inventory/busco
+# Date:            Tue May 19 19:02:08 2026
+# [ok]

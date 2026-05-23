@@ -1,0 +1,16 @@
+#                                                                            --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name        accession   tlen query name           accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+#------------------- ---------- ----- -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+SCO66843.1           -            547 4195at5820           -            493    7e-299  989.6  18.1   1   1  4.1e-302  8.3e-299  989.4  18.1     1   493     6   547     6   547 0.97 GMP synthase [glutamine-hydrolyzing], putative [Plasmodium vivax]
+SCO66546.1           -           1024 4195at5820           -            493   1.4e-09   35.4   0.8   1   1   1.2e-12   2.3e-09   34.7   0.8    51   181    63   205    39   224 0.77 para-aminobenzoic acid synthetase, putative [Plasmodium vivax]
+SCO68977.1           -            255 4195at5820           -            493    0.0035   14.3   1.4   1   1   2.2e-06    0.0045   13.9   1.4   144   264    39   164    29   180 0.71 conserved Plasmodium protein, unknown function [Plasmodium vivax]
+#
+# Program:         hmmsearch
+# Version:         3.4 (Aug 2023)
+# Pipeline mode:   SEARCH
+# Query file:      /v3/work/00_inventory/busco/busco_downloads/lineages/plasmodium_odb10/hmms/4195at5820.hmm
+# Target file:     /v3/inputs/annotations/ncbi-datasets/PvT01.proteins.fa
+# Option settings: hmmsearch --domtblout /v3/work/00_inventory/busco/PvT01_proteins/run_plasmodium_odb10/hmmer_output/initial_run_results/4195at5820.out --cpu 1 /v3/work/00_inventory/busco/busco_downloads/lineages/plasmodium_odb10/hmms/4195at5820.hmm /v3/inputs/annotations/ncbi-datasets/PvT01.proteins.fa 
+# Current dir:     /v3/work/00_inventory/busco
+# Date:            Tue May 19 18:46:13 2026
+# [ok]

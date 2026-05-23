@@ -1,0 +1,29 @@
+#                                                                            --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name        accession   tlen query name           accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+#------------------- ---------- ----- -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+SCO69352.1           -           1059 1887at5820           -            670         0 1092.0  61.7   1   5   4.6e-05     0.069    9.9   0.2     1    27     1    27     1    39 0.85 DEAD/DEAH box helicase, putative [Plasmodium vivax]
+SCO69352.1           -           1059 1887at5820           -            670         0 1092.0  61.7   2   5   2.9e-68   4.5e-65  218.7   1.0    17   137   124   244   117   245 0.98 DEAD/DEAH box helicase, putative [Plasmodium vivax]
+SCO69352.1           -           1059 1887at5820           -            670         0 1092.0  61.7   3   5   3.5e-47   5.3e-44  149.1   6.0   137   226   309   413   306   420 0.90 DEAD/DEAH box helicase, putative [Plasmodium vivax]
+SCO69352.1           -           1059 1887at5820           -            670         0 1092.0  61.7   4   5  6.3e-123  9.6e-120  399.3  10.0   215   458   436   703   421   715 0.89 DEAD/DEAH box helicase, putative [Plasmodium vivax]
+SCO69352.1           -           1059 1887at5820           -            670         0 1092.0  61.7   5   5  1.2e-103  1.8e-100  335.7  16.8   456   670   798  1026   792  1026 0.94 DEAD/DEAH box helicase, putative [Plasmodium vivax]
+SCO69058.1           -           2439 1887at5820           -            670   1.2e-25   88.4  72.3   1   7     0.062        94   -0.5   5.7   384   484   165   279   151   320 0.73 RNA helicase, putative [Plasmodium vivax]
+SCO69058.1           -           2439 1887at5820           -            670   1.2e-25   88.4  72.3   2   7     0.058        87   -0.4   0.0    41    76   368   403   329   406 0.85 RNA helicase, putative [Plasmodium vivax]
+SCO69058.1           -           2439 1887at5820           -            670   1.2e-25   88.4  72.3   3   7   1.4e-13   2.1e-10   38.1  31.0    81   483   528   963   514   987 0.66 RNA helicase, putative [Plasmodium vivax]
+SCO69058.1           -           2439 1887at5820           -            670   1.2e-25   88.4  72.3   4   7         4   6.1e+03   -6.7  10.0   567   656  1015  1103   975  1120 0.53 RNA helicase, putative [Plasmodium vivax]
+SCO69058.1           -           2439 1887at5820           -            670   1.2e-25   88.4  72.3   5   7       1.1   1.7e+03   -4.6   2.5   475   541  1244  1307  1202  1323 0.52 RNA helicase, putative [Plasmodium vivax]
+SCO69058.1           -           2439 1887at5820           -            670   1.2e-25   88.4  72.3   6   7   8.2e-16   1.2e-12   45.4   9.3    45   200  1408  1586  1396  1678 0.68 RNA helicase, putative [Plasmodium vivax]
+SCO69058.1           -           2439 1887at5820           -            670   1.2e-25   88.4  72.3   7   7   1.8e-13   2.7e-10   37.7  16.0   271   547  1743  2018  1740  2022 0.79 RNA helicase, putative [Plasmodium vivax]
+SCO68371.1           -           1393 1887at5820           -            670   1.4e-21   75.0   2.3   1   1   3.5e-23   5.3e-20   69.7   2.3    38   391   259   656   237   687 0.72 ATP-dependant RNA helicase, putative [Plasmodium vivax]
+SCO66420.1           -           1383 1887at5820           -            670     1e-16   58.9  44.4   1   3   1.4e-15   2.1e-12   44.6  11.7    21   214   295   495   278   523 0.72 DEAD/DEAH box helicase, putative [Plasmodium vivax]
+SCO66420.1           -           1383 1887at5820           -            670     1e-16   58.9  44.4   2   3   2.8e-10   4.3e-07   27.1  16.1   240   491   603   863   579   883 0.65 DEAD/DEAH box helicase, putative [Plasmodium vivax]
+SCO66420.1           -           1383 1887at5820           -            670     1e-16   58.9  44.4   3   3       0.6   9.2e+02   -3.7   1.2   267   298  1127  1160  1085  1182 0.65 DEAD/DEAH box helicase, putative [Plasmodium vivax]
+#
+# Program:         hmmsearch
+# Version:         3.4 (Aug 2023)
+# Pipeline mode:   SEARCH
+# Query file:      /v3/work/00_inventory/busco/busco_downloads/lineages/plasmodium_odb10/hmms/1887at5820.hmm
+# Target file:     /v3/inputs/annotations/ncbi-datasets/PvT01.proteins.fa
+# Option settings: hmmsearch --domtblout /v3/work/00_inventory/busco/PvT01_proteins/run_plasmodium_odb10/hmmer_output/initial_run_results/1887at5820.out --cpu 1 /v3/work/00_inventory/busco/busco_downloads/lineages/plasmodium_odb10/hmms/1887at5820.hmm /v3/inputs/annotations/ncbi-datasets/PvT01.proteins.fa 
+# Current dir:     /v3/work/00_inventory/busco
+# Date:            Tue May 19 18:36:35 2026
+# [ok]

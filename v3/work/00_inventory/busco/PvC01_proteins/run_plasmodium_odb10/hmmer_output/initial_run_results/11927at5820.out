@@ -1,0 +1,18 @@
+#                                                                            --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name        accession   tlen query name           accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+#------------------- ---------- ----- -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+SCO74703.1           -            185 11927at5820          -            138     4e-86  284.5   2.4   1   1   3.2e-89   5.1e-86  284.1   2.4     1   138    32   181    32   181 0.95 trafficking protein particle complex subunit 5, putative [Plasmodium vivax]
+SCO73672.1           -            263 11927at5820          -            138   5.7e-05   21.6   0.8   1   2       2.8   4.4e+03   -4.0   0.0    69    87    15    33    13    38 0.74 trafficking protein particle complex subunit 6A, putative [Plasmodium vivax]
+SCO73672.1           -            263 11927at5820          -            138   5.7e-05   21.6   0.8   2   2   4.8e-08   7.5e-05   21.2   0.2    17   118   137   246   125   256 0.73 trafficking protein particle complex subunit 6A, putative [Plasmodium vivax]
+SCO71437.1           -            187 11927at5820          -            138    0.0064   15.0   0.5   1   1   5.8e-06    0.0091   14.5   0.5    14   110    46   147    36   175 0.79 trafficking protein particle complex subunit 3, putative [Plasmodium vivax]
+SCO73967.1           -            264 11927at5820          -            138    0.0095   14.4   0.9   1   1   1.1e-05     0.018   13.5   0.9    19   107    77   165    68   192 0.82 phosphoethanolamine N-methyltransferase [Plasmodium vivax]
+#
+# Program:         hmmsearch
+# Version:         3.4 (Aug 2023)
+# Pipeline mode:   SEARCH
+# Query file:      /v3/work/00_inventory/busco/busco_downloads/lineages/plasmodium_odb10/hmms/11927at5820.hmm
+# Target file:     /v3/inputs/annotations/ncbi-datasets/PvC01.proteins.fa
+# Option settings: hmmsearch --domtblout /v3/work/00_inventory/busco/PvC01_proteins/run_plasmodium_odb10/hmmer_output/initial_run_results/11927at5820.out --cpu 1 /v3/work/00_inventory/busco/busco_downloads/lineages/plasmodium_odb10/hmms/11927at5820.hmm /v3/inputs/annotations/ncbi-datasets/PvC01.proteins.fa 
+# Current dir:     /v3/work/00_inventory/busco
+# Date:            Tue May 19 18:28:09 2026
+# [ok]

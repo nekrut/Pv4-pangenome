@@ -1,0 +1,22 @@
+#                                                                            --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name        accession   tlen query name           accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+#------------------- ---------- ----- -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+SCO70215.1           -            261 10956at5820          -            236  2.6e-137  454.4  16.1   1   1  4.6e-140  3.1e-137  454.1  16.1     5   236    20   257    13   257 0.97 signal recognition particle receptor, beta subunit, putative [Plasmodium vivax]
+SCO66285.1           -            178 10956at5820          -            236   1.1e-13   49.7   0.0   1   1   2.1e-16   1.4e-13   49.4   0.0    46   176    15   144     2   158 0.81 ADP-ribosylation factor, putative [Plasmodium vivax]
+SCO66148.1           -            181 10956at5820          -            236     3e-13   48.3   0.0   1   1   5.4e-16   3.7e-13   48.0   0.0    44   175    14   143     2   151 0.82 ADP-ribosylation factor, putative [Plasmodium vivax]
+SCO65989.1           -            191 10956at5820          -            236   8.4e-11   40.3   0.0   1   1   1.4e-13   9.6e-11   40.1   0.0    45   171    18   142     1   161 0.83 small GTP-binding protein sar1, putative [Plasmodium vivax]
+SCO69030.1           -            185 10956at5820          -            236   8.7e-09   33.7   2.9   1   1   1.5e-11     1e-08   33.5   2.9    36   188     3   148     1   167 0.78 ADP-ribosylation-like factor, putative [Plasmodium vivax]
+SCO69749.1           -            207 10956at5820          -            236   5.9e-08   31.0   1.5   1   1   1.2e-10     8e-08   30.5   1.5    47   168    15   146     9   170 0.81 ADP-ribosylation factor, putative [Plasmodium vivax]
+SCO65801.1           -           1162 10956at5820          -            236   6.4e-06   24.3   0.6   1   1     3e-08   2.1e-05   22.7   0.6    44   165   591   710   580   728 0.75 translation initiation factor IF-2, putative [Plasmodium vivax]
+SCO69711.1           -           1076 10956at5820          -            236   6.3e-05   21.1   0.4   1   1     2e-07   0.00014   20.0   0.4    42   203   200   354   196   365 0.78 translation initiation factor IF-2, putative [Plasmodium vivax]
+SCO68940.1           -            789 10956at5820          -            236   0.00048   18.2   1.3   1   1   1.5e-06   0.00099   17.2   1.3    35   129     4   115     1   123 0.68 conserved Plasmodium protein, unknown function [Plasmodium vivax]
+#
+# Program:         hmmsearch
+# Version:         3.4 (Aug 2023)
+# Pipeline mode:   SEARCH
+# Query file:      /v3/work/00_inventory/busco/busco_downloads/lineages/plasmodium_odb10/hmms/10956at5820.hmm
+# Target file:     /v3/inputs/annotations/ncbi-datasets/PvT01.proteins.fa
+# Option settings: hmmsearch --domtblout /v3/work/00_inventory/busco/PvT01_proteins/run_plasmodium_odb10/hmmer_output/initial_run_results/10956at5820.out --cpu 1 /v3/work/00_inventory/busco/busco_downloads/lineages/plasmodium_odb10/hmms/10956at5820.hmm /v3/inputs/annotations/ncbi-datasets/PvT01.proteins.fa 
+# Current dir:     /v3/work/00_inventory/busco
+# Date:            Tue May 19 18:31:17 2026
+# [ok]

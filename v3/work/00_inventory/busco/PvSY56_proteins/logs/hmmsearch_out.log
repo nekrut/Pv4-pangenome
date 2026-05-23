@@ -1,0 +1,155 @@
+# hmmsearch :: search profile(s) against a sequence database
+# HMMER 3.4 (Aug 2023); http://hmmer.org/
+# Copyright (C) 2023 Howard Hughes Medical Institute.
+# Freely distributed under the BSD open source license.
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+# query HMM file:                  /v3/work/00_inventory/busco/busco_downloads/lineages/plasmodium_odb10/hmms/99at5820.hmm
+# target sequence database:        /v3/inputs/annotations/plasmodb-68/PvSY56.proteins.fa
+# per-dom hits tabular output:     /v3/work/00_inventory/busco/PvSY56_proteins/run_plasmodium_odb10/hmmer_output/initial_run_results/99at5820.out
+# number of worker threads:        1
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+Query:       99at5820  [M=3542]
+Scores for complete sequences (score includes all domains):
+   --- full sequence ---   --- best 1 domain ---    -#dom-
+    E-value  score  bias    E-value  score  bias    exp  N  Sequence                                              Description
+    ------- ------ -----    ------- ------ -----   ---- --  --------                                              -----------
+   5.6e-123  409.7   1.5   1.8e-122  408.0   1.5    1.6  1  GCA_003402215.1|PVP01_0821600|PVP01_0821600.1|unknown  
+  ------ inclusion threshold ------
+       0.78    4.3  24.0       0.98    4.0  24.0    1.1  1  GCA_003402215.1|PVP01_0422900|PVP01_0422900.1|unknown  
+        3.2    2.3  16.2       0.96    4.1  13.0    1.6  2  GCA_003402215.1|PVP01_1031100|PVP01_1031100.1|unknown  
+        4.2    1.9  16.8        5.6    1.5  16.8    1.0  1  GCA_003402215.1|PVP01_1005900|PVP01_1005900.1|unknown  
+
+
+Domain annotation for each sequence (and alignments):
+>> GCA_003402215.1|PVP01_0821600|PVP01_0821600.1|unknown  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  408.0   1.5  1.3e-125  1.8e-122       1     238 [.       1     337 [.       1     358 [. 0.91
+
+  Alignments for each domain:
+  == domain 1  score: 408.0 bits;  conditional E-value: 1.3e-125
+                                               99at5820   1 mrkkgniknfeleeiifiLLnCLDedkklnreivntLkiyilyhkceiLnyvfsfL 56 
+                                                            m+k+++i+n+eleei+fiLLnCLDe+kk+nrei+ntLkiy+lyhk++iLnyvfsfL
+  GCA_003402215.1|PVP01_0821600|PVP01_0821600.1|unknown   1 MKKRASITNLELEEIVFILLNCLDEEKKKNREIINTLKIYLLYHKGQILNYVFSFL 56 
+                                                            9******************************************************* PP
+
+                                               99at5820  57 qiqkvshenqklLLlLvyDfvhyciynrfsnvvdeyleeekkneekeekk...... 106
+                                                            qiqkvshenqklLL+Lv+Dfvhyci+nrfsn+vdeyl e k+ne ++e++      
+  GCA_003402215.1|PVP01_0821600|PVP01_0821600.1|unknown  57 QIQKVSHENQKLLLCLVHDFVHYCIHNRFSNTVDEYLGEVKRNEGEKEERgdtqkg 112
+                                                            ********************************************9888888***** PP
+
+                                               99at5820 107 ..................sieeekfkDikifdnilkytffDGDeyCfvye...... 138
+                                                                              +  +++fkD++if+nil+y+ffDGDe+Cf+++      
+  GCA_003402215.1|PVP01_0821600|PVP01_0821600.1|unknown 113 gsqkggtqkggtqkgdtqKGGTHRFKDLHIFENILRYSFFDGDEHCFLFQdlpegg 168
+                                                            ***************9887789********************************** PP
+
+                                               99at5820 139 ...............................................vkrd..qni 145
+                                                                                                                  +i
+  GCA_003402215.1|PVP01_0821600|PVP01_0821600.1|unknown 169 flpdavplqgdaaeggplqqadsgaafsprgslhfatdgnprersmkR--RgrGSI 222
+                                                            ********************************************9643..3359** PP
+
+                                               99at5820 146 fkedkisklkclkkeeykllliekkklakk......................nkkk 179
+                                                            f++dki+kl clkkeeyk+++i+++++akk                      +k++
+  GCA_003402215.1|PVP01_0821600|PVP01_0821600.1|unknown 223 FHQDKIAKLLCLKKEEYKTAVISEREAAKKsnqctslqgdgpqrsggippqsAKET 278
+                                                            ***********************998877522222222222222222222225789 PP
+
+                                               99at5820 180 seinniikniinfiLnellfikknDerhkimtkLLiLCiikeDaylkkkiiekvny 235
+                                                            seinnii+nii+f+Lne+lfik++Derh imtkLLiLC+++eDaylkkk++ek+n+
+  GCA_003402215.1|PVP01_0821600|PVP01_0821600.1|unknown 279 SEINNIIRNIIDFLLNEILFIKRDDERHGIMTKLLILCVVREDAYLKKKLVEKLNG 334
+                                                            ******************************************************** PP
+
+                                               99at5820 236 yld 238
+                                                            +l 
+  GCA_003402215.1|PVP01_0821600|PVP01_0821600.1|unknown 335 CLR 337
+                                                            986 PP
+
+>> GCA_003402215.1|PVP01_0422900|PVP01_0422900.1|unknown  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?    4.0  24.0   0.00074      0.98     400     520 ..      81     204 ..      49     213 .. 0.66
+
+  Alignments for each domain:
+  == domain 1  score: 4.0 bits;  conditional E-value: 0.00074
+                                               99at5820 400 kekssehliknanngekeeskekdsdskaesekeklilksnikdkkesdlaseeen 455
+                                                            +e+sse  +k  + g k+ +kek++d ++++++ek   +++++d++++  ++++++
+  GCA_003402215.1|PVP01_0422900|PVP01_0422900.1|unknown  81 GESSSEASSKRVKGGGKKADKEKKTDREKKTDREKKTDREKKTDREKKTDREKKTD 136
+                                                            33344554545555666667777777777777777677777666665555555566 PP
+
+                                               99at5820 456 kedkytvekedengknk..dekeeklkkkda.vknseekekkkiedikkvckklld 508
+                                                            +e+k + ek+++++k++   +k +k+kk +   k ++ek+ +  e+++ +c+k  +
+  GCA_003402215.1|PVP01_0422900|PVP01_0422900.1|unknown 137 REKKTDREKKTDKEKKTegGKKTDKEKKTEGgKKTDKEKNAQSEEELTLLCIKTSQ 192
+                                                            77777777777666655453334444444445888899999999************ PP
+
+                                               99at5820 509 lylniilslkys 520
+                                                            ++ + i ++   
+  GCA_003402215.1|PVP01_0422900|PVP01_0422900.1|unknown 193 MWKESIKEMENM 204
+                                                            999988888654 PP
+
+>> GCA_003402215.1|PVP01_1031100|PVP01_1031100.1|unknown  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?    4.1  13.0   0.00072      0.96     384     501 ..      18     139 ..      11     152 .. 0.55
+   2 ?   -2.0   0.1     0.047        63     473     526 ..     369     419 ..     334     425 .. 0.43
+
+  Alignments for each domain:
+  == domain 1  score: 4.1 bits;  conditional E-value: 0.00072
+                                               99at5820 384 ifndnikqeklykkkekekssehliknanngekeeskekdsdskaeseke.klilk 438
+                                                            +++ +i ++++ k ++ +  +e+   + n+  +++++ ++++   +++ + k   k
+  GCA_003402215.1|PVP01_1031100|PVP01_1031100.1|unknown  18 LLQYSIVKNEITKRRKPNIRNESPP-DGNSPGGGKNNAAGNNGGGDNNAKnKAANK 72 
+                                                            5566677777777777776666644.433333444444444333333322122222 PP
+
+                                               99at5820 439 snikdk.kesdlaseeenkedkytvekedengknkdekeeklkkkda...vknsee 490
+                                                            + ++ + + +++a+++  ++  +++++++++++ +++k+ k kk++a   v+ ++e
+  GCA_003402215.1|PVP01_1031100|PVP01_1031100.1|unknown  73 AANNAAnNAANNAANNAANNAAHNAKNNSNEQNGNKKKKGKPKKEEAdlpVQAQNE 128
+                                                            222222022233333333344444444444444445566666666666789***** PP
+
+                                               99at5820 491 kekkkiedikk 501
+                                                             +++kiedi +
+  GCA_003402215.1|PVP01_1031100|PVP01_1031100.1|unknown 129 NDRNKIEDIAD 139
+                                                            ********976 PP
+
+  == domain 2  score: -2.0 bits;  conditional E-value: 0.047
+                                               99at5820 473 dekeeklkkkdavknseekekkkiedikkvckklldlylniilslkysnenyik 526
+                                                            +  e++  k+ + +    +e+k+  +++++ ++ ++++++++  +k + +  ik
+  GCA_003402215.1|PVP01_1031100|PVP01_1031100.1|unknown 369 K--ETNI-KEGTEEAGTGQEQKQEPELQNLLEQQMNIFYSLVQFFKSKIKALIK 419
+                                                            1..1111.1111122223344444445555555555555555555554444444 PP
+
+>> GCA_003402215.1|PVP01_1005900|PVP01_1005900.1|unknown  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?    1.5  16.8    0.0042       5.6     385     534 ..      38     189 ..      11     206 .. 0.39
+
+  Alignments for each domain:
+  == domain 1  score: 1.5 bits;  conditional E-value: 0.0042
+                                               99at5820 385 fndnikqeklykkkekekssehliknanngekee...skekdsdskaeseke..kl 435
+                                                            f dn+ ++ l +kk+++++ e     +++ge++e   +++ +s++++  e+   + 
+  GCA_003402215.1|PVP01_1005900|PVP01_1005900.1|unknown  38 FMDNLVNSFLSEKKKRKDQEED----EEEGEEDEegtEQNDSSENSSGAENGdnEE 89 
+                                                            4444444444444333322222....222222220001211111111111110011 PP
+
+                                               99at5820 436 ilksnikdkkesdlaseeenkedkytve..kedengknk....dekeeklkkkdav 485
+                                                             ++ ++kd ke++        +++++++  ++++ + +k       + kl+ +++ 
+  GCA_003402215.1|PVP01_1005900|PVP01_1005900.1|unknown  90 EKERRKKDGKEKK--------KKSVKEKkqNQVPVNMQKslleTFYKMKLQAQNNE 137
+                                                            1111122222222........22222220022222222233322233333333333 PP
+
+                                               99at5820 486 knseekekkkiedikkvckklldlylniils.lk..ysnenyikiLyiiskl 534
+                                                             ++ e  +kk e+i +  +k l+  l+ + +  k    +en++ i  + sk 
+  GCA_003402215.1|PVP01_1005900|PVP01_1005900.1|unknown 138 VDETEEIRKKEEKILAQVSKALNAPLQSVKErAKgiVYSENFKTIWTLPSKY 189
+                                                            3344445555566665556666666554433133223456666666666665 PP
+
+
+
+Internal pipeline statistics summary:
+-------------------------------------
+Query model(s):                            1  (3542 nodes)
+Target sequences:                       5312  (3731403 residues searched)
+Passed MSV filter:                      2471  (0.465173); expected 106.2 (0.02)
+Passed bias filter:                      365  (0.0687123); expected 106.2 (0.02)
+Passed Vit filter:                       167  (0.0314383); expected 5.3 (0.001)
+Passed Fwd filter:                        78  (0.0146837); expected 0.1 (1e-05)
+Initial search space (Z):               5312  [actual number of targets]
+Domain search space  (domZ):               4  [number of targets reported over threshold]
+# CPU time: 6.69u 0.03s 00:00:06.72 Elapsed: 00:00:06.82
+# Mc/sec: 1937.68
+//
+[ok]

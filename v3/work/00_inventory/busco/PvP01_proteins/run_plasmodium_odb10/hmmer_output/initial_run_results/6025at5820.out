@@ -1,0 +1,17 @@
+#                                                                            --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name        accession   tlen query name           accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+#------------------- ---------- ----- -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+PVP01_1246000.1-p1   -            594 6025at5820           -            445  5.7e-235  778.3  11.5   1   4     3e-17     2e-13   48.1   0.0     1    41     1    41     1    47 0.93 | transcript=PVP01_1246000.1 | gene=PVP01_1246000 | organism=Plasmodium_vivax_P01 | gene_product=snRNA-activating protein complex subunit 3, putative | transcript_product=snRNA-activating protein complex subunit 3, putative | location=PvP01_12_v2:1888255-1890039(+) | protein_length=594 | sequence_SO=chromosome | SO=protein_coding_gene | is_pseudo=false
+PVP01_1246000.1-p1   -            594 6025at5820           -            445  5.7e-235  778.3  11.5   2   4   9.3e-09     6e-05   20.1   0.0    39    65    64    90    59    93 0.89 | transcript=PVP01_1246000.1 | gene=PVP01_1246000 | organism=Plasmodium_vivax_P01 | gene_product=snRNA-activating protein complex subunit 3, putative | transcript_product=snRNA-activating protein complex subunit 3, putative | location=PvP01_12_v2:1888255-1890039(+) | protein_length=594 | sequence_SO=chromosome | SO=protein_coding_gene | is_pseudo=false
+PVP01_1246000.1-p1   -            594 6025at5820           -            445  5.7e-235  778.3  11.5   3   4   7.1e-17   4.7e-13   46.9   0.0    62   109   162   218   147   233 0.87 | transcript=PVP01_1246000.1 | gene=PVP01_1246000 | organism=Plasmodium_vivax_P01 | gene_product=snRNA-activating protein complex subunit 3, putative | transcript_product=snRNA-activating protein complex subunit 3, putative | location=PvP01_12_v2:1888255-1890039(+) | protein_length=594 | sequence_SO=chromosome | SO=protein_coding_gene | is_pseudo=false
+PVP01_1246000.1-p1   -            594 6025at5820           -            445  5.7e-235  778.3  11.5   4   4  2.5e-203  1.6e-199  661.4   8.1   109   445   246   594   236   594 0.96 | transcript=PVP01_1246000.1 | gene=PVP01_1246000 | organism=Plasmodium_vivax_P01 | gene_product=snRNA-activating protein complex subunit 3, putative | transcript_product=snRNA-activating protein complex subunit 3, putative | location=PvP01_12_v2:1888255-1890039(+) | protein_length=594 | sequence_SO=chromosome | SO=protein_coding_gene | is_pseudo=false
+#
+# Program:         hmmsearch
+# Version:         3.4 (Aug 2023)
+# Pipeline mode:   SEARCH
+# Query file:      /v3/work/00_inventory/busco/busco_downloads/lineages/plasmodium_odb10/hmms/6025at5820.hmm
+# Target file:     /v3/inputs/annotations/plasmodb-68/PvP01.proteins.fa
+# Option settings: hmmsearch --domtblout /v3/work/00_inventory/busco/PvP01_proteins/run_plasmodium_odb10/hmmer_output/initial_run_results/6025at5820.out --cpu 1 /v3/work/00_inventory/busco/busco_downloads/lineages/plasmodium_odb10/hmms/6025at5820.hmm /v3/inputs/annotations/plasmodb-68/PvP01.proteins.fa 
+# Current dir:     /v3/work/00_inventory/busco
+# Date:            Tue May 19 17:44:41 2026
+# [ok]

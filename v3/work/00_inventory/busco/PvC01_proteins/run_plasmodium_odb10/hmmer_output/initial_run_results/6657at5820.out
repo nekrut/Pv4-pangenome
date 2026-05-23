@@ -1,0 +1,27 @@
+#                                                                            --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name        accession   tlen query name           accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+#------------------- ---------- ----- -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+SCO71453.1           -            649 6657at5820           -            535  4.7e-276  915.0  47.2   1   1    7e-277    4e-274  908.6  47.2     1   534     1   648     1   649 0.94 serine/threonine protein kinase RIO2, putative [Plasmodium vivax]
+SCO75135.1           -            543 6657at5820           -            535   0.00027   18.1  16.3   1   2   4.8e-07   0.00027   18.1  16.3   268   444    71   258    65   330 0.53 conserved Plasmodium protein, unknown function [Plasmodium vivax]
+SCO75135.1           -            543 6657at5820           -            535   0.00027   18.1  16.3   2   2       2.3   1.3e+03   -4.0   3.7   489   512   495   519   468   541 0.62 conserved Plasmodium protein, unknown function [Plasmodium vivax]
+SCO70874.1           -            310 6657at5820           -            535    0.0081   13.2   3.6   1   2      0.14        78    0.1   0.3   472   516    44    89    14   105 0.68 serine/threonine-protein kinase NEK4, putative [Plasmodium vivax]
+SCO70874.1           -            310 6657at5820           -            535    0.0081   13.2   3.6   2   2   1.2e-05    0.0069   13.5   1.4   199   245    97   149    73   162 0.70 serine/threonine-protein kinase NEK4, putative [Plasmodium vivax]
+SCO74507.1           -            763 6657at5820           -            535     0.017   12.1  19.2   1   1     6e-05     0.034   11.2  19.2   324   428   359   459   336   545 0.51 clathrin coat assembly protein AP50, putative [Plasmodium vivax]
+SCO75023.1           -            132 6657at5820           -            535      0.14    9.1  10.3   1   1   0.00026      0.15    9.1  10.3   400   510    14   124     1   129 0.41 conserved Plasmodium protein, unknown function [Plasmodium vivax]
+SCO71422.1           -            323 6657at5820           -            535       2.5    5.0  15.0   1   1    0.0055       3.2    4.7  15.0   361   436    65   174    32   238 0.37 conserved Plasmodium protein, unknown function [Plasmodium vivax]
+SCO74041.1           -            448 6657at5820           -            535       3.4    4.6  15.1   1   1    0.0091       5.2    4.0  15.1   297   474    37   238    31   251 0.45 MSP7-like protein [Plasmodium vivax]
+SCO72249.1           -            381 6657at5820           -            535       7.7    3.4  24.8   1   1     0.021        12    2.8  24.8   361   506   106   252    35   267 0.45 conserved Plasmodium protein, unknown function [Plasmodium vivax]
+SCO75686.1           -            205 6657at5820           -            535       8.5    3.3  34.8   1   1     0.019        11    2.9  34.8   329   486    41   193    23   201 0.37 conserved Plasmodium protein, unknown function [Plasmodium vivax]
+SCO75730.1           -            400 6657at5820           -            535       8.7    3.2  24.4   1   2     0.029        16    2.3   3.1   371   435    66   131    13   180 0.60 conserved Plasmodium protein, unknown function [Plasmodium vivax]
+SCO75730.1           -            400 6657at5820           -            535       8.7    3.2  24.4   2   2    0.0012      0.71    6.8  13.5   358   435   241   320   216   366 0.52 conserved Plasmodium protein, unknown function [Plasmodium vivax]
+SCO75085.1           -            522 6657at5820           -            535       8.7    3.2  16.7   1   1     0.025        15    2.5  16.7   241   474    71   310    50   318 0.35 lysophospholipase, putative [Plasmodium vivax]
+#
+# Program:         hmmsearch
+# Version:         3.4 (Aug 2023)
+# Pipeline mode:   SEARCH
+# Query file:      /v3/work/00_inventory/busco/busco_downloads/lineages/plasmodium_odb10/hmms/6657at5820.hmm
+# Target file:     /v3/inputs/annotations/ncbi-datasets/PvC01.proteins.fa
+# Option settings: hmmsearch --domtblout /v3/work/00_inventory/busco/PvC01_proteins/run_plasmodium_odb10/hmmer_output/initial_run_results/6657at5820.out --cpu 1 /v3/work/00_inventory/busco/busco_downloads/lineages/plasmodium_odb10/hmms/6657at5820.hmm /v3/inputs/annotations/ncbi-datasets/PvC01.proteins.fa 
+# Current dir:     /v3/work/00_inventory/busco
+# Date:            Tue May 19 18:51:44 2026
+# [ok]

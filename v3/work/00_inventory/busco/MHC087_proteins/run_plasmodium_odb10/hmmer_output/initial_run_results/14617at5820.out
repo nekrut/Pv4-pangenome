@@ -1,0 +1,18 @@
+#                                                                                                             --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name                                         accession   tlen query name           accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+#                                 ------------------- ---------- ----- -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+GCA_040114635.1|PVP01_0714300|PVP01_0714300.1|unknown -            163 14617at5820          -            110   8.7e-58  191.6   9.7   1   2   3.7e-52   1.2e-48  162.2   7.2     1    89    10   101    10   117 0.89 -
+GCA_040114635.1|PVP01_0714300|PVP01_0714300.1|unknown -            163 14617at5820          -            110   8.7e-58  191.6   9.7   2   2     4e-11   1.2e-07   30.2   0.0    85   110   138   163   124   163 0.89 -
+GCA_040114635.1|PVP01_0122100|PVP01_0122100.1|unknown -            509 14617at5820          -            110     0.029   12.9   2.1   1   3     0.002       6.2    5.4   0.2    51    79    29    57    18    72 0.87 -
+GCA_040114635.1|PVP01_0122100|PVP01_0122100.1|unknown -            509 14617at5820          -            110     0.029   12.9   2.1   2   3       1.3   4.1e+03   -3.7   0.0    40    59   232   251   228   254 0.73 -
+GCA_040114635.1|PVP01_0122100|PVP01_0122100.1|unknown -            509 14617at5820          -            110     0.029   12.9   2.1   3   3    0.0011       3.3    6.2   0.0    11    74   425   483   419   490 0.85 -
+#
+# Program:         hmmsearch
+# Version:         3.4 (Aug 2023)
+# Pipeline mode:   SEARCH
+# Query file:      /v3/work/00_inventory/busco/busco_downloads/lineages/plasmodium_odb10/hmms/14617at5820.hmm
+# Target file:     /v3/inputs/annotations/ncbi-datasets/MHC087.proteins.fa
+# Option settings: hmmsearch --domtblout /v3/work/00_inventory/busco/MHC087_proteins/run_plasmodium_odb10/hmmer_output/initial_run_results/14617at5820.out --cpu 1 /v3/work/00_inventory/busco/busco_downloads/lineages/plasmodium_odb10/hmms/14617at5820.hmm /v3/inputs/annotations/ncbi-datasets/MHC087.proteins.fa 
+# Current dir:     /v3/work/00_inventory/busco
+# Date:            Tue May 19 18:03:48 2026
+# [ok]

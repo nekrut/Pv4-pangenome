@@ -1,0 +1,17 @@
+#                                                                            --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name        accession   tlen query name           accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+#------------------- ---------- ----- -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+PVP01_0818700.1-p1   -            879 2382at5820           -            724         0 1289.6  67.4   1   3  4.5e-134  1.5e-130  435.4  21.4     1   247     8   274     8   280 0.94 | transcript=PVP01_0818700.1 | gene=PVP01_0818700 | organism=Plasmodium_vivax_P01 | gene_product=peptidase, putative | transcript_product=peptidase, putative | location=PvP01_08_v2:820260-822899(+) | protein_length=879 | sequence_SO=chromosome | SO=protein_coding_gene | is_pseudo=false
+PVP01_0818700.1-p1   -            879 2382at5820           -            724         0 1289.6  67.4   2   3   1.1e-28   3.5e-25   87.1   0.2   246   307   307   373   301   397 0.91 | transcript=PVP01_0818700.1 | gene=PVP01_0818700 | organism=Plasmodium_vivax_P01 | gene_product=peptidase, putative | transcript_product=peptidase, putative | location=PvP01_08_v2:820260-822899(+) | protein_length=879 | sequence_SO=chromosome | SO=protein_coding_gene | is_pseudo=false
+PVP01_0818700.1-p1   -            879 2382at5820           -            724         0 1289.6  67.4   3   3  3.3e-237  1.1e-233  776.4  33.0   305   724   431   879   426   879 0.97 | transcript=PVP01_0818700.1 | gene=PVP01_0818700 | organism=Plasmodium_vivax_P01 | gene_product=peptidase, putative | transcript_product=peptidase, putative | location=PvP01_08_v2:820260-822899(+) | protein_length=879 | sequence_SO=chromosome | SO=protein_coding_gene | is_pseudo=false
+PVP01_1401900.1-p1   -            522 2382at5820           -            724   7.2e-05   19.9   0.6   1   1   3.3e-08   0.00011   19.3   0.6   617   722   412   513   353   515 0.74 | transcript=PVP01_1401900.1 | gene=PVP01_1401900 | organism=Plasmodium_vivax_P01 | gene_product=lysophospholipase, putative | transcript_product=lysophospholipase, putative | location=PvP01_14_v2:84685-86253(-) | protein_length=522 | sequence_SO=chromosome | SO=protein_coding_gene | is_pseudo=false
+#
+# Program:         hmmsearch
+# Version:         3.4 (Aug 2023)
+# Pipeline mode:   SEARCH
+# Query file:      /v3/work/00_inventory/busco/busco_downloads/lineages/plasmodium_odb10/hmms/2382at5820.hmm
+# Target file:     /v3/inputs/annotations/plasmodb-68/PvP01.proteins.fa
+# Option settings: hmmsearch --domtblout /v3/work/00_inventory/busco/PvP01_proteins/run_plasmodium_odb10/hmmer_output/initial_run_results/2382at5820.out --cpu 1 /v3/work/00_inventory/busco/busco_downloads/lineages/plasmodium_odb10/hmms/2382at5820.hmm /v3/inputs/annotations/plasmodb-68/PvP01.proteins.fa 
+# Current dir:     /v3/work/00_inventory/busco
+# Date:            Tue May 19 17:35:33 2026
+# [ok]

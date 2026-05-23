@@ -1,0 +1,16 @@
+#                                                                            --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name        accession   tlen query name           accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+#------------------- ---------- ----- -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+CAI7718588.1         -            522 4856at5820           -            417  1.4e-222  737.4  48.8   1   3   0.00016         1    6.6   0.2     1    22     1    26     1    37 0.82 | transcript=PVPAM_040033300_t1 | gene=PVPAM_040033300 | organism=Plasmodium_vivax_PAM | gene_product=octaprenyl pyrophosphate synthase, putative | transcript_product=octaprenyl pyrophosphate synthase, putative | location=CASCJQ010000004:1163272-1164840(-) | protein_length=522 | sequence_SO=supercontig | SO=protein_coding_gene | is_pseudo=false
+CAI7718588.1         -            522 4856at5820           -            417  1.4e-222  737.4  48.8   2   3   2.6e-62   1.7e-58  197.0  20.0    31   167    96   235    90   238 0.93 | transcript=PVPAM_040033300_t1 | gene=PVPAM_040033300 | organism=Plasmodium_vivax_PAM | gene_product=octaprenyl pyrophosphate synthase, putative | transcript_product=octaprenyl pyrophosphate synthase, putative | location=CASCJQ010000004:1163272-1164840(-) | protein_length=522 | sequence_SO=supercontig | SO=protein_coding_gene | is_pseudo=false
+CAI7718588.1         -            522 4856at5820           -            417  1.4e-222  737.4  48.8   3   3  6.6e-167  4.3e-163  541.5  18.4   139   417   236   522   223   522 0.94 | transcript=PVPAM_040033300_t1 | gene=PVPAM_040033300 | organism=Plasmodium_vivax_PAM | gene_product=octaprenyl pyrophosphate synthase, putative | transcript_product=octaprenyl pyrophosphate synthase, putative | location=CASCJQ010000004:1163272-1164840(-) | protein_length=522 | sequence_SO=supercontig | SO=protein_coding_gene | is_pseudo=false
+#
+# Program:         hmmsearch
+# Version:         3.4 (Aug 2023)
+# Pipeline mode:   SEARCH
+# Query file:      /v3/work/00_inventory/busco/busco_downloads/lineages/plasmodium_odb10/hmms/4856at5820.hmm
+# Target file:     /v3/inputs/annotations/plasmodb-68/PAM.proteins.fa
+# Option settings: hmmsearch --domtblout /v3/work/00_inventory/busco/PAM_proteins/run_plasmodium_odb10/hmmer_output/initial_run_results/4856at5820.out --cpu 1 /v3/work/00_inventory/busco/busco_downloads/lineages/plasmodium_odb10/hmms/4856at5820.hmm /v3/inputs/annotations/plasmodb-68/PAM.proteins.fa 
+# Current dir:     /v3/work/00_inventory/busco
+# Date:            Tue May 19 17:39:22 2026
+# [ok]

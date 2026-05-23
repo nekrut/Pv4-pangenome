@@ -1,0 +1,17 @@
+#                                                                            --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name        accession   tlen query name           accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+#------------------- ---------- ----- -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+CAI7721540.1         -            294 9084at5820           -            272  2.6e-118  393.1  29.6   1   2   1.2e-29   3.9e-26   90.8   3.1    54   112     1    63     1    73 0.93 | transcript=PVPAM_110044500_t1 | gene=PVPAM_110044500 | organism=Plasmodium_vivax_PAM | gene_product=zinc transporter ZIP1, putative | transcript_product=zinc transporter ZIP1, putative | location=CASCJQ010000011:1638420-1640571(+) | protein_length=294 | sequence_SO=supercontig | SO=protein_coding_gene | is_pseudo=false
+CAI7721540.1         -            294 9084at5820           -            272  2.6e-118  393.1  29.6   2   2   5.8e-96   1.9e-92  308.3  18.7   107   269   103   267    85   275 0.91 | transcript=PVPAM_110044500_t1 | gene=PVPAM_110044500 | organism=Plasmodium_vivax_PAM | gene_product=zinc transporter ZIP1, putative | transcript_product=zinc transporter ZIP1, putative | location=CASCJQ010000011:1638420-1640571(+) | protein_length=294 | sequence_SO=supercontig | SO=protein_coding_gene | is_pseudo=false
+CAI7719177.1         -            316 9084at5820           -            272   2.8e-15   55.2  21.1   1   2   6.9e-07    0.0022   16.2   3.6     8   104     6   107     1   122 0.65 | transcript=PVPAM_060018400_t1 | gene=PVPAM_060018400 | organism=Plasmodium_vivax_PAM | gene_product=ZIP domain-containing protein, putative | transcript_product=ZIP domain-containing protein, putative | location=CASCJQ010000006:583162-584822(+) | protein_length=316 | sequence_SO=supercontig | SO=protein_coding_gene | is_pseudo=false
+CAI7719177.1         -            316 9084at5820           -            272   2.8e-15   55.2  21.1   2   2     1e-15   3.4e-12   45.1   9.6   115   268   156   308   139   312 0.86 | transcript=PVPAM_060018400_t1 | gene=PVPAM_060018400 | organism=Plasmodium_vivax_PAM | gene_product=ZIP domain-containing protein, putative | transcript_product=ZIP domain-containing protein, putative | location=CASCJQ010000006:583162-584822(+) | protein_length=316 | sequence_SO=supercontig | SO=protein_coding_gene | is_pseudo=false
+#
+# Program:         hmmsearch
+# Version:         3.4 (Aug 2023)
+# Pipeline mode:   SEARCH
+# Query file:      /v3/work/00_inventory/busco/busco_downloads/lineages/plasmodium_odb10/hmms/9084at5820.hmm
+# Target file:     /v3/inputs/annotations/plasmodb-68/PAM.proteins.fa
+# Option settings: hmmsearch --domtblout /v3/work/00_inventory/busco/PAM_proteins/run_plasmodium_odb10/hmmer_output/initial_run_results/9084at5820.out --cpu 1 /v3/work/00_inventory/busco/busco_downloads/lineages/plasmodium_odb10/hmms/9084at5820.hmm /v3/inputs/annotations/plasmodb-68/PAM.proteins.fa 
+# Current dir:     /v3/work/00_inventory/busco
+# Date:            Tue May 19 17:49:45 2026
+# [ok]

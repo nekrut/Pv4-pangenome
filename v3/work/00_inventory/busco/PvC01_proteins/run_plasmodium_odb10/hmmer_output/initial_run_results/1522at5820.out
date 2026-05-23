@@ -1,0 +1,16 @@
+#                                                                            --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name        accession   tlen query name           accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+#------------------- ---------- ----- -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+SCO72527.1           -           1256 1522at5820           -           1017         0 1824.9  79.1   1   3   7.7e-15   4.8e-11   40.0   0.1     1   108     1   110     1   130 0.86 FeS cluster assembly protein SufD, putative [Plasmodium vivax]
+SCO72527.1           -           1256 1522at5820           -           1017         0 1824.9  79.1   2   3  6.6e-161  4.2e-157  523.5  31.4    86   381   166   461   117   483 0.93 FeS cluster assembly protein SufD, putative [Plasmodium vivax]
+SCO72527.1           -           1256 1522at5820           -           1017         0 1824.9  79.1   3   3         0         0 1268.7  36.7   377  1016   492  1246   470  1247 0.96 FeS cluster assembly protein SufD, putative [Plasmodium vivax]
+#
+# Program:         hmmsearch
+# Version:         3.4 (Aug 2023)
+# Pipeline mode:   SEARCH
+# Query file:      /v3/work/00_inventory/busco/busco_downloads/lineages/plasmodium_odb10/hmms/1522at5820.hmm
+# Target file:     /v3/inputs/annotations/ncbi-datasets/PvC01.proteins.fa
+# Option settings: hmmsearch --domtblout /v3/work/00_inventory/busco/PvC01_proteins/run_plasmodium_odb10/hmmer_output/initial_run_results/1522at5820.out --cpu 1 /v3/work/00_inventory/busco/busco_downloads/lineages/plasmodium_odb10/hmms/1522at5820.hmm /v3/inputs/annotations/ncbi-datasets/PvC01.proteins.fa 
+# Current dir:     /v3/work/00_inventory/busco
+# Date:            Tue May 19 18:37:13 2026
+# [ok]

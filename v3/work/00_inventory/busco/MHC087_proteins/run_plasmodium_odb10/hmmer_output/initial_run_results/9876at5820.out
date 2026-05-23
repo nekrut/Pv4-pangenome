@@ -1,0 +1,16 @@
+#                                                                                                             --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name                                         accession   tlen query name           accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+#                                 ------------------- ---------- ----- -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+GCA_040114635.1|PVP01_0837400|PVP01_0837400.1|unknown -            529 9876at5820           -            328  6.3e-178  589.2  34.7   1   3   0.00024       1.5    6.2   0.6     1    31     7    37     7    47 0.79 -
+GCA_040114635.1|PVP01_0837400|PVP01_0837400.1|unknown -            529 9876at5820           -            328  6.3e-178  589.2  34.7   2   3   1.4e-81   9.1e-78  260.0   6.5     7   148    54   201    48   221 0.87 -
+GCA_040114635.1|PVP01_0837400|PVP01_0837400.1|unknown -            529 9876at5820           -            328  6.3e-178  589.2  34.7   3   3  4.5e-104  2.8e-100  334.0  13.1   116   328   251   478   240   478 0.91 -
+#
+# Program:         hmmsearch
+# Version:         3.4 (Aug 2023)
+# Pipeline mode:   SEARCH
+# Query file:      /v3/work/00_inventory/busco/busco_downloads/lineages/plasmodium_odb10/hmms/9876at5820.hmm
+# Target file:     /v3/inputs/annotations/ncbi-datasets/MHC087.proteins.fa
+# Option settings: hmmsearch --domtblout /v3/work/00_inventory/busco/MHC087_proteins/run_plasmodium_odb10/hmmer_output/initial_run_results/9876at5820.out --cpu 1 /v3/work/00_inventory/busco/busco_downloads/lineages/plasmodium_odb10/hmms/9876at5820.hmm /v3/inputs/annotations/ncbi-datasets/MHC087.proteins.fa 
+# Current dir:     /v3/work/00_inventory/busco
+# Date:            Tue May 19 18:24:45 2026
+# [ok]

@@ -1,0 +1,17 @@
+#                                                                            --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name        accession   tlen query name           accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+#------------------- ---------- ----- -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+CAI7721927.1         -            893 3006at5820           -            633         0 1128.2  72.9   1   4   1.6e-14     1e-10   39.0   2.4     1    58     6    63     6    79 0.82 | transcript=PVPAM_120016100_t1 | gene=PVPAM_120016100 | organism=Plasmodium_vivax_PAM | gene_product=CDT1-like protein, putative | transcript_product=CDT1-like protein, putative | location=CASCJQ010000012:486718-489399(+) | protein_length=893 | sequence_SO=supercontig | SO=protein_coding_gene | is_pseudo=false
+CAI7721927.1         -            893 3006at5820           -            633         0 1128.2  72.9   2   4   1.5e-84     1e-80  270.3  20.8    14   180   107   280   102   311 0.84 | transcript=PVPAM_120016100_t1 | gene=PVPAM_120016100 | organism=Plasmodium_vivax_PAM | gene_product=CDT1-like protein, putative | transcript_product=CDT1-like protein, putative | location=CASCJQ010000012:486718-489399(+) | protein_length=893 | sequence_SO=supercontig | SO=protein_coding_gene | is_pseudo=false
+CAI7721927.1         -            893 3006at5820           -            633         0 1128.2  72.9   3   4  1.3e-150  8.4e-147  488.6   7.0   184   443   399   683   377   686 0.91 | transcript=PVPAM_120016100_t1 | gene=PVPAM_120016100 | organism=Plasmodium_vivax_PAM | gene_product=CDT1-like protein, putative | transcript_product=CDT1-like protein, putative | location=CASCJQ010000012:486718-489399(+) | protein_length=893 | sequence_SO=supercontig | SO=protein_coding_gene | is_pseudo=false
+CAI7721927.1         -            893 3006at5820           -            633         0 1128.2  72.9   4   4  2.9e-106  1.9e-102  342.1  19.0   436   633   696   893   692   893 0.99 | transcript=PVPAM_120016100_t1 | gene=PVPAM_120016100 | organism=Plasmodium_vivax_PAM | gene_product=CDT1-like protein, putative | transcript_product=CDT1-like protein, putative | location=CASCJQ010000012:486718-489399(+) | protein_length=893 | sequence_SO=supercontig | SO=protein_coding_gene | is_pseudo=false
+#
+# Program:         hmmsearch
+# Version:         3.4 (Aug 2023)
+# Pipeline mode:   SEARCH
+# Query file:      /v3/work/00_inventory/busco/busco_downloads/lineages/plasmodium_odb10/hmms/3006at5820.hmm
+# Target file:     /v3/inputs/annotations/plasmodb-68/PAM.proteins.fa
+# Option settings: hmmsearch --domtblout /v3/work/00_inventory/busco/PAM_proteins/run_plasmodium_odb10/hmmer_output/initial_run_results/3006at5820.out --cpu 1 /v3/work/00_inventory/busco/busco_downloads/lineages/plasmodium_odb10/hmms/3006at5820.hmm /v3/inputs/annotations/plasmodb-68/PAM.proteins.fa 
+# Current dir:     /v3/work/00_inventory/busco
+# Date:            Tue May 19 17:38:58 2026
+# [ok]

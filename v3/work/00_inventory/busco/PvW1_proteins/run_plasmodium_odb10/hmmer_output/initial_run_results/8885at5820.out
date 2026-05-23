@@ -1,0 +1,15 @@
+#                                                                            --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name        accession   tlen query name           accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+#------------------- ---------- ----- -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+CAG9472444.1         -            486 8885at5820           -            387  1.4e-183  609.1  56.8   1   2    2e-103   1.2e-99  332.8  36.5     1   211     1   217     1   225 0.95 | transcript=PVW1_140061300_t1 | gene=PVW1_140061300 | organism=Plasmodium_vivax_PvW1 | gene_product=Protein-S-isoprenylcysteine O-methyltransferase [Source:UniProtKB/TrEMBL;Acc:A0A565A2W9] | transcript_product=Protein-S-isoprenylcysteine O-methyltransferase [Source:UniProtKB/TrEMBL;Acc:A0A565A2W9] | location=CAJZCX010000003:2450930-2453034(+) | protein_length=486 | sequence_SO=supercontig | SO=protein_coding_gene | is_pseudo=false
+CAG9472444.1         -            486 8885at5820           -            387  1.4e-183  609.1  56.8   2   2   3.7e-88   2.2e-84  282.5  12.3   219   386   317   485   299   486 0.97 | transcript=PVW1_140061300_t1 | gene=PVW1_140061300 | organism=Plasmodium_vivax_PvW1 | gene_product=Protein-S-isoprenylcysteine O-methyltransferase [Source:UniProtKB/TrEMBL;Acc:A0A565A2W9] | transcript_product=Protein-S-isoprenylcysteine O-methyltransferase [Source:UniProtKB/TrEMBL;Acc:A0A565A2W9] | location=CAJZCX010000003:2450930-2453034(+) | protein_length=486 | sequence_SO=supercontig | SO=protein_coding_gene | is_pseudo=false
+#
+# Program:         hmmsearch
+# Version:         3.4 (Aug 2023)
+# Pipeline mode:   SEARCH
+# Query file:      /v3/work/00_inventory/busco/busco_downloads/lineages/plasmodium_odb10/hmms/8885at5820.hmm
+# Target file:     /v3/inputs/annotations/plasmodb-68/PvW1.proteins.fa
+# Option settings: hmmsearch --domtblout /v3/work/00_inventory/busco/PvW1_proteins/run_plasmodium_odb10/hmmer_output/initial_run_results/8885at5820.out --cpu 1 /v3/work/00_inventory/busco/busco_downloads/lineages/plasmodium_odb10/hmms/8885at5820.hmm /v3/inputs/annotations/plasmodb-68/PvW1.proteins.fa 
+# Current dir:     /v3/work/00_inventory/busco
+# Date:            Tue May 19 17:48:58 2026
+# [ok]

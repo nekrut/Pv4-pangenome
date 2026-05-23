@@ -1,0 +1,16 @@
+#                                                                            --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name        accession   tlen query name           accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+#------------------- ---------- ----- -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+SCO74308.1           -            228 10798at5820          -            204  1.2e-112  373.2   2.7   1   1    2e-115  6.3e-112  370.9   2.7     1   204     1   226     1   226 0.94 ubiquitin carboxyl-terminal hydrolase isozyme L3, putative [Plasmodium vivax]
+SCO72657.1           -            497 10798at5820          -            204   1.4e-09   36.6   1.1   1   2    0.0071        22    3.3   0.0     7    38    12    43     8    71 0.88 deubiquinating/deneddylating enzyme, putative [Plasmodium vivax]
+SCO72657.1           -            497 10798at5820          -            204   1.4e-09   36.6   1.1   2   2   2.1e-11   6.6e-08   31.2   0.2    63   172   146   267   116   289 0.75 deubiquinating/deneddylating enzyme, putative [Plasmodium vivax]
+#
+# Program:         hmmsearch
+# Version:         3.4 (Aug 2023)
+# Pipeline mode:   SEARCH
+# Query file:      /v3/work/00_inventory/busco/busco_downloads/lineages/plasmodium_odb10/hmms/10798at5820.hmm
+# Target file:     /v3/inputs/annotations/ncbi-datasets/PvC01.proteins.fa
+# Option settings: hmmsearch --domtblout /v3/work/00_inventory/busco/PvC01_proteins/run_plasmodium_odb10/hmmer_output/initial_run_results/10798at5820.out --cpu 1 /v3/work/00_inventory/busco/busco_downloads/lineages/plasmodium_odb10/hmms/10798at5820.hmm /v3/inputs/annotations/ncbi-datasets/PvC01.proteins.fa 
+# Current dir:     /v3/work/00_inventory/busco
+# Date:            Tue May 19 18:30:29 2026
+# [ok]

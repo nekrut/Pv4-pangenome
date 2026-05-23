@@ -1,0 +1,17 @@
+#                                                                            --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name        accession   tlen query name           accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+#------------------- ---------- ----- -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+PVP01_1467000.1-p1   -            522 7417at5820           -            320  1.3e-183  607.8   5.2   1   2   2.8e-32   9.3e-29   99.0   0.1     5    69   114   180   110   205 0.90 | transcript=PVP01_1467000.1 | gene=PVP01_1467000 | organism=Plasmodium_vivax_P01 | gene_product=ribosomal RNA small subunit methyltransferase A2, putative | transcript_product=ribosomal RNA small subunit methyltransferase A2, putative | location=PvP01_14_v2:2856573-2858141(-) | protein_length=522 | sequence_SO=chromosome | SO=protein_coding_gene | is_pseudo=false
+PVP01_1467000.1-p1   -            522 7417at5820           -            320  1.3e-183  607.8   5.2   2   2  2.9e-157  9.5e-154  509.7   2.3    70   320   265   522   258   522 0.97 | transcript=PVP01_1467000.1 | gene=PVP01_1467000 | organism=Plasmodium_vivax_P01 | gene_product=ribosomal RNA small subunit methyltransferase A2, putative | transcript_product=ribosomal RNA small subunit methyltransferase A2, putative | location=PvP01_14_v2:2856573-2858141(-) | protein_length=522 | sequence_SO=chromosome | SO=protein_coding_gene | is_pseudo=false
+PVP01_1333100.1-p1   -            423 7417at5820           -            320   1.5e-17   62.2   4.7   1   2      0.54   1.8e+03   -3.7   0.0    36    63    21    49    11    54 0.66 | transcript=PVP01_1333100.1 | gene=PVP01_1333100 | organism=Plasmodium_vivax_P01 | gene_product=ribosomal RNA small subunit methyltransferase A1, putative | transcript_product=ribosomal RNA small subunit methyltransferase A1, putative | location=PvP01_13_v2:1420210-1421481(-) | protein_length=423 | sequence_SO=chromosome | SO=protein_coding_gene | is_pseudo=false
+PVP01_1333100.1-p1   -            423 7417at5820           -            320   1.5e-17   62.2   4.7   2   2   4.6e-21   1.5e-17   62.2   4.7    78   279   107   310    81   334 0.80 | transcript=PVP01_1333100.1 | gene=PVP01_1333100 | organism=Plasmodium_vivax_P01 | gene_product=ribosomal RNA small subunit methyltransferase A1, putative | transcript_product=ribosomal RNA small subunit methyltransferase A1, putative | location=PvP01_13_v2:1420210-1421481(-) | protein_length=423 | sequence_SO=chromosome | SO=protein_coding_gene | is_pseudo=false
+#
+# Program:         hmmsearch
+# Version:         3.4 (Aug 2023)
+# Pipeline mode:   SEARCH
+# Query file:      /v3/work/00_inventory/busco/busco_downloads/lineages/plasmodium_odb10/hmms/7417at5820.hmm
+# Target file:     /v3/inputs/annotations/plasmodb-68/PvP01.proteins.fa
+# Option settings: hmmsearch --domtblout /v3/work/00_inventory/busco/PvP01_proteins/run_plasmodium_odb10/hmmer_output/initial_run_results/7417at5820.out --cpu 1 /v3/work/00_inventory/busco/busco_downloads/lineages/plasmodium_odb10/hmms/7417at5820.hmm /v3/inputs/annotations/plasmodb-68/PvP01.proteins.fa 
+# Current dir:     /v3/work/00_inventory/busco
+# Date:            Tue May 19 17:47:28 2026
+# [ok]

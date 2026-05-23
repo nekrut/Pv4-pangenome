@@ -1,0 +1,18 @@
+#                                                                            --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name        accession   tlen query name           accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+#------------------- ---------- ----- -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+PVX_097890.1-p1      -            443 7112at5820           -            260  4.2e-125  415.1   9.3   1   1    1e-127  1.9e-124  412.9   9.3     1   260   132   429   132   429 0.91 | transcript=PVX_097890.1 | gene=PVX_097890 | organism=Plasmodium_vivax_Sal-1 | gene_product=histone deacetylase, putative | transcript_product=histone deacetylase, putative | location=Pv_Sal1_chr10:1066414-1067879(+) | protein_length=443 | sequence_SO=chromosome | SO=protein_coding_gene | is_pseudo=false
+PVX_099700.1-p1      -            448 7112at5820           -            260   2.1e-11   42.4   0.5   1   2      0.62   1.1e+03   -2.6   0.2    20   181    43    70    31   100 0.52 | transcript=PVX_099700.1 | gene=PVX_099700 | organism=Plasmodium_vivax_Sal-1 | gene_product=histone deacetylase 1, putative | transcript_product=histone deacetylase 1, putative | location=Pv_Sal1_chr07:972758-974104(-) | protein_length=448 | sequence_SO=chromosome | SO=protein_coding_gene | is_pseudo=false
+PVX_099700.1-p1      -            448 7112at5820           -            260   2.1e-11   42.4   0.5   2   2   1.2e-14   2.1e-11   42.4   0.5    85   162   128   207   119   303 0.72 | transcript=PVX_099700.1 | gene=PVX_099700 | organism=Plasmodium_vivax_Sal-1 | gene_product=histone deacetylase 1, putative | transcript_product=histone deacetylase 1, putative | location=Pv_Sal1_chr07:972758-974104(-) | protein_length=448 | sequence_SO=chromosome | SO=protein_coding_gene | is_pseudo=false
+PVX_094595.1-p1      -           2206 7112at5820           -            260   9.6e-11   40.3   1.9   1   2     4e-13   7.4e-10   37.3   0.7    94   156   892   957   883   967 0.89 | transcript=PVX_094595.1 | gene=PVX_094595 | organism=Plasmodium_vivax_Sal-1 | gene_product=histone deacetylase 2, putative | transcript_product=histone deacetylase 2, putative | location=Pv_Sal1_chr08:365792-372412(+) | protein_length=2206 | sequence_SO=chromosome | SO=protein_coding_gene | is_pseudo=false
+PVX_094595.1-p1      -           2206 7112at5820           -            260   9.6e-11   40.3   1.9   2   2     0.057     1e+02    0.8   0.0   186   245  1140  1201  1115  1208 0.75 | transcript=PVX_094595.1 | gene=PVX_094595 | organism=Plasmodium_vivax_Sal-1 | gene_product=histone deacetylase 2, putative | transcript_product=histone deacetylase 2, putative | location=Pv_Sal1_chr08:365792-372412(+) | protein_length=2206 | sequence_SO=chromosome | SO=protein_coding_gene | is_pseudo=false
+#
+# Program:         hmmsearch
+# Version:         3.4 (Aug 2023)
+# Pipeline mode:   SEARCH
+# Query file:      /v3/work/00_inventory/busco/busco_downloads/lineages/plasmodium_odb10/hmms/7112at5820.hmm
+# Target file:     /v3/inputs/annotations/plasmodb-68/Sal-I.proteins.fa
+# Option settings: hmmsearch --domtblout /v3/work/00_inventory/busco/Sal-I_proteins/run_plasmodium_odb10/hmmer_output/initial_run_results/7112at5820.out --cpu 1 /v3/work/00_inventory/busco/busco_downloads/lineages/plasmodium_odb10/hmms/7112at5820.hmm /v3/inputs/annotations/plasmodb-68/Sal-I.proteins.fa 
+# Current dir:     /v3/work/00_inventory/busco
+# Date:            Tue May 19 17:46:01 2026
+# [ok]

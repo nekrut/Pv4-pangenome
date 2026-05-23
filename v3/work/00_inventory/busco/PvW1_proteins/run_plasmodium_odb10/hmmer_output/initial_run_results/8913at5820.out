@@ -1,0 +1,16 @@
+#                                                                            --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name        accession   tlen query name           accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+#------------------- ---------- ----- -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+CAG9476250.1         -            284 8913at5820           -            267  2.6e-176  583.0  14.8   1   1  1.4e-179  2.9e-176  582.8  14.8     1   267     1   284     1   284 0.97 | transcript=PVW1_130048500_t1 | gene=PVW1_130048500 | organism=Plasmodium_vivax_PvW1 | gene_product=Glideosome associated protein with multiple membrane spans 3, putative [Source:UniProtKB/TrEMBL;Acc:A0A1G4HJ75] | transcript_product=Glideosome associated protein with multiple membrane spans 3, putative [Source:UniProtKB/TrEMBL;Acc:A0A1G4HJ75] | location=CAJZCX010000006:1926534-1927990(+) | protein_length=284 | sequence_SO=supercontig | SO=protein_coding_gene | is_pseudo=false
+CAG9479998.1         -            371 8913at5820           -            267   2.5e-49  166.6  10.7   1   1   1.7e-52   3.3e-49  166.2  10.7     7   266    25   300    22   301 0.89 | transcript=PVW1_050037200_t1 | gene=PVW1_050037200 | organism=Plasmodium_vivax_PvW1 | gene_product=Glideosome associated protein with multiple membrane spans 2, putative [Source:UniProtKB/TrEMBL;Acc:A0A1G4GTW2] | transcript_product=Glideosome associated protein with multiple membrane spans 2, putative [Source:UniProtKB/TrEMBL;Acc:A0A1G4GTW2] | location=CAJZCX010000010:1377044-1378316(+) | protein_length=371 | sequence_SO=supercontig | SO=protein_coding_gene | is_pseudo=false
+CAG9473487.1         -            303 8913at5820           -            267   5.4e-23   80.2  15.1   1   1   4.5e-26   9.2e-23   79.5  15.1    18   257    16   279    10   285 0.74 | transcript=PVW1_120045400_t1 | gene=PVW1_120045400 | organism=Plasmodium_vivax_PvW1 | gene_product=Glideosome associated protein with multiple membrane spans 1, putative [Source:UniProtKB/TrEMBL;Acc:A0A1G4HGU2] | transcript_product=Glideosome associated protein with multiple membrane spans 1, putative [Source:UniProtKB/TrEMBL;Acc:A0A1G4HGU2] | location=CAJZCX010000004:1703530-1704916(-) | protein_length=303 | sequence_SO=supercontig | SO=protein_coding_gene | is_pseudo=false
+#
+# Program:         hmmsearch
+# Version:         3.4 (Aug 2023)
+# Pipeline mode:   SEARCH
+# Query file:      /v3/work/00_inventory/busco/busco_downloads/lineages/plasmodium_odb10/hmms/8913at5820.hmm
+# Target file:     /v3/inputs/annotations/plasmodb-68/PvW1.proteins.fa
+# Option settings: hmmsearch --domtblout /v3/work/00_inventory/busco/PvW1_proteins/run_plasmodium_odb10/hmmer_output/initial_run_results/8913at5820.out --cpu 1 /v3/work/00_inventory/busco/busco_downloads/lineages/plasmodium_odb10/hmms/8913at5820.hmm /v3/inputs/annotations/plasmodb-68/PvW1.proteins.fa 
+# Current dir:     /v3/work/00_inventory/busco
+# Date:            Tue May 19 17:49:08 2026
+# [ok]

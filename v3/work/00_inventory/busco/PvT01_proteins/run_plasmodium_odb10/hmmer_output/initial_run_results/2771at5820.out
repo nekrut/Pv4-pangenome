@@ -1,0 +1,31 @@
+#                                                                            --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name        accession   tlen query name           accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+#------------------- ---------- ----- -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+SCO66543.1           -           1441 2771at5820           -            662  1.5e-292  970.3 120.2   1   9   6.5e-46   6.6e-43  145.4   5.9     1   103     3   105     3   122 0.89 ubiquitin-like protein, putative [Plasmodium vivax]
+SCO66543.1           -           1441 2771at5820           -            662  1.5e-292  970.3 120.2   2   9   1.6e-34   1.6e-31  107.8   6.0    90   158   154   222   115   227 0.86 ubiquitin-like protein, putative [Plasmodium vivax]
+SCO66543.1           -           1441 2771at5820           -            662  1.5e-292  970.3 120.2   3   9       0.3     3e+02   -2.2   3.3   158   185   370   396   288   417 0.68 ubiquitin-like protein, putative [Plasmodium vivax]
+SCO66543.1           -           1441 2771at5820           -            662  1.5e-292  970.3 120.2   4   9       0.4   4.1e+02   -2.6   9.9   157   181   455   479   446   499 0.72 ubiquitin-like protein, putative [Plasmodium vivax]
+SCO66543.1           -           1441 2771at5820           -            662  1.5e-292  970.3 120.2   5   9      0.11   1.1e+02   -0.7  12.3   158   197   500   537   492   559 0.69 ubiquitin-like protein, putative [Plasmodium vivax]
+SCO66543.1           -           1441 2771at5820           -            662  1.5e-292  970.3 120.2   6   9    1e-123  1.1e-120  402.5  18.0   202   420   658   889   602   907 0.89 ubiquitin-like protein, putative [Plasmodium vivax]
+SCO66543.1           -           1441 2771at5820           -            662  1.5e-292  970.3 120.2   7   9   2.8e-18   2.8e-15   54.1   1.2   410   458   921   973   910   995 0.88 ubiquitin-like protein, putative [Plasmodium vivax]
+SCO66543.1           -           1441 2771at5820           -            662  1.5e-292  970.3 120.2   8   9   1.2e-09   1.3e-06   25.5   4.0   478   519  1155  1197  1128  1202 0.76 ubiquitin-like protein, putative [Plasmodium vivax]
+SCO66543.1           -           1441 2771at5820           -            662  1.5e-292  970.3 120.2   9   9   1.5e-87   1.5e-84  283.0   0.3   517   662  1279  1433  1263  1433 0.95 ubiquitin-like protein, putative [Plasmodium vivax]
+SCO69220.1           -            381 2771at5820           -            662   7.7e-55  184.8   1.9   1   5   6.6e-13   6.7e-10   36.3   0.0     6    78     2    74     1    77 0.96 polyubiquitin 5, putative [Plasmodium vivax]
+SCO69220.1           -            381 2771at5820           -            662   7.7e-55  184.8   1.9   2   5   5.3e-13   5.4e-10   36.6   0.0     4    78    76   150    73   154 0.95 polyubiquitin 5, putative [Plasmodium vivax]
+SCO69220.1           -            381 2771at5820           -            662   7.7e-55  184.8   1.9   3   5   5.3e-13   5.4e-10   36.6   0.0     4    78   152   226   149   230 0.95 polyubiquitin 5, putative [Plasmodium vivax]
+SCO69220.1           -            381 2771at5820           -            662   7.7e-55  184.8   1.9   4   5   5.9e-13     6e-10   36.5   0.0     4    78   228   302   225   305 0.96 polyubiquitin 5, putative [Plasmodium vivax]
+SCO69220.1           -            381 2771at5820           -            662   7.7e-55  184.8   1.9   5   5     7e-13   7.1e-10   36.3   0.0     5    78   305   378   302   380 0.96 polyubiquitin 5, putative [Plasmodium vivax]
+SCO67964.1           -            128 2771at5820           -            662   1.6e-11   41.7   0.1   1   1   1.6e-14   1.6e-11   41.7   0.1     6    95     2    91     1   119 0.91 ubiquitin-60S ribosomal protein L40, putative [Plasmodium vivax]
+SCO69717.1           -             76 2771at5820           -            662     3e-08   30.9   0.0   1   1   3.3e-11   3.3e-08   30.7   0.0     6    76     2    72     1    75 0.95 ubiquitin-like protein nedd8 homologue, putative [Plasmodium vivax]
+SCO67234.1           -            394 2771at5820           -            662   5.7e-05   20.1   0.0   1   1   8.6e-08   8.7e-05   19.4   0.0     5   105     3   103     1   123 0.79 ubiquitin domain-containing protein DSK2, putative [Plasmodium vivax]
+SCO67839.1           -            101 2771at5820           -            662   0.00012   19.0   0.0   1   1   1.3e-07   0.00014   18.8   0.0     3    77    20    94    18    98 0.94 small ubiquitin-related modifier, putative [Plasmodium vivax]
+#
+# Program:         hmmsearch
+# Version:         3.4 (Aug 2023)
+# Pipeline mode:   SEARCH
+# Query file:      /v3/work/00_inventory/busco/busco_downloads/lineages/plasmodium_odb10/hmms/2771at5820.hmm
+# Target file:     /v3/inputs/annotations/ncbi-datasets/PvT01.proteins.fa
+# Option settings: hmmsearch --domtblout /v3/work/00_inventory/busco/PvT01_proteins/run_plasmodium_odb10/hmmer_output/initial_run_results/2771at5820.out --cpu 1 /v3/work/00_inventory/busco/busco_downloads/lineages/plasmodium_odb10/hmms/2771at5820.hmm /v3/inputs/annotations/ncbi-datasets/PvT01.proteins.fa 
+# Current dir:     /v3/work/00_inventory/busco
+# Date:            Tue May 19 18:44:18 2026
+# [ok]

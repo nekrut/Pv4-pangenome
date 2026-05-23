@@ -1,0 +1,17 @@
+#                                                                            --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name        accession   tlen query name           accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+#------------------- ---------- ----- -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+CAI7723817.1         -            365 9099at5820           -            294  5.5e-170  562.8  17.7   1   1  2.8e-171  6.1e-168  556.1  17.7     1   294     1   365     1   365 0.96 | transcript=PVPAM_140074000_t1 | gene=PVPAM_140074000 | organism=Plasmodium_vivax_PAM | gene_product=methyltransferase, putative | transcript_product=methyltransferase, putative | location=CASCJQ010000014:2903408-2904505(+) | protein_length=365 | sequence_SO=supercontig | SO=protein_coding_gene | is_pseudo=false
+CAI7719234.1         -            623 9099at5820           -            294   3.8e-06   25.0   0.7   1   2       0.1   2.1e+02   -0.5   0.0    99   126   172   200   164   213 0.78 | transcript=PVPAM_060024100_t1 | gene=PVPAM_060024100 | organism=Plasmodium_vivax_PAM | gene_product=methyltransferase, putative | transcript_product=methyltransferase, putative | location=CASCJQ010000006:814670-818432(+) | protein_length=623 | sequence_SO=supercontig | SO=protein_coding_gene | is_pseudo=false
+CAI7719234.1         -            623 9099at5820           -            294   3.8e-06   25.0   0.7   2   2   1.3e-08   2.7e-05   22.2   0.4    54   130   397   473   384   542 0.76 | transcript=PVPAM_060024100_t1 | gene=PVPAM_060024100 | organism=Plasmodium_vivax_PAM | gene_product=methyltransferase, putative | transcript_product=methyltransferase, putative | location=CASCJQ010000006:814670-818432(+) | protein_length=623 | sequence_SO=supercontig | SO=protein_coding_gene | is_pseudo=false
+CAI7723060.1         -            341 9099at5820           -            294     0.036   11.9   0.0   1   1   2.6e-05     0.056   11.3   0.0   141   209   222   289   196   324 0.73 | transcript=PVPAM_130056600_t1 | gene=PVPAM_130056600 | organism=Plasmodium_vivax_PAM | gene_product=rRNA 2'-O-methyltransferase fibrillarin, putative | transcript_product=rRNA 2'-O-methyltransferase fibrillarin, putative | location=CASCJQ010000013:2293616-2294878(-) | protein_length=341 | sequence_SO=supercontig | SO=protein_coding_gene | is_pseudo=false
+#
+# Program:         hmmsearch
+# Version:         3.4 (Aug 2023)
+# Pipeline mode:   SEARCH
+# Query file:      /v3/work/00_inventory/busco/busco_downloads/lineages/plasmodium_odb10/hmms/9099at5820.hmm
+# Target file:     /v3/inputs/annotations/plasmodb-68/PAM.proteins.fa
+# Option settings: hmmsearch --domtblout /v3/work/00_inventory/busco/PAM_proteins/run_plasmodium_odb10/hmmer_output/initial_run_results/9099at5820.out --cpu 1 /v3/work/00_inventory/busco/busco_downloads/lineages/plasmodium_odb10/hmms/9099at5820.hmm /v3/inputs/annotations/plasmodb-68/PAM.proteins.fa 
+# Current dir:     /v3/work/00_inventory/busco
+# Date:            Tue May 19 17:49:48 2026
+# [ok]

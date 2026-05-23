@@ -1,0 +1,18 @@
+#                                                                            --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name        accession   tlen query name           accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+#------------------- ---------- ----- -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+SCO72600.1           -            305 11257at5820          -            204    2e-102  339.9  37.5   1   2   1.4e-53   2.9e-50  169.5  22.8     1   113    40   176    40   190 0.86 SNARE protein, putative [Plasmodium vivax]
+SCO72600.1           -            305 11257at5820          -            204    2e-102  339.9  37.5   2   2   1.8e-55   3.8e-52  175.6   6.6   110   204   208   302   200   302 0.97 SNARE protein, putative [Plasmodium vivax]
+SCO70994.1           -            248 11257at5820          -            204    0.0037   15.7   1.5   1   1   2.6e-06    0.0055   15.1   1.5    63   122   112   172   101   189 0.87 Plasmodium exported protein, unknown function [Plasmodium vivax]
+SCO73690.1           -            452 11257at5820          -            204     0.043   12.2   4.9   1   2   0.00065       1.4    7.3   1.4    39   110    55   125    23   136 0.82 ras GTPAse, putative [Plasmodium vivax]
+SCO73690.1           -            452 11257at5820          -            204     0.043   12.2   4.9   2   2    0.0016       3.3    6.0   0.1   112   157   394   439   379   450 0.74 ras GTPAse, putative [Plasmodium vivax]
+#
+# Program:         hmmsearch
+# Version:         3.4 (Aug 2023)
+# Pipeline mode:   SEARCH
+# Query file:      /v3/work/00_inventory/busco/busco_downloads/lineages/plasmodium_odb10/hmms/11257at5820.hmm
+# Target file:     /v3/inputs/annotations/ncbi-datasets/PvC01.proteins.fa
+# Option settings: hmmsearch --domtblout /v3/work/00_inventory/busco/PvC01_proteins/run_plasmodium_odb10/hmmer_output/initial_run_results/11257at5820.out --cpu 1 /v3/work/00_inventory/busco/busco_downloads/lineages/plasmodium_odb10/hmms/11257at5820.hmm /v3/inputs/annotations/ncbi-datasets/PvC01.proteins.fa 
+# Current dir:     /v3/work/00_inventory/busco
+# Date:            Tue May 19 18:32:28 2026
+# [ok]

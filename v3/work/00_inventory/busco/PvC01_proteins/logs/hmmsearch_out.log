@@ -1,0 +1,325 @@
+# hmmsearch :: search profile(s) against a sequence database
+# HMMER 3.4 (Aug 2023); http://hmmer.org/
+# Copyright (C) 2023 Howard Hughes Medical Institute.
+# Freely distributed under the BSD open source license.
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+# query HMM file:                  /v3/work/00_inventory/busco/busco_downloads/lineages/plasmodium_odb10/hmms/99at5820.hmm
+# target sequence database:        /v3/inputs/annotations/ncbi-datasets/PvC01.proteins.fa
+# per-dom hits tabular output:     /v3/work/00_inventory/busco/PvC01_proteins/run_plasmodium_odb10/hmmer_output/initial_run_results/99at5820.out
+# number of worker threads:        1
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+Query:       99at5820  [M=3542]
+Scores for complete sequences (score includes all domains):
+   --- full sequence ---   --- best 1 domain ---    -#dom-
+    E-value  score  bias    E-value  score  bias    exp  N  Sequence   Description
+    ------- ------ -----    ------- ------ -----   ---- --  --------   -----------
+          0 4964.1   0.0          0 4959.1   0.0    3.0  1  SCO72363.1  conserved Plasmodium protein, unknown function [P
+  ------ inclusion threshold ------
+        5.6    1.8  17.0        7.5    1.3  17.0    1.0  1  SCO73062.1  RNA helicase 1, putative [Plasmodium vivax]
+        9.1    1.1  11.2         12    0.7  11.2    1.0  1  SCO73589.1  E3 ubiquitin-protein ligase RNF5, putative [Plasm
+
+
+Domain annotation for each sequence (and alignments):
+>> SCO72363.1  conserved Plasmodium protein, unknown function [Plasmodium vivax]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ! 4959.1   0.0         0         0       1    3542 []       1    4675 []       1    4675 [] 0.88
+
+  Alignments for each domain:
+  == domain 1  score: 4959.1 bits;  conditional E-value: 0
+    99at5820    1 mrkkgniknfeleeiifiLLnCLDedkklnreivntLkiyilyhkceiLnyvfsfLqiqkvshenqklLLlLvyDfvhyciynrfsnvvdeyleeek 97  
+                  m+k+++i+n+eleei+fiLLnCLDe+kk+nrei+ntLk+y+lyhk++iLnyvfsfLqiqkvshenqklLL+Lv+Dfvhyci+nrfsn+vdeyl e k
+  SCO72363.1    1 MKKRASITNLELEEIVFILLNCLDEEKKKNREIINTLKVYLLYHKGQILNYVFSFLQIQKVSHENQKLLLCLVHDFVHYCIHNRFSNTVDEYLGEVK 97  
+                  9************************************************************************************************ PP
+
+    99at5820   98 kneekeekk........................sieeekfkDikifdnilkytffDGDeyCfvye................................ 138 
+                  +ne ++e++                        +  +++fkD++if+nil+y+ffDGDe+Cf+++                                
+  SCO72363.1   98 RNEGEKEERadtqkggsqrggpqkgdtqkgdtqKGGTHRFKDLHIFENILRYSFFDGDEHCFLFQdlpegvflpdavplqgdaaeggalqqadsgta 194 
+                  **99888778********************9887789************************************************************ PP
+
+    99at5820  139 ........................vkrd..qnifkedkisklkclkkeeykllliekkklak......................knkkkseinniik 187 
+                                                 +if++dki+kl clkkeeyk+++i+++++ak                      ++k++seinnii+
+  SCO72363.1  195 fsprgslhfatdgnprersmrsmkR--RgrGSIFHQDKIAKLLCLKKEEYKTAMISEREAAKksnqctsphvaasaplggippqNAKETSEINNIIR 289 
+                  *********************9633..3359************************9988766222222222222222222222156899******** PP
+
+    99at5820  188 niinfiLnellfikknDerhkimtkLLiLCiikeDaylkkkiiekvnyyldseed.............................adekvsn...... 249 
+                  nii+f+Lne+lfik++Derh imtkLLiLC+++eDaylkkk++ek+n++l                                  ++ekvs       
+  SCO72363.1  290 NIIDFLLNEILFIKRDDERHGIMTKLLILCVVREDAYLKKKLVEKLNGCLRVGGAalpvgdspegggkptiekggsekvrsekgCSEKVSGekvgnd 386 
+                  **************************************************97655899999999999999999977777766665555554888776 PP
+
+    99at5820  250 .knnnnnnkknskvyiyleLyidifmqvPhLtknvLidifksilsldksnkhidliykillkifqdiqfPsvLysiiymnkkykkknfiipnkkntn 345 
+                    +++n   +n+k+ +yleLyid+++qvPhLtk+vL+++f+++lsl++s+ h+dl++k++++ifqdiqfPsvLy+ii+mn+kyk+knfiipnk++tn
+  SCO72363.1  387 kVSSENVRGDNPKLRAYLELYIDLLTQVPHLTKSVLNEFFSAVLSLGQSTTHADLTHKVMTQIFQDIQFPSVLYTIIRMNTKYKRKNFIIPNKHHTN 483 
+                  53334444569************************************************************************************** PP
+
+    99at5820  346 vyiendviqLslentseDtcttytresslnsnllkkse.........ifndnikqeklykkkekek..........ssehliknanngekeeskekd 423 
+                  v+iend+i+LslentseDtcttytresslnsn+l +s+         ifn++ +q++l + +e+e+          sseh++++a            
+  SCO72363.1  484 VFIENDIIHLSLENTSEDTCTTYTRESSLNSNVLGRSNtpgksntpgIFNNSGRQANLRRPTEGERngkgtsykdpSSEHTSRDA------------ 568 
+                  ********************************9876543333334449***************9994444444444223322222............ PP
+
+    99at5820  424 s................................dskaeseke.....klilksnikdkkesdlase.....eenkedkytvekedengknk...... 472 
+                  s                                d  a+s++      ++++k+ ++++k+s++a+e     +e +e++ytv++  e + ++      
+  SCO72363.1  569 SpcevfydahngevepdgwdtppggecsqgrgsDGGAQSNWGpskgkNNLVKAFQREAKPSEHAAEpfrneSEGSEKYYTVKNWREGAVCQvpegsg 665 
+                  134555555666677788888888888888776333333333566668999999999**99999876432134468899999988877777888899 PP
+
+    99at5820  473 .............dekeeklkkkdavknseekekkkiedikkvckklldlylniilslkysnenyikiLyiiskllLyinneelikkvlevyiyyfl 556 
+                                  +   + + a +   eke++k+e+ ++vc+k+l+lyl+++++lk+s+eny+k+Lyiiskl+Ly+nn+el+kkv+e +i+yfl
+  SCO72363.1  666 gspkekgdlprgkGILSPVASPHAAAQLPLEKERRKAEETTAVCSKMLALYLSMLPTLKRSSENYRKLLYIISKLVLYVNNDELTKKVIEECIHYFL 762 
+                  999766665544211222333444578889******************************************************************* PP
+
+    99at5820  557 vffnstinnveisdissiynndsqikinyinlkelPnyniinsfriiLqkclnkihlivvftnqilkvayalLyilinknysinnsksivkkitsns 653 
+                  vff++t+nn+++s+is+ yn+d q++iny+++++lP+y++insfr+iLqkcl+kihliv+f+++ lkvaya+L+ +in+ny+++n+k+i+++itsn+
+  SCO72363.1  763 VFFHATVNNASVSEISGGYNKDLQVHINYSSVRGLPQYSVINSFRSILQKCLTKIHLIVGFASHTLKVAYAILLTMINQNYTMSNAKGIANYITSNV 859 
+                  ************************************************************************************************* PP
+
+    99at5820  654 yvstfieiieifnifisCiytnnlvfnllkeklksnnkveiivsLiiLkqyillissdlssdniivylsnqnikkk.keykksfkkLnsfisDtek. 748 
+                  yvstf+e++e+fnifi+C+yt+nlv+++++ek+ks++kve+ivsL++L+qy+llis+d++s+n +v+lsnqn+k+k + ykk+fk+L+sfi+D+++ 
+  SCO72363.1  860 YVSTFVEVMELFNIFITCAYTSNLVLSFIREKVKSSVKVEVIVSLTLLRQYLLLISGDIGSGNNMVHLSNQNMKTKgGPYKKCFKRLSSFITDANRt 956 
+                  ***************************************************************************9779****************99 PP
+
+    99at5820  749 nntnieliiqivaslserfnnDLsiiyllLeisLlLsyheyfnsfsynpnvilgLlpkvssPLlvlyk.eeakkeevsekiqikdnatskenslnld 844 
+                  n++n+el+iq+va+ls+rf+nDLsiiy+lLei+LlLsyh++f+s s+npnvilgLlp+vssPL++ly+  ea+++   e+   ++++ + ++s +  
+  SCO72363.1  957 NTSNVELVIQMVANLSDRFCNDLSIIYMLLEINLLLSYHQHFDSSSFNPNVILGLLPRVSSPLCDLYMgGEAEQSGKGEQSGKSRKSGKGKQSGK-S 1052
+                  99*****************************************************************8677777766655543333322222222.2 PP
+
+    99at5820  845 kkekniy.................eekrnnmedeiktWlliPnkyvikilqlllnillseeskfklknkkyGysvdengtiidinnesnevlkngfk 924 
+                   k +                     +   +  +eiktWlliP+k+viki+++l+n llseeskfk++nkkyGy vd++gtiid+nn++nevl+ngf+
+  SCO72363.1 1053 GKGE--AlppsgeppleghhpgerINPMGHHGQEIKTWLLIPSKHVIKIMHFLINTLLSEESKFKKQNKKYGYEVDDSGTIIDANNNANEVLQNGFH 1147
+                  2211..123556667777777443444455679**************************************************************** PP
+
+    99at5820  925 ynklfyDihlhffiymlPsvsyikkLislafqknfslysprvLypLlfeylvniknsykivlllLkaLniiCisLynymvkknLrihsrlhfnylvL 1021
+                  +n++f+D+h+++fi+m Psv+y+kkLi+laf+k++++ysprvLypLlfe+lv++k+s+kiv ++LkaLni+Ci+L+n+mvkk+Lr+hsrlh+nylvL
+  SCO72363.1 1148 HNRMFFDVHWNYFIFMDPSVPYVKKLIALAFEKHLCFYSPRVLYPLLFELLVDVKRSFKIVATILKALNIMCILLHNHMVKKHLRLHSRLHYNYLVL 1244
+                  ************************************************************************************************* PP
+
+    99at5820 1022 PniskiisvLfmyclhenfvvsfLslqLisilrsftqnksiksvqsltyfelllkvlkl..............klleeslysrkilkei........ 1096
+                  Pnis++isvLfmyc+h+++vvsfLslqLisilrsftq+ksi+svqs+tyfelll++++l               l++ slysr+ilk+i        
+  SCO72363.1 1245 PNISNVISVLFMYCTHSDIVVSFLSLQLISILRSFTQGKSIASVQSFTYFELLLSLVRLssqavarkgdraaaPLAGGSLYSRRILKRIialsgggk 1341
+                  ************************************************************************99*********************** PP
+
+    99at5820 1097 ...rkkkekekkakyyksliklsykkiakriskkllnvyLks......kkkkrkinkiikkyfnvdlkei........................... 1157
+                     +k+++++k+a+yy+sl+k +y++ia+ isk++l+v+L++      k ++rk+++i+++yf+vdl+                             
+  SCO72363.1 1342 kkpQKHTAAVKRARYYRSLVKGCYREIARGISKRVLDVSLNVsrgacrKGWRRKVRAIARHYFSVDLGGAsnerhasekhanetplgaippmvstpc 1438
+                  99989999*********************************999999999*********************************************** PP
+
+    99at5820 1158 ........................ieslslkitkilrllkklfssyvkkeiekiynyqtyiitffyilvellriiqsnkefentlfylsiinllCvi 1230
+                                          +esls+++t+il+l++++fssyvk+ei +iyny++y++tffy+lvel+r+++s++efe+tl+yls+inllCvi
+  SCO72363.1 1439 sldvgtlvganppgegeastchaaTESLSSRFTRILHLMQTFFSSYVKVEIGRIYNYHSYVTTFFYSLVELVRLLKSSQEFESTLLYLSVINLLCVI 1535
+                  ************************************************************************************************* PP
+
+    99at5820 1231 vkylkekyanklitiffkLneevaineeenllltLyknfsyiykthffnlykekCttlytknCiecikllrkdi...kkssenqlDfnnfilLsnky 1324
+                  +k++++kyank+itiffkLneev++neeenl+ltLy+nfs+iy++hff lykekCtt y++nCieci+l+r+d+   kks+enqlDfnnf+lLsnky
+  SCO72363.1 1536 IKQFSGKYANKMITIFFKLNEEVPVNEEENLFLTLYMNFSTIYRSHFFILYKEKCTTPYMRNCIECIQLMRADClsfKKSTENQLDFNNFMLLSNKY 1632
+                  *************************************************************************9999******************** PP
+
+    99at5820 1325 nsDiskeknienvlqylneyqkvykknilkidekree...........................krlesevvnkekkkvn.leklkkkLdksnevvk 1393
+                  ++D+s+ekn++++++ylneyq+vy++++l++   +e                              ++++vv++++ +vn +++lkk+L++snevv+
+  SCO72363.1 1633 STDMSREKNVSRFVHYLNEYQAVYRARLLQLGICSEGgggphhkgekkhmdvkripptgenfhdGAMQNKVVHETTLQVNhQDDLKKRLYQSNEVVR 1729
+                  *******************************8877768889999999************9999866899999999999873689************* PP
+
+    99at5820 1394 ksvelledklgsyilqndinfsisksfkqeitsyyiesllkkknllrvlfllnniyysDvankkssafslfGkssnvinaenirntLiLsmGlclkk 1490
+                  ks++lledklgsyilqndi+fsisk+f+q++ts+yies+l+k+nl+rvlflln+iy+sDvan+kssafs+fGks+nvinaenir+tLiL+mG+cl+k
+  SCO72363.1 1730 KSYQLLEDKLGSYILQNDISFSISKQFHQDVTSHYIESILHKNNLFRVLFLLNSIYHSDVANRKSSAFSIFGKSTNVINAENIRSTLILTMGKCLRK 1826
+                  ************************************************************************************************* PP
+
+    99at5820 1491 ipskkfedLykirevyvnekifaiyvkkvyvnlvkyn.afenilfdkddsv..ieeivkeiisnkqkyvdekykdeinlnikikkellsslekeesa 1584
+                  +ps+k++dL+ ir+vy+nek+faiyvk+vyv+l++y+ ++ n+++++dds    e+iv+e++sn+q+yvde+yk+ei++n+ +++++ls +ek++s 
+  SCO72363.1 1827 VPSSKVRDLHVIRDVYMNEKLFAIYVKHVYVPLARYStSLGNAIHGRDDSPltEEHIVREVLSNRQRYVDERYKEEIKMNALVRRDILSGVEKRDSG 1923
+                  ***********************************97369**********866799****************************************9 PP
+
+    99at5820 1585 sse.............kss....................ssnlskeklsllifqlLvDPiiislyqekeavlqksLlkslkkiskklkkikeki... 1645
+                  +s+             + +                     + l++ek++ll+fqlLvDPii+sly+ekea+lq+sLl++lk++skklk+i+      
+  SCO72363.1 1924 ESSqcgpppmsakvnvN-AsvsasvnsaslanaanpanlWKRLPSEKINLLVFQLLVDPIICSLYEEKEATLQASLLRALKMVSKKLKCIRAPGgea 2019
+                  99855555555544440.044444555556666666554556*************************************************665999 PP
+
+    99at5820 1646 ..............................lnylDiknkrciikDiCeeylkenlnevkfysclyiykfiiiyssLyylsnidnltlPisnisltsv 1712
+                                                +n+lD ++++c+ +D+C++y+ken+++v+fyscl+iyk+i+i+s+Lyy++n+d+++lPis++++t+v
+  SCO72363.1 2020 ahrhrmkwdhyanrvrgnleatttpqpyvvTNTLDRPTRWCSTQDVCDHYMKENVKDVPFYSCLCIYKYIVIHSALYYVANFDEQPLPISSMTFTGV 2116
+                  9************************************************************************************************ PP
+
+    99at5820 1713 ekfalyfkr...eiinkseyylkeeikkkesedeqtsneeki......lelekeefyikeik.ldkkielk.......snkviyndyfsellke... 1789
+                    +alyfk+   +i++kse++l+e++k + s++++ sne+k+      l+l+ke+++i +i+ ++++ie++       s++viyndyfs+l+ke   
+  SCO72363.1 2117 GLYALYFKQerrIITSKSEHQLREDLKASGSNGSNGSNESKKknqfeeLHLQKEQHIIGKIDmWGRMIEWEyrtidapSERVIYNDYFSDLVKErgs 2213
+                  ********87778***************99888877776633355666899*********964789998875555555899***********98444 PP
+
+    99at5820 1790 ...................kldiskdsyeillnaLktiyyslfireplnfqsvfiivdvLinLlLkivlnekkkiyqkfqenke............. 1854
+                                     +ldi +d+y++l+naLk+i+y+lf++ep++f+s++iivdvL++LlLkivlne+k++y k++++++             
+  SCO72363.1 2214 kndstqggaspghsppsepHLDIPSDTYANLKNALKSIHYCLFVEEPMQFHSALIIVDVLTRLLLKIVLNERKQMYCKWHDSADvvgqgpnmagqna 2310
+                  4444444444444444444589*************************************************************************** PP
+
+    99at5820 1855 ..................kiknlrekelkekkkkkkeikkkrkkklekekikkk..geeiaedsnnesnnk.......................... 1905
+                                    +++++r+++ +ek+k+k+ + +k k+++ k++++k+    + ++++n +  n+                          
+  SCO72363.1 2311 desvtnegvaakngasnlDTAHVRSDQPEEKQKNKSANISKGKRTIPKGNVTKEkkLPQGVNHTNGKMRNNeltggtpngeeqtehhggatsshvah 2407
+                  ****************9999999************999999***********76332345566663333334888999999999999999999999* PP
+
+    99at5820 1906 ...................kdeekenkledkdaklkkkltkekkkkkkrkksekkkne...................nnkifknlskyekislscln 1964
+                                      de++ +k    d++    ++++kkkkk++k+ e++++e                   n+k f++l+kye ++lscln
+  SCO72363.1 2408 qrggdgrakwdgrrksqrgADEDTGSKGILPDEHF-PGVAEQKKKKKSSKRIERGHTEghtddplranrrenkllhsNSKPFRYLRKYEGAALSCLN 2503
+                  *******9999999888874444444444445555.55666666666677777777777777777777777777777******************** PP
+
+    99at5820 1965 liisiivkavldinsffllskiikyihdlcvstniaevkflsfriiteivinsa...................................ekseeket 2026
+                  li siivka+l+++sf+l++kiiky+hd+cv+tniaevkf+sfri+++ivi++a                                   +k+++  +
+  SCO72363.1 2504 LISSIIVKAALRMDSFPLQFKIIKYLHDTCVATNIAEVKFVSFRILSQIVISAArvgtpnggcrmgpldgappaedtqtghlkvcrlseKKHHHGGE 2600
+                  *****************************************************9******************************9998733333333 PP
+
+    99at5820 2027 kekekkk.kekekk....keeeneneeenksllsynssnfekyfslifssssnisygnlfDlnnekekkeeeaens..........vsdkdkeneek 2108
+                  ++ +++k k++e++        n+n++e k+l+s+nssnfekyf+lifs+ +nisygn+fD+n+e++++ + +e s          +s+++   + +
+  SCO72363.1 2601 IDGDRSKgKRHEDEathgGGRANRNDHEGKNLSSCNSSNFEKYFNLIFSPGGNISYGNFFDANDEHGGMPNRNEGShesgggdsgrCSSHRGGPDGQ 2697
+                  33332220111222233466789******************************************9988764443333454444445566667799* PP
+
+    99at5820 2109 ekssekylnssnenek........nkeekdekekdklndaegs.....ssksk............................................ 2148
+                  ++sse+yl s  + e         +        ++  + ++g+         +                                            
+  SCO72363.1 2698 NDSSEHYLDSVSNAEGnviketaiE-------GAGGNHLHRGEttlrgE---Sggagklnghmgsdkgsnssimydpsdsdsppggaadhvphmdeg 2784
+                  *******977665555243322220.......22222222222223330...13344455556666666788999999******************* PP
+
+    99at5820 2149 ..................sldekneakeeknylCeCiglLiPyikDkekiisylsicsicvllgklkkvkilskshfiyfflnslevilnvlsklkk 2227
+                                    + d k+eak e+nylCeCiglLiPy+kD+e++isyls+cs+c+llgkl++ ++ls++hf++ff+n++evil+ ls+   
+  SCO72363.1 2785 gslqeqssgekneakneaKSDVKSEAKGERNYLCECIGLLIPYVKDPERVISYLSVCSVCALLGKLQRGRMLSNWHFVHFFFNRIEVILDGLSSPVT 2881
+                  ******999999988877666679******************************************************************9998655 PP
+
+    99at5820 2228 kakkkkkkekkkklikk..............kklsdkekentlekdkinekkeeeks..ekkkke................................ 2276
+                  +  + ++ ++k + ++               k + d ++ ntle+d  n+ ++   +  e+   +                                
+  SCO72363.1 2882 NRVRGRRAKRKAERERAtwkgkldgqigntwKGKFDGQTGNTLEEDPPNQPNSGAANcdEHP--Teetfrdegeginektccsdgggsdgggsvred 2976
+                  54444444443322222232234444776776777888888998885554444333310222..13578999************************* PP
+
+    99at5820 2277 .......................................kfsyknirknlyniefekkfykkvekkikeinsekyqkkfikkls....nkkkeinly 2330
+                                                         ++sy+n+r+n++++e +++f+ kv ++i+eins++yq++fik+l+    n++ke+n+y
+  SCO72363.1 2977 evgeiaydeakvtkeglnglprcerghrreprhrrlappRISYQNVRSNMRTVERHNHFLVKVGTRIREINSGTYQTRFIKRLGqltnNTRKETNVY 3073
+                  ***********************************************************************************9999999******* PP
+
+    99at5820 2331 klindiiiedfsedekksyvntLiscihnknkkvsinglnlLmyyilkekidkedieiimnrvlselyyytkvnvlneksknn.............. 2413
+                  k ++d i+e++s++ek+syvn+Liscihnkn++v+i+glnlLmy++++e+++++di++im+rvl+e++yytkvnvl+++ ++               
+  SCO72363.1 3074 KAMSDAISEVLSNEEKMSYVNCLISCIHNKNRQVAISGLNLLMYHTWAEQMSHQDIDVIMSRVLNEVHYYTKVNVLSGSGESPpsgsfskaapprgt 3170
+                  *******************************************************************************988788999999999999 PP
+
+    99at5820 2414 ...............akakik......dnnekdrenekkkenelnntleayynikkkrkkknilersLriilllCrkhfyvvinklCtlqskynyeh 2489
+                                 a+++i+      + n++d +++++++n+ +n  ++    +k  + +n+ler+Lr il+lCrkh+yvv+nklCtlqsky+yeh
+  SCO72363.1 3171 depnstleayrimcrARQDIEgppkgiSINRCDIRSDNRRDNQRDNPRDNL--RDKPVRGPNVLERALRTILVLCRKHPYVVVNKLCTLQSKYSYEH 3265
+                  999999888888844222333666655688888888888888888888874..58999*************************************** PP
+
+    99at5820 2490 iyfiymiCnnekllsktldylfyilnnldtlklnnnlsnilsllfhflkfrnkyiknytkkyfveLflivfyvLGvkqLshlsg............. 2573
+                  +yfi+miCnne+ll+kt+dylfy++n+ldtlkl++nlsnilsl+fhflkfrn yi++yt++yfveLf+i+f+vLGvkqL+h+sg             
+  SCO72363.1 3266 VYFIFMICNNERLLHKTMDYLFYLMNSLDTLKLTKNLSNILSLVFHFLKFRNGYIRDYTRRYFVELFVIMFFVLGVKQLGHMSGvlagaakgravva 3362
+                  ************************************************************************************************* PP
+
+    99at5820 2574 ............eksldkenllkeekeeek......eeekakeeni........lekereeadkaidkekdkagiae.................... 2624
+                              +      ++ +  +++++      ++++ + +++                              e                    
+  SCO72363.1 3363 ekvfppsgllggQ------HYAEGGEQVKEqakceaKSQRGEADKTeeaigvgsP---------------------Elpeqahevdqkedpiarvae 3432
+                  8887774444441......433333333331111111111111111122222220.....................122222333344455555667 PP
+
+    99at5820 2625 ........................eenikveeennnekss....ekeeatkkkkeaevnkslfflkkksilksknikkvskeeynkkiyknytcsis 2693
+                                          ++   ++++nn e +s      ++  +++ ++ vn+s+ffl+++sil+s+++kkvs+ e++kkiy+nytcsis
+  SCO72363.1 3433 kfqerrglpgrsntkgaptqsssyTKGSPTQSRNNAEGNSrdgaPLHTDSDDNFAKVVNGSPFFLRRNSILRSRDVKKVSRGEFSKKIYQNYTCSIS 3529
+                  7888888999999999998877763333444444444444233322333444456779*************************************** PP
+
+    99at5820 2694 vnntlnClniikellkLnkkkkiLnyyeehkveklLyykhsfenGLikliyifLkn......................................... 2749
+                  vnntlnC++iikellkLn +k+iL+++ee++veklLyykhsfenGLi+l+ i+L++                                         
+  SCO72363.1 3530 VNNTLNCVRIIKELLKLNGRKRILRRIEEGRVEKLLYYKHSFENGLIELVRIVLSSlggsatrgsgsrgsgargstireclprgsgtreiftrgsap 3626
+                  ************************************************************************************************* PP
+
+    99at5820 2750 ...rndcikvfkfleiflksdninyiiisliiLsqlllCikieeenlkiieplikvLysinckkyknslvtkyLhisfknlfiifkdik.yqlekgl 2842
+                     r++c+kvf fleiflks+niny+iisl++LsqlllC++ie+en++++ep+ikvLy++nc+++ n++vtkyLh++f+nlfiifk+i+ yqle+g+
+  SCO72363.1 3627 rceRGHCRKVFGFLEIFLKSRNINYVIISLVTLSQLLLCMRIEPENVRLVEPIIKVLYQVNCTHK-NDVVTKYLHLCFTNLFIIFKAIReYQLETGS 3722
+                  ***************************************************************65.**********************55******* PP
+
+    99at5820 2843 elfsllikeeyalniLnsLfknldnndknivketLkafkeackyesekWPsslcasfikiLtdpkviliylnsseamekiyiCkilceifrtlrrek 2939
+                  e++++likeey++n+LnsLf++ld++d+nivk+tLkafkeacky++e+WPs+lcas++++Lt+p+v+l+ylnssea+eki++C+il+e+frtlr+e+
+  SCO72363.1 3723 EPVPVLIKEEYTINVLNSLFVYLDSSDRNIVKVTLKAFKEACKYAREQWPSPLCASYVNMLTTPSVVLPYLNSSEAAEKILMCGILREVFRTLRWER 3819
+                  ************************************************************************************************* PP
+
+    99at5820 2940 ek...........klkkkhlyeiatyLlihLvDkrkkvsknvWlaLkellkfkfsdhvndtLlyfdeklflskeek..................... 3004
+                  ++           +l kkhlyeiatyL+ihLvDkrk+vs+nvW+aLke+l++kfs+hvn+tLl+fd+klfl++ ++                     
+  SCO72363.1 3820 QHkgglapptqtdTLPKKHLYEIATYLMIHLVDKRKNVSANVWKALKEFLRWKFSHHVNSTLLFFDRKLFLPSGVEvgryevvrsqvcrssvgmsqv 3916
+                  ************************************************************************************************9 PP
+
+    99at5820 3005 .eqkeinikkeyfkkkkak.........................gskkeiseg.vsnvpakeekkilnkaaek........................ 3050
+                   + ++i+i++eyfk+  a+                         gs++ei+ g vs+vpa++    +++ +ek                        
+  SCO72363.1 3917 dRARRITIQREYFKGAGAEegeqvategadydyfakglawdeksGSVGEINGGmVSCVPADTPTGGHTNGVEKahqqkvaphgrnttgetrkkgkkk 4013
+                  9899*********886666888899999999999999999999888899998866777777665333332222344566777888888765443321 PP
+
+    99at5820 3051 ekkkekkkkke.........kktnksdeesdnsesesskevkkqkiniyyykllveifiPLiiCiDtkvsykknlfaelnkyLyendleekeeenns 3138
+                  +         +           +nksdeesd s+++ss evkk++in++yykllvei+iPLiiCiDtkvs+k++lfaeln yLy++d++ +ee+++s
+  SCO72363.1 4014 K---------RnrnrrhstnSAANKSDEESDVSQAYSSPEVKKERINTHYYKLLVEICIPLIICIDTKVSLKRDLFAELNGYLYGADVDPNEEDRDS 4101
+                  1.........22234455557789**********************************************************************998 PP
+
+    99at5820 3139 l...kkendeLyniffkelklnlkninslyrayiiLlnsrkyldkklwnvnipisedvikmikeyelkstksraehvLfGdLknyvkeeiekie... 3229
+                  l   kke+d+L++iff++l++nl++ins+yra+iiLl+sr+yl+ ++wn+nipi++d+++mi+eye+kstksraehvLfGdL nyv+  + +     
+  SCO72363.1 4102 LlsvKKESDRLQQIFFTNLQMNLSSINSVYRAFIILLSSRSYLGPNVWNANIPINQDIERMISEYEVKSTKSRAEHVLFGDLSNYVHAWKRRERtdg 4198
+                  6555899*******************************************************************************76554333558 PP
+
+    99at5820 3230 .....................kkkekskennisksftsvltdsilntlsetlnysyDnfflnd.svs...kseisk.ekdskegnakeelenykv.. 3298
+                                       k++e + e++++ks+tsv+tdsil+tls+t+nysyD++f+n+ svs   ++e+++  kds+eg+a ++++n+ +  
+  SCO72363.1 4199 ggradiggrtnrgeekqnkrkKQREATGEDAMQKSITSVWTDSILSTLSGTFNYSYDGAFFNSlSVSgsvEKEYTHrGKDSTEGDAIRTPHNCSRag 4295
+                  8999999999999999999877778899*******************************99963333222456666699**************999* PP
+
+    99at5820 3299 ....................ndsdeedelvyekkekenkiesskfdkv.....lsereeekensaigeneenn...esidekeeenlkke....... 3360
+                                      ++s++e+ + +  k++e k+++ +++++     l +re++k+++aig++ e        d+ + e+++k        
+  SCO72363.1 4296 wshqairmintsgsappngdTSSEAEN-ADVC-KGEEPKEGPPPQGRAisthnLPSREGKKDHAAIGPSGEPPsdePPSDDGQGEEVNKVapleegq 4390
+                  ****************99753333333.4434.6778999999999996666666788999999999885543555445555555555556667777 PP
+
+    99at5820 3361 .........................nnenyaifisssdeeeekeeeekre.................................kqfikrklkkiqll 3399
+                                           ++enya+f+sssde+e   +e++ +                                 +qf++rk++kiqll
+  SCO72363.1 4391 gtplqrefpsleykrsrsfdpgerlSDENYANFVSSSDEGEAAGKEASVKdayvrdapvgdsllkdvtppaellnytpgdrsaSQFVRRKFAKIQLL 4487
+                  7777777*********************************9977666655699******************************************** PP
+
+    99at5820 3400 nkkynfvdkfknvqnlkleenlLywielLkflkedPpelvlskeik.....adffessLiCaLtvikfvsltlnckklykvtlkslnee........ 3483
+                  n+ky++vdkfk+ +nlk+e++lL+wie+LkflkedPpe++l++e+k     adffes+LiC+L+v+kfvsl+l+ckkl++vtlk + +e        
+  SCO72363.1 4488 NQKYSCVDKFKTALNLKMETSLLQWIEMLKFLKEDPPEFILPRETKaahhlADFFESALICTLSVVKFVSLSLDCKKLHRVTLKRMRREaqalevap 4584
+                  ********************************************994444459*********************************9999******* PP
+
+    99at5820 3484 ......................deekkieemyfihlLsistkLeaLcssiskqLctfLqeekt..........hlpiiksLsiLsiLkpsa 3542
+                                        + ++++ee+yfi+lLsi++kLeaLcssiskqLc+fLqe+++          hlpii++L+ LsiLkps+
+  SCO72363.1 4585 tvnaklsakvggagggeeephsHLQHRMEETYFIQLLSICMKLEALCSSISKQLCAFLQEQHApdrtpdraaeHLPIIRALAALSILKPSP 4675
+                  *********************999***********************************97633333444455****************95 PP
+
+>> SCO73062.1  RNA helicase 1, putative [Plasmodium vivax]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?    1.3  17.0    0.0036       7.5     383     536 ..      36     191 ..      16     206 .. 0.49
+
+  Alignments for each domain:
+  == domain 1  score: 1.3 bits;  conditional E-value: 0.0036
+    99at5820 383 eifndnikqeklykkkekekssehliknanngekeeskekdsdskaesekeklilksnikdkkesdlaseeenkedkytvekedengknkdekeeklkk 481
+                 + f dn+ ++ l +kk+++++ e   ++ +++e++ +++ +s++++  e+ +++ ++++++k+ +++++++ +++++ +v  + +++  +   + kl+ 
+  SCO73062.1  36 KRFMDNLVNSFLSEKKKRKDQEED-EEEGEEDEEGTEQNDSSENSSGAENGDNLEEKERRKKDGKEKKKKSVKEKKQNQVPVNMQKSLLETFYKMKLQA 133
+                 335666666555555544433333.33333333344444444444444444555555544444444444433333333333334444444444444444 PP
+
+    99at5820 482 kdavknseekekkkiedikkvckklldlylniils.lk..ysnenyikiLyiiskllL 536
+                 +++  ++ e  +kk e+i +  +k l+  l+ + +  k    +en++ i  + sk  L
+  SCO73062.1 134 QNNEVDETEEIRKKEEKILAQVSKALNAPLQSVKErAKgiVYSENFKTIWTLPSKYKL 191
+                 4444444555566666676666677777666544313322346777777776666655 PP
+
+>> SCO73589.1  E3 ubiquitin-protein ligase RNF5, putative [Plasmodium vivax]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?    0.7  11.2    0.0055        12    1839    1945 ..     234     358 ..     213     389 .. 0.38
+
+  Alignments for each domain:
+  == domain 1  score: 0.7 bits;  conditional E-value: 0.0055
+    99at5820 1839 lnekkkiyqkfqenke.........kiknlrekelkekkkkkkeikkkrkkklekekikkk...geeiaedsnnesnnk...kdeek........en 1912
+                  +n k+++ +   +++          ++k+ ++++ ++ + k++ +k+k+kk   +++i k+   g  +ae +n ++ n+   +   k        + 
+  SCO73589.1  234 VNRKNRLGEGAPKEQGtraersqtdEAKDEETHHSNDVMIKDRGVKEKYKKLRFEDDIYKEnadG--KAEATNGQDPNQgetN---KmeekspisKD 325 
+                  33444433333332222222221111222222222222223333333333333333333331111..1111111111111111...11111233322 PP
+
+    99at5820 1913 kledkdaklkkkltkekkkkkkrkksekkknen 1945
+                  + + + +++++++++++k+++++kk++ ++n+ 
+  SCO73589.1  326 NQNVEPTNANNTSEEKNKTEENAKKNTTSENDG 358 
+                  222222222222222223333333333333333 PP
+
+
+
+Internal pipeline statistics summary:
+-------------------------------------
+Query model(s):                            1  (3542 nodes)
+Target sequences:                       6285  (4018817 residues searched)
+Passed MSV filter:                      3267  (0.519809); expected 125.7 (0.02)
+Passed bias filter:                      401  (0.0638027); expected 125.7 (0.02)
+Passed Vit filter:                       185  (0.0294352); expected 6.3 (0.001)
+Passed Fwd filter:                        89  (0.0141607); expected 0.1 (1e-05)
+Initial search space (Z):               6285  [actual number of targets]
+Domain search space  (domZ):               3  [number of targets reported over threshold]
+# CPU time: 9.33u 0.16s 00:00:09.49 Elapsed: 00:00:09.52
+# Mc/sec: 1494.41
+//
+[ok]

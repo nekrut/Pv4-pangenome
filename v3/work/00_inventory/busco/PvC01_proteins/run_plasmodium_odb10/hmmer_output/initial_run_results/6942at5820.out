@@ -1,0 +1,29 @@
+#                                                                            --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name        accession   tlen query name           accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+#------------------- ---------- ----- -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+SCO71575.1           -            536 6942at5820           -            402    3e-190  630.8  14.3   1   2  5.8e-147  7.3e-144  478.1  12.6     1   300     1   340     1   349 0.90 S-adenosyl-L-methionine-dependent methyltransferase, putative [Plasmodium vivax]
+SCO71575.1           -            536 6942at5820           -            402    3e-190  630.8  14.3   2   2   4.6e-47   5.7e-44  149.1   0.0   299   402   405   517   402   517 0.93 S-adenosyl-L-methionine-dependent methyltransferase, putative [Plasmodium vivax]
+SCO72781.1           -            614 6942at5820           -            402   1.4e-12   45.7   6.0   1   3      0.31   3.8e+02   -1.8   0.1    95   162   197   260   166   287 0.59 proliferating-cell nucleolar antigen p120, putative [Plasmodium vivax]
+SCO72781.1           -            614 6942at5820           -            402   1.4e-12   45.7   6.0   2   3   9.2e-06     0.012   13.1   0.1   157   205   304   352   292   386 0.85 proliferating-cell nucleolar antigen p120, putative [Plasmodium vivax]
+SCO72781.1           -            614 6942at5820           -            402   1.4e-12   45.7   6.0   3   3   2.2e-12   2.8e-09   34.9   0.3   316   365   409   458   394   507 0.84 proliferating-cell nucleolar antigen p120, putative [Plasmodium vivax]
+SCO72597.1           -            505 6942at5820           -            402   1.7e-07   29.0   4.1   1   3      0.18   2.2e+02   -1.0   0.1   189   234     7    56     3    65 0.72 tRNA m5C-methyltransferase, putative [Plasmodium vivax]
+SCO72597.1           -            505 6942at5820           -            402   1.7e-07   29.0   4.1   2   3    0.0063         8    3.7   0.0   149   183   208   242   173   261 0.78 tRNA m5C-methyltransferase, putative [Plasmodium vivax]
+SCO72597.1           -            505 6942at5820           -            402   1.7e-07   29.0   4.1   3   3   1.7e-09   2.2e-06   25.4   0.2   313   369   363   420   341   445 0.80 tRNA m5C-methyltransferase, putative [Plasmodium vivax]
+SCO70350.1           -           1116 6942at5820           -            402   0.00013   19.5   0.2   1   6    0.0009       1.1    6.5   1.9   113   186    95   165    21   184 0.74 tRNA m5C-methyltransferase, putative [Plasmodium vivax]
+SCO70350.1           -           1116 6942at5820           -            402   0.00013   19.5   0.2   2   6     1e-07   0.00013   19.5   0.2   320   373   377   430   373   442 0.88 tRNA m5C-methyltransferase, putative [Plasmodium vivax]
+SCO70350.1           -           1116 6942at5820           -            402   0.00013   19.5   0.2   3   6       2.9   3.6e+03   -5.0   2.9    27    46   531   550   518   570 0.53 tRNA m5C-methyltransferase, putative [Plasmodium vivax]
+SCO70350.1           -           1116 6942at5820           -            402   0.00013   19.5   0.2   4   6      0.34   4.3e+02   -2.0   1.5    94   134   645   686   638   692 0.79 tRNA m5C-methyltransferase, putative [Plasmodium vivax]
+SCO70350.1           -           1116 6942at5820           -            402   0.00013   19.5   0.2   5   6     0.085   1.1e+02    0.0   1.0   210   256   822   868   807   884 0.68 tRNA m5C-methyltransferase, putative [Plasmodium vivax]
+SCO70350.1           -           1116 6942at5820           -            402   0.00013   19.5   0.2   6   6     0.018        22    2.3   1.7    88   138   855   904   843   922 0.77 tRNA m5C-methyltransferase, putative [Plasmodium vivax]
+SCO75553.1           -            376 6942at5820           -            402    0.0016   15.9   0.0   1   2     0.028        36    1.6   0.0   144   190   179   225   162   244 0.80 sun-family protein, putative [Plasmodium vivax]
+SCO75553.1           -            376 6942at5820           -            402    0.0016   15.9   0.0   2   2   2.3e-05     0.029   11.8   0.0   318   360   299   341   268   348 0.78 sun-family protein, putative [Plasmodium vivax]
+#
+# Program:         hmmsearch
+# Version:         3.4 (Aug 2023)
+# Pipeline mode:   SEARCH
+# Query file:      /v3/work/00_inventory/busco/busco_downloads/lineages/plasmodium_odb10/hmms/6942at5820.hmm
+# Target file:     /v3/inputs/annotations/ncbi-datasets/PvC01.proteins.fa
+# Option settings: hmmsearch --domtblout /v3/work/00_inventory/busco/PvC01_proteins/run_plasmodium_odb10/hmmer_output/initial_run_results/6942at5820.out --cpu 1 /v3/work/00_inventory/busco/busco_downloads/lineages/plasmodium_odb10/hmms/6942at5820.hmm /v3/inputs/annotations/ncbi-datasets/PvC01.proteins.fa 
+# Current dir:     /v3/work/00_inventory/busco
+# Date:            Tue May 19 18:55:17 2026
+# [ok]

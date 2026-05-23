@@ -1,0 +1,16 @@
+#                                                                            --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name        accession   tlen query name           accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+#------------------- ---------- ----- -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+PVP01_0929300.1-p1   -            587 6387at5820           -            439  8.4e-233  771.8  21.4   1   2   1.7e-92   5.7e-89  297.8   0.6     1   164     1   183     1   187 0.93 | transcript=PVP01_0929300.1 | gene=PVP01_0929300 | organism=Plasmodium_vivax_P01 | gene_product=Fe-S cluster assembly factor HCF101, putative | transcript_product=Fe-S cluster assembly factor HCF101, putative | location=PvP01_09_v2:1280655-1282418(+) | protein_length=587 | sequence_SO=chromosome | SO=protein_coding_gene | is_pseudo=false
+PVP01_0929300.1-p1   -            587 6387at5820           -            439  8.4e-233  771.8  21.4   2   2  6.5e-146  2.1e-142  473.9  14.4   164   439   263   570   259   570 0.96 | transcript=PVP01_0929300.1 | gene=PVP01_0929300 | organism=Plasmodium_vivax_P01 | gene_product=Fe-S cluster assembly factor HCF101, putative | transcript_product=Fe-S cluster assembly factor HCF101, putative | location=PvP01_09_v2:1280655-1282418(+) | protein_length=587 | sequence_SO=chromosome | SO=protein_coding_gene | is_pseudo=false
+PVP01_0709300.1-p1   -            446 6387at5820           -            439   3.4e-36  123.9   4.8   1   1   1.5e-39   4.8e-36  123.4   4.8    94   281   126   318   105   344 0.84 | transcript=PVP01_0709300.1 | gene=PVP01_0709300 | organism=Plasmodium_vivax_P01 | gene_product=cytosolic Fe-S cluster assembly factor NBP35, putative | transcript_product=cytosolic Fe-S cluster assembly factor NBP35, putative | location=PvP01_07_v2:476314-477654(+) | protein_length=446 | sequence_SO=chromosome | SO=protein_coding_gene | is_pseudo=false
+#
+# Program:         hmmsearch
+# Version:         3.4 (Aug 2023)
+# Pipeline mode:   SEARCH
+# Query file:      /v3/work/00_inventory/busco/busco_downloads/lineages/plasmodium_odb10/hmms/6387at5820.hmm
+# Target file:     /v3/inputs/annotations/plasmodb-68/PvP01.proteins.fa
+# Option settings: hmmsearch --domtblout /v3/work/00_inventory/busco/PvP01_proteins/run_plasmodium_odb10/hmmer_output/initial_run_results/6387at5820.out --cpu 1 /v3/work/00_inventory/busco/busco_downloads/lineages/plasmodium_odb10/hmms/6387at5820.hmm /v3/inputs/annotations/plasmodb-68/PvP01.proteins.fa 
+# Current dir:     /v3/work/00_inventory/busco
+# Date:            Tue May 19 17:46:15 2026
+# [ok]

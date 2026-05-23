@@ -1,0 +1,26 @@
+#                                                                            --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name        accession   tlen query name           accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+#------------------- ---------- ----- -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+SCO74049.1           -            456 9816at5820           -            332  9.6e-156  516.6  73.1   1   3  5.7e-140    4e-137  455.4  59.8     1   268     1   291     1   294 0.93 conserved Plasmodium protein, unknown function [Plasmodium vivax]
+SCO74049.1           -            456 9816at5820           -            332  9.6e-156  516.6  73.1   2   3   1.2e-18   8.4e-16   56.6   0.6   265   317   332   389   328   400 0.83 conserved Plasmodium protein, unknown function [Plasmodium vivax]
+SCO74049.1           -            456 9816at5820           -            332  9.6e-156  516.6  73.1   3   3    0.0004      0.28    8.9   0.4   308   332   431   455   423   455 0.78 conserved Plasmodium protein, unknown function [Plasmodium vivax]
+SCO74846.1           -            520 9816at5820           -            332   6.2e-07   27.5   2.9   1   1   1.7e-09   1.2e-06   26.5   2.9     5    52   296   342   292   385 0.79 ERAD-associated E3 ubiquitin-protein ligase HRD1, putative [Plasmodium vivax]
+SCO70367.1           -            744 9816at5820           -            332   2.9e-06   25.3   4.6   1   1   7.8e-09   5.4e-06   24.4   4.6     4    48   692   738   690   742 0.87 E3 ubiquitin-protein ligase, putative [Plasmodium vivax]
+SCO72184.1           -           1152 9816at5820           -            332   0.00026   18.8   3.1   1   1   6.3e-07   0.00044   18.1   3.1     6    47   355   401   351   426 0.86 E3 ubiquitin-protein ligase, putative [Plasmodium vivax]
+SCO73045.1           -            284 9816at5820           -            332    0.0006   17.6   4.6   1   1   1.4e-06   0.00095   17.0   4.6     7    53   236   283   232   284 0.79 RING zinc finger protein, putative [Plasmodium vivax]
+SCO71652.1           -            272 9816at5820           -            332    0.0095   13.7   4.2   1   1   1.9e-05     0.013   13.2   4.2     6    50   217   263   212   271 0.87 zinc finger, C3HC4 type, putative [Plasmodium vivax]
+SCO72358.1           -            108 9816at5820           -            332     0.021   12.6   0.8   1   2         1   7.3e+02   -2.4   2.8     5    22    31    47    27    68 0.79 E3 ubiquitin-protein ligase RBX1, putative [Plasmodium vivax]
+SCO72358.1           -            108 9816at5820           -            332     0.021   12.6   0.8   2   2     3e-05     0.021   12.6   0.8    23    46    74    97    62   102 0.88 E3 ubiquitin-protein ligase RBX1, putative [Plasmodium vivax]
+SCO73617.1           -             89 9816at5820           -            332      0.17    9.6  11.4   1   1   0.00027      0.19    9.4  11.0    22    48    52    79    21    85 0.73 anaphase-promoting complex subunit 11, putative [Plasmodium vivax]
+SCO73589.1           -            519 9816at5820           -            332      0.87    7.3  12.9   1   2       1.8   1.2e+03   -3.1   0.7   118   141   264   287   260   296 0.71 E3 ubiquitin-protein ligase RNF5, putative [Plasmodium vivax]
+SCO73589.1           -            519 9816at5820           -            332      0.87    7.3  12.9   2   2   2.6e-05     0.018   12.8   5.7     6    53   363   408   360   428 0.82 E3 ubiquitin-protein ligase RNF5, putative [Plasmodium vivax]
+#
+# Program:         hmmsearch
+# Version:         3.4 (Aug 2023)
+# Pipeline mode:   SEARCH
+# Query file:      /v3/work/00_inventory/busco/busco_downloads/lineages/plasmodium_odb10/hmms/9816at5820.hmm
+# Target file:     /v3/inputs/annotations/ncbi-datasets/PvC01.proteins.fa
+# Option settings: hmmsearch --domtblout /v3/work/00_inventory/busco/PvC01_proteins/run_plasmodium_odb10/hmmer_output/initial_run_results/9816at5820.out --cpu 1 /v3/work/00_inventory/busco/busco_downloads/lineages/plasmodium_odb10/hmms/9816at5820.hmm /v3/inputs/annotations/ncbi-datasets/PvC01.proteins.fa 
+# Current dir:     /v3/work/00_inventory/busco
+# Date:            Tue May 19 19:15:30 2026
+# [ok]

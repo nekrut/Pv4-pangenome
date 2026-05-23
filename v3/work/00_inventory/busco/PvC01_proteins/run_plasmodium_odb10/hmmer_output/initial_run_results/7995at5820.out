@@ -1,0 +1,24 @@
+#                                                                            --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name        accession   tlen query name           accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+#------------------- ---------- ----- -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+SCO72674.1           -            401 7995at5820           -            332  1.1e-167  555.5  10.6   1   2   6.1e-80   9.6e-77  256.6   3.0     1   163     1   185     1   191 0.91 actin-related protein 2/3 complex subunit 1, putative [Plasmodium vivax]
+SCO72674.1           -            401 7995at5820           -            332  1.1e-167  555.5  10.6   2   2   3.2e-94     5e-91  303.6   0.9   157   332   202   391   196   391 0.95 actin-related protein 2/3 complex subunit 1, putative [Plasmodium vivax]
+SCO74671.1           -            694 7995at5820           -            332   4.7e-07   27.5  20.7   1   4      0.04        63    0.8   0.1   126   172     8    55     3    72 0.64 cytosolic iron-sulfur protein assembly protein 1, putative [Plasmodium vivax]
+SCO74671.1           -            694 7995at5820           -            332   4.7e-07   27.5  20.7   2   4   1.4e-08   2.1e-05   22.1   0.5    39   121    78   162    73   176 0.78 cytosolic iron-sulfur protein assembly protein 1, putative [Plasmodium vivax]
+SCO74671.1           -            694 7995at5820           -            332   4.7e-07   27.5  20.7   3   4    0.0074        12    3.2   2.3    96   164   253   326   242   352 0.78 cytosolic iron-sulfur protein assembly protein 1, putative [Plasmodium vivax]
+SCO74671.1           -            694 7995at5820           -            332   4.7e-07   27.5  20.7   4   4   1.2e-05     0.018   12.4   1.0   120   183   600   658   595   667 0.82 cytosolic iron-sulfur protein assembly protein 1, putative [Plasmodium vivax]
+SCO71635.1           -            642 7995at5820           -            332    0.0001   19.9   2.6   1   2   3.2e-07    0.0005   17.6   0.0    74   153   324   404   289   420 0.80 cell division cycle protein 20 homolog, putative [Plasmodium vivax]
+SCO71635.1           -            642 7995at5820           -            332    0.0001   19.9   2.6   2   2     0.024        38    1.5   0.8    97   145   431   481   412   539 0.65 cell division cycle protein 20 homolog, putative [Plasmodium vivax]
+SCO72425.1           -            498 7995at5820           -            332   0.00035   18.1   4.7   1   3     0.012        19    2.6   0.2    33   107   242   317   213   340 0.79 pre-mRNA-processing factor 19, putative [Plasmodium vivax]
+SCO72425.1           -            498 7995at5820           -            332   0.00035   18.1   4.7   2   3   4.6e-06    0.0072   13.8   0.4    97   157   349   411   318   417 0.83 pre-mRNA-processing factor 19, putative [Plasmodium vivax]
+SCO72425.1           -            498 7995at5820           -            332   0.00035   18.1   4.7   3   3     0.017        27    2.1   0.0    87   156   422   495   413   497 0.71 pre-mRNA-processing factor 19, putative [Plasmodium vivax]
+#
+# Program:         hmmsearch
+# Version:         3.4 (Aug 2023)
+# Pipeline mode:   SEARCH
+# Query file:      /v3/work/00_inventory/busco/busco_downloads/lineages/plasmodium_odb10/hmms/7995at5820.hmm
+# Target file:     /v3/inputs/annotations/ncbi-datasets/PvC01.proteins.fa
+# Option settings: hmmsearch --domtblout /v3/work/00_inventory/busco/PvC01_proteins/run_plasmodium_odb10/hmmer_output/initial_run_results/7995at5820.out --cpu 1 /v3/work/00_inventory/busco/busco_downloads/lineages/plasmodium_odb10/hmms/7995at5820.hmm /v3/inputs/annotations/ncbi-datasets/PvC01.proteins.fa 
+# Current dir:     /v3/work/00_inventory/busco
+# Date:            Tue May 19 19:05:50 2026
+# [ok]

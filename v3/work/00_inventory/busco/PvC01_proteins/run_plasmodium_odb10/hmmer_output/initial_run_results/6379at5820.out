@@ -1,0 +1,17 @@
+#                                                                            --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name        accession   tlen query name           accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+#------------------- ---------- ----- -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+SCO74791.1           -            596 6379at5820           -            455    3e-284  941.1  26.2   1   2   9.5e-17     2e-13   48.4   0.8     5    39    52    86    49    96 0.90 50S ribosomal protein L15, putative [Plasmodium vivax]
+SCO74791.1           -            596 6379at5820           -            455    3e-284  941.1  26.2   2   2  2.3e-274  4.9e-271  897.6  18.6    29   455   123   549   104   549 0.98 50S ribosomal protein L15, putative [Plasmodium vivax]
+SCO74785.1           -            368 6379at5820           -            455     4e-08   30.9   1.6   1   1   2.9e-11     6e-08   30.3   1.6   236   308   104   175    97   194 0.83 ribosomal protein L15, putative [Plasmodium vivax]
+SCA59695.1           -            463 6379at5820           -            455     0.038   11.2   0.6   1   1   2.6e-05     0.054   10.7   0.6   114   179    19    80     5    86 0.82 VIR protein [Plasmodium vivax]
+#
+# Program:         hmmsearch
+# Version:         3.4 (Aug 2023)
+# Pipeline mode:   SEARCH
+# Query file:      /v3/work/00_inventory/busco/busco_downloads/lineages/plasmodium_odb10/hmms/6379at5820.hmm
+# Target file:     /v3/inputs/annotations/ncbi-datasets/PvC01.proteins.fa
+# Option settings: hmmsearch --domtblout /v3/work/00_inventory/busco/PvC01_proteins/run_plasmodium_odb10/hmmer_output/initial_run_results/6379at5820.out --cpu 1 /v3/work/00_inventory/busco/busco_downloads/lineages/plasmodium_odb10/hmms/6379at5820.hmm /v3/inputs/annotations/ncbi-datasets/PvC01.proteins.fa 
+# Current dir:     /v3/work/00_inventory/busco
+# Date:            Tue May 19 19:03:44 2026
+# [ok]

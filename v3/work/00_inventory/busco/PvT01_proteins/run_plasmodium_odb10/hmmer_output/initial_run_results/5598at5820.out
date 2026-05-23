@@ -1,0 +1,23 @@
+#                                                                            --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name        accession   tlen query name           accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+#------------------- ---------- ----- -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+SCO69667.1           -            713 5598at5820           -            537  6.4e-263  871.7 112.7   1   2   9.9e-81   7.5e-78  260.9  67.3     2   237     6   346     5   351 0.79 conserved Plasmodium protein, unknown function [Plasmodium vivax]
+SCO69667.1           -            713 5598at5820           -            537  6.4e-263  871.7 112.7   2   2    9e-184  6.8e-181  601.0  37.4   231   537   365   713   361   713 0.97 conserved Plasmodium protein, unknown function [Plasmodium vivax]
+SCO67290.1           -            368 5598at5820           -            537     0.089    9.9  15.2   1   2     1e-05    0.0078   13.4  10.6    84   182    44   161    18   206 0.61 tRNA m(1)G methyltransferase, putative [Plasmodium vivax]
+SCO67290.1           -            368 5598at5820           -            537     0.089    9.9  15.2   2   2      0.72   5.5e+02   -2.6   0.1   223   265   271   313   250   322 0.65 tRNA m(1)G methyltransferase, putative [Plasmodium vivax]
+SCO65800.1           -           1207 5598at5820           -            537      0.45    7.6   7.9   1   1    0.0011      0.83    6.7   7.9    80   141  1030  1092  1001  1102 0.59 conserved Plasmodium protein, unknown function [Plasmodium vivax]
+SCO66657.1           -            226 5598at5820           -            537      0.47    7.5   6.6   1   1   0.00073      0.56    7.3   6.6    76   147    78   152    69   205 0.53 conserved Plasmodium protein, unknown function [Plasmodium vivax]
+SCO64920.1           -            162 5598at5820           -            537       1.6    5.7   8.5   1   1    0.0027         2    5.4   8.5    69   146     7    84     2    97 0.44 conserved Plasmodium protein, unknown function [Plasmodium vivax]
+SCO67619.1           -            667 5598at5820           -            537       1.9    5.5  20.6   1   1    0.0045       3.4    4.6  20.6    60   164    47   156    29   181 0.49 RNA helicase 1, putative [Plasmodium vivax]
+SCO65734.1           -            257 5598at5820           -            537       2.6    5.0  15.9   1   1    0.0048       3.7    4.6  15.9    82   157    98   179    76   204 0.46 Plasmodium exported protein, unknown function [Plasmodium vivax]
+SCO69675.1           -            467 5598at5820           -            537       3.8    4.5  11.7   1   1     0.008       6.1    3.8  11.7    71   131    75   136    64   146 0.55 tyrosine recombinase, putative [Plasmodium vivax]
+#
+# Program:         hmmsearch
+# Version:         3.4 (Aug 2023)
+# Pipeline mode:   SEARCH
+# Query file:      /v3/work/00_inventory/busco/busco_downloads/lineages/plasmodium_odb10/hmms/5598at5820.hmm
+# Target file:     /v3/inputs/annotations/ncbi-datasets/PvT01.proteins.fa
+# Option settings: hmmsearch --domtblout /v3/work/00_inventory/busco/PvT01_proteins/run_plasmodium_odb10/hmmer_output/initial_run_results/5598at5820.out --cpu 1 /v3/work/00_inventory/busco/busco_downloads/lineages/plasmodium_odb10/hmms/5598at5820.hmm /v3/inputs/annotations/ncbi-datasets/PvT01.proteins.fa 
+# Current dir:     /v3/work/00_inventory/busco
+# Date:            Tue May 19 18:54:38 2026
+# [ok]

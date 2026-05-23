@@ -1,0 +1,17 @@
+#                                                                            --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name        accession   tlen query name           accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+#------------------- ---------- ----- -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+PVP01_1212500.1-p1   -            271 10847at5820          -            214  2.3e-127  421.4  12.9   1   1  1.2e-130  2.7e-127  421.2  12.9     1   214    35   259    35   259 0.98 | transcript=PVP01_1212500.1 | gene=PVP01_1212500 | organism=Plasmodium_vivax_P01 | gene_product=tetratricopeptide repeat protein, putative | transcript_product=tetratricopeptide repeat protein, putative | location=PvP01_12_v2:551964-552779(-) | protein_length=271 | sequence_SO=chromosome | SO=protein_coding_gene | is_pseudo=false
+PVP01_0006380.1-p1   -            342 10847at5820          -            214   0.00062   18.0   1.4   1   1   5.7e-07    0.0012   17.1   1.4    52   121    75   148    31   173 0.81 | transcript=PVP01_0006380.1 | gene=PVP01_0006380 | organism=Plasmodium_vivax_P01 | gene_product=PIR protein | transcript_product=PIR protein | location=Transfer.PvP01_00_20.final:20578-21879(+) | protein_length=342 | sequence_SO=contig | SO=protein_coding_gene | is_pseudo=false
+PVP01_1116400.1-p1   -            682 10847at5820          -            214   0.00066   18.0   3.8   1   2   7.4e-05      0.16   10.1   0.1   127   158   156   187   144   201 0.87 | transcript=PVP01_1116400.1 | gene=PVP01_1116400 | organism=Plasmodium_vivax_P01 | gene_product=serine/threonine protein phosphatase 5, putative | transcript_product=serine/threonine protein phosphatase 5, putative | location=PvP01_11_v2:707209-709257(-) | protein_length=682 | sequence_SO=chromosome | SO=protein_coding_gene | is_pseudo=false
+PVP01_1116400.1-p1   -            682 10847at5820          -            214   0.00066   18.0   3.8   2   2   0.00084       1.8    6.7   0.7   151   212   271   323   220   325 0.71 | transcript=PVP01_1116400.1 | gene=PVP01_1116400 | organism=Plasmodium_vivax_P01 | gene_product=serine/threonine protein phosphatase 5, putative | transcript_product=serine/threonine protein phosphatase 5, putative | location=PvP01_11_v2:707209-709257(-) | protein_length=682 | sequence_SO=chromosome | SO=protein_coding_gene | is_pseudo=false
+#
+# Program:         hmmsearch
+# Version:         3.4 (Aug 2023)
+# Pipeline mode:   SEARCH
+# Query file:      /v3/work/00_inventory/busco/busco_downloads/lineages/plasmodium_odb10/hmms/10847at5820.hmm
+# Target file:     /v3/inputs/annotations/plasmodb-68/PvP01.proteins.fa
+# Option settings: hmmsearch --domtblout /v3/work/00_inventory/busco/PvP01_proteins/run_plasmodium_odb10/hmmer_output/initial_run_results/10847at5820.out --cpu 1 /v3/work/00_inventory/busco/busco_downloads/lineages/plasmodium_odb10/hmms/10847at5820.hmm /v3/inputs/annotations/plasmodb-68/PvP01.proteins.fa 
+# Current dir:     /v3/work/00_inventory/busco
+# Date:            Tue May 19 17:27:30 2026
+# [ok]

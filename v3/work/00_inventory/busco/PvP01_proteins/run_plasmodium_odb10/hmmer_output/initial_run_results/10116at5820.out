@@ -1,0 +1,18 @@
+#                                                                            --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name        accession   tlen query name           accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+#------------------- ---------- ----- -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+PVP01_0726100.1-p1   -            604 10116at5820          -            252  2.2e-114  379.5  25.2   1   4   3.3e-33   1.1e-29  102.1   5.0     1    72     1    81     1   104 0.85 | transcript=PVP01_0726100.1 | gene=PVP01_0726100 | organism=Plasmodium_vivax_P01 | gene_product=RNA-binding protein, putative | transcript_product=RNA-binding protein, putative | location=PvP01_07_v2:1122688-1124661(+) | protein_length=604 | sequence_SO=chromosome | SO=protein_coding_gene | is_pseudo=false
+PVP01_0726100.1-p1   -            604 10116at5820          -            252  2.2e-114  379.5  25.2   2   4   4.8e-05      0.16    9.8   0.0    71    95   281   305   269   311 0.81 | transcript=PVP01_0726100.1 | gene=PVP01_0726100 | organism=Plasmodium_vivax_P01 | gene_product=RNA-binding protein, putative | transcript_product=RNA-binding protein, putative | location=PvP01_07_v2:1122688-1124661(+) | protein_length=604 | sequence_SO=chromosome | SO=protein_coding_gene | is_pseudo=false
+PVP01_0726100.1-p1   -            604 10116at5820          -            252  2.2e-114  379.5  25.2   3   4   1.5e-18   4.7e-15   54.1   0.1    95   146   328   384   323   389 0.88 | transcript=PVP01_0726100.1 | gene=PVP01_0726100 | organism=Plasmodium_vivax_P01 | gene_product=RNA-binding protein, putative | transcript_product=RNA-binding protein, putative | location=PvP01_07_v2:1122688-1124661(+) | protein_length=604 | sequence_SO=chromosome | SO=protein_coding_gene | is_pseudo=false
+PVP01_0726100.1-p1   -            604 10116at5820          -            252  2.2e-114  379.5  25.2   4   4   1.6e-70   5.3e-67  224.3   3.2   143   251   495   603   477   604 0.95 | transcript=PVP01_0726100.1 | gene=PVP01_0726100 | organism=Plasmodium_vivax_P01 | gene_product=RNA-binding protein, putative | transcript_product=RNA-binding protein, putative | location=PvP01_07_v2:1122688-1124661(+) | protein_length=604 | sequence_SO=chromosome | SO=protein_coding_gene | is_pseudo=false
+PVP01_1014900.1-p1   -            332 10116at5820          -            252   0.00012   20.0   1.4   1   1   7.3e-08   0.00024   19.1   1.4   182   250    19    92     6    94 0.84 | transcript=PVP01_1014900.1 | gene=PVP01_1014900 | organism=Plasmodium_vivax_P01 | gene_product=histone RNA hairpin-binding protein, putative | transcript_product=histone RNA hairpin-binding protein, putative | location=PvP01_10_v2:670946-671944(-) | protein_length=332 | sequence_SO=chromosome | SO=protein_coding_gene | is_pseudo=false
+#
+# Program:         hmmsearch
+# Version:         3.4 (Aug 2023)
+# Pipeline mode:   SEARCH
+# Query file:      /v3/work/00_inventory/busco/busco_downloads/lineages/plasmodium_odb10/hmms/10116at5820.hmm
+# Target file:     /v3/inputs/annotations/plasmodb-68/PvP01.proteins.fa
+# Option settings: hmmsearch --domtblout /v3/work/00_inventory/busco/PvP01_proteins/run_plasmodium_odb10/hmmer_output/initial_run_results/10116at5820.out --cpu 1 /v3/work/00_inventory/busco/busco_downloads/lineages/plasmodium_odb10/hmms/10116at5820.hmm /v3/inputs/annotations/plasmodb-68/PvP01.proteins.fa 
+# Current dir:     /v3/work/00_inventory/busco
+# Date:            Tue May 19 17:24:44 2026
+# [ok]

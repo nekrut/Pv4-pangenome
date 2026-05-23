@@ -1,0 +1,15 @@
+#                                                                            --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name        accession   tlen query name           accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+#------------------- ---------- ----- -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+PVX_117322.1-p1      -            337 8079at5820           -            282  2.7e-171  566.7   4.6   1   2   1.8e-32   9.7e-29   98.9   0.0     1    60     1    64     1    74 0.93 | transcript=PVX_117322.1 | gene=PVX_117322 | organism=Plasmodium_vivax_Sal-1 | gene_product=glyceraldehyde-3-phosphate dehydrogenase, putative | transcript_product=glyceraldehyde-3-phosphate dehydrogenase, putative | location=Pv_Sal1_chr12:1772270-1773651(-) | protein_length=337 | sequence_SO=chromosome | SO=protein_coding_gene | is_pseudo=false
+PVX_117322.1-p1      -            337 8079at5820           -            282  2.7e-171  566.7   4.6   2   2    8e-145  4.4e-141  467.5   2.4    53   282    77   335    66   335 0.94 | transcript=PVX_117322.1 | gene=PVX_117322 | organism=Plasmodium_vivax_Sal-1 | gene_product=glyceraldehyde-3-phosphate dehydrogenase, putative | transcript_product=glyceraldehyde-3-phosphate dehydrogenase, putative | location=Pv_Sal1_chr12:1772270-1773651(-) | protein_length=337 | sequence_SO=chromosome | SO=protein_coding_gene | is_pseudo=false
+#
+# Program:         hmmsearch
+# Version:         3.4 (Aug 2023)
+# Pipeline mode:   SEARCH
+# Query file:      /v3/work/00_inventory/busco/busco_downloads/lineages/plasmodium_odb10/hmms/8079at5820.hmm
+# Target file:     /v3/inputs/annotations/plasmodb-68/Sal-I.proteins.fa
+# Option settings: hmmsearch --domtblout /v3/work/00_inventory/busco/Sal-I_proteins/run_plasmodium_odb10/hmmer_output/initial_run_results/8079at5820.out --cpu 1 /v3/work/00_inventory/busco/busco_downloads/lineages/plasmodium_odb10/hmms/8079at5820.hmm /v3/inputs/annotations/plasmodb-68/Sal-I.proteins.fa 
+# Current dir:     /v3/work/00_inventory/busco
+# Date:            Tue May 19 17:49:53 2026
+# [ok]

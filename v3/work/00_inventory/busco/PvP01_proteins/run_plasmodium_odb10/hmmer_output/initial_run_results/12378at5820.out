@@ -1,0 +1,17 @@
+#                                                                            --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name        accession   tlen query name           accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+#------------------- ---------- ----- -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+PVP01_0516900.1-p1   -            193 12378at5820          -            164  6.9e-102  336.8  16.7   1   2   7.2e-09   2.4e-05   22.8   1.6     1    21     2    22     2    37 0.86 | transcript=PVP01_0516900.1 | gene=PVP01_0516900 | organism=Plasmodium_vivax_P01 | gene_product=rRNA-processing protein FCF1, putative | transcript_product=rRNA-processing protein FCF1, putative | location=PvP01_05_v2:709654-710336(+) | protein_length=193 | sequence_SO=chromosome | SO=protein_coding_gene | is_pseudo=false
+PVP01_0516900.1-p1   -            193 12378at5820          -            164  6.9e-102  336.8  16.7   2   2  8.9e-100   2.9e-96  318.5   9.1    13   164    41   193    27   193 0.94 | transcript=PVP01_0516900.1 | gene=PVP01_0516900 | organism=Plasmodium_vivax_P01 | gene_product=rRNA-processing protein FCF1, putative | transcript_product=rRNA-processing protein FCF1, putative | location=PvP01_05_v2:709654-710336(+) | protein_length=193 | sequence_SO=chromosome | SO=protein_coding_gene | is_pseudo=false
+PVP01_1443500.1-p1   -            317 12378at5820          -            164   4.3e-06   25.2   1.8   1   2   9.7e-05      0.32    9.4   0.6    32   108    21    94     4   110 0.76 | transcript=PVP01_1443500.1 | gene=PVP01_1443500 | organism=Plasmodium_vivax_P01 | gene_product=rRNA-processing protein FCF1, putative | transcript_product=rRNA-processing protein FCF1, putative | location=PvP01_14_v2:1891729-1892862(+) | protein_length=317 | sequence_SO=chromosome | SO=protein_coding_gene | is_pseudo=false
+PVP01_1443500.1-p1   -            317 12378at5820          -            164   4.3e-06   25.2   1.8   2   2   2.1e-06    0.0068   14.8   0.0   111   149   211   251   202   265 0.80 | transcript=PVP01_1443500.1 | gene=PVP01_1443500 | organism=Plasmodium_vivax_P01 | gene_product=rRNA-processing protein FCF1, putative | transcript_product=rRNA-processing protein FCF1, putative | location=PvP01_14_v2:1891729-1892862(+) | protein_length=317 | sequence_SO=chromosome | SO=protein_coding_gene | is_pseudo=false
+#
+# Program:         hmmsearch
+# Version:         3.4 (Aug 2023)
+# Pipeline mode:   SEARCH
+# Query file:      /v3/work/00_inventory/busco/busco_downloads/lineages/plasmodium_odb10/hmms/12378at5820.hmm
+# Target file:     /v3/inputs/annotations/plasmodb-68/PvP01.proteins.fa
+# Option settings: hmmsearch --domtblout /v3/work/00_inventory/busco/PvP01_proteins/run_plasmodium_odb10/hmmer_output/initial_run_results/12378at5820.out --cpu 1 /v3/work/00_inventory/busco/busco_downloads/lineages/plasmodium_odb10/hmms/12378at5820.hmm /v3/inputs/annotations/plasmodb-68/PvP01.proteins.fa 
+# Current dir:     /v3/work/00_inventory/busco
+# Date:            Tue May 19 17:26:40 2026
+# [ok]

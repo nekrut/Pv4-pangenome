@@ -1,0 +1,17 @@
+#                                                                            --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name        accession   tlen query name           accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+#------------------- ---------- ----- -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+CAG9474942.1         -            464 6540at5820           -            400  6.3e-242  801.1  44.7   1   2  1.5e-244  4.5e-241  798.3  41.3     1   388     5   426     5   438 0.94 | transcript=PVW1_100042400_t1 | gene=PVW1_100042400 | organism=Plasmodium_vivax_PvW1 | gene_product=Glideosome-associated protein 40, putative [Source:UniProtKB/TrEMBL;Acc:A0A1G4HEB0] | transcript_product=Glideosome-associated protein 40, putative [Source:UniProtKB/TrEMBL;Acc:A0A1G4HEB0] | location=CAJZCX010000005:1718377-1719771(+) | protein_length=464 | sequence_SO=supercontig | SO=protein_coding_gene | is_pseudo=false
+CAG9474942.1         -            464 6540at5820           -            400  6.3e-242  801.1  44.7   2   2      0.16   4.9e+02   -2.0   0.1   385   400   446   464   432   464 0.71 | transcript=PVW1_100042400_t1 | gene=PVW1_100042400 | organism=Plasmodium_vivax_PvW1 | gene_product=Glideosome-associated protein 40, putative [Source:UniProtKB/TrEMBL;Acc:A0A1G4HEB0] | transcript_product=Glideosome-associated protein 40, putative [Source:UniProtKB/TrEMBL;Acc:A0A1G4HEB0] | location=CAJZCX010000005:1718377-1719771(+) | protein_length=464 | sequence_SO=supercontig | SO=protein_coding_gene | is_pseudo=false
+CAG9479984.1         -           4435 6540at5820           -            400      0.46    8.0   2.7   1   2    0.0014       4.2    4.8   1.6   310   384   481   557   475   566 0.80 | transcript=PVW1_050035900_t1 | gene=PVW1_050035900 | organism=Plasmodium_vivax_PvW1 | gene_product=unspecified product | transcript_product=unspecified product | location=CAJZCX010000010:1319394-1332701(-) | protein_length=4435 | sequence_SO=supercontig | SO=protein_coding_gene | is_pseudo=false
+CAG9479984.1         -           4435 6540at5820           -            400      0.46    8.0   2.7   2   2     0.019        58    1.0   0.0   298   341  3924  3964  3890  4018 0.70 | transcript=PVW1_050035900_t1 | gene=PVW1_050035900 | organism=Plasmodium_vivax_PvW1 | gene_product=unspecified product | transcript_product=unspecified product | location=CAJZCX010000010:1319394-1332701(-) | protein_length=4435 | sequence_SO=supercontig | SO=protein_coding_gene | is_pseudo=false
+#
+# Program:         hmmsearch
+# Version:         3.4 (Aug 2023)
+# Pipeline mode:   SEARCH
+# Query file:      /v3/work/00_inventory/busco/busco_downloads/lineages/plasmodium_odb10/hmms/6540at5820.hmm
+# Target file:     /v3/inputs/annotations/plasmodb-68/PvW1.proteins.fa
+# Option settings: hmmsearch --domtblout /v3/work/00_inventory/busco/PvW1_proteins/run_plasmodium_odb10/hmmer_output/initial_run_results/6540at5820.out --cpu 1 /v3/work/00_inventory/busco/busco_downloads/lineages/plasmodium_odb10/hmms/6540at5820.hmm /v3/inputs/annotations/plasmodb-68/PvW1.proteins.fa 
+# Current dir:     /v3/work/00_inventory/busco
+# Date:            Tue May 19 17:43:26 2026
+# [ok]

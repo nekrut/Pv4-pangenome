@@ -1,0 +1,18 @@
+#                                                                            --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name        accession   tlen query name           accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+#------------------- ---------- ----- -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+PVP01_1316600.1-p1   -            237 11029at5820          -            214  1.4e-114  379.4  19.7   1   1  7.4e-118  1.6e-114  379.2  19.7     4   213    19   234    14   235 0.97 | transcript=PVP01_1316600.1 | gene=PVP01_1316600 | organism=Plasmodium_vivax_P01 | gene_product=SF-assemblin, putative | transcript_product=SF-assemblin, putative | location=PvP01_13_v2:781685-782661(+) | protein_length=237 | sequence_SO=chromosome | SO=protein_coding_gene | is_pseudo=false
+PVP01_0117000.1-p1   -            632 11029at5820          -            214   1.2e-17   62.7  24.0   1   2      0.21   4.5e+02   -1.4   0.6    68    90   390   412   375   425 0.61 | transcript=PVP01_0117000.1 | gene=PVP01_0117000 | organism=Plasmodium_vivax_P01 | gene_product=filament assembling protein, putative | transcript_product=filament assembling protein, putative | location=PvP01_01_v2:772077-774096(+) | protein_length=632 | sequence_SO=chromosome | SO=protein_coding_gene | is_pseudo=false
+PVP01_0117000.1-p1   -            632 11029at5820          -            214   1.2e-17   62.7  24.0   2   2   5.3e-21   1.2e-17   62.7  24.0    11   210   423   628   411   632 0.89 | transcript=PVP01_0117000.1 | gene=PVP01_0117000 | organism=Plasmodium_vivax_P01 | gene_product=filament assembling protein, putative | transcript_product=filament assembling protein, putative | location=PvP01_01_v2:772077-774096(+) | protein_length=632 | sequence_SO=chromosome | SO=protein_coding_gene | is_pseudo=false
+PVP01_0533800.1-p1   -            463 11029at5820          -            214     0.095   10.7   5.1   1   2       0.4   8.6e+02   -2.3   0.0    37    63    42    68    22    87 0.55 | transcript=PVP01_0533800.1 | gene=PVP01_0533800 | organism=Plasmodium_vivax_P01 | gene_product=PIR protein | transcript_product=PIR protein | location=PvP01_05_v2:1437784-1439450(+) | protein_length=463 | sequence_SO=chromosome | SO=protein_coding_gene | is_pseudo=false
+PVP01_0533800.1-p1   -            463 11029at5820          -            214     0.095   10.7   5.1   2   2   4.6e-05       0.1   10.6   4.0    42   136    85   177    66   210 0.84 | transcript=PVP01_0533800.1 | gene=PVP01_0533800 | organism=Plasmodium_vivax_P01 | gene_product=PIR protein | transcript_product=PIR protein | location=PvP01_05_v2:1437784-1439450(+) | protein_length=463 | sequence_SO=chromosome | SO=protein_coding_gene | is_pseudo=false
+#
+# Program:         hmmsearch
+# Version:         3.4 (Aug 2023)
+# Pipeline mode:   SEARCH
+# Query file:      /v3/work/00_inventory/busco/busco_downloads/lineages/plasmodium_odb10/hmms/11029at5820.hmm
+# Target file:     /v3/inputs/annotations/plasmodb-68/PvP01.proteins.fa
+# Option settings: hmmsearch --domtblout /v3/work/00_inventory/busco/PvP01_proteins/run_plasmodium_odb10/hmmer_output/initial_run_results/11029at5820.out --cpu 1 /v3/work/00_inventory/busco/busco_downloads/lineages/plasmodium_odb10/hmms/11029at5820.hmm /v3/inputs/annotations/plasmodb-68/PvP01.proteins.fa 
+# Current dir:     /v3/work/00_inventory/busco
+# Date:            Tue May 19 17:28:11 2026
+# [ok]

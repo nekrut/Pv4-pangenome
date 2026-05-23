@@ -1,0 +1,17 @@
+#                                                                            --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name        accession   tlen query name           accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+#------------------- ---------- ----- -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+PVX_117015.1-p1      -            175 14294at5820          -            116   2.4e-57  190.2   5.2   1   2   0.00032      0.59    8.3   0.0     2    33    10    41     8    51 0.82 | transcript=PVX_117015.1 | gene=PVX_117015 | organism=Plasmodium_vivax_Sal-1 | gene_product=translation initiation factor IF-1, putative | transcript_product=translation initiation factor IF-1, putative | location=Pv_Sal1_chr12:1462385-1462912(+) | protein_length=175 | sequence_SO=chromosome | SO=protein_coding_gene | is_pseudo=false
+PVX_117015.1-p1      -            175 14294at5820          -            116   2.4e-57  190.2   5.2   2   2   2.9e-58   5.4e-55  182.6   2.6    24   116    83   175    66   175 0.94 | transcript=PVX_117015.1 | gene=PVX_117015 | organism=Plasmodium_vivax_Sal-1 | gene_product=translation initiation factor IF-1, putative | transcript_product=translation initiation factor IF-1, putative | location=Pv_Sal1_chr12:1462385-1462912(+) | protein_length=175 | sequence_SO=chromosome | SO=protein_coding_gene | is_pseudo=false
+PVX_092775.1-p1      -            155 14294at5820          -            116    0.0092   14.2   0.0   1   1   7.4e-06     0.014   13.6   0.0    50    95    42    84    23   104 0.77 | transcript=PVX_092775.1 | gene=PVX_092775 | organism=Plasmodium_vivax_Sal-1 | gene_product=translation initiation factor eIF-1A, putative | transcript_product=translation initiation factor eIF-1A, putative | location=Pv_Sal1_chr09:1716810-1718289(+) | protein_length=155 | sequence_SO=chromosome | SO=protein_coding_gene | is_pseudo=false
+PVX_122155.1-p1      -            393 14294at5820          -            116     0.011   14.0   0.6   1   1   1.2e-05     0.022   12.9   0.6    22    98    29   108    10   122 0.75 | transcript=PVX_122155.1 | gene=PVX_122155 | organism=Plasmodium_vivax_Sal-1 | gene_product=26S protease regulatory subunit 10B, putative | transcript_product=26S protease regulatory subunit 10B, putative | location=Pv_Sal1_chr14:332284-333465(-) | protein_length=393 | sequence_SO=chromosome | SO=protein_coding_gene | is_pseudo=false
+#
+# Program:         hmmsearch
+# Version:         3.4 (Aug 2023)
+# Pipeline mode:   SEARCH
+# Query file:      /v3/work/00_inventory/busco/busco_downloads/lineages/plasmodium_odb10/hmms/14294at5820.hmm
+# Target file:     /v3/inputs/annotations/plasmodb-68/Sal-I.proteins.fa
+# Option settings: hmmsearch --domtblout /v3/work/00_inventory/busco/Sal-I_proteins/run_plasmodium_odb10/hmmer_output/initial_run_results/14294at5820.out --cpu 1 /v3/work/00_inventory/busco/busco_downloads/lineages/plasmodium_odb10/hmms/14294at5820.hmm /v3/inputs/annotations/plasmodb-68/Sal-I.proteins.fa 
+# Current dir:     /v3/work/00_inventory/busco
+# Date:            Tue May 19 17:33:02 2026
+# [ok]

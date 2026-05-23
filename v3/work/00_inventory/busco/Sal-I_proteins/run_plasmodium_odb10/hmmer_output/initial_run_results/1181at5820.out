@@ -1,0 +1,17 @@
+#                                                                            --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name        accession   tlen query name           accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+#------------------- ---------- ----- -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+PVX_094895.1-p1      -           1432 1181at5820           -            931         0 1950.9 113.0   1   4  2.1e-166  1.1e-162  541.7  28.5     2   272    83   356    82   364 0.98 | transcript=PVX_094895.1 | gene=PVX_094895 | organism=Plasmodium_vivax_Sal-1 | gene_product=phospholipase C-like, putative | transcript_product=phospholipase C-like, putative | location=Pv_Sal1_chr08:615420-620169(+) | protein_length=1432 | sequence_SO=chromosome | SO=protein_coding_gene | is_pseudo=false
+PVX_094895.1-p1      -           1432 1181at5820           -            931         0 1950.9 113.0   2   4     0.017        96   -0.8   0.0   265   283   494   512   488   517 0.83 | transcript=PVX_094895.1 | gene=PVX_094895 | organism=Plasmodium_vivax_Sal-1 | gene_product=phospholipase C-like, putative | transcript_product=phospholipase C-like, putative | location=Pv_Sal1_chr08:615420-620169(+) | protein_length=1432 | sequence_SO=chromosome | SO=protein_coding_gene | is_pseudo=false
+PVX_094895.1-p1      -           1432 1181at5820           -            931         0 1950.9 113.0   3   4  2.4e-164  1.3e-160  534.9  23.6   280   522   583   825   579   830 0.99 | transcript=PVX_094895.1 | gene=PVX_094895 | organism=Plasmodium_vivax_Sal-1 | gene_product=phospholipase C-like, putative | transcript_product=phospholipase C-like, putative | location=Pv_Sal1_chr08:615420-620169(+) | protein_length=1432 | sequence_SO=chromosome | SO=protein_coding_gene | is_pseudo=false
+PVX_094895.1-p1      -           1432 1181at5820           -            931         0 1950.9 113.0   4   4  2.5e-270  1.4e-266  885.6  44.3   519   931  1013  1427  1006  1427 0.99 | transcript=PVX_094895.1 | gene=PVX_094895 | organism=Plasmodium_vivax_Sal-1 | gene_product=phospholipase C-like, putative | transcript_product=phospholipase C-like, putative | location=Pv_Sal1_chr08:615420-620169(+) | protein_length=1432 | sequence_SO=chromosome | SO=protein_coding_gene | is_pseudo=false
+#
+# Program:         hmmsearch
+# Version:         3.4 (Aug 2023)
+# Pipeline mode:   SEARCH
+# Query file:      /v3/work/00_inventory/busco/busco_downloads/lineages/plasmodium_odb10/hmms/1181at5820.hmm
+# Target file:     /v3/inputs/annotations/plasmodb-68/Sal-I.proteins.fa
+# Option settings: hmmsearch --domtblout /v3/work/00_inventory/busco/Sal-I_proteins/run_plasmodium_odb10/hmmer_output/initial_run_results/1181at5820.out --cpu 1 /v3/work/00_inventory/busco/busco_downloads/lineages/plasmodium_odb10/hmms/1181at5820.hmm /v3/inputs/annotations/plasmodb-68/Sal-I.proteins.fa 
+# Current dir:     /v3/work/00_inventory/busco
+# Date:            Tue May 19 17:24:48 2026
+# [ok]

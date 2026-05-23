@@ -1,0 +1,14 @@
+#                                                                            --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name        accession   tlen query name           accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+#------------------- ---------- ----- -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+CAG9478636.1         -            220 12936at5820          -            155   2.3e-84  279.4  18.5   1   1   1.5e-85   9.4e-82  270.9  18.5    18   155    48   186     1   186 0.96 | transcript=PVW1_080008300_t1 | gene=PVW1_080008300 | organism=Plasmodium_vivax_PvW1 | gene_product=Ribosome-binding factor A, putative [Source:UniProtKB/TrEMBL;Acc:A0A1G4GW24] | transcript_product=Ribosome-binding factor A, putative [Source:UniProtKB/TrEMBL;Acc:A0A1G4GW24] | location=CAJZCX010000009:202350-203175(+) | protein_length=220 | sequence_SO=supercontig | SO=protein_coding_gene | is_pseudo=false
+#
+# Program:         hmmsearch
+# Version:         3.4 (Aug 2023)
+# Pipeline mode:   SEARCH
+# Query file:      /v3/work/00_inventory/busco/busco_downloads/lineages/plasmodium_odb10/hmms/12936at5820.hmm
+# Target file:     /v3/inputs/annotations/plasmodb-68/PvW1.proteins.fa
+# Option settings: hmmsearch --domtblout /v3/work/00_inventory/busco/PvW1_proteins/run_plasmodium_odb10/hmmer_output/initial_run_results/12936at5820.out --cpu 1 /v3/work/00_inventory/busco/busco_downloads/lineages/plasmodium_odb10/hmms/12936at5820.hmm /v3/inputs/annotations/plasmodb-68/PvW1.proteins.fa 
+# Current dir:     /v3/work/00_inventory/busco
+# Date:            Tue May 19 17:28:15 2026
+# [ok]

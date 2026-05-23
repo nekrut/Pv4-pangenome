@@ -1,0 +1,363 @@
+# hmmsearch :: search profile(s) against a sequence database
+# HMMER 3.4 (Aug 2023); http://hmmer.org/
+# Copyright (C) 2023 Howard Hughes Medical Institute.
+# Freely distributed under the BSD open source license.
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+# query HMM file:                  /v3/work/00_inventory/busco/busco_downloads/lineages/plasmodium_odb10/hmms/99at5820.hmm
+# target sequence database:        /v3/inputs/annotations/plasmodb-68/PvP01.proteins.fa
+# per-dom hits tabular output:     /v3/work/00_inventory/busco/PvP01_proteins/run_plasmodium_odb10/hmmer_output/initial_run_results/99at5820.out
+# number of worker threads:        1
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+Query:       99at5820  [M=3542]
+Scores for complete sequences (score includes all domains):
+   --- full sequence ---   --- best 1 domain ---    -#dom-
+    E-value  score  bias    E-value  score  bias    exp  N  Sequence           Description
+    ------- ------ -----    ------- ------ -----   ---- --  --------           -----------
+          0 4976.2   0.0          0 4971.2   0.0    3.0  1  PVP01_0821600.1-p1  | transcript=PVP01_0821600.1 | gene=PVP01
+  ------ inclusion threshold ------
+        1.1    4.1  26.6        1.4    3.8  26.6    1.0  1  PVP01_0731600.1-p1  | transcript=PVP01_0731600.1 | gene=PVP01
+        5.8    1.8  17.0        7.8    1.3  17.0    1.0  1  PVP01_1005900.1-p1  | transcript=PVP01_1005900.1 | gene=PVP01
+        9.4    1.1  11.2         12    0.7  11.2    1.0  1  PVP01_1122200.1-p1  | transcript=PVP01_1122200.1 | gene=PVP01
+
+
+Domain annotation for each sequence (and alignments):
+>> PVP01_0821600.1-p1  | transcript=PVP01_0821600.1 | gene=PVP01_0821600 | organism=Plasmodium_vivax_P01 | gene_product=
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ! 4971.2   0.0         0         0       1    3542 []       1    4637 []       1    4637 [] 0.88
+
+  Alignments for each domain:
+  == domain 1  score: 4971.2 bits;  conditional E-value: 0
+            99at5820    1 mrkkgniknfeleeiifiLLnCLDedkklnreivntLkiyilyhkceiLnyvfsfLqiqkvshenqklLLlLvyDfvhyciynrfsnvv 89  
+                          m+k+++i+n+eleei+fiLLnCLDe+kk+nrei+ntLk+y+lyhk++iLnyvfsfLqiqkvshenqklLL+Lv+Dfvhyci+nrfsn+v
+  PVP01_0821600.1-p1    1 MKKRASITNLELEEIVFILLNCLDEEKKKNREIINTLKVYLLYHKGQILNYVFSFLQIQKVSHENQKLLLCLVHDFVHYCIHNRFSNTV 89  
+                          9**************************************************************************************** PP
+
+            99at5820   90 deyleeekkneekeekk.............................sieeekfkDikifdnilkytffDGDeyCfvye........... 138 
+                          deyl e k+ne ++e++                             +  +++fkD++if+nil+y+ffDGDe+Cf+++           
+  PVP01_0821600.1-p1   90 DEYLGEVKRNEGEKEERadtqkggsqrggpqkgdtqkgdtqkgdtqKGGTHRFKDLHIFENILRYSFFDGDEHCFLFQdlpegvflpda 178 
+                          **********99888778*************************9887789*************************************** PP
+
+            99at5820  139 ...............................................vkrdqnifkedkisklkclkkeeykllliekkklak...... 174 
+                                                                          ++  +if++dki+kl clkkeeyk+++i+++++ak      
+  PVP01_0821600.1-p1  179 vplqgdaaeggalqqadsgtafsprgslhfatdgnprersmrsmkrrGRGRGSIFHQDKIAKLLCLKKEEYKTAMISEREAAKksnqct 267 
+                          *******************************************877544559************************9988766222222 PP
+
+            99at5820  175 ................knkkkseinniikniinfiLnellfikknDerhkimtkLLiLCiikeDaylkkkiiekvnyyldseed..... 242 
+                                          ++k++seinnii+nii+f+Lne+lfik++Derh imtkLLiLC+++eDaylkkk++ek+n++l          
+  PVP01_0821600.1-p1  268 sphvaasaplggippqNAKETSEINNIIRNIIDFLLNEILFIKRDDERHGIMTKLLILCVVREDAYLKKKLVEKLNGCLRVGGAalpvg 356 
+                          222222222222222156899**********************************************************9765589999 PP
+
+            99at5820  243 ...................adekvsn.......knnnnnnkknskvyiyleLyidifmqvPhLtknvLidifksilsldksnkhidliy 305 
+                                             +              +++n   +n+k+ +yleLyid+++qvPhLtk+vL+++f+++lsl++s+ h+dl++
+  PVP01_0821600.1-p1  357 dspegggkptiekggsekvS-----GekvgndkVSSENVRGDNPKLRAYLELYIDLLTQVPHLTKSVLNEFFSAVLSLGQSTTHADLTH 440 
+                          99999999988888544443.....355555652333444569********************************************** PP
+
+            99at5820  306 killkifqdiqfPsvLysiiymnkkykkknfiipnkkntnvyiendviqLslentseDtcttytresslnsnllkkse.........if 385 
+                          k++++ifqdiqfPsvLy+ii+mn+kyk+knfiipnk++tnv+iend+i+LslentseDtcttytresslnsn+l +s+         if
+  PVP01_0821600.1-p1  441 KVMTQIFQDIQFPSVLYTIIRMNTKYKRKNFIIPNKHHTNVFIENDIIHLSLENTSEDTCTTYTRESSLNSNVLGRSNtpgksntpgIF 529 
+                          ************************************************************************9876543333334449* PP
+
+            99at5820  386 ndnikqeklykkkekek..........ssehliknanngekeeskekds................................dskaesek 432 
+                          n++ +q++l + +e+e+          sseh++++a            s                                d  a+s++
+  PVP01_0821600.1-p1  530 NNSGRQANLRRPTEGERngkgtsykdpSSEHTSRDA------------SpcevfydahngevepdgwdtppggecsqgrgsDGVAQSNW 606 
+                          **************9994444444444223322222............13455555566667788888888888888887633333333 PP
+
+            99at5820  433 e.....klilksnikdkkesdlase.....eenkedkytvekedengknk...................dekeeklkkkdavknseeke 492 
+                                ++++k+ ++++k+s++a+e     +e +e++ytv++  e + ++                      +   + + a +   eke
+  PVP01_0821600.1-p1  607 GpskgkNNLVKAFQREAKPSEHAAEpfrneSEGSEKYYTVKNWREGAVCQvpegsggspkekgdlprgkGILSPVASPHAAAQLPLEKE 695 
+                          3666668999999999**99999876432134468899999988877777888899999766665544211222333444578889*** PP
+
+            99at5820  493 kkkiedikkvckklldlylniilslkysnenyikiLyiiskllLyinneelikkvlevyiyyflvffnstinnveisdissiynndsqi 581 
+                          ++k+e+ ++vc+k+l+lyl+++++lk+s+eny+k+Lyiiskl+Ly+nn+el+kkv+e +i+yflvff++t+nn+++s+is+ yn+d q+
+  PVP01_0821600.1-p1  696 RRKAEETTAVCSKMLALYLSMLPTLKRSSENYRKLLYIISKLVLYVNNDELTKKVIEECIHYFLVFFHATVNNASVSEISGGYNKDLQV 784 
+                          ***************************************************************************************** PP
+
+            99at5820  582 kinyinlkelPnyniinsfriiLqkclnkihlivvftnqilkvayalLyilinknysinnsksivkkitsnsyvstfieiieifnifis 670 
+                          +iny+++++lP+y++insfr+iLqkcl+kihliv+f+++ lkvaya+L+ +in+ny+++n+k+i+++itsn+yvstf+e++e+fnifi+
+  PVP01_0821600.1-p1  785 HINYSSVRGLPQYSVINSFRSILQKCLTKIHLIVGFASHTLKVAYAILLTMINQNYTMSNAKGIANYITSNVYVSTFVEVMELFNIFIT 873 
+                          ***************************************************************************************** PP
+
+            99at5820  671 CiytnnlvfnllkeklksnnkveiivsLiiLkqyillissdlssdniivylsnqnikkk.keykksfkkLnsfisDtek.nntnielii 757 
+                          C+yt+nlv+++++ek+ks++kve+ivsL++L+qy+llis+d++s+n +v+lsnqn+k+k + ykk+fk+L+sfi+D+++ n++n+el+i
+  PVP01_0821600.1-p1  874 CAYTSNLVLSFIREKVKSSVKVEVIVSLTLLRQYLLLISGDIGSGNNMVHLSNQNMKTKgGPYKKCFKRLSSFITDANRtNTSNVELVI 962 
+                          **********************************************************9779****************9999******* PP
+
+            99at5820  758 qivaslserfnnDLsiiyllLeisLlLsyheyfnsfsynpnvilgLlpkvssPLlvlyk.eeakkeevsekiqikdnatskenslnldk 845 
+                          q+va+ls+rf+nDLsiiy+lLei+LlLsyh++f+s s+npnvilgLlp+vssPL++ly+  ea+++   e+   ++++ + ++s +   
+  PVP01_0821600.1-p1  963 QMVANLSDRFCNDLSIIYMLLEINLLLSYHQHFDSSSFNPNVILGLLPRVSSPLCDLYMgGEAEQSGKGEQSGKSRKSGKGKQSGK-SG 1050
+                          **********************************************************8677777766655543333322222222.22 PP
+
+            99at5820  846 kekniy.................eekrnnmedeiktWlliPnkyvikilqlllnillseeskfklknkkyGysvdengtiidinnesne 917 
+                          k +                     +   +  +eiktWlliP+k+viki+++l+n llseeskfk++nkkyGy vd++gtiid+nn++ne
+  PVP01_0821600.1-p1 1051 KGE--AlppsgeppleghhpgerINPMGHHGQEIKTWLLIPSKHVIKIMHFLINTLLSEESKFKKQNKKYGYEVDDSGTIIDANNNANE 1137
+                          211..123556667777777443444455679********************************************************* PP
+
+            99at5820  918 vlkngfkynklfyDihlhffiymlPsvsyikkLislafqknfslysprvLypLlfeylvniknsykivlllLkaLniiCisLynymvkk 1006
+                          vl+ngf++n++f+D+h+++fi+m Psv+y+kkLi+laf+k++++ysprvLypLlfe+lv++k+s+kiv ++LkaLni+Ci+L+n+mvkk
+  PVP01_0821600.1-p1 1138 VLQNGFHHNRMFFDVHWNYFIFMDPSVPYVKKLIALAFEKHLCFYSPRVLYPLLFELLVDVKRSFKIVATILKALNIMCILLHNHMVKK 1226
+                          ***************************************************************************************** PP
+
+            99at5820 1007 nLrihsrlhfnylvLPniskiisvLfmyclhenfvvsfLslqLisilrsftqnksiksvqsltyfelllkvlkl..............k 1081
+                          +Lr+hsrlh+nylvLPnis++isvLfmyc+h+++vvsfLslqLisilrsftq+ksi+svqs+tyfelll++++l               
+  PVP01_0821600.1-p1 1227 HLRLHSRLHYNYLVLPNISNVISVLFMYCTHSDIVVSFLSLQLISILRSFTQGKSIASVQSFTYFELLLSLVRLssqavarkgdraaaP 1315
+                          ***************************************************************************************99 PP
+
+            99at5820 1082 lleeslysrkilkei...........rkkkekekkakyyksliklsykkiakriskkllnvyLks......kkkkrkinkiikkyfnvd 1153
+                          l++ slysr+ilk+i           +k+++++k+a+yy+sl+k +y++ia+ isk++l+v+L++      k ++rk+++i+++yf+vd
+  PVP01_0821600.1-p1 1316 LAGGSLYSRRILKRIialsgggkkkpQKHTAAVKRARYYRSLVKGCYREIARGISKRVLDVSLNVsrgacrKGWRRKVRAIARHYFSVD 1404
+                          ***********************99989999*********************************999999999**************** PP
+
+            99at5820 1154 lkei...................................................ieslslkitkilrllkklfssyvkkeiekiynyq 1191
+                          l+                                                     +esls+++t+il+l++++fssyvk+ei++iyny+
+  PVP01_0821600.1-p1 1405 LGGAsnerhasekhanetplgaippmvstpctldvgtlvganppgegeastchaaTESLSSRFTRILHLMQTFFSSYVKVEISRIYNYH 1493
+                          ***************************************************************************************** PP
+
+            99at5820 1192 tyiitffyilvellriiqsnkefentlfylsiinllCvivkylkekyanklitiffkLneevaineeenllltLyknfsyiykthffnl 1280
+                          +y++tffy+lvel+r+++s++efe+tl+yls+inllCvi+k++++kyank+itiffkLneev++neeenl+ltLy+nfs+iy++hff l
+  PVP01_0821600.1-p1 1494 SYVTTFFYSLVELVRLLKSSQEFESTLLYLSVINLLCVIIKQFSGKYANKMITIFFKLNEEVPVNEEENLFLTLYMNFSTIYRSHFFIL 1582
+                          ***************************************************************************************** PP
+
+            99at5820 1281 ykekCttlytknCiecikllrkdi...kkssenqlDfnnfilLsnkynsDiskeknienvlqylneyqkvykknilkidekree..... 1361
+                          ykekCtt y++nCieci+l+r+d+   kks+enqlDfnnf+lLsnky++D+s+ekn++++++ylneyq+vy++++l++   +e      
+  PVP01_0821600.1-p1 1583 YKEKCTTPYMRNCIECIQLMRADClsfKKSTENQLDFNNFMLLSNKYSTDMSREKNVSRFVHYLNEYQAVYRARLLQLGICSEGgggph 1671
+                          ***********************9999***************************************************88777688899 PP
+
+            99at5820 1362 ......................krlesevvnkekkkvn.leklkkkLdksnevvkksvelledklgsyilqndinfsisksfkqeitsy 1427
+                                                  ++++vv++++ +vn +++lkk+L++snevv+ks++lledklgsyilqndi+fsisk+f+q++ts+
+  PVP01_0821600.1-p1 1672 hkgekkhmdvkripptgenfhdGAMQNKVVHETTLQVNhQDDLKKRLYQSNEVVRKSYQLLEDKLGSYILQNDISFSISKQFHQDVTSH 1760
+                          99999************9999866899999999999873689*********************************************** PP
+
+            99at5820 1428 yiesllkkknllrvlfllnniyysDvankkssafslfGkssnvinaenirntLiLsmGlclkkipskkfedLykirevyvnekifaiyv 1516
+                          yies+l+k+nl+rvlflln+iy+sDvan+kssafs+fGks+nvinaenir+tLiL+mG+cl+k+ps+k++dL+ ir+vy+nek+faiyv
+  PVP01_0821600.1-p1 1761 YIESILHKNNLFRVLFLLNSIYHSDVANRKSSAFSIFGKSTNVINAENIRSTLILTMGKCLRKVPSSKVRDLHVIRDVYMNEKLFAIYV 1849
+                          ***************************************************************************************** PP
+
+            99at5820 1517 kkvyvnlvkyn.afenilfdkddsv..ieeivkeiisnkqkyvdekykdeinlnikikkellsslekeesasse.............ks 1589
+                          k+vyv+l++y+ ++ n+++++dds    e+iv+e++sn+q+yvde+yk+ei++n+ +++++ls +ek++s +s+             + 
+  PVP01_0821600.1-p1 1850 KHVYVPLARYStSLGNAIHGRDDSPltEEHIVREVLSNRQRYVDERYKEEIKMNALVRRDILSGVEKRDSGESSqcgpppmsakvnvN- 1937
+                          *********97369**********866799****************************************999855555555544440. PP
+
+            99at5820 1590 s....................ssnlskeklsllifqlLvDPiiislyqekeavlqksLlkslkkiskklkkikeki............. 1645
+                          +                     + l++ek++ll+fqlLvDPii+sly+ekea+lq+sLl++lk++skklk+i+                
+  PVP01_0821600.1-p1 1938 AsvsasvnsaslanaanpanlWKRLPSEKINLLVFQLLVDPIICSLYEEKEATLQASLLRALKMVSKKLKCIRAPGgeaahrhrmkwdh 2026
+                          044444555556666666554556*************************************************6659999********* PP
+
+            99at5820 1646 ....................lnylDiknkrciikDiCeeylkenlnevkfysclyiykfiiiyssLyylsnidnltlPisnisltsvek 1714
+                                              +n+lD ++++c+ +D+C++y+ken+++v+fyscl+iyk+i+i+s+Lyy++n+d+++lPis++++t+v  
+  PVP01_0821600.1-p1 2027 yanrvrgnleatttpqpyvvTNTLDRPTRWCSTQDVCDHYMKENVKDVPFYSCLCIYKYIVIHSALYYVANFDEQPLPISSMTFTGVGL 2115
+                          ***************************************************************************************** PP
+
+            99at5820 1715 falyfkr...eiinkseyylkeeikkkesedeqtsneeki......lelekeefyikeik.ldkkielk.......snkviyndyfsel 1786
+                          +alyfk+   +i++kse++l+e++k + s++++ sne+k+      l+l+ke+++i +i+ ++++ie++       s++viyndyfs+l
+  PVP01_0821600.1-p1 2116 YALYFKQerrIITSKSEHQLREDLKASGSNGSNGSNESKKknqfeeLHLQKEQHIIGKIDmWGRMIEWEyrtidapSERVIYNDYFSDL 2204
+                          ******87778***************99888877776633355666899*********964789998875555555899********** PP
+
+            99at5820 1787 lke......................kldiskdsyeillnaLktiyyslfireplnfqsvfiivdvLinLlLkivlnekkkiyqkfqenk 1853
+                          +ke                      +ldi +d+y++l+naLk+i+y+lf++ep++f+s++iivdvL++LlLkivlne+k++y k+++++
+  PVP01_0821600.1-p1 2205 VKErgskndstqggaspghsppsepHLDIPSDTYANLKNALKSIHYCLFVEEPMQFHSALIIVDVLTRLLLKIVLNERKQMYCKWHDSA 2293
+                          *984444444444444444444444589************************************************************* PP
+
+            99at5820 1854 e...............................kiknlrekelkekkkkkkeikkkrkkklekekikkk..geeiaedsnnesnnk.... 1905
+                          +                               +++++r+++ +ek+k+k+ + +k k+++ k++++k+    + ++++n +  n+    
+  PVP01_0821600.1-p1 2294 DvvgqgpnmagqnadesltnegvaakngasnlDTAHVRSDQPEEKQKNKSANISKGKRTIPKGNVTKEkkLPQGVNHTNGKMRNNeltg 2382
+                          ******************************9999999************999999***********76332345566663333334888 PP
+
+            99at5820 1906 .........................................kdeekenkledkdaklkkkltkekkkkkkrkksekkkne......... 1944
+                                                                    de++ +k    d++    ++++kkkkk++k+ e++++e         
+  PVP01_0821600.1-p1 2383 gtpngeeqtehhggatsshvahqrggdgrakwdgrrksqrgADEDTGSKGILPDEHF-PGVAEQKKKKKSSKRIERGHTEghtddplra 2470
+                          999999999999999999999********9999999888874444444444445555.5566666666667777777777777777777 PP
+
+            99at5820 1945 ..........nnkifknlskyekislsclnliisiivkavldinsffllskiikyihdlcvstniaevkflsfriiteivinsa..... 2018
+                                    n+k f++l+kye ++lsclnli siivka+l+++sf+l++kiiky+hd+cv+tniaevkf+sfri+++ivi++a     
+  PVP01_0821600.1-p1 2471 nrrenkllhsNSKPFRYLRKYEGAALSCLNLISSIIVKAALRMDSFPLQFKIIKYLHDTCVATNIAEVKFVSFRILSQIVISAArvgtp 2559
+                          7777777777*************************************************************************9***** PP
+
+            99at5820 2019 ..............................ekseeketkekekkk.kekekk....keeeneneeenksllsynssnfekyfslifsss 2072
+                                                        +k+++  +++ +++k k++e++        n+n++e k+l+s+nssnfekyf+lifs+ 
+  PVP01_0821600.1-p1 2560 nggcrmgpldgappaedtqtghlkvcrlseKKHHHGGEIDGDRSKgKRHEDEathgGGRANRNDHEGKNLSSCNSSNFEKYFNLIFSPG 2648
+                          *************************999873333333333332220111222233466789**************************** PP
+
+            99at5820 2073 snisygnlfDlnnekekkeeeaens..........vsdkdkeneekekssekylnssnenek........nkeekdekekdklndaegs 2143
+                          +nisygn+fD+n+e++++ + +e s          +s+++   + +++sse+yl s  + e         +        ++  + ++g+
+  PVP01_0821600.1-p1 2649 GNISYGNFFDANDEHGGMPNRNEGShesgggdsgrCSSHRGGPDGQNDSSEHYLDSVSNAEGnviketaiE-------GAGGNHLHRGE 2730
+                          **************9988764443333454444445566667799********977665555243322220.......22222222222 PP
+
+            99at5820 2144 .....ssksk..............................................................sldekneakeeknylCe 2165
+                                   +                                                              + d k+eak e+nylCe
+  PVP01_0821600.1-p1 2731 ttlrgE---SggagklnghmgsdkgsnssimydpsdsdsppggaadhvphmdeggslqeqssgekneakneaKSDVKSEAKGERNYLCE 2816
+                          223330...13344455556666666788999999*************************999999988877666679*********** PP
+
+            99at5820 2166 CiglLiPyikDkekiisylsicsicvllgklkkvkilskshfiyfflnslevilnvlsklkkkakkkkkkekkkklikk.......... 2244
+                          CiglLiPy+kD+e++isyls+cs+c+llgkl++ ++ls++hf++ff+n++evil+ ls+   +  + ++ ++k + ++           
+  PVP01_0821600.1-p1 2817 CIGLLIPYVKDPERVISYLSVCSVCALLGKLQRGRMLSNWHFVHFFFNRIEVILDGLSSPVTNRVRGRRAKRKAERERAtwkgkldgqi 2905
+                          *******************************************************9998655544444444433222222322344447 PP
+
+            99at5820 2245 ....kklsdkekentlekdkinekkeeeks..ekkkke................................................... 2276
+                              k + d ++ ntle+d  n+ ++   +  e+   +                                                   
+  PVP01_0821600.1-p1 2906 gntwKGKFDGQTGNTLEEDPPNQPNSGAANcdEHP--Teetfrdegeginektccsdgggsdgggsvredevgeiaydeakvtkeglng 2992
+                          76776777888888998885554444333310222..13578999******************************************** PP
+
+            99at5820 2277 ....................kfsyknirknlyniefekkfykkvekkikeinsekyqkkfikkls....nkkkeinlyklindiiiedf 2341
+                                              ++sy+n+r+n++++e ++ f+ kv ++i+eins++yq++fik+l+    n++ke+n+yk ++d i+e++
+  PVP01_0821600.1-p1 2993 lprcerghrreprhrrlappRISYQNVRSNMRTVERHNYFLVKVGTRIREINSGTYQTRFIKRLGqltnNTRKETNVYKAMSDAISEVL 3081
+                          ****************************************************************9999999****************** PP
+
+            99at5820 2342 sedekksyvntLiscihnknkkvsinglnlLmyyilkekidkedieiimnrvlselyyytkvnvlneksknn................. 2413
+                          s++ek+syvn+Liscihnkn++v+i+glnlLmy++++e+++++di++im+rvl+e++yytkvnvl+++ ++                  
+  PVP01_0821600.1-p1 3082 SNEEKMSYVNCLISCIHNKNRQVAISGLNLLMYHTWAEQMSHQDIDVIMSRVLNEVHYYTKVNVLSGSGESPpsgsfskaapprgtdep 3170
+                          ********************************************************************988788999999999999999 PP
+
+            99at5820 2414 ............akakik......dnnekdrenekkkenelnntleayynikkkrkkknilersLriilllCrkhfyvvinklCtlqsk 2484
+                                      a+++i+      + n++d +++++++n+ +n  ++    +k  + +n+ler+Lr il+lCrkh+yvv+nklCtlqsk
+  PVP01_0821600.1-p1 3171 nstleayrimcrARQDIEgppkgiSINRCDIRSDNRRDNQRDNPRDNL--RDKPVRGPNVLERALRTILVLCRKHPYVVVNKLCTLQSK 3257
+                          999888888844222333666655688888888888888888888874..58999********************************** PP
+
+            99at5820 2485 ynyehiyfiymiCnnekllsktldylfyilnnldtlklnnnlsnilsllfhflkfrnkyiknytkkyfveLflivfyvLGvkqLshlsg 2573
+                          y+yeh+yfi+miCnne+ll+kt+dylfy++n+ldtlkl++nlsnilsl+fhflkfrn yi++yt++yfveLf+i+f+vLGvkqL+h+sg
+  PVP01_0821600.1-p1 3258 YSYEHVYFIFMICNNERLLHKTMDYLFYLMNSLDTLKLTKNLSNILSLVFHFLKFRNGYIRDYTRRYFVELFVIMFFVLGVKQLGHMSG 3346
+                          ***************************************************************************************** PP
+
+            99at5820 2574 .........................eksldkenllkeekeeek......eeekakeeni........lekereeadkaidkekdkagia 2623
+                                                   +      ++ +  +++++      ++++ + +++                              
+  PVP01_0821600.1-p1 3347 vlagaakgravvaekvfppsgllggQ------HYAEGGEQVKEqakceaKSQRGEADKTeeaigvgsP--------------------- 3408
+                          *************8887774444441......433333333331111111111111111122222220..................... PP
+
+            99at5820 2624 e............................................eenikveeennnekss....ekeeatkkkkeaevnkslfflkkk 2664
+                          e                                            ++   ++++nn e +s      +++ +++ ++ vn+s+ffl+++
+  PVP01_0821600.1-p1 3409 ElpeqahevdqkedpiarvaekfqerrglpgrsntkgaptqsssyTKGSPTQSRNNAEGNSrdgaPLHTESDDNFAKVVNGSPFFLRRN 3497
+                          1222223333444555556677888888999999999998877763333444444444444233322334444556779********** PP
+
+            99at5820 2665 silksknikkvskeeynkkiyknytcsisvnntlnClniikellkLnkkkkiLnyyeehkveklLyykhsfenGLikliyifLkn.... 2749
+                          sil+s+++kkvs+ e++kkiy+nytcsisvnntlnC++iikellkLn +k+iL+++ee++veklLyykhsfenGLi+l+ i+L++    
+  PVP01_0821600.1-p1 3498 SILRSRDVKKVSRGEFSKKIYQNYTCSISVNNTLNCVRIIKELLKLNGRKRILRRIEEGRVEKLLYYKHSFENGLIELVRIVLSSlggs 3586
+                          ***************************************************************************************** PP
+
+            99at5820 2750 .....rndcikvfkfleiflksdninyiiisliiLsqlllCikieeenlkiieplikvLysinckkyknslvtkyLhisfknlfiifkd 2833
+                               r++c+kvf fleiflks+niny+iisl++LsqlllC++ie+en++++ep+ikvLy++nc+++ n++vtkyLh++f+nlfiifk+
+  PVP01_0821600.1-p1 3587 aprceRGHCRKVFGFLEIFLKSRNINYVIISLVTLSQLLLCMRIEPENVRLVEPIIKVLYQVNCTHK-NDVVTKYLHLCFTNLFIIFKA 3674
+                          *****************************************************************65.********************* PP
+
+            99at5820 2834 ik.yqlekglelfsllikeeyalniLnsLfknldnndknivketLkafkeackyesekWPsslcasfikiLtdpkviliylnsseamek 2921
+                          i+ yqle+g+e++++likeey++n+LnsLf++ld++d+nivk+tLkafkeacky++e+WPs+lcas++++Lt+p+v+l+ylnssea+ek
+  PVP01_0821600.1-p1 3675 IReYQLETGSEPVPVLIKEEYTINVLNSLFVYLDSSDRNIVKVTLKAFKEACKYAREQWPSPLCASYVNMLTTPSVVLPYLNSSEAAEK 3763
+                          *55************************************************************************************** PP
+
+            99at5820 2922 iyiCkilceifrtlrrekek...........klkkkhlyeiatyLlihLvDkrkkvsknvWlaLkellkfkfsdhvndtLlyfdeklfl 2999
+                          i++C+il+e+frtlr+e+++           +l kkhlyeiatyL+ihLvDkrk+vs+nvW+aLke+l++kfs+hvn+tLl+fd+klfl
+  PVP01_0821600.1-p1 3764 ILMCGILREVFRTLRWERQHkgglapptqtdTLPKKHLYEIATYLMIHLVDKRKNVSANVWKALKEFLRWKFSHHVNSTLLFFDRKLFL 3852
+                          ***************************************************************************************** PP
+
+            99at5820 3000 skeek......................eqkeinikkeyfkkkkak.........................gskkeiseg.vsnvpakee 3040
+                          ++ ++                      + ++i+i++eyfk+  a+                         gs++ei+ g vs+vpa++ 
+  PVP01_0821600.1-p1 3853 PSGVEvgryevvrsqvcrssvgmsqvdRARRITIQREYFKGASAEegeqvategadydyfakglawdeksGSVGEINGGmVSCVPADTP 3941
+                          *************************99899*********98777789999999999999999999999988889999886677777766 PP
+
+            99at5820 3041 kkilnkaaek........................ekkkekkkkke.........kktnksdeesdnsesesskevkkqkiniyyykllv 3096
+                             +++ +ek                        +         +           +nksdeesd s+++ss evkk++in++yykllv
+  PVP01_0821600.1-p1 3942 TGGHTNGVEKahqqkvaphgrnttgetrkkgkkkK---------RnrnrrhstnSAANKSDEESDVSQAYSSPEVKKERINTHYYKLLV 4021
+                          53333322223445667778888887654433211.........22234455557789******************************* PP
+
+            99at5820 3097 eifiPLiiCiDtkvsykknlfaelnkyLyendleekeeennsl...kkendeLyniffkelklnlkninslyrayiiLlnsrkyldkkl 3182
+                          ei+iPLiiCiDtkvs+k++lfaeln yLy++d++ +ee+++sl   kke+d+L++iff++l++nl++ins+yra+iiLl+sr+yl+ ++
+  PVP01_0821600.1-p1 4022 EICIPLIICIDTKVSLKRDLFAELNGYLYGADVDPNEEDRDSLlsvKKESDRLQQIFFTNLQMNLSSINSVYRAFIILLSSRSYLGPNV 4110
+                          ***************************************9986555899**************************************** PP
+
+            99at5820 3183 wnvnipisedvikmikeyelkstksraehvLfGdLknyvkeeiekie........................kkkekskennisksftsv 3247
+                          wn+nipi++d+++mi+eye+kstksraehvLfGdL nyv+  + +                          k++e + e++++ks+tsv
+  PVP01_0821600.1-p1 4111 WNANIPINQDIERMISEYEVKSTKSRAEHVLFGDLSNYVHAWKRRERtdrggradiggrtnrgeekqnkrkKQREATGEDAMQKSITSV 4199
+                          ***************************************765543335588899999999999999999877778899*********** PP
+
+            99at5820 3248 ltdsilntlsetlnysyDnfflnd.svs...kseisk.ekdskegnakeelenykv......................ndsdeedelvy 3309
+                          +tdsil+tls+t+nysyD++f+n+ svs   ++e+++  kds+eg+a ++++n+ +                      ++s++e+ + +
+  PVP01_0821600.1-p1 4200 WTDSILSTLSGTFNYSYDGAFFNSlSVSgsvEKEYTHrGKDSTEGDAIRTPHNCSRagwshqairmintsgsappngdTSSEAEN-ADV 4287
+                          ********************99963333222456666699**************999*****************99753333333.443 PP
+
+            99at5820 3310 ekkekenkiesskfdkv.....lsereeekensaigeneenn...esidekeeenlkke.............................. 3360
+                            k++e k+++ +++++     l +re++k+++aig++ e        d+ + e+++k                               
+  PVP01_0821600.1-p1 4288 C-KGEEPKEGPPPQGRAisthnLPSREGKKDHAAIGPSGEPPsdePPSDDGQGEEVNKVapleegqgtplqrefpsleykrsrsfdpge 4375
+                          4.67789999999999966666667889999999998855435554455555555555566677777777777**************** PP
+
+            99at5820 3361 ..nnenyaifisssdeeeekeeeekre.................................kqfikrklkkiqllnkkynfvdkfknvqn 3414
+                            ++enya+f+sssde+e   +e++ +                                 +qf++rk++kiqlln+ky++vdkfk+ +n
+  PVP01_0821600.1-p1 4376 rlSDENYANFVSSSDEGEAAGKEASVKdayvrdapvgdsllkdvtppaellnytpgdrsaSQFVRRKFAKIQLLNQKYSCVDKFKTALN 4464
+                          *****************9977666655699*********************************************************** PP
+
+            99at5820 3415 lkleenlLywielLkflkedPpelvlskeik.....adffessLiCaLtvikfvsltlnckklykvtlkslnee............... 3483
+                          lk+e++lL+wie+LkflkedPpe++l++e+k     adffes+LiC+L+v+kfvsl+l+ckkl++vtlk + +e               
+  PVP01_0821600.1-p1 4465 LKMETSLLQWIEMLKFLKEDPPEFILPRETKaahhlADFFESALICTLSVVKFVSLSLDCKKLHRVTLKRMRREaqalevaptvnakls 4553
+                          *****************************994444459*********************************9999************** PP
+
+            99at5820 3484 ...............deekkieemyfihlLsistkLeaLcssiskqLctfLqeekt..........hlpiiksLsiLsiLkpsa 3542
+                                         + ++++ee+yfi+lLsi++kLeaLcssiskqLc+fLqe+++          hlpii++L+ LsiLkps+
+  PVP01_0821600.1-p1 4554 akvggagggeeephsHLQHRMEETYFIQLLSICMKLEALCSSISKQLCAFLQEQHApdrtpdraaeHLPIIRALAALSILKPSP 4637
+                          **************999***********************************97633333444455****************95 PP
+
+>> PVP01_0731600.1-p1  | transcript=PVP01_0731600.1 | gene=PVP01_0731600 | organism=Plasmodium_vivax_P01 | gene_product=
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?    3.8  26.6   0.00083       1.4    1844    1970 ..      63     193 ..      58     221 .. 0.42
+
+  Alignments for each domain:
+  == domain 1  score: 3.8 bits;  conditional E-value: 0.00083
+            99at5820 1844 kiyqkfqenkekiknlrekelkekkkkkkeikkkrkkklekekikkkgeeiaedsn.....nesnnkkdeekenkledkdaklkkkltk 1927
+                          ++ q+ +e+k++++++++++ + k+++++++++ ++ k++ e+ k++ ee++++++     +e+++++ e+++++ e+ +++++++ ++
+  PVP01_0731600.1-p1   63 QMKQHTEETKQHTEETKQHTEETKQHTEQTKQHTEQTKQHTEQTKQHTEETKQHTEqtkqhTEQTKQHTEQTKQHTEQTKQHTEQTKQH 151 
+                          44455555554333333333333322222222222222222222222222222222111002222222222233333333333333333 PP
+
+            99at5820 1928 ekkkkkkrkksekkknennkifknlskyekislsclnliisii 1970
+                          ++++k+++k++ ++++ +    +  +ky ++ ls+ + i +ii
+  PVP01_0731600.1-p1  152 TEQTKQHTKHTGHTEQTERAANHVAQKYSNVILSS-DEISAII 193 
+                          33334444444444444555566677888887776.4444444 PP
+
+>> PVP01_1005900.1-p1  | transcript=PVP01_1005900.1 | gene=PVP01_1005900 | organism=Plasmodium_vivax_P01 | gene_product=
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?    1.3  17.0    0.0048       7.8     383     536 ..      36     191 ..      16     206 .. 0.49
+
+  Alignments for each domain:
+  == domain 1  score: 1.3 bits;  conditional E-value: 0.0048
+            99at5820 383 eifndnikqeklykkkekekssehliknanngekeeskekdsdskaesekeklilksnikdkkesdlaseeenkedkytvekedengknkd 473
+                         + f dn+ ++ l +kk+++++ e   ++ +++e++ +++ +s++++  e+ +++ ++++++k+ +++++++ +++++ +v  + +++  + 
+  PVP01_1005900.1-p1  36 KRFMDNLVNSFLSEKKKRKDQEED-EEEGEEDEEGTEQNDSSENSSGAENGDNLEEKERRKKDGKEKKKKSVKEKKQNQVPVNMQKSLLET 125
+                         335666666555555544433333.333333333444444444444444445555555444444444444333333333333344444444 PP
+
+            99at5820 474 ekeeklkkkdavknseekekkkiedikkvckklldlylniils.lk..ysnenyikiLyiiskllL 536
+                           + kl+ +++  ++ e  +kk e+i +  +k l+  l+ + +  k    +en++ i  + sk  L
+  PVP01_1005900.1-p1 126 FYKMKLQAQNNEVDETEEIRKKEEKILAQVSKALNAPLQSVKErAKgiVYSENFKTIWTLPSKYKL 191
+                         444444444444444555566666676666677777666544313322346777777776666655 PP
+
+>> PVP01_1122200.1-p1  | transcript=PVP01_1122200.1 | gene=PVP01_1122200 | organism=Plasmodium_vivax_P01 | gene_product=
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?    0.7  11.2    0.0074        12    1839    1945 ..     234     358 ..     213     389 .. 0.38
+
+  Alignments for each domain:
+  == domain 1  score: 0.7 bits;  conditional E-value: 0.0074
+            99at5820 1839 lnekkkiyqkfqenke.........kiknlrekelkekkkkkkeikkkrkkklekekikkk...geeiaedsnnesnnk...kdeek.. 1910
+                          +n k+++ +   +++          ++k+ ++++ ++ + k++ +k+k+kk   +++i k+   g  +ae +n ++ n+   +   k  
+  PVP01_1122200.1-p1  234 VNRKNRLGEGAPKEQGtraersqtdEAKDEETHHSNDVMIKDRGVKEKYKKLRFEDDIYKEnadG--KAEATNGQDPNQgetN---Kme 317 
+                          33444433333332222222221111222222222222223333333333333333333331111..1111111111111111...111 PP
+
+            99at5820 1911 ......enkledkdaklkkkltkekkkkkkrkksekkknen 1945
+                                + + + + +++++++++++k+++++kk++ ++n+ 
+  PVP01_1122200.1-p1  318 ekspisKDNQNVEPTNANNTSEEKNKTEENAKKNTTSENDG 358 
+                          11233322222222222222222223333333333333333 PP
+
+
+
+Internal pipeline statistics summary:
+-------------------------------------
+Query model(s):                            1  (3542 nodes)
+Target sequences:                       6523  (4223260 residues searched)
+Passed MSV filter:                      3465  (0.531197); expected 130.5 (0.02)
+Passed bias filter:                      402  (0.0616281); expected 130.5 (0.02)
+Passed Vit filter:                       186  (0.0285145); expected 6.5 (0.001)
+Passed Fwd filter:                        83  (0.0127242); expected 0.1 (1e-05)
+Initial search space (Z):               6523  [actual number of targets]
+Domain search space  (domZ):               4  [number of targets reported over threshold]
+# CPU time: 6.10u 0.10s 00:00:06.19 Elapsed: 00:00:06.18
+# Mc/sec: 2420.42
+//
+[ok]

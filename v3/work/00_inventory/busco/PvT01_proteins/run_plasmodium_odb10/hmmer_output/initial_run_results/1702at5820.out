@@ -1,0 +1,25 @@
+#                                                                            --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name        accession   tlen query name           accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+#------------------- ---------- ----- -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+SCO66631.1           -           1717 1702at5820           -           1168         0 1468.4 180.7   1   7   7.8e-81   9.5e-78  260.5   9.9     1   178     1   209     1   217 0.87 merozoite surface protein 1 [Plasmodium vivax]
+SCO66631.1           -           1717 1702at5820           -           1168         0 1468.4 180.7   2   7   6.3e-34   7.6e-31  105.1  14.3   175   277   273   394   269   407 0.83 merozoite surface protein 1 [Plasmodium vivax]
+SCO66631.1           -           1717 1702at5820           -           1168         0 1468.4 180.7   3   7   1.7e-77     2e-74  249.4  36.8   275   512   418   699   416   703 0.87 merozoite surface protein 1 [Plasmodium vivax]
+SCO66631.1           -           1717 1702at5820           -           1168         0 1468.4 180.7   4   7   1.4e-51   1.7e-48  163.6  11.9   511   620   794   908   789   914 0.92 merozoite surface protein 1 [Plasmodium vivax]
+SCO66631.1           -           1717 1702at5820           -           1168         0 1468.4 180.7   5   7   1.1e-98   1.3e-95  319.6  32.1   619   848   981  1226   972  1239 0.93 merozoite surface protein 1 [Plasmodium vivax]
+SCO66631.1           -           1717 1702at5820           -           1168         0 1468.4 180.7   6   7   1.1e-55   1.3e-52  177.2   4.9   845   983  1314  1465  1302  1470 0.89 merozoite surface protein 1 [Plasmodium vivax]
+SCO66631.1           -           1717 1702at5820           -           1168         0 1468.4 180.7   7   7   1.1e-69   1.3e-66  223.6  24.5   947  1168  1464  1715  1463  1715 0.84 merozoite surface protein 1 [Plasmodium vivax]
+SCO67890.1           -            487 1702at5820           -           1168   2.2e-15   53.9  19.6   1   2      0.22   2.7e+02   -2.7   2.1   655   725   189   262   175   268 0.68 merozoite surface protein 8, putative [Plasmodium vivax]
+SCO67890.1           -            487 1702at5820           -           1168   2.2e-15   53.9  19.6   2   2   1.8e-18   2.2e-15   53.9  19.6   969  1167   275   483   272   486 0.74 merozoite surface protein 8, putative [Plasmodium vivax]
+SCO68190.1           -            479 1702at5820           -           1168   2.2e-11   40.7  13.5   1   1   2.4e-14   2.9e-11   40.3  13.5  1064  1165   361   473   321   476 0.78 merozoite surface protein 10, putative [Plasmodium vivax]
+SCO69558.1           -            358 1702at5820           -           1168     4e-06   23.3   9.5   1   1   4.2e-09   5.1e-06   22.9   9.5  1074  1166   249   355   218   357 0.73 conserved Plasmodium protein, unknown function [Plasmodium vivax]
+SCO65689.1           -            242 1702at5820           -           1168       1.5    4.8   5.0   1   1    0.0015       1.9    4.5   5.0  1107  1163   174   236   168   241 0.54 merozoite surface protein 4, putative [Plasmodium vivax]
+#
+# Program:         hmmsearch
+# Version:         3.4 (Aug 2023)
+# Pipeline mode:   SEARCH
+# Query file:      /v3/work/00_inventory/busco/busco_downloads/lineages/plasmodium_odb10/hmms/1702at5820.hmm
+# Target file:     /v3/inputs/annotations/ncbi-datasets/PvT01.proteins.fa
+# Option settings: hmmsearch --domtblout /v3/work/00_inventory/busco/PvT01_proteins/run_plasmodium_odb10/hmmer_output/initial_run_results/1702at5820.out --cpu 1 /v3/work/00_inventory/busco/busco_downloads/lineages/plasmodium_odb10/hmms/1702at5820.hmm /v3/inputs/annotations/ncbi-datasets/PvT01.proteins.fa 
+# Current dir:     /v3/work/00_inventory/busco
+# Date:            Tue May 19 18:35:27 2026
+# [ok]

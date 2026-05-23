@@ -1,0 +1,16 @@
+#                                                                            --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name        accession   tlen query name           accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+#------------------- ---------- ----- -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+PVP01_1020200.1-p1   -            731 3490at5820           -            592  9.4e-257  852.0  39.5   1   2  2.6e-217  8.5e-214  710.1  30.4     1   497    24   606    24   620 0.89 | transcript=PVP01_1020200.1 | gene=PVP01_1020200 | organism=Plasmodium_vivax_P01 | gene_product=secreted ookinete protein, putative | transcript_product=secreted ookinete protein, putative | location=PvP01_10_v2:876065-878529(-) | protein_length=731 | sequence_SO=chromosome | SO=protein_coding_gene | is_pseudo=false
+PVP01_1020200.1-p1   -            731 3490at5820           -            592  9.4e-257  852.0  39.5   2   2   6.1e-47     2e-43  147.5   1.7   498   592   628   730   625   730 0.97 | transcript=PVP01_1020200.1 | gene=PVP01_1020200 | organism=Plasmodium_vivax_P01 | gene_product=secreted ookinete protein, putative | transcript_product=secreted ookinete protein, putative | location=PvP01_10_v2:876065-878529(-) | protein_length=731 | sequence_SO=chromosome | SO=protein_coding_gene | is_pseudo=false
+PVP01_0532400.1-p1   -            362 3490at5820           -            592   2.1e-24   84.7  18.4   1   1   9.1e-28     3e-24   84.2  18.4    18   260    46   346    35   358 0.74 | transcript=PVP01_0532400.1 | gene=PVP01_0532400 | organism=Plasmodium_vivax_P01 | gene_product=cysteine-rich protective antigen | transcript_product=cysteine-rich protective antigen | location=PvP01_05_v2:1368607-1369931(-) | protein_length=362 | sequence_SO=chromosome | SO=protein_coding_gene | is_pseudo=false
+#
+# Program:         hmmsearch
+# Version:         3.4 (Aug 2023)
+# Pipeline mode:   SEARCH
+# Query file:      /v3/work/00_inventory/busco/busco_downloads/lineages/plasmodium_odb10/hmms/3490at5820.hmm
+# Target file:     /v3/inputs/annotations/plasmodb-68/PvP01.proteins.fa
+# Option settings: hmmsearch --domtblout /v3/work/00_inventory/busco/PvP01_proteins/run_plasmodium_odb10/hmmer_output/initial_run_results/3490at5820.out --cpu 1 /v3/work/00_inventory/busco/busco_downloads/lineages/plasmodium_odb10/hmms/3490at5820.hmm /v3/inputs/annotations/plasmodb-68/PvP01.proteins.fa 
+# Current dir:     /v3/work/00_inventory/busco
+# Date:            Tue May 19 17:37:01 2026
+# [ok]

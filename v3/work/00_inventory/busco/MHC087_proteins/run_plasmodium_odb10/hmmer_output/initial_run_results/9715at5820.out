@@ -1,0 +1,20 @@
+#                                                                                                             --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name                                         accession   tlen query name           accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+#                                 ------------------- ---------- ----- -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+GCA_040114635.1|PVP01_1205000|PVP01_1205000.1|unknown -            417 9715at5820           -            357  2.6e-222  736.0  36.1   1   2  1.3e-167  2.7e-164  545.2  15.6     1   274     1   312     1   317 0.98 -
+GCA_040114635.1|PVP01_1205000|PVP01_1205000.1|unknown -            417 9715at5820           -            357  2.6e-222  736.0  36.1   2   2   8.5e-62   1.8e-58  197.1  13.2   256   357   316   417   311   417 0.96 -
+GCA_040114635.1|PVP01_0716100|PVP01_0716100.1|unknown -            357 9715at5820           -            357     1e-37  128.8  12.8   1   2   2.3e-07   0.00049   18.0   0.0     1    47     1    47     1    49 0.93 -
+GCA_040114635.1|PVP01_0716100|PVP01_0716100.1|unknown -            357 9715at5820           -            357     1e-37  128.8  12.8   2   2   3.5e-34   7.4e-31  106.2  15.4    72   340    49   303    42   308 0.84 -
+GCA_040114635.1|PVP01_1300800|PVP01_1300800.1|unknown -            487 9715at5820           -            357   2.4e-13   48.6  20.3   1   3      0.17   3.6e+02   -1.3   0.1    24    44    87   107    71   129 0.81 -
+GCA_040114635.1|PVP01_1300800|PVP01_1300800.1|unknown -            487 9715at5820           -            357   2.4e-13   48.6  20.3   2   3   3.7e-07   0.00077   17.4   0.4     6    45   197   237   193   241 0.88 -
+GCA_040114635.1|PVP01_1300800|PVP01_1300800.1|unknown -            487 9715at5820           -            357   2.4e-13   48.6  20.3   3   3   5.2e-13   1.1e-09   36.6  11.5    72   255   241   451   234   485 0.76 -
+#
+# Program:         hmmsearch
+# Version:         3.4 (Aug 2023)
+# Pipeline mode:   SEARCH
+# Query file:      /v3/work/00_inventory/busco/busco_downloads/lineages/plasmodium_odb10/hmms/9715at5820.hmm
+# Target file:     /v3/inputs/annotations/ncbi-datasets/MHC087.proteins.fa
+# Option settings: hmmsearch --domtblout /v3/work/00_inventory/busco/MHC087_proteins/run_plasmodium_odb10/hmmer_output/initial_run_results/9715at5820.out --cpu 1 /v3/work/00_inventory/busco/busco_downloads/lineages/plasmodium_odb10/hmms/9715at5820.hmm /v3/inputs/annotations/ncbi-datasets/MHC087.proteins.fa 
+# Current dir:     /v3/work/00_inventory/busco
+# Date:            Tue May 19 18:24:07 2026
+# [ok]

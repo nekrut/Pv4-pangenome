@@ -1,0 +1,22 @@
+#                                                                            --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name        accession   tlen query name           accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+#------------------- ---------- ----- -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+SCO70808.1           -            843 3707at5820           -            659         0 1235.0  29.2   1   2     0.023        29    1.2   0.1    13    46    62    94    52   113 0.67 sporozoite micronemal protein essential for cell traversal, putative [Plasmodium vivax]
+SCO70808.1           -            843 3707at5820           -            659         0 1235.0  29.2   2   2         0         0 1229.0  24.4    65   659   206   835   140   835 0.93 sporozoite micronemal protein essential for cell traversal, putative [Plasmodium vivax]
+SCO71989.1           -            783 3707at5820           -            659   1.5e-87  292.9  16.2   1   1   1.6e-90   2.1e-87  292.4  16.2    27   569   147   695   134   713 0.87 perforin-like protein 3 [Plasmodium vivax]
+SCO75420.1           -           1104 3707at5820           -            659   9.7e-87  290.2  17.9   1   2   1.8e-07   0.00023   18.0   0.0    74   114   463   503   411   526 0.75 perforin-like protein 2 [Plasmodium vivax]
+SCO75420.1           -           1104 3707at5820           -            659   9.7e-87  290.2  17.9   2   2   1.4e-84   1.8e-81  272.8  14.8   130   647   551  1073   542  1082 0.90 perforin-like protein 2 [Plasmodium vivax]
+SCO71307.1           -            662 3707at5820           -            659   4.1e-30  103.1   3.8   1   1   1.5e-32   1.9e-29  100.9   3.8    79   639    48   639    32   650 0.75 perforin-like protein 5 [Plasmodium vivax]
+SCO71305.1           -            705 3707at5820           -            659   2.1e-27   94.1  10.8   1   3   2.2e-16   2.7e-13   47.5   0.3    80   293    67   267    62   271 0.73 perforin-like protein 4 [Plasmodium vivax]
+SCO71305.1           -            705 3707at5820           -            659   2.1e-27   94.1  10.8   2   3   1.6e-15   2.1e-12   44.6   1.0   343   571   365   603   359   631 0.76 perforin-like protein 4 [Plasmodium vivax]
+SCO71305.1           -            705 3707at5820           -            659   2.1e-27   94.1  10.8   3   3   3.1e-06    0.0039   14.0   2.2   426   570   538   688   525   692 0.72 perforin-like protein 4 [Plasmodium vivax]
+#
+# Program:         hmmsearch
+# Version:         3.4 (Aug 2023)
+# Pipeline mode:   SEARCH
+# Query file:      /v3/work/00_inventory/busco/busco_downloads/lineages/plasmodium_odb10/hmms/3707at5820.hmm
+# Target file:     /v3/inputs/annotations/ncbi-datasets/PvC01.proteins.fa
+# Option settings: hmmsearch --domtblout /v3/work/00_inventory/busco/PvC01_proteins/run_plasmodium_odb10/hmmer_output/initial_run_results/3707at5820.out --cpu 1 /v3/work/00_inventory/busco/busco_downloads/lineages/plasmodium_odb10/hmms/3707at5820.hmm /v3/inputs/annotations/ncbi-datasets/PvC01.proteins.fa 
+# Current dir:     /v3/work/00_inventory/busco
+# Date:            Tue May 19 18:40:23 2026
+# [ok]

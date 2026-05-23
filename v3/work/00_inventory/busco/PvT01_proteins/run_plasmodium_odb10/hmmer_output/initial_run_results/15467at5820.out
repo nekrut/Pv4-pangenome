@@ -1,0 +1,20 @@
+#                                                                            --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name        accession   tlen query name           accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+#------------------- ---------- ----- -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+SCO69661.1           -             93 15467at5820          -             72   4.9e-36  121.7   4.4   1   1   1.9e-38   2.9e-35  119.2   4.4     1    72     1    84     1    84 0.88 conserved Plasmodium protein, unknown function [Plasmodium vivax]
+SCO66259.1           -           1095 15467at5820          -             72     0.016   14.3   1.2   1   1   3.5e-05     0.053   12.6   1.2    17    47   659   688   656   693 0.74 mRNA-decapping enzyme subunit 1, putative [Plasmodium vivax]
+SCO66884.1           -            316 15467at5820          -             72       3.7    6.7  12.1   1   3         4   6.1e+03   -3.8   0.0     8    16   105   113   103   124 0.76 survival motor neuron-like protein, putative [Plasmodium vivax]
+SCO66884.1           -            316 15467at5820          -             72       3.7    6.7  12.1   2   3   0.00085       1.3    8.2   0.1    19    45   189   215   183   219 0.84 survival motor neuron-like protein, putative [Plasmodium vivax]
+SCO66884.1           -            316 15467at5820          -             72       3.7    6.7  12.1   3   3     0.064        97    2.2   5.1    28    70   232   274   228   276 0.81 survival motor neuron-like protein, putative [Plasmodium vivax]
+SCO66677.1           -            367 15467at5820          -             72       6.4    6.0  11.1   1   2     0.011        17    4.6   0.6    27    61    41    76    30    80 0.80 hypothetical protein PVT01_070039100, partial [Plasmodium vivax]
+SCO66677.1           -            367 15467at5820          -             72       6.4    6.0  11.1   2   2    0.0055       8.4    5.6   3.1    27    65   243   281   231   287 0.81 hypothetical protein PVT01_070039100, partial [Plasmodium vivax]
+#
+# Program:         hmmsearch
+# Version:         3.4 (Aug 2023)
+# Pipeline mode:   SEARCH
+# Query file:      /v3/work/00_inventory/busco/busco_downloads/lineages/plasmodium_odb10/hmms/15467at5820.hmm
+# Target file:     /v3/inputs/annotations/ncbi-datasets/PvT01.proteins.fa
+# Option settings: hmmsearch --domtblout /v3/work/00_inventory/busco/PvT01_proteins/run_plasmodium_odb10/hmmer_output/initial_run_results/15467at5820.out --cpu 1 /v3/work/00_inventory/busco/busco_downloads/lineages/plasmodium_odb10/hmms/15467at5820.hmm /v3/inputs/annotations/ncbi-datasets/PvT01.proteins.fa 
+# Current dir:     /v3/work/00_inventory/busco
+# Date:            Tue May 19 18:34:27 2026
+# [ok]

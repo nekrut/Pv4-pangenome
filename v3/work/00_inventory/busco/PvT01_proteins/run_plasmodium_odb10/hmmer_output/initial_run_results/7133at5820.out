@@ -1,0 +1,21 @@
+#                                                                            --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name        accession   tlen query name           accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+#------------------- ---------- ----- -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+SCO66407.1           -            526 7133at5820           -            382  4.6e-218  722.0  23.9   1   3     3e-94     6e-91  303.6   5.4     1   167     1   181     1   196 0.93 ribosomal RNA methyltransferase, putative [Plasmodium vivax]
+SCO66407.1           -            526 7133at5820           -            382  4.6e-218  722.0  23.9   2   3   6.8e-75   1.4e-71  239.9   0.3   166   292   206   342   194   345 0.92 ribosomal RNA methyltransferase, putative [Plasmodium vivax]
+SCO66407.1           -            526 7133at5820           -            382  4.6e-218  722.0  23.9   3   3   2.7e-59   5.5e-56  188.5   4.5   289   382   432   525   423   525 0.96 ribosomal RNA methyltransferase, putative [Plasmodium vivax]
+SCO68077.1           -           1006 7133at5820           -            382   3.1e-30  103.8  22.6   1   2   3.9e-12   7.8e-09   33.3   5.9     3    76     6    61     1    69 0.82 large subunit rRNA methyltransferase, putative [Plasmodium vivax]
+SCO68077.1           -           1006 7133at5820           -            382   3.1e-30  103.8  22.6   2   2   3.4e-23   6.8e-20   69.7   8.9   126   309    68   251    62   315 0.84 large subunit rRNA methyltransferase, putative [Plasmodium vivax]
+SCO69683.1           -            266 7133at5820           -            382   1.2e-13   49.2   8.3   1   3   6.5e-07    0.0013   16.1   1.2     9    40    46    77    40    81 0.88 ribosomal RNA large subunit methyltransferase J, putative [Plasmodium vivax]
+SCO69683.1           -            266 7133at5820           -            382   1.2e-13   49.2   8.3   2   3    0.0094        19    2.4   0.2    62    79    81    98    78   160 0.83 ribosomal RNA large subunit methyltransferase J, putative [Plasmodium vivax]
+SCO69683.1           -            266 7133at5820           -            382   1.2e-13   49.2   8.3   3   3   1.8e-12   3.6e-09   34.4   0.1   168   258   154   244   105   254 0.89 ribosomal RNA large subunit methyltransferase J, putative [Plasmodium vivax]
+#
+# Program:         hmmsearch
+# Version:         3.4 (Aug 2023)
+# Pipeline mode:   SEARCH
+# Query file:      /v3/work/00_inventory/busco/busco_downloads/lineages/plasmodium_odb10/hmms/7133at5820.hmm
+# Target file:     /v3/inputs/annotations/ncbi-datasets/PvT01.proteins.fa
+# Option settings: hmmsearch --domtblout /v3/work/00_inventory/busco/PvT01_proteins/run_plasmodium_odb10/hmmer_output/initial_run_results/7133at5820.out --cpu 1 /v3/work/00_inventory/busco/busco_downloads/lineages/plasmodium_odb10/hmms/7133at5820.hmm /v3/inputs/annotations/ncbi-datasets/PvT01.proteins.fa 
+# Current dir:     /v3/work/00_inventory/busco
+# Date:            Tue May 19 18:56:57 2026
+# [ok]

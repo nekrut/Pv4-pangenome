@@ -1,0 +1,18 @@
+#                                                                            --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name        accession   tlen query name           accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+#------------------- ---------- ----- -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+SCO66590.1           -            867 2747at5820           -            665         0 1078.8  43.8   1   5     2e-70   1.2e-66  223.6   8.7     2   130     6   138     5   142 0.96 glutamine-dependent NAD(+) synthetase, putative [Plasmodium vivax]
+SCO66590.1           -            867 2747at5820           -            665         0 1078.8  43.8   2   5   2.7e-24   1.6e-20   71.2   0.0   130   192   161   228   155   237 0.91 glutamine-dependent NAD(+) synthetase, putative [Plasmodium vivax]
+SCO66590.1           -            867 2747at5820           -            665         0 1078.8  43.8   3   5     1e-49   6.2e-46  155.2   1.8   198   285   288   375   281   378 0.97 glutamine-dependent NAD(+) synthetase, putative [Plasmodium vivax]
+SCO66590.1           -            867 2747at5820           -            665         0 1078.8  43.8   4   5     2e-35   1.2e-31  108.0   3.9   316   377   478   539   406   541 0.78 glutamine-dependent NAD(+) synthetase, putative [Plasmodium vivax]
+SCO66590.1           -            867 2747at5820           -            665         0 1078.8  43.8   5   5  2.3e-165  1.4e-161  537.4   3.5   377   659   569   858   562   862 0.99 glutamine-dependent NAD(+) synthetase, putative [Plasmodium vivax]
+#
+# Program:         hmmsearch
+# Version:         3.4 (Aug 2023)
+# Pipeline mode:   SEARCH
+# Query file:      /v3/work/00_inventory/busco/busco_downloads/lineages/plasmodium_odb10/hmms/2747at5820.hmm
+# Target file:     /v3/inputs/annotations/ncbi-datasets/PvT01.proteins.fa
+# Option settings: hmmsearch --domtblout /v3/work/00_inventory/busco/PvT01_proteins/run_plasmodium_odb10/hmmer_output/initial_run_results/2747at5820.out --cpu 1 /v3/work/00_inventory/busco/busco_downloads/lineages/plasmodium_odb10/hmms/2747at5820.hmm /v3/inputs/annotations/ncbi-datasets/PvT01.proteins.fa 
+# Current dir:     /v3/work/00_inventory/busco
+# Date:            Tue May 19 18:43:39 2026
+# [ok]

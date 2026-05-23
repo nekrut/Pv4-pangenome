@@ -1,0 +1,17 @@
+#                                                                            --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name        accession   tlen query name           accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+#------------------- ---------- ----- -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+PVX_099505.1-p1      -            586 7654at5820           -            397  4.3e-217  719.4  72.9   1   2   4.4e-33   1.2e-29  102.2  26.5    13    99    59   162    47   168 0.84 | transcript=PVX_099505.1 | gene=PVX_099505 | organism=Plasmodium_vivax_Sal-1 | gene_product=hypothetical protein, conserved | transcript_product=hypothetical protein, conserved | location=Pv_Sal1_chr07:821330-823563(-) | protein_length=586 | sequence_SO=chromosome | SO=protein_coding_gene | is_pseudo=false
+PVX_099505.1-p1      -            586 7654at5820           -            397  4.3e-217  719.4  72.9   2   2  5.9e-190  1.6e-186  618.7  38.1    98   397   285   586   282   586 0.98 | transcript=PVX_099505.1 | gene=PVX_099505 | organism=Plasmodium_vivax_Sal-1 | gene_product=hypothetical protein, conserved | transcript_product=hypothetical protein, conserved | location=Pv_Sal1_chr07:821330-823563(-) | protein_length=586 | sequence_SO=chromosome | SO=protein_coding_gene | is_pseudo=false
+PVX_086305.1-p1      -            149 7654at5820           -            397       5.4    4.5  15.3   1   2     0.013        36    1.8   0.0   263   288     6    30     2    45 0.84 | transcript=PVX_086305.1 | gene=PVX_086305 | organism=Plasmodium_vivax_Sal-1 | gene_product=ubiquitin-40S ribosomal protein S27a, putative | transcript_product=ubiquitin-40S ribosomal protein S27a, putative | location=Pv_Sal1_chr13:1992584-1994140(+) | protein_length=149 | sequence_SO=chromosome | SO=protein_coding_gene | is_pseudo=false
+PVX_086305.1-p1      -            149 7654at5820           -            397       5.4    4.5  15.3   2   2    0.0063        17    2.9  13.2    40    71    78   109    72   120 0.81 | transcript=PVX_086305.1 | gene=PVX_086305 | organism=Plasmodium_vivax_Sal-1 | gene_product=ubiquitin-40S ribosomal protein S27a, putative | transcript_product=ubiquitin-40S ribosomal protein S27a, putative | location=Pv_Sal1_chr13:1992584-1994140(+) | protein_length=149 | sequence_SO=chromosome | SO=protein_coding_gene | is_pseudo=false
+#
+# Program:         hmmsearch
+# Version:         3.4 (Aug 2023)
+# Pipeline mode:   SEARCH
+# Query file:      /v3/work/00_inventory/busco/busco_downloads/lineages/plasmodium_odb10/hmms/7654at5820.hmm
+# Target file:     /v3/inputs/annotations/plasmodb-68/Sal-I.proteins.fa
+# Option settings: hmmsearch --domtblout /v3/work/00_inventory/busco/Sal-I_proteins/run_plasmodium_odb10/hmmer_output/initial_run_results/7654at5820.out --cpu 1 /v3/work/00_inventory/busco/busco_downloads/lineages/plasmodium_odb10/hmms/7654at5820.hmm /v3/inputs/annotations/plasmodb-68/Sal-I.proteins.fa 
+# Current dir:     /v3/work/00_inventory/busco
+# Date:            Tue May 19 17:48:25 2026
+# [ok]

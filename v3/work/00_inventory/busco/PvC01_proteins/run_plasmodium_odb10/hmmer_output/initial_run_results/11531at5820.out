@@ -1,0 +1,19 @@
+#                                                                            --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name        accession   tlen query name           accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+#------------------- ---------- ----- -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+SCO74202.1           -            195 11531at5820          -            166    2e-103  342.0  11.4   1   1  1.5e-106  2.4e-103  341.7  11.4     1   166     1   183     1   183 0.96 proteasome subunit beta type-2, putative [Plasmodium vivax]
+SCO73545.1           -            246 11531at5820          -            166   1.8e-06   26.5   2.7   1   2   1.3e-09     2e-06   26.4   1.4    73   140   118   185    42   204 0.71 proteasome subunit alpha type-4, putative [Plasmodium vivax]
+SCO73545.1           -            246 11531at5820          -            166   1.8e-06   26.5   2.7   2   2      0.52   8.1e+02   -1.6   0.0   123   147   213   240   186   245 0.68 proteasome subunit alpha type-4, putative [Plasmodium vivax]
+SCO74742.1           -            257 11531at5820          -            166   0.00017   20.1   0.4   1   2      0.75   1.2e+03   -2.1   0.0   113   145    38    71    30    78 0.67 CCR4-associated factor 16, putative [Plasmodium vivax]
+SCO74742.1           -            257 11531at5820          -            166   0.00017   20.1   0.4   2   2   2.6e-07   0.00041   18.9   0.4    27   109   117   202    79   241 0.77 CCR4-associated factor 16, putative [Plasmodium vivax]
+SCO73544.1           -            241 11531at5820          -            166    0.0032   16.0   0.3   1   1   3.7e-06    0.0058   15.2   0.2    81   139   123   181    44   212 0.66 proteasome subunit alpha type-7, putative [Plasmodium vivax]
+#
+# Program:         hmmsearch
+# Version:         3.4 (Aug 2023)
+# Pipeline mode:   SEARCH
+# Query file:      /v3/work/00_inventory/busco/busco_downloads/lineages/plasmodium_odb10/hmms/11531at5820.hmm
+# Target file:     /v3/inputs/annotations/ncbi-datasets/PvC01.proteins.fa
+# Option settings: hmmsearch --domtblout /v3/work/00_inventory/busco/PvC01_proteins/run_plasmodium_odb10/hmmer_output/initial_run_results/11531at5820.out --cpu 1 /v3/work/00_inventory/busco/busco_downloads/lineages/plasmodium_odb10/hmms/11531at5820.hmm /v3/inputs/annotations/ncbi-datasets/PvC01.proteins.fa 
+# Current dir:     /v3/work/00_inventory/busco
+# Date:            Tue May 19 18:33:38 2026
+# [ok]

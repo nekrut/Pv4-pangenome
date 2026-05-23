@@ -1,0 +1,17 @@
+#                                                                            --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name        accession   tlen query name           accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+#------------------- ---------- ----- -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+CAI7720086.1         -            874 2382at5820           -            724         0 1287.3  67.4   1   3    7e-134  2.3e-130  434.8  22.0     1   247     8   274     8   278 0.94 | transcript=PVPAM_080030800_t1 | gene=PVPAM_080030800 | organism=Plasmodium_vivax_PAM | gene_product=peptidase, putative | transcript_product=peptidase, putative | location=CASCJQ010000008:1176125-1178749(+) | protein_length=874 | sequence_SO=supercontig | SO=protein_coding_gene | is_pseudo=false
+CAI7720086.1         -            874 2382at5820           -            724         0 1287.3  67.4   2   3   1.1e-28   3.4e-25   87.1   0.2   246   307   302   368   296   392 0.91 | transcript=PVPAM_080030800_t1 | gene=PVPAM_080030800 | organism=Plasmodium_vivax_PAM | gene_product=peptidase, putative | transcript_product=peptidase, putative | location=CASCJQ010000008:1176125-1178749(+) | protein_length=874 | sequence_SO=supercontig | SO=protein_coding_gene | is_pseudo=false
+CAI7720086.1         -            874 2382at5820           -            724         0 1287.3  67.4   3   3    1e-236  3.2e-233  774.8  32.5   305   724   426   874   421   874 0.97 | transcript=PVPAM_080030800_t1 | gene=PVPAM_080030800 | organism=Plasmodium_vivax_PAM | gene_product=peptidase, putative | transcript_product=peptidase, putative | location=CASCJQ010000008:1176125-1178749(+) | protein_length=874 | sequence_SO=supercontig | SO=protein_coding_gene | is_pseudo=false
+CAI7723175.1         -            558 2382at5820           -            724   6.4e-05   20.1   0.8   1   1   2.9e-08   9.5e-05   19.5   0.8   593   722   423   549   387   551 0.75 | transcript=PVPAM_140009400_t1 | gene=PVPAM_140009400 | organism=Plasmodium_vivax_PAM | gene_product=lysophospholipase, putative | transcript_product=lysophospholipase, putative | location=CASCJQ010000014:200435-202111(-) | protein_length=558 | sequence_SO=supercontig | SO=protein_coding_gene | is_pseudo=false
+#
+# Program:         hmmsearch
+# Version:         3.4 (Aug 2023)
+# Pipeline mode:   SEARCH
+# Query file:      /v3/work/00_inventory/busco/busco_downloads/lineages/plasmodium_odb10/hmms/2382at5820.hmm
+# Target file:     /v3/inputs/annotations/plasmodb-68/PAM.proteins.fa
+# Option settings: hmmsearch --domtblout /v3/work/00_inventory/busco/PAM_proteins/run_plasmodium_odb10/hmmer_output/initial_run_results/2382at5820.out --cpu 1 /v3/work/00_inventory/busco/busco_downloads/lineages/plasmodium_odb10/hmms/2382at5820.hmm /v3/inputs/annotations/plasmodb-68/PAM.proteins.fa 
+# Current dir:     /v3/work/00_inventory/busco
+# Date:            Tue May 19 17:35:33 2026
+# [ok]

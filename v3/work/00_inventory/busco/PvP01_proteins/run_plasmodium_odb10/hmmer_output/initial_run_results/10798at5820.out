@@ -1,0 +1,16 @@
+#                                                                            --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name        accession   tlen query name           accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+#------------------- ---------- ----- -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+PVP01_1246400.1-p1   -            228 10798at5820          -            204  1.3e-112  373.2   2.7   1   1    2e-115  6.5e-112  370.9   2.7     1   204     1   226     1   226 0.94 | transcript=PVP01_1246400.1 | gene=PVP01_1246400 | organism=Plasmodium_vivax_P01 | gene_product=ubiquitin carboxyl-terminal hydrolase isozyme L3, putative | transcript_product=ubiquitin carboxyl-terminal hydrolase isozyme L3, putative | location=PvP01_12_v2:1905525-1907541(-) | protein_length=228 | sequence_SO=chromosome | SO=protein_coding_gene | is_pseudo=false
+PVP01_0917700.1-p1   -            501 10798at5820          -            204   2.6e-09   35.8   1.1   1   2    0.0072        23    3.3   0.0     7    38    12    43     8    71 0.88 | transcript=PVP01_0917700.1 | gene=PVP01_0917700 | organism=Plasmodium_vivax_P01 | gene_product=ubiquitin carboxyl-terminal hydrolase UCH54, putative | transcript_product=ubiquitin carboxyl-terminal hydrolase UCH54, putative | location=PvP01_09_v2:792109-793614(+) | protein_length=501 | sequence_SO=chromosome | SO=protein_coding_gene | is_pseudo=false
+PVP01_0917700.1-p1   -            501 10798at5820          -            204   2.6e-09   35.8   1.1   2   2   3.6e-11   1.2e-07   30.4   0.2    63   172   146   267   116   288 0.74 | transcript=PVP01_0917700.1 | gene=PVP01_0917700 | organism=Plasmodium_vivax_P01 | gene_product=ubiquitin carboxyl-terminal hydrolase UCH54, putative | transcript_product=ubiquitin carboxyl-terminal hydrolase UCH54, putative | location=PvP01_09_v2:792109-793614(+) | protein_length=501 | sequence_SO=chromosome | SO=protein_coding_gene | is_pseudo=false
+#
+# Program:         hmmsearch
+# Version:         3.4 (Aug 2023)
+# Pipeline mode:   SEARCH
+# Query file:      /v3/work/00_inventory/busco/busco_downloads/lineages/plasmodium_odb10/hmms/10798at5820.hmm
+# Target file:     /v3/inputs/annotations/plasmodb-68/PvP01.proteins.fa
+# Option settings: hmmsearch --domtblout /v3/work/00_inventory/busco/PvP01_proteins/run_plasmodium_odb10/hmmer_output/initial_run_results/10798at5820.out --cpu 1 /v3/work/00_inventory/busco/busco_downloads/lineages/plasmodium_odb10/hmms/10798at5820.hmm /v3/inputs/annotations/plasmodb-68/PvP01.proteins.fa 
+# Current dir:     /v3/work/00_inventory/busco
+# Date:            Tue May 19 17:27:18 2026
+# [ok]

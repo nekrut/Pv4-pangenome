@@ -1,0 +1,16 @@
+#                                                                            --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name        accession   tlen query name           accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+#------------------- ---------- ----- -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+CAG9477178.1         -            506 6059at5820           -            417  6.7e-215  712.3  30.4   1   2   2.1e-68   6.3e-65  218.2   0.9     1   111    30   142    30   151 0.96 | transcript=PVW1_090044900_t1 | gene=PVW1_090044900 | organism=Plasmodium_vivax_PvW1 | gene_product=NADPH:adrenodoxin oxidoreductase, mitochondrial [Source:UniProtKB/TrEMBL;Acc:A0A1G4GY21] | transcript_product=NADPH:adrenodoxin oxidoreductase, mitochondrial [Source:UniProtKB/TrEMBL;Acc:A0A1G4GY21] | location=CAJZCX010000007:1781723-1783243(-) | protein_length=506 | sequence_SO=supercontig | SO=protein_coding_gene | is_pseudo=false
+CAG9477178.1         -            506 6059at5820           -            417  6.7e-215  712.3  30.4   2   2  1.5e-153  4.6e-150  498.7  22.6   111   417   163   501   152   501 0.92 | transcript=PVW1_090044900_t1 | gene=PVW1_090044900 | organism=Plasmodium_vivax_PvW1 | gene_product=NADPH:adrenodoxin oxidoreductase, mitochondrial [Source:UniProtKB/TrEMBL;Acc:A0A1G4GY21] | transcript_product=NADPH:adrenodoxin oxidoreductase, mitochondrial [Source:UniProtKB/TrEMBL;Acc:A0A1G4GY21] | location=CAJZCX010000007:1781723-1783243(-) | protein_length=506 | sequence_SO=supercontig | SO=protein_coding_gene | is_pseudo=false
+CAG9475035.1         -           2236 6059at5820           -            417      0.16    9.4   2.7   1   1   9.3e-05      0.28    8.6   2.7   241   324  2027  2110  2022  2118 0.83 | transcript=PVW1_100049500_t1 | gene=PVW1_100049500 | organism=Plasmodium_vivax_PvW1 | gene_product=unspecified product | transcript_product=unspecified product | location=CAJZCX010000005:2023357-2030067(+) | protein_length=2236 | sequence_SO=supercontig | SO=protein_coding_gene | is_pseudo=false
+#
+# Program:         hmmsearch
+# Version:         3.4 (Aug 2023)
+# Pipeline mode:   SEARCH
+# Query file:      /v3/work/00_inventory/busco/busco_downloads/lineages/plasmodium_odb10/hmms/6059at5820.hmm
+# Target file:     /v3/inputs/annotations/plasmodb-68/PvW1.proteins.fa
+# Option settings: hmmsearch --domtblout /v3/work/00_inventory/busco/PvW1_proteins/run_plasmodium_odb10/hmmer_output/initial_run_results/6059at5820.out --cpu 1 /v3/work/00_inventory/busco/busco_downloads/lineages/plasmodium_odb10/hmms/6059at5820.hmm /v3/inputs/annotations/plasmodb-68/PvW1.proteins.fa 
+# Current dir:     /v3/work/00_inventory/busco
+# Date:            Tue May 19 17:44:57 2026
+# [ok]

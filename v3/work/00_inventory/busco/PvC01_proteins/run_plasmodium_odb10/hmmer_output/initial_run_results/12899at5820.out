@@ -1,0 +1,24 @@
+#                                                                            --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name        accession   tlen query name           accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+#------------------- ---------- ----- -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+SCO71925.1           -            238 12899at5820          -            214   1.2e-69  232.9  20.1   1   1   1.8e-72   2.8e-69  231.7  20.1    21   214    25   237    17   237 0.75 conserved Plasmodium protein, unknown function [Plasmodium vivax]
+SCO70506.1           -            682 12899at5820          -            214     2e-05   23.0  10.6   1   4         1   1.6e+03   -2.8   0.8   128   145   182   200   167   222 0.42 conserved Plasmodium protein, unknown function [Plasmodium vivax]
+SCO70506.1           -            682 12899at5820          -            214     2e-05   23.0  10.6   2   4      0.41   6.5e+02   -1.5   0.8   127   147   248   266   232   284 0.45 conserved Plasmodium protein, unknown function [Plasmodium vivax]
+SCO70506.1           -            682 12899at5820          -            214     2e-05   23.0  10.6   3   4   1.3e-08     2e-05   23.0  10.6    83   174   308   401   304   414 0.72 conserved Plasmodium protein, unknown function [Plasmodium vivax]
+SCO70506.1           -            682 12899at5820          -            214     2e-05   23.0  10.6   4   4         4   6.3e+03   -5.1  10.1    26   148   590   621   559   667 0.54 conserved Plasmodium protein, unknown function [Plasmodium vivax]
+SCO71876.1           -            409 12899at5820          -            214   7.2e-05   21.2  12.7   1   4   4.6e-08   7.2e-05   21.2  12.7    80   135     2    53     1    68 0.71 zinc finger protein, putative [Plasmodium vivax]
+SCO71876.1           -            409 12899at5820          -            214   7.2e-05   21.2  12.7   2   4       2.4   3.8e+03   -4.1   0.3   143   150    86    93    79   117 0.51 zinc finger protein, putative [Plasmodium vivax]
+SCO71876.1           -            409 12899at5820          -            214   7.2e-05   21.2  12.7   3   4      0.94   1.5e+03   -2.7   0.2   111   141   139   167   132   192 0.57 zinc finger protein, putative [Plasmodium vivax]
+SCO71876.1           -            409 12899at5820          -            214   7.2e-05   21.2  12.7   4   4      0.28   4.5e+02   -1.0   2.9   180   198   350   368   313   382 0.71 zinc finger protein, putative [Plasmodium vivax]
+SCO74906.1           -            162 12899at5820          -            214       1.2    7.4  31.6   1   2       3.4   5.3e+03   -4.5  12.7    20    58    19    54     3    96 0.42 zinc finger protein, putative [Plasmodium vivax]
+SCO74906.1           -            162 12899at5820          -            214       1.2    7.4  31.6   2   2   4.2e-05     0.066   11.5  19.9    47   120    71   157    45   161 0.57 zinc finger protein, putative [Plasmodium vivax]
+#
+# Program:         hmmsearch
+# Version:         3.4 (Aug 2023)
+# Pipeline mode:   SEARCH
+# Query file:      /v3/work/00_inventory/busco/busco_downloads/lineages/plasmodium_odb10/hmms/12899at5820.hmm
+# Target file:     /v3/inputs/annotations/ncbi-datasets/PvC01.proteins.fa
+# Option settings: hmmsearch --domtblout /v3/work/00_inventory/busco/PvC01_proteins/run_plasmodium_odb10/hmmer_output/initial_run_results/12899at5820.out --cpu 1 /v3/work/00_inventory/busco/busco_downloads/lineages/plasmodium_odb10/hmms/12899at5820.hmm /v3/inputs/annotations/ncbi-datasets/PvC01.proteins.fa 
+# Current dir:     /v3/work/00_inventory/busco
+# Date:            Tue May 19 18:30:48 2026
+# [ok]

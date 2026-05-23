@@ -1,0 +1,17 @@
+#                                                                            --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name        accession   tlen query name           accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+#------------------- ---------- ----- -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+PVX_001885.1-p1      -            432 9501at5820           -            318  1.8e-158  525.1  18.5   1   2   2.7e-15   7.5e-12   43.4   5.5     2    70    15   118    14   136 0.72 | transcript=PVX_001885.1 | gene=PVX_001885 | organism=Plasmodium_vivax_Sal-1 | gene_product=hypothetical protein, conserved | transcript_product=hypothetical protein, conserved | location=Pv_Sal1_chr06:223652-224950(+) | protein_length=432 | sequence_SO=chromosome | SO=protein_coding_gene | is_pseudo=false
+PVX_001885.1-p1      -            432 9501at5820           -            318  1.8e-158  525.1  18.5   2   2  9.4e-148  2.6e-144  478.6   5.1    72   318   165   432   154   432 0.89 | transcript=PVX_001885.1 | gene=PVX_001885 | organism=Plasmodium_vivax_Sal-1 | gene_product=hypothetical protein, conserved | transcript_product=hypothetical protein, conserved | location=Pv_Sal1_chr06:223652-224950(+) | protein_length=432 | sequence_SO=chromosome | SO=protein_coding_gene | is_pseudo=false
+PVX_117925.1-p1      -            832 9501at5820           -            318    0.0033   15.0   0.5   1   2     0.024        67    0.8   0.1    93   145   230   284   218   298 0.78 | transcript=PVX_117925.1 | gene=PVX_117925 | organism=Plasmodium_vivax_Sal-1 | gene_product=elongation factor 2, putative | transcript_product=elongation factor 2, putative | location=Pv_Sal1_chr12:2264669-2267167(-) | protein_length=832 | sequence_SO=chromosome | SO=protein_coding_gene | is_pseudo=false
+PVX_117925.1-p1      -            832 9501at5820           -            318    0.0033   15.0   0.5   2   2   1.2e-05     0.034   11.7   0.0   230   263   507   540   486   549 0.90 | transcript=PVX_117925.1 | gene=PVX_117925 | organism=Plasmodium_vivax_Sal-1 | gene_product=elongation factor 2, putative | transcript_product=elongation factor 2, putative | location=Pv_Sal1_chr12:2264669-2267167(-) | protein_length=832 | sequence_SO=chromosome | SO=protein_coding_gene | is_pseudo=false
+#
+# Program:         hmmsearch
+# Version:         3.4 (Aug 2023)
+# Pipeline mode:   SEARCH
+# Query file:      /v3/work/00_inventory/busco/busco_downloads/lineages/plasmodium_odb10/hmms/9501at5820.hmm
+# Target file:     /v3/inputs/annotations/plasmodb-68/Sal-I.proteins.fa
+# Option settings: hmmsearch --domtblout /v3/work/00_inventory/busco/Sal-I_proteins/run_plasmodium_odb10/hmmer_output/initial_run_results/9501at5820.out --cpu 1 /v3/work/00_inventory/busco/busco_downloads/lineages/plasmodium_odb10/hmms/9501at5820.hmm /v3/inputs/annotations/plasmodb-68/Sal-I.proteins.fa 
+# Current dir:     /v3/work/00_inventory/busco
+# Date:            Tue May 19 17:51:27 2026
+# [ok]

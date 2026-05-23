@@ -1,0 +1,22 @@
+#                                                                            --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name        accession   tlen query name           accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+#------------------- ---------- ----- -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+SCO65997.1           -            863 8720at5820           -            583  2.7e-224  744.5 185.5   1   4  3.9e-209    4e-206  684.5  70.3     2   369     4   395     3   408 0.92 conserved Plasmodium protein, unknown function [Plasmodium vivax]
+SCO65997.1           -            863 8720at5820           -            583  2.7e-224  744.5 185.5   2   4   3.5e-21   3.6e-18   63.9  59.4   371   548   451   623   407   624 0.66 conserved Plasmodium protein, unknown function [Plasmodium vivax]
+SCO65997.1           -            863 8720at5820           -            583  2.7e-224  744.5 185.5   3   4   0.00042      0.43    7.5  48.8   417   574   578   735   575   758 0.54 conserved Plasmodium protein, unknown function [Plasmodium vivax]
+SCO65997.1           -            863 8720at5820           -            583  2.7e-224  744.5 185.5   4   4      0.87   8.8e+02   -3.4   3.6   414   476   774   839   765   862 0.43 conserved Plasmodium protein, unknown function [Plasmodium vivax]
+SCO66125.1           -             93 8720at5820           -            583    0.0078   13.3   8.0   1   1     8e-06    0.0081   13.2   8.0   405   550    11    61     2    87 0.37 hypothetical protein PVT01_060010100 [Plasmodium vivax]
+SCO69293.1           -            780 8720at5820           -            583      0.49    7.3  30.7   1   1   0.00094      0.95    6.4  30.7   316   547    22   259     6   291 0.47 large ribosomal subunit associated GTPase, putative [Plasmodium vivax]
+SCO65991.1           -            307 8720at5820           -            583      0.85    6.5  18.3   1   1    0.0011       1.1    6.2  18.3   443   557    75   147    38   221 0.44 conserved Plasmodium protein, unknown function [Plasmodium vivax]
+SCO66098.1           -            590 8720at5820           -            583       1.7    5.6   8.2   1   1    0.0035       3.6    4.5   8.2   440   509   332   398   321   493 0.66 golgi re-assembly stacking protein, putative [Plasmodium vivax]
+SCO65720.1           -            380 8720at5820           -            583       8.2    3.3  64.1   1   1     0.013        13    2.6  64.1   321   567    98   330    78   350 0.46 protein MAK16, putative [Plasmodium vivax]
+#
+# Program:         hmmsearch
+# Version:         3.4 (Aug 2023)
+# Pipeline mode:   SEARCH
+# Query file:      /v3/work/00_inventory/busco/busco_downloads/lineages/plasmodium_odb10/hmms/8720at5820.hmm
+# Target file:     /v3/inputs/annotations/ncbi-datasets/PvT01.proteins.fa
+# Option settings: hmmsearch --domtblout /v3/work/00_inventory/busco/PvT01_proteins/run_plasmodium_odb10/hmmer_output/initial_run_results/8720at5820.out --cpu 1 /v3/work/00_inventory/busco/busco_downloads/lineages/plasmodium_odb10/hmms/8720at5820.hmm /v3/inputs/annotations/ncbi-datasets/PvT01.proteins.fa 
+# Current dir:     /v3/work/00_inventory/busco
+# Date:            Tue May 19 19:07:04 2026
+# [ok]

@@ -1,0 +1,17 @@
+#                                                                            --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name        accession   tlen query name           accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+#------------------- ---------- ----- -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+CAI7719158.1         -            432 9501at5820           -            318  2.1e-158  525.1  18.5   1   2   2.7e-15   8.8e-12   43.4   5.5     2    70    15   118    14   136 0.72 | transcript=PVPAM_060016500_t1 | gene=PVPAM_060016500 | organism=Plasmodium_vivax_PAM | gene_product=ribosomal silencing factor RsfS, putative | transcript_product=ribosomal silencing factor RsfS, putative | location=CASCJQ010000006:479811-481109(+) | protein_length=432 | sequence_SO=supercontig | SO=protein_coding_gene | is_pseudo=false
+CAI7719158.1         -            432 9501at5820           -            318  2.1e-158  525.1  18.5   2   2  9.4e-148    3e-144  478.6   5.1    72   318   165   432   154   432 0.89 | transcript=PVPAM_060016500_t1 | gene=PVPAM_060016500 | organism=Plasmodium_vivax_PAM | gene_product=ribosomal silencing factor RsfS, putative | transcript_product=ribosomal silencing factor RsfS, putative | location=CASCJQ010000006:479811-481109(+) | protein_length=432 | sequence_SO=supercontig | SO=protein_coding_gene | is_pseudo=false
+CAI7722375.1         -            832 9501at5820           -            318    0.0039   15.0   0.5   1   2     0.024        79    0.8   0.1    93   145   230   284   218   298 0.78 | transcript=PVPAM_120061100_t1 | gene=PVPAM_120061100 | organism=Plasmodium_vivax_PAM | gene_product=elongation factor 2, putative | transcript_product=elongation factor 2, putative | location=CASCJQ010000012:2280969-2283467(-) | protein_length=832 | sequence_SO=supercontig | SO=protein_coding_gene | is_pseudo=false
+CAI7722375.1         -            832 9501at5820           -            318    0.0039   15.0   0.5   2   2   1.2e-05     0.039   11.7   0.0   230   263   507   540   486   549 0.90 | transcript=PVPAM_120061100_t1 | gene=PVPAM_120061100 | organism=Plasmodium_vivax_PAM | gene_product=elongation factor 2, putative | transcript_product=elongation factor 2, putative | location=CASCJQ010000012:2280969-2283467(-) | protein_length=832 | sequence_SO=supercontig | SO=protein_coding_gene | is_pseudo=false
+#
+# Program:         hmmsearch
+# Version:         3.4 (Aug 2023)
+# Pipeline mode:   SEARCH
+# Query file:      /v3/work/00_inventory/busco/busco_downloads/lineages/plasmodium_odb10/hmms/9501at5820.hmm
+# Target file:     /v3/inputs/annotations/plasmodb-68/PAM.proteins.fa
+# Option settings: hmmsearch --domtblout /v3/work/00_inventory/busco/PAM_proteins/run_plasmodium_odb10/hmmer_output/initial_run_results/9501at5820.out --cpu 1 /v3/work/00_inventory/busco/busco_downloads/lineages/plasmodium_odb10/hmms/9501at5820.hmm /v3/inputs/annotations/plasmodb-68/PAM.proteins.fa 
+# Current dir:     /v3/work/00_inventory/busco
+# Date:            Tue May 19 17:51:27 2026
+# [ok]

@@ -1,0 +1,26 @@
+#                                                                            --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name        accession   tlen query name           accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+#------------------- ---------- ----- -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+SCO66288.1           -           1136 3333at5820           -            635  5.4e-285  945.1  58.0   1   8   2.5e-50   7.5e-47  158.4   8.4     2   124    34   170    33   178 0.90 U2 snRNA/tRNA pseudouridine synthase, putative [Plasmodium vivax]
+SCO66288.1           -           1136 3333at5820           -            635  5.4e-285  945.1  58.0   2   8     1e-18   3.1e-15   54.0   0.0   124   165   203   244   199   251 0.94 U2 snRNA/tRNA pseudouridine synthase, putative [Plasmodium vivax]
+SCO66288.1           -           1136 3333at5820           -            635  5.4e-285  945.1  58.0   3   8     2e-15   6.1e-12   43.1   0.5   164   215   274   334   266   338 0.85 U2 snRNA/tRNA pseudouridine synthase, putative [Plasmodium vivax]
+SCO66288.1           -           1136 3333at5820           -            635  5.4e-285  945.1  58.0   4   8   4.5e-47   1.4e-43  147.6   9.6   209   299   463   553   446   556 0.92 U2 snRNA/tRNA pseudouridine synthase, putative [Plasmodium vivax]
+SCO66288.1           -           1136 3333at5820           -            635  5.4e-285  945.1  58.0   5   8   1.7e-54   5.2e-51  172.2   2.4   300   401   587   695   584   702 0.93 U2 snRNA/tRNA pseudouridine synthase, putative [Plasmodium vivax]
+SCO66288.1           -           1136 3333at5820           -            635  5.4e-285  945.1  58.0   6   8   1.4e-46   4.4e-43  146.0   3.4   398   482   816   900   799   906 0.92 U2 snRNA/tRNA pseudouridine synthase, putative [Plasmodium vivax]
+SCO66288.1           -           1136 3333at5820           -            635  5.4e-285  945.1  58.0   7   8   6.8e-52   2.1e-48  163.6   0.0   481   583   928  1033   924  1036 0.95 U2 snRNA/tRNA pseudouridine synthase, putative [Plasmodium vivax]
+SCO66288.1           -           1136 3333at5820           -            635  5.4e-285  945.1  58.0   8   8   3.9e-27   1.2e-23   81.8   0.0   574   634  1076  1135  1072  1136 0.93 U2 snRNA/tRNA pseudouridine synthase, putative [Plasmodium vivax]
+SCO65209.1           -            901 3333at5820           -            635   7.8e-18   62.6  21.7   1   5   0.00032      0.98    6.1   0.0    25    48    75    98    58   106 0.85 tRNA pseudouridine synthase D, putative [Plasmodium vivax]
+SCO65209.1           -            901 3333at5820           -            635   7.8e-18   62.6  21.7   2   5     9e-20   2.7e-16   57.5  11.4   233   384   162   331   154   364 0.75 tRNA pseudouridine synthase D, putative [Plasmodium vivax]
+SCO65209.1           -            901 3333at5820           -            635   7.8e-18   62.6  21.7   3   5     0.002       6.2    3.4   0.0   448   484   501   537   484   558 0.81 tRNA pseudouridine synthase D, putative [Plasmodium vivax]
+SCO65209.1           -            901 3333at5820           -            635   7.8e-18   62.6  21.7   4   5       0.4   1.2e+03   -4.2   0.0   492   506   581   595   578   597 0.79 tRNA pseudouridine synthase D, putative [Plasmodium vivax]
+SCO65209.1           -            901 3333at5820           -            635   7.8e-18   62.6  21.7   5   5      0.06   1.8e+02   -1.4   0.2    73    87   680   694   631   750 0.52 tRNA pseudouridine synthase D, putative [Plasmodium vivax]
+#
+# Program:         hmmsearch
+# Version:         3.4 (Aug 2023)
+# Pipeline mode:   SEARCH
+# Query file:      /v3/work/00_inventory/busco/busco_downloads/lineages/plasmodium_odb10/hmms/3333at5820.hmm
+# Target file:     /v3/inputs/annotations/ncbi-datasets/PvT01.proteins.fa
+# Option settings: hmmsearch --domtblout /v3/work/00_inventory/busco/PvT01_proteins/run_plasmodium_odb10/hmmer_output/initial_run_results/3333at5820.out --cpu 1 /v3/work/00_inventory/busco/busco_downloads/lineages/plasmodium_odb10/hmms/3333at5820.hmm /v3/inputs/annotations/ncbi-datasets/PvT01.proteins.fa 
+# Current dir:     /v3/work/00_inventory/busco
+# Date:            Tue May 19 18:38:24 2026
+# [ok]

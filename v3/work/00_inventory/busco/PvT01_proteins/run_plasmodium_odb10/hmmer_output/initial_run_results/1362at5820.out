@@ -1,0 +1,17 @@
+#                                                                            --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name        accession   tlen query name           accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+#------------------- ---------- ----- -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+SCO64917.1           -           1249 1362at5820           -           1029         0 1971.4 165.5   1   4         0         0 1220.8  82.8     1   607    11   640    11   650 0.97 importin-7, putative [Plasmodium vivax]
+SCO64917.1           -           1249 1362at5820           -           1029         0 1971.4 165.5   2   4  5.5e-131  3.3e-127  424.5  19.3   597   816   672   903   661   917 0.96 importin-7, putative [Plasmodium vivax]
+SCO64917.1           -           1249 1362at5820           -           1029         0 1971.4 165.5   3   4   1.1e-81   6.7e-78  261.3  23.1   812   972   938  1112   934  1142 0.93 importin-7, putative [Plasmodium vivax]
+SCO64917.1           -           1249 1362at5820           -           1029         0 1971.4 165.5   4   4     6e-28   3.7e-24   83.4  16.8   968  1029  1177  1239  1116  1239 0.90 importin-7, putative [Plasmodium vivax]
+#
+# Program:         hmmsearch
+# Version:         3.4 (Aug 2023)
+# Pipeline mode:   SEARCH
+# Query file:      /v3/work/00_inventory/busco/busco_downloads/lineages/plasmodium_odb10/hmms/1362at5820.hmm
+# Target file:     /v3/inputs/annotations/ncbi-datasets/PvT01.proteins.fa
+# Option settings: hmmsearch --domtblout /v3/work/00_inventory/busco/PvT01_proteins/run_plasmodium_odb10/hmmer_output/initial_run_results/1362at5820.out --cpu 1 /v3/work/00_inventory/busco/busco_downloads/lineages/plasmodium_odb10/hmms/1362at5820.hmm /v3/inputs/annotations/ncbi-datasets/PvT01.proteins.fa 
+# Current dir:     /v3/work/00_inventory/busco
+# Date:            Tue May 19 18:32:58 2026
+# [ok]

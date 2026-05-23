@@ -1,0 +1,16 @@
+#                                                                            --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name        accession   tlen query name           accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+#------------------- ---------- ----- -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+CAG9477674.1         -            153 13732at5820          -            141   1.8e-72  240.4  17.2   1   1   6.9e-76   2.1e-72  240.2  17.2     1   141     1   153     1   153 0.93 | transcript=PVW1_110018700_t1 | gene=PVW1_110018700 | organism=Plasmodium_vivax_PvW1 | gene_product=HVA22-like protein, putative [Source:UniProtKB/TrEMBL;Acc:A0A1G4GZK3] | transcript_product=HVA22-like protein, putative [Source:UniProtKB/TrEMBL;Acc:A0A1G4GZK3] | location=CAJZCX010000008:601089-601550(+) | protein_length=153 | sequence_SO=supercontig | SO=protein_coding_gene | is_pseudo=false
+CAG9479136.1         -            227 13732at5820          -            141     8e-10   37.3   4.6   1   2      0.27   8.1e+02   -1.6   0.0   109   133    30    55    24    60 0.75 | transcript=PVW1_080029000_t1 | gene=PVW1_080029000 | organism=Plasmodium_vivax_PvW1 | gene_product=HVA22/TB2/DP1 family protein, putative [Source:UniProtKB/TrEMBL;Acc:A0A1G4GWL1] | transcript_product=HVA22/TB2/DP1 family protein, putative [Source:UniProtKB/TrEMBL;Acc:A0A1G4GWL1] | location=CAJZCX010000009:1100219-1101036(-) | protein_length=227 | sequence_SO=supercontig | SO=protein_coding_gene | is_pseudo=false
+CAG9479136.1         -            227 13732at5820          -            141     8e-10   37.3   4.6   2   2   2.6e-13     8e-10   37.3   4.6    37   110   118   189    88   211 0.73 | transcript=PVW1_080029000_t1 | gene=PVW1_080029000 | organism=Plasmodium_vivax_PvW1 | gene_product=HVA22/TB2/DP1 family protein, putative [Source:UniProtKB/TrEMBL;Acc:A0A1G4GWL1] | transcript_product=HVA22/TB2/DP1 family protein, putative [Source:UniProtKB/TrEMBL;Acc:A0A1G4GWL1] | location=CAJZCX010000009:1100219-1101036(-) | protein_length=227 | sequence_SO=supercontig | SO=protein_coding_gene | is_pseudo=false
+#
+# Program:         hmmsearch
+# Version:         3.4 (Aug 2023)
+# Pipeline mode:   SEARCH
+# Query file:      /v3/work/00_inventory/busco/busco_downloads/lineages/plasmodium_odb10/hmms/13732at5820.hmm
+# Target file:     /v3/inputs/annotations/plasmodb-68/PvW1.proteins.fa
+# Option settings: hmmsearch --domtblout /v3/work/00_inventory/busco/PvW1_proteins/run_plasmodium_odb10/hmmer_output/initial_run_results/13732at5820.out --cpu 1 /v3/work/00_inventory/busco/busco_downloads/lineages/plasmodium_odb10/hmms/13732at5820.hmm /v3/inputs/annotations/plasmodb-68/PvW1.proteins.fa 
+# Current dir:     /v3/work/00_inventory/busco
+# Date:            Tue May 19 17:31:13 2026
+# [ok]

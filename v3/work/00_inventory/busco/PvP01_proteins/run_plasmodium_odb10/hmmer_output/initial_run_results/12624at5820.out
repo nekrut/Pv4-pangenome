@@ -1,0 +1,17 @@
+#                                                                            --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name        accession   tlen query name           accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+#------------------- ---------- ----- -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+PVP01_0527900.1-p1   -            187 12624at5820          -            161   5.4e-98  324.1   7.7   1   1  2.9e-101   6.3e-98  323.9   7.7     1   161    21   187    21   187 0.98 | transcript=PVP01_0527900.1 | gene=PVP01_0527900 | organism=Plasmodium_vivax_P01 | gene_product=trafficking protein particle complex subunit 3, putative | transcript_product=trafficking protein particle complex subunit 3, putative | location=PvP01_05_v2:1156259-1157535(-) | protein_length=187 | sequence_SO=chromosome | SO=protein_coding_gene | is_pseudo=false
+PVP01_1311700.1-p1   -            185 12624at5820          -            161    0.0011   17.5   0.3   1   1   6.3e-07    0.0014   17.2   0.3     9   123    28   148    21   180 0.78 | transcript=PVP01_1311700.1 | gene=PVP01_1311700 | organism=Plasmodium_vivax_P01 | gene_product=trafficking protein particle complex subunit 5, putative | transcript_product=trafficking protein particle complex subunit 5, putative | location=PvP01_13_v2:540502-541059(+) | protein_length=185 | sequence_SO=chromosome | SO=protein_coding_gene | is_pseudo=false
+PVP01_1130800.1-p1   -            263 12624at5820          -            161    0.0041   15.7   0.3   1   2      0.31   6.8e+02   -1.3   0.0    39    59    19    39    10    49 0.73 | transcript=PVP01_1130800.1 | gene=PVP01_1130800 | organism=Plasmodium_vivax_P01 | gene_product=trafficking protein particle complex subunit 6A, putative | transcript_product=trafficking protein particle complex subunit 6A, putative | location=PvP01_11_v2:1326485-1327437(-) | protein_length=263 | sequence_SO=chromosome | SO=protein_coding_gene | is_pseudo=false
+PVP01_1130800.1-p1   -            263 12624at5820          -            161    0.0041   15.7   0.3   2   2   7.6e-06     0.016   13.7   0.0    20   130   128   247   123   253 0.75 | transcript=PVP01_1130800.1 | gene=PVP01_1130800 | organism=Plasmodium_vivax_P01 | gene_product=trafficking protein particle complex subunit 6A, putative | transcript_product=trafficking protein particle complex subunit 6A, putative | location=PvP01_11_v2:1326485-1327437(-) | protein_length=263 | sequence_SO=chromosome | SO=protein_coding_gene | is_pseudo=false
+#
+# Program:         hmmsearch
+# Version:         3.4 (Aug 2023)
+# Pipeline mode:   SEARCH
+# Query file:      /v3/work/00_inventory/busco/busco_downloads/lineages/plasmodium_odb10/hmms/12624at5820.hmm
+# Target file:     /v3/inputs/annotations/plasmodb-68/PvP01.proteins.fa
+# Option settings: hmmsearch --domtblout /v3/work/00_inventory/busco/PvP01_proteins/run_plasmodium_odb10/hmmer_output/initial_run_results/12624at5820.out --cpu 1 /v3/work/00_inventory/busco/busco_downloads/lineages/plasmodium_odb10/hmms/12624at5820.hmm /v3/inputs/annotations/plasmodb-68/PvP01.proteins.fa 
+# Current dir:     /v3/work/00_inventory/busco
+# Date:            Tue May 19 17:27:26 2026
+# [ok]

@@ -1,0 +1,17 @@
+#                                                                            --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name        accession   tlen query name           accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+#------------------- ---------- ----- -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+PVX_117280.1-p1      -            326 9481at5820           -            281  2.8e-166  550.4  49.3   1   1  1.2e-167  3.3e-164  543.6  49.3     1   281     1   309     1   309 0.96 | transcript=PVX_117280.1 | gene=PVX_117280 | organism=Plasmodium_vivax_Sal-1 | gene_product=cyclin homologue, putative | transcript_product=cyclin homologue, putative | location=Pv_Sal1_chr12:1729164-1730144(-) | protein_length=326 | sequence_SO=chromosome | SO=protein_coding_gene | is_pseudo=false
+PVX_122075.1-p1      -            275 9481at5820           -            281   4.7e-05   21.5   5.9   1   3   1.7e-08   4.7e-05   21.5   5.9    23   119     4   101     1   137 0.78 | transcript=PVX_122075.1 | gene=PVX_122075 | organism=Plasmodium_vivax_Sal-1 | gene_product=cyclin 4, putative | transcript_product=cyclin 4, putative | location=Pv_Sal1_chr14:261434-263066(+) | protein_length=275 | sequence_SO=chromosome | SO=protein_coding_gene | is_pseudo=false
+PVX_122075.1-p1      -            275 9481at5820           -            281   4.7e-05   21.5   5.9   2   3      0.15   4.2e+02   -1.3   0.4    26    47   104   125   101   161 0.65 | transcript=PVX_122075.1 | gene=PVX_122075 | organism=Plasmodium_vivax_Sal-1 | gene_product=cyclin 4, putative | transcript_product=cyclin 4, putative | location=Pv_Sal1_chr14:261434-263066(+) | protein_length=275 | sequence_SO=chromosome | SO=protein_coding_gene | is_pseudo=false
+PVX_122075.1-p1      -            275 9481at5820           -            281   4.7e-05   21.5   5.9   3   3      0.13   3.6e+02   -1.1   0.1    86   105   207   226   186   253 0.71 | transcript=PVX_122075.1 | gene=PVX_122075 | organism=Plasmodium_vivax_Sal-1 | gene_product=cyclin 4, putative | transcript_product=cyclin 4, putative | location=Pv_Sal1_chr14:261434-263066(+) | protein_length=275 | sequence_SO=chromosome | SO=protein_coding_gene | is_pseudo=false
+#
+# Program:         hmmsearch
+# Version:         3.4 (Aug 2023)
+# Pipeline mode:   SEARCH
+# Query file:      /v3/work/00_inventory/busco/busco_downloads/lineages/plasmodium_odb10/hmms/9481at5820.hmm
+# Target file:     /v3/inputs/annotations/plasmodb-68/Sal-I.proteins.fa
+# Option settings: hmmsearch --domtblout /v3/work/00_inventory/busco/Sal-I_proteins/run_plasmodium_odb10/hmmer_output/initial_run_results/9481at5820.out --cpu 1 /v3/work/00_inventory/busco/busco_downloads/lineages/plasmodium_odb10/hmms/9481at5820.hmm /v3/inputs/annotations/plasmodb-68/Sal-I.proteins.fa 
+# Current dir:     /v3/work/00_inventory/busco
+# Date:            Tue May 19 17:51:18 2026
+# [ok]

@@ -1,0 +1,16 @@
+#                                                                            --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name        accession   tlen query name           accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+#------------------- ---------- ----- -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+PVP01_0528700.1-p1   -            333 10849at5820          -            261  4.3e-133  441.1  14.6   1   1  1.5e-135  3.3e-132  438.3  14.6     2   260     6   331     5   332 0.99 | transcript=PVP01_0528700.1 | gene=PVP01_0528700 | organism=Plasmodium_vivax_P01 | gene_product=RAD51 domain-containing protein | transcript_product=RAD51 domain-containing protein | location=PvP01_05_v2:1182134-1183412(-) | protein_length=333 | sequence_SO=chromosome | SO=protein_coding_gene | is_pseudo=false
+PVP01_0518500.1-p1   -            347 10849at5820          -            261   1.2e-06   26.7   0.0   1   1     8e-10   1.7e-06   26.2   0.0    23   196   107   276    94   289 0.83 | transcript=PVP01_0518500.1 | gene=PVP01_0518500 | organism=Plasmodium_vivax_P01 | gene_product=meiotic recombination protein DMC1, putative | transcript_product=meiotic recombination protein DMC1, putative | location=PvP01_05_v2:771297-773453(+) | protein_length=347 | sequence_SO=chromosome | SO=protein_coding_gene | is_pseudo=false
+PVP01_0908200.1-p1   -            350 10849at5820          -            261    0.0083   14.1   0.0   1   1   5.3e-06     0.012   13.6   0.0    25   161   111   241    86   294 0.77 | transcript=PVP01_0908200.1 | gene=PVP01_0908200 | organism=Plasmodium_vivax_P01 | gene_product=DNA repair protein RAD51, putative | transcript_product=DNA repair protein RAD51, putative | location=PvP01_09_v2:442767-443819(-) | protein_length=350 | sequence_SO=chromosome | SO=protein_coding_gene | is_pseudo=false
+#
+# Program:         hmmsearch
+# Version:         3.4 (Aug 2023)
+# Pipeline mode:   SEARCH
+# Query file:      /v3/work/00_inventory/busco/busco_downloads/lineages/plasmodium_odb10/hmms/10849at5820.hmm
+# Target file:     /v3/inputs/annotations/plasmodb-68/PvP01.proteins.fa
+# Option settings: hmmsearch --domtblout /v3/work/00_inventory/busco/PvP01_proteins/run_plasmodium_odb10/hmmer_output/initial_run_results/10849at5820.out --cpu 1 /v3/work/00_inventory/busco/busco_downloads/lineages/plasmodium_odb10/hmms/10849at5820.hmm /v3/inputs/annotations/plasmodb-68/PvP01.proteins.fa 
+# Current dir:     /v3/work/00_inventory/busco
+# Date:            Tue May 19 17:27:30 2026
+# [ok]

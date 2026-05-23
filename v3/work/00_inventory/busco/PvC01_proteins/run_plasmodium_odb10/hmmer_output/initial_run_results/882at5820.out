@@ -1,0 +1,30 @@
+#                                                                            --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name        accession   tlen query name           accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+#------------------- ---------- ----- -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+SCO75519.1           -           2032 882at5820            -           1269         0 2418.6 146.0   1   7   1.7e-56   3.6e-53  179.0  11.6     1   116   118   234   118   249 0.90 potassium channel, putative [Plasmodium vivax]
+SCO75519.1           -           2032 882at5820            -           1269         0 2418.6 146.0   2   7     4e-38   8.5e-35  118.2   7.9   112   216   302   421   294   436 0.84 potassium channel, putative [Plasmodium vivax]
+SCO75519.1           -           2032 882at5820            -           1269         0 2418.6 146.0   3   7         0         0 1222.5  46.8   198   798   513  1152   507  1159 0.95 potassium channel, putative [Plasmodium vivax]
+SCO75519.1           -           2032 882at5820            -           1269         0 2418.6 146.0   4   7   1.8e-78   3.9e-75  251.8  11.3   794   920  1242  1369  1226  1372 0.95 potassium channel, putative [Plasmodium vivax]
+SCO75519.1           -           2032 882at5820            -           1269         0 2418.6 146.0   5   7   2.5e-28   5.2e-25   85.7   0.0   918   971  1491  1544  1479  1548 0.93 potassium channel, putative [Plasmodium vivax]
+SCO75519.1           -           2032 882at5820            -           1269         0 2418.6 146.0   6   7   5.6e-62   1.2e-58  197.2  10.4   970  1086  1663  1781  1657  1799 0.95 potassium channel, putative [Plasmodium vivax]
+SCO75519.1           -           2032 882at5820            -           1269         0 2418.6 146.0   7   7  8.3e-122  1.7e-118  395.4  15.9  1083  1269  1839  2028  1835  2028 0.98 potassium channel, putative [Plasmodium vivax]
+SCO74721.1           -           1687 882at5820            -           1269   6.3e-40  135.2  94.9   1   6   7.8e-21   1.6e-17   60.9  40.5   264   639   393   775   369   776 0.81 conserved Plasmodium protein, unknown function [Plasmodium vivax]
+SCO74721.1           -           1687 882at5820            -           1269   6.3e-40  135.2  94.9   2   6   1.6e-05     0.034   10.2   5.8   682   767   745   832   730   838 0.72 conserved Plasmodium protein, unknown function [Plasmodium vivax]
+SCO74721.1           -           1687 882at5820            -           1269   6.3e-40  135.2  94.9   3   6   1.8e-15   3.7e-12   43.2   5.9   810   904   991  1078   955  1099 0.78 conserved Plasmodium protein, unknown function [Plasmodium vivax]
+SCO74721.1           -           1687 882at5820            -           1269   6.3e-40  135.2  94.9   4   6      0.17   3.6e+02   -3.2   0.0   907   940  1113  1146  1102  1150 0.80 conserved Plasmodium protein, unknown function [Plasmodium vivax]
+SCO74721.1           -           1687 882at5820            -           1269   6.3e-40  135.2  94.9   5   6   1.4e-11   2.8e-08   30.3   5.4   950  1034  1199  1281  1193  1340 0.79 conserved Plasmodium protein, unknown function [Plasmodium vivax]
+SCO74721.1           -           1687 882at5820            -           1269   6.3e-40  135.2  94.9   6   6   4.6e-06    0.0097   12.0  10.8  1119  1268  1542  1676  1508  1677 0.80 conserved Plasmodium protein, unknown function [Plasmodium vivax]
+SCO74255.1           -           1449 882at5820            -           1269   9.8e-13   45.1  79.8   1   4   2.5e-13   5.3e-10   36.0  39.9   260   532   115   409    74   430 0.71 potassium channel, putative [Plasmodium vivax]
+SCO74255.1           -           1449 882at5820            -           1269   9.8e-13   45.1  79.8   2   4   0.00037      0.78    5.7   4.4   701   754   502   554   428   562 0.78 potassium channel, putative [Plasmodium vivax]
+SCO74255.1           -           1449 882at5820            -           1269   9.8e-13   45.1  79.8   3   4   2.4e-09     5e-06   22.9   7.9   946  1065  1185  1298  1170  1308 0.77 potassium channel, putative [Plasmodium vivax]
+SCO74255.1           -           1449 882at5820            -           1269   9.8e-13   45.1  79.8   4   4      0.75   1.6e+03   -5.3  10.0  1077  1178  1268  1377  1265  1448 0.71 potassium channel, putative [Plasmodium vivax]
+#
+# Program:         hmmsearch
+# Version:         3.4 (Aug 2023)
+# Pipeline mode:   SEARCH
+# Query file:      /v3/work/00_inventory/busco/busco_downloads/lineages/plasmodium_odb10/hmms/882at5820.hmm
+# Target file:     /v3/inputs/annotations/ncbi-datasets/PvC01.proteins.fa
+# Option settings: hmmsearch --domtblout /v3/work/00_inventory/busco/PvC01_proteins/run_plasmodium_odb10/hmmer_output/initial_run_results/882at5820.out --cpu 1 /v3/work/00_inventory/busco/busco_downloads/lineages/plasmodium_odb10/hmms/882at5820.hmm /v3/inputs/annotations/ncbi-datasets/PvC01.proteins.fa 
+# Current dir:     /v3/work/00_inventory/busco
+# Date:            Tue May 19 19:07:33 2026
+# [ok]

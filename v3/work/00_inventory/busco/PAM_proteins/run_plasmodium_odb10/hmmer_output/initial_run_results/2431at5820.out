@@ -1,0 +1,17 @@
+#                                                                            --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name        accession   tlen query name           accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+#------------------- ---------- ----- -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+CAI7720271.1         -           1164 2431at5820           -            611         0 1245.7  45.3   1   4     3e-91   1.9e-87  292.6   2.4     1   154     1   157     1   192 0.94 | transcript=PVPAM_080049400_t1 | gene=PVPAM_080049400 | organism=Plasmodium_vivax_PAM | gene_product=lipin, putative | transcript_product=lipin, putative | location=CASCJQ010000008:1914071-1919030(-) | protein_length=1164 | sequence_SO=supercontig | SO=protein_coding_gene | is_pseudo=false
+CAI7720271.1         -           1164 2431at5820           -            611         0 1245.7  45.3   2   4   1.9e-16   1.2e-12   45.5  12.5   145   201   247   305   232   342 0.69 | transcript=PVPAM_080049400_t1 | gene=PVPAM_080049400 | organism=Plasmodium_vivax_PAM | gene_product=lipin, putative | transcript_product=lipin, putative | location=CASCJQ010000008:1914071-1919030(-) | protein_length=1164 | sequence_SO=supercontig | SO=protein_coding_gene | is_pseudo=false
+CAI7720271.1         -           1164 2431at5820           -            611         0 1245.7  45.3   3   4   2.2e-90   1.4e-86  289.7   3.9   199   355   654   810   595   832 0.82 | transcript=PVPAM_080049400_t1 | gene=PVPAM_080049400 | organism=Plasmodium_vivax_PAM | gene_product=lipin, putative | transcript_product=lipin, putative | location=CASCJQ010000008:1914071-1919030(-) | protein_length=1164 | sequence_SO=supercontig | SO=protein_coding_gene | is_pseudo=false
+CAI7720271.1         -           1164 2431at5820           -            611         0 1245.7  45.3   4   4  6.1e-195    4e-191  635.0   3.1   342   611   874  1146   862  1146 0.98 | transcript=PVPAM_080049400_t1 | gene=PVPAM_080049400 | organism=Plasmodium_vivax_PAM | gene_product=lipin, putative | transcript_product=lipin, putative | location=CASCJQ010000008:1914071-1919030(-) | protein_length=1164 | sequence_SO=supercontig | SO=protein_coding_gene | is_pseudo=false
+#
+# Program:         hmmsearch
+# Version:         3.4 (Aug 2023)
+# Pipeline mode:   SEARCH
+# Query file:      /v3/work/00_inventory/busco/busco_downloads/lineages/plasmodium_odb10/hmms/2431at5820.hmm
+# Target file:     /v3/inputs/annotations/plasmodb-68/PAM.proteins.fa
+# Option settings: hmmsearch --domtblout /v3/work/00_inventory/busco/PAM_proteins/run_plasmodium_odb10/hmmer_output/initial_run_results/2431at5820.out --cpu 1 /v3/work/00_inventory/busco/busco_downloads/lineages/plasmodium_odb10/hmms/2431at5820.hmm /v3/inputs/annotations/plasmodb-68/PAM.proteins.fa 
+# Current dir:     /v3/work/00_inventory/busco
+# Date:            Tue May 19 17:36:00 2026
+# [ok]

@@ -1,0 +1,17 @@
+#                                                                            --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name        accession   tlen query name           accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+#------------------- ---------- ----- -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+PVP01_0830400.1-p1   -            308 10875at5820          -            217  3.3e-131  433.7   9.6   1   2   1.8e-98   3.8e-95  315.8   5.9     1   158    28   185    28   206 0.93 | transcript=PVP01_0830400.1 | gene=PVP01_0830400 | organism=Plasmodium_vivax_P01 | gene_product=YTH domain-containing protein 2, putative | transcript_product=YTH domain-containing protein 2, putative | location=PvP01_08_v2:1322260-1324433(-) | protein_length=308 | sequence_SO=chromosome | SO=protein_coding_gene | is_pseudo=false
+PVP01_0830400.1-p1   -            308 10875at5820          -            217  3.3e-131  433.7   9.6   2   2   1.2e-38   2.6e-35  120.3   0.3   111   217   198   305   183   305 0.87 | transcript=PVP01_0830400.1 | gene=PVP01_0830400 | organism=Plasmodium_vivax_P01 | gene_product=YTH domain-containing protein 2, putative | transcript_product=YTH domain-containing protein 2, putative | location=PvP01_08_v2:1322260-1324433(-) | protein_length=308 | sequence_SO=chromosome | SO=protein_coding_gene | is_pseudo=false
+PVP01_1329000.1-p1   -            607 10875at5820          -            217   2.9e-22   77.6   1.0   1   1   2.2e-25   4.9e-22   76.9   1.0     2   136   404   536   403   586 0.87 | transcript=PVP01_1329000.1 | gene=PVP01_1329000 | organism=Plasmodium_vivax_P01 | gene_product=YTH domain-containing protein 1, putative | transcript_product=YTH domain-containing protein 1, putative | location=PvP01_13_v2:1228456-1230279(+) | protein_length=607 | sequence_SO=chromosome | SO=protein_coding_gene | is_pseudo=false
+PVP01_1244800.1-p1   -            121 10875at5820          -            217    0.0011   16.9   0.6   1   1   1.9e-06    0.0041   15.0   0.6    80   139    48   108    10   114 0.87 | transcript=PVP01_1244800.1 | gene=PVP01_1244800 | organism=Plasmodium_vivax_P01 | gene_product=thioredoxin-like protein | transcript_product=thioredoxin-like protein | location=PvP01_12_v2:1852999-1853364(+) | protein_length=121 | sequence_SO=chromosome | SO=protein_coding_gene | is_pseudo=false
+#
+# Program:         hmmsearch
+# Version:         3.4 (Aug 2023)
+# Pipeline mode:   SEARCH
+# Query file:      /v3/work/00_inventory/busco/busco_downloads/lineages/plasmodium_odb10/hmms/10875at5820.hmm
+# Target file:     /v3/inputs/annotations/plasmodb-68/PvP01.proteins.fa
+# Option settings: hmmsearch --domtblout /v3/work/00_inventory/busco/PvP01_proteins/run_plasmodium_odb10/hmmer_output/initial_run_results/10875at5820.out --cpu 1 /v3/work/00_inventory/busco/busco_downloads/lineages/plasmodium_odb10/hmms/10875at5820.hmm /v3/inputs/annotations/plasmodb-68/PvP01.proteins.fa 
+# Current dir:     /v3/work/00_inventory/busco
+# Date:            Tue May 19 17:27:37 2026
+# [ok]

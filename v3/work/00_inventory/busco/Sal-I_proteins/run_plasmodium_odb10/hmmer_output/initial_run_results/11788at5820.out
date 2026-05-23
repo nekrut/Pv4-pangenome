@@ -1,0 +1,15 @@
+#                                                                            --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name        accession   tlen query name           accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+#------------------- ---------- ----- -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+PVX_083195.1-p1      -            216 11788at5820          -            187  2.5e-106  351.5  15.1   1   1  1.1e-109  2.9e-106  351.3  15.1     1   187     9   211     9   211 0.95 | transcript=PVX_083195.1 | gene=PVX_083195 | organism=Plasmodium_vivax_Sal-1 | gene_product=kinetochore protein SPC25, putative | transcript_product=kinetochore protein SPC25, putative | location=Pv_Sal1_chr12:330941-332695(+) | protein_length=216 | sequence_SO=chromosome | SO=protein_coding_gene | is_pseudo=false
+PVX_111090.1-p1      -            615 11788at5820          -            187    0.0095   13.8   1.0   1   1   6.6e-06     0.018   12.9   1.0    69   120    24    75    19    85 0.91 | transcript=PVX_111090.1 | gene=PVX_111090 | organism=Plasmodium_vivax_Sal-1 | gene_product=hypothetical protein, conserved | transcript_product=hypothetical protein, conserved | location=Pv_Sal1_chr06:723657-725504(-) | protein_length=615 | sequence_SO=chromosome | SO=protein_coding_gene | is_pseudo=false
+#
+# Program:         hmmsearch
+# Version:         3.4 (Aug 2023)
+# Pipeline mode:   SEARCH
+# Query file:      /v3/work/00_inventory/busco/busco_downloads/lineages/plasmodium_odb10/hmms/11788at5820.hmm
+# Target file:     /v3/inputs/annotations/plasmodb-68/Sal-I.proteins.fa
+# Option settings: hmmsearch --domtblout /v3/work/00_inventory/busco/Sal-I_proteins/run_plasmodium_odb10/hmmer_output/initial_run_results/11788at5820.out --cpu 1 /v3/work/00_inventory/busco/busco_downloads/lineages/plasmodium_odb10/hmms/11788at5820.hmm /v3/inputs/annotations/plasmodb-68/Sal-I.proteins.fa 
+# Current dir:     /v3/work/00_inventory/busco
+# Date:            Tue May 19 17:24:39 2026
+# [ok]

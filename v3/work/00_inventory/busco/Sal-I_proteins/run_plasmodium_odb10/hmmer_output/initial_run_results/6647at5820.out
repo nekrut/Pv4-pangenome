@@ -1,0 +1,17 @@
+#                                                                            --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name        accession   tlen query name           accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+#------------------- ---------- ----- -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+PVX_080435.1-p1      -            545 6647at5820           -            336    3e-172  570.6   4.3   1   2     2e-96   5.4e-93  310.0   2.0    11   185   100   301    96   309 0.91 | transcript=PVX_080435.1 | gene=PVX_080435 | organism=Plasmodium_vivax_Sal-1 | gene_product=tRNA pseudouridine synthase, putative | transcript_product=tRNA pseudouridine synthase, putative | location=Pv_Sal1_chr10:672775-674412(-) | protein_length=545 | sequence_SO=chromosome | SO=protein_coding_gene | is_pseudo=false
+PVX_080435.1-p1      -            545 6647at5820           -            336    3e-172  570.6   4.3   2   2   2.9e-81   8.1e-78  260.1   0.0   188   335   394   544   390   545 0.98 | transcript=PVX_080435.1 | gene=PVX_080435 | organism=Plasmodium_vivax_Sal-1 | gene_product=tRNA pseudouridine synthase, putative | transcript_product=tRNA pseudouridine synthase, putative | location=Pv_Sal1_chr10:672775-674412(-) | protein_length=545 | sequence_SO=chromosome | SO=protein_coding_gene | is_pseudo=false
+PVX_098875.1-p1      -            306 6647at5820           -            336   4.5e-16   57.2   2.7   1   2   1.9e-05     0.054   10.9   0.1    53   150    25   125    16   131 0.64 | transcript=PVX_098875.1 | gene=PVX_098875 | organism=Plasmodium_vivax_Sal-1 | gene_product=tRNA pseudouridine synthase, putative | transcript_product=tRNA pseudouridine synthase, putative | location=Pv_Sal1_chr07:324463-326454(-) | protein_length=306 | sequence_SO=chromosome | SO=protein_coding_gene | is_pseudo=false
+PVX_098875.1-p1      -            306 6647at5820           -            336   4.5e-16   57.2   2.7   2   2   3.1e-16   8.5e-13   46.4   0.7   209   319   132   238   126   255 0.81 | transcript=PVX_098875.1 | gene=PVX_098875 | organism=Plasmodium_vivax_Sal-1 | gene_product=tRNA pseudouridine synthase, putative | transcript_product=tRNA pseudouridine synthase, putative | location=Pv_Sal1_chr07:324463-326454(-) | protein_length=306 | sequence_SO=chromosome | SO=protein_coding_gene | is_pseudo=false
+#
+# Program:         hmmsearch
+# Version:         3.4 (Aug 2023)
+# Pipeline mode:   SEARCH
+# Query file:      /v3/work/00_inventory/busco/busco_downloads/lineages/plasmodium_odb10/hmms/6647at5820.hmm
+# Target file:     /v3/inputs/annotations/plasmodb-68/Sal-I.proteins.fa
+# Option settings: hmmsearch --domtblout /v3/work/00_inventory/busco/Sal-I_proteins/run_plasmodium_odb10/hmmer_output/initial_run_results/6647at5820.out --cpu 1 /v3/work/00_inventory/busco/busco_downloads/lineages/plasmodium_odb10/hmms/6647at5820.hmm /v3/inputs/annotations/plasmodb-68/Sal-I.proteins.fa 
+# Current dir:     /v3/work/00_inventory/busco
+# Date:            Tue May 19 17:43:55 2026
+# [ok]

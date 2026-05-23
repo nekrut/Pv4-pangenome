@@ -1,0 +1,19 @@
+#                                                                            --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name        accession   tlen query name           accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+#------------------- ---------- ----- -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+SCO70085.1           -            491 5892at5820           -            356  2.1e-212  703.0  25.9   1   1  1.7e-215  2.6e-212  702.7  25.9     2   356   141   488   140   488 0.98 nucleotidyltransferase, putative [Plasmodium vivax]
+SCO66873.1           -            572 5892at5820           -            356   1.5e-26   91.7  17.0   1   1   1.4e-29   2.2e-26   91.2  17.0    38   329   262   565   239   569 0.75 conserved Plasmodium protein, unknown function [Plasmodium vivax]
+SCO70030.1           -            904 5892at5820           -            356   1.7e-08   32.4  12.9   1   2   1.3e-11     2e-08   32.1  11.0    58   193   393   528   350   534 0.84 conserved Plasmodium protein, unknown function [Plasmodium vivax]
+SCO70030.1           -            904 5892at5820           -            356   1.7e-08   32.4  12.9   2   2      0.36   5.5e+02   -2.2   0.0    85    98   536   549   527   554 0.79 conserved Plasmodium protein, unknown function [Plasmodium vivax]
+SCO66034.1           -           4407 5892at5820           -            356   0.00023   18.7   1.4   1   2   0.00046       0.7    7.3   0.3    19    81  2307  2371  2290  2390 0.78 erythrocyte membrane-associated antigen, putative [Plasmodium vivax]
+SCO66034.1           -           4407 5892at5820           -            356   0.00023   18.7   1.4   2   2   6.6e-05       0.1   10.1   0.0   113   187  2438  2511  2427  2532 0.84 erythrocyte membrane-associated antigen, putative [Plasmodium vivax]
+#
+# Program:         hmmsearch
+# Version:         3.4 (Aug 2023)
+# Pipeline mode:   SEARCH
+# Query file:      /v3/work/00_inventory/busco/busco_downloads/lineages/plasmodium_odb10/hmms/5892at5820.hmm
+# Target file:     /v3/inputs/annotations/ncbi-datasets/PvT01.proteins.fa
+# Option settings: hmmsearch --domtblout /v3/work/00_inventory/busco/PvT01_proteins/run_plasmodium_odb10/hmmer_output/initial_run_results/5892at5820.out --cpu 1 /v3/work/00_inventory/busco/busco_downloads/lineages/plasmodium_odb10/hmms/5892at5820.hmm /v3/inputs/annotations/ncbi-datasets/PvT01.proteins.fa 
+# Current dir:     /v3/work/00_inventory/busco
+# Date:            Tue May 19 18:57:34 2026
+# [ok]

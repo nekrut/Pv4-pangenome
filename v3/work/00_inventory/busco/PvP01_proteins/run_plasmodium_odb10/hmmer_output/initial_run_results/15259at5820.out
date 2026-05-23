@@ -1,0 +1,16 @@
+#                                                                            --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name        accession   tlen query name           accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+#------------------- ---------- ----- -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+PVP01_0108400.1-p1   -             69 15259at5820          -             68   1.5e-51  170.8   6.0   1   1   5.2e-55   1.7e-51  170.7   6.0     1    68     1    68     1    68 1.00 | transcript=PVP01_0108400.1 | gene=PVP01_0108400 | organism=Plasmodium_vivax_P01 | gene_product=DNA-directed RNA polymerases I, II, and III subunit RPABC5, putative | transcript_product=DNA-directed RNA polymerases I, II, and III subunit RPABC5, putative | location=PvP01_01_v2:411115-411324(-) | protein_length=69 | sequence_SO=chromosome | SO=protein_coding_gene | is_pseudo=false
+PVP01_1002300.1-p1   -            350 15259at5820          -             68      0.01   14.4   0.7   1   2   3.1e-05       0.1   11.2   0.0     9    25    55    71    52    92 0.82 | transcript=PVP01_1002300.1 | gene=PVP01_1002300 | organism=Plasmodium_vivax_P01 | gene_product=PIR protein | transcript_product=PIR protein | location=PvP01_10_v2:120855-122180(-) | protein_length=350 | sequence_SO=chromosome | SO=protein_coding_gene | is_pseudo=false
+PVP01_1002300.1-p1   -            350 15259at5820          -             68      0.01   14.4   0.7   2   2     0.083   2.7e+02    0.3   0.1    10    39   207   235   202   250 0.76 | transcript=PVP01_1002300.1 | gene=PVP01_1002300 | organism=Plasmodium_vivax_P01 | gene_product=PIR protein | transcript_product=PIR protein | location=PvP01_10_v2:120855-122180(-) | protein_length=350 | sequence_SO=chromosome | SO=protein_coding_gene | is_pseudo=false
+#
+# Program:         hmmsearch
+# Version:         3.4 (Aug 2023)
+# Pipeline mode:   SEARCH
+# Query file:      /v3/work/00_inventory/busco/busco_downloads/lineages/plasmodium_odb10/hmms/15259at5820.hmm
+# Target file:     /v3/inputs/annotations/plasmodb-68/PvP01.proteins.fa
+# Option settings: hmmsearch --domtblout /v3/work/00_inventory/busco/PvP01_proteins/run_plasmodium_odb10/hmmer_output/initial_run_results/15259at5820.out --cpu 1 /v3/work/00_inventory/busco/busco_downloads/lineages/plasmodium_odb10/hmms/15259at5820.hmm /v3/inputs/annotations/plasmodb-68/PvP01.proteins.fa 
+# Current dir:     /v3/work/00_inventory/busco
+# Date:            Tue May 19 17:35:30 2026
+# [ok]

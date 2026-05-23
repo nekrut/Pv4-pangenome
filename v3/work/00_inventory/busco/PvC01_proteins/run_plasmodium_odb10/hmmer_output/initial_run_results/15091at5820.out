@@ -1,0 +1,18 @@
+#                                                                            --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name        accession   tlen query name           accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+#------------------- ---------- ----- -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+SCO75187.1           -             89 15091at5820          -             78   5.8e-43  143.7  11.5   1   1   4.4e-46   1.4e-42  142.5  11.5     1    78     1    89     1    89 0.93 protein ISD11, putative [Plasmodium vivax]
+SCO70782.1           -            497 15091at5820          -             78     0.088   11.8  16.3   1   4       1.5   4.7e+03   -3.4   0.3    47    62    32    47    18    64 0.54 conserved Plasmodium protein, unknown function [Plasmodium vivax]
+SCO70782.1           -            497 15091at5820          -             78     0.088   11.8  16.3   2   4   6.3e-05       0.2   10.6   3.8    11    71   116   181   109   185 0.80 conserved Plasmodium protein, unknown function [Plasmodium vivax]
+SCO70782.1           -            497 15091at5820          -             78     0.088   11.8  16.3   3   4     0.057   1.8e+02    1.2   0.1     7    20   303   316   296   328 0.74 conserved Plasmodium protein, unknown function [Plasmodium vivax]
+SCO70782.1           -            497 15091at5820          -             78     0.088   11.8  16.3   4   4   0.00075       2.4    7.2   0.0     8    66   401   459   395   464 0.75 conserved Plasmodium protein, unknown function [Plasmodium vivax]
+#
+# Program:         hmmsearch
+# Version:         3.4 (Aug 2023)
+# Pipeline mode:   SEARCH
+# Query file:      /v3/work/00_inventory/busco/busco_downloads/lineages/plasmodium_odb10/hmms/15091at5820.hmm
+# Target file:     /v3/inputs/annotations/ncbi-datasets/PvC01.proteins.fa
+# Option settings: hmmsearch --domtblout /v3/work/00_inventory/busco/PvC01_proteins/run_plasmodium_odb10/hmmer_output/initial_run_results/15091at5820.out --cpu 1 /v3/work/00_inventory/busco/busco_downloads/lineages/plasmodium_odb10/hmms/15091at5820.hmm /v3/inputs/annotations/ncbi-datasets/PvC01.proteins.fa 
+# Current dir:     /v3/work/00_inventory/busco
+# Date:            Tue May 19 18:36:47 2026
+# [ok]

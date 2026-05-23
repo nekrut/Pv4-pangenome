@@ -1,0 +1,16 @@
+#                                                                            --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name        accession   tlen query name           accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+#------------------- ---------- ----- -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+SCO68674.1           -            334 8515at5820           -            314  7.9e-214  707.1   4.8   1   1  4.4e-217  8.9e-214  706.9   4.8     1   314     1   324     1   324 0.99 oxidoreductase, putative [Plasmodium vivax]
+SCO68677.1           -            316 8515at5820           -            314   1.2e-81  272.9   3.2   1   1   6.9e-85   1.4e-81  272.6   3.2     6   301     4   306     1   313 0.91 L-lactate dehydrogenase [Plasmodium vivax]
+SCO68209.1           -            313 8515at5820           -            314   4.6e-72  241.3   2.0   1   1   2.7e-75   5.5e-72  241.1   2.0     7   304     2   301     1   307 0.94 malate dehydrogenase, putative [Plasmodium vivax]
+#
+# Program:         hmmsearch
+# Version:         3.4 (Aug 2023)
+# Pipeline mode:   SEARCH
+# Query file:      /v3/work/00_inventory/busco/busco_downloads/lineages/plasmodium_odb10/hmms/8515at5820.hmm
+# Target file:     /v3/inputs/annotations/ncbi-datasets/PvT01.proteins.fa
+# Option settings: hmmsearch --domtblout /v3/work/00_inventory/busco/PvT01_proteins/run_plasmodium_odb10/hmmer_output/initial_run_results/8515at5820.out --cpu 1 /v3/work/00_inventory/busco/busco_downloads/lineages/plasmodium_odb10/hmms/8515at5820.hmm /v3/inputs/annotations/ncbi-datasets/PvT01.proteins.fa 
+# Current dir:     /v3/work/00_inventory/busco
+# Date:            Tue May 19 19:06:09 2026
+# [ok]

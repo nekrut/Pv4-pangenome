@@ -1,0 +1,23 @@
+#                                                                            --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name        accession   tlen query name           accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+#------------------- ---------- ----- -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+SCO70521.1           -           1896 958at5820            -           1125         0 1923.6  71.0   1  10   1.9e-92   1.2e-88  296.7   2.1     1   163     1   180     1   189 0.90 adenylyl cyclase beta, putative [Plasmodium vivax]
+SCO70521.1           -           1896 958at5820            -           1125         0 1923.6  71.0   2  10   2.1e-76   1.3e-72  243.5   0.7   162   292   256   386   252   389 0.97 adenylyl cyclase beta, putative [Plasmodium vivax]
+SCO70521.1           -           1896 958at5820            -           1125         0 1923.6  71.0   3  10  5.5e-148  3.5e-144  480.6   4.6   292   508   438   666   435   669 0.95 adenylyl cyclase beta, putative [Plasmodium vivax]
+SCO70521.1           -           1896 958at5820            -           1125         0 1923.6  71.0   4  10   5.5e-18   3.4e-14   50.1   1.1   505   549   755   799   739   824 0.89 adenylyl cyclase beta, putative [Plasmodium vivax]
+SCO70521.1           -           1896 958at5820            -           1125         0 1923.6  71.0   5  10   7.8e-80   4.9e-76  254.9   0.4   544   694   830   986   809  1009 0.92 adenylyl cyclase beta, putative [Plasmodium vivax]
+SCO70521.1           -           1896 958at5820            -           1125         0 1923.6  71.0   6  10   1.9e-49   1.2e-45  154.2   0.1   708   802  1205  1299  1198  1313 0.92 adenylyl cyclase beta, putative [Plasmodium vivax]
+SCO70521.1           -           1896 958at5820            -           1125         0 1923.6  71.0   7  10   7.8e-15   4.9e-11   39.6   0.1   795   835  1385  1433  1379  1437 0.84 adenylyl cyclase beta, putative [Plasmodium vivax]
+SCO70521.1           -           1896 958at5820            -           1125         0 1923.6  71.0   8  10   6.1e-56   3.8e-52  175.7   1.6   833   947  1471  1587  1464  1599 0.94 adenylyl cyclase beta, putative [Plasmodium vivax]
+SCO70521.1           -           1896 958at5820            -           1125         0 1923.6  71.0   9  10   1.5e-05     0.092    8.9   0.1   942   964  1631  1653  1628  1658 0.92 adenylyl cyclase beta, putative [Plasmodium vivax]
+SCO70521.1           -           1896 958at5820            -           1125         0 1923.6  71.0  10  10   3.3e-81   2.1e-77  259.4   5.0   962  1125  1722  1896  1712  1896 0.92 adenylyl cyclase beta, putative [Plasmodium vivax]
+#
+# Program:         hmmsearch
+# Version:         3.4 (Aug 2023)
+# Pipeline mode:   SEARCH
+# Query file:      /v3/work/00_inventory/busco/busco_downloads/lineages/plasmodium_odb10/hmms/958at5820.hmm
+# Target file:     /v3/inputs/annotations/ncbi-datasets/PvC01.proteins.fa
+# Option settings: hmmsearch --domtblout /v3/work/00_inventory/busco/PvC01_proteins/run_plasmodium_odb10/hmmer_output/initial_run_results/958at5820.out --cpu 1 /v3/work/00_inventory/busco/busco_downloads/lineages/plasmodium_odb10/hmms/958at5820.hmm /v3/inputs/annotations/ncbi-datasets/PvC01.proteins.fa 
+# Current dir:     /v3/work/00_inventory/busco
+# Date:            Tue May 19 19:12:55 2026
+# [ok]

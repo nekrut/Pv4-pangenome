@@ -1,0 +1,21 @@
+#                                                                            --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name        accession   tlen query name           accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+#------------------- ---------- ----- -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+SCO65151.1           -            638 6120at5820           -            399  2.5e-225  746.5  42.6   1   2  2.7e-123  4.1e-120  400.0  14.1     1   220    22   268    22   272 0.91 transporter, putative [Plasmodium vivax]
+SCO65151.1           -            638 6120at5820           -            399  2.5e-225  746.5  42.6   2   2  8.4e-109  1.3e-105  352.3  20.5   219   399   450   630   431   630 0.96 transporter, putative [Plasmodium vivax]
+SCO65150.1           -            571 6120at5820           -            399   1.4e-60  204.0  43.4   1   2   3.5e-37   5.3e-34  116.4  14.1    11   202    38   236    32   243 0.90 novel putative transporter 1 [Plasmodium vivax]
+SCO65150.1           -            571 6120at5820           -            399   1.4e-60  204.0  43.4   2   2   3.4e-30   5.2e-27   93.4  21.3   224   398   371   549   348   550 0.88 novel putative transporter 1 [Plasmodium vivax]
+SCO67398.1           -            571 6120at5820           -            399   4.5e-31  106.8  37.8   1   2   9.1e-27   1.4e-23   82.1  13.1    10   198    77   279    71   289 0.84 transporter, putative [Plasmodium vivax]
+SCO67398.1           -            571 6120at5820           -            399   4.5e-31  106.8  37.8   2   2   6.4e-11   9.7e-08   30.0  16.7   255   387   411   541   370   554 0.85 transporter, putative [Plasmodium vivax]
+SCO66467.1           -            484 6120at5820           -            399   7.6e-16   56.7  37.0   1   2   3.5e-16   5.2e-13   47.3   8.3    47   206    77   242    70   248 0.84 transporter, putative [Plasmodium vivax]
+SCO66467.1           -            484 6120at5820           -            399   7.6e-16   56.7  37.0   2   2   1.9e-06    0.0029   15.2  20.7   249   369   326   444   300   477 0.79 transporter, putative [Plasmodium vivax]
+#
+# Program:         hmmsearch
+# Version:         3.4 (Aug 2023)
+# Pipeline mode:   SEARCH
+# Query file:      /v3/work/00_inventory/busco/busco_downloads/lineages/plasmodium_odb10/hmms/6120at5820.hmm
+# Target file:     /v3/inputs/annotations/ncbi-datasets/PvT01.proteins.fa
+# Option settings: hmmsearch --domtblout /v3/work/00_inventory/busco/PvT01_proteins/run_plasmodium_odb10/hmmer_output/initial_run_results/6120at5820.out --cpu 1 /v3/work/00_inventory/busco/busco_downloads/lineages/plasmodium_odb10/hmms/6120at5820.hmm /v3/inputs/annotations/ncbi-datasets/PvT01.proteins.fa 
+# Current dir:     /v3/work/00_inventory/busco
+# Date:            Tue May 19 18:59:34 2026
+# [ok]

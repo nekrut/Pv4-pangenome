@@ -1,0 +1,16 @@
+#                                                                            --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name        accession   tlen query name           accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+#------------------- ---------- ----- -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+CAG9483575.1         -            148 13111at5820          -            125   2.7e-85  281.3   2.1   1   1     1e-88   3.1e-85  281.1   2.1     1   125    13   137    13   137 1.00 | transcript=PVW1_030028200_t1 | gene=PVW1_030028200 | organism=Plasmodium_vivax_PvW1 | gene_product=Mago nashi protein homologue, putative [Source:UniProtKB/TrEMBL;Acc:A0A1G4HDU5] | transcript_product=Mago nashi protein homologue, putative [Source:UniProtKB/TrEMBL;Acc:A0A1G4HDU5] | location=CAJZCX010000014:992430-993416(+) | protein_length=148 | sequence_SO=supercontig | SO=protein_coding_gene | is_pseudo=false
+CAG9485483.1         -            371 13111at5820          -            125     0.018   13.6   9.9   1   2   9.7e-06     0.029   12.9   4.3     9    96    73   157    66   192 0.77 | transcript=PVW1_000016100_t1 | gene=PVW1_000016100 | organism=Plasmodium_vivax_PvW1 | gene_product=VIR protein [Source:UniProtKB/TrEMBL;Acc:A0A565A3M0] | transcript_product=VIR protein [Source:UniProtKB/TrEMBL;Acc:A0A565A3M0] | location=CAJZCX010000017:515282-516637(-) | protein_length=371 | sequence_SO=supercontig | SO=protein_coding_gene | is_pseudo=false
+CAG9485483.1         -            371 13111at5820          -            125     0.018   13.6   9.9   2   2    0.0083        25    3.5   0.5    25    65   217   259   184   271 0.72 | transcript=PVW1_000016100_t1 | gene=PVW1_000016100 | organism=Plasmodium_vivax_PvW1 | gene_product=VIR protein [Source:UniProtKB/TrEMBL;Acc:A0A565A3M0] | transcript_product=VIR protein [Source:UniProtKB/TrEMBL;Acc:A0A565A3M0] | location=CAJZCX010000017:515282-516637(-) | protein_length=371 | sequence_SO=supercontig | SO=protein_coding_gene | is_pseudo=false
+#
+# Program:         hmmsearch
+# Version:         3.4 (Aug 2023)
+# Pipeline mode:   SEARCH
+# Query file:      /v3/work/00_inventory/busco/busco_downloads/lineages/plasmodium_odb10/hmms/13111at5820.hmm
+# Target file:     /v3/inputs/annotations/plasmodb-68/PvW1.proteins.fa
+# Option settings: hmmsearch --domtblout /v3/work/00_inventory/busco/PvW1_proteins/run_plasmodium_odb10/hmmer_output/initial_run_results/13111at5820.out --cpu 1 /v3/work/00_inventory/busco/busco_downloads/lineages/plasmodium_odb10/hmms/13111at5820.hmm /v3/inputs/annotations/plasmodb-68/PvW1.proteins.fa 
+# Current dir:     /v3/work/00_inventory/busco
+# Date:            Tue May 19 17:28:44 2026
+# [ok]

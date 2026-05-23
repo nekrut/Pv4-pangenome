@@ -1,0 +1,18 @@
+#                                                                            --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name        accession   tlen query name           accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+#------------------- ---------- ----- -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+PVX_100920.1-p1      -            191 13865at5820          -            128   1.2e-54  182.0   9.4   1   2   2.3e-47   4.2e-44  147.9   8.0     6    97    25   123    18   132 0.90 | transcript=PVX_100920.1 | gene=PVX_100920 | organism=Plasmodium_vivax_Sal-1 | gene_product=hypothetical protein, conserved | transcript_product=hypothetical protein, conserved | location=Pv_Sal1_chr14:2492025-2492600(-) | protein_length=191 | sequence_SO=chromosome | SO=protein_coding_gene | is_pseudo=false
+PVX_100920.1-p1      -            191 13865at5820          -            128   1.2e-54  182.0   9.4   2   2   7.3e-12   1.3e-08   33.1   0.0    81   128   130   190   124   190 0.79 | transcript=PVX_100920.1 | gene=PVX_100920 | organism=Plasmodium_vivax_Sal-1 | gene_product=hypothetical protein, conserved | transcript_product=hypothetical protein, conserved | location=Pv_Sal1_chr14:2492025-2492600(-) | protein_length=191 | sequence_SO=chromosome | SO=protein_coding_gene | is_pseudo=false
+PVX_097625.1-p1      -            487 13865at5820          -            128    0.0063   14.8   1.6   1   1   1.3e-05     0.025   12.9   1.6    41   123   255   338   250   342 0.87 | transcript=PVX_097625.1 | gene=PVX_097625 | organism=Plasmodium_vivax_Sal-1 | gene_product=merozoite surface protein 8, putative | transcript_product=merozoite surface protein 8, putative | location=Pv_Sal1_chr10:1290568-1292031(+) | protein_length=487 | sequence_SO=chromosome | SO=protein_coding_gene | is_pseudo=false
+PVX_094365.1-p1      -            152 13865at5820          -            128     0.061   11.6   3.7   1   2      0.77   1.4e+03   -2.5   0.1   112   123    26    37     6    39 0.62 | transcript=PVX_094365.1 | gene=PVX_094365 | organism=Plasmodium_vivax_Sal-1 | gene_product=N-acetyltransferase, putative | transcript_product=N-acetyltransferase, putative | location=Pv_Sal1_chr08:182451-182909(-) | protein_length=152 | sequence_SO=chromosome | SO=protein_coding_gene | is_pseudo=false
+PVX_094365.1-p1      -            152 13865at5820          -            128     0.061   11.6   3.7   2   2   9.6e-06     0.018   13.3   0.9    63   122    80   138    61   143 0.87 | transcript=PVX_094365.1 | gene=PVX_094365 | organism=Plasmodium_vivax_Sal-1 | gene_product=N-acetyltransferase, putative | transcript_product=N-acetyltransferase, putative | location=Pv_Sal1_chr08:182451-182909(-) | protein_length=152 | sequence_SO=chromosome | SO=protein_coding_gene | is_pseudo=false
+#
+# Program:         hmmsearch
+# Version:         3.4 (Aug 2023)
+# Pipeline mode:   SEARCH
+# Query file:      /v3/work/00_inventory/busco/busco_downloads/lineages/plasmodium_odb10/hmms/13865at5820.hmm
+# Target file:     /v3/inputs/annotations/plasmodb-68/Sal-I.proteins.fa
+# Option settings: hmmsearch --domtblout /v3/work/00_inventory/busco/Sal-I_proteins/run_plasmodium_odb10/hmmer_output/initial_run_results/13865at5820.out --cpu 1 /v3/work/00_inventory/busco/busco_downloads/lineages/plasmodium_odb10/hmms/13865at5820.hmm /v3/inputs/annotations/plasmodb-68/Sal-I.proteins.fa 
+# Current dir:     /v3/work/00_inventory/busco
+# Date:            Tue May 19 17:31:38 2026
+# [ok]

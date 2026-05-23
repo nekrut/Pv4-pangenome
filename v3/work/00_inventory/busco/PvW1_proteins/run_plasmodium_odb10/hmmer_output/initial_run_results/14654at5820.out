@@ -1,0 +1,17 @@
+#                                                                            --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name        accession   tlen query name           accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+#------------------- ---------- ----- -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+CAG9477694.1         -            122 14654at5820          -            103   2.6e-58  193.1  19.1   1   2   3.2e-34   6.4e-31  105.2   9.5     1    60     5    64     5    71 0.95 | transcript=PVW1_110020100_t1 | gene=PVW1_110020100 | organism=Plasmodium_vivax_PvW1 | gene_product=Dynein light chain [Source:UniProtKB/TrEMBL;Acc:A0A1G4HFC5] | transcript_product=Dynein light chain [Source:UniProtKB/TrEMBL;Acc:A0A1G4HFC5] | location=CAJZCX010000008:653627-653995(-) | protein_length=122 | sequence_SO=supercontig | SO=protein_coding_gene | is_pseudo=false
+CAG9477694.1         -            122 14654at5820          -            103   2.6e-58  193.1  19.1   2   2   1.1e-30   2.3e-27   93.7   2.7    53   103    72   122    63   122 0.92 | transcript=PVW1_110020100_t1 | gene=PVW1_110020100 | organism=Plasmodium_vivax_PvW1 | gene_product=Dynein light chain [Source:UniProtKB/TrEMBL;Acc:A0A1G4HFC5] | transcript_product=Dynein light chain [Source:UniProtKB/TrEMBL;Acc:A0A1G4HFC5] | location=CAJZCX010000008:653627-653995(-) | protein_length=122 | sequence_SO=supercontig | SO=protein_coding_gene | is_pseudo=false
+CAG9472206.1         -             93 14654at5820          -            103   2.5e-06   26.2   5.7   1   1   1.1e-08   2.2e-05   23.1   5.7     8   102     9    92     2    93 0.85 | transcript=PVW1_140038600_t1 | gene=PVW1_140038600 | organism=Plasmodium_vivax_PvW1 | gene_product=Dynein light chain [Source:UniProtKB/TrEMBL;Acc:A0A1G4H501] | transcript_product=Dynein light chain [Source:UniProtKB/TrEMBL;Acc:A0A1G4H501] | location=CAJZCX010000003:1474992-1475273(+) | protein_length=93 | sequence_SO=supercontig | SO=protein_coding_gene | is_pseudo=false
+CAG9482764.1         -            107 14654at5820          -            103    0.0054   15.4   2.9   1   1   2.6e-06    0.0053   15.5   2.5    51   101    57   106     9   107 0.76 | transcript=PVW1_040027200_t1 | gene=PVW1_040027200 | organism=Plasmodium_vivax_PvW1 | gene_product=Dynein light chain [Source:UniProtKB/TrEMBL;Acc:A0A1G4GT51] | transcript_product=Dynein light chain [Source:UniProtKB/TrEMBL;Acc:A0A1G4GT51] | location=CAJZCX010000013:930786-931567(+) | protein_length=107 | sequence_SO=supercontig | SO=protein_coding_gene | is_pseudo=false
+#
+# Program:         hmmsearch
+# Version:         3.4 (Aug 2023)
+# Pipeline mode:   SEARCH
+# Query file:      /v3/work/00_inventory/busco/busco_downloads/lineages/plasmodium_odb10/hmms/14654at5820.hmm
+# Target file:     /v3/inputs/annotations/plasmodb-68/PvW1.proteins.fa
+# Option settings: hmmsearch --domtblout /v3/work/00_inventory/busco/PvW1_proteins/run_plasmodium_odb10/hmmer_output/initial_run_results/14654at5820.out --cpu 1 /v3/work/00_inventory/busco/busco_downloads/lineages/plasmodium_odb10/hmms/14654at5820.hmm /v3/inputs/annotations/plasmodb-68/PvW1.proteins.fa 
+# Current dir:     /v3/work/00_inventory/busco
+# Date:            Tue May 19 17:34:01 2026
+# [ok]

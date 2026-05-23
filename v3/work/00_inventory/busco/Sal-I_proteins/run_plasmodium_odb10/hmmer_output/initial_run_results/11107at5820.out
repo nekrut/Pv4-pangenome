@@ -1,0 +1,18 @@
+#                                                                            --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name        accession   tlen query name           accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+#------------------- ---------- ----- -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+PVX_117040.1-p1      -            213 11107at5820          -            195  1.5e-125  414.9  30.1   1   1  1.2e-128  1.7e-125  414.7  30.1     1   195    12   209    12   209 0.99 | transcript=PVX_117040.1 | gene=PVX_117040 | organism=Plasmodium_vivax_Sal-1 | gene_product=derlin-1, putative | transcript_product=derlin-1, putative | location=Pv_Sal1_chr12:1487182-1488758(+) | protein_length=213 | sequence_SO=chromosome | SO=protein_coding_gene | is_pseudo=false
+PVX_111100.1-p1      -            262 11107at5820          -            195   5.6e-23   80.2  21.5   1   1   4.9e-26   6.8e-23   79.9  21.5     3   176    16   195    14   213 0.87 | transcript=PVX_111100.1 | gene=PVX_111100 | organism=Plasmodium_vivax_Sal-1 | gene_product=hypothetical protein, conserved | transcript_product=hypothetical protein, conserved | location=Pv_Sal1_chr06:719123-720314(-) | protein_length=262 | sequence_SO=chromosome | SO=protein_coding_gene | is_pseudo=false
+PVX_117865.1-p1      -            355 11107at5820          -            195   1.1e-05   23.8  15.4   1   1   1.4e-08   1.9e-05   23.0  15.4     3   191   155   342   153   346 0.70 | transcript=PVX_117865.1 | gene=PVX_117865 | organism=Plasmodium_vivax_Sal-1 | gene_product=hypothetical protein, conserved | transcript_product=hypothetical protein, conserved | location=Pv_Sal1_chr12:2208969-2210036(+) | protein_length=355 | sequence_SO=chromosome | SO=protein_coding_gene | is_pseudo=false
+PVX_119812.1-p1      -            415 11107at5820          -            195   2.3e-05   22.8  23.8   1   2   2.1e-08   2.9e-05   22.4  10.2     1   119   169   283   169   292 0.73 | transcript=PVX_119812.1 | gene=PVX_119812 | organism=Plasmodium_vivax_Sal-1 | gene_product=DER1-like protein, putative | transcript_product=DER1-like protein, putative | location=Pv_Sal1_chr08:1184266-1185513(+) | protein_length=415 | sequence_SO=chromosome | SO=protein_coding_gene | is_pseudo=false
+PVX_119812.1-p1      -            415 11107at5820          -            195   2.3e-05   22.8  23.8   2   2    0.0021       2.8    6.1   5.6   115   170   322   380   311   392 0.78 | transcript=PVX_119812.1 | gene=PVX_119812 | organism=Plasmodium_vivax_Sal-1 | gene_product=DER1-like protein, putative | transcript_product=DER1-like protein, putative | location=Pv_Sal1_chr08:1184266-1185513(+) | protein_length=415 | sequence_SO=chromosome | SO=protein_coding_gene | is_pseudo=false
+#
+# Program:         hmmsearch
+# Version:         3.4 (Aug 2023)
+# Pipeline mode:   SEARCH
+# Query file:      /v3/work/00_inventory/busco/busco_downloads/lineages/plasmodium_odb10/hmms/11107at5820.hmm
+# Target file:     /v3/inputs/annotations/plasmodb-68/Sal-I.proteins.fa
+# Option settings: hmmsearch --domtblout /v3/work/00_inventory/busco/Sal-I_proteins/run_plasmodium_odb10/hmmer_output/initial_run_results/11107at5820.out --cpu 1 /v3/work/00_inventory/busco/busco_downloads/lineages/plasmodium_odb10/hmms/11107at5820.hmm /v3/inputs/annotations/plasmodb-68/Sal-I.proteins.fa 
+# Current dir:     /v3/work/00_inventory/busco
+# Date:            Tue May 19 17:28:23 2026
+# [ok]

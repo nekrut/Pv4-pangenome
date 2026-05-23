@@ -1,0 +1,23 @@
+#                                                                            --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name        accession   tlen query name           accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+#------------------- ---------- ----- -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+SCO73280.1           -            594 9065at5820           -            376  1.1e-174  579.2  11.7   1   3   8.1e-24     1e-20   72.4   0.0     8    77   128   203   123   207 0.90 subtilisin-like protease 3, putative [Plasmodium vivax]
+SCO73280.1           -            594 9065at5820           -            376  1.1e-174  579.2  11.7   2   3   2.8e-26   3.5e-23   80.5   0.1    76   145   240   313   235   323 0.82 subtilisin-like protease 3, putative [Plasmodium vivax]
+SCO73280.1           -            594 9065at5820           -            376  1.1e-174  579.2  11.7   3   3  3.4e-132  4.3e-129  429.1   5.0   141   375   338   580   333   581 0.97 subtilisin-like protease 3, putative [Plasmodium vivax]
+SCO73277.1           -            630 9065at5820           -            376     3e-64  215.7  12.6   1   3   0.00088       1.1    6.5   0.0    15    77   137   199   127   215 0.89 subtilisin-like protease 1 [Plasmodium vivax]
+SCO73277.1           -            630 9065at5820           -            376     3e-64  215.7  12.6   2   3   2.7e-08   3.4e-05   21.3   0.1   101   147   293   339   257   343 0.78 subtilisin-like protease 1 [Plasmodium vivax]
+SCO73277.1           -            630 9065at5820           -            376     3e-64  215.7  12.6   3   3     5e-60   6.3e-57  191.6   5.2   141   376   367   609   347   609 0.93 subtilisin-like protease 1 [Plasmodium vivax]
+SCO72855.1           -           1411 9065at5820           -            376   6.8e-29   99.3   7.7   1   1   3.2e-30     4e-27   93.5   7.7   113   366   878  1149   872  1158 0.82 subtilisin-like protease 2, putative [Plasmodium vivax]
+SCO73279.1           -            952 9065at5820           -            376   3.4e-17   60.8   0.0   1   2     0.033        42    1.3   0.0   118   131   162   175   153   189 0.80 conserved Plasmodium protein, unknown function [Plasmodium vivax]
+SCO73279.1           -            952 9065at5820           -            376   3.4e-17   60.8   0.0   2   2     1e-18   1.3e-15   55.6   0.0   141   374   226   486   205   488 0.74 conserved Plasmodium protein, unknown function [Plasmodium vivax]
+SCO70876.1           -           1300 9065at5820           -            376    0.0078   13.5   0.3   1   1   1.1e-05     0.014   12.7   0.3   247   295   518   566   508   577 0.86 conserved Plasmodium protein, unknown function [Plasmodium vivax]
+#
+# Program:         hmmsearch
+# Version:         3.4 (Aug 2023)
+# Pipeline mode:   SEARCH
+# Query file:      /v3/work/00_inventory/busco/busco_downloads/lineages/plasmodium_odb10/hmms/9065at5820.hmm
+# Target file:     /v3/inputs/annotations/ncbi-datasets/PvC01.proteins.fa
+# Option settings: hmmsearch --domtblout /v3/work/00_inventory/busco/PvC01_proteins/run_plasmodium_odb10/hmmer_output/initial_run_results/9065at5820.out --cpu 1 /v3/work/00_inventory/busco/busco_downloads/lineages/plasmodium_odb10/hmms/9065at5820.hmm /v3/inputs/annotations/ncbi-datasets/PvC01.proteins.fa 
+# Current dir:     /v3/work/00_inventory/busco
+# Date:            Tue May 19 19:08:28 2026
+# [ok]

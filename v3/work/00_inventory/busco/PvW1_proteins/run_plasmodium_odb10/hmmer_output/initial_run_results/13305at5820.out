@@ -1,0 +1,17 @@
+#                                                                            --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name        accession   tlen query name           accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+#------------------- ---------- ----- -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+CAG9472210.1         -            144 13305at5820          -            134   1.1e-81  270.1   1.7   1   1   6.3e-85   1.3e-81  269.9   1.7     1   134     1   140     1   140 0.96 | transcript=PVW1_140039000_t1 | gene=PVW1_140039000 | organism=Plasmodium_vivax_PvW1 | gene_product=unspecified product | transcript_product=unspecified product | location=CAJZCX010000003:1488630-1489376(-) | protein_length=144 | sequence_SO=supercontig | SO=protein_coding_gene | is_pseudo=false
+CAG9476956.1         -            156 13305at5820          -            134     0.011   14.5   0.1   1   2   0.00027      0.54    8.9   0.0   107   133    63    89    41    90 0.86 | transcript=PVW1_090031600_t1 | gene=PVW1_090031600 | organism=Plasmodium_vivax_PvW1 | gene_product=40S ribosomal protein S18, putative [Source:UniProtKB/TrEMBL;Acc:A0A1G4HD66] | transcript_product=40S ribosomal protein S18, putative [Source:UniProtKB/TrEMBL;Acc:A0A1G4HD66] | location=CAJZCX010000007:1191679-1192433(-) | protein_length=156 | sequence_SO=supercontig | SO=protein_coding_gene | is_pseudo=false
+CAG9476956.1         -            156 13305at5820          -            134     0.011   14.5   0.1   2   2     0.012        25    3.6   0.0    91   113    97   119    92   124 0.87 | transcript=PVW1_090031600_t1 | gene=PVW1_090031600 | organism=Plasmodium_vivax_PvW1 | gene_product=40S ribosomal protein S18, putative [Source:UniProtKB/TrEMBL;Acc:A0A1G4HD66] | transcript_product=40S ribosomal protein S18, putative [Source:UniProtKB/TrEMBL;Acc:A0A1G4HD66] | location=CAJZCX010000007:1191679-1192433(-) | protein_length=156 | sequence_SO=supercontig | SO=protein_coding_gene | is_pseudo=false
+CAG9473615.1         -             84 13305at5820          -            134     0.013   14.2   0.1   1   1   7.3e-06     0.015   14.0   0.1    59   107    25    72     8    78 0.80 | transcript=PVW1_120053700_t1 | gene=PVW1_120053700 | organism=Plasmodium_vivax_PvW1 | gene_product=unspecified product | transcript_product=unspecified product | location=CAJZCX010000004:2037737-2038418(-) | protein_length=84 | sequence_SO=supercontig | SO=protein_coding_gene | is_pseudo=false
+#
+# Program:         hmmsearch
+# Version:         3.4 (Aug 2023)
+# Pipeline mode:   SEARCH
+# Query file:      /v3/work/00_inventory/busco/busco_downloads/lineages/plasmodium_odb10/hmms/13305at5820.hmm
+# Target file:     /v3/inputs/annotations/plasmodb-68/PvW1.proteins.fa
+# Option settings: hmmsearch --domtblout /v3/work/00_inventory/busco/PvW1_proteins/run_plasmodium_odb10/hmmer_output/initial_run_results/13305at5820.out --cpu 1 /v3/work/00_inventory/busco/busco_downloads/lineages/plasmodium_odb10/hmms/13305at5820.hmm /v3/inputs/annotations/plasmodb-68/PvW1.proteins.fa 
+# Current dir:     /v3/work/00_inventory/busco
+# Date:            Tue May 19 17:29:19 2026
+# [ok]

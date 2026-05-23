@@ -1,0 +1,16 @@
+#                                                                            --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name        accession   tlen query name           accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+#------------------- ---------- ----- -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+CAG9473386.1         -            139 13488at5820          -            139   5.8e-98  322.8   0.5   1   1  3.2e-101   6.4e-98  322.7   0.5     1   139     1   139     1   139 1.00 | transcript=PVW1_120037200_t1 | gene=PVW1_120037200 | organism=Plasmodium_vivax_PvW1 | gene_product=60S ribosomal protein L23, putative [Source:UniProtKB/TrEMBL;Acc:A0A1G4H158] | transcript_product=60S ribosomal protein L23, putative [Source:UniProtKB/TrEMBL;Acc:A0A1G4H158] | location=CAJZCX010000004:1357423-1358227(-) | protein_length=139 | sequence_SO=supercontig | SO=protein_coding_gene | is_pseudo=false
+CAG9474898.1         -            123 13488at5820          -            139   1.1e-10   40.1   0.4   1   1   6.7e-14   1.4e-10   39.8   0.4    24   125    15   112     2   120 0.82 | transcript=PVW1_100038900_t1 | gene=PVW1_100038900 | organism=Plasmodium_vivax_PvW1 | gene_product=50S ribosomal protein L14, mitochondrial, putative [Source:UniProtKB/TrEMBL;Acc:A0A1G4GYS2] | transcript_product=50S ribosomal protein L14, mitochondrial, putative [Source:UniProtKB/TrEMBL;Acc:A0A1G4GYS2] | location=CAJZCX010000005:1579848-1580219(-) | protein_length=123 | sequence_SO=supercontig | SO=protein_coding_gene | is_pseudo=false
+CAG9471678.1         -            120 13488at5820          -            139     0.012   14.0   0.8   1   1   7.7e-06     0.016   13.7   0.8    45   109    22    89     2   100 0.76 | transcript=PVW1_000031000_t1 | gene=PVW1_000031000 | organism=Plasmodium_vivax_PvW1 | gene_product=Apicoplast ribosomal protein L14, putative [Source:UniProtKB/TrEMBL;Acc:H7CDH9] | transcript_product=Apicoplast ribosomal protein L14, putative [Source:UniProtKB/TrEMBL;Acc:H7CDH9] | location=CAJZCX010000001:5290-5652(-) | protein_length=120 | sequence_SO=supercontig | SO=protein_coding_gene | is_pseudo=false
+#
+# Program:         hmmsearch
+# Version:         3.4 (Aug 2023)
+# Pipeline mode:   SEARCH
+# Query file:      /v3/work/00_inventory/busco/busco_downloads/lineages/plasmodium_odb10/hmms/13488at5820.hmm
+# Target file:     /v3/inputs/annotations/plasmodb-68/PvW1.proteins.fa
+# Option settings: hmmsearch --domtblout /v3/work/00_inventory/busco/PvW1_proteins/run_plasmodium_odb10/hmmer_output/initial_run_results/13488at5820.out --cpu 1 /v3/work/00_inventory/busco/busco_downloads/lineages/plasmodium_odb10/hmms/13488at5820.hmm /v3/inputs/annotations/plasmodb-68/PvW1.proteins.fa 
+# Current dir:     /v3/work/00_inventory/busco
+# Date:            Tue May 19 17:30:28 2026
+# [ok]

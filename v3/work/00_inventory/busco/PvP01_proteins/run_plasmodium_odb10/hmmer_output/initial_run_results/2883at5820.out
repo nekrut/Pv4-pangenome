@@ -1,0 +1,17 @@
+#                                                                            --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name        accession   tlen query name           accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+#------------------- ---------- ----- -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+PVP01_1432600.1-p1   -            765 2883at5820           -            635         0 1359.7  26.4   1   2   2.9e-66   9.6e-63  211.2   9.2     3   142    53   210    13   222 0.93 | transcript=PVP01_1432600.1 | gene=PVP01_1432600 | organism=Plasmodium_vivax_P01 | gene_product=proline--tRNA ligase, putative | transcript_product=proline--tRNA ligase, putative | location=PvP01_14_v2:1417838-1420135(-) | protein_length=765 | sequence_SO=chromosome | SO=protein_coding_gene | is_pseudo=false
+PVP01_1432600.1-p1   -            765 2883at5820           -            635         0 1359.7  26.4   2   2         0         0 1154.5   9.1   141   635   268   765   261   765 0.99 | transcript=PVP01_1432600.1 | gene=PVP01_1432600 | organism=Plasmodium_vivax_P01 | gene_product=proline--tRNA ligase, putative | transcript_product=proline--tRNA ligase, putative | location=PvP01_14_v2:1417838-1420135(-) | protein_length=765 | sequence_SO=chromosome | SO=protein_coding_gene | is_pseudo=false
+PVP01_0723800.1-p1   -            542 2883at5820           -            635   4.3e-09   33.9   5.8   1   2   1.5e-12   4.9e-09   33.7   2.3   171   459    99   400    86   418 0.73 | transcript=PVP01_0723800.1 | gene=PVP01_0723800 | organism=Plasmodium_vivax_P01 | gene_product=proline--tRNA ligase, putative | transcript_product=proline--tRNA ligase, putative | location=PvP01_07_v2:1020122-1021750(-) | protein_length=542 | sequence_SO=chromosome | SO=protein_coding_gene | is_pseudo=false
+PVP01_0723800.1-p1   -            542 2883at5820           -            635   4.3e-09   33.9   5.8   2   2     0.014        46    0.8   0.1   454   491   443   479   427   488 0.83 | transcript=PVP01_0723800.1 | gene=PVP01_0723800 | organism=Plasmodium_vivax_P01 | gene_product=proline--tRNA ligase, putative | transcript_product=proline--tRNA ligase, putative | location=PvP01_07_v2:1020122-1021750(-) | protein_length=542 | sequence_SO=chromosome | SO=protein_coding_gene | is_pseudo=false
+#
+# Program:         hmmsearch
+# Version:         3.4 (Aug 2023)
+# Pipeline mode:   SEARCH
+# Query file:      /v3/work/00_inventory/busco/busco_downloads/lineages/plasmodium_odb10/hmms/2883at5820.hmm
+# Target file:     /v3/inputs/annotations/plasmodb-68/PvP01.proteins.fa
+# Option settings: hmmsearch --domtblout /v3/work/00_inventory/busco/PvP01_proteins/run_plasmodium_odb10/hmmer_output/initial_run_results/2883at5820.out --cpu 1 /v3/work/00_inventory/busco/busco_downloads/lineages/plasmodium_odb10/hmms/2883at5820.hmm /v3/inputs/annotations/plasmodb-68/PvP01.proteins.fa 
+# Current dir:     /v3/work/00_inventory/busco
+# Date:            Tue May 19 17:38:19 2026
+# [ok]

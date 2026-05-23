@@ -1,0 +1,27 @@
+#                                                                            --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name        accession   tlen query name           accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+#------------------- ---------- ----- -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+SCO75378.1           -           1226 2022at5820           -            968         0 1828.6 148.9   1   5   4.6e-47   5.7e-44  148.9   9.1     1    87     1    87     1   105 0.88 WD repeat-containing protein, putative [Plasmodium vivax]
+SCO75378.1           -           1226 2022at5820           -            968         0 1828.6 148.9   2   5  4.8e-198    6e-195  648.7  53.2    79   419   121   474   113   482 0.96 WD repeat-containing protein, putative [Plasmodium vivax]
+SCO75378.1           -           1226 2022at5820           -            968         0 1828.6 148.9   3   5   0.00012      0.15    8.5   2.4   418   448   512   545   503   566 0.78 WD repeat-containing protein, putative [Plasmodium vivax]
+SCO75378.1           -           1226 2022at5820           -            968         0 1828.6 148.9   4   5    3e-174  3.7e-171  569.9  33.9   444   758   591   959   579   973 0.96 WD repeat-containing protein, putative [Plasmodium vivax]
+SCO75378.1           -           1226 2022at5820           -            968         0 1828.6 148.9   5   5  3.1e-146  3.9e-143  477.1  18.7   756   968  1014  1226  1006  1226 0.99 WD repeat-containing protein, putative [Plasmodium vivax]
+SCO71976.1           -            846 2022at5820           -            968   1.8e-21   74.5  36.5   1   2   5.8e-11   7.3e-08   29.4  25.9   478   730   421   659   397   663 0.79 dynein intermediate chain, putative [Plasmodium vivax]
+SCO71976.1           -            846 2022at5820           -            968   1.8e-21   74.5  36.5   2   2   3.2e-17     4e-14   50.1   3.4   786   950   664   825   650   835 0.84 dynein intermediate chain, putative [Plasmodium vivax]
+SCO74094.1           -            533 2022at5820           -            968   0.00013   18.6   9.7   1   3     0.083     1e+02   -0.9   0.0   878   894   279   295   244   327 0.73 chromatin assembly factor 1 P55 subunit, putative [Plasmodium vivax]
+SCO74094.1           -            533 2022at5820           -            968   0.00013   18.6   9.7   2   3   3.4e-06    0.0043   13.6   0.9   850   898   328   379   310   382 0.83 chromatin assembly factor 1 P55 subunit, putative [Plasmodium vivax]
+SCO74094.1           -            533 2022at5820           -            968   0.00013   18.6   9.7   3   3   9.9e-05      0.12    8.8   2.0   812   892   382   461   370   467 0.85 chromatin assembly factor 1 P55 subunit, putative [Plasmodium vivax]
+SCO71574.1           -            720 2022at5820           -            968   0.00014   18.5   1.4   1   2   2.8e-05     0.035   10.6   0.0   553   647   372   465   352   499 0.86 cytoplasmic dynein intermediate chain, putative [Plasmodium vivax]
+SCO71574.1           -            720 2022at5820           -            968   0.00014   18.5   1.4   2   2   0.00039       0.5    6.8   0.3   830   893   587   649   537   689 0.80 cytoplasmic dynein intermediate chain, putative [Plasmodium vivax]
+SCO71271.1           -            324 2022at5820           -            968    0.0041   13.7   6.1   1   2   2.5e-05     0.032   10.8   2.7   809   892    73   151    58   166 0.79 U5 snrnp-specific protein, putative [Plasmodium vivax]
+SCO71271.1           -            324 2022at5820           -            968    0.0041   13.7   6.1   2   2    0.0022       2.8    4.3   0.1   873   930   215   276   178   316 0.61 U5 snrnp-specific protein, putative [Plasmodium vivax]
+#
+# Program:         hmmsearch
+# Version:         3.4 (Aug 2023)
+# Pipeline mode:   SEARCH
+# Query file:      /v3/work/00_inventory/busco/busco_downloads/lineages/plasmodium_odb10/hmms/2022at5820.hmm
+# Target file:     /v3/inputs/annotations/ncbi-datasets/PvC01.proteins.fa
+# Option settings: hmmsearch --domtblout /v3/work/00_inventory/busco/PvC01_proteins/run_plasmodium_odb10/hmmer_output/initial_run_results/2022at5820.out --cpu 1 /v3/work/00_inventory/busco/busco_downloads/lineages/plasmodium_odb10/hmms/2022at5820.hmm /v3/inputs/annotations/ncbi-datasets/PvC01.proteins.fa 
+# Current dir:     /v3/work/00_inventory/busco
+# Date:            Tue May 19 18:37:31 2026
+# [ok]

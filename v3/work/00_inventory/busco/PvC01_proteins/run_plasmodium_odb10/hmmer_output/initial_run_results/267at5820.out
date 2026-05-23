@@ -1,0 +1,24 @@
+#                                                                            --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name        accession   tlen query name           accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+#------------------- ---------- ----- -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+SCO70666.1           -           2959 267at5820            -           2203         0 3765.6 171.9   1   4    1e-199  1.1e-196  654.8  26.5    29   437     4   453     2   471 0.80 ubiquitin carboxyl-terminal hydrolase, putative [Plasmodium vivax]
+SCO70666.1           -           2959 267at5820            -           2203         0 3765.6 171.9   2   4         0         0 1857.6  81.6   318  1435   431  1829   424  1849 0.87 ubiquitin carboxyl-terminal hydrolase, putative [Plasmodium vivax]
+SCO70666.1           -           2959 267at5820            -           2203         0 3765.6 171.9   3   4   4.5e-73   4.7e-70  234.8  32.0  1433  1665  1903  2194  1898  2236 0.81 ubiquitin carboxyl-terminal hydrolase, putative [Plasmodium vivax]
+SCO70666.1           -           2959 267at5820            -           2203         0 3765.6 171.9   4   4         0         0 1029.9  14.4  1666  2203  2401  2959  2363  2959 0.87 ubiquitin carboxyl-terminal hydrolase, putative [Plasmodium vivax]
+SCO74918.1           -           1203 267at5820            -           2203   3.8e-08   29.5   8.5   1   3         6   6.3e+03  -11.9  15.7   358   482   316   439   202   446 0.57 ubiquitin carboxyl-terminal hydrolase, putative [Plasmodium vivax]
+SCO74918.1           -           1203 267at5820            -           2203   3.8e-08   29.5   8.5   2   3   3.6e-11   3.8e-08   29.5   8.5   663   811   710   856   697   863 0.89 ubiquitin carboxyl-terminal hydrolase, putative [Plasmodium vivax]
+SCO74918.1           -           1203 267at5820            -           2203   3.8e-08   29.5   8.5   3   3    0.0099        10    1.5   0.7   829   864  1105  1139  1087  1147 0.80 ubiquitin carboxyl-terminal hydrolase, putative [Plasmodium vivax]
+SCO72509.1           -            320 267at5820            -           2203    0.0011   14.7  12.7   1   1   1.1e-06    0.0011   14.6  12.7   290   387    80   176    69   309 0.62 hypothetical protein, conserved [Plasmodium vivax]
+SCO72508.1           -            345 267at5820            -           2203     0.002   13.8   5.8   1   1   2.4e-06    0.0025   13.5   5.8   300  1711   110   190    87   341 0.42 hypothetical protein, conserved [Plasmodium vivax]
+SCO72036.1           -             99 267at5820            -           2203       5.5    2.4  19.5   1   1    0.0055       5.8    2.3  19.5  1638  1686     9    54     2    90 0.37 hypothetical protein PVC01_070031400 [Plasmodium vivax]
+SCO70627.1           -            292 267at5820            -           2203       9.7    1.6  15.6   1   1     0.012        12    1.3  15.6   306   398    71   158    64   183 0.52 conserved Plasmodium protein, unknown function [Plasmodium vivax]
+#
+# Program:         hmmsearch
+# Version:         3.4 (Aug 2023)
+# Pipeline mode:   SEARCH
+# Query file:      /v3/work/00_inventory/busco/busco_downloads/lineages/plasmodium_odb10/hmms/267at5820.hmm
+# Target file:     /v3/inputs/annotations/ncbi-datasets/PvC01.proteins.fa
+# Option settings: hmmsearch --domtblout /v3/work/00_inventory/busco/PvC01_proteins/run_plasmodium_odb10/hmmer_output/initial_run_results/267at5820.out --cpu 1 /v3/work/00_inventory/busco/busco_downloads/lineages/plasmodium_odb10/hmms/267at5820.hmm /v3/inputs/annotations/ncbi-datasets/PvC01.proteins.fa 
+# Current dir:     /v3/work/00_inventory/busco
+# Date:            Tue May 19 18:42:31 2026
+# [ok]

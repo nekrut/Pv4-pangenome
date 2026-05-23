@@ -1,0 +1,17 @@
+#                                                                            --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name        accession   tlen query name           accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+#------------------- ---------- ----- -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+CAI7723207.1         -            564 6677at5820           -            405  3.9e-217  719.6  50.5   1   2   6.5e-06     0.014   12.9  12.6     8    65    38   105     1   116 0.82 | transcript=PVPAM_140012600_t1 | gene=PVPAM_140012600 | organism=Plasmodium_vivax_PAM | gene_product=CorA-like Mg2+ transporter protein, putative | transcript_product=CorA-like Mg2+ transporter protein, putative | location=CASCJQ010000014:374312-376201(-) | protein_length=564 | sequence_SO=supercontig | SO=protein_coding_gene | is_pseudo=false
+CAI7723207.1         -            564 6677at5820           -            405  3.9e-217  719.6  50.5   2   2    6e-218  1.3e-214  711.3  29.9    61   405   202   564   175   564 0.95 | transcript=PVPAM_140012600_t1 | gene=PVPAM_140012600 | organism=Plasmodium_vivax_PAM | gene_product=CorA-like Mg2+ transporter protein, putative | transcript_product=CorA-like Mg2+ transporter protein, putative | location=CASCJQ010000014:374312-376201(-) | protein_length=564 | sequence_SO=supercontig | SO=protein_coding_gene | is_pseudo=false
+CAI7722871.1         -            483 6677at5820           -            405   2.9e-25   87.6  13.5   1   1   1.9e-28   4.1e-25   87.2  13.5    65   397   119   478    88   483 0.76 | transcript=PVPAM_130037300_t1 | gene=PVPAM_130037300 | organism=Plasmodium_vivax_PAM | gene_product=CorA-like Mg2+ transporter protein, putative | transcript_product=CorA-like Mg2+ transporter protein, putative | location=CASCJQ010000013:1435520-1436971(-) | protein_length=483 | sequence_SO=supercontig | SO=protein_coding_gene | is_pseudo=false
+CAI7720486.1         -            466 6677at5820           -            405   2.2e-07   28.8  14.0   1   1   2.8e-10   5.9e-07   27.4  14.0   189   387   219   440   212   453 0.73 | transcript=PVPAM_090025100_t1 | gene=PVPAM_090025100 | organism=Plasmodium_vivax_PAM | gene_product=CorA-like Mg2+ transporter protein, putative | transcript_product=CorA-like Mg2+ transporter protein, putative | location=CASCJQ010000009:915644-917294(+) | protein_length=466 | sequence_SO=supercontig | SO=protein_coding_gene | is_pseudo=false
+#
+# Program:         hmmsearch
+# Version:         3.4 (Aug 2023)
+# Pipeline mode:   SEARCH
+# Query file:      /v3/work/00_inventory/busco/busco_downloads/lineages/plasmodium_odb10/hmms/6677at5820.hmm
+# Target file:     /v3/inputs/annotations/plasmodb-68/PAM.proteins.fa
+# Option settings: hmmsearch --domtblout /v3/work/00_inventory/busco/PAM_proteins/run_plasmodium_odb10/hmmer_output/initial_run_results/6677at5820.out --cpu 1 /v3/work/00_inventory/busco/busco_downloads/lineages/plasmodium_odb10/hmms/6677at5820.hmm /v3/inputs/annotations/plasmodb-68/PAM.proteins.fa 
+# Current dir:     /v3/work/00_inventory/busco
+# Date:            Tue May 19 17:44:08 2026
+# [ok]

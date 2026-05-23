@@ -1,0 +1,28 @@
+#                                                                            --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name        accession   tlen query name           accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+#------------------- ---------- ----- -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+SCO68338.1           -            158 14134at5820          -            148   1.8e-77  256.7  18.3   1   1     3e-80     2e-77  256.5  18.3     1   148    10   158    10   158 0.99 calcium-binding protein, putative [Plasmodium vivax]
+SCO68985.1           -            168 14134at5820          -            148   3.4e-10   38.4   1.9   1   2     0.008       5.4    5.3   0.0    84   114    27    57    21    76 0.75 centrin-2, putative [Plasmodium vivax]
+SCO68985.1           -            168 14134at5820          -            148   3.4e-10   38.4   1.9   2   2   6.6e-11   4.5e-08   31.5   1.8    62   142    78   159    58   164 0.89 centrin-2, putative [Plasmodium vivax]
+SCO67160.1           -            167 14134at5820          -            148   1.5e-08   33.1  13.8   1   2     2e-08   1.4e-05   23.5   5.9    84   142    17    76     4    83 0.86 centrin-4, putative [Plasmodium vivax]
+SCO67160.1           -            167 14134at5820          -            148   1.5e-08   33.1  13.8   2   2   8.9e-06     0.006   14.9   1.0    81   144    87   151    78   155 0.86 centrin-4, putative [Plasmodium vivax]
+SCO65130.1           -            168 14134at5820          -            148   1.9e-08   32.7   9.0   1   2   0.00039      0.26    9.5   0.2    82   129    25    73     9    78 0.73 centrin-1, putative [Plasmodium vivax]
+SCO65130.1           -            168 14134at5820          -            148   1.9e-08   32.7   9.0   2   2   7.1e-09   4.8e-06   24.9   6.1    62   142    78   159    61   165 0.84 centrin-1, putative [Plasmodium vivax]
+SCO69264.1           -            149 14134at5820          -            148   3.7e-06   25.3   1.1   1   1   1.6e-08   1.1e-05   23.8   1.1    12   143     8   144     3   148 0.82 calmodulin, putative [Plasmodium vivax]
+SCO66216.1           -            179 14134at5820          -            148   6.5e-06   24.5   9.1   1   2   1.1e-05    0.0076   14.6   2.1    82   143    36    98    29   102 0.87 centrin-3, putative [Plasmodium vivax]
+SCO66216.1           -            179 14134at5820          -            148   6.5e-06   24.5   9.1   2   2   1.8e-06    0.0012   17.1   4.0    58   141    85   169    70   176 0.81 centrin-3, putative [Plasmodium vivax]
+SCO68549.1           -            563 14134at5820          -            148   0.00013   20.3  16.0   1   2   1.4e-05    0.0093   14.3   7.2    37   144   375   484   337   488 0.80 calcium-dependent protein kinase 5, putative [Plasmodium vivax]
+SCO68549.1           -            563 14134at5820          -            148   0.00013   20.3  16.0   2   2   0.00018      0.12   10.6   1.5    48   108   495   557   485   562 0.81 calcium-dependent protein kinase 5, putative [Plasmodium vivax]
+SCO70211.1           -            209 14134at5820          -            148    0.0025   16.1   0.6   1   1   5.4e-06    0.0037   15.6   0.6    55   120   118   183    73   208 0.76 myosin A tail domain interacting protein, putative [Plasmodium vivax]
+SCO66246.1           -            236 14134at5820          -            148      0.11   10.7  12.8   1   2    0.0021       1.4    7.2   0.1   121   143    13    35     2    51 0.80 calmodulin, putative [Plasmodium vivax]
+SCO66246.1           -            236 14134at5820          -            148      0.11   10.7  12.8   2   2     0.012       8.3    4.7   9.2    63   142   149   229    94   235 0.83 calmodulin, putative [Plasmodium vivax]
+#
+# Program:         hmmsearch
+# Version:         3.4 (Aug 2023)
+# Pipeline mode:   SEARCH
+# Query file:      /v3/work/00_inventory/busco/busco_downloads/lineages/plasmodium_odb10/hmms/14134at5820.hmm
+# Target file:     /v3/inputs/annotations/ncbi-datasets/PvT01.proteins.fa
+# Option settings: hmmsearch --domtblout /v3/work/00_inventory/busco/PvT01_proteins/run_plasmodium_odb10/hmmer_output/initial_run_results/14134at5820.out --cpu 1 /v3/work/00_inventory/busco/busco_downloads/lineages/plasmodium_odb10/hmms/14134at5820.hmm /v3/inputs/annotations/ncbi-datasets/PvT01.proteins.fa 
+# Current dir:     /v3/work/00_inventory/busco
+# Date:            Tue May 19 18:34:31 2026
+# [ok]

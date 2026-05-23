@@ -1,0 +1,17 @@
+#                                                                            --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name        accession   tlen query name           accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+#------------------- ---------- ----- -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+PVX_119595.1-p1      -            302 10875at5820          -            217  1.5e-131  434.6   9.2   1   2   2.6e-98   4.9e-95  315.3   6.5     1   158    28   185    28   204 0.93 | transcript=PVX_119595.1 | gene=PVX_119595 | organism=Plasmodium_vivax_Sal-1 | gene_product=YTH domain-containing protein, putative | transcript_product=YTH domain-containing protein, putative | location=Pv_Sal1_chr08:1353497-1355421(-) | protein_length=302 | sequence_SO=chromosome | SO=protein_coding_gene | is_pseudo=false
+PVX_119595.1-p1      -            302 10875at5820          -            217  1.5e-131  434.6   9.2   2   2   5.7e-39   1.1e-35  121.3   0.2   106   217   187   299   177   299 0.90 | transcript=PVX_119595.1 | gene=PVX_119595 | organism=Plasmodium_vivax_Sal-1 | gene_product=YTH domain-containing protein, putative | transcript_product=YTH domain-containing protein, putative | location=Pv_Sal1_chr08:1353497-1355421(-) | protein_length=302 | sequence_SO=chromosome | SO=protein_coding_gene | is_pseudo=false
+PVX_085485.1-p1      -            607 10875at5820          -            217   2.5e-22   77.6   1.0   1   1   2.2e-25   4.1e-22   76.9   1.0     2   136   404   536   403   586 0.87 | transcript=PVX_085485.1 | gene=PVX_085485 | organism=Plasmodium_vivax_Sal-1 | gene_product=YTH domain-containing protein, putative | transcript_product=YTH domain-containing protein, putative | location=Pv_Sal1_chr13:1207077-1208900(+) | protein_length=607 | sequence_SO=chromosome | SO=protein_coding_gene | is_pseudo=false
+PVX_117357.1-p1      -            121 10875at5820          -            217   0.00093   16.9   0.6   1   1   1.9e-06    0.0035   15.0   0.6    80   139    48   108    10   114 0.87 | transcript=PVX_117357.1 | gene=PVX_117357 | organism=Plasmodium_vivax_Sal-1 | gene_product=thioredoxin-like protein | transcript_product=thioredoxin-like protein | location=Pv_Sal1_chr12:1822980-1823345(+) | protein_length=121 | sequence_SO=chromosome | SO=protein_coding_gene | is_pseudo=false
+#
+# Program:         hmmsearch
+# Version:         3.4 (Aug 2023)
+# Pipeline mode:   SEARCH
+# Query file:      /v3/work/00_inventory/busco/busco_downloads/lineages/plasmodium_odb10/hmms/10875at5820.hmm
+# Target file:     /v3/inputs/annotations/plasmodb-68/Sal-I.proteins.fa
+# Option settings: hmmsearch --domtblout /v3/work/00_inventory/busco/Sal-I_proteins/run_plasmodium_odb10/hmmer_output/initial_run_results/10875at5820.out --cpu 1 /v3/work/00_inventory/busco/busco_downloads/lineages/plasmodium_odb10/hmms/10875at5820.hmm /v3/inputs/annotations/plasmodb-68/Sal-I.proteins.fa 
+# Current dir:     /v3/work/00_inventory/busco
+# Date:            Tue May 19 17:27:37 2026
+# [ok]

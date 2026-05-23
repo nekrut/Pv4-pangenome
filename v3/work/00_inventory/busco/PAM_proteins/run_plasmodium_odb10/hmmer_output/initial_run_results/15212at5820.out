@@ -1,0 +1,16 @@
+#                                                                            --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name        accession   tlen query name           accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+#------------------- ---------- ----- -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+CAI7722675.1         -            103 15212at5820          -             92   2.2e-45  151.2  10.6   1   1     9e-49   2.9e-45  150.8  10.6     1    92     1   103     1   103 0.96 | transcript=PVPAM_130017600_t1 | gene=PVPAM_130017600 | organism=Plasmodium_vivax_PAM | gene_product=signal recognition particle subunit SRP14, putative | transcript_product=signal recognition particle subunit SRP14, putative | location=CASCJQ010000013:583100-583676(+) | protein_length=103 | sequence_SO=supercontig | SO=protein_coding_gene | is_pseudo=false
+CAI7719095.1         -            267 15212at5820          -             92     0.018   13.7   2.3   1   2   2.5e-05     0.082   11.6   1.2    24    64    66   106    58   111 0.92 | transcript=PVPAM_060010200_t1 | gene=PVPAM_060010200 | organism=Plasmodium_vivax_PAM | gene_product=Plasmodium exported protein, unknown function | transcript_product=Plasmodium exported protein, unknown function | location=CASCJQ010000006:229041-229966(-) | protein_length=267 | sequence_SO=supercontig | SO=protein_coding_gene | is_pseudo=false
+CAI7719095.1         -            267 15212at5820          -             92     0.018   13.7   2.3   2   2      0.19   6.1e+02   -0.8   0.0    20    45   230   253   226   265 0.65 | transcript=PVPAM_060010200_t1 | gene=PVPAM_060010200 | organism=Plasmodium_vivax_PAM | gene_product=Plasmodium exported protein, unknown function | transcript_product=Plasmodium exported protein, unknown function | location=CASCJQ010000006:229041-229966(-) | protein_length=267 | sequence_SO=supercontig | SO=protein_coding_gene | is_pseudo=false
+#
+# Program:         hmmsearch
+# Version:         3.4 (Aug 2023)
+# Pipeline mode:   SEARCH
+# Query file:      /v3/work/00_inventory/busco/busco_downloads/lineages/plasmodium_odb10/hmms/15212at5820.hmm
+# Target file:     /v3/inputs/annotations/plasmodb-68/PAM.proteins.fa
+# Option settings: hmmsearch --domtblout /v3/work/00_inventory/busco/PAM_proteins/run_plasmodium_odb10/hmmer_output/initial_run_results/15212at5820.out --cpu 1 /v3/work/00_inventory/busco/busco_downloads/lineages/plasmodium_odb10/hmms/15212at5820.hmm /v3/inputs/annotations/plasmodb-68/PAM.proteins.fa 
+# Current dir:     /v3/work/00_inventory/busco
+# Date:            Tue May 19 17:35:23 2026
+# [ok]

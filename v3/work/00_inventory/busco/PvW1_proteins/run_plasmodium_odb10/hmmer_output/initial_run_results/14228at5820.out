@@ -1,0 +1,16 @@
+#                                                                            --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name        accession   tlen query name           accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+#------------------- ---------- ----- -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+CAG9479049.1         -            158 14228at5820          -            145   7.7e-86  283.8  18.5   1   1     1e-88   2.1e-85  282.4  18.5     1   145     1   158     1   158 0.95 | transcript=PVW1_080024600_t1 | gene=PVW1_080024600 | organism=Plasmodium_vivax_PvW1 | gene_product=Histone H2A [Source:UniProtKB/TrEMBL;Acc:A0A1G4GWE5] | transcript_product=Histone H2A [Source:UniProtKB/TrEMBL;Acc:A0A1G4GWE5] | location=CAJZCX010000009:897274-898270(-) | protein_length=158 | sequence_SO=supercontig | SO=protein_coding_gene | is_pseudo=false
+CAG9477942.1         -            133 14228at5820          -            145   2.1e-35  120.3   0.2   1   1   1.2e-38   2.4e-35  120.0   0.2    23   134     7   119     1   125 0.86 | transcript=PVW1_110037300_t1 | gene=PVW1_110037300 | organism=Plasmodium_vivax_PvW1 | gene_product=Histone H2A [Source:UniProtKB/TrEMBL;Acc:A0A1G4HFK0] | transcript_product=Histone H2A [Source:UniProtKB/TrEMBL;Acc:A0A1G4HFK0] | location=CAJZCX010000008:1386595-1386996(+) | protein_length=133 | sequence_SO=supercontig | SO=protein_coding_gene | is_pseudo=false
+CAG9482344.1         -            331 14228at5820          -            145     0.028   12.8   0.5   1   1   2.4e-05     0.048   12.1   0.5    15    67    75   131    69   138 0.67 | transcript=PVW1_040011700_t1 | gene=PVW1_040011700 | organism=Plasmodium_vivax_PvW1 | gene_product=unspecified product | transcript_product=unspecified product | location=CAJZCX010000013:338018-339177(+) | protein_length=331 | sequence_SO=supercontig | SO=protein_coding_gene | is_pseudo=false
+#
+# Program:         hmmsearch
+# Version:         3.4 (Aug 2023)
+# Pipeline mode:   SEARCH
+# Query file:      /v3/work/00_inventory/busco/busco_downloads/lineages/plasmodium_odb10/hmms/14228at5820.hmm
+# Target file:     /v3/inputs/annotations/plasmodb-68/PvW1.proteins.fa
+# Option settings: hmmsearch --domtblout /v3/work/00_inventory/busco/PvW1_proteins/run_plasmodium_odb10/hmmer_output/initial_run_results/14228at5820.out --cpu 1 /v3/work/00_inventory/busco/busco_downloads/lineages/plasmodium_odb10/hmms/14228at5820.hmm /v3/inputs/annotations/plasmodb-68/PvW1.proteins.fa 
+# Current dir:     /v3/work/00_inventory/busco
+# Date:            Tue May 19 17:32:51 2026
+# [ok]

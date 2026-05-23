@@ -1,0 +1,17 @@
+#                                                                            --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name        accession   tlen query name           accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+#------------------- ---------- ----- -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+PVP01_1237000.1-p1   -            171 14257at5820          -            124   1.7e-66  220.5   5.8   1   2   4.4e-60   1.4e-56  188.4   1.8     1    94     1    94     1   101 0.98 | transcript=PVP01_1237000.1 | gene=PVP01_1237000 | organism=Plasmodium_vivax_P01 | gene_product=mediator of RNA polymerase II transcription subunit 22, putative | transcript_product=mediator of RNA polymerase II transcription subunit 22, putative | location=PvP01_12_v2:1464049-1464958(+) | protein_length=171 | sequence_SO=chromosome | SO=protein_coding_gene | is_pseudo=false
+PVP01_1237000.1-p1   -            171 14257at5820          -            124   1.7e-66  220.5   5.8   2   2   2.3e-12   7.6e-09   34.2   0.1    91   118   130   157   118   167 0.80 | transcript=PVP01_1237000.1 | gene=PVP01_1237000 | organism=Plasmodium_vivax_P01 | gene_product=mediator of RNA polymerase II transcription subunit 22, putative | transcript_product=mediator of RNA polymerase II transcription subunit 22, putative | location=PvP01_12_v2:1464049-1464958(+) | protein_length=171 | sequence_SO=chromosome | SO=protein_coding_gene | is_pseudo=false
+PVP01_1132700.1-p1   -           1271 14257at5820          -            124     0.043   12.4   2.4   1   2      0.15     5e+02   -0.7   0.1    84   121   839   876   836   879 0.86 | transcript=PVP01_1132700.1 | gene=PVP01_1132700 | organism=Plasmodium_vivax_P01 | gene_product=conserved Plasmodium protein, unknown function | transcript_product=conserved Plasmodium protein, unknown function | location=PvP01_11_v2:1401964-1405779(-) | protein_length=1271 | sequence_SO=chromosome | SO=protein_coding_gene | is_pseudo=false
+PVP01_1132700.1-p1   -           1271 14257at5820          -            124     0.043   12.4   2.4   2   2   4.3e-05      0.14   10.8   0.4    54   102  1079  1127  1055  1139 0.85 | transcript=PVP01_1132700.1 | gene=PVP01_1132700 | organism=Plasmodium_vivax_P01 | gene_product=conserved Plasmodium protein, unknown function | transcript_product=conserved Plasmodium protein, unknown function | location=PvP01_11_v2:1401964-1405779(-) | protein_length=1271 | sequence_SO=chromosome | SO=protein_coding_gene | is_pseudo=false
+#
+# Program:         hmmsearch
+# Version:         3.4 (Aug 2023)
+# Pipeline mode:   SEARCH
+# Query file:      /v3/work/00_inventory/busco/busco_downloads/lineages/plasmodium_odb10/hmms/14257at5820.hmm
+# Target file:     /v3/inputs/annotations/plasmodb-68/PvP01.proteins.fa
+# Option settings: hmmsearch --domtblout /v3/work/00_inventory/busco/PvP01_proteins/run_plasmodium_odb10/hmmer_output/initial_run_results/14257at5820.out --cpu 1 /v3/work/00_inventory/busco/busco_downloads/lineages/plasmodium_odb10/hmms/14257at5820.hmm /v3/inputs/annotations/plasmodb-68/PvP01.proteins.fa 
+# Current dir:     /v3/work/00_inventory/busco
+# Date:            Tue May 19 17:32:57 2026
+# [ok]

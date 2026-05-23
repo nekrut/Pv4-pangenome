@@ -1,0 +1,29 @@
+#                                                                            --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name        accession   tlen query name           accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+#------------------- ---------- ----- -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+SCO67405.1           -           1613 1267at5820           -           1206         0 2006.7 166.0   1   6     2e-08   3.1e-05   20.3   0.2     1    32    39    71    39    85 0.84 structural maintenance of chromosomes protein 1, putative [Plasmodium vivax]
+SCO67405.1           -           1613 1267at5820           -           1206         0 2006.7 166.0   2   6    5e-209  7.6e-206  684.8  41.8    29   424   199   609   191   618 0.95 structural maintenance of chromosomes protein 1, putative [Plasmodium vivax]
+SCO67405.1           -           1613 1267at5820           -           1206         0 2006.7 166.0   3   6   3.4e-94   5.1e-91  304.4  25.4   418   626   646   874   644   877 0.93 structural maintenance of chromosomes protein 1, putative [Plasmodium vivax]
+SCO67405.1           -           1613 1267at5820           -           1206         0 2006.7 166.0   4   6  2.3e-115  3.6e-112  374.5  45.1   626   909   914  1219   908  1221 0.93 structural maintenance of chromosomes protein 1, putative [Plasmodium vivax]
+SCO67405.1           -           1613 1267at5820           -           1206         0 2006.7 166.0   5   6   8.1e-29   1.2e-25   87.9  10.4   838   940  1185  1292  1179  1296 0.84 structural maintenance of chromosomes protein 1, putative [Plasmodium vivax]
+SCO67405.1           -           1613 1267at5820           -           1206         0 2006.7 166.0   6   6  4.4e-171  6.6e-168  559.1  15.2   949  1205  1355  1611  1353  1612 0.99 structural maintenance of chromosomes protein 1, putative [Plasmodium vivax]
+SCO67806.1           -           1461 1267at5820           -           1206   2.1e-37  126.9  14.5   1   7   8.7e-21   1.3e-17   61.3   0.1    31   134    31   137    13   151 0.77 chromosome condensation protein, putative [Plasmodium vivax]
+SCO67806.1           -           1461 1267at5820           -           1206   2.1e-37  126.9  14.5   2   7         4   6.1e+03  -12.9  41.3   156   477   193   498   183   498 0.65 chromosome condensation protein, putative [Plasmodium vivax]
+SCO67806.1           -           1461 1267at5820           -           1206   2.1e-37  126.9  14.5   3   7         4   6.1e+03  -25.5  45.1   758  1010   316   579   302   616 0.50 chromosome condensation protein, putative [Plasmodium vivax]
+SCO67806.1           -           1461 1267at5820           -           1206   2.1e-37  126.9  14.5   4   7      0.53   8.1e+02   -4.3   0.0   649   677   708   735   705   753 0.77 chromosome condensation protein, putative [Plasmodium vivax]
+SCO67806.1           -           1461 1267at5820           -           1206   2.1e-37  126.9  14.5   5   7     0.087   1.3e+02   -1.7   4.4   861   917   812   869   805   886 0.78 chromosome condensation protein, putative [Plasmodium vivax]
+SCO67806.1           -           1461 1267at5820           -           1206   2.1e-37  126.9  14.5   6   7         4   6.1e+03  -23.7  41.6   732   910   859  1040   846  1085 0.42 chromosome condensation protein, putative [Plasmodium vivax]
+SCO67806.1           -           1461 1267at5820           -           1206   2.1e-37  126.9  14.5   7   7   1.3e-25     2e-22   77.3  10.4   969  1200  1209  1428  1183  1433 0.88 chromosome condensation protein, putative [Plasmodium vivax]
+SCO69771.1           -           1218 1267at5820           -           1206   2.8e-12   43.6 177.0   1   1   5.9e-12     9e-09   32.0 177.0    56  1182     3  1173     1  1191 0.61 structural maintenance of chromosome 2, putative [Plasmodium vivax]
+SCO65934.1           -           1193 1267at5820           -           1206   1.3e-07   28.2   0.1   1   2         4   6.1e+03  -32.4 171.7    55  1011     2   970     1   975 0.64 structural maintenance of chromosomes protein 3, putative [Plasmodium vivax]
+SCO65934.1           -           1193 1267at5820           -           1206   1.3e-07   28.2   0.1   2   2   8.6e-11   1.3e-07   28.2   0.1  1104  1172  1079  1150  1066  1163 0.80 structural maintenance of chromosomes protein 3, putative [Plasmodium vivax]
+#
+# Program:         hmmsearch
+# Version:         3.4 (Aug 2023)
+# Pipeline mode:   SEARCH
+# Query file:      /v3/work/00_inventory/busco/busco_downloads/lineages/plasmodium_odb10/hmms/1267at5820.hmm
+# Target file:     /v3/inputs/annotations/ncbi-datasets/PvT01.proteins.fa
+# Option settings: hmmsearch --domtblout /v3/work/00_inventory/busco/PvT01_proteins/run_plasmodium_odb10/hmmer_output/initial_run_results/1267at5820.out --cpu 1 /v3/work/00_inventory/busco/busco_downloads/lineages/plasmodium_odb10/hmms/1267at5820.hmm /v3/inputs/annotations/ncbi-datasets/PvT01.proteins.fa 
+# Current dir:     /v3/work/00_inventory/busco
+# Date:            Tue May 19 18:30:16 2026
+# [ok]

@@ -1,0 +1,17 @@
+#                                                                            --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name        accession   tlen query name           accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+#------------------- ---------- ----- -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+PVX_111055.1-p1      -            292 9277at5820           -            262  4.2e-130  431.3  13.6   1   1  4.5e-133  8.4e-130  430.3  13.6     1   262     8   292     8   292 0.94 | transcript=PVX_111055.1 | gene=PVX_111055 | organism=Plasmodium_vivax_Sal-1 | gene_product=haloacid dehalogenase-like hydrolase, putative | transcript_product=haloacid dehalogenase-like hydrolase, putative | location=Pv_Sal1_chr06:755785-756663(+) | protein_length=292 | sequence_SO=chromosome | SO=protein_coding_gene | is_pseudo=false
+PVX_123945.1-p1      -            293 9277at5820           -            262   7.8e-35  119.1  11.3   1   1   7.8e-38   1.4e-34  118.2  11.3     6   261     7   290     1   291 0.81 | transcript=PVX_123945.1 | gene=PVX_123945 | organism=Plasmodium_vivax_Sal-1 | gene_product=haloacid dehalogenase-like hydrolase, putative | transcript_product=haloacid dehalogenase-like hydrolase, putative | location=Pv_Sal1_chr14:1918394-1919275(+) | protein_length=293 | sequence_SO=chromosome | SO=protein_coding_gene | is_pseudo=false
+PVX_123935.1-p1      -            336 9277at5820           -            262   2.6e-20   71.5   5.0   1   2   3.4e-15   6.3e-12   44.0   0.9    14   109    37   132    24   158 0.78 | transcript=PVX_123935.1 | gene=PVX_123935 | organism=Plasmodium_vivax_Sal-1 | gene_product=haloacid dehalogenase-like hydrolase, putative | transcript_product=haloacid dehalogenase-like hydrolase, putative | location=Pv_Sal1_chr14:1908631-1909739(+) | protein_length=336 | sequence_SO=chromosome | SO=protein_coding_gene | is_pseudo=false
+PVX_123935.1-p1      -            336 9277at5820           -            262   2.6e-20   71.5   5.0   2   2   8.9e-11   1.6e-07   29.5   0.2   185   256   252   327   198   332 0.79 | transcript=PVX_123935.1 | gene=PVX_123935 | organism=Plasmodium_vivax_Sal-1 | gene_product=haloacid dehalogenase-like hydrolase, putative | transcript_product=haloacid dehalogenase-like hydrolase, putative | location=Pv_Sal1_chr14:1908631-1909739(+) | protein_length=336 | sequence_SO=chromosome | SO=protein_coding_gene | is_pseudo=false
+#
+# Program:         hmmsearch
+# Version:         3.4 (Aug 2023)
+# Pipeline mode:   SEARCH
+# Query file:      /v3/work/00_inventory/busco/busco_downloads/lineages/plasmodium_odb10/hmms/9277at5820.hmm
+# Target file:     /v3/inputs/annotations/plasmodb-68/Sal-I.proteins.fa
+# Option settings: hmmsearch --domtblout /v3/work/00_inventory/busco/Sal-I_proteins/run_plasmodium_odb10/hmmer_output/initial_run_results/9277at5820.out --cpu 1 /v3/work/00_inventory/busco/busco_downloads/lineages/plasmodium_odb10/hmms/9277at5820.hmm /v3/inputs/annotations/plasmodb-68/Sal-I.proteins.fa 
+# Current dir:     /v3/work/00_inventory/busco
+# Date:            Tue May 19 17:50:28 2026
+# [ok]

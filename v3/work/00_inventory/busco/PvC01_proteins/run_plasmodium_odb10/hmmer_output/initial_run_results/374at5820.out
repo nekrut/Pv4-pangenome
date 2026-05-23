@@ -1,0 +1,27 @@
+#                                                                            --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name        accession   tlen query name           accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+#------------------- ---------- ----- -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+SCO70397.1           -           2121 374at5820            -           1549         0 2461.8  89.9   1   7  1.5e-207  1.5e-204  680.6   4.5    28   416    92   525    85   529 0.92 circumsporozoite-and TRAP-related protein, putative [Plasmodium vivax]
+SCO70397.1           -           2121 374at5820            -           1549         0 2461.8  89.9   2   7   1.8e-85   1.9e-82  275.9   0.0   415   599   607   818   601   822 0.91 circumsporozoite-and TRAP-related protein, putative [Plasmodium vivax]
+SCO70397.1           -           2121 374at5820            -           1549         0 2461.8  89.9   3   7  2.9e-112    3e-109  364.7   0.1   590   797   835  1051   829  1053 0.96 circumsporozoite-and TRAP-related protein, putative [Plasmodium vivax]
+SCO70397.1           -           2121 374at5820            -           1549         0 2461.8  89.9   4   7   4.7e-11   4.9e-08   29.3   0.1    28   109  1066  1147  1062  1152 0.73 circumsporozoite-and TRAP-related protein, putative [Plasmodium vivax]
+SCO70397.1           -           2121 374at5820            -           1549         0 2461.8  89.9   5   7   3.4e-29   3.5e-26   89.4   0.0   823   914  1143  1242  1138  1248 0.88 circumsporozoite-and TRAP-related protein, putative [Plasmodium vivax]
+SCO70397.1           -           2121 374at5820            -           1549         0 2461.8  89.9   6   7  1.3e-185  1.3e-182  607.9  32.5   926  1294  1308  1757  1302  1760 0.89 circumsporozoite-and TRAP-related protein, putative [Plasmodium vivax]
+SCO70397.1           -           2121 374at5820            -           1549         0 2461.8  89.9   7   7  1.3e-130  1.4e-127  425.5  27.4  1293  1549  1802  2121  1793  2121 0.89 circumsporozoite-and TRAP-related protein, putative [Plasmodium vivax]
+SCO70534.1           -            295 374at5820            -           1549   9.6e-36  121.1   0.0   1   1   1.1e-38   1.1e-35  120.9   0.0   597   795    89   289    37   294 0.87 von Willebrand factor A domain-related protein, putative [Plasmodium vivax]
+SCO74030.1           -            556 374at5820            -           1549   6.8e-30  101.7   4.7   1   2   1.2e-30   1.2e-27   94.2   0.1   600   793    36   232    26   240 0.90 thrombospondin-related anonymous protein [Plasmodium vivax]
+SCO74030.1           -            556 374at5820            -           1549   6.8e-30  101.7   4.7   2   2   8.9e-05     0.093    8.5   2.1  1215  1258   239   282   232   287 0.67 thrombospondin-related anonymous protein [Plasmodium vivax]
+SCO73692.1           -           1480 374at5820            -           1549   1.3e-11   41.1   8.5   1   2    0.0001      0.11    8.2   5.1  1110  1321   255   280   133   329 0.51 TRAP-like protein, putative [Plasmodium vivax]
+SCO73692.1           -           1480 374at5820            -           1549   1.3e-11   41.1   8.5   2   2   1.7e-12   1.7e-09   34.1   0.2    34   170   325   463   304   492 0.79 TRAP-like protein, putative [Plasmodium vivax]
+SCO70651.1           -            159 374at5820            -           1549   4.4e-06   22.8   5.6   1   1   5.1e-09   5.3e-06   22.5   5.6  1294  1370    47   121    33   138 0.59 thrombospondin related sporozoite protein, putative [Plasmodium vivax]
+SCO72463.1           -            321 374at5820            -           1549    0.0014   14.5   0.2   1   1   1.8e-06    0.0019   14.1   0.2  1172  1263   255   298   237   305 0.55 circumsporozoite (CS) protein [Plasmodium vivax]
+#
+# Program:         hmmsearch
+# Version:         3.4 (Aug 2023)
+# Pipeline mode:   SEARCH
+# Query file:      /v3/work/00_inventory/busco/busco_downloads/lineages/plasmodium_odb10/hmms/374at5820.hmm
+# Target file:     /v3/inputs/annotations/ncbi-datasets/PvC01.proteins.fa
+# Option settings: hmmsearch --domtblout /v3/work/00_inventory/busco/PvC01_proteins/run_plasmodium_odb10/hmmer_output/initial_run_results/374at5820.out --cpu 1 /v3/work/00_inventory/busco/busco_downloads/lineages/plasmodium_odb10/hmms/374at5820.hmm /v3/inputs/annotations/ncbi-datasets/PvC01.proteins.fa 
+# Current dir:     /v3/work/00_inventory/busco
+# Date:            Tue May 19 18:40:28 2026
+# [ok]

@@ -1,0 +1,16 @@
+#                                                                            --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name        accession   tlen query name           accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+#------------------- ---------- ----- -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+SCO69385.1           -            452 7376at5820           -            354  4.2e-200  662.4  21.5   1   2  1.1e-142  3.5e-139  462.1   1.3     1   224     1   230     1   234 0.98 mannose-1-phosphate guanyltransferase, putative [Plasmodium vivax]
+SCO69385.1           -            452 7376at5820           -            354  4.2e-200  662.4  21.5   2   2   6.4e-64   1.9e-60  203.1  12.9   229   354   308   452   306   452 0.93 mannose-1-phosphate guanyltransferase, putative [Plasmodium vivax]
+SCO65426.1           -            258 7376at5820           -            354   0.00036   18.0   2.5   1   1   1.9e-07   0.00057   17.4   2.5   246   295   164   213   159   226 0.78 dynactin subunit 5, putative [Plasmodium vivax]
+#
+# Program:         hmmsearch
+# Version:         3.4 (Aug 2023)
+# Pipeline mode:   SEARCH
+# Query file:      /v3/work/00_inventory/busco/busco_downloads/lineages/plasmodium_odb10/hmms/7376at5820.hmm
+# Target file:     /v3/inputs/annotations/ncbi-datasets/PvT01.proteins.fa
+# Option settings: hmmsearch --domtblout /v3/work/00_inventory/busco/PvT01_proteins/run_plasmodium_odb10/hmmer_output/initial_run_results/7376at5820.out --cpu 1 /v3/work/00_inventory/busco/busco_downloads/lineages/plasmodium_odb10/hmms/7376at5820.hmm /v3/inputs/annotations/ncbi-datasets/PvT01.proteins.fa 
+# Current dir:     /v3/work/00_inventory/busco
+# Date:            Tue May 19 18:58:27 2026
+# [ok]

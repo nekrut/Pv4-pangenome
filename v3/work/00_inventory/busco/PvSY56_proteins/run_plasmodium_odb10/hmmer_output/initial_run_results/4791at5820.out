@@ -1,0 +1,18 @@
+#                                                                                                             --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name                                         accession   tlen query name           accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+#                                 ------------------- ---------- ----- -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+GCA_003402215.1|PVP01_0407900|PVP01_0407900.1|unknown -            574 4791at5820           -            485         0 1038.4  14.8   1   2     1e-35   1.8e-32  110.9   0.1     1    59    32    90    32   103 0.96 -
+GCA_003402215.1|PVP01_0407900|PVP01_0407900.1|unknown -            574 4791at5820           -            485         0 1038.4  14.8   2   2  3.8e-284  6.8e-281  930.2  10.1    58   485   114   562   110   562 0.96 -
+GCA_003402215.1|PVP01_0305500|PVP01_0305500.1|unknown -            494 4791at5820           -            485     3e-22   77.2   0.0   1   1   2.8e-25     5e-22   76.5   0.0    88   370    97   394    47   406 0.81 -
+GCA_003402215.1|PVP01_1412900|PVP01_1412900.1|unknown -            611 4791at5820           -            485   3.3e-13   47.4   0.0   1   2       0.1   1.9e+02   -1.2   0.0    28   112    10    96     4   101 0.78 -
+GCA_003402215.1|PVP01_1412900|PVP01_1412900.1|unknown -            611 4791at5820           -            485   3.3e-13   47.4   0.0   2   2   7.6e-16   1.3e-12   45.4   0.0   137   421   219   520   204   557 0.74 -
+#
+# Program:         hmmsearch
+# Version:         3.4 (Aug 2023)
+# Pipeline mode:   SEARCH
+# Query file:      /v3/work/00_inventory/busco/busco_downloads/lineages/plasmodium_odb10/hmms/4791at5820.hmm
+# Target file:     /v3/inputs/annotations/plasmodb-68/PvSY56.proteins.fa
+# Option settings: hmmsearch --domtblout /v3/work/00_inventory/busco/PvSY56_proteins/run_plasmodium_odb10/hmmer_output/initial_run_results/4791at5820.out --cpu 1 /v3/work/00_inventory/busco/busco_downloads/lineages/plasmodium_odb10/hmms/4791at5820.hmm /v3/inputs/annotations/plasmodb-68/PvSY56.proteins.fa 
+# Current dir:     /v3/work/00_inventory/busco
+# Date:            Tue May 19 18:09:49 2026
+# [ok]

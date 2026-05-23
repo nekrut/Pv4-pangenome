@@ -1,0 +1,20 @@
+#                                                                            --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name        accession   tlen query name           accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+#------------------- ---------- ----- -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+SCO74386.1           -            256 12612at5820          -            213  3.5e-101  335.8  51.9   1   1  2.7e-104  4.2e-101  335.5  51.9     1   213    28   252    28   252 0.95 conserved Plasmodium protein, unknown function [Plasmodium vivax]
+SCA60536.1           -            197 12612at5820          -            213   0.00075   17.8  10.7   1   2   5.4e-06    0.0085   14.3   3.0    14    64    15    67     5    74 0.87 hypothetical protein PVC01_000081600, partial [Plasmodium vivax]
+SCA60536.1           -            197 12612at5820          -            213   0.00075   17.8  10.7   2   2   0.00038       0.6    8.3   0.5    24    59   122   157   110   184 0.81 hypothetical protein PVC01_000081600, partial [Plasmodium vivax]
+SCO75260.1           -            418 12612at5820          -            213    0.0017   16.6   7.8   1   3   2.1e-06    0.0033   15.6   0.3    61   109    84   135    81   159 0.83 glycerol-3-phosphate 1-O-acyltransferase, putative [Plasmodium vivax]
+SCO75260.1           -            418 12612at5820          -            213    0.0017   16.6   7.8   2   3    0.0034       5.4    5.1   0.4    26    65   195   237   179   244 0.72 glycerol-3-phosphate 1-O-acyltransferase, putative [Plasmodium vivax]
+SCO75260.1           -            418 12612at5820          -            213    0.0017   16.6   7.8   3   3       1.7   2.7e+03   -3.7   0.1    21    45   272   297   270   302 0.62 glycerol-3-phosphate 1-O-acyltransferase, putative [Plasmodium vivax]
+SCO72160.1           -            230 12612at5820          -            213    0.0034   15.6   0.3   1   1   3.2e-06     0.005   15.1   0.3    75   123   102   149    92   181 0.68 Plasmodium exported protein, unknown function [Plasmodium vivax]
+#
+# Program:         hmmsearch
+# Version:         3.4 (Aug 2023)
+# Pipeline mode:   SEARCH
+# Query file:      /v3/work/00_inventory/busco/busco_downloads/lineages/plasmodium_odb10/hmms/12612at5820.hmm
+# Target file:     /v3/inputs/annotations/ncbi-datasets/PvC01.proteins.fa
+# Option settings: hmmsearch --domtblout /v3/work/00_inventory/busco/PvC01_proteins/run_plasmodium_odb10/hmmer_output/initial_run_results/12612at5820.out --cpu 1 /v3/work/00_inventory/busco/busco_downloads/lineages/plasmodium_odb10/hmms/12612at5820.hmm /v3/inputs/annotations/ncbi-datasets/PvC01.proteins.fa 
+# Current dir:     /v3/work/00_inventory/busco
+# Date:            Tue May 19 18:30:08 2026
+# [ok]

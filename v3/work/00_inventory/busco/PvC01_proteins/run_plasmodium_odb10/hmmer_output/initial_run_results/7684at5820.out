@@ -1,0 +1,16 @@
+#                                                                            --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name        accession   tlen query name           accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+#------------------- ---------- ----- -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+SCO75235.1           -            384 7684at5820           -            331  3.1e-163  541.1  24.3   1   2     6e-78   1.9e-74  249.3   8.8     2   166     9   180     8   183 0.94 transcription factor MYB1, putative [Plasmodium vivax]
+SCO75235.1           -            384 7684at5820           -            331  3.1e-163  541.1  24.3   2   2   9.6e-93     3e-89  298.0   7.5   161   331   200   382   198   382 0.95 transcription factor MYB1, putative [Plasmodium vivax]
+SCA82011.1           -            492 7684at5820           -            331   0.00025   18.8   0.9   1   1   1.3e-07    0.0004   18.2   0.9    27    61    49    83    26    98 0.83 VIR protein [Plasmodium vivax]
+#
+# Program:         hmmsearch
+# Version:         3.4 (Aug 2023)
+# Pipeline mode:   SEARCH
+# Query file:      /v3/work/00_inventory/busco/busco_downloads/lineages/plasmodium_odb10/hmms/7684at5820.hmm
+# Target file:     /v3/inputs/annotations/ncbi-datasets/PvC01.proteins.fa
+# Option settings: hmmsearch --domtblout /v3/work/00_inventory/busco/PvC01_proteins/run_plasmodium_odb10/hmmer_output/initial_run_results/7684at5820.out --cpu 1 /v3/work/00_inventory/busco/busco_downloads/lineages/plasmodium_odb10/hmms/7684at5820.hmm /v3/inputs/annotations/ncbi-datasets/PvC01.proteins.fa 
+# Current dir:     /v3/work/00_inventory/busco
+# Date:            Tue May 19 19:02:43 2026
+# [ok]

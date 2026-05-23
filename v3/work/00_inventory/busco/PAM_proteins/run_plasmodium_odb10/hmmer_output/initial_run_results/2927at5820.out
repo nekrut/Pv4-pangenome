@@ -1,0 +1,18 @@
+#                                                                            --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name        accession   tlen query name           accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+#------------------- ---------- ----- -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+CAI7721211.1         -            855 2927at5820           -            633         0 1343.3  38.8   1   2  2.9e-217  9.5e-214  709.9  23.2    12   340   189   517   178   521 0.98 | transcript=PVPAM_110011300_t1 | gene=PVPAM_110011300 | organism=Plasmodium_vivax_PAM | gene_product=aldehyde reductase, putative | transcript_product=aldehyde reductase, putative | location=CASCJQ010000011:231864-234431(-) | protein_length=855 | sequence_SO=supercontig | SO=protein_coding_gene | is_pseudo=false
+CAI7721211.1         -            855 2927at5820           -            633         0 1343.3  38.8   2   2  6.8e-196  2.2e-192  639.3   7.6   338   633   552   855   543   855 0.98 | transcript=PVPAM_110011300_t1 | gene=PVPAM_110011300 | organism=Plasmodium_vivax_PAM | gene_product=aldehyde reductase, putative | transcript_product=aldehyde reductase, putative | location=CASCJQ010000011:231864-234431(-) | protein_length=855 | sequence_SO=supercontig | SO=protein_coding_gene | is_pseudo=false
+CAI7723042.1         -           1122 2927at5820           -            633   1.6e-36  124.5  11.5   1   3   2.9e-14   9.5e-11   39.3   2.9   235   353   456   576   443   587 0.80 | transcript=PVPAM_130054800_t1 | gene=PVPAM_130054800 | organism=Plasmodium_vivax_PAM | gene_product=aldo-keto reductase, putative | transcript_product=aldo-keto reductase, putative | location=CASCJQ010000013:2203544-2206912(-) | protein_length=1122 | sequence_SO=supercontig | SO=protein_coding_gene | is_pseudo=false
+CAI7723042.1         -           1122 2927at5820           -            633   1.6e-36  124.5  11.5   2   3   3.1e-25     1e-21   75.6   0.3   382   534   582   744   576   748 0.84 | transcript=PVPAM_130054800_t1 | gene=PVPAM_130054800 | organism=Plasmodium_vivax_PAM | gene_product=aldo-keto reductase, putative | transcript_product=aldo-keto reductase, putative | location=CASCJQ010000013:2203544-2206912(-) | protein_length=1122 | sequence_SO=supercontig | SO=protein_coding_gene | is_pseudo=false
+CAI7723042.1         -           1122 2927at5820           -            633   1.6e-36  124.5  11.5   3   3   1.3e-06    0.0043   14.0   0.1   532   605   777   849   764   868 0.86 | transcript=PVPAM_130054800_t1 | gene=PVPAM_130054800 | organism=Plasmodium_vivax_PAM | gene_product=aldo-keto reductase, putative | transcript_product=aldo-keto reductase, putative | location=CASCJQ010000013:2203544-2206912(-) | protein_length=1122 | sequence_SO=supercontig | SO=protein_coding_gene | is_pseudo=false
+#
+# Program:         hmmsearch
+# Version:         3.4 (Aug 2023)
+# Pipeline mode:   SEARCH
+# Query file:      /v3/work/00_inventory/busco/busco_downloads/lineages/plasmodium_odb10/hmms/2927at5820.hmm
+# Target file:     /v3/inputs/annotations/plasmodb-68/PAM.proteins.fa
+# Option settings: hmmsearch --domtblout /v3/work/00_inventory/busco/PAM_proteins/run_plasmodium_odb10/hmmer_output/initial_run_results/2927at5820.out --cpu 1 /v3/work/00_inventory/busco/busco_downloads/lineages/plasmodium_odb10/hmms/2927at5820.hmm /v3/inputs/annotations/plasmodb-68/PAM.proteins.fa 
+# Current dir:     /v3/work/00_inventory/busco
+# Date:            Tue May 19 17:38:37 2026
+# [ok]

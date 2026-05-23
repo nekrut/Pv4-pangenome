@@ -1,0 +1,25 @@
+#                                                                            --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name        accession   tlen query name           accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+#------------------- ---------- ----- -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+SCO74696.1           -            381 7279at5820           -            532         0 1121.8  36.0   1   3  1.3e-111  7.9e-109  362.7   6.7   229   379     1   151     1   151 1.00 polyubiquitin 5, putative [Plasmodium vivax]
+SCO74696.1           -            381 7279at5820           -            532         0 1121.8  36.0   2   3  4.6e-122  2.9e-119  397.1   7.0   215   379   139   303   139   303 1.00 polyubiquitin 5, putative [Plasmodium vivax]
+SCO74696.1           -            381 7279at5820           -            532         0 1121.8  36.0   3   3  1.1e-119  6.7e-117  389.3   6.4   219   379   219   379   219   381 1.00 polyubiquitin 5, putative [Plasmodium vivax]
+SCO73428.1           -            128 7279at5820           -            532   7.8e-46  154.8   0.0   1   1   1.3e-48   7.9e-46  154.8   0.0   305   380     1    76     1   113 0.91 ubiquitin-60S ribosomal protein L40, putative [Plasmodium vivax]
+SCO75207.1           -             76 7279at5820           -            532   3.8e-22   76.6   0.1   1   1   6.6e-25   4.1e-22   76.5   0.1   305   379     1    75     1    76 0.68 ubiquitin-like protein nedd8 homologue, putative [Plasmodium vivax]
+SCO72621.1           -            394 7279at5820           -            532   6.7e-09   32.9   0.0   1   1   1.3e-11   8.4e-09   32.6   0.0   310   374     8    72     1    95 0.49 ubiquitin domain-containing protein DSK2, putative [Plasmodium vivax]
+SCO75039.1           -            149 7279at5820           -            532     8e-08   29.4   0.1   1   1   1.5e-10   9.2e-08   29.2   0.1    77   152     1    76     1    93 0.38 ubiquitin-40S ribosomal protein S27a, putative [Plasmodium vivax]
+SCO72262.1           -            406 7279at5820           -            532   1.2e-05   22.2   0.3   1   1   2.3e-08   1.5e-05   21.9   0.3   305   374     1    69     1   139 0.54 DNA repair protein RAD23, putative [Plasmodium vivax]
+SCO75625.1           -             73 7279at5820           -            532   0.00037   17.3   0.1   1   1   5.9e-07   0.00037   17.3   0.1   160   219     9    68     1    73 0.33 ubiquitin-like modifier HUB1, putative [Plasmodium vivax]
+SCO75225.1           -            190 7279at5820           -            532    0.0011   15.8   0.1   1   1   2.1e-06    0.0013   15.5   0.1   412   522    58   172    30   179 0.48 ubiquitin-like protein, putative [Plasmodium vivax]
+SCO72739.1           -            246 7279at5820           -            532    0.0013   15.5   0.0   1   1   2.9e-06    0.0018   15.0   0.0   394   438    22    66     7    79 0.40 conserved Plasmodium protein, unknown function [Plasmodium vivax]
+SCO73067.1           -            595 7279at5820           -            532     0.026   11.2   0.0   1   1   7.6e-05     0.048   10.3   0.0    92   142    19    68     2    79 0.34 ubiquitin carboxyl-terminal hydrolase 14, putative [Plasmodium vivax]
+#
+# Program:         hmmsearch
+# Version:         3.4 (Aug 2023)
+# Pipeline mode:   SEARCH
+# Query file:      /v3/work/00_inventory/busco/busco_downloads/lineages/plasmodium_odb10/hmms/7279at5820.hmm
+# Target file:     /v3/inputs/annotations/ncbi-datasets/PvC01.proteins.fa
+# Option settings: hmmsearch --domtblout /v3/work/00_inventory/busco/PvC01_proteins/run_plasmodium_odb10/hmmer_output/initial_run_results/7279at5820.out --cpu 1 /v3/work/00_inventory/busco/busco_downloads/lineages/plasmodium_odb10/hmms/7279at5820.hmm /v3/inputs/annotations/ncbi-datasets/PvC01.proteins.fa 
+# Current dir:     /v3/work/00_inventory/busco
+# Date:            Tue May 19 18:57:58 2026
+# [ok]

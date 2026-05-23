@@ -1,0 +1,18 @@
+#                                                                            --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name        accession   tlen query name           accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+#------------------- ---------- ----- -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+SCO66895.1           -            804 6685at5820           -            499  1.4e-204  679.0  36.0   1   5   1.5e-32   8.9e-29   99.1   0.0     6   119    51   189    45   195 0.82 D123 (regulator of eIF2), putative [Plasmodium vivax]
+SCO66895.1           -            804 6685at5820           -            499  1.4e-204  679.0  36.0   2   5    0.0011       6.8    3.8   0.0   121   152   234   265   225   272 0.85 D123 (regulator of eIF2), putative [Plasmodium vivax]
+SCO66895.1           -            804 6685at5820           -            499  1.4e-204  679.0  36.0   3   5   2.3e-44   1.4e-40  138.0   0.9   151   248   287   388   278   413 0.90 D123 (regulator of eIF2), putative [Plasmodium vivax]
+SCO66895.1           -            804 6685at5820           -            499  1.4e-204  679.0  36.0   4   5  2.7e-109  1.6e-105  352.2  15.3   238   440   442   646   432   648 0.96 D123 (regulator of eIF2), putative [Plasmodium vivax]
+SCO66895.1           -            804 6685at5820           -            499  1.4e-204  679.0  36.0   5   5   1.9e-31   1.2e-27   95.4   1.5   444   498   741   795   735   796 0.96 D123 (regulator of eIF2), putative [Plasmodium vivax]
+#
+# Program:         hmmsearch
+# Version:         3.4 (Aug 2023)
+# Pipeline mode:   SEARCH
+# Query file:      /v3/work/00_inventory/busco/busco_downloads/lineages/plasmodium_odb10/hmms/6685at5820.hmm
+# Target file:     /v3/inputs/annotations/ncbi-datasets/PvT01.proteins.fa
+# Option settings: hmmsearch --domtblout /v3/work/00_inventory/busco/PvT01_proteins/run_plasmodium_odb10/hmmer_output/initial_run_results/6685at5820.out --cpu 1 /v3/work/00_inventory/busco/busco_downloads/lineages/plasmodium_odb10/hmms/6685at5820.hmm /v3/inputs/annotations/ncbi-datasets/PvT01.proteins.fa 
+# Current dir:     /v3/work/00_inventory/busco
+# Date:            Tue May 19 18:51:53 2026
+# [ok]

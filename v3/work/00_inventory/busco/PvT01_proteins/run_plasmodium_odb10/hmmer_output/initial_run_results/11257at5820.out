@@ -1,0 +1,16 @@
+#                                                                            --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name        accession   tlen query name           accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+#------------------- ---------- ----- -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+SCO67213.1           -            305 11257at5820          -            204  1.9e-102  339.9  37.5   1   2   9.2e-54   2.8e-50  169.5  22.8     1   113    40   176    40   190 0.86 SNARE protein, putative [Plasmodium vivax]
+SCO67213.1           -            305 11257at5820          -            204  1.9e-102  339.9  37.5   2   2   1.2e-55   3.7e-52  175.6   6.6   110   204   208   302   200   302 0.97 SNARE protein, putative [Plasmodium vivax]
+SCO65558.1           -            248 11257at5820          -            204    0.0035   15.7   1.5   1   1   1.7e-06    0.0053   15.1   1.5    63   122   112   172   101   189 0.87 Plasmodium exported protein, unknown function [Plasmodium vivax]
+#
+# Program:         hmmsearch
+# Version:         3.4 (Aug 2023)
+# Pipeline mode:   SEARCH
+# Query file:      /v3/work/00_inventory/busco/busco_downloads/lineages/plasmodium_odb10/hmms/11257at5820.hmm
+# Target file:     /v3/inputs/annotations/ncbi-datasets/PvT01.proteins.fa
+# Option settings: hmmsearch --domtblout /v3/work/00_inventory/busco/PvT01_proteins/run_plasmodium_odb10/hmmer_output/initial_run_results/11257at5820.out --cpu 1 /v3/work/00_inventory/busco/busco_downloads/lineages/plasmodium_odb10/hmms/11257at5820.hmm /v3/inputs/annotations/ncbi-datasets/PvT01.proteins.fa 
+# Current dir:     /v3/work/00_inventory/busco
+# Date:            Tue May 19 18:32:28 2026
+# [ok]

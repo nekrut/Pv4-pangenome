@@ -1,0 +1,28 @@
+#                                                                            --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name        accession   tlen query name           accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+#------------------- ---------- ----- -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+SCO65275.1           -            487 8163at5820           -            380  2.3e-168  558.7  33.7   1   2  6.9e-163  8.4e-160  530.5  19.5     7   343    20   360    16   375 0.88 6-cysteine protein [Plasmodium vivax]
+SCO65275.1           -            487 8163at5820           -            380  2.3e-168  558.7  33.7   2   2   7.5e-12   9.2e-09   33.4   6.3   289   379   390   481   374   482 0.62 6-cysteine protein [Plasmodium vivax]
+SCO65274.1           -            353 8163at5820           -            380   9.1e-29   99.2  13.9   1   1   1.1e-31   1.3e-28   98.7  13.9    15   268    63   338    57   348 0.78 6-cysteine protein [Plasmodium vivax]
+SCO65663.1           -           2748 8163at5820           -            380     1e-28   99.1  68.4   1   9     0.012        15    3.1   1.3   108   152   551   595   542   615 0.89 6-cysteine protein [Plasmodium vivax]
+SCO65663.1           -           2748 8163at5820           -            380     1e-28   99.1  68.4   2   9   9.8e-12   1.2e-08   33.0   2.5   126   277   782   928   750   992 0.70 6-cysteine protein [Plasmodium vivax]
+SCO65663.1           -           2748 8163at5820           -            380     1e-28   99.1  68.4   3   9   3.8e-06    0.0046   14.6   3.5   100   181  1064  1145  1052  1216 0.69 6-cysteine protein [Plasmodium vivax]
+SCO65663.1           -           2748 8163at5820           -            380     1e-28   99.1  68.4   4   9     0.023        27    2.2   0.0   222   265  1489  1536  1460  1541 0.78 6-cysteine protein [Plasmodium vivax]
+SCO65663.1           -           2748 8163at5820           -            380     1e-28   99.1  68.4   5   9   7.9e-11   9.7e-08   30.0   2.3   124   283  1544  1689  1537  1719 0.82 6-cysteine protein [Plasmodium vivax]
+SCO65663.1           -           2748 8163at5820           -            380     1e-28   99.1  68.4   6   9     0.013        15    3.1   0.0   128   183  1832  1886  1800  1904 0.73 6-cysteine protein [Plasmodium vivax]
+SCO65663.1           -           2748 8163at5820           -            380     1e-28   99.1  68.4   7   9     0.032        39    1.7   0.1   239   271  1983  2018  1974  2025 0.73 6-cysteine protein [Plasmodium vivax]
+SCO65663.1           -           2748 8163at5820           -            380     1e-28   99.1  68.4   8   9   5.6e-13   6.8e-10   37.1  10.0   101   342  2254  2502  2241  2520 0.71 6-cysteine protein [Plasmodium vivax]
+SCO65663.1           -           2748 8163at5820           -            380     1e-28   99.1  68.4   9   9    0.0065       7.9    4.0   1.3   131   260  2587  2703  2522  2717 0.65 6-cysteine protein [Plasmodium vivax]
+SCO65276.1           -            372 8163at5820           -            380   9.9e-16   56.3  23.1   1   1   1.4e-18   1.7e-15   55.6  23.1    18   300    31   330    14   355 0.68 conserved Plasmodium protein, unknown function [Plasmodium vivax]
+SCO65280.1           -            384 8163at5820           -            380   5.4e-07   27.6   4.9   1   2       4.6   5.6e+03   -5.4  12.3   162   332    38   205    24   232 0.55 6-cysteine protein [Plasmodium vivax]
+SCO65280.1           -            384 8163at5820           -            380   5.4e-07   27.6   4.9   2   2   4.4e-10   5.4e-07   27.6   4.9   127   262   235   356   225   370 0.77 6-cysteine protein [Plasmodium vivax]
+#
+# Program:         hmmsearch
+# Version:         3.4 (Aug 2023)
+# Pipeline mode:   SEARCH
+# Query file:      /v3/work/00_inventory/busco/busco_downloads/lineages/plasmodium_odb10/hmms/8163at5820.hmm
+# Target file:     /v3/inputs/annotations/ncbi-datasets/PvT01.proteins.fa
+# Option settings: hmmsearch --domtblout /v3/work/00_inventory/busco/PvT01_proteins/run_plasmodium_odb10/hmmer_output/initial_run_results/8163at5820.out --cpu 1 /v3/work/00_inventory/busco/busco_downloads/lineages/plasmodium_odb10/hmms/8163at5820.hmm /v3/inputs/annotations/ncbi-datasets/PvT01.proteins.fa 
+# Current dir:     /v3/work/00_inventory/busco
+# Date:            Tue May 19 19:06:38 2026
+# [ok]

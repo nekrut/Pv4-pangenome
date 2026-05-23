@@ -1,0 +1,28 @@
+#                                                                            --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name        accession   tlen query name           accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+#------------------- ---------- ----- -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+SCO69895.1           -            586 4915at5820           -            487  7.1e-300  993.0  36.4   1   2   1.7e-07   0.00017   18.8   9.1     1    44     1    43     1    65 0.65 conserved Plasmodium protein, unknown function [Plasmodium vivax]
+SCO69895.1           -            586 4915at5820           -            487  7.1e-300  993.0  36.4   2   2  8.1e-299  8.2e-296  979.6  19.6    31   486    83   542    59   543 0.93 conserved Plasmodium protein, unknown function [Plasmodium vivax]
+SCO67358.1           -            566 4915at5820           -            487   6.3e-55  185.1  15.6   1   1   8.3e-58   8.5e-55  184.7  15.6    44   475   111   532    90   543 0.84 kelch protein, putative [Plasmodium vivax]
+SCO67357.1           -            559 4915at5820           -            487   1.6e-39  134.2  15.1   1   1   2.2e-42   2.3e-39  133.8  15.1    71   432    61   424    14   470 0.85 kelch protein, putative [Plasmodium vivax]
+SCO68786.1           -            881 4915at5820           -            487   3.7e-14   50.6   0.0   1   2   6.6e-06    0.0066   13.5   0.0   304   357    15    69     5    79 0.79 protein phosphatase containing kelch-like domains, putative [Plasmodium vivax]
+SCO68786.1           -            881 4915at5820           -            487   3.7e-14   50.6   0.0   2   2   2.9e-12   2.9e-09   34.5   0.0   157   332    88   267    68   277 0.77 protein phosphatase containing kelch-like domains, putative [Plasmodium vivax]
+SCO66165.1           -            874 4915at5820           -            487   9.8e-11   39.3   5.6   1   6    0.0031       3.2    4.7   4.8    36   102     5    71     2    81 0.83 kelch protein, putative [Plasmodium vivax]
+SCO66165.1           -            874 4915at5820           -            487   9.8e-11   39.3   5.6   2   6   2.8e-09   2.9e-06   24.6   0.3   271   355    97   182    78   186 0.84 kelch protein, putative [Plasmodium vivax]
+SCO66165.1           -            874 4915at5820           -            487   9.8e-11   39.3   5.6   3   6     1e-09     1e-06   26.1   0.9   273   358   153   242   153   251 0.87 kelch protein, putative [Plasmodium vivax]
+SCO66165.1           -            874 4915at5820           -            487   9.8e-11   39.3   5.6   4   6     0.045        45    0.9   0.1   136   196   392   454   365   464 0.71 kelch protein, putative [Plasmodium vivax]
+SCO66165.1           -            874 4915at5820           -            487   9.8e-11   39.3   5.6   5   6       1.6   1.7e+03   -4.3   2.3     9    46   563   600   548   616 0.63 kelch protein, putative [Plasmodium vivax]
+SCO66165.1           -            874 4915at5820           -            487   9.8e-11   39.3   5.6   6   6       1.1   1.1e+03   -3.8   0.1   272   304   701   736   694   739 0.58 kelch protein, putative [Plasmodium vivax]
+SCO68847.1           -            644 4915at5820           -            487   2.9e-10   37.8  12.4   1   3   2.2e-08   2.2e-05   21.7   1.1    94   196    83   179    71   194 0.53 kelch domain-containing protein [Plasmodium vivax]
+SCO68847.1           -            644 4915at5820           -            487   2.9e-10   37.8  12.4   2   3   1.1e-06    0.0011   16.1   0.4   272   357   200   278   193   285 0.83 kelch domain-containing protein [Plasmodium vivax]
+SCO68847.1           -            644 4915at5820           -            487   2.9e-10   37.8  12.4   3   3    0.0007      0.71    6.8   0.3   309   361   340   390   329   427 0.72 kelch domain-containing protein [Plasmodium vivax]
+#
+# Program:         hmmsearch
+# Version:         3.4 (Aug 2023)
+# Pipeline mode:   SEARCH
+# Query file:      /v3/work/00_inventory/busco/busco_downloads/lineages/plasmodium_odb10/hmms/4915at5820.hmm
+# Target file:     /v3/inputs/annotations/ncbi-datasets/PvT01.proteins.fa
+# Option settings: hmmsearch --domtblout /v3/work/00_inventory/busco/PvT01_proteins/run_plasmodium_odb10/hmmer_output/initial_run_results/4915at5820.out --cpu 1 /v3/work/00_inventory/busco/busco_downloads/lineages/plasmodium_odb10/hmms/4915at5820.hmm /v3/inputs/annotations/ncbi-datasets/PvT01.proteins.fa 
+# Current dir:     /v3/work/00_inventory/busco
+# Date:            Tue May 19 18:48:41 2026
+# [ok]

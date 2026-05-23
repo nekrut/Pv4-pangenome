@@ -1,0 +1,15 @@
+#                                                                            --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name        accession   tlen query name           accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+#------------------- ---------- ----- -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+CAG9473153.1         -            245 12688at5820          -            203  6.9e-116  383.5  14.6   1   2   2.9e-61   1.8e-57  192.7   2.7     1   110     1   110     1   117 0.96 | transcript=PVW1_120020000_t1 | gene=PVW1_120020000 | organism=Plasmodium_vivax_PvW1 | gene_product=Cytidine and deoxycytidylate deaminase, putative [Source:UniProtKB/TrEMBL;Acc:A0A1G4HG53] | transcript_product=Cytidine and deoxycytidylate deaminase, putative [Source:UniProtKB/TrEMBL;Acc:A0A1G4HG53] | location=CAJZCX010000004:677142-678506(-) | protein_length=245 | sequence_SO=supercontig | SO=protein_coding_gene | is_pseudo=false
+CAG9473153.1         -            245 12688at5820          -            203  6.9e-116  383.5  14.6   2   2   1.9e-62   1.1e-58  196.6   4.2   104   203   142   244   134   244 0.97 | transcript=PVW1_120020000_t1 | gene=PVW1_120020000 | organism=Plasmodium_vivax_PvW1 | gene_product=Cytidine and deoxycytidylate deaminase, putative [Source:UniProtKB/TrEMBL;Acc:A0A1G4HG53] | transcript_product=Cytidine and deoxycytidylate deaminase, putative [Source:UniProtKB/TrEMBL;Acc:A0A1G4HG53] | location=CAJZCX010000004:677142-678506(-) | protein_length=245 | sequence_SO=supercontig | SO=protein_coding_gene | is_pseudo=false
+#
+# Program:         hmmsearch
+# Version:         3.4 (Aug 2023)
+# Pipeline mode:   SEARCH
+# Query file:      /v3/work/00_inventory/busco/busco_downloads/lineages/plasmodium_odb10/hmms/12688at5820.hmm
+# Target file:     /v3/inputs/annotations/plasmodb-68/PvW1.proteins.fa
+# Option settings: hmmsearch --domtblout /v3/work/00_inventory/busco/PvW1_proteins/run_plasmodium_odb10/hmmer_output/initial_run_results/12688at5820.out --cpu 1 /v3/work/00_inventory/busco/busco_downloads/lineages/plasmodium_odb10/hmms/12688at5820.hmm /v3/inputs/annotations/plasmodb-68/PvW1.proteins.fa 
+# Current dir:     /v3/work/00_inventory/busco
+# Date:            Tue May 19 17:27:37 2026
+# [ok]

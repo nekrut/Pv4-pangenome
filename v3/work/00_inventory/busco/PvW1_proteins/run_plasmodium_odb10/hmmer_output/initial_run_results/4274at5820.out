@@ -1,0 +1,14 @@
+#                                                                            --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name        accession   tlen query name           accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+#------------------- ---------- ----- -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+CAG9473578.1         -            665 4274at5820           -            571         0 1198.1  42.9   1   1         0         0 1195.3  42.9     5   568    38   635    29   639 0.96 | transcript=PVW1_120050200_t1 | gene=PVW1_120050200 | organism=Plasmodium_vivax_PvW1 | gene_product=Sulfate_transp domain-containing protein [Source:UniProtKB/TrEMBL;Acc:A0A1G4HH05] | transcript_product=Sulfate_transp domain-containing protein [Source:UniProtKB/TrEMBL;Acc:A0A1G4HH05] | location=CAJZCX010000004:1882789-1885568(-) | protein_length=665 | sequence_SO=supercontig | SO=protein_coding_gene | is_pseudo=false
+#
+# Program:         hmmsearch
+# Version:         3.4 (Aug 2023)
+# Pipeline mode:   SEARCH
+# Query file:      /v3/work/00_inventory/busco/busco_downloads/lineages/plasmodium_odb10/hmms/4274at5820.hmm
+# Target file:     /v3/inputs/annotations/plasmodb-68/PvW1.proteins.fa
+# Option settings: hmmsearch --domtblout /v3/work/00_inventory/busco/PvW1_proteins/run_plasmodium_odb10/hmmer_output/initial_run_results/4274at5820.out --cpu 1 /v3/work/00_inventory/busco/busco_downloads/lineages/plasmodium_odb10/hmms/4274at5820.hmm /v3/inputs/annotations/plasmodb-68/PvW1.proteins.fa 
+# Current dir:     /v3/work/00_inventory/busco
+# Date:            Tue May 19 17:41:00 2026
+# [ok]

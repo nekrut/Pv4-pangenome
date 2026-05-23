@@ -1,0 +1,24 @@
+#                                                                            --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name        accession   tlen query name           accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+#------------------- ---------- ----- -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+SCO68085.1           -           1176 3582at5820           -            705         0 1014.8 134.5   1   6   5.6e-08   6.8e-05   19.6  21.6    12    90    53   151    42   175 0.66 Ran-binding protein, putative [Plasmodium vivax]
+SCO68085.1           -           1176 3582at5820           -            705         0 1014.8 134.5   2   6    0.0016       1.9    4.9  21.9    44   130   176   261   156   274 0.67 Ran-binding protein, putative [Plasmodium vivax]
+SCO68085.1           -           1176 3582at5820           -            705         0 1014.8 134.5   3   6  1.4e-121  1.7e-118  395.1  26.1   114   333   284   509   257   519 0.91 Ran-binding protein, putative [Plasmodium vivax]
+SCO68085.1           -           1176 3582at5820           -            705         0 1014.8 134.5   4   6    3e-137  3.6e-134  446.9  25.4   336   568   615   853   612   871 0.95 Ran-binding protein, putative [Plasmodium vivax]
+SCO68085.1           -           1176 3582at5820           -            705         0 1014.8 134.5   5   6   3.2e-32   3.9e-29   99.8   7.7   580   661   964  1049   954  1058 0.86 Ran-binding protein, putative [Plasmodium vivax]
+SCO68085.1           -           1176 3582at5820           -            705         0 1014.8 134.5   6   6   6.4e-24   7.8e-21   72.3   0.3   641   705  1107  1173  1090  1173 0.84 Ran-binding protein, putative [Plasmodium vivax]
+SCO65214.1           -            127 3582at5820           -            705    0.0011   15.6   1.1   1   1     1e-06    0.0012   15.5   1.1    74   159    11   102     1   109 0.65 hypothetical protein, conserved [Plasmodium vivax]
+SCO67705.1           -            133 3582at5820           -            705    0.0069   13.0   0.3   1   1   5.7e-06    0.0069   13.0   0.3   355   424    21    90     3   121 0.84 40S ribosomal protein S24, putative [Plasmodium vivax]
+SCO66902.1           -            129 3582at5820           -            705      0.19    8.3  18.7   1   1   0.00018      0.22    8.0  18.7    52   138    23   106    11   126 0.52 hypothetical protein PVT01_080023500 [Plasmodium vivax]
+SCO67408.1           -            156 3582at5820           -            705       9.4    2.7  15.6   1   2     0.086     1e+02   -0.8   0.0   151   172     6    27     3    36 0.87 RNA-binding protein s1, putative [Plasmodium vivax]
+SCO67408.1           -            156 3582at5820           -            705       9.4    2.7  15.6   2   2    0.0033         4    3.9  12.7    43   123    79   151    50   156 0.56 RNA-binding protein s1, putative [Plasmodium vivax]
+#
+# Program:         hmmsearch
+# Version:         3.4 (Aug 2023)
+# Pipeline mode:   SEARCH
+# Query file:      /v3/work/00_inventory/busco/busco_downloads/lineages/plasmodium_odb10/hmms/3582at5820.hmm
+# Target file:     /v3/inputs/annotations/ncbi-datasets/PvT01.proteins.fa
+# Option settings: hmmsearch --domtblout /v3/work/00_inventory/busco/PvT01_proteins/run_plasmodium_odb10/hmmer_output/initial_run_results/3582at5820.out --cpu 1 /v3/work/00_inventory/busco/busco_downloads/lineages/plasmodium_odb10/hmms/3582at5820.hmm /v3/inputs/annotations/ncbi-datasets/PvT01.proteins.fa 
+# Current dir:     /v3/work/00_inventory/busco
+# Date:            Tue May 19 18:39:35 2026
+# [ok]

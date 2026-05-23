@@ -1,0 +1,16 @@
+#                                                                            --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name        accession   tlen query name           accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+#------------------- ---------- ----- -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+CAI7718546.1         -            185 14171at5820          -            130   9.1e-66  218.1  10.1   1   1   5.5e-69   1.2e-65  217.7  10.1    13   130    67   184    49   184 0.94 | transcript=PVPAM_040029000_t1 | gene=PVPAM_040029000 | organism=Plasmodium_vivax_PAM | gene_product=iron-sulfur assembly protein, putative | transcript_product=iron-sulfur assembly protein, putative | location=CASCJQ010000004:1011379-1011936(+) | protein_length=185 | sequence_SO=supercontig | SO=protein_coding_gene | is_pseudo=false
+CAI7720908.1         -            181 14171at5820          -            130     1e-15   56.2   3.0   1   1     6e-19   1.3e-15   55.8   3.0    14   128    65   181    55   181 0.87 | transcript=PVPAM_100017600_t1 | gene=PVPAM_100017600 | organism=Plasmodium_vivax_PAM | gene_product=iron-sulfur cluster assembly protein SufA | transcript_product=iron-sulfur cluster assembly protein SufA | location=CASCJQ010000010:552763-553940(-) | protein_length=181 | sequence_SO=supercontig | SO=protein_coding_gene | is_pseudo=false
+CAI7720076.1         -            366 14171at5820          -            130   2.5e-12   45.2   0.7   1   1   1.7e-15   3.7e-12   44.7   0.7    13   128   225   349   214   351 0.87 | transcript=PVPAM_080029800_t1 | gene=PVPAM_080029800 | organism=Plasmodium_vivax_PAM | gene_product=iron-sulfur assembly protein, putative | transcript_product=iron-sulfur assembly protein, putative | location=CASCJQ010000008:1126916-1128016(+) | protein_length=366 | sequence_SO=supercontig | SO=protein_coding_gene | is_pseudo=false
+#
+# Program:         hmmsearch
+# Version:         3.4 (Aug 2023)
+# Pipeline mode:   SEARCH
+# Query file:      /v3/work/00_inventory/busco/busco_downloads/lineages/plasmodium_odb10/hmms/14171at5820.hmm
+# Target file:     /v3/inputs/annotations/plasmodb-68/PAM.proteins.fa
+# Option settings: hmmsearch --domtblout /v3/work/00_inventory/busco/PAM_proteins/run_plasmodium_odb10/hmmer_output/initial_run_results/14171at5820.out --cpu 1 /v3/work/00_inventory/busco/busco_downloads/lineages/plasmodium_odb10/hmms/14171at5820.hmm /v3/inputs/annotations/plasmodb-68/PAM.proteins.fa 
+# Current dir:     /v3/work/00_inventory/busco
+# Date:            Tue May 19 17:32:44 2026
+# [ok]

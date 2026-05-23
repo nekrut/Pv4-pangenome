@@ -1,0 +1,13 @@
+2026-05-20 11:43:31 [INFO]  Read the chain file "projection/A2_lastz/chain/PvP01_to_GCA_003402215.1.chain" 
+2026-05-20 11:43:31 [INFO]  Filter out variants [reference_allele == alternative_allele] ...
+2026-05-20 11:43:32 [INFO]  Updating contig field ... 
+2026-05-20 11:43:32 [INFO]  Lifting over ... 
+Traceback (most recent call last):
+  File "/usr/local/bin/CrossMap", line 10, in <module>
+    sys.exit(crossmap())
+             ^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/cmmodule/__init__.py", line 638, in crossmap
+    crossmap_vcf_file(
+  File "/usr/local/lib/python3.12/site-packages/cmmodule/mapvcf.py", line 184, in crossmap_vcf_file
+    print(line + "\tFail(Unmap)", file=UNMAP)
+OSError: [Errno 28] No space left on device

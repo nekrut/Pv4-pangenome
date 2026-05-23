@@ -1,0 +1,17 @@
+#                                                                            --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name        accession   tlen query name           accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+#------------------- ---------- ----- -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+PVP01_0414600.1-p1   -            458 6402at5820           -            392  1.4e-239  793.4  60.5   1   2    2e-136  6.4e-133  442.3  24.8     1   207    16   228    16   237 0.97 | transcript=PVP01_0414600.1 | gene=PVP01_0414600 | organism=Plasmodium_vivax_P01 | gene_product=monocarboxylate transporter, putative | transcript_product=monocarboxylate transporter, putative | location=PvP01_04_v2:592422-593954(+) | protein_length=458 | sequence_SO=chromosome | SO=protein_coding_gene | is_pseudo=false
+PVP01_0414600.1-p1   -            458 6402at5820           -            392  1.4e-239  793.4  60.5   2   2  1.3e-110  4.2e-107  357.3  27.8   200   392   258   458   254   458 0.96 | transcript=PVP01_0414600.1 | gene=PVP01_0414600 | organism=Plasmodium_vivax_P01 | gene_product=monocarboxylate transporter, putative | transcript_product=monocarboxylate transporter, putative | location=PvP01_04_v2:592422-593954(+) | protein_length=458 | sequence_SO=chromosome | SO=protein_coding_gene | is_pseudo=false
+PVP01_0724900.1-p1   -            547 6402at5820           -            392   8.1e-35  119.3  46.8   1   2   1.1e-28   3.6e-25   87.5  14.4     2   196    16   217    15   227 0.91 | transcript=PVP01_0724900.1 | gene=PVP01_0724900 | organism=Plasmodium_vivax_P01 | gene_product=monocarboxylate transporter, putative | transcript_product=monocarboxylate transporter, putative | location=PvP01_07_v2:1073046-1074859(-) | protein_length=547 | sequence_SO=chromosome | SO=protein_coding_gene | is_pseudo=false
+PVP01_0724900.1-p1   -            547 6402at5820           -            392   8.1e-35  119.3  46.8   2   2   1.6e-13   5.1e-10   37.6  24.4   199   369   344   520   332   543 0.74 | transcript=PVP01_0724900.1 | gene=PVP01_0724900 | organism=Plasmodium_vivax_P01 | gene_product=monocarboxylate transporter, putative | transcript_product=monocarboxylate transporter, putative | location=PvP01_07_v2:1073046-1074859(-) | protein_length=547 | sequence_SO=chromosome | SO=protein_coding_gene | is_pseudo=false
+#
+# Program:         hmmsearch
+# Version:         3.4 (Aug 2023)
+# Pipeline mode:   SEARCH
+# Query file:      /v3/work/00_inventory/busco/busco_downloads/lineages/plasmodium_odb10/hmms/6402at5820.hmm
+# Target file:     /v3/inputs/annotations/plasmodb-68/PvP01.proteins.fa
+# Option settings: hmmsearch --domtblout /v3/work/00_inventory/busco/PvP01_proteins/run_plasmodium_odb10/hmmer_output/initial_run_results/6402at5820.out --cpu 1 /v3/work/00_inventory/busco/busco_downloads/lineages/plasmodium_odb10/hmms/6402at5820.hmm /v3/inputs/annotations/plasmodb-68/PvP01.proteins.fa 
+# Current dir:     /v3/work/00_inventory/busco
+# Date:            Tue May 19 17:46:21 2026
+# [ok]

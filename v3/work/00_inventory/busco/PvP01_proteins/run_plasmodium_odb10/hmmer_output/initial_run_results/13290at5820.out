@@ -1,0 +1,17 @@
+#                                                                            --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name        accession   tlen query name           accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+#------------------- ---------- ----- -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+PVP01_1415700.1-p1   -            190 13290at5820          -            145   4.5e-71  236.0   4.6   1   1   2.5e-74   5.5e-71  235.7   4.6     5   145    31   184    27   184 0.95 | transcript=PVP01_1415700.1 | gene=PVP01_1415700 | organism=Plasmodium_vivax_P01 | gene_product=ubiquitin-like protein, putative | transcript_product=ubiquitin-like protein, putative | location=PvP01_14_v2:694385-695110(-) | protein_length=190 | sequence_SO=chromosome | SO=protein_coding_gene | is_pseudo=false
+PVP01_1311000.1-p1   -            153 13290at5820          -            145   5.4e-08   31.4   0.5   1   2   2.9e-06    0.0063   15.0   0.1    76   127     7    58     2    73 0.89 | transcript=PVP01_1311000.1 | gene=PVP01_1311000 | organism=Plasmodium_vivax_P01 | gene_product=polyubiquitin, putative | transcript_product=polyubiquitin, putative | location=PvP01_13_v2:513368-514321(+) | protein_length=153 | sequence_SO=chromosome | SO=protein_coding_gene | is_pseudo=false
+PVP01_1311000.1-p1   -            153 13290at5820          -            145   5.4e-08   31.4   0.5   2   2   2.9e-06    0.0063   15.0   0.0    76   127    83   134    76   147 0.89 | transcript=PVP01_1311000.1 | gene=PVP01_1311000 | organism=Plasmodium_vivax_P01 | gene_product=polyubiquitin, putative | transcript_product=polyubiquitin, putative | location=PvP01_13_v2:513368-514321(+) | protein_length=153 | sequence_SO=chromosome | SO=protein_coding_gene | is_pseudo=false
+PVP01_1106100.1-p1   -            128 13290at5820          -            145     0.033   12.6   0.1   1   1   2.2e-05     0.047   12.1   0.1    76   124     7    55     2    71 0.88 | transcript=PVP01_1106100.1 | gene=PVP01_1106100 | organism=Plasmodium_vivax_P01 | gene_product=ubiquitin-60S ribosomal protein L40, putative | transcript_product=ubiquitin-60S ribosomal protein L40, putative | location=PvP01_11_v2:247411-248217(+) | protein_length=128 | sequence_SO=chromosome | SO=protein_coding_gene | is_pseudo=false
+#
+# Program:         hmmsearch
+# Version:         3.4 (Aug 2023)
+# Pipeline mode:   SEARCH
+# Query file:      /v3/work/00_inventory/busco/busco_downloads/lineages/plasmodium_odb10/hmms/13290at5820.hmm
+# Target file:     /v3/inputs/annotations/plasmodb-68/PvP01.proteins.fa
+# Option settings: hmmsearch --domtblout /v3/work/00_inventory/busco/PvP01_proteins/run_plasmodium_odb10/hmmer_output/initial_run_results/13290at5820.out --cpu 1 /v3/work/00_inventory/busco/busco_downloads/lineages/plasmodium_odb10/hmms/13290at5820.hmm /v3/inputs/annotations/plasmodb-68/PvP01.proteins.fa 
+# Current dir:     /v3/work/00_inventory/busco
+# Date:            Tue May 19 17:29:15 2026
+# [ok]

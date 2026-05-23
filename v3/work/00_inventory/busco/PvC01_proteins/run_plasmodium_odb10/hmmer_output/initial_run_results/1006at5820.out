@@ -1,0 +1,22 @@
+#                                                                            --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name        accession   tlen query name           accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+#------------------- ---------- ----- -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+SCO74747.1           -           1502 1006at5820           -           1212         0 2659.1  64.6   1   3  3.4e-164  7.2e-161  535.8   6.3     1   247     5   261     5   265 0.97 DNA topoisomerase 2, putative [Plasmodium vivax]
+SCO74747.1           -           1502 1006at5820           -           1212         0 2659.1  64.6   2   3         0         0 2095.0  43.7   245  1167   329  1274   324  1286 0.98 DNA topoisomerase 2, putative [Plasmodium vivax]
+SCO74747.1           -           1502 1006at5820           -           1212         0 2659.1  64.6   3   3     4e-14   8.3e-11   38.7   0.5  1168  1207  1404  1445  1350  1448 0.91 DNA topoisomerase 2, putative [Plasmodium vivax]
+SCO75644.1           -            992 1006at5820           -           1212   1.1e-19   68.1  13.1   1   3   0.00013      0.27    7.2   0.2    47   127   138   214   127   230 0.72 DNA gyrase subunit B, putative [Plasmodium vivax]
+SCO75644.1           -            992 1006at5820           -           1212   1.1e-19   68.1  13.1   2   3   1.7e-16   3.6e-13   46.6   4.5   240   493   446   704   439   720 0.80 DNA gyrase subunit B, putative [Plasmodium vivax]
+SCO75644.1           -            992 1006at5820           -           1212   1.1e-19   68.1  13.1   3   3   4.3e-08     9e-05   18.7   0.1   493   531   747   785   731   819 0.81 DNA gyrase subunit B, putative [Plasmodium vivax]
+SCO75480.1           -           1244 1006at5820           -           1212     9e-16   55.2   2.1   1   3   4.3e-19     9e-16   55.2   2.1   643   827   168   353   155   367 0.84 DNA gyrase subunit A, putative [Plasmodium vivax]
+SCO75480.1           -           1244 1006at5820           -           1212     9e-16   55.2   2.1   2   3         3   6.3e+03   -9.7  11.1   872  1000   440   572   430   613 0.69 DNA gyrase subunit A, putative [Plasmodium vivax]
+SCO75480.1           -           1244 1006at5820           -           1212     9e-16   55.2   2.1   3   3      0.82   1.7e+03   -5.4   2.7   987  1020   979  1013   973  1021 0.70 DNA gyrase subunit A, putative [Plasmodium vivax]
+#
+# Program:         hmmsearch
+# Version:         3.4 (Aug 2023)
+# Pipeline mode:   SEARCH
+# Query file:      /v3/work/00_inventory/busco/busco_downloads/lineages/plasmodium_odb10/hmms/1006at5820.hmm
+# Target file:     /v3/inputs/annotations/ncbi-datasets/PvC01.proteins.fa
+# Option settings: hmmsearch --domtblout /v3/work/00_inventory/busco/PvC01_proteins/run_plasmodium_odb10/hmmer_output/initial_run_results/1006at5820.out --cpu 1 /v3/work/00_inventory/busco/busco_downloads/lineages/plasmodium_odb10/hmms/1006at5820.hmm /v3/inputs/annotations/ncbi-datasets/PvC01.proteins.fa 
+# Current dir:     /v3/work/00_inventory/busco
+# Date:            Tue May 19 18:27:38 2026
+# [ok]

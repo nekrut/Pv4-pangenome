@@ -1,0 +1,28 @@
+#                                                                            --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name        accession   tlen query name           accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+#------------------- ---------- ----- -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+SCO67486.1           -           1970 1990at5820           -           1072         0 1451.8 285.3   1  11   3.7e-58   5.6e-55  185.0   7.5     1   122     1   132     1   143 0.84 conserved Plasmodium protein, unknown function [Plasmodium vivax]
+SCO67486.1           -           1970 1990at5820           -           1072         0 1451.8 285.3   2  11         4   6.1e+03   -7.8  18.5    86   127   146   186   134   191 0.66 conserved Plasmodium protein, unknown function [Plasmodium vivax]
+SCO67486.1           -           1970 1990at5820           -           1072         0 1451.8 285.3   3  11   4.9e-13   7.5e-10   35.6  19.0   101   175   186   261   184   265 0.80 conserved Plasmodium protein, unknown function [Plasmodium vivax]
+SCO67486.1           -           1970 1990at5820           -           1072         0 1451.8 285.3   4  11   1.8e-57   2.8e-54  182.7  37.0   102   314   254   472   251   505 0.71 conserved Plasmodium protein, unknown function [Plasmodium vivax]
+SCO67486.1           -           1970 1990at5820           -           1072         0 1451.8 285.3   5  11   7.7e-12   1.2e-08   31.6   2.7   300   353   564   617   557   623 0.84 conserved Plasmodium protein, unknown function [Plasmodium vivax]
+SCO67486.1           -           1970 1990at5820           -           1072         0 1451.8 285.3   6  11    4e-129  6.1e-126  420.0  49.1   340   626   709  1026   666  1038 0.80 conserved Plasmodium protein, unknown function [Plasmodium vivax]
+SCO67486.1           -           1970 1990at5820           -           1072         0 1451.8 285.3   7  11   7.6e-07    0.0012   15.1   6.3   622   730  1078  1178  1055  1190 0.60 conserved Plasmodium protein, unknown function [Plasmodium vivax]
+SCO67486.1           -           1970 1990at5820           -           1072         0 1451.8 285.3   8  11      0.63   9.5e+02   -4.5  16.1   608   703  1184  1285  1165  1314 0.57 conserved Plasmodium protein, unknown function [Plasmodium vivax]
+SCO67486.1           -           1970 1990at5820           -           1072         0 1451.8 285.3   9  11     0.028        43   -0.0   4.5   666   722  1374  1438  1353  1449 0.42 conserved Plasmodium protein, unknown function [Plasmodium vivax]
+SCO67486.1           -           1970 1990at5820           -           1072         0 1451.8 285.3  10  11   6.7e-70     1e-66  223.9  20.5   725   859  1551  1685  1525  1689 0.96 conserved Plasmodium protein, unknown function [Plasmodium vivax]
+SCO67486.1           -           1970 1990at5820           -           1072         0 1451.8 285.3  11  11  1.7e-128  2.6e-125  417.9  45.6   855  1072  1749  1970  1743  1970 0.98 conserved Plasmodium protein, unknown function [Plasmodium vivax]
+SCO70194.1           -            205 1990at5820           -           1072      0.57    6.2  34.9   1   1   0.00047      0.71    5.9  34.9   591   730    28   168    19   178 0.76 conserved Plasmodium protein, unknown function [Plasmodium vivax]
+SCO67804.1           -            143 1990at5820           -           1072      0.85    5.6  12.6   1   1   0.00062      0.94    5.5  12.6   644   726    49   128    28   137 0.76 conserved Plasmodium protein, unknown function [Plasmodium vivax]
+SCO68638.1           -            985 1990at5820           -           1072       9.4    2.2  16.5   1   2   0.00063      0.96    5.5  10.3    97   161   283   351   269   369 0.56 alpha/beta-hydrolase, putative [Plasmodium vivax]
+SCO68638.1           -            985 1990at5820           -           1072       9.4    2.2  16.5   2   2     0.039        59   -0.5   0.4   766   805   483   522   470   537 0.85 alpha/beta-hydrolase, putative [Plasmodium vivax]
+#
+# Program:         hmmsearch
+# Version:         3.4 (Aug 2023)
+# Pipeline mode:   SEARCH
+# Query file:      /v3/work/00_inventory/busco/busco_downloads/lineages/plasmodium_odb10/hmms/1990at5820.hmm
+# Target file:     /v3/inputs/annotations/ncbi-datasets/PvT01.proteins.fa
+# Option settings: hmmsearch --domtblout /v3/work/00_inventory/busco/PvT01_proteins/run_plasmodium_odb10/hmmer_output/initial_run_results/1990at5820.out --cpu 1 /v3/work/00_inventory/busco/busco_downloads/lineages/plasmodium_odb10/hmms/1990at5820.hmm /v3/inputs/annotations/ncbi-datasets/PvT01.proteins.fa 
+# Current dir:     /v3/work/00_inventory/busco
+# Date:            Tue May 19 18:37:18 2026
+# [ok]

@@ -1,0 +1,25 @@
+2026-05-19 17:54:15 CRITICAL:	Unhandled exception occurred:
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.10/site-packages/busco/BuscoRunner.py", line 151, in run
+    self.runner = AnalysisRunner(self.config)
+  File "/usr/local/lib/python3.10/site-packages/busco/BuscoRunner.py", line 388, in __init__
+    self.analysis = analysis_type()
+  File "/usr/local/lib/python3.10/site-packages/busco/analysis/GeneSetAnalysis.py", line 34, in __init__
+    super().__init__()
+  File "/usr/local/lib/python3.10/site-packages/busco/analysis/Analysis.py", line 98, in __init__
+    if not self.check_protein_file(self.input_file):
+  File "/usr/local/lib/python3.10/site-packages/busco/analysis/Analysis.py", line 103, in check_protein_file
+    for i, record in enumerate(SeqIO.parse(filename, "fasta")):
+  File "/usr/local/lib/python3.10/site-packages/Bio/SeqIO/__init__.py", line 625, in parse
+    return iterator_generator(handle)
+  File "/usr/local/lib/python3.10/site-packages/Bio/SeqIO/FastaIO.py", line 187, in __init__
+    super().__init__(source, mode="t", fmt="Fasta")
+  File "/usr/local/lib/python3.10/site-packages/Bio/SeqIO/Interfaces.py", line 64, in __init__
+    self.stream = open(source, "r" + mode)
+PermissionError: [Errno 13] Permission denied: '/v3/inputs/annotations/ncbi-datasets/PvC01.proteins.fa'
+
+
+2026-05-19 17:54:15 ERROR:	[Errno 13] Permission denied: '/v3/inputs/annotations/ncbi-datasets/PvC01.proteins.fa'
+2026-05-19 17:54:15 ERROR:	BUSCO analysis failed!
+2026-05-19 17:54:15 ERROR:	Check the logs, read the user guide (https://busco.ezlab.org/busco_userguide.html), and check the BUSCO issue board on https://gitlab.com/ezlab/busco/issues
+

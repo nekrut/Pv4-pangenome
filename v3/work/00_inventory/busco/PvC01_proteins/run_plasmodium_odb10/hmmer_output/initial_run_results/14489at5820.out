@@ -1,0 +1,27 @@
+#                                                                            --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name        accession   tlen query name           accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+#------------------- ---------- ----- -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+SCO70629.1           -            163 14489at5820          -            118   3.2e-62  206.4   6.1   1   1   5.5e-65   4.3e-62  206.0   6.1     1   114     8   128     8   132 0.95 pre-rRNA-processing protein TSR2, putative [Plasmodium vivax]
+SCA60569.1           -            361 14489at5820          -            118    0.0008   18.1   2.6   1   2     1e-06    0.0008   18.1   2.6    22   117    44   142    38   145 0.81 VIR protein [Plasmodium vivax]
+SCA60569.1           -            361 14489at5820          -            118    0.0008   18.1   2.6   2   2      0.77   6.1e+02   -0.9   0.1    29    44   157   172   150   183 0.78 VIR protein [Plasmodium vivax]
+SCA60860.1           -            361 14489at5820          -            118     0.019   13.6   4.5   1   1   1.6e-05     0.013   14.2   2.1    27   117    49   142    35   143 0.77 Plasmodium vivax Vir protein, putative [Plasmodium vivax]
+SCA81790.1           -            361 14489at5820          -            118     0.019   13.6   0.7   1   2   2.4e-05     0.019   13.6   0.7    30   117    52   142    40   143 0.76 VIR protein [Plasmodium vivax]
+SCA81790.1           -            361 14489at5820          -            118     0.019   13.6   0.7   2   2       1.6   1.3e+03   -1.9   0.1    31    44   159   172   152   191 0.75 VIR protein [Plasmodium vivax]
+SCA81788.1           -            361 14489at5820          -            118      0.04   12.6   2.4   1   1   9.5e-05     0.074   11.7   2.4    23   117    45   141    30   142 0.77 VIR protein [Plasmodium vivax]
+SCA81804.1           -            349 14489at5820          -            118      0.14   10.8   7.2   1   2   2.2e-05     0.017   13.8   2.2    37   117    47   130    27   131 0.66 VIR protein [Plasmodium vivax]
+SCA81804.1           -            349 14489at5820          -            118      0.14   10.8   7.2   2   2       1.3     1e+03   -1.6   0.2    29    44   145   160   138   170 0.76 VIR protein [Plasmodium vivax]
+SCA82190.1           -            362 14489at5820          -            118       0.3    9.8   5.8   1   2     3e-05     0.023   13.3   0.7    30   117    52   142    40   143 0.66 VIR protein [Plasmodium vivax]
+SCA82190.1           -            362 14489at5820          -            118       0.3    9.8   5.8   2   2       4.2   3.3e+03   -3.3   0.4    33    44   161   172   156   205 0.65 VIR protein [Plasmodium vivax]
+SCO70749.1           -            178 14489at5820          -            118       0.5    9.0   5.7   1   3    0.0034       2.7    6.7   0.2    64    91    57    84    39    87 0.84 hypothetical protein PVC01_030006400 [Plasmodium vivax]
+SCO70749.1           -            178 14489at5820          -            118       0.5    9.0   5.7   2   3     0.032        25    3.5   0.1    65    91    84   110    81   113 0.84 hypothetical protein PVC01_030006400 [Plasmodium vivax]
+SCO70749.1           -            178 14489at5820          -            118       0.5    9.0   5.7   3   3      0.27   2.1e+02    0.6   0.1    65    86   123   144   116   151 0.74 hypothetical protein PVC01_030006400 [Plasmodium vivax]
+#
+# Program:         hmmsearch
+# Version:         3.4 (Aug 2023)
+# Pipeline mode:   SEARCH
+# Query file:      /v3/work/00_inventory/busco/busco_downloads/lineages/plasmodium_odb10/hmms/14489at5820.hmm
+# Target file:     /v3/inputs/annotations/ncbi-datasets/PvC01.proteins.fa
+# Option settings: hmmsearch --domtblout /v3/work/00_inventory/busco/PvC01_proteins/run_plasmodium_odb10/hmmer_output/initial_run_results/14489at5820.out --cpu 1 /v3/work/00_inventory/busco/busco_downloads/lineages/plasmodium_odb10/hmms/14489at5820.hmm /v3/inputs/annotations/ncbi-datasets/PvC01.proteins.fa 
+# Current dir:     /v3/work/00_inventory/busco
+# Date:            Tue May 19 18:35:26 2026
+# [ok]

@@ -1,0 +1,16 @@
+#                                                                            --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name        accession   tlen query name           accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+#------------------- ---------- ----- -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+CAI7721131.1         -            780 4318at5820           -            551  3.6e-283  938.8  78.1   1   3  2.2e-100   1.4e-96  322.9  29.7     1   195    10   228    10   232 0.94 | transcript=PVPAM_100039900_t1 | gene=PVPAM_100039900 | organism=Plasmodium_vivax_PAM | gene_product=anaphase-promoting complex subunit 3, putative | transcript_product=anaphase-promoting complex subunit 3, putative | location=CASCJQ010000010:1481153-1483495(+) | protein_length=780 | sequence_SO=supercontig | SO=protein_coding_gene | is_pseudo=false
+CAI7721131.1         -            780 4318at5820           -            551  3.6e-283  938.8  78.1   2   3     0.046     3e+02   -1.7   0.0   200   216   374   393   352   402 0.72 | transcript=PVPAM_100039900_t1 | gene=PVPAM_100039900 | organism=Plasmodium_vivax_PAM | gene_product=anaphase-promoting complex subunit 3, putative | transcript_product=anaphase-promoting complex subunit 3, putative | location=CASCJQ010000010:1481153-1483495(+) | protein_length=780 | sequence_SO=supercontig | SO=protein_coding_gene | is_pseudo=false
+CAI7721131.1         -            780 4318at5820           -            551  3.6e-283  938.8  78.1   3   3  1.8e-191  1.2e-187  623.6  37.8   211   551   414   762   395   762 0.96 | transcript=PVPAM_100039900_t1 | gene=PVPAM_100039900 | organism=Plasmodium_vivax_PAM | gene_product=anaphase-promoting complex subunit 3, putative | transcript_product=anaphase-promoting complex subunit 3, putative | location=CASCJQ010000010:1481153-1483495(+) | protein_length=780 | sequence_SO=supercontig | SO=protein_coding_gene | is_pseudo=false
+#
+# Program:         hmmsearch
+# Version:         3.4 (Aug 2023)
+# Pipeline mode:   SEARCH
+# Query file:      /v3/work/00_inventory/busco/busco_downloads/lineages/plasmodium_odb10/hmms/4318at5820.hmm
+# Target file:     /v3/inputs/annotations/plasmodb-68/PAM.proteins.fa
+# Option settings: hmmsearch --domtblout /v3/work/00_inventory/busco/PAM_proteins/run_plasmodium_odb10/hmmer_output/initial_run_results/4318at5820.out --cpu 1 /v3/work/00_inventory/busco/busco_downloads/lineages/plasmodium_odb10/hmms/4318at5820.hmm /v3/inputs/annotations/plasmodb-68/PAM.proteins.fa 
+# Current dir:     /v3/work/00_inventory/busco
+# Date:            Tue May 19 17:41:05 2026
+# [ok]

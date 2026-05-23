@@ -1,0 +1,25 @@
+#                                                                            --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name        accession   tlen query name           accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+#------------------- ---------- ----- -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+SCO69083.1           -           1626 585at5820            -           1351         0 2650.6  99.5   1   3         0         0 2379.4  55.0     2  1156    18  1247    17  1251 0.96 LCCL domain-containing protein [Plasmodium vivax]
+SCO69083.1           -           1626 585at5820            -           1351         0 2650.6  99.5   2   3   1.9e-07    0.0003   16.8   0.9  1170  1206  1344  1380  1310  1394 0.86 LCCL domain-containing protein [Plasmodium vivax]
+SCO69083.1           -           1626 585at5820            -           1351         0 2650.6  99.5   3   3   1.7e-80   2.6e-77  258.9  28.4  1188  1351  1435  1623  1426  1623 0.88 LCCL domain-containing protein [Plasmodium vivax]
+SCO68891.1           -           1607 585at5820            -           1351  8.7e-132  439.4  25.2   1   3  5.8e-135  8.7e-132  439.4  25.2     7  1077    27  1113    20  1185 0.83 LCCL domain-containing protein [Plasmodium vivax]
+SCO68891.1           -           1607 585at5820            -           1351  8.7e-132  439.4  25.2   2   3     0.001       1.5    4.5   0.5   971  1088  1219  1339  1188  1364 0.75 LCCL domain-containing protein [Plasmodium vivax]
+SCO68891.1           -           1607 585at5820            -           1351  8.7e-132  439.4  25.2   3   3       1.1   1.7e+03   -5.6  19.5  1248  1328  1495  1582  1463  1590 0.73 LCCL domain-containing protein [Plasmodium vivax]
+SCO69519.1           -           1306 585at5820            -           1351   2.3e-18   63.6  17.3   1   5   3.3e-05     0.049    9.5   0.1   753   813   312   379   300   385 0.75 LCCL domain-containing protein, putative [Plasmodium vivax]
+SCO69519.1           -           1306 585at5820            -           1351   2.3e-18   63.6  17.3   2   5      0.02        30    0.2   1.1   630   671   461   503   458   508 0.84 LCCL domain-containing protein, putative [Plasmodium vivax]
+SCO69519.1           -           1306 585at5820            -           1351   2.3e-18   63.6  17.3   3   5    0.0001      0.15    7.8   0.1   751   814   716   784   692   810 0.68 LCCL domain-containing protein, putative [Plasmodium vivax]
+SCO69519.1           -           1306 585at5820            -           1351   2.3e-18   63.6  17.3   4   5   1.5e-05     0.023   10.5   0.1   730   783  1091  1150  1073  1178 0.78 LCCL domain-containing protein, putative [Plasmodium vivax]
+SCO69519.1           -           1306 585at5820            -           1351   2.3e-18   63.6  17.3   5   5   1.4e-15   2.1e-12   43.8   0.1   746   814  1221  1293  1199  1300 0.86 LCCL domain-containing protein, putative [Plasmodium vivax]
+SCO65111.1           -           1087 585at5820            -           1351   0.00022   17.2   0.2   1   1   2.2e-07   0.00033   16.7   0.2   757   813   786   844   728   848 0.79 LCCL domain-containing protein [Plasmodium vivax]
+#
+# Program:         hmmsearch
+# Version:         3.4 (Aug 2023)
+# Pipeline mode:   SEARCH
+# Query file:      /v3/work/00_inventory/busco/busco_downloads/lineages/plasmodium_odb10/hmms/585at5820.hmm
+# Target file:     /v3/inputs/annotations/ncbi-datasets/PvT01.proteins.fa
+# Option settings: hmmsearch --domtblout /v3/work/00_inventory/busco/PvT01_proteins/run_plasmodium_odb10/hmmer_output/initial_run_results/585at5820.out --cpu 1 /v3/work/00_inventory/busco/busco_downloads/lineages/plasmodium_odb10/hmms/585at5820.hmm /v3/inputs/annotations/ncbi-datasets/PvT01.proteins.fa 
+# Current dir:     /v3/work/00_inventory/busco
+# Date:            Tue May 19 18:57:26 2026
+# [ok]

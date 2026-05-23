@@ -1,0 +1,17 @@
+#                                                                            --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name        accession   tlen query name           accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+#------------------- ---------- ----- -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+PVX_084585.1-p1      -            235 11704at5820          -            192  2.6e-103  341.8   5.1   1   1  2.1e-106  3.8e-103  341.3   5.1    10   192    37   235    27   235 0.93 | transcript=PVX_084585.1 | gene=PVX_084585 | organism=Plasmodium_vivax_Sal-1 | gene_product=heat shock protein, class I, putative | transcript_product=heat shock protein, class I, putative | location=Pv_Sal1_chr13:450944-451651(+) | protein_length=235 | sequence_SO=chromosome | SO=protein_coding_gene | is_pseudo=false
+PVX_089585.1-p1      -            171 11704at5820          -            192   9.4e-14   49.7   0.7   1   1   6.6e-17   1.2e-13   49.3   0.7    53   186    29   165    18   169 0.82 | transcript=PVX_089585.1 | gene=PVX_089585 | organism=Plasmodium_vivax_Sal-1 | gene_product=heat shock protein, putative | transcript_product=heat shock protein, putative | location=Pv_Sal1_chr05:679310-680319(-) | protein_length=171 | sequence_SO=chromosome | SO=protein_coding_gene | is_pseudo=false
+PVX_122065.1-p1      -            209 11704at5820          -            192   6.5e-10   37.2   2.3   1   2       0.1   1.9e+02   -0.2   0.1   120   147    32    59     3    73 0.63 | transcript=PVX_122065.1 | gene=PVX_122065 | organism=Plasmodium_vivax_Sal-1 | gene_product=heat shock protein, putative | transcript_product=heat shock protein, putative | location=Pv_Sal1_chr14:254753-255382(-) | protein_length=209 | sequence_SO=chromosome | SO=protein_coding_gene | is_pseudo=false
+PVX_122065.1-p1      -            209 11704at5820          -            192   6.5e-10   37.2   2.3   2   2   4.1e-13   7.6e-10   36.9   0.5    80   191   103   209    78   209 0.85 | transcript=PVX_122065.1 | gene=PVX_122065 | organism=Plasmodium_vivax_Sal-1 | gene_product=heat shock protein, putative | transcript_product=heat shock protein, putative | location=Pv_Sal1_chr14:254753-255382(-) | protein_length=209 | sequence_SO=chromosome | SO=protein_coding_gene | is_pseudo=false
+#
+# Program:         hmmsearch
+# Version:         3.4 (Aug 2023)
+# Pipeline mode:   SEARCH
+# Query file:      /v3/work/00_inventory/busco/busco_downloads/lineages/plasmodium_odb10/hmms/11704at5820.hmm
+# Target file:     /v3/inputs/annotations/plasmodb-68/Sal-I.proteins.fa
+# Option settings: hmmsearch --domtblout /v3/work/00_inventory/busco/Sal-I_proteins/run_plasmodium_odb10/hmmer_output/initial_run_results/11704at5820.out --cpu 1 /v3/work/00_inventory/busco/busco_downloads/lineages/plasmodium_odb10/hmms/11704at5820.hmm /v3/inputs/annotations/plasmodb-68/Sal-I.proteins.fa 
+# Current dir:     /v3/work/00_inventory/busco
+# Date:            Tue May 19 17:24:22 2026
+# [ok]

@@ -1,0 +1,15 @@
+#                                                                            --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name        accession   tlen query name           accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+#------------------- ---------- ----- -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+PVX_123630.1-p1      -            191 11847at5820          -            172  9.7e-104  342.7   0.4   1   1  4.4e-107  1.2e-103  342.4   0.4     1   172     5   191     5   191 0.96 | transcript=PVX_123630.1 | gene=PVX_123630 | organism=Plasmodium_vivax_Sal-1 | gene_product=raf kinase inhibitor, putative | transcript_product=raf kinase inhibitor, putative | location=Pv_Sal1_chr14:1605267-1605842(-) | protein_length=191 | sequence_SO=chromosome | SO=protein_coding_gene | is_pseudo=false
+PVX_235290-t26_1-p1  -            238 11847at5820          -            172  2.1e-103  341.6   0.4   1   1  9.9e-107  2.7e-103  341.2   0.4     1   172     5   191     5   191 0.96 | transcript=PVX_235290-t26_1 | gene=PVX_235290 | organism=Plasmodium_vivax_Sal-1 | gene_product=unspecified product | transcript_product=unspecified product | location=AAKM01001186:139-855(-) | protein_length=238 | sequence_SO=contig | SO=protein_coding_gene | is_pseudo=false
+#
+# Program:         hmmsearch
+# Version:         3.4 (Aug 2023)
+# Pipeline mode:   SEARCH
+# Query file:      /v3/work/00_inventory/busco/busco_downloads/lineages/plasmodium_odb10/hmms/11847at5820.hmm
+# Target file:     /v3/inputs/annotations/plasmodb-68/Sal-I.proteins.fa
+# Option settings: hmmsearch --domtblout /v3/work/00_inventory/busco/Sal-I_proteins/run_plasmodium_odb10/hmmer_output/initial_run_results/11847at5820.out --cpu 1 /v3/work/00_inventory/busco/busco_downloads/lineages/plasmodium_odb10/hmms/11847at5820.hmm /v3/inputs/annotations/plasmodb-68/Sal-I.proteins.fa 
+# Current dir:     /v3/work/00_inventory/busco
+# Date:            Tue May 19 17:24:53 2026
+# [ok]

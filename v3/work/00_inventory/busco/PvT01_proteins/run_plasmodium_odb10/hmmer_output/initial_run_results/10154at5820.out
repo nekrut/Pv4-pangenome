@@ -1,0 +1,20 @@
+#                                                                            --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name        accession   tlen query name           accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+#------------------- ---------- ----- -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+SCO65008.1           -            243 10154at5820          -            222  6.3e-131  433.2   8.0   1   1  5.9e-134  7.2e-131  433.0   8.0     1   222     1   242     1   242 0.96 alpha/beta hydrolase, putative [Plasmodium vivax]
+SCO65268.1           -            891 10154at5820          -            222   1.3e-41  141.1   1.1   1   1   1.6e-44   1.9e-41  140.6   1.1     1   222     1   241     1   241 0.89 alpha/beta hydrolase, putative [Plasmodium vivax]
+SCO67303.1           -            367 10154at5820          -            222   7.9e-25   86.2   3.9   1   2   4.5e-25   5.4e-22   77.0   2.6    38   183   135   299   111   313 0.80 alpha/beta hydrolase fold domain containing protein, putative [Plasmodium vivax]
+SCO67303.1           -            367 10154at5820          -            222   7.9e-25   86.2   3.9   2   2   0.00037      0.46    8.5   0.0   190   219   330   360   319   363 0.84 alpha/beta hydrolase fold domain containing protein, putative [Plasmodium vivax]
+SCO65195.1           -            591 10154at5820          -            222     6e-08   31.0   3.1   1   1   8.3e-11     1e-07   30.3   3.1    39   206    74   271    46   282 0.71 alpha/beta hydrolase, putative [Plasmodium vivax]
+SCO65837.1           -            512 10154at5820          -            222      0.31    9.1   9.1   1   2    0.0088        11    4.0   0.3    62   143    81   173    53   179 0.66 alpha/beta hydrolase, putative [Plasmodium vivax]
+SCO65837.1           -            512 10154at5820          -            222      0.31    9.1   9.1   2   2   0.00073      0.89    7.6   3.2   122   190   180   248   172   277 0.80 alpha/beta hydrolase, putative [Plasmodium vivax]
+#
+# Program:         hmmsearch
+# Version:         3.4 (Aug 2023)
+# Pipeline mode:   SEARCH
+# Query file:      /v3/work/00_inventory/busco/busco_downloads/lineages/plasmodium_odb10/hmms/10154at5820.hmm
+# Target file:     /v3/inputs/annotations/ncbi-datasets/PvT01.proteins.fa
+# Option settings: hmmsearch --domtblout /v3/work/00_inventory/busco/PvT01_proteins/run_plasmodium_odb10/hmmer_output/initial_run_results/10154at5820.out --cpu 1 /v3/work/00_inventory/busco/busco_downloads/lineages/plasmodium_odb10/hmms/10154at5820.hmm /v3/inputs/annotations/ncbi-datasets/PvT01.proteins.fa 
+# Current dir:     /v3/work/00_inventory/busco
+# Date:            Tue May 19 18:27:56 2026
+# [ok]

@@ -1,0 +1,25 @@
+#                                                                            --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name        accession   tlen query name           accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+#------------------- ---------- ----- -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+SCO74739.1           -            559 5426at5820           -            491  9.5e-298  986.2  61.4   1   2   3.1e-90   2.8e-87  292.0  16.5     1   194     1   221     1   228 0.89 Hsp70/Hsp90 organizing protein, putative [Plasmodium vivax]
+SCO74739.1           -            559 5426at5820           -            491  9.5e-298  986.2  61.4   2   2  6.8e-214  6.1e-211  699.8  37.8   166   491   227   559   224   559 0.99 Hsp70/Hsp90 organizing protein, putative [Plasmodium vivax]
+SCO71055.1           -            477 5426at5820           -            491   1.2e-13   49.2   7.5   1   2   1.4e-12   1.3e-09   35.8   2.6   303   388     9    94     2   109 0.92 conserved Plasmodium protein, unknown function [Plasmodium vivax]
+SCO71055.1           -            477 5426at5820           -            491   1.2e-13   49.2   7.5   2   2   1.7e-06    0.0015   15.8   0.2   180   239   304   367   284   383 0.76 conserved Plasmodium protein, unknown function [Plasmodium vivax]
+SCO75659.1           -            615 5426at5820           -            491   3.7e-12   44.2  11.5   1   1   6.9e-15   6.2e-12   43.4  11.5   288   411   426   552   396   578 0.84 tetratricopeptide repeat protein, putative [Plasmodium vivax]
+SCO73531.1           -            682 5426at5820           -            491   3.7e-09   34.3   4.4   1   2    0.0017       1.5    5.9   0.2   306   332   159   185   140   193 0.79 serine/threonine protein phosphatase 5, putative [Plasmodium vivax]
+SCO73531.1           -            682 5426at5820           -            491   3.7e-09   34.3   4.4   2   2     1e-10   9.2e-08   29.7   0.7   335   407   244   317   216   344 0.80 serine/threonine protein phosphatase 5, putative [Plasmodium vivax]
+SCO70368.1           -           1123 5426at5820           -            491   1.4e-06   25.8   3.8   1   2   2.5e-08   2.2e-05   21.8   4.4   172   245   242   318   228   327 0.85 TPR domain containing protein [Plasmodium vivax]
+SCO70368.1           -           1123 5426at5820           -            491   1.4e-06   25.8   3.8   2   2      0.11        96   -0.1   0.0   177   207   326   356   318   364 0.87 TPR domain containing protein [Plasmodium vivax]
+SCO75713.1           -            302 5426at5820           -            491   2.4e-05   21.7   9.8   1   1   1.8e-07   0.00016   19.0   7.6   306   429   144   282   140   292 0.77 FK506-binding protein (FKBP)-type peptidyl-prolyl isomerase, putative [Plasmodium vivax]
+SCO73064.1           -            463 5426at5820           -            491   3.1e-05   21.4  24.0   1   2   0.00074      0.66    7.1  18.6   174   338   118   283   109   293 0.57 Hsc70-interacting protein, putative [Plasmodium vivax]
+SCO73064.1           -            463 5426at5820           -            491   3.1e-05   21.4  24.0   2   2   7.9e-07   0.00071   16.9   0.2   438   477   402   444   399   451 0.86 Hsc70-interacting protein, putative [Plasmodium vivax]
+#
+# Program:         hmmsearch
+# Version:         3.4 (Aug 2023)
+# Pipeline mode:   SEARCH
+# Query file:      /v3/work/00_inventory/busco/busco_downloads/lineages/plasmodium_odb10/hmms/5426at5820.hmm
+# Target file:     /v3/inputs/annotations/ncbi-datasets/PvC01.proteins.fa
+# Option settings: hmmsearch --domtblout /v3/work/00_inventory/busco/PvC01_proteins/run_plasmodium_odb10/hmmer_output/initial_run_results/5426at5820.out --cpu 1 /v3/work/00_inventory/busco/busco_downloads/lineages/plasmodium_odb10/hmms/5426at5820.hmm /v3/inputs/annotations/ncbi-datasets/PvC01.proteins.fa 
+# Current dir:     /v3/work/00_inventory/busco
+# Date:            Tue May 19 18:51:57 2026
+# [ok]

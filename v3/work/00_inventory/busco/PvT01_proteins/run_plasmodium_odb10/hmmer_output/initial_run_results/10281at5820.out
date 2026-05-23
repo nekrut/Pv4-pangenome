@@ -1,0 +1,16 @@
+#                                                                            --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name        accession   tlen query name           accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+#------------------- ---------- ----- -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+SCO69755.1           -            293 10281at5820          -            208     7e-97  321.2  26.2   1   3   2.9e-28   1.7e-24   84.7   0.5     1    61    11    75    11    83 0.93 protein transport protein SEC20, putative [Plasmodium vivax]
+SCO69755.1           -            293 10281at5820          -            208     7e-97  321.2  26.2   2   3   1.7e-12     1e-08   33.2   1.4    58    92    97   134    85   141 0.84 protein transport protein SEC20, putative [Plasmodium vivax]
+SCO69755.1           -            293 10281at5820          -            208     7e-97  321.2  26.2   3   3   1.1e-67   6.4e-64  213.5  10.9    86   203   147   266   138   269 0.94 protein transport protein SEC20, putative [Plasmodium vivax]
+#
+# Program:         hmmsearch
+# Version:         3.4 (Aug 2023)
+# Pipeline mode:   SEARCH
+# Query file:      /v3/work/00_inventory/busco/busco_downloads/lineages/plasmodium_odb10/hmms/10281at5820.hmm
+# Target file:     /v3/inputs/annotations/ncbi-datasets/PvT01.proteins.fa
+# Option settings: hmmsearch --domtblout /v3/work/00_inventory/busco/PvT01_proteins/run_plasmodium_odb10/hmmer_output/initial_run_results/10281at5820.out --cpu 1 /v3/work/00_inventory/busco/busco_downloads/lineages/plasmodium_odb10/hmms/10281at5820.hmm /v3/inputs/annotations/ncbi-datasets/PvT01.proteins.fa 
+# Current dir:     /v3/work/00_inventory/busco
+# Date:            Tue May 19 18:28:33 2026
+# [ok]

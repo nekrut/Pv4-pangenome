@@ -1,0 +1,55 @@
+# Pv4 repo .gitignore
+# Strategy: include v3/ (cleaned analysis) + Pk/ (pipeline scaffold) + 8-way PGGB graph (gzipped GFA only)
+# Exclude scratch, intermediates, large raw data.
+
+# Large analysis intermediates / raw data (not part of the publishable result)
+/v2/
+!/v2/pggb_out/
+!/v2/pggb_out/*.gfa.gz
+!/v2/pggb_out/*.params.yml
+!/v2/pggb_out/*.log
+!/v2/pggb_out/*.png
+!/v2/pggb_out/*.tsv.gz
+/v2/pggb_out/*.og
+/v2/pggb_out/*.og.lay
+/v2/pggb_out/*.lay
+/v2/pggb_out/*.gfa
+/fastp_qc/
+/bam/
+/bench_pf/
+/pack/
+/refs/
+/refs_pansn/
+/pggb_out/
+/vg_idx/
+/vcf/
+/pggb_input.fa.gz
+/pggb_input.fa.gz.fai
+/pggb_input.fa.gz.gzi
+/.loom/
+
+# v3 large files (already on Dropbox)
+/v3/ucsc_hub/*/*.multiz.maf.bb
+/v3/ucsc_hub/*/*.multiz.maf.bb.bai
+
+# Editor / OS junk
+__pycache__/
+*.pyc
+*.swp
+.DS_Store
+nohup.out
+core
+*.log.[0-9]*
+
+# Activity logs (per-machine session data)
+*.jsonl
+session.jsonl
+
+# Local-only Claude config
+/.claude/
+/v3/.claude/
+
+# Symbolic links to scratch
+/v3/genomes/softmasked/*.fa
+/v3/inputs/pggb/pv.og
+/v3/inputs/pggb/pv.gfa

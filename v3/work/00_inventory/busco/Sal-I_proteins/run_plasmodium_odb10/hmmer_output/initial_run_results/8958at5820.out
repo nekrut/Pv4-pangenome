@@ -1,0 +1,16 @@
+#                                                                            --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name        accession   tlen query name           accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+#------------------- ---------- ----- -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+PVX_088200.1-p1      -            520 8958at5820           -            301  1.1e-160  532.1  23.7   1   2   2.3e-89   6.2e-86  286.7  14.6    16   171   189   344   185   352 0.97 | transcript=PVX_088200.1 | gene=PVX_088200 | organism=Plasmodium_vivax_Sal-1 | gene_product=hypothetical protein, conserved | transcript_product=hypothetical protein, conserved | location=Pv_Sal1_chr01:493937-495499(+) | protein_length=520 | sequence_SO=chromosome | SO=protein_coding_gene | is_pseudo=false
+PVX_088200.1-p1      -            520 8958at5820           -            301  1.1e-160  532.1  23.7   2   2   1.9e-78   5.2e-75  250.9   1.7   170   301   389   520   384   520 0.98 | transcript=PVX_088200.1 | gene=PVX_088200 | organism=Plasmodium_vivax_Sal-1 | gene_product=hypothetical protein, conserved | transcript_product=hypothetical protein, conserved | location=Pv_Sal1_chr01:493937-495499(+) | protein_length=520 | sequence_SO=chromosome | SO=protein_coding_gene | is_pseudo=false
+PVX_085150.1-p1      -            246 8958at5820           -            301   0.00022   19.0   1.0   1   1   9.5e-08   0.00026   18.7   1.0    74   152    43   125    31   192 0.82 | transcript=PVX_085150.1 | gene=PVX_085150 | organism=Plasmodium_vivax_Sal-1 | gene_product=exosome complex exonuclease RRP41, putative | transcript_product=exosome complex exonuclease RRP41, putative | location=Pv_Sal1_chr13:946025-946765(+) | protein_length=246 | sequence_SO=chromosome | SO=protein_coding_gene | is_pseudo=false
+#
+# Program:         hmmsearch
+# Version:         3.4 (Aug 2023)
+# Pipeline mode:   SEARCH
+# Query file:      /v3/work/00_inventory/busco/busco_downloads/lineages/plasmodium_odb10/hmms/8958at5820.hmm
+# Target file:     /v3/inputs/annotations/plasmodb-68/Sal-I.proteins.fa
+# Option settings: hmmsearch --domtblout /v3/work/00_inventory/busco/Sal-I_proteins/run_plasmodium_odb10/hmmer_output/initial_run_results/8958at5820.out --cpu 1 /v3/work/00_inventory/busco/busco_downloads/lineages/plasmodium_odb10/hmms/8958at5820.hmm /v3/inputs/annotations/plasmodb-68/Sal-I.proteins.fa 
+# Current dir:     /v3/work/00_inventory/busco
+# Date:            Tue May 19 17:49:17 2026
+# [ok]

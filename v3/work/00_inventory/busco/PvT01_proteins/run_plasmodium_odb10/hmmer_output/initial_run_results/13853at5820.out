@@ -1,0 +1,16 @@
+#                                                                            --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name        accession   tlen query name           accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+#------------------- ---------- ----- -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+SCO68289.1           -            123 13853at5820          -            110   9.8e-60  198.1   5.5   1   1   4.3e-63   1.3e-59  197.7   5.5     1   110     1   123     1   123 0.91 peptidyl-tRNA hydrolase PTRHD1, putative [Plasmodium vivax]
+SCO65302.1           -            192 13853at5820          -            110      0.18   10.6   5.4   1   2      0.44   1.3e+03   -1.9   0.0    48    64    37    53    27    60 0.77 peptidyl-tRNA hydrolase 2, putative [Plasmodium vivax]
+SCO65302.1           -            192 13853at5820          -            110      0.18   10.6   5.4   2   2   0.00064         2    7.2   4.6    18    42    75    99    66   191 0.79 peptidyl-tRNA hydrolase 2, putative [Plasmodium vivax]
+#
+# Program:         hmmsearch
+# Version:         3.4 (Aug 2023)
+# Pipeline mode:   SEARCH
+# Query file:      /v3/work/00_inventory/busco/busco_downloads/lineages/plasmodium_odb10/hmms/13853at5820.hmm
+# Target file:     /v3/inputs/annotations/ncbi-datasets/PvT01.proteins.fa
+# Option settings: hmmsearch --domtblout /v3/work/00_inventory/busco/PvT01_proteins/run_plasmodium_odb10/hmmer_output/initial_run_results/13853at5820.out --cpu 1 /v3/work/00_inventory/busco/busco_downloads/lineages/plasmodium_odb10/hmms/13853at5820.hmm /v3/inputs/annotations/ncbi-datasets/PvT01.proteins.fa 
+# Current dir:     /v3/work/00_inventory/busco
+# Date:            Tue May 19 18:33:41 2026
+# [ok]

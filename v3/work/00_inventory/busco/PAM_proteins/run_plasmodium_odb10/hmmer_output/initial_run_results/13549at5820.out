@@ -1,0 +1,15 @@
+#                                                                            --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name        accession   tlen query name           accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+#------------------- ---------- ----- -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+CAI7719929.1         -            152 13549at5820          -            136   4.1e-82  271.4  10.9   1   1   3.4e-84   1.1e-80  266.8  10.9     1   136     1   150     1   150 0.94 | transcript=PVPAM_080015200_t1 | gene=PVPAM_080015200 | organism=Plasmodium_vivax_PAM | gene_product=N-terminal acetyltransferase A complex catalytic subunit ARD1, putative | transcript_product=N-terminal acetyltransferase A complex catalytic subunit ARD1, putative | location=CASCJQ010000008:506095-506553(-) | protein_length=152 | sequence_SO=supercontig | SO=protein_coding_gene | is_pseudo=false
+CAI7717900.1         -            159 13549at5820          -            136   1.5e-11   43.0   1.1   1   1   9.8e-15   3.2e-11   41.9   1.1    11   133    11   147     1   150 0.73 | transcript=PVPAM_020013200_t1 | gene=PVPAM_020013200 | organism=Plasmodium_vivax_PAM | gene_product=N-acetyltransferase, GNAT family, putative | transcript_product=N-acetyltransferase, GNAT family, putative | location=CASCJQ010000002:363165-363766(+) | protein_length=159 | sequence_SO=supercontig | SO=protein_coding_gene | is_pseudo=false
+#
+# Program:         hmmsearch
+# Version:         3.4 (Aug 2023)
+# Pipeline mode:   SEARCH
+# Query file:      /v3/work/00_inventory/busco/busco_downloads/lineages/plasmodium_odb10/hmms/13549at5820.hmm
+# Target file:     /v3/inputs/annotations/plasmodb-68/PAM.proteins.fa
+# Option settings: hmmsearch --domtblout /v3/work/00_inventory/busco/PAM_proteins/run_plasmodium_odb10/hmmer_output/initial_run_results/13549at5820.out --cpu 1 /v3/work/00_inventory/busco/busco_downloads/lineages/plasmodium_odb10/hmms/13549at5820.hmm /v3/inputs/annotations/plasmodb-68/PAM.proteins.fa 
+# Current dir:     /v3/work/00_inventory/busco
+# Date:            Tue May 19 17:30:40 2026
+# [ok]

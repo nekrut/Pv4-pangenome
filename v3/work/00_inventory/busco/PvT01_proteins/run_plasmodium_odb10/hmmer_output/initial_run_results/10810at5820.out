@@ -1,0 +1,21 @@
+#                                                                            --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name        accession   tlen query name           accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+#------------------- ---------- ----- -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+SCO67241.1           -            276 10810at5820          -            239  7.1e-137  453.0  15.2   1   1  1.1e-139  1.2e-136  452.3  15.2     1   239     2   270     2   270 0.95 rhomboid protease ROM1, putative [Plasmodium vivax]
+SCO65792.1           -            268 10810at5820          -            239     2e-38  130.8  15.4   1   1   2.5e-41   2.5e-38  130.5  15.4    32   238    43   251    34   252 0.88 rhomboid protease ROM3, putative [Plasmodium vivax]
+SCO69478.1           -            822 10810at5820          -            239   1.7e-28   98.2  24.3   1   1   2.7e-31   2.8e-28   97.6  24.3    33   220   595   785   563   806 0.86 rhomboid protease ROM8, putative [Plasmodium vivax]
+SCO67828.1           -            627 10810at5820          -            239   1.2e-17   62.8   9.9   1   2      0.13   1.3e+02    0.4   0.5   176   199   215   237   202   239 0.72 rhomboid protease ROM4, putative [Plasmodium vivax]
+SCO67828.1           -            627 10810at5820          -            239   1.2e-17   62.8   9.9   2   2   1.2e-20   1.2e-17   62.8   9.9    73   213   320   458   306   471 0.84 rhomboid protease ROM4, putative [Plasmodium vivax]
+SCO68208.1           -            273 10810at5820          -            239   3.5e-15   54.7  10.8   1   1   4.4e-18   4.5e-15   54.4  10.8    28   218    41   240     9   264 0.76 rhomboid protease ROM10, putative [Plasmodium vivax]
+SCO69988.1           -            511 10810at5820          -            239      0.18    9.8   5.9   1   2   6.5e-05     0.066   11.2   2.3   165   193   235   263   226   274 0.86 nucleus export protein BRR6, putative [Plasmodium vivax]
+SCO69988.1           -            511 10810at5820          -            239      0.18    9.8   5.9   2   2      0.33   3.4e+02   -0.9   0.1    30   188   339   356   316   372 0.57 nucleus export protein BRR6, putative [Plasmodium vivax]
+#
+# Program:         hmmsearch
+# Version:         3.4 (Aug 2023)
+# Pipeline mode:   SEARCH
+# Query file:      /v3/work/00_inventory/busco/busco_downloads/lineages/plasmodium_odb10/hmms/10810at5820.hmm
+# Target file:     /v3/inputs/annotations/ncbi-datasets/PvT01.proteins.fa
+# Option settings: hmmsearch --domtblout /v3/work/00_inventory/busco/PvT01_proteins/run_plasmodium_odb10/hmmer_output/initial_run_results/10810at5820.out --cpu 1 /v3/work/00_inventory/busco/busco_downloads/lineages/plasmodium_odb10/hmms/10810at5820.hmm /v3/inputs/annotations/ncbi-datasets/PvT01.proteins.fa 
+# Current dir:     /v3/work/00_inventory/busco
+# Date:            Tue May 19 18:30:31 2026
+# [ok]

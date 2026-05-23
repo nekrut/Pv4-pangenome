@@ -1,0 +1,16 @@
+#                                                                            --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name        accession   tlen query name           accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+#------------------- ---------- ----- -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+PVX_088150.1-p1      -            482 8085at5820           -            312  5.6e-165  546.1  42.5   1   3  9.3e-153  5.1e-149  493.7  30.9     1   256     1   275     1   280 0.93 | transcript=PVX_088150.1 | gene=PVX_088150 | organism=Plasmodium_vivax_Sal-1 | gene_product=26S proteasome regulatory subunit RPN10, putative | transcript_product=26S proteasome regulatory subunit RPN10, putative | location=Pv_Sal1_chr01:461994-463688(+) | protein_length=482 | sequence_SO=chromosome | SO=protein_coding_gene | is_pseudo=false
+PVX_088150.1-p1      -            482 8085at5820           -            312  5.6e-165  546.1  42.5   2   3   3.1e-15   1.7e-11   42.0   1.7   254   291   333   380   329   399 0.81 | transcript=PVX_088150.1 | gene=PVX_088150 | organism=Plasmodium_vivax_Sal-1 | gene_product=26S proteasome regulatory subunit RPN10, putative | transcript_product=26S proteasome regulatory subunit RPN10, putative | location=Pv_Sal1_chr01:461994-463688(+) | protein_length=482 | sequence_SO=chromosome | SO=protein_coding_gene | is_pseudo=false
+PVX_088150.1-p1      -            482 8085at5820           -            312  5.6e-165  546.1  42.5   3   3   1.2e-05     0.065   10.5   0.0   296   312   422   438   417   438 0.91 | transcript=PVX_088150.1 | gene=PVX_088150 | organism=Plasmodium_vivax_Sal-1 | gene_product=26S proteasome regulatory subunit RPN10, putative | transcript_product=26S proteasome regulatory subunit RPN10, putative | location=Pv_Sal1_chr01:461994-463688(+) | protein_length=482 | sequence_SO=chromosome | SO=protein_coding_gene | is_pseudo=false
+#
+# Program:         hmmsearch
+# Version:         3.4 (Aug 2023)
+# Pipeline mode:   SEARCH
+# Query file:      /v3/work/00_inventory/busco/busco_downloads/lineages/plasmodium_odb10/hmms/8085at5820.hmm
+# Target file:     /v3/inputs/annotations/plasmodb-68/Sal-I.proteins.fa
+# Option settings: hmmsearch --domtblout /v3/work/00_inventory/busco/Sal-I_proteins/run_plasmodium_odb10/hmmer_output/initial_run_results/8085at5820.out --cpu 1 /v3/work/00_inventory/busco/busco_downloads/lineages/plasmodium_odb10/hmms/8085at5820.hmm /v3/inputs/annotations/plasmodb-68/Sal-I.proteins.fa 
+# Current dir:     /v3/work/00_inventory/busco
+# Date:            Tue May 19 17:49:54 2026
+# [ok]

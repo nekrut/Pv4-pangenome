@@ -1,0 +1,16 @@
+#                                                                            --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name        accession   tlen query name           accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+#------------------- ---------- ----- -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+PVP01_1239700.1-p1   -            519 8495at5820           -            279  5.1e-137  454.2  10.8   1   3   3.9e-84   2.5e-80  268.2   2.7     3   147   123   268   121   275 0.97 | transcript=PVP01_1239700.1 | gene=PVP01_1239700 | organism=Plasmodium_vivax_P01 | gene_product=DNA-3-methyladenine glycosylase, putative | transcript_product=DNA-3-methyladenine glycosylase, putative | location=PvP01_12_v2:1587056-1588615(+) | protein_length=519 | sequence_SO=chromosome | SO=protein_coding_gene | is_pseudo=false
+PVP01_1239700.1-p1   -            519 8495at5820           -            279  5.1e-137  454.2  10.8   2   3   2.4e-22   1.6e-18   65.5   0.1   146   194   312   360   306   363 0.95 | transcript=PVP01_1239700.1 | gene=PVP01_1239700 | organism=Plasmodium_vivax_P01 | gene_product=DNA-3-methyladenine glycosylase, putative | transcript_product=DNA-3-methyladenine glycosylase, putative | location=PvP01_12_v2:1587056-1588615(+) | protein_length=519 | sequence_SO=chromosome | SO=protein_coding_gene | is_pseudo=false
+PVP01_1239700.1-p1   -            519 8495at5820           -            279  5.1e-137  454.2  10.8   3   3   2.1e-40   1.4e-36  124.8   0.1   195   279   425   519   410   519 0.90 | transcript=PVP01_1239700.1 | gene=PVP01_1239700 | organism=Plasmodium_vivax_P01 | gene_product=DNA-3-methyladenine glycosylase, putative | transcript_product=DNA-3-methyladenine glycosylase, putative | location=PvP01_12_v2:1587056-1588615(+) | protein_length=519 | sequence_SO=chromosome | SO=protein_coding_gene | is_pseudo=false
+#
+# Program:         hmmsearch
+# Version:         3.4 (Aug 2023)
+# Pipeline mode:   SEARCH
+# Query file:      /v3/work/00_inventory/busco/busco_downloads/lineages/plasmodium_odb10/hmms/8495at5820.hmm
+# Target file:     /v3/inputs/annotations/plasmodb-68/PvP01.proteins.fa
+# Option settings: hmmsearch --domtblout /v3/work/00_inventory/busco/PvP01_proteins/run_plasmodium_odb10/hmmer_output/initial_run_results/8495at5820.out --cpu 1 /v3/work/00_inventory/busco/busco_downloads/lineages/plasmodium_odb10/hmms/8495at5820.hmm /v3/inputs/annotations/plasmodb-68/PvP01.proteins.fa 
+# Current dir:     /v3/work/00_inventory/busco
+# Date:            Tue May 19 17:47:20 2026
+# [ok]

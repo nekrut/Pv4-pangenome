@@ -1,0 +1,17 @@
+#                                                                            --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name        accession   tlen query name           accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+#------------------- ---------- ----- -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+PVX_122240.1-p1      -           2192 332at5820            -           1809         0 3791.6 137.0   1   3         0         0 2379.4  60.1     1  1116     2  1201     2  1241 0.94 | transcript=PVX_122240.1 | gene=PVX_122240 | organism=Plasmodium_vivax_Sal-1 | gene_product=carbamoyl phosphate synthetase, putative | transcript_product=carbamoyl phosphate synthetase, putative | location=Pv_Sal1_chr14:403883-410744(-) | protein_length=2192 | sequence_SO=chromosome | SO=protein_coding_gene | is_pseudo=false
+PVX_122240.1-p1      -           2192 332at5820            -           1809         0 3791.6 137.0   2   3   1.4e-23   3.9e-20   68.9  26.7  1125  1216  1304  1471  1287  1485 0.86 | transcript=PVX_122240.1 | gene=PVX_122240 | organism=Plasmodium_vivax_Sal-1 | gene_product=carbamoyl phosphate synthetase, putative | transcript_product=carbamoyl phosphate synthetase, putative | location=Pv_Sal1_chr14:403883-410744(-) | protein_length=2192 | sequence_SO=chromosome | SO=protein_coding_gene | is_pseudo=false
+PVX_122240.1-p1      -           2192 332at5820            -           1809         0 3791.6 137.0   3   3         0         0 1347.0  34.3  1204  1809  1582  2192  1522  2192 0.94 | transcript=PVX_122240.1 | gene=PVX_122240 | organism=Plasmodium_vivax_Sal-1 | gene_product=carbamoyl phosphate synthetase, putative | transcript_product=carbamoyl phosphate synthetase, putative | location=Pv_Sal1_chr14:403883-410744(-) | protein_length=2192 | sequence_SO=chromosome | SO=protein_coding_gene | is_pseudo=false
+PVX_099530.1-p1      -           1015 332at5820            -           1809     6e-06   21.8   1.5   1   1   3.1e-09   8.6e-06   21.3   1.5   391   532    51   204    36   212 0.68 | transcript=PVX_099530.1 | gene=PVX_099530 | organism=Plasmodium_vivax_Sal-1 | gene_product=para-aminobenzoic acid synthetase, putative | transcript_product=para-aminobenzoic acid synthetase, putative | location=Pv_Sal1_chr07:848808-852326(+) | protein_length=1015 | sequence_SO=chromosome | SO=protein_coding_gene | is_pseudo=false
+#
+# Program:         hmmsearch
+# Version:         3.4 (Aug 2023)
+# Pipeline mode:   SEARCH
+# Query file:      /v3/work/00_inventory/busco/busco_downloads/lineages/plasmodium_odb10/hmms/332at5820.hmm
+# Target file:     /v3/inputs/annotations/plasmodb-68/Sal-I.proteins.fa
+# Option settings: hmmsearch --domtblout /v3/work/00_inventory/busco/Sal-I_proteins/run_plasmodium_odb10/hmmer_output/initial_run_results/332at5820.out --cpu 1 /v3/work/00_inventory/busco/busco_downloads/lineages/plasmodium_odb10/hmms/332at5820.hmm /v3/inputs/annotations/plasmodb-68/Sal-I.proteins.fa 
+# Current dir:     /v3/work/00_inventory/busco
+# Date:            Tue May 19 17:36:27 2026
+# [ok]

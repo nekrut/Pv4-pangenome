@@ -1,0 +1,23 @@
+#                                                                            --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name        accession   tlen query name           accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+#------------------- ---------- ----- -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+SCO70389.1           -            308 8615at5820           -            302  2.4e-218  721.4   3.1   1   1  3.9e-221  2.7e-218  721.3   3.1     1   302     6   308     6   308 0.99 serine/threonine protein phosphatase 6, putative [Plasmodium vivax]
+SCO72034.1           -            307 8615at5820           -            302  1.6e-114  380.5   0.7   1   1  2.8e-117    2e-114  380.2   0.7     6   275    11   278     6   297 0.96 serine/threonine protein phosphatase 4, putative [Plasmodium vivax]
+SCO72010.1           -            516 8615at5820           -            302   8.4e-91  302.6   0.7   1   1   1.5e-93   1.1e-90  302.3   0.7     4   300   214   514   211   516 0.92 protein phosphatase-beta, putative [Plasmodium vivax]
+SCO74921.1           -            304 8615at5820           -            302   5.5e-78  260.6   0.1   1   1   9.8e-81   6.9e-78  260.2   0.1    11   284    21   296    12   303 0.93 serine/threonine protein phosphatase PP1, putative [Plasmodium vivax]
+SCO70519.1           -            564 8615at5820           -            302   1.3e-57  193.7   0.4   1   1   2.6e-60   1.8e-57  193.2   0.4    19   283    56   336    43   348 0.86 serine/threonine protein phosphatase 2B catalytic subunit A, putative [Plasmodium vivax]
+SCO73531.1           -            682 8615at5820           -            302   9.3e-52  174.4   0.1   1   1   2.1e-54   1.5e-51  173.8   0.1    37   271   415   649   377   667 0.90 serine/threonine protein phosphatase 5, putative [Plasmodium vivax]
+SCO74249.1           -            878 8615at5820           -            302     3e-50  169.5   0.5   1   1   3.1e-52   2.2e-49  166.7   0.5    20   275   541   831   532   849 0.83 protein phosphatase containing kelch-like domains, putative [Plasmodium vivax]
+SCO74838.1           -            956 8615at5820           -            302   1.1e-40  138.0   3.4   1   1   2.3e-43   1.6e-40  137.6   2.8    33   274   230   480   203   512 0.79 serine/threonine protein phosphatase 7, putative [Plasmodium vivax]
+SCO71552.1           -           2032 8615at5820           -            302   1.7e-29  101.3   2.3   1   2   1.5e-05      0.01   13.4   0.0    17    85  1110  1182  1095  1188 0.77 serine/threonine protein phosphatase 8, putative [Plasmodium vivax]
+SCO71552.1           -           2032 8615at5820           -            302   1.7e-29  101.3   2.3   2   2     3e-27   2.1e-24   84.6   0.8    71   271  1235  1482  1228  1501 0.71 serine/threonine protein phosphatase 8, putative [Plasmodium vivax]
+#
+# Program:         hmmsearch
+# Version:         3.4 (Aug 2023)
+# Pipeline mode:   SEARCH
+# Query file:      /v3/work/00_inventory/busco/busco_downloads/lineages/plasmodium_odb10/hmms/8615at5820.hmm
+# Target file:     /v3/inputs/annotations/ncbi-datasets/PvC01.proteins.fa
+# Option settings: hmmsearch --domtblout /v3/work/00_inventory/busco/PvC01_proteins/run_plasmodium_odb10/hmmer_output/initial_run_results/8615at5820.out --cpu 1 /v3/work/00_inventory/busco/busco_downloads/lineages/plasmodium_odb10/hmms/8615at5820.hmm /v3/inputs/annotations/ncbi-datasets/PvC01.proteins.fa 
+# Current dir:     /v3/work/00_inventory/busco
+# Date:            Tue May 19 19:06:38 2026
+# [ok]

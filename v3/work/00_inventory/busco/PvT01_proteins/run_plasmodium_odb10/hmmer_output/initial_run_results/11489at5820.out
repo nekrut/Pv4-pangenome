@@ -1,0 +1,16 @@
+#                                                                            --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name        accession   tlen query name           accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+#------------------- ---------- ----- -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+SCO66280.1           -            210 11489at5820          -            150   1.2e-81  270.5   5.5   1   2    0.0075        23    3.4   0.1     2    31     7    37     6    69 0.70 50S ribosomal protein L27, putative [Plasmodium vivax]
+SCO66280.1           -            210 11489at5820          -            150   1.2e-81  270.5   5.5   2   2   1.2e-84   3.5e-81  268.9   1.9    17   150    74   210    61   210 0.93 50S ribosomal protein L27, putative [Plasmodium vivax]
+SCO66961.1           -            324 11489at5820          -            150   0.00045   18.7   1.1   1   1   2.1e-06    0.0063   15.0   1.1    46   121   152   243   129   263 0.68 mitochondrial ribosomal protein L27 precursor, putative [Plasmodium vivax]
+#
+# Program:         hmmsearch
+# Version:         3.4 (Aug 2023)
+# Pipeline mode:   SEARCH
+# Query file:      /v3/work/00_inventory/busco/busco_downloads/lineages/plasmodium_odb10/hmms/11489at5820.hmm
+# Target file:     /v3/inputs/annotations/ncbi-datasets/PvT01.proteins.fa
+# Option settings: hmmsearch --domtblout /v3/work/00_inventory/busco/PvT01_proteins/run_plasmodium_odb10/hmmer_output/initial_run_results/11489at5820.out --cpu 1 /v3/work/00_inventory/busco/busco_downloads/lineages/plasmodium_odb10/hmms/11489at5820.hmm /v3/inputs/annotations/ncbi-datasets/PvT01.proteins.fa 
+# Current dir:     /v3/work/00_inventory/busco
+# Date:            Tue May 19 18:33:25 2026
+# [ok]

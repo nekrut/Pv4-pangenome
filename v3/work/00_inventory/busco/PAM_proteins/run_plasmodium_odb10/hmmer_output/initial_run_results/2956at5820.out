@@ -1,0 +1,17 @@
+#                                                                            --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name        accession   tlen query name           accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+#------------------- ---------- ----- -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+CAI7720589.1         -            988 2956at5820           -            695         0 1035.8  80.8   1   4   1.6e-49     1e-45  154.9  22.5     1   133    15   154    15   172 0.91 | transcript=PVPAM_090035400_t1 | gene=PVPAM_090035400 | organism=Plasmodium_vivax_PAM | gene_product=conserved oligomeric Golgi complex subunit 2, putative | transcript_product=conserved oligomeric Golgi complex subunit 2, putative | location=CASCJQ010000009:1349805-1353884(+) | protein_length=988 | sequence_SO=supercontig | SO=protein_coding_gene | is_pseudo=false
+CAI7720589.1         -            988 2956at5820           -            695         0 1035.8  80.8   2   4  9.3e-163    6e-159  529.1  29.2   122   476   180   576   160   582 0.90 | transcript=PVPAM_090035400_t1 | gene=PVPAM_090035400 | organism=Plasmodium_vivax_PAM | gene_product=conserved oligomeric Golgi complex subunit 2, putative | transcript_product=conserved oligomeric Golgi complex subunit 2, putative | location=CASCJQ010000009:1349805-1353884(+) | protein_length=988 | sequence_SO=supercontig | SO=protein_coding_gene | is_pseudo=false
+CAI7720589.1         -            988 2956at5820           -            695         0 1035.8  80.8   3   4   1.6e-05       0.1    9.4   0.0   476   496   618   638   614   646 0.86 | transcript=PVPAM_090035400_t1 | gene=PVPAM_090035400 | organism=Plasmodium_vivax_PAM | gene_product=conserved oligomeric Golgi complex subunit 2, putative | transcript_product=conserved oligomeric Golgi complex subunit 2, putative | location=CASCJQ010000009:1349805-1353884(+) | protein_length=988 | sequence_SO=supercontig | SO=protein_coding_gene | is_pseudo=false
+CAI7720589.1         -            988 2956at5820           -            695         0 1035.8  80.8   4   4  2.5e-109  1.6e-105  352.5  13.8   490   694   770   981   748   982 0.95 | transcript=PVPAM_090035400_t1 | gene=PVPAM_090035400 | organism=Plasmodium_vivax_PAM | gene_product=conserved oligomeric Golgi complex subunit 2, putative | transcript_product=conserved oligomeric Golgi complex subunit 2, putative | location=CASCJQ010000009:1349805-1353884(+) | protein_length=988 | sequence_SO=supercontig | SO=protein_coding_gene | is_pseudo=false
+#
+# Program:         hmmsearch
+# Version:         3.4 (Aug 2023)
+# Pipeline mode:   SEARCH
+# Query file:      /v3/work/00_inventory/busco/busco_downloads/lineages/plasmodium_odb10/hmms/2956at5820.hmm
+# Target file:     /v3/inputs/annotations/plasmodb-68/PAM.proteins.fa
+# Option settings: hmmsearch --domtblout /v3/work/00_inventory/busco/PAM_proteins/run_plasmodium_odb10/hmmer_output/initial_run_results/2956at5820.out --cpu 1 /v3/work/00_inventory/busco/busco_downloads/lineages/plasmodium_odb10/hmms/2956at5820.hmm /v3/inputs/annotations/plasmodb-68/PAM.proteins.fa 
+# Current dir:     /v3/work/00_inventory/busco
+# Date:            Tue May 19 17:38:45 2026
+# [ok]

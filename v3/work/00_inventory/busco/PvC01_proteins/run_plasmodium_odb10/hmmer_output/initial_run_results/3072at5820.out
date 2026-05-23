@@ -1,0 +1,27 @@
+#                                                                            --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name        accession   tlen query name           accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+#------------------- ---------- ----- -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+SCO73073.1           -           1247 3072at5820           -            710         0 1058.6  55.9   1   7  7.8e-170  1.6e-166  554.2   9.9     1   241    28   268    28   291 0.97 exonuclease I, putative [Plasmodium vivax]
+SCO73073.1           -           1247 3072at5820           -            710         0 1058.6  55.9   2   7  2.1e-104  4.3e-101  338.0   3.4   235   414   301   480   294   487 0.96 exonuclease I, putative [Plasmodium vivax]
+SCO73073.1           -           1247 3072at5820           -            710         0 1058.6  55.9   3   7   1.3e-13   2.6e-10   37.9   0.0   413   456   550   593   538   614 0.86 exonuclease I, putative [Plasmodium vivax]
+SCO73073.1           -           1247 3072at5820           -            710         0 1058.6  55.9   4   7   6.1e-13   1.3e-09   35.6   3.6   470   575   785   897   733   919 0.63 exonuclease I, putative [Plasmodium vivax]
+SCO73073.1           -           1247 3072at5820           -            710         0 1058.6  55.9   5   7   1.6e-09   3.4e-06   24.3   0.2   566   629   996  1062   984  1096 0.79 exonuclease I, putative [Plasmodium vivax]
+SCO73073.1           -           1247 3072at5820           -            710         0 1058.6  55.9   6   7    0.0072        15    2.3   0.1   616   650  1107  1139  1091  1150 0.83 exonuclease I, putative [Plasmodium vivax]
+SCO73073.1           -           1247 3072at5820           -            710         0 1058.6  55.9   7   7   3.5e-29   7.3e-26   89.3   4.8   656   710  1193  1247  1186  1247 0.95 exonuclease I, putative [Plasmodium vivax]
+SCO70806.1           -            633 3072at5820           -            710   1.1e-13   49.1  26.8   1   2   9.2e-10   1.9e-06   25.1   0.0    66   191    76   197     1   204 0.78 flap endonuclease 1, putative [Plasmodium vivax]
+SCO70806.1           -            633 3072at5820           -            710   1.1e-13   49.1  26.8   2   2   1.2e-06    0.0026   14.7  27.8   243   370   200   311   190   520 0.62 flap endonuclease 1, putative [Plasmodium vivax]
+SCO71133.1           -           1447 3072at5820           -            710   2.3e-06   24.8   1.5   1   5   6.7e-06     0.014   12.3   1.2    45   108    72   139    68   145 0.83 DNA repair protein RAD2, putative [Plasmodium vivax]
+SCO71133.1           -           1447 3072at5820           -            710   2.3e-06   24.8   1.5   2   5      0.22   4.6e+02   -2.6   0.4   513   560   319   365   242   397 0.67 DNA repair protein RAD2, putative [Plasmodium vivax]
+SCO71133.1           -           1447 3072at5820           -            710   2.3e-06   24.8   1.5   3   5      0.66   1.4e+03   -4.2   2.0   415   467   502   559   489   612 0.47 DNA repair protein RAD2, putative [Plasmodium vivax]
+SCO71133.1           -           1447 3072at5820           -            710   2.3e-06   24.8   1.5   4   5   1.1e-09   2.3e-06   24.8   1.5   126   193  1101  1168  1082  1184 0.80 DNA repair protein RAD2, putative [Plasmodium vivax]
+SCO71133.1           -           1447 3072at5820           -            710   2.3e-06   24.8   1.5   5   5   0.00092       1.9    5.2   0.1   278   318  1189  1227  1181  1239 0.82 DNA repair protein RAD2, putative [Plasmodium vivax]
+#
+# Program:         hmmsearch
+# Version:         3.4 (Aug 2023)
+# Pipeline mode:   SEARCH
+# Query file:      /v3/work/00_inventory/busco/busco_downloads/lineages/plasmodium_odb10/hmms/3072at5820.hmm
+# Target file:     /v3/inputs/annotations/ncbi-datasets/PvC01.proteins.fa
+# Option settings: hmmsearch --domtblout /v3/work/00_inventory/busco/PvC01_proteins/run_plasmodium_odb10/hmmer_output/initial_run_results/3072at5820.out --cpu 1 /v3/work/00_inventory/busco/busco_downloads/lineages/plasmodium_odb10/hmms/3072at5820.hmm /v3/inputs/annotations/ncbi-datasets/PvC01.proteins.fa 
+# Current dir:     /v3/work/00_inventory/busco
+# Date:            Tue May 19 18:37:29 2026
+# [ok]

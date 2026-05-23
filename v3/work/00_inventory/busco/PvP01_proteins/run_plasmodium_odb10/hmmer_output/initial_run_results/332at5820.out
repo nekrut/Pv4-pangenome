@@ -1,0 +1,17 @@
+#                                                                            --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name        accession   tlen query name           accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+#------------------- ---------- ----- -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+PVP01_1409200.1-p1   -           2191 332at5820            -           1809         0 3793.4 136.3   1   3         0         0 2380.3  60.1     1  1116     1  1200     1  1240 0.94 | transcript=PVP01_1409200.1 | gene=PVP01_1409200 | organism=Plasmodium_vivax_P01 | gene_product=carbamoyl phosphate synthetase, putative | transcript_product=carbamoyl phosphate synthetase, putative | location=PvP01_14_v2:415340-422210(-) | protein_length=2191 | sequence_SO=chromosome | SO=protein_coding_gene | is_pseudo=false
+PVP01_1409200.1-p1   -           2191 332at5820            -           1809         0 3793.4 136.3   2   3   1.4e-23   4.7e-20   68.9  26.7  1125  1216  1303  1470  1286  1484 0.86 | transcript=PVP01_1409200.1 | gene=PVP01_1409200 | organism=Plasmodium_vivax_P01 | gene_product=carbamoyl phosphate synthetase, putative | transcript_product=carbamoyl phosphate synthetase, putative | location=PvP01_14_v2:415340-422210(-) | protein_length=2191 | sequence_SO=chromosome | SO=protein_coding_gene | is_pseudo=false
+PVP01_1409200.1-p1   -           2191 332at5820            -           1809         0 3793.4 136.3   3   3         0         0 1347.9  33.5  1204  1809  1581  2191  1516  2191 0.94 | transcript=PVP01_1409200.1 | gene=PVP01_1409200 | organism=Plasmodium_vivax_P01 | gene_product=carbamoyl phosphate synthetase, putative | transcript_product=carbamoyl phosphate synthetase, putative | location=PvP01_14_v2:415340-422210(-) | protein_length=2191 | sequence_SO=chromosome | SO=protein_coding_gene | is_pseudo=false
+PVP01_0720900.1-p1   -            989 332at5820            -           1809   6.9e-06   21.9   1.5   1   1     3e-09   9.8e-06   21.4   1.5   391   532    51   204    36   212 0.68 | transcript=PVP01_0720900.1 | gene=PVP01_0720900 | organism=Plasmodium_vivax_P01 | gene_product=para-aminobenzoic acid synthetase, putative | transcript_product=para-aminobenzoic acid synthetase, putative | location=PvP01_07_v2:906435-909875(+) | protein_length=989 | sequence_SO=chromosome | SO=protein_coding_gene | is_pseudo=false
+#
+# Program:         hmmsearch
+# Version:         3.4 (Aug 2023)
+# Pipeline mode:   SEARCH
+# Query file:      /v3/work/00_inventory/busco/busco_downloads/lineages/plasmodium_odb10/hmms/332at5820.hmm
+# Target file:     /v3/inputs/annotations/plasmodb-68/PvP01.proteins.fa
+# Option settings: hmmsearch --domtblout /v3/work/00_inventory/busco/PvP01_proteins/run_plasmodium_odb10/hmmer_output/initial_run_results/332at5820.out --cpu 1 /v3/work/00_inventory/busco/busco_downloads/lineages/plasmodium_odb10/hmms/332at5820.hmm /v3/inputs/annotations/plasmodb-68/PvP01.proteins.fa 
+# Current dir:     /v3/work/00_inventory/busco
+# Date:            Tue May 19 17:36:27 2026
+# [ok]

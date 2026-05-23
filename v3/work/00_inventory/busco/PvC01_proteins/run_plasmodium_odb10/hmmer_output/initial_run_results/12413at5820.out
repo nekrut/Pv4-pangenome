@@ -1,0 +1,23 @@
+#                                                                            --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name        accession   tlen query name           accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+#------------------- ---------- ----- -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+SCO74652.1           -            182 12413at5820          -            142   2.6e-89  295.0   7.3   1   1   2.4e-92     3e-89  294.8   7.3     1   142    35   177    35   177 0.98 RNA-binding protein, putative [Plasmodium vivax]
+SCO72353.1           -            299 12413at5820          -            142   6.8e-05   21.4   0.0   1   2   5.4e-08   6.8e-05   21.4   0.0    46   125    34   111     5   122 0.86 RNA-binding protein, putative [Plasmodium vivax]
+SCO72353.1           -            299 12413at5820          -            142   6.8e-05   21.4   0.0   2   2      0.97   1.2e+03   -2.1   0.7    13    46   235   268   225   285 0.72 RNA-binding protein, putative [Plasmodium vivax]
+SCO74171.1           -           1033 12413at5820          -            142   0.00041   18.8   0.2   1   2   4.9e-05     0.062   11.8   0.1    27   137   621   731   601   733 0.82 splicing factor 1, putative [Plasmodium vivax]
+SCO74171.1           -           1033 12413at5820          -            142   0.00041   18.8   0.2   2   2    0.0086        11    4.5   0.0    79   121   773   815   755   832 0.79 splicing factor 1, putative [Plasmodium vivax]
+SCO75490.1           -            885 12413at5820          -            142    0.0039   15.7   3.7   1   3      0.14   1.8e+02    0.6   0.0    59   115    27    83    12    93 0.68 polyadenylate-binding protein, putative [Plasmodium vivax]
+SCO75490.1           -            885 12413at5820          -            142    0.0039   15.7   3.7   2   3   9.5e-06     0.012   14.1   0.3    45   129   101   182    86   195 0.86 polyadenylate-binding protein, putative [Plasmodium vivax]
+SCO75490.1           -            885 12413at5820          -            142    0.0039   15.7   3.7   3   3      0.45   5.7e+02   -1.1   0.0    44    74   446   475   430   512 0.70 polyadenylate-binding protein, putative [Plasmodium vivax]
+SCO74870.1           -            475 12413at5820          -            142    0.0087   14.5   3.0   1   2      0.14   1.7e+02    0.6   0.0    49    99    21    69    15    82 0.77 splicing factor 3B subunit 4, putative [Plasmodium vivax]
+SCO74870.1           -            475 12413at5820          -            142    0.0087   14.5   3.0   2   2   1.5e-05     0.019   13.4   0.9    38   131    98   187    83   195 0.80 splicing factor 3B subunit 4, putative [Plasmodium vivax]
+#
+# Program:         hmmsearch
+# Version:         3.4 (Aug 2023)
+# Pipeline mode:   SEARCH
+# Query file:      /v3/work/00_inventory/busco/busco_downloads/lineages/plasmodium_odb10/hmms/12413at5820.hmm
+# Target file:     /v3/inputs/annotations/ncbi-datasets/PvC01.proteins.fa
+# Option settings: hmmsearch --domtblout /v3/work/00_inventory/busco/PvC01_proteins/run_plasmodium_odb10/hmmer_output/initial_run_results/12413at5820.out --cpu 1 /v3/work/00_inventory/busco/busco_downloads/lineages/plasmodium_odb10/hmms/12413at5820.hmm /v3/inputs/annotations/ncbi-datasets/PvC01.proteins.fa 
+# Current dir:     /v3/work/00_inventory/busco
+# Date:            Tue May 19 18:29:32 2026
+# [ok]

@@ -1,0 +1,28 @@
+#                                                                            --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name        accession   tlen query name           accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+#------------------- ---------- ----- -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+SCO70522.1           -           1296 1942at5820           -            861         0 1300.8  72.9   1   7  1.6e-307  3.3e-304 1009.9  26.0     1   546     1   573     1   582 0.97 inositol 5-phosphatase, putative [Plasmodium vivax]
+SCO70522.1           -           1296 1942at5820           -            861         0 1300.8  72.9   2   7     9e-11   1.9e-07   28.1   0.0   549   579   614   644   605   651 0.88 inositol 5-phosphatase, putative [Plasmodium vivax]
+SCO70522.1           -           1296 1942at5820           -            861         0 1300.8  72.9   3   7   2.3e-37   4.8e-34  116.1  12.4   578   656   721   799   718   809 0.95 inositol 5-phosphatase, putative [Plasmodium vivax]
+SCO70522.1           -           1296 1942at5820           -            861         0 1300.8  72.9   4   7   1.3e-17   2.7e-14   50.8   0.1   653   705   827   879   820   889 0.93 inositol 5-phosphatase, putative [Plasmodium vivax]
+SCO70522.1           -           1296 1942at5820           -            861         0 1300.8  72.9   5   7   2.1e-08   4.4e-05   20.3   0.0   701   733   990  1023   984  1026 0.89 inositol 5-phosphatase, putative [Plasmodium vivax]
+SCO70522.1           -           1296 1942at5820           -            861         0 1300.8  72.9   6   7   1.1e-17   2.4e-14   51.0   9.3   762   832  1144  1222  1083  1240 0.79 inositol 5-phosphatase, putative [Plasmodium vivax]
+SCO70522.1           -           1296 1942at5820           -            861         0 1300.8  72.9   7   7   2.4e-13     5e-10   36.7   0.1   810   861  1243  1294  1225  1294 0.88 inositol 5-phosphatase, putative [Plasmodium vivax]
+SCO73542.1           -            820 1942at5820           -            861     1e-31  108.4  31.3   1   4   3.1e-05     0.065    9.8   0.6    21   109    21   116     1   175 0.71 inositol-polyphosphate 5-phosphatase, putative [Plasmodium vivax]
+SCO73542.1           -            820 1942at5820           -            861     1e-31  108.4  31.3   2   4   1.7e-05     0.037   10.6   0.2   120   154   212   246   199   253 0.82 inositol-polyphosphate 5-phosphatase, putative [Plasmodium vivax]
+SCO73542.1           -            820 1942at5820           -            861     1e-31  108.4  31.3   3   4   1.7e-24   3.6e-21   73.5   5.8   163   330   289   457   280   475 0.87 inositol-polyphosphate 5-phosphatase, putative [Plasmodium vivax]
+SCO73542.1           -            820 1942at5820           -            861     1e-31  108.4  31.3   4   4   6.5e-11   1.4e-07   28.6   5.2   383   501   562   689   558   803 0.77 inositol-polyphosphate 5-phosphatase, putative [Plasmodium vivax]
+SCO70403.1           -           2754 1942at5820           -            861   3.9e-24   83.3  50.0   1   4      0.31   6.4e+02   -3.4   3.5    62   112    75   128    40   158 0.70 inositol-phosphate phosphatase, putative [Plasmodium vivax]
+SCO70403.1           -           2754 1942at5820           -            861   3.9e-24   83.3  50.0   2   4   2.7e-17   5.6e-14   49.7   6.1   127   252   710   853   690   857 0.74 inositol-phosphate phosphatase, putative [Plasmodium vivax]
+SCO70403.1           -           2754 1942at5820           -            861   3.9e-24   83.3  50.0   3   4   6.4e-15   1.3e-11   41.9  18.5   246   437   981  1187   973  1201 0.63 inositol-phosphate phosphatase, putative [Plasmodium vivax]
+SCO70403.1           -           2754 1942at5820           -            861   3.9e-24   83.3  50.0   4   4   0.00013      0.27    7.8   0.3   431   504  1351  1426  1340  1447 0.78 inositol-phosphate phosphatase, putative [Plasmodium vivax]
+#
+# Program:         hmmsearch
+# Version:         3.4 (Aug 2023)
+# Pipeline mode:   SEARCH
+# Query file:      /v3/work/00_inventory/busco/busco_downloads/lineages/plasmodium_odb10/hmms/1942at5820.hmm
+# Target file:     /v3/inputs/annotations/ncbi-datasets/PvC01.proteins.fa
+# Option settings: hmmsearch --domtblout /v3/work/00_inventory/busco/PvC01_proteins/run_plasmodium_odb10/hmmer_output/initial_run_results/1942at5820.out --cpu 1 /v3/work/00_inventory/busco/busco_downloads/lineages/plasmodium_odb10/hmms/1942at5820.hmm /v3/inputs/annotations/ncbi-datasets/PvC01.proteins.fa 
+# Current dir:     /v3/work/00_inventory/busco
+# Date:            Tue May 19 18:36:55 2026
+# [ok]

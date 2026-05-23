@@ -1,0 +1,27 @@
+#                                                                            --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name        accession   tlen query name           accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+#------------------- ---------- ----- -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+SCO74060.1           -           1206 1050at5820           -           1053   3.7e-50  169.2  20.1   1   1   6.2e-52   9.8e-49  164.5  20.1    97   891   101   908    72   912 0.78 isoleucine--tRNA ligase, putative [Plasmodium vivax]
+SCO74293.1           -           1071 1050at5820           -           1053   4.8e-18   62.9  27.9   1   7   2.4e-10   3.8e-07   26.8   2.6    91   261    68   231     5   283 0.75 valine--tRNA ligase, putative [Plasmodium vivax]
+SCO74293.1           -           1071 1050at5820           -           1053   4.8e-18   62.9  27.9   2   7   9.1e-06     0.014   11.6   0.0   397   443   310   355   300   369 0.85 valine--tRNA ligase, putative [Plasmodium vivax]
+SCO74293.1           -           1071 1050at5820           -           1053   4.8e-18   62.9  27.9   3   7   1.3e-06    0.0021   14.4   0.7   527   583   417   476   395   480 0.78 valine--tRNA ligase, putative [Plasmodium vivax]
+SCO74293.1           -           1071 1050at5820           -           1053   4.8e-18   62.9  27.9   4   7   5.7e-06    0.0089   12.3   0.0   678   733   578   633   573   639 0.91 valine--tRNA ligase, putative [Plasmodium vivax]
+SCO74293.1           -           1071 1050at5820           -           1053   4.8e-18   62.9  27.9   5   7   1.4e-05     0.022   11.0   0.1   766   853   702   802   671   808 0.73 valine--tRNA ligase, putative [Plasmodium vivax]
+SCO74293.1           -           1071 1050at5820           -           1053   4.8e-18   62.9  27.9   6   7     0.026        41    0.2   0.0   860   889   845   874   839   922 0.73 valine--tRNA ligase, putative [Plasmodium vivax]
+SCO74293.1           -           1071 1050at5820           -           1053   4.8e-18   62.9  27.9   7   7     0.061        96   -1.0   0.3   431   470   949   988   936  1002 0.79 valine--tRNA ligase, putative [Plasmodium vivax]
+SCO72191.1           -            748 1050at5820           -           1053   4.3e-13   46.5  29.4   1   3   4.7e-07   0.00074   15.9   3.9   107   230   171   303   123   323 0.71 methionine--tRNA ligase, putative [Plasmodium vivax]
+SCO72191.1           -            748 1050at5820           -           1053   4.3e-13   46.5  29.4   2   3   1.8e-05     0.029   10.6   0.9   531   609   326   405   313   409 0.72 methionine--tRNA ligase, putative [Plasmodium vivax]
+SCO72191.1           -            748 1050at5820           -           1053   4.3e-13   46.5  29.4   3   3   1.7e-11   2.7e-08   30.6  10.5   686   886   512   715   503   719 0.72 methionine--tRNA ligase, putative [Plasmodium vivax]
+SCO71218.1           -           1302 1050at5820           -           1053   2.6e-08   30.6   5.8   1   3   3.5e-08   5.6e-05   19.6   0.7   104   171   157   226   149   318 0.75 leucine--tRNA ligase, putative [Plasmodium vivax]
+SCO71218.1           -           1302 1050at5820           -           1053   2.6e-08   30.6   5.8   2   3     0.027        42    0.2   0.0   561   579   601   619   591   621 0.84 leucine--tRNA ligase, putative [Plasmodium vivax]
+SCO71218.1           -           1302 1050at5820           -           1053   2.6e-08   30.6   5.8   3   3   1.6e-05     0.025   10.9   0.1   712   754   914   956   910   980 0.86 leucine--tRNA ligase, putative [Plasmodium vivax]
+#
+# Program:         hmmsearch
+# Version:         3.4 (Aug 2023)
+# Pipeline mode:   SEARCH
+# Query file:      /v3/work/00_inventory/busco/busco_downloads/lineages/plasmodium_odb10/hmms/1050at5820.hmm
+# Target file:     /v3/inputs/annotations/ncbi-datasets/PvC01.proteins.fa
+# Option settings: hmmsearch --domtblout /v3/work/00_inventory/busco/PvC01_proteins/run_plasmodium_odb10/hmmer_output/initial_run_results/1050at5820.out --cpu 1 /v3/work/00_inventory/busco/busco_downloads/lineages/plasmodium_odb10/hmms/1050at5820.hmm /v3/inputs/annotations/ncbi-datasets/PvC01.proteins.fa 
+# Current dir:     /v3/work/00_inventory/busco
+# Date:            Tue May 19 18:29:29 2026
+# [ok]

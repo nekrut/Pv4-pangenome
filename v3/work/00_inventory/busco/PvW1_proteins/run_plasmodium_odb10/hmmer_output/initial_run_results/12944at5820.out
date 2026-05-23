@@ -1,0 +1,16 @@
+#                                                                            --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name        accession   tlen query name           accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+#------------------- ---------- ----- -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+CAG9482561.1         -            206 12944at5820          -            165   2.7e-92  305.7   9.3   1   1   1.4e-95   4.3e-92  305.0   9.3     1   165    33   206    33   206 0.96 | transcript=PVW1_040019600_t1 | gene=PVW1_040019600 | organism=Plasmodium_vivax_PvW1 | gene_product=Dolichol-linked oligosaccharide biosynthesis enzyme, putative [Source:UniProtKB/TrEMBL;Acc:A0A1G4H847] | transcript_product=Dolichol-linked oligosaccharide biosynthesis enzyme, putative [Source:UniProtKB/TrEMBL;Acc:A0A1G4H847] | location=CAJZCX010000013:634229-634849(-) | protein_length=206 | sequence_SO=supercontig | SO=protein_coding_gene | is_pseudo=false
+CAG9471887.1         -            782 12944at5820          -            165      0.71    8.3  10.3   1   2   3.1e-06    0.0095   14.4   1.4    38    88   230   280   218   287 0.88 | transcript=PVW1_140016400_t1 | gene=PVW1_140016400 | organism=Plasmodium_vivax_PvW1 | gene_product=PPM-type phosphatase domain-containing protein [Source:UniProtKB/TrEMBL;Acc:A0A1G4H489] | transcript_product=PPM-type phosphatase domain-containing protein [Source:UniProtKB/TrEMBL;Acc:A0A1G4H489] | location=CAJZCX010000003:544935-547607(+) | protein_length=782 | sequence_SO=supercontig | SO=protein_coding_gene | is_pseudo=false
+CAG9471887.1         -            782 12944at5820          -            165      0.71    8.3  10.3   2   2      0.61   1.8e+03   -2.8   2.1    64   109   576   618   554   624 0.55 | transcript=PVW1_140016400_t1 | gene=PVW1_140016400 | organism=Plasmodium_vivax_PvW1 | gene_product=PPM-type phosphatase domain-containing protein [Source:UniProtKB/TrEMBL;Acc:A0A1G4H489] | transcript_product=PPM-type phosphatase domain-containing protein [Source:UniProtKB/TrEMBL;Acc:A0A1G4H489] | location=CAJZCX010000003:544935-547607(+) | protein_length=782 | sequence_SO=supercontig | SO=protein_coding_gene | is_pseudo=false
+#
+# Program:         hmmsearch
+# Version:         3.4 (Aug 2023)
+# Pipeline mode:   SEARCH
+# Query file:      /v3/work/00_inventory/busco/busco_downloads/lineages/plasmodium_odb10/hmms/12944at5820.hmm
+# Target file:     /v3/inputs/annotations/plasmodb-68/PvW1.proteins.fa
+# Option settings: hmmsearch --domtblout /v3/work/00_inventory/busco/PvW1_proteins/run_plasmodium_odb10/hmmer_output/initial_run_results/12944at5820.out --cpu 1 /v3/work/00_inventory/busco/busco_downloads/lineages/plasmodium_odb10/hmms/12944at5820.hmm /v3/inputs/annotations/plasmodb-68/PvW1.proteins.fa 
+# Current dir:     /v3/work/00_inventory/busco
+# Date:            Tue May 19 17:28:18 2026
+# [ok]

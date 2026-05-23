@@ -1,0 +1,18 @@
+#                                                                            --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name        accession   tlen query name           accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+#------------------- ---------- ----- -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+SCO71882.1           -            534 5966at5820           -            417  5.9e-208  689.8  30.8   1   2  2.9e-144  6.1e-141  469.0  28.3     1   253     1   292     1   349 0.91 tRNA (adenine(58)-N(1))-methyltransferase non-catalytic subunit TRM6, putative [Plasmodium vivax]
+SCO71882.1           -            534 5966at5820           -            417  5.9e-208  689.8  30.8   2   2   1.5e-68   3.2e-65  219.6   0.0   264   416   378   532   354   533 0.82 tRNA (adenine(58)-N(1))-methyltransferase non-catalytic subunit TRM6, putative [Plasmodium vivax]
+SCO73259.1           -            143 5966at5820           -            417      0.18    9.5   7.5   1   1   0.00011      0.23    9.2   7.5   223   314    39   131    35   134 0.65 conserved Plasmodium protein, unknown function [Plasmodium vivax]
+SCO72509.1           -            320 5966at5820           -            417      0.33    8.7  11.9   1   2     5e-06      0.01   13.6   6.1   210   308    71   174    48   199 0.54 hypothetical protein, conserved [Plasmodium vivax]
+SCO72509.1           -            320 5966at5820           -            417      0.33    8.7  11.9   2   2      0.96     2e+03   -3.8   0.3   274   289   282   297   248   312 0.47 hypothetical protein, conserved [Plasmodium vivax]
+#
+# Program:         hmmsearch
+# Version:         3.4 (Aug 2023)
+# Pipeline mode:   SEARCH
+# Query file:      /v3/work/00_inventory/busco/busco_downloads/lineages/plasmodium_odb10/hmms/5966at5820.hmm
+# Target file:     /v3/inputs/annotations/ncbi-datasets/PvC01.proteins.fa
+# Option settings: hmmsearch --domtblout /v3/work/00_inventory/busco/PvC01_proteins/run_plasmodium_odb10/hmmer_output/initial_run_results/5966at5820.out --cpu 1 /v3/work/00_inventory/busco/busco_downloads/lineages/plasmodium_odb10/hmms/5966at5820.hmm /v3/inputs/annotations/ncbi-datasets/PvC01.proteins.fa 
+# Current dir:     /v3/work/00_inventory/busco
+# Date:            Tue May 19 18:58:02 2026
+# [ok]

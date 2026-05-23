@@ -1,0 +1,16 @@
+#                                                                            --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name        accession   tlen query name           accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+#------------------- ---------- ----- -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+SCO69950.1           -           2850 365at5820            -           2034         0 3046.1 183.5   1   2  4.9e-301  1.5e-297  989.1  66.2     1   708     1   974     1   998 0.86 formin 2, putative [Plasmodium vivax]
+SCO69950.1           -           2850 365at5820            -           2034         0 3046.1 183.5   2   2         0         0 2056.9 109.7   680  1987  1065  2694  1009  2726 0.87 formin 2, putative [Plasmodium vivax]
+SCO68509.1           -            384 365at5820            -           2034     0.023   10.2  11.8   1   1   1.1e-05     0.032    9.7  11.8   529   608   103   240    80   287 0.44 casein kinase II beta chain, putative [Plasmodium vivax]
+#
+# Program:         hmmsearch
+# Version:         3.4 (Aug 2023)
+# Pipeline mode:   SEARCH
+# Query file:      /v3/work/00_inventory/busco/busco_downloads/lineages/plasmodium_odb10/hmms/365at5820.hmm
+# Target file:     /v3/inputs/annotations/ncbi-datasets/PvT01.proteins.fa
+# Option settings: hmmsearch --domtblout /v3/work/00_inventory/busco/PvT01_proteins/run_plasmodium_odb10/hmmer_output/initial_run_results/365at5820.out --cpu 1 /v3/work/00_inventory/busco/busco_downloads/lineages/plasmodium_odb10/hmms/365at5820.hmm /v3/inputs/annotations/ncbi-datasets/PvT01.proteins.fa 
+# Current dir:     /v3/work/00_inventory/busco
+# Date:            Tue May 19 18:39:54 2026
+# [ok]

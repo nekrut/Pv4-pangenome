@@ -1,0 +1,358 @@
+# hmmsearch :: search profile(s) against a sequence database
+# HMMER 3.4 (Aug 2023); http://hmmer.org/
+# Copyright (C) 2023 Howard Hughes Medical Institute.
+# Freely distributed under the BSD open source license.
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+# query HMM file:                  /v3/work/00_inventory/busco/busco_downloads/lineages/plasmodium_odb10/hmms/99at5820.hmm
+# target sequence database:        /v3/inputs/annotations/plasmodb-68/Sal-I.proteins.fa
+# per-dom hits tabular output:     /v3/work/00_inventory/busco/Sal-I_proteins/run_plasmodium_odb10/hmmer_output/initial_run_results/99at5820.out
+# number of worker threads:        1
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+Query:       99at5820  [M=3542]
+Scores for complete sequences (score includes all domains):
+   --- full sequence ---   --- best 1 domain ---    -#dom-
+    E-value  score  bias    E-value  score  bias    exp  N  Sequence        Description
+    ------- ------ -----    ------- ------ -----   ---- --  --------        -----------
+          0 4960.5   0.0          0 4955.5   0.0    3.0  1  PVX_095305.1-p1  | transcript=PVX_095305.1 | gene=PVX_095305 
+  ------ inclusion threshold ------
+          1    4.0   6.1        1.2    3.8   6.1    1.0  1  PVX_118665.1-p1  | transcript=PVX_118665.1 | gene=PVX_118665 
+        4.9    1.8  17.0        6.6    1.3  17.0    1.0  1  PVX_079855.1-p1  | transcript=PVX_079855.1 | gene=PVX_079855 
+          8    1.1  11.2         10    0.7  11.2    1.0  1  PVX_114470.1-p1  | transcript=PVX_114470.1 | gene=PVX_114470 
+
+
+Domain annotation for each sequence (and alignments):
+>> PVX_095305.1-p1  | transcript=PVX_095305.1 | gene=PVX_095305 | organism=Plasmodium_vivax_Sal-1 | gene_product=hypothe
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ! 4955.5   0.0         0         0       1    3542 []       1    4675 []       1    4675 [] 0.88
+
+  Alignments for each domain:
+  == domain 1  score: 4955.5 bits;  conditional E-value: 0
+         99at5820    1 mrkkgniknfeleeiifiLLnCLDedkklnreivntLkiyilyhkceiLnyvfsfLqiqkvshenqklLLlLvyDfvhyciynrfsnvvdey 92  
+                       m+k+++i+n+eleei+fiLLnCLDe+kk+nrei+ntLk+y+lyhk++iLnyvfsfLqiqkvshenqklLL+Lv+Dfvhyci+nrfsn+vdey
+  PVX_095305.1-p1    1 MKKRASITNLELEEIVFILLNCLDEEKKKNREIINTLKVYLLYHKGQILNYVFSFLQIQKVSHENQKLLLCLVHDFVHYCIHNRFSNTVDEY 92  
+                       9******************************************************************************************* PP
+
+         99at5820   93 leeekkneekeekk..................................sieeekfkDikifdnilkytffDGDeyCfvye............ 138 
+                       l e k+ne ++e++                                  +  +++fkD++if+nil+y+ffDGDe+Cf+++            
+  PVX_095305.1-p1   93 LGEVKRNEGEKEERadtqkggsqrggpqkgdtqkgdtqkgdtqkggtpKGGTHRFKDLHIFENILRYSFFDGDEHCFLFQdlpegvflpdav 184 
+                       *******99888778********************************9999***************************************** PP
+
+         99at5820  139 ............................................vkrd..qnifkedkisklkclkkeeykllliekkklak.......... 174 
+                                                                          +if++dki+kl clkkeeyk+++i+++++ak          
+  PVX_095305.1-p1  185 plqgdaaeggalqqadsgtafsprgslhfatdgnprersmrsmkR--RgrGSIFHQDKIAKLLCLKKEEYKTAMISEREAAKksnqctsphv 274 
+                       *****************************************9633..3359************************99887662222222222 PP
+
+         99at5820  175 ............knkkkseinniikniinfiLnellfikknDerhkimtkLLiLCiikeDaylkkkiiekvnyyldseed............ 242 
+                                   ++k++seinnii+nii+f+Lne+lfik++Derh imtkLLiLC+++eDaylkkk++ek+n++l                 
+  PVX_095305.1-p1  275 aasaplggippqNAKETSEINNIIRNIIDFLLNEILFIKRDDERHGIMTKLLILCVVREDAYLKKKLVEKLNGCLRVGGAalpvgdspeggg 366 
+                       22222222222156899**********************************************************97655899999999999 PP
+
+         99at5820  243 ............adekvsn.......knnnnnnkknskvyiyleLyidifmqvPhLtknvLidifksilsldksnkhidliykillkifqdi 315 
+                                   +              +++n   +n+k+ +yleLyid+++qvPhLtk+vL+++f+++lsl++s+ h+dl++k++++ifqdi
+  PVX_095305.1-p1  367 kptiekggsekvS-----GekvgndkVSSENVRGDNPKLRAYLELYIDLLTQVPHLTKSVLNEFFSAVLSLGQSTTHADLTHKVMTQIFQDI 453 
+                       9988888544443.....355555652333444569******************************************************** PP
+
+         99at5820  316 qfPsvLysiiymnkkykkknfiipnkkntnvyiendviqLslentseDtcttytresslnsnllkkse.........ifndnikqeklykkk 398 
+                       qfPsvLy+ii+mn+kyk+knfiipnk++tnv+iend+i+LslentseDtcttytresslnsn+l +s+         ifn++ +q++l + +
+  PVX_095305.1-p1  454 QFPSVLYTIIRMNTKYKRKNFIIPNKHHTNVFIENDIIHLSLENTSEDTCTTYTRESSLNSNVLGRSNtpgksntpgIFNNSGRQANLRRPT 545 
+                       **************************************************************9876543333334449************** PP
+
+         99at5820  399 ekek..........ssehliknanngekeeskekds................................dskaeseke.....klilksnikd 443 
+                       e+e+          sseh++++a            s                                d  a+s++      ++++k+ +++
+  PVX_095305.1-p1  546 EGERngkgtsykdpSSEHTSRDA------------SpcevfydahngevepdgwdtppggecsqgrgsDGGAQSNWGpskgkNNLVKAFQRE 625 
+                       *9994444444444223322222............134555555666677788888888888888776333333333566668999999999 PP
+
+         99at5820  444 kkesdlase.....eenkedkytvekedengknk...................dekeeklkkkdavknseekekkkiedikkvckklldlyl 511 
+                       +k+s++a+e     +e +e++ytv++  e + ++                      +   + + a +   eke++k+e+ ++vc+k+l+lyl
+  PVX_095305.1-p1  626 AKPSEHAAEpfrneSEGSEKYYTVKNWREGAVCQvpegsggspkekgdlprgkGILSPVASPHAAAQLPLEKERRKAEETTAVCSKMLALYL 717 
+                       **99999876432134468899999988877777888899999766665544211222333444578889********************** PP
+
+         99at5820  512 niilslkysnenyikiLyiiskllLyinneelikkvlevyiyyflvffnstinnveisdissiynndsqikinyinlkelPnyniinsfrii 603 
+                       +++++lk+s+eny+k+Lyiiskl+Ly+nn+el+kkv+e +i+yflvff++t+nn+++s+is+ yn+d q++iny+++++lP+y++insfr+i
+  PVX_095305.1-p1  718 SMLPTLKRSSENYRKLLYIISKLVLYVNNDELTKKVIEECIHYFLVFFHATVNNASVSEISGGYNKDLQVHINYSSVRGLPQYSVINSFRSI 809 
+                       ******************************************************************************************** PP
+
+         99at5820  604 LqkclnkihlivvftnqilkvayalLyilinknysinnsksivkkitsnsyvstfieiieifnifisCiytnnlvfnllkeklksnnkveii 695 
+                       Lqkcl+kihliv+f+++ lkvaya+L+ +in+ny+++n+k+i+++itsn+yvstf+e++e+fnifi+C+yt+nlv+++++ek+ks++kve+i
+  PVX_095305.1-p1  810 LQKCLTKIHLIVGFASHTLKVAYAILLTMINQNYTMSNAKGIANYITSNVYVSTFVEVMELFNIFITCAYTSNLVLSFIREKVKSSVKVEVI 901 
+                       ******************************************************************************************** PP
+
+         99at5820  696 vsLiiLkqyillissdlssdniivylsnqnikkk.keykksfkkLnsfisDtek.nntnieliiqivaslserfnnDLsiiyllLeisLlLs 785 
+                       vsL++L+qy+llis+d++s+n +v+lsnqn+k+k + ykk+fk+L+sfi+D+++ n++n+el+iq+va+ls+rf+nDLsiiy+lLei+LlLs
+  PVX_095305.1-p1  902 VSLTLLRQYLLLISGDIGSGNNMVHLSNQNMKTKgGPYKKCFKRLSSFITDANRtNTSNVELVIQMVANLSDRFCNDLSIIYMLLEINLLLS 993 
+                       *********************************9779****************9999*********************************** PP
+
+         99at5820  786 yheyfnsfsynpnvilgLlpkvssPLlvlyk.eeakkeevsekiqikdnatskenslnldkkekniy.................eekrnnme 859 
+                       yh++f+s s+npnvilgLlp+vssPL++ly+  ea+++   e+   ++++ + ++s +   k +                     +   +  
+  PVX_095305.1-p1  994 YHQHFDSSSFNPNVILGLLPRVSSPLCDLYMgGEAEQSGKGEQSGKSRKSGKGKQSGK-SGKGE--AlppsgeppleghhpgerINPMGHHG 1082
+                       ******************************8677777766655543333322222222.22211..12355666777777744344445567 PP
+
+         99at5820  860 deiktWlliPnkyvikilqlllnillseeskfklknkkyGysvdengtiidinnesnevlkngfkynklfyDihlhffiymlPsvsyikkLi 951 
+                       +eiktWlliP+k+viki+++l+n llseeskfk++nkkyGy vd++gtiid+nn++nevl+ngf++n++f+D+h+++fi+m Psv+y+kkLi
+  PVX_095305.1-p1 1083 QEIKTWLLIPSKHVIKIMHFLINTLLSEESKFKKQNKKYGYEVDDSGTIIDANNNANEVLQNGFHHNRMFFDVHWNYFIFMDPSVPYVKKLI 1174
+                       9******************************************************************************************* PP
+
+         99at5820  952 slafqknfslysprvLypLlfeylvniknsykivlllLkaLniiCisLynymvkknLrihsrlhfnylvLPniskiisvLfmyclhenfvvs 1043
+                       +laf+k++++ysprvLypLlfe+lv++k+s+kiv ++LkaLni+Ci+L+n+mvkk+Lr+hsrlh+nylvLPnis++isvLfmyc+h+++vvs
+  PVX_095305.1-p1 1175 ALAFEKHLCFYSPRVLYPLLFELLVDVKRSFKIVATILKALNIMCILLHNHMVKKHLRLHSRLHYNYLVLPNISNVISVLFMYCTHSDIVVS 1266
+                       ******************************************************************************************** PP
+
+         99at5820 1044 fLslqLisilrsftqnksiksvqsltyfelllkvlkl..............klleeslysrkilkei...........rkkkekekkakyyk 1110
+                       fLslqLisilrsftq+ksi+svqs+tyfelll++++l               l++ slysr+ilk+i           +k+++++k+a+yy+
+  PVX_095305.1-p1 1267 FLSLQLISILRSFTQGKSIASVQSFTYFELLLSLVRLssqavarkgdraaaPLAGGSLYSRRILKRIialsgggkkkpQKHTAAVKRARYYR 1358
+                       **************************************************99***********************99989999********* PP
+
+         99at5820 1111 sliklsykkiakriskkllnvyLks......kkkkrkinkiikkyfnvdlkei....................................... 1157
+                       sl+k +y++ia+ isk++l+v+L++      k ++rk+++i+++yf+vdl+                                         
+  PVX_095305.1-p1 1359 SLVKGCYREIARGISKRVLDVSLNVsrgacrKGWRRKVRAIARHYFSVDLGGAsnerhasekhanetplgaippmvsapcsldvgtlvganp 1450
+                       ************************999999999*********************************************************** PP
+
+         99at5820 1158 ............ieslslkitkilrllkklfssyvkkeiekiynyqtyiitffyilvellriiqsnkefentlfylsiinllCvivkylkek 1237
+                                   +esls+++t+il+l++++fs yvk+ei +iyny++y++tffy+lvel+r+++s++efe+tl+yls+inllCvi+k++++k
+  PVX_095305.1-p1 1451 pgegeastchaaTESLSSRFTRILHLMQTFFSGYVKVEIGRIYNYHSYVTTFFYSLVELVRLLKSSQEFESTLLYLSVINLLCVIIKQFSGK 1542
+                       ******************************************************************************************** PP
+
+         99at5820 1238 yanklitiffkLneevaineeenllltLyknfsyiykthffnlykekCttlytknCiecikllrkdi...kkssenqlDfnnfilLsnkyns 1326
+                       yank+itiffkLneev++neeenl+ltLy+nfs+iy++hff lykekCtt y++nCieci+l+r+d+   kks+enqlDfnnf+lLsnky++
+  PVX_095305.1-p1 1543 YANKMITIFFKLNEEVPVNEEENLFLTLYMNFSTIYRSHFFILYKEKCTTPYMRNCIECIQLMRADClsfKKSTENQLDFNNFMLLSNKYST 1634
+                       ******************************************************************9999********************** PP
+
+         99at5820 1327 Diskeknienvlqylneyqkvykknilkidekree...........................krlesevvnkekkkvn.leklkkkLdksne 1390
+                       D+s+ekn++++++ylneyq+vy++++l++   +e                              ++++vv++++ +vn +++lkk+L++sne
+  PVX_095305.1-p1 1635 DMSREKNVSRFVHYLNEYQAVYRARLLQLGICSEGgggphhkgekkhmdvkripptgenfhdGAMQNKVVHETTLQVNhQDDLKKRLYQSNE 1726
+                       *****************************8877768889999999************9999866899999999999873689********** PP
+
+         99at5820 1391 vvkksvelledklgsyilqndinfsisksfkqeitsyyiesllkkknllrvlfllnniyysDvankkssafslfGkssnvinaenirntLiL 1482
+                       vv+ks++lledklgsyilqndi+fsisk+f+q++ts+yies+l+k+nl+rvlflln+iy+sDvan+kssafs+fGks+nvinaenir+tLiL
+  PVX_095305.1-p1 1727 VVRKSYQLLEDKLGSYILQNDISFSISKQFHQDVTSHYIESILHKNNLFRVLFLLNSIYHSDVANRKSSAFSIFGKSTNVINAENIRSTLIL 1818
+                       ******************************************************************************************** PP
+
+         99at5820 1483 smGlclkkipskkfedLykirevyvnekifaiyvkkvyvnlvkyn.afenilfdkddsv..ieeivkeiisnkqkyvdekykdeinlnikik 1571
+                       +mG+cl+k+ps+k++dL+ ir+vy+nek+faiyvk+vyv+l++y+ ++ n+++++dds    e+iv+e++sn+q+yvde+yk+ei++n+ ++
+  PVX_095305.1-p1 1819 TMGKCLRKVPSSKVRDLHVIRDVYMNEKLFAIYVKHVYVPLARYStSLGNAIHGRDDSPltEEHIVREVLSNRQRYVDERYKEEIKMNALVR 1910
+                       *******************************************97369**********866799**************************** PP
+
+         99at5820 1572 kellsslekeesasse.............kss....................ssnlskeklsllifqlLvDPiiislyqekeavlqksLlks 1630
+                       +++ls +ek++s +s+             + +                     + l++ek++ll+fqlLvDPii+sly+ekea+lq+sLl++
+  PVX_095305.1-p1 1911 RDILSGVEKRDSGESSqcgpppmsakvnvN-AsvsasvnsaslanaanpanlWKRLPSEKINLLVFQLLVDPIICSLYEEKEATLQASLLRA 2001
+                       ************999855555555544440.044444555556666666554556************************************* PP
+
+         99at5820 1631 lkkiskklkkikeki.................................lnylDiknkrciikDiCeeylkenlnevkfysclyiykfiiiys 1689
+                       lk++skklk+i+                                    +n+lD ++++c+ +D+C++y+ken+++v+fyscl+iyk+i+i+s
+  PVX_095305.1-p1 2002 LKMVSKKLKCIRAPGgeaahrhrmkwdhyanrvrgnleatttpqpyvvTNTLDRPTRWCSTQDVCDHYMKENVKDVPFYSCLCIYKYIVIHS 2093
+                       ************6659999************************************************************************* PP
+
+         99at5820 1690 sLyylsnidnltlPisnisltsvekfalyfkr...eiinkseyylkeeikkkesedeqtsneeki......lelekeefyikeik.ldkkie 1771
+                       +Lyy++n+d+++lPis++++t+v  +alyfk+   +i++kse++l+e++k + s++++ sne+k+      l+l+ke+++i +i+ ++++ie
+  PVX_095305.1-p1 2094 ALYYVANFDEQPLPISSMTFTGVGLYALYFKQerrIITSKSEHQLREDLKASGSNGSNGSNESKKknqfeeLHLQKEQHIIGKIDmWGRMIE 2185
+                       *******************************87778***************99888877776633355666899*********964789998 PP
+
+         99at5820 1772 lk.......snkviyndyfsellke......................kldiskdsyeillnaLktiyyslfireplnfqsvfiivdvLinLl 1834
+                       ++       s++viyndyfs+l+ke                      +ldi +d+y++l+naLk+i+y+lf++ep++f+s++iivdvL++Ll
+  PVX_095305.1-p1 2186 WEyrtidapSERVIYNDYFSDLVKErgskndstqggaspghsppsepHLDIPSDTYANLKNALKSIHYCLFVEEPMQFHSALIIVDVLTRLL 2277
+                       875555555899***********984444444444444444444444589****************************************** PP
+
+         99at5820 1835 Lkivlnekkkiyqkfqenke...............................kiknlrekelkekkkkkkeikkkrkkklekekikkk..gee 1893
+                       Lkivlne+k++y k++++++                               +++++r+++ +ek+k+k+ + +k k+++ k++++k+    +
+  PVX_095305.1-p1 2278 LKIVLNERKQMYCKWHDSADvvgqgpnmagqnadesltnegvaakngasnlDTAHVRSDQPEEKQKNKSANISKGKRTIPKGNVTKEkkLPQ 2369
+                       *************************************************9999999************999999***********7633234 PP
+
+         99at5820 1894 iaedsnnesnnk.............................................kdeekenkledkdaklkkkltkekkkkkkrkksek 1940
+                        ++++n +  n+                                              de++ +k    d++    ++++kkkkk++k+ e+
+  PVX_095305.1-p1 2370 GVNHTNGKMRNNeltggtpngeeqtehhggatsshvahqrggdgrakwdgrrksqrgADEDTGSKGILPDEHF-PGVAEQKKKKKSSKRIER 2460
+                       5566663333334888999999999999999999999********9999999888874444444444445555.556666666666777777 PP
+
+         99at5820 1941 kkne...................nnkifknlskyekislsclnliisiivkavldinsffllskiikyihdlcvstniaevkflsfriitei 2013
+                       +++e                   n+k f++l+kye ++lsclnli siivka+l+++sf+l++kiiky+hd+cv+tniaevkf+sfri+++i
+  PVX_095305.1-p1 2461 GHTEghtddplranrrenkllhsNSKPFRYLRKYEGAALSCLNLISSIIVKAALRMDSFPLQFKIIKYLHDTCVATNIAEVKFVSFRILSQI 2552
+                       77777777777777777777777********************************************************************* PP
+
+         99at5820 2014 vinsa...................................ekseeketkekekkk.kekekk....keeeneneeenksllsynssnfekyf 2065
+                       vi++a                                   +k+++  +++ +++k k++e++        n+n++e k+l+s+nssnfekyf
+  PVX_095305.1-p1 2553 VISAArvgtpnggcrmgpldgappaedtqtghlkvcrlseKKHHHGGEIDGDRSKgKRHEDEathgGGRANRNDHEGKNLSSCNSSNFEKYF 2644
+                       ****9******************************999873333333333332220111222233466789********************* PP
+
+         99at5820 2066 slifssssnisygnlfDlnnekekkeeeaens..........vsdkdkeneekekssekylnssnenekn..keekdekekdklndaegs.. 2143
+                       +lifs+ +nisygn+fD+n+e++++ + +e s          +s+++   + +++sse+yl s  + e n  ke    + ++  + ++g+  
+  PVX_095305.1-p1 2645 NLIFSPGGNISYGNFFDANDEHGGMPNRNEGShesgggdsgrCSSHRGGPDGQNDSSEHYLDSVSNAEGNviKETAI-EGAGGNHLHRGEtt 2735
+                       *********************9988764443333454444445566667799********97766655542222222.22222222222222 PP
+
+         99at5820 2144 ...ssksk..............................................................sldekneakeeknylCeCiglL 2170
+                              +                                                              + d k+eak e+nylCeCiglL
+  PVX_095305.1-p1 2736 lrgE---SggagklnghvgsdkgsnssimydpsdsdsppggaadhvphmdeggslqeqssgekneakneaKSDVKSEAKGERNYLCECIGLL 2824
+                       3330...134445556666667777899999***************************999999988877666679**************** PP
+
+         99at5820 2171 iPyikDkekiisylsicsicvllgklkkvkilskshfiyfflnslevilnvlsklkkkakkkkkkekkkklikk..............kkls 2248
+                       iPy+kD+e++isyls+cs+c+llgkl++ ++ls++hf++ff+n++evil+ ls+   +  + ++ ++k + ++               k + 
+  PVX_095305.1-p1 2825 IPYVKDPERVISYLSVCSVCALLGKLQRGRMLSNWHFVHFFFNRIEVILDGLSSPVTNRVRGRRAKRKAERERAtwkgkldgqigntwKGKF 2916
+                       **************************************************999865554444444443322222232234444776776777 PP
+
+         99at5820 2249 dkekentlekdkinekkeeeks..ekkkke.............................................................. 2276
+                       d ++ ntle+d  n+ ++   +  e+   +                                                              
+  PVX_095305.1-p1 2917 DGQTGNTLEEDPPNQPNSGAANcdEHP--Teetfrdegeginektccsdgggsdgggsvredevgeiaydeakvtkeglnglprcerghrre 3006
+                       888888998885554444333310222..13578999******************************************************* PP
+
+         99at5820 2277 .........kfsyknirknlyniefekkfykkvekkikeinsekyqkkfikkls....nkkkeinlyklindiiiedfsedekksyvntLis 2355
+                                ++sy+n+r+n++++e +++f+ kv ++i+eins++yq++fik+l+    n++ke+n+yk ++d i+e++s++ek+syvn+Lis
+  PVX_095305.1-p1 3007 prhrrlappRISYQNVRSNMRTVERHNHFLVKVGTRIREINSGTYQTRFIKRLGqltnNTRKETNVYKAMSDAISEVLSNEEKMSYVNCLIS 3098
+                       *****************************************************9999999******************************** PP
+
+         99at5820 2356 cihnknkkvsinglnlLmyyilkekidkedieiimnrvlselyyytkvnvlneksknn.............................akaki 2418
+                       cihnkn++v+i+glnlLmy++++e+++++di++im+rvl+e++yytkvnvl+++ ++                              a+++i
+  PVX_095305.1-p1 3099 CIHNKNRQVAISGLNLLMYHTWAEQMSHQDIDVIMSRVLNEVHYYTKVNVLSGSGESPpsgsfskaapprgtdepnstleayrimcrARQDI 3190
+                       ******************************************************98878899999999999999999988888884422233 PP
+
+         99at5820 2419 k......dnnekdrenekkkenelnntleayynikkkrkkknilersLriilllCrkhfyvvinklCtlqskynyehiyfiymiCnneklls 2504
+                       +      + n++d +++++++n+ +n  ++    +k  + +n+ler+Lr il+lCrkh+yvv+nklCtlqsky+yeh+yfi+miCnne+ll+
+  PVX_095305.1-p1 3191 EgppkgiSINRCDIRSDNRRDNQRDNPRDNL--RDKPVRGPNVLERALRTILVLCRKHPYVVVNKLCTLQSKYSYEHVYFIFMICNNERLLH 3280
+                       3666655688888888888888888888874..58999****************************************************** PP
+
+         99at5820 2505 ktldylfyilnnldtlklnnnlsnilsllfhflkfrnkyiknytkkyfveLflivfyvLGvkqLshlsg....................... 2573
+                       kt+dylfy++n+ldtlkl++nlsnilsl+fhflkfrn yi++yt++yfveLf+i+f+vLGvkqL+h+sg                       
+  PVX_095305.1-p1 3281 KTMDYLFYLMNSLDTLKLTKNLSNILSLVFHFLKFRNGYIRDYTRRYFVELFVIMFFVLGVKQLGHMSGvlagaakgravvaekvfppsgll 3372
+                       **********************************************************************************8777774444 PP
+
+         99at5820 2574 ..eksldkenllkeekeeek......eeekakeeni........lekereeadkaidkekdkagiae......................... 2624
+                         +      ++ +  +++++      ++++ + +++                              e                         
+  PVX_095305.1-p1 3373 ggQ------HYAEGGEQVKEqakceaKSQRGEADKTeeaigvgsP---------------------Elpeqahevdqkedpiarvaekfqer 3437
+                       441......443333333331111111111111111122222220.....................12222233344445555566788888 PP
+
+         99at5820 2625 ...................eenikveeennnekss....ekeeatkkkkeaevnkslfflkkksilksknikkvskeeynkkiyknytcsis 2693
+                                          ++   ++++nn e +s      ++  +++ ++ vn+s+ffl+++sil+s+++kkvs+ e++kkiy+nytcsis
+  PVX_095305.1-p1 3438 rglpgrsntkgapthsssyTKGSPTQSRNNAEGNSrdgaPLHTDSDDNFAKVVNGSPFFLRRNSILRSRDVKKVSRGEFSKKIYQNYTCSIS 3529
+                       89999999999998887774444444444444444233322333444456779*************************************** PP
+
+         99at5820 2694 vnntlnClniikellkLnkkkkiLnyyeehkveklLyykhsfenGLikliyifLkn.................................... 2749
+                       vnntlnC++iikellkLn +k+iL+++ee++veklLyykhsfenGLi+l+ i+L++                                    
+  PVX_095305.1-p1 3530 VNNTLNCVRIIKELLKLNGRKRILRRIEEGRVEKLLYYKHSFENGLIELVRIVLSSlggsatrgsgsrgsgargstireclprgsgtreift 3621
+                       ******************************************************************************************** PP
+
+         99at5820 2750 ........rndcikvfkfleiflksdninyiiisliiLsqlllCikieeenlkiieplikvLysinckkyknslvtkyLhisfknlfiifkd 2833
+                               r++c+kvf fleiflks+niny+iisl++LsqlllC++ie+en++++ep+ikvLy++nc+++ n++vtkyLh++f+nlfiifk+
+  PVX_095305.1-p1 3622 rgsaprceRGHCRKVFGFLEIFLKSRNINYVIISLVTLSQLLLCMRIEPENVRLVEPIIKVLYQVNCTHK-NDVVTKYLHLCFTNLFIIFKA 3712
+                       ********************************************************************65.********************* PP
+
+         99at5820 2834 ik.yqlekglelfsllikeeyalniLnsLfknldnndknivketLkafkeackyesekWPsslcasfikiLtdpkviliylnsseamekiyi 2924
+                       i+ yqle+g+e++++likeey++n+LnsLf+ ld++d+nivk+tLkafkeacky++e+WPs+lcas++++Lt+p+v+l+ylnssea+eki++
+  PVX_095305.1-p1 3713 IReYQLETGSEPVPVLIKEEYTINVLNSLFVCLDSSDRNIVKVTLKAFKEACKYAREQWPSPLCASYVNMLTTPSVVLPYLNSSEAAEKILM 3804
+                       *55***************************************************************************************** PP
+
+         99at5820 2925 Ckilceifrtlrrekek...........klkkkhlyeiatyLlihLvDkrkkvsknvWlaLkellkfkfsdhvndtLlyfdeklflskeek. 3004
+                       C+il+e+frtlr+e+++           +l kkhlyeiatyL+ihLvDkrk+vs+nvW+aLke+l++kfs+hvn+tLl+fd+klfl++ ++ 
+  PVX_095305.1-p1 3805 CGILREVFRTLRWERQHkgglapptqtdTLPKKHLYEIATYLMIHLVDKRKNVSANVWKALKEFLRWKFSHHVNSTLLFFDRKLFLPSGVEv 3896
+                       ******************************************************************************************** PP
+
+         99at5820 3005 .....................eqkeinikkeyfkkkkak.........................gskkeiseg.vsnvpakeekkilnkaae 3049
+                                            + ++i+i++eyfk+  a+                         gs++ei+ g vs+vpa++    +++ +e
+  PVX_095305.1-p1 3897 gryevvrsqvcrssvgmsqvdRARRITIQREYFKGAGAEdgeqvategadydyfakglawdeksGSVGEINGGmVSCVPADTPTGGHTNGVE 3988
+                       *******************99899*********88666688889999999999999999999988889999886677777766533333222 PP
+
+         99at5820 3050 k........................ekkkekkkkke.........kktnksdeesdnsesesskevkkqkiniyyykllveifiPLiiCiDt 3108
+                       k                        +         +           +nksdeesd s+++ss evkk++in++yykllvei+iPLiiCiDt
+  PVX_095305.1-p1 3989 KahqqkvaphgrnttgetrkkgkkkK---------RnrnrrhstnSAANKSDEESDVSQAYSSPEVKKERINTHYYKLLVEICIPLIICIDT 4071
+                       23445667778888887654433211.........22234455557789******************************************* PP
+
+         99at5820 3109 kvsykknlfaelnkyLyendleekeeennsl...kkendeLyniffkelklnlkninslyrayiiLlnsrkyldkklwnvnipisedvikmi 3197
+                       kvs+k++lfaeln yLy++d++ +ee+++sl   kke+d+L++iff++l++nl++ins+yra+iiLl+sr+yl+ ++wn+nipi++d+++mi
+  PVX_095305.1-p1 4072 KVSLKRDLFAELNGYLYGADVDPNEEDRDSLlsvKKESDRLQQIFFTNLQMNLSSINSVYRAFIILLSSRSYLGPNVWNANIPINQDIERMI 4163
+                       ***************************9986555899******************************************************* PP
+
+         99at5820 3198 keyelkstksraehvLfGdLknyvkeeiekie........................kkkekskennisksftsvltdsilntlsetlnysyD 3265
+                       +eye+kstksraehvLfGdL nyv+  + +                          k++e + e++++ks+tsv+tdsil+tls+t+nysyD
+  PVX_095305.1-p1 4164 SEYEVKSTKSRAEHVLFGDLSNYVHAWKRRERtdgggradiggrtnrgeekqnkrkKQREATGEDAMQKSITSVWTDSILSTLSGTFNYSYD 4255
+                       ************************765543335588999999999999999999877778899***************************** PP
+
+         99at5820 3266 nfflnd.svs...kseisk.ekdskegnakeelenykv......................ndsdeedelvyekkekenkiesskfdkv.... 3326
+                       ++f+n+ svs   ++e+++  kds+eg+a ++++n+ +                      ++s++e+ + +  k++e k+++ +++++    
+  PVX_095305.1-p1 4256 GAFFNSlSVSgsvEKEYTHrGKDSTEGDAIRTPHNCSRagwshqairmintsgsappngdTSSEAEN-ADVC-KGEEPKEGPPPQGRAisth 4345
+                       **99963333222456666699**************999*****************99753333333.4434.6778999999999996666 PP
+
+         99at5820 3327 .lsereeekensaigeneenn...esidekeeenlkke................................nnenyaifisssdeeeekeeee 3382
+                        l +re++k+++aig++ e        d+ + e+++k                                 ++enya+f+sssde+e   +e+
+  PVX_095305.1-p1 4346 nLPSREGKKDHAAIGPSGEPPsdePPSDDGQGEEVNKVapleegqgtplqrefpsleykrsrsfdpgerlSDENYANFVSSSDEGEAAGKEA 4437
+                       6667889999999998855435554455555555555566677777777777*********************************9977666 PP
+
+         99at5820 3383 kre.................................kqfikrklkkiqllnkkynfvdkfknvqnlkleenlLywielLkflkedPpelvls 3441
+                       + +                                 +qf++rk++kiqlln+ky++vdkfk+ +nlk+e++lL+wie+LkflkedPpe++l+
+  PVX_095305.1-p1 4438 SVKdayvrdapvgdsllkdvtppaellnytpgdrsaSQFVRRKFAKIQLLNQKYSCVDKFKTALNLKMETSLLQWIEMLKFLKEDPPEFILP 4529
+                       655699************************************************************************************** PP
+
+         99at5820 3442 keik.....adffessLiCaLtvikfvsltlnckklykvtlkslnee..............................deekkieemyfihlL 3498
+                       +e+k     adffes+LiC+L+v+kfvsl+l+ckkl++vtlk + +e                              + ++++ee+yfi+lL
+  PVX_095305.1-p1 4530 RETKaahhlADFFESALICTLSVVKFVSLSLDCKKLHRVTLKRMRREaqalevaptvnaklsakvggagggeeephsHLQHRMEETYFIQLL 4621
+                       **994444459*********************************9999****************************999************* PP
+
+         99at5820 3499 sistkLeaLcssiskqLctfLqeekt..........hlpiiksLsiLsiLkpsa 3542
+                       si++kLeaLcssiskqLc+fLqe+++          hlpii++L+ LsiLkps+
+  PVX_095305.1-p1 4622 SICMKLEALCSSISKQLCAFLQEQHApdrtpdraaeHLPIIRALAALSILKPSP 4675
+                       **********************97633333444455****************95 PP
+
+>> PVX_118665.1-p1  | transcript=PVX_118665.1 | gene=PVX_118665 | organism=Plasmodium_vivax_Sal-1 | gene_product=hypothe
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?    3.8   6.1   0.00086       1.2    2045    2141 ..     123     220 ..      92     248 .. 0.31
+
+  Alignments for each domain:
+  == domain 1  score: 3.8 bits;  conditional E-value: 0.00086
+         99at5820 2045 eneeenksllsynssnfekyfslifssssnisygn...lfDlnnekekkeeeaensvsdkdkeneekekssekylnssneneknkeekdeke 2133
+                        +e+e k+ll   s+++e   +    ++ +i y +    ++  +e+++k++++++s+s+++k++   +++++k ++ +++++++k++kd+++
+  PVX_118665.1-p1  123 IEERELKELLRLLSADYENERNKRRRRARRIRYHDeegSLEEVDENNDKRDDGDDSSSNDKKDD--GDDGASKDKKDDEDDGESKDKKDDGD 212 
+                       2222222222222222222222222222222221100011111111111111222111111111..11111111111111111122222222 PP
+
+         99at5820 2134 kdklndae 2141
+                        +  +d++
+  PVX_118665.1-p1  213 DGASKDKQ 220 
+                       22222222 PP
+
+>> PVX_079855.1-p1  | transcript=PVX_079855.1 | gene=PVX_079855 | organism=Plasmodium_vivax_Sal-1 | gene_product=RNA hel
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?    1.3  17.0    0.0048       6.6     383     536 ..      36     191 ..      16     206 .. 0.49
+
+  Alignments for each domain:
+  == domain 1  score: 1.3 bits;  conditional E-value: 0.0048
+         99at5820 383 eifndnikqeklykkkekekssehliknanngekeeskekdsdskaesekeklilksnikdkkesdlaseeenkedkytvekedengknkdeke 476
+                      + f dn+ ++ l +kk+++++ e   ++ +++e++ +++ +s++++  e+ +++ ++++++k+ +++++++ +++++ +v  + +++  +   +
+  PVX_079855.1-p1  36 KRFMDNLVNSFLSEKKKRKDQEED-EEEGEEDEEGTEQNDSSENSSGAENGDNLEEKERRKKDGKEKKKKSVKEKKQNQVPVNMQKSLLETFYK 128
+                      335666666555555544433333.333333333444444444444444445555555444444444444333333333333344444444444 PP
+
+         99at5820 477 eklkkkdavknseekekkkiedikkvckklldlylniils.lk..ysnenyikiLyiiskllL 536
+                       kl+ +++  ++ e  +kk e+i +  +k l+  l+ + +  k    +en++ i  + sk  L
+  PVX_079855.1-p1 129 MKLQAQNNEVDETEEIRKKEEKILAQVSKALNAPLQSVKErAKgiVYSENFKTIWTLPSKYKL 191
+                      444444444444555566666676666677777666544313322346777777776666655 PP
+
+>> PVX_114470.1-p1  | transcript=PVX_114470.1 | gene=PVX_114470 | organism=Plasmodium_vivax_Sal-1 | gene_product=E3 ubiq
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?    0.7  11.2    0.0074        10    1839    1945 ..     234     358 ..     213     389 .. 0.38
+
+  Alignments for each domain:
+  == domain 1  score: 0.7 bits;  conditional E-value: 0.0074
+         99at5820 1839 lnekkkiyqkfqenke.........kiknlrekelkekkkkkkeikkkrkkklekekikkk...geeiaedsnnesnnk...kdeek..... 1910
+                       +n k+++ +   +++          ++k+ ++++ ++ + k++ +k+k+kk   +++i k+   g  +ae +n ++ n+   +   k     
+  PVX_114470.1-p1  234 VNRKNRLGEGAPKEQGtraersqtdEAKDEETHHSNDVMIKDRGVKEKYKKLRFEDDIYKEnadG--KAEATNGQDPNQgetN---Kmeeks 320 
+                       33444433333332222222221111222222222222223333333333333333333331111..1111111111111111...111112 PP
+
+         99at5820 1911 ...enkledkdaklkkkltkekkkkkkrkksekkknen 1945
+                          + + + + +++++++++++k+++++kk++ ++n+ 
+  PVX_114470.1-p1  321 pisKDNQNVEPTNANNTSEEKNKTEENAKKNTTSENDG 358 
+                       33322222222222222222223333333333333333 PP
+
+
+
+Internal pipeline statistics summary:
+-------------------------------------
+Query model(s):                            1  (3542 nodes)
+Target sequences:                       5530  (3904354 residues searched)
+Passed MSV filter:                      2902  (0.524774); expected 110.6 (0.02)
+Passed bias filter:                      403  (0.0728752); expected 110.6 (0.02)
+Passed Vit filter:                       183  (0.0330922); expected 5.5 (0.001)
+Passed Fwd filter:                        86  (0.0155515); expected 0.1 (1e-05)
+Initial search space (Z):               5530  [actual number of targets]
+Domain search space  (domZ):               4  [number of targets reported over threshold]
+# CPU time: 6.28u 0.10s 00:00:06.38 Elapsed: 00:00:06.36
+# Mc/sec: 2172.93
+//
+[ok]

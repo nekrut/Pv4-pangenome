@@ -1,0 +1,17 @@
+#                                                                            --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name        accession   tlen query name           accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+#------------------- ---------- ----- -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+PVX_117395.1-p1      -            183 12126at5820          -            172  2.6e-109  361.0   9.7   1   1  1.6e-112    3e-109  360.9   9.7     1   172     1   183     1   183 0.98 | transcript=PVX_117395.1 | gene=PVX_117395 | organism=Plasmodium_vivax_Sal-1 | gene_product=U3 small nucleolar ribonucleoprotein protein IMP3, putative | transcript_product=U3 small nucleolar ribonucleoprotein protein IMP3, putative | location=Pv_Sal1_chr12:1848517-1849068(-) | protein_length=183 | sequence_SO=chromosome | SO=protein_coding_gene | is_pseudo=false
+PVX_080245.1-p1      -            189 12126at5820          -            172   4.4e-06   25.0   0.0   1   1   3.2e-09   5.9e-06   24.6   0.0    27   157    26   162    16   164 0.87 | transcript=PVX_080245.1 | gene=PVX_080245 | organism=Plasmodium_vivax_Sal-1 | gene_product=40S ribosomal protein S9, putative | transcript_product=40S ribosomal protein S9, putative | location=Pv_Sal1_chr10:502587-503674(-) | protein_length=189 | sequence_SO=chromosome | SO=protein_coding_gene | is_pseudo=false
+PVX_002580.1-p1      -            376 12126at5820          -            172     0.014   13.6   2.6   1   2     1e-05     0.019   13.2   0.1   122   155    90   122    47   135 0.82 | transcript=PVX_002580.1 | gene=PVX_002580 | organism=Plasmodium_vivax_Sal-1 | gene_product=pseudouridine synthetase, putative | transcript_product=pseudouridine synthetase, putative | location=Pv_Sal1_chr04:117492-119011(+) | protein_length=376 | sequence_SO=chromosome | SO=protein_coding_gene | is_pseudo=false
+PVX_002580.1-p1      -            376 12126at5820          -            172     0.014   13.6   2.6   2   2      0.15   2.8e+02   -0.4   0.3   110   151   308   349   298   354 0.79 | transcript=PVX_002580.1 | gene=PVX_002580 | organism=Plasmodium_vivax_Sal-1 | gene_product=pseudouridine synthetase, putative | transcript_product=pseudouridine synthetase, putative | location=Pv_Sal1_chr04:117492-119011(+) | protein_length=376 | sequence_SO=chromosome | SO=protein_coding_gene | is_pseudo=false
+#
+# Program:         hmmsearch
+# Version:         3.4 (Aug 2023)
+# Pipeline mode:   SEARCH
+# Query file:      /v3/work/00_inventory/busco/busco_downloads/lineages/plasmodium_odb10/hmms/12126at5820.hmm
+# Target file:     /v3/inputs/annotations/plasmodb-68/Sal-I.proteins.fa
+# Option settings: hmmsearch --domtblout /v3/work/00_inventory/busco/Sal-I_proteins/run_plasmodium_odb10/hmmer_output/initial_run_results/12126at5820.out --cpu 1 /v3/work/00_inventory/busco/busco_downloads/lineages/plasmodium_odb10/hmms/12126at5820.hmm /v3/inputs/annotations/plasmodb-68/Sal-I.proteins.fa 
+# Current dir:     /v3/work/00_inventory/busco
+# Date:            Tue May 19 17:25:47 2026
+# [ok]

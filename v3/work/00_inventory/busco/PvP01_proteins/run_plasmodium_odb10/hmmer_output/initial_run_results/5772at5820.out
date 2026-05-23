@@ -1,0 +1,18 @@
+#                                                                            --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name        accession   tlen query name           accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+#------------------- ---------- ----- -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+PVP01_1209600.1-p1   -            557 5772at5820           -            380  5.3e-205  679.5  29.4   1   4   4.5e-18   1.5e-14   52.6   0.1     5    46    43    84    39    89 0.92 | transcript=PVP01_1209600.1 | gene=PVP01_1209600 | organism=Plasmodium_vivax_P01 | gene_product=rhomboid protease ROM6, putative | transcript_product=rhomboid protease ROM6, putative | location=PvP01_12_v2:394045-395718(+) | protein_length=557 | sequence_SO=chromosome | SO=protein_coding_gene | is_pseudo=false
+PVP01_1209600.1-p1   -            557 5772at5820           -            380  5.3e-205  679.5  29.4   2   4      0.27   8.7e+02   -2.6   0.0    43    59   121   137   120   146 0.75 | transcript=PVP01_1209600.1 | gene=PVP01_1209600 | organism=Plasmodium_vivax_P01 | gene_product=rhomboid protease ROM6, putative | transcript_product=rhomboid protease ROM6, putative | location=PvP01_12_v2:394045-395718(+) | protein_length=557 | sequence_SO=chromosome | SO=protein_coding_gene | is_pseudo=false
+PVP01_1209600.1-p1   -            557 5772at5820           -            380  5.3e-205  679.5  29.4   3   4     0.015        49    1.5   0.0    54    67   186   199   173   205 0.78 | transcript=PVP01_1209600.1 | gene=PVP01_1209600 | organism=Plasmodium_vivax_P01 | gene_product=rhomboid protease ROM6, putative | transcript_product=rhomboid protease ROM6, putative | location=PvP01_12_v2:394045-395718(+) | protein_length=557 | sequence_SO=chromosome | SO=protein_coding_gene | is_pseudo=false
+PVP01_1209600.1-p1   -            557 5772at5820           -            380  5.3e-205  679.5  29.4   4   4  3.9e-193  1.3e-189  628.8  21.2    66   380   238   555   232   555 0.99 | transcript=PVP01_1209600.1 | gene=PVP01_1209600 | organism=Plasmodium_vivax_P01 | gene_product=rhomboid protease ROM6, putative | transcript_product=rhomboid protease ROM6, putative | location=PvP01_12_v2:394045-395718(+) | protein_length=557 | sequence_SO=chromosome | SO=protein_coding_gene | is_pseudo=false
+PVP01_1018800.1-p1   -            416 5772at5820           -            380    0.0014   16.5   8.6   1   1   1.5e-06    0.0049   14.7   8.6   112   294   237   407   230   413 0.78 | transcript=PVP01_1018800.1 | gene=PVP01_1018800 | organism=Plasmodium_vivax_P01 | gene_product=rhomboid protease ROM9, putative | transcript_product=rhomboid protease ROM9, putative | location=PvP01_10_v2:833785-835369(+) | protein_length=416 | sequence_SO=chromosome | SO=protein_coding_gene | is_pseudo=false
+#
+# Program:         hmmsearch
+# Version:         3.4 (Aug 2023)
+# Pipeline mode:   SEARCH
+# Query file:      /v3/work/00_inventory/busco/busco_downloads/lineages/plasmodium_odb10/hmms/5772at5820.hmm
+# Target file:     /v3/inputs/annotations/plasmodb-68/PvP01.proteins.fa
+# Option settings: hmmsearch --domtblout /v3/work/00_inventory/busco/PvP01_proteins/run_plasmodium_odb10/hmmer_output/initial_run_results/5772at5820.out --cpu 1 /v3/work/00_inventory/busco/busco_downloads/lineages/plasmodium_odb10/hmms/5772at5820.hmm /v3/inputs/annotations/plasmodb-68/PvP01.proteins.fa 
+# Current dir:     /v3/work/00_inventory/busco
+# Date:            Tue May 19 17:43:15 2026
+# [ok]

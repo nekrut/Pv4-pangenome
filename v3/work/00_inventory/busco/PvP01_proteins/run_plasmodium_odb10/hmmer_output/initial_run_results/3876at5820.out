@@ -1,0 +1,17 @@
+#                                                                            --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name        accession   tlen query name           accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+#------------------- ---------- ----- -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+PVP01_1135000.1-p1   -            907 3876at5820           -            598  3.1e-259  859.9  36.5   1   4   4.8e-09   3.1e-05   21.0   0.1     2    41    62   115    61   124 0.67 | transcript=PVP01_1135000.1 | gene=PVP01_1135000 | organism=Plasmodium_vivax_P01 | gene_product=filamin domain-containing protein, putative | transcript_product=filamin domain-containing protein, putative | location=PvP01_11_v2:1490182-1492905(+) | protein_length=907 | sequence_SO=chromosome | SO=protein_coding_gene | is_pseudo=false
+PVP01_1135000.1-p1   -            907 3876at5820           -            598  3.1e-259  859.9  36.5   2   4   4.2e-57   2.8e-53  179.7   6.5    40   158   142   273   136   277 0.91 | transcript=PVP01_1135000.1 | gene=PVP01_1135000 | organism=Plasmodium_vivax_P01 | gene_product=filamin domain-containing protein, putative | transcript_product=filamin domain-containing protein, putative | location=PvP01_11_v2:1490182-1492905(+) | protein_length=907 | sequence_SO=chromosome | SO=protein_coding_gene | is_pseudo=false
+PVP01_1135000.1-p1   -            907 3876at5820           -            598  3.1e-259  859.9  36.5   3   4   8.8e-48   5.7e-44  149.0   2.0   159   254   341   439   335   442 0.96 | transcript=PVP01_1135000.1 | gene=PVP01_1135000 | organism=Plasmodium_vivax_P01 | gene_product=filamin domain-containing protein, putative | transcript_product=filamin domain-containing protein, putative | location=PvP01_11_v2:1490182-1492905(+) | protein_length=907 | sequence_SO=chromosome | SO=protein_coding_gene | is_pseudo=false
+PVP01_1135000.1-p1   -            907 3876at5820           -            598  3.1e-259  859.9  36.5   4   4    2e-161  1.3e-157  524.3   8.3   261   597   534   890   520   891 0.92 | transcript=PVP01_1135000.1 | gene=PVP01_1135000 | organism=Plasmodium_vivax_P01 | gene_product=filamin domain-containing protein, putative | transcript_product=filamin domain-containing protein, putative | location=PvP01_11_v2:1490182-1492905(+) | protein_length=907 | sequence_SO=chromosome | SO=protein_coding_gene | is_pseudo=false
+#
+# Program:         hmmsearch
+# Version:         3.4 (Aug 2023)
+# Pipeline mode:   SEARCH
+# Query file:      /v3/work/00_inventory/busco/busco_downloads/lineages/plasmodium_odb10/hmms/3876at5820.hmm
+# Target file:     /v3/inputs/annotations/plasmodb-68/PvP01.proteins.fa
+# Option settings: hmmsearch --domtblout /v3/work/00_inventory/busco/PvP01_proteins/run_plasmodium_odb10/hmmer_output/initial_run_results/3876at5820.out --cpu 1 /v3/work/00_inventory/busco/busco_downloads/lineages/plasmodium_odb10/hmms/3876at5820.hmm /v3/inputs/annotations/plasmodb-68/PvP01.proteins.fa 
+# Current dir:     /v3/work/00_inventory/busco
+# Date:            Tue May 19 17:39:08 2026
+# [ok]

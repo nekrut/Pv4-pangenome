@@ -1,0 +1,16 @@
+#                                                                            --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name        accession   tlen query name           accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+#------------------- ---------- ----- -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+PVP01_1126000.1-p1   -            285 9588at5820           -            221    1e-131  435.6   7.9   1   1  5.8e-135  1.3e-131  435.3   7.9     7   221    69   285    64   285 0.98 | transcript=PVP01_1126000.1 | gene=PVP01_1126000 | organism=Plasmodium_vivax_P01 | gene_product=superoxide dismutase [Fe], putative | transcript_product=superoxide dismutase [Fe], putative | location=PvP01_11_v2:1137548-1139756(+) | protein_length=285 | sequence_SO=chromosome | SO=protein_coding_gene | is_pseudo=false
+PVP01_1425500.1-p1   -            198 9588at5820           -            221   1.1e-65  219.7   6.0   1   1   6.5e-69   1.4e-65  219.4   6.0    32   218     5   193     2   195 0.93 | transcript=PVP01_1425500.1 | gene=PVP01_1425500 | organism=Plasmodium_vivax_P01 | gene_product=superoxide dismutase [Fe], putative | transcript_product=superoxide dismutase [Fe], putative | location=PvP01_14_v2:1095154-1095750(-) | protein_length=198 | sequence_SO=chromosome | SO=protein_coding_gene | is_pseudo=false
+PVP01_0204000.1-p1   -            114 9588at5820           -            221     0.041   11.9   0.0   1   1   2.6e-05     0.055   11.4   0.0   173   207    24    56    18    69 0.82 | transcript=PVP01_0204000.1 | gene=PVP01_0204000 | organism=Plasmodium_vivax_P01 | gene_product=conserved protein, unknown function | transcript_product=conserved protein, unknown function | location=PvP01_02_v2:193184-193933(+) | protein_length=114 | sequence_SO=chromosome | SO=protein_coding_gene | is_pseudo=false
+#
+# Program:         hmmsearch
+# Version:         3.4 (Aug 2023)
+# Pipeline mode:   SEARCH
+# Query file:      /v3/work/00_inventory/busco/busco_downloads/lineages/plasmodium_odb10/hmms/9588at5820.hmm
+# Target file:     /v3/inputs/annotations/plasmodb-68/PvP01.proteins.fa
+# Option settings: hmmsearch --domtblout /v3/work/00_inventory/busco/PvP01_proteins/run_plasmodium_odb10/hmmer_output/initial_run_results/9588at5820.out --cpu 1 /v3/work/00_inventory/busco/busco_downloads/lineages/plasmodium_odb10/hmms/9588at5820.hmm /v3/inputs/annotations/plasmodb-68/PvP01.proteins.fa 
+# Current dir:     /v3/work/00_inventory/busco
+# Date:            Tue May 19 17:51:56 2026
+# [ok]

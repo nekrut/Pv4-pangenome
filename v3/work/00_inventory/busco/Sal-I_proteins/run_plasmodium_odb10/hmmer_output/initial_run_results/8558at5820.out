@@ -1,0 +1,16 @@
+#                                                                            --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name        accession   tlen query name           accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+#------------------- ---------- ----- -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+PVX_087790.1-p1      -            334 8558at5820           -            276  4.4e-176  582.3  22.9   1   1    3e-179  5.5e-176  582.0  22.9     4   276    43   334    40   334 0.99 | transcript=PVX_087790.1 | gene=PVX_087790 | organism=Plasmodium_vivax_Sal-1 | gene_product=peptide chain release factor, putative | transcript_product=peptide chain release factor, putative | location=Pv_Sal1_chr01:165061-166065(-) | protein_length=334 | sequence_SO=chromosome | SO=protein_coding_gene | is_pseudo=false
+PVX_087085.1-p1      -            446 8558at5820           -            276   6.6e-30  102.9   3.3   1   1   5.8e-33   1.1e-29  102.2   3.3    25   259   186   411   166   427 0.79 | transcript=PVX_087085.1 | gene=PVX_087085 | organism=Plasmodium_vivax_Sal-1 | gene_product=peptide release factor, putative | transcript_product=peptide release factor, putative | location=Pv_Sal1_chr07:1252223-1253721(-) | protein_length=446 | sequence_SO=chromosome | SO=protein_coding_gene | is_pseudo=false
+PVX_085115.1-p1      -            300 8558at5820           -            276   1.9e-21   75.2   0.5   1   1   4.7e-24   8.7e-21   73.0   0.5     6   213    43   241    38   283 0.74 | transcript=PVX_085115.1 | gene=PVX_085115 | organism=Plasmodium_vivax_Sal-1 | gene_product=peptide chain release factor 1, putative | transcript_product=peptide chain release factor 1, putative | location=Pv_Sal1_chr13:913632-915767(-) | protein_length=300 | sequence_SO=chromosome | SO=protein_coding_gene | is_pseudo=false
+#
+# Program:         hmmsearch
+# Version:         3.4 (Aug 2023)
+# Pipeline mode:   SEARCH
+# Query file:      /v3/work/00_inventory/busco/busco_downloads/lineages/plasmodium_odb10/hmms/8558at5820.hmm
+# Target file:     /v3/inputs/annotations/plasmodb-68/Sal-I.proteins.fa
+# Option settings: hmmsearch --domtblout /v3/work/00_inventory/busco/Sal-I_proteins/run_plasmodium_odb10/hmmer_output/initial_run_results/8558at5820.out --cpu 1 /v3/work/00_inventory/busco/busco_downloads/lineages/plasmodium_odb10/hmms/8558at5820.hmm /v3/inputs/annotations/plasmodb-68/Sal-I.proteins.fa 
+# Current dir:     /v3/work/00_inventory/busco
+# Date:            Tue May 19 17:47:30 2026
+# [ok]

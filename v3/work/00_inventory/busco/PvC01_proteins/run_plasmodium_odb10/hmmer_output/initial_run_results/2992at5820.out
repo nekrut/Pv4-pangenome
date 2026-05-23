@@ -1,0 +1,17 @@
+#                                                                            --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name        accession   tlen query name           accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+#------------------- ---------- ----- -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+SCO73193.1           -            958 2992at5820           -            632  2.2e-290  963.5  40.0   1   4   2.9e-14   1.8e-10   38.8   0.0    21    63    93   134    89   141 0.90 RAP protein, putative [Plasmodium vivax]
+SCO73193.1           -            958 2992at5820           -            632  2.2e-290  963.5  40.0   2   4   2.4e-09   1.5e-05   22.6   0.1    59   103   201   250   189   255 0.80 RAP protein, putative [Plasmodium vivax]
+SCO73193.1           -            958 2992at5820           -            632  2.2e-290  963.5  40.0   3   4   1.5e-51   9.2e-48  162.0   1.4   104   239   273   424   267   439 0.86 RAP protein, putative [Plasmodium vivax]
+SCO73193.1           -            958 2992at5820           -            632  2.2e-290  963.5  40.0   4   4  7.4e-229  4.6e-225  747.7  25.5   197   606   445   867   441   873 0.94 RAP protein, putative [Plasmodium vivax]
+#
+# Program:         hmmsearch
+# Version:         3.4 (Aug 2023)
+# Pipeline mode:   SEARCH
+# Query file:      /v3/work/00_inventory/busco/busco_downloads/lineages/plasmodium_odb10/hmms/2992at5820.hmm
+# Target file:     /v3/inputs/annotations/ncbi-datasets/PvC01.proteins.fa
+# Option settings: hmmsearch --domtblout /v3/work/00_inventory/busco/PvC01_proteins/run_plasmodium_odb10/hmmer_output/initial_run_results/2992at5820.out --cpu 1 /v3/work/00_inventory/busco/busco_downloads/lineages/plasmodium_odb10/hmms/2992at5820.hmm /v3/inputs/annotations/ncbi-datasets/PvC01.proteins.fa 
+# Current dir:     /v3/work/00_inventory/busco
+# Date:            Tue May 19 18:47:24 2026
+# [ok]

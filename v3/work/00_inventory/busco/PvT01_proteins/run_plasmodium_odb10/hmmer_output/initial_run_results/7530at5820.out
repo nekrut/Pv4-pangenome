@@ -1,0 +1,24 @@
+#                                                                            --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name        accession   tlen query name           accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+#------------------- ---------- ----- -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+SCO70186.1           -            376 7530at5820           -            318  2.5e-195  646.5  24.8   1   2  3.6e-162  5.5e-159  527.1  16.9     1   253     1   254     1   270 0.98 WD repeat-containing protein 82, putative [Plasmodium vivax]
+SCO70186.1           -            376 7530at5820           -            318  2.5e-195  646.5  24.8   2   2     1e-39   1.6e-36  124.7   0.9   235   318   275   376   266   376 0.79 WD repeat-containing protein 82, putative [Plasmodium vivax]
+SCO65360.1           -            327 7530at5820           -            318   3.1e-07   28.5   0.8   1   3     0.012        19    2.9   0.0    35    64    16    45     8    54 0.87 eukaryotic translation initiation factor 3 subunit I, putative [Plasmodium vivax]
+SCO65360.1           -            327 7530at5820           -            318   3.1e-07   28.5   0.8   2   3   1.2e-06    0.0018   16.1   0.2    37   113    59   136    48   146 0.86 eukaryotic translation initiation factor 3 subunit I, putative [Plasmodium vivax]
+SCO65360.1           -            327 7530at5820           -            318   3.1e-07   28.5   0.8   3   3    0.0014       2.2    6.0   0.0    37   302   150   197   136   230 0.61 eukaryotic translation initiation factor 3 subunit I, putative [Plasmodium vivax]
+SCO65804.1           -            322 7530at5820           -            318   1.1e-06   26.7   1.1   1   3   7.9e-05      0.12   10.1   0.0   256   315    77   141    28   144 0.77 receptor for activated c kinase, putative [Plasmodium vivax]
+SCO65804.1           -            322 7530at5820           -            318   1.1e-06   26.7   1.1   2   3   7.7e-07    0.0012   16.8   0.2   126   299    75   251    74   270 0.70 receptor for activated c kinase, putative [Plasmodium vivax]
+SCO65804.1           -            322 7530at5820           -            318   1.1e-06   26.7   1.1   3   3    0.0072        11    3.7   0.0    33    60   292   319   278   322 0.87 receptor for activated c kinase, putative [Plasmodium vivax]
+SCO67557.1           -            660 7530at5820           -            318   2.3e-06   25.7   5.4   1   3   0.00072       1.1    7.0   0.2   234   311   104   186    69   226 0.67 ribosome assembly protein 4, putative [Plasmodium vivax]
+SCO67557.1           -            660 7530at5820           -            318   2.3e-06   25.7   5.4   2   3     0.086   1.3e+02    0.2   0.1   264   300   387   424   382   441 0.81 ribosome assembly protein 4, putative [Plasmodium vivax]
+SCO67557.1           -            660 7530at5820           -            318   2.3e-06   25.7   5.4   3   3   1.8e-07   0.00028   18.8   0.2   216   310   456   558   426   567 0.64 ribosome assembly protein 4, putative [Plasmodium vivax]
+#
+# Program:         hmmsearch
+# Version:         3.4 (Aug 2023)
+# Pipeline mode:   SEARCH
+# Query file:      /v3/work/00_inventory/busco/busco_downloads/lineages/plasmodium_odb10/hmms/7530at5820.hmm
+# Target file:     /v3/inputs/annotations/ncbi-datasets/PvT01.proteins.fa
+# Option settings: hmmsearch --domtblout /v3/work/00_inventory/busco/PvT01_proteins/run_plasmodium_odb10/hmmer_output/initial_run_results/7530at5820.out --cpu 1 /v3/work/00_inventory/busco/busco_downloads/lineages/plasmodium_odb10/hmms/7530at5820.hmm /v3/inputs/annotations/ncbi-datasets/PvT01.proteins.fa 
+# Current dir:     /v3/work/00_inventory/busco
+# Date:            Tue May 19 19:00:13 2026
+# [ok]

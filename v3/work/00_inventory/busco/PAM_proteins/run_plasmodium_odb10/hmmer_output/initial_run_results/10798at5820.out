@@ -1,0 +1,16 @@
+#                                                                            --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name        accession   tlen query name           accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+#------------------- ---------- ----- -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+CAI7722279.1         -            228 10798at5820          -            204  1.2e-112  373.2   2.7   1   1    2e-115  6.5e-112  370.9   2.7     1   204     1   226     1   226 0.94 | transcript=PVPAM_120051600_t1 | gene=PVPAM_120051600 | organism=Plasmodium_vivax_PAM | gene_product=ubiquitin carboxyl-terminal hydrolase isozyme L3, putative | transcript_product=ubiquitin carboxyl-terminal hydrolase isozyme L3, putative | location=CASCJQ010000012:1891918-1893930(-) | protein_length=228 | sequence_SO=supercontig | SO=protein_coding_gene | is_pseudo=false
+CAI7720454.1         -            506 10798at5820          -            204   1.5e-09   36.6   1.1   1   2    0.0073        24    3.3   0.0     7    38    12    43     8    71 0.88 | transcript=PVPAM_090021900_t1 | gene=PVPAM_090021900 | organism=Plasmodium_vivax_PAM | gene_product=ubiquitin carboxyl-terminal hydrolase UCH54, putative | transcript_product=ubiquitin carboxyl-terminal hydrolase UCH54, putative | location=CASCJQ010000009:799830-801350(+) | protein_length=506 | sequence_SO=supercontig | SO=protein_coding_gene | is_pseudo=false
+CAI7720454.1         -            506 10798at5820          -            204   1.5e-09   36.6   1.1   2   2   2.2e-11     7e-08   31.1   0.2    63   172   155   276   125   298 0.75 | transcript=PVPAM_090021900_t1 | gene=PVPAM_090021900 | organism=Plasmodium_vivax_PAM | gene_product=ubiquitin carboxyl-terminal hydrolase UCH54, putative | transcript_product=ubiquitin carboxyl-terminal hydrolase UCH54, putative | location=CASCJQ010000009:799830-801350(+) | protein_length=506 | sequence_SO=supercontig | SO=protein_coding_gene | is_pseudo=false
+#
+# Program:         hmmsearch
+# Version:         3.4 (Aug 2023)
+# Pipeline mode:   SEARCH
+# Query file:      /v3/work/00_inventory/busco/busco_downloads/lineages/plasmodium_odb10/hmms/10798at5820.hmm
+# Target file:     /v3/inputs/annotations/plasmodb-68/PAM.proteins.fa
+# Option settings: hmmsearch --domtblout /v3/work/00_inventory/busco/PAM_proteins/run_plasmodium_odb10/hmmer_output/initial_run_results/10798at5820.out --cpu 1 /v3/work/00_inventory/busco/busco_downloads/lineages/plasmodium_odb10/hmms/10798at5820.hmm /v3/inputs/annotations/plasmodb-68/PAM.proteins.fa 
+# Current dir:     /v3/work/00_inventory/busco
+# Date:            Tue May 19 17:27:17 2026
+# [ok]

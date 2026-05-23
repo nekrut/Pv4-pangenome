@@ -1,0 +1,16 @@
+#                                                                            --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name        accession   tlen query name           accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+#------------------- ---------- ----- -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+CAG9471816.1         -            223 12267at5820          -            195  1.5e-102  339.8   8.2   1   1  1.5e-105    3e-102  338.8   8.2     1   195     8   221     8   221 0.94 | transcript=PVW1_140010200_t1 | gene=PVW1_140010200 | organism=Plasmodium_vivax_PvW1 | gene_product=MTS domain-containing protein [Source:UniProtKB/TrEMBL;Acc:A0A1G4H473] | transcript_product=MTS domain-containing protein [Source:UniProtKB/TrEMBL;Acc:A0A1G4H473] | location=CAJZCX010000003:245988-246846(+) | protein_length=223 | sequence_SO=supercontig | SO=protein_coding_gene | is_pseudo=false
+CAG9479884.1         -            435 12267at5820          -            195    0.0014   16.9   0.1   1   1   1.2e-06    0.0025   16.1   0.1   103   164   263   324   237   334 0.89 | transcript=PVW1_050026800_t1 | gene=PVW1_050026800 | organism=Plasmodium_vivax_PvW1 | gene_product=unspecified product | transcript_product=unspecified product | location=CAJZCX010000010:907103-908410(+) | protein_length=435 | sequence_SO=supercontig | SO=protein_coding_gene | is_pseudo=false
+CAG9475040.1         -            344 12267at5820          -            195    0.0024   16.1   0.8   1   1   2.7e-06    0.0055   15.0   0.8   112   191   236   320   203   323 0.79 | transcript=PVW1_100049700_t1 | gene=PVW1_100049700 | organism=Plasmodium_vivax_PvW1 | gene_product=TPT domain-containing protein [Source:UniProtKB/TrEMBL;Acc:A0A1G4GYX4] | transcript_product=TPT domain-containing protein [Source:UniProtKB/TrEMBL;Acc:A0A1G4GYX4] | location=CAJZCX010000005:2033062-2034096(-) | protein_length=344 | sequence_SO=supercontig | SO=protein_coding_gene | is_pseudo=false
+#
+# Program:         hmmsearch
+# Version:         3.4 (Aug 2023)
+# Pipeline mode:   SEARCH
+# Query file:      /v3/work/00_inventory/busco/busco_downloads/lineages/plasmodium_odb10/hmms/12267at5820.hmm
+# Target file:     /v3/inputs/annotations/plasmodb-68/PvW1.proteins.fa
+# Option settings: hmmsearch --domtblout /v3/work/00_inventory/busco/PvW1_proteins/run_plasmodium_odb10/hmmer_output/initial_run_results/12267at5820.out --cpu 1 /v3/work/00_inventory/busco/busco_downloads/lineages/plasmodium_odb10/hmms/12267at5820.hmm /v3/inputs/annotations/plasmodb-68/PvW1.proteins.fa 
+# Current dir:     /v3/work/00_inventory/busco
+# Date:            Tue May 19 17:26:24 2026
+# [ok]

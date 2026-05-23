@@ -1,0 +1,16 @@
+#                                                                            --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name        accession   tlen query name           accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+#------------------- ---------- ----- -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+SCO72287.1           -            862 3673at5820           -            660         0 1237.5  47.3   1   2         0         0 1143.6  31.1     1   564    33   614    33   627 0.97 male gamete fusion factor HAP2, putative [Plasmodium vivax]
+SCO72287.1           -            862 3673at5820           -            660         0 1237.5  47.3   2   2   1.7e-32   5.5e-29   99.7   8.3   555   643   636   725   622   741 0.87 male gamete fusion factor HAP2, putative [Plasmodium vivax]
+SCO73923.1           -            160 3673at5820           -            660      0.48    7.3   4.5   1   1   0.00019       0.6    7.0   4.5   580   617    74   112    66   132 0.79 conserved Plasmodium protein, unknown function [Plasmodium vivax]
+#
+# Program:         hmmsearch
+# Version:         3.4 (Aug 2023)
+# Pipeline mode:   SEARCH
+# Query file:      /v3/work/00_inventory/busco/busco_downloads/lineages/plasmodium_odb10/hmms/3673at5820.hmm
+# Target file:     /v3/inputs/annotations/ncbi-datasets/PvC01.proteins.fa
+# Option settings: hmmsearch --domtblout /v3/work/00_inventory/busco/PvC01_proteins/run_plasmodium_odb10/hmmer_output/initial_run_results/3673at5820.out --cpu 1 /v3/work/00_inventory/busco/busco_downloads/lineages/plasmodium_odb10/hmms/3673at5820.hmm /v3/inputs/annotations/ncbi-datasets/PvC01.proteins.fa 
+# Current dir:     /v3/work/00_inventory/busco
+# Date:            Tue May 19 18:40:14 2026
+# [ok]

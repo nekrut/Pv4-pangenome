@@ -1,0 +1,17 @@
+#                                                                            --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name        accession   tlen query name           accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+#------------------- ---------- ----- -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+PVP01_0118400.1-p1   -            858 4189at5820           -            581  2.6e-290  962.7  66.3   1   4   1.3e-28   8.5e-25   86.0   3.5     1    50     4    56     4    64 0.91 | transcript=PVP01_0118400.1 | gene=PVP01_0118400 | organism=Plasmodium_vivax_P01 | gene_product=mannose-6-phosphate isomerase, putative | transcript_product=mannose-6-phosphate isomerase, putative | location=PvP01_01_v2:845642-848218(+) | protein_length=858 | sequence_SO=chromosome | SO=protein_coding_gene | is_pseudo=false
+PVP01_0118400.1-p1   -            858 4189at5820           -            581  2.6e-290  962.7  66.3   2   4   5.6e-80   3.7e-76  255.6  19.9    49   216   127   324   121   326 0.85 | transcript=PVP01_0118400.1 | gene=PVP01_0118400 | organism=Plasmodium_vivax_P01 | gene_product=mannose-6-phosphate isomerase, putative | transcript_product=mannose-6-phosphate isomerase, putative | location=PvP01_01_v2:845642-848218(+) | protein_length=858 | sequence_SO=chromosome | SO=protein_coding_gene | is_pseudo=false
+PVP01_0118400.1-p1   -            858 4189at5820           -            581  2.6e-290  962.7  66.3   3   4   4.6e-46     3e-42  143.6   1.5   214   305   352   450   350   455 0.94 | transcript=PVP01_0118400.1 | gene=PVP01_0118400 | organism=Plasmodium_vivax_P01 | gene_product=mannose-6-phosphate isomerase, putative | transcript_product=mannose-6-phosphate isomerase, putative | location=PvP01_01_v2:845642-848218(+) | protein_length=858 | sequence_SO=chromosome | SO=protein_coding_gene | is_pseudo=false
+PVP01_0118400.1-p1   -            858 4189at5820           -            581  2.6e-290  962.7  66.3   4   4  3.8e-152  2.5e-148  493.9  18.1   308   581   573   858   564   858 0.94 | transcript=PVP01_0118400.1 | gene=PVP01_0118400 | organism=Plasmodium_vivax_P01 | gene_product=mannose-6-phosphate isomerase, putative | transcript_product=mannose-6-phosphate isomerase, putative | location=PvP01_01_v2:845642-848218(+) | protein_length=858 | sequence_SO=chromosome | SO=protein_coding_gene | is_pseudo=false
+#
+# Program:         hmmsearch
+# Version:         3.4 (Aug 2023)
+# Pipeline mode:   SEARCH
+# Query file:      /v3/work/00_inventory/busco/busco_downloads/lineages/plasmodium_odb10/hmms/4189at5820.hmm
+# Target file:     /v3/inputs/annotations/plasmodb-68/PvP01.proteins.fa
+# Option settings: hmmsearch --domtblout /v3/work/00_inventory/busco/PvP01_proteins/run_plasmodium_odb10/hmmer_output/initial_run_results/4189at5820.out --cpu 1 /v3/work/00_inventory/busco/busco_downloads/lineages/plasmodium_odb10/hmms/4189at5820.hmm /v3/inputs/annotations/plasmodb-68/PvP01.proteins.fa 
+# Current dir:     /v3/work/00_inventory/busco
+# Date:            Tue May 19 17:40:37 2026
+# [ok]

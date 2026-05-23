@@ -1,0 +1,18 @@
+#                                                                            --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name        accession   tlen query name           accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+#------------------- ---------- ----- -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+PVP01_1319000.1-p1   -            628 5537at5820           -            370  4.7e-172  570.8  30.4   1   5   2.9e-43   1.9e-39  134.5   0.3     2    79    11    88    10    91 0.98 | transcript=PVP01_1319000.1 | gene=PVP01_1319000 | organism=Plasmodium_vivax_P01 | gene_product=autophagy protein 5, putative | transcript_product=autophagy protein 5, putative | location=PvP01_13_v2:867209-869095(-) | protein_length=628 | sequence_SO=chromosome | SO=protein_coding_gene | is_pseudo=false
+PVP01_1319000.1-p1   -            628 5537at5820           -            370  4.7e-172  570.8  30.4   2   5   3.3e-18   2.1e-14   52.0   0.0    79   124   156   214   153   222 0.85 | transcript=PVP01_1319000.1 | gene=PVP01_1319000 | organism=Plasmodium_vivax_P01 | gene_product=autophagy protein 5, putative | transcript_product=autophagy protein 5, putative | location=PvP01_13_v2:867209-869095(-) | protein_length=628 | sequence_SO=chromosome | SO=protein_coding_gene | is_pseudo=false
+PVP01_1319000.1-p1   -            628 5537at5820           -            370  4.7e-172  570.8  30.4   3   5   1.2e-61     8e-58  194.9  11.2   124   251   284   427   282   437 0.89 | transcript=PVP01_1319000.1 | gene=PVP01_1319000 | organism=Plasmodium_vivax_P01 | gene_product=autophagy protein 5, putative | transcript_product=autophagy protein 5, putative | location=PvP01_13_v2:867209-869095(-) | protein_length=628 | sequence_SO=chromosome | SO=protein_coding_gene | is_pseudo=false
+PVP01_1319000.1-p1   -            628 5537at5820           -            370  4.7e-172  570.8  30.4   4   5   1.1e-28   7.3e-25   86.5   0.0   250   315   450   523   446   532 0.85 | transcript=PVP01_1319000.1 | gene=PVP01_1319000 | organism=Plasmodium_vivax_P01 | gene_product=autophagy protein 5, putative | transcript_product=autophagy protein 5, putative | location=PvP01_13_v2:867209-869095(-) | protein_length=628 | sequence_SO=chromosome | SO=protein_coding_gene | is_pseudo=false
+PVP01_1319000.1-p1   -            628 5537at5820           -            370  4.7e-172  570.8  30.4   5   5   6.1e-36     4e-32  110.4   1.2   312   370   570   628   566   628 0.97 | transcript=PVP01_1319000.1 | gene=PVP01_1319000 | organism=Plasmodium_vivax_P01 | gene_product=autophagy protein 5, putative | transcript_product=autophagy protein 5, putative | location=PvP01_13_v2:867209-869095(-) | protein_length=628 | sequence_SO=chromosome | SO=protein_coding_gene | is_pseudo=false
+#
+# Program:         hmmsearch
+# Version:         3.4 (Aug 2023)
+# Pipeline mode:   SEARCH
+# Query file:      /v3/work/00_inventory/busco/busco_downloads/lineages/plasmodium_odb10/hmms/5537at5820.hmm
+# Target file:     /v3/inputs/annotations/plasmodb-68/PvP01.proteins.fa
+# Option settings: hmmsearch --domtblout /v3/work/00_inventory/busco/PvP01_proteins/run_plasmodium_odb10/hmmer_output/initial_run_results/5537at5820.out --cpu 1 /v3/work/00_inventory/busco/busco_downloads/lineages/plasmodium_odb10/hmms/5537at5820.hmm /v3/inputs/annotations/plasmodb-68/PvP01.proteins.fa 
+# Current dir:     /v3/work/00_inventory/busco
+# Date:            Tue May 19 17:42:12 2026
+# [ok]

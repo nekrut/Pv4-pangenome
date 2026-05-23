@@ -1,0 +1,18 @@
+#                                                                            --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name        accession   tlen query name           accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+#------------------- ---------- ----- -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+SCO67499.1           -            385 8620at5820           -            295  8.5e-154  509.6  48.9   1   4   1.9e-58   5.6e-55  185.2  10.7     1    98    10   107    10   115 0.98 P-loop containing nucleoside triphosphate hydrolase, putative [Plasmodium vivax]
+SCO67499.1           -            385 8620at5820           -            295  8.5e-154  509.6  48.9   2   4   3.8e-67   1.1e-63  213.8  14.9    98   214   127   244   122   250 0.96 P-loop containing nucleoside triphosphate hydrolase, putative [Plasmodium vivax]
+SCO67499.1           -            385 8620at5820           -            295  8.5e-154  509.6  48.9   3   4   4.1e-25   1.3e-21   75.8   3.9   213   263   278   328   259   344 0.82 P-loop containing nucleoside triphosphate hydrolase, putative [Plasmodium vivax]
+SCO67499.1           -            385 8620at5820           -            295  8.5e-154  509.6  48.9   4   4   4.1e-17   1.3e-13   49.5   0.1   254   295   344   385   331   385 0.87 P-loop containing nucleoside triphosphate hydrolase, putative [Plasmodium vivax]
+SCO65914.1           -            347 8620at5820           -            295   0.00013   19.9   0.0   1   1   6.1e-08   0.00019   19.4   0.0    36   146   126   232    95   262 0.78 meiotic recombination protein DMC1, putative [Plasmodium vivax]
+#
+# Program:         hmmsearch
+# Version:         3.4 (Aug 2023)
+# Pipeline mode:   SEARCH
+# Query file:      /v3/work/00_inventory/busco/busco_downloads/lineages/plasmodium_odb10/hmms/8620at5820.hmm
+# Target file:     /v3/inputs/annotations/ncbi-datasets/PvT01.proteins.fa
+# Option settings: hmmsearch --domtblout /v3/work/00_inventory/busco/PvT01_proteins/run_plasmodium_odb10/hmmer_output/initial_run_results/8620at5820.out --cpu 1 /v3/work/00_inventory/busco/busco_downloads/lineages/plasmodium_odb10/hmms/8620at5820.hmm /v3/inputs/annotations/ncbi-datasets/PvT01.proteins.fa 
+# Current dir:     /v3/work/00_inventory/busco
+# Date:            Tue May 19 19:06:38 2026
+# [ok]

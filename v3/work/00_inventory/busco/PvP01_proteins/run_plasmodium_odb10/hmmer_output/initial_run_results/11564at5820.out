@@ -1,0 +1,17 @@
+#                                                                            --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name        accession   tlen query name           accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+#------------------- ---------- ----- -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+PVP01_1110000.1-p1   -            199 11564at5820          -            177  1.6e-109  362.0   8.1   1   1    8e-112  1.7e-108  358.7   8.1     1   176     1   195     1   196 0.96 | transcript=PVP01_1110000.1 | gene=PVP01_1110000 | organism=Plasmodium_vivax_P01 | gene_product=cytochrome c oxidase subunit ApiCOX24, putative | transcript_product=cytochrome c oxidase subunit ApiCOX24, putative | location=PvP01_11_v2:398065-398664(-) | protein_length=199 | sequence_SO=chromosome | SO=protein_coding_gene | is_pseudo=false
+PVP01_0500900.1-p1   -            339 11564at5820          -            177    0.0045   15.3   0.0   1   2      0.32   6.9e+02   -1.6   0.0     5    25    14    34    13    44 0.82 | transcript=PVP01_0500900.1 | gene=PVP01_0500900 | organism=Plasmodium_vivax_P01 | gene_product=PIR protein | transcript_product=PIR protein | location=PvP01_05_v2:30223-31493(+) | protein_length=339 | sequence_SO=chromosome | SO=protein_coding_gene | is_pseudo=false
+PVP01_0500900.1-p1   -            339 11564at5820          -            177    0.0045   15.3   0.0   2   2   8.4e-06     0.018   13.4   0.0    82   137   253   309   203   333 0.80 | transcript=PVP01_0500900.1 | gene=PVP01_0500900 | organism=Plasmodium_vivax_P01 | gene_product=PIR protein | transcript_product=PIR protein | location=PvP01_05_v2:30223-31493(+) | protein_length=339 | sequence_SO=chromosome | SO=protein_coding_gene | is_pseudo=false
+PVP01_1253700.1-p1   -             76 11564at5820          -            177     0.014   13.7   1.1   1   1   7.6e-06     0.017   13.5   1.1    93   144     4    56     2    69 0.88 | transcript=PVP01_1253700.1 | gene=PVP01_1253700 | organism=Plasmodium_vivax_P01 | gene_product=Yos1-like protein, putative | transcript_product=Yos1-like protein, putative | location=PvP01_12_v2:2196608-2196838(-) | protein_length=76 | sequence_SO=chromosome | SO=protein_coding_gene | is_pseudo=false
+#
+# Program:         hmmsearch
+# Version:         3.4 (Aug 2023)
+# Pipeline mode:   SEARCH
+# Query file:      /v3/work/00_inventory/busco/busco_downloads/lineages/plasmodium_odb10/hmms/11564at5820.hmm
+# Target file:     /v3/inputs/annotations/plasmodb-68/PvP01.proteins.fa
+# Option settings: hmmsearch --domtblout /v3/work/00_inventory/busco/PvP01_proteins/run_plasmodium_odb10/hmmer_output/initial_run_results/11564at5820.out --cpu 1 /v3/work/00_inventory/busco/busco_downloads/lineages/plasmodium_odb10/hmms/11564at5820.hmm /v3/inputs/annotations/plasmodb-68/PvP01.proteins.fa 
+# Current dir:     /v3/work/00_inventory/busco
+# Date:            Tue May 19 17:30:32 2026
+# [ok]

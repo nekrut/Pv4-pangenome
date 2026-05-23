@@ -1,0 +1,16 @@
+#                                                                            --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name        accession   tlen query name           accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+#------------------- ---------- ----- -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+CAG9473178.1         -            416 8190at5820           -            350  3.5e-196  649.7  37.1   1   1    3e-198  9.2e-195  645.0  37.1    10   350    40   412    30   412 0.93 | transcript=PVW1_120022200_t1 | gene=PVW1_120022200 | organism=Plasmodium_vivax_PvW1 | gene_product=Nucleoside transporter 1, putative [Source:UniProtKB/TrEMBL;Acc:A0A1G4H108] | transcript_product=Nucleoside transporter 1, putative [Source:UniProtKB/TrEMBL;Acc:A0A1G4H108] | location=CAJZCX010000004:779235-780485(+) | protein_length=416 | sequence_SO=supercontig | SO=protein_coding_gene | is_pseudo=false
+CAG9479704.1         -            537 8190at5820           -            350   5.1e-12   44.0  10.9   1   2     0.017        52    1.2  15.6     6   145    67   218    62   248 0.71 | transcript=PVW1_050014800_t1 | gene=PVW1_050014800 | organism=Plasmodium_vivax_PvW1 | gene_product=Nucleoside transporter 2, putative [Source:UniProtKB/TrEMBL;Acc:A0A1G4GTA7] | transcript_product=Nucleoside transporter 2, putative [Source:UniProtKB/TrEMBL;Acc:A0A1G4GTA7] | location=CAJZCX010000010:470124-471737(+) | protein_length=537 | sequence_SO=supercontig | SO=protein_coding_gene | is_pseudo=false
+CAG9479704.1         -            537 8190at5820           -            350   5.1e-12   44.0  10.9   2   2   1.7e-15   5.1e-12   44.0  10.9   177   344   365   533   351   535 0.86 | transcript=PVW1_050014800_t1 | gene=PVW1_050014800 | organism=Plasmodium_vivax_PvW1 | gene_product=Nucleoside transporter 2, putative [Source:UniProtKB/TrEMBL;Acc:A0A1G4GTA7] | transcript_product=Nucleoside transporter 2, putative [Source:UniProtKB/TrEMBL;Acc:A0A1G4GTA7] | location=CAJZCX010000010:470124-471737(+) | protein_length=537 | sequence_SO=supercontig | SO=protein_coding_gene | is_pseudo=false
+#
+# Program:         hmmsearch
+# Version:         3.4 (Aug 2023)
+# Pipeline mode:   SEARCH
+# Query file:      /v3/work/00_inventory/busco/busco_downloads/lineages/plasmodium_odb10/hmms/8190at5820.hmm
+# Target file:     /v3/inputs/annotations/plasmodb-68/PvW1.proteins.fa
+# Option settings: hmmsearch --domtblout /v3/work/00_inventory/busco/PvW1_proteins/run_plasmodium_odb10/hmmer_output/initial_run_results/8190at5820.out --cpu 1 /v3/work/00_inventory/busco/busco_downloads/lineages/plasmodium_odb10/hmms/8190at5820.hmm /v3/inputs/annotations/plasmodb-68/PvW1.proteins.fa 
+# Current dir:     /v3/work/00_inventory/busco
+# Date:            Tue May 19 17:50:21 2026
+# [ok]

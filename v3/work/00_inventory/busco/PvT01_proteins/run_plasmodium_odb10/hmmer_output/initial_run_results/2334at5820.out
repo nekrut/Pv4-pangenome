@@ -1,0 +1,22 @@
+#                                                                            --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name        accession   tlen query name           accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+#------------------- ---------- ----- -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+SCO68931.1           -           1004 2334at5820           -            693         0 1270.2  58.5   1   5  3.8e-177  1.1e-173  577.5  24.4     1   304     1   317     1   330 0.96 ribosome biogenesis protein TSR1, putative [Plasmodium vivax]
+SCO68931.1           -           1004 2334at5820           -            693         0 1270.2  58.5   2   5   2.8e-08   8.4e-05   19.4   0.2   294   346   343   403   337   418 0.72 ribosome biogenesis protein TSR1, putative [Plasmodium vivax]
+SCO68931.1           -           1004 2334at5820           -            693         0 1270.2  58.5   3   5   6.9e-10   2.1e-06   24.7   0.1   347   375   511   539   498   556 0.90 ribosome biogenesis protein TSR1, putative [Plasmodium vivax]
+SCO68931.1           -           1004 2334at5820           -            693         0 1270.2  58.5   4   5    7e-122  2.1e-118  394.8   6.5   371   579   604   820   592   826 0.94 ribosome biogenesis protein TSR1, putative [Plasmodium vivax]
+SCO68931.1           -           1004 2334at5820           -            693         0 1270.2  58.5   5   5   9.8e-85     3e-81  272.1   1.9   573   693   881  1001   866  1001 0.98 ribosome biogenesis protein TSR1, putative [Plasmodium vivax]
+SCO65133.1           -           1245 2334at5820           -            693   1.7e-11   41.6  47.7   1   4   4.3e-09   1.3e-05   22.1   8.8    32   250    30   257     1   268 0.57 small ribosomal subunit assembling AARP2 protein [Plasmodium vivax]
+SCO65133.1           -           1245 2334at5820           -            693   1.7e-11   41.6  47.7   2   4   0.00011      0.33    7.5   0.0   258   296   309   347   297   369 0.84 small ribosomal subunit assembling AARP2 protein [Plasmodium vivax]
+SCO65133.1           -           1245 2334at5820           -            693   1.7e-11   41.6  47.7   3   4     1e-12   3.2e-09   34.0   9.8   463   671   871  1088   862  1102 0.84 small ribosomal subunit assembling AARP2 protein [Plasmodium vivax]
+SCO65133.1           -           1245 2334at5820           -            693   1.7e-11   41.6  47.7   4   4         2   6.1e+03   -9.7  10.4     8    70  1145  1206  1139  1233 0.62 small ribosomal subunit assembling AARP2 protein [Plasmodium vivax]
+#
+# Program:         hmmsearch
+# Version:         3.4 (Aug 2023)
+# Pipeline mode:   SEARCH
+# Query file:      /v3/work/00_inventory/busco/busco_downloads/lineages/plasmodium_odb10/hmms/2334at5820.hmm
+# Target file:     /v3/inputs/annotations/ncbi-datasets/PvT01.proteins.fa
+# Option settings: hmmsearch --domtblout /v3/work/00_inventory/busco/PvT01_proteins/run_plasmodium_odb10/hmmer_output/initial_run_results/2334at5820.out --cpu 1 /v3/work/00_inventory/busco/busco_downloads/lineages/plasmodium_odb10/hmms/2334at5820.hmm /v3/inputs/annotations/ncbi-datasets/PvT01.proteins.fa 
+# Current dir:     /v3/work/00_inventory/busco
+# Date:            Tue May 19 18:39:30 2026
+# [ok]

@@ -1,0 +1,17 @@
+#                                                                            --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name        accession   tlen query name           accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+#------------------- ---------- ----- -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+PVP01_0704800.1-p1   -            493 8903at5820           -            350  2.6e-181  600.9  33.4   1   3   3.9e-29   1.3e-25   88.8   2.7     2    79    14    94    13   130 0.85 | transcript=PVP01_0704800.1 | gene=PVP01_0704800 | organism=Plasmodium_vivax_P01 | gene_product=Maf-like protein, putative | transcript_product=Maf-like protein, putative | location=PvP01_07_v2:286622-288103(+) | protein_length=493 | sequence_SO=chromosome | SO=protein_coding_gene | is_pseudo=false
+PVP01_0704800.1-p1   -            493 8903at5820           -            350  2.6e-181  600.9  33.4   2   3     2e-27   6.6e-24   83.2   0.7    83   140   183   240   169   243 0.92 | transcript=PVP01_0704800.1 | gene=PVP01_0704800 | organism=Plasmodium_vivax_P01 | gene_product=Maf-like protein, putative | transcript_product=Maf-like protein, putative | location=PvP01_07_v2:286622-288103(+) | protein_length=493 | sequence_SO=chromosome | SO=protein_coding_gene | is_pseudo=false
+PVP01_0704800.1-p1   -            493 8903at5820           -            350  2.6e-181  600.9  33.4   3   3  7.7e-136  2.5e-132  439.8  15.6   140   350   283   493   278   493 0.99 | transcript=PVP01_0704800.1 | gene=PVP01_0704800 | organism=Plasmodium_vivax_P01 | gene_product=Maf-like protein, putative | transcript_product=Maf-like protein, putative | location=PvP01_07_v2:286622-288103(+) | protein_length=493 | sequence_SO=chromosome | SO=protein_coding_gene | is_pseudo=false
+PVP01_1414600.1-p1   -            276 8903at5820           -            350   2.3e-09   35.4   2.1   1   1   9.7e-13   3.2e-09   34.9   2.1   227   347   146   265   122   268 0.89 | transcript=PVP01_1414600.1 | gene=PVP01_1414600 | organism=Plasmodium_vivax_P01 | gene_product=Maf-like protein, putative | transcript_product=Maf-like protein, putative | location=PvP01_14_v2:649683-650513(-) | protein_length=276 | sequence_SO=chromosome | SO=protein_coding_gene | is_pseudo=false
+#
+# Program:         hmmsearch
+# Version:         3.4 (Aug 2023)
+# Pipeline mode:   SEARCH
+# Query file:      /v3/work/00_inventory/busco/busco_downloads/lineages/plasmodium_odb10/hmms/8903at5820.hmm
+# Target file:     /v3/inputs/annotations/plasmodb-68/PvP01.proteins.fa
+# Option settings: hmmsearch --domtblout /v3/work/00_inventory/busco/PvP01_proteins/run_plasmodium_odb10/hmmer_output/initial_run_results/8903at5820.out --cpu 1 /v3/work/00_inventory/busco/busco_downloads/lineages/plasmodium_odb10/hmms/8903at5820.hmm /v3/inputs/annotations/plasmodb-68/PvP01.proteins.fa 
+# Current dir:     /v3/work/00_inventory/busco
+# Date:            Tue May 19 17:49:04 2026
+# [ok]

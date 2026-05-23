@@ -1,0 +1,21 @@
+#                                                                            --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name        accession   tlen query name           accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+#------------------- ---------- ----- -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+SCO70429.1           -            748 3514at5820           -            681         0 1544.9  47.9   1   2  6.8e-157  1.1e-153  511.5   8.5     1   240     1   240     1   262 0.95 heat shock protein 90, putative [Plasmodium vivax]
+SCO70429.1           -            748 3514at5820           -            681         0 1544.9  47.9   2   2         0         0 1039.0  32.0   215   681   268   748   257   748 0.97 heat shock protein 90, putative [Plasmodium vivax]
+SCO75469.1           -            814 3514at5820           -            681  1.2e-171  570.9  31.6   1   2  1.1e-126  1.8e-123  411.6  12.3     5   411    67   477    64   492 0.91 endoplasmin, putative [Plasmodium vivax]
+SCO75469.1           -            814 3514at5820           -            681  1.2e-171  570.9  31.6   2   2   6.7e-52   1.1e-48  164.5  12.2   398   679   493   779   481   781 0.91 endoplasmin, putative [Plasmodium vivax]
+SCO74475.1           -            944 3514at5820           -            681  1.6e-139  464.7  30.1   1   2   2.1e-13   3.3e-10   37.3   0.3     4    48    95   139    92   160 0.88 heat shock protein 90, putative [Plasmodium vivax]
+SCO74475.1           -            944 3514at5820           -            681  1.6e-139  464.7  30.1   2   2  1.9e-132  2.9e-129  430.8  24.3    56   656   182   791   170   802 0.88 heat shock protein 90, putative [Plasmodium vivax]
+SCO72668.1           -            853 3514at5820           -            681     1e-97  326.5  24.8   1   2   1.9e-90   2.9e-87  292.0  25.0     4   509    73   635    70   648 0.78 heat shock protein 90, putative [Plasmodium vivax]
+SCO72668.1           -            853 3514at5820           -            681     1e-97  326.5  24.8   2   2   1.7e-09   2.7e-06   24.4   0.0   531   655   682   802   659   831 0.80 heat shock protein 90, putative [Plasmodium vivax]
+#
+# Program:         hmmsearch
+# Version:         3.4 (Aug 2023)
+# Pipeline mode:   SEARCH
+# Query file:      /v3/work/00_inventory/busco/busco_downloads/lineages/plasmodium_odb10/hmms/3514at5820.hmm
+# Target file:     /v3/inputs/annotations/ncbi-datasets/PvC01.proteins.fa
+# Option settings: hmmsearch --domtblout /v3/work/00_inventory/busco/PvC01_proteins/run_plasmodium_odb10/hmmer_output/initial_run_results/3514at5820.out --cpu 1 /v3/work/00_inventory/busco/busco_downloads/lineages/plasmodium_odb10/hmms/3514at5820.hmm /v3/inputs/annotations/ncbi-datasets/PvC01.proteins.fa 
+# Current dir:     /v3/work/00_inventory/busco
+# Date:            Tue May 19 18:39:18 2026
+# [ok]

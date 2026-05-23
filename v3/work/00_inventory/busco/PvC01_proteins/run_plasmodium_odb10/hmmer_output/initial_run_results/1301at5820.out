@@ -1,0 +1,29 @@
+#                                                                            --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name        accession   tlen query name           accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+#------------------- ---------- ----- -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+SCO74697.1           -           1351 1301at5820           -           1082         0 2239.6  19.5   1   1         0         0 2233.8  19.5    11  1082   192  1351   184  1351 0.95 non-SERCA-type Ca2+-transporting P-ATPase, putative [Plasmodium vivax]
+SCO70630.1           -           1196 1301at5820           -           1082  3.4e-122  407.7  20.2   1   4   1.1e-59   1.3e-56  190.5   3.5    17   383    12   399     3   442 0.86 calcium-transporting ATPase, putative [Plasmodium vivax]
+SCO70630.1           -           1196 1301at5820           -           1082  3.4e-122  407.7  20.2   2   4   1.2e-14   1.5e-11   41.3   0.1   518   648   660   790   638   804 0.86 calcium-transporting ATPase, putative [Plasmodium vivax]
+SCO70630.1           -           1196 1301at5820           -           1082  3.4e-122  407.7  20.2   3   4   1.4e-53   1.8e-50  170.2   0.2   677   837   852  1012   838  1042 0.92 calcium-transporting ATPase, putative [Plasmodium vivax]
+SCO70630.1           -           1196 1301at5820           -           1082  3.4e-122  407.7  20.2   4   4     6e-07   0.00076   15.8   0.8   976  1069  1083  1178  1053  1187 0.87 calcium-transporting ATPase, putative [Plasmodium vivax]
+SCO73312.1           -           1914 1301at5820           -           1082   1.1e-17   61.7   8.8   1   4   9.3e-11   1.2e-07   28.4   1.2    24   193   363   531   341   544 0.81 cation transporting P-ATPase, putative [Plasmodium vivax]
+SCO73312.1           -           1914 1301at5820           -           1082   1.1e-17   61.7   8.8   2   4     0.094   1.2e+02   -1.4   0.0   292   362   684   754   664   771 0.71 cation transporting P-ATPase, putative [Plasmodium vivax]
+SCO73312.1           -           1914 1301at5820           -           1082   1.1e-17   61.7   8.8   3   4   0.00047      0.59    6.2   0.0   534   664  1188  1314  1118  1325 0.79 cation transporting P-ATPase, putative [Plasmodium vivax]
+SCO73312.1           -           1914 1301at5820           -           1082   1.1e-17   61.7   8.8   4   4   5.2e-11   6.6e-08   29.3   0.1   669   776  1553  1659  1476  1715 0.69 cation transporting P-ATPase, putative [Plasmodium vivax]
+SCO70679.1           -           1696 1301at5820           -           1082   5.3e-11   39.5   2.4   1   4    0.0017       2.2    4.4   0.0   125   188   517   584   432   594 0.71 cation transporting ATPase, putative [Plasmodium vivax]
+SCO70679.1           -           1696 1301at5820           -           1082   5.3e-11   39.5   2.4   2   4     0.011        14    1.6   0.1   337   367   788   819   667   829 0.65 cation transporting ATPase, putative [Plasmodium vivax]
+SCO70679.1           -           1696 1301at5820           -           1082   5.3e-11   39.5   2.4   3   4     0.009        11    2.0   0.1   591   644  1110  1163  1067  1174 0.73 cation transporting ATPase, putative [Plasmodium vivax]
+SCO70679.1           -           1696 1301at5820           -           1082   5.3e-11   39.5   2.4   4   4   1.7e-10   2.1e-07   27.6   0.0   671   725  1299  1353  1285  1359 0.93 cation transporting ATPase, putative [Plasmodium vivax]
+SCO72359.1           -           1707 1301at5820           -           1082    0.0003   17.1   1.9   1   3    0.0049       6.1    2.9   0.1   198   359   346   524   326   530 0.51 P-type ATPase, putative [Plasmodium vivax]
+SCO72359.1           -           1707 1301at5820           -           1082    0.0003   17.1   1.9   2   3   7.2e-06    0.0091   12.2   0.1   586   650  1036  1101   931  1115 0.73 P-type ATPase, putative [Plasmodium vivax]
+SCO72359.1           -           1707 1301at5820           -           1082    0.0003   17.1   1.9   3   3     0.089   1.1e+02   -1.3   0.0   679   732  1260  1313  1255  1327 0.71 P-type ATPase, putative [Plasmodium vivax]
+#
+# Program:         hmmsearch
+# Version:         3.4 (Aug 2023)
+# Pipeline mode:   SEARCH
+# Query file:      /v3/work/00_inventory/busco/busco_downloads/lineages/plasmodium_odb10/hmms/1301at5820.hmm
+# Target file:     /v3/inputs/annotations/ncbi-datasets/PvC01.proteins.fa
+# Option settings: hmmsearch --domtblout /v3/work/00_inventory/busco/PvC01_proteins/run_plasmodium_odb10/hmmer_output/initial_run_results/1301at5820.out --cpu 1 /v3/work/00_inventory/busco/busco_downloads/lineages/plasmodium_odb10/hmms/1301at5820.hmm /v3/inputs/annotations/ncbi-datasets/PvC01.proteins.fa 
+# Current dir:     /v3/work/00_inventory/busco
+# Date:            Tue May 19 18:31:10 2026
+# [ok]

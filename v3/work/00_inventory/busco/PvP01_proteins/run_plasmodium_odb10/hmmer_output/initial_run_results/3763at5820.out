@@ -1,0 +1,17 @@
+#                                                                            --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name        accession   tlen query name           accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+#------------------- ---------- ----- -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+PVP01_1433900.1-p1   -            926 3763at5820           -            597  1.1e-300  996.9  70.8   1   4   6.2e-28     4e-24   83.5   0.4     1    54   106   159   106   164 0.97 | transcript=PVP01_1433900.1 | gene=PVP01_1433900 | organism=Plasmodium_vivax_P01 | gene_product=SUN domain-containing protein, putative | transcript_product=SUN domain-containing protein, putative | location=PvP01_14_v2:1453477-1456471(+) | protein_length=926 | sequence_SO=chromosome | SO=protein_coding_gene | is_pseudo=false
+PVP01_1433900.1-p1   -            926 3763at5820           -            597  1.1e-300  996.9  70.8   2   4   6.1e-51     4e-47  159.5  10.5    54   188   188   338   178   341 0.79 | transcript=PVP01_1433900.1 | gene=PVP01_1433900 | organism=Plasmodium_vivax_P01 | gene_product=SUN domain-containing protein, putative | transcript_product=SUN domain-containing protein, putative | location=PvP01_14_v2:1453477-1456471(+) | protein_length=926 | sequence_SO=chromosome | SO=protein_coding_gene | is_pseudo=false
+PVP01_1433900.1-p1   -            926 3763at5820           -            597  1.1e-300  996.9  70.8   3   4   2.1e-39   1.4e-35  121.4  26.7   146   274   324   462   305   466 0.86 | transcript=PVP01_1433900.1 | gene=PVP01_1433900 | organism=Plasmodium_vivax_P01 | gene_product=SUN domain-containing protein, putative | transcript_product=SUN domain-containing protein, putative | location=PvP01_14_v2:1453477-1456471(+) | protein_length=926 | sequence_SO=chromosome | SO=protein_coding_gene | is_pseudo=false
+PVP01_1433900.1-p1   -            926 3763at5820           -            597  1.1e-300  996.9  70.8   4   4  3.6e-198  2.4e-194  645.7  16.7   271   597   541   895   520   895 0.93 | transcript=PVP01_1433900.1 | gene=PVP01_1433900 | organism=Plasmodium_vivax_P01 | gene_product=SUN domain-containing protein, putative | transcript_product=SUN domain-containing protein, putative | location=PvP01_14_v2:1453477-1456471(+) | protein_length=926 | sequence_SO=chromosome | SO=protein_coding_gene | is_pseudo=false
+#
+# Program:         hmmsearch
+# Version:         3.4 (Aug 2023)
+# Pipeline mode:   SEARCH
+# Query file:      /v3/work/00_inventory/busco/busco_downloads/lineages/plasmodium_odb10/hmms/3763at5820.hmm
+# Target file:     /v3/inputs/annotations/plasmodb-68/PvP01.proteins.fa
+# Option settings: hmmsearch --domtblout /v3/work/00_inventory/busco/PvP01_proteins/run_plasmodium_odb10/hmmer_output/initial_run_results/3763at5820.out --cpu 1 /v3/work/00_inventory/busco/busco_downloads/lineages/plasmodium_odb10/hmms/3763at5820.hmm /v3/inputs/annotations/plasmodb-68/PvP01.proteins.fa 
+# Current dir:     /v3/work/00_inventory/busco
+# Date:            Tue May 19 17:38:33 2026
+# [ok]

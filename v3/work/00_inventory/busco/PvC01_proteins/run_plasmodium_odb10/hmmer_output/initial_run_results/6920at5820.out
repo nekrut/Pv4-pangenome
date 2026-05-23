@@ -1,0 +1,17 @@
+#                                                                            --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name        accession   tlen query name           accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+#------------------- ---------- ----- -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+SCO70503.1           -            562 6920at5820           -            420  1.7e-191  635.2  13.2   1   2  6.5e-104    2e-100  335.1   9.1     2   220     8   292     7   325 0.87 U2 snRNA/tRNA pseudouridine synthase, putative [Plasmodium vivax]
+SCO70503.1           -            562 6920at5820           -            420  1.7e-191  635.2  13.2   2   2     1e-92   3.2e-89  298.2   0.1   220   369   403   559   381   562 0.90 U2 snRNA/tRNA pseudouridine synthase, putative [Plasmodium vivax]
+SCO71842.1           -            306 6920at5820           -            420   4.4e-13   47.4   6.4   1   2   3.1e-11   9.6e-08   29.8   0.1    43   180     5   127     1   132 0.83 tRNA pseudouridine synthase, putative [Plasmodium vivax]
+SCO71842.1           -            306 6920at5820           -            420   4.4e-13   47.4   6.4   2   2   5.9e-08   0.00019   19.0   2.9   248   310   139   199   128   250 0.85 tRNA pseudouridine synthase, putative [Plasmodium vivax]
+#
+# Program:         hmmsearch
+# Version:         3.4 (Aug 2023)
+# Pipeline mode:   SEARCH
+# Query file:      /v3/work/00_inventory/busco/busco_downloads/lineages/plasmodium_odb10/hmms/6920at5820.hmm
+# Target file:     /v3/inputs/annotations/ncbi-datasets/PvC01.proteins.fa
+# Option settings: hmmsearch --domtblout /v3/work/00_inventory/busco/PvC01_proteins/run_plasmodium_odb10/hmmer_output/initial_run_results/6920at5820.out --cpu 1 /v3/work/00_inventory/busco/busco_downloads/lineages/plasmodium_odb10/hmms/6920at5820.hmm /v3/inputs/annotations/ncbi-datasets/PvC01.proteins.fa 
+# Current dir:     /v3/work/00_inventory/busco
+# Date:            Tue May 19 18:54:53 2026
+# [ok]

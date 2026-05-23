@@ -1,0 +1,18 @@
+#                                                                            --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name        accession   tlen query name           accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+#------------------- ---------- ----- -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+PVP01_0732700.1-p1   -            640 7137at5820           -            386  8.2e-164  543.8  11.9   1   3   4.6e-50   1.5e-46  157.8   1.3     5    93    63   151    60   155 0.96 | transcript=PVP01_0732700.1 | gene=PVP01_0732700 | organism=Plasmodium_vivax_P01 | gene_product=histidine--tRNA ligase, putative | transcript_product=histidine--tRNA ligase, putative | location=PvP01_07_v2:1356392-1358314(-) | protein_length=640 | sequence_SO=chromosome | SO=protein_coding_gene | is_pseudo=false
+PVP01_0732700.1-p1   -            640 7137at5820           -            386  8.2e-164  543.8  11.9   2   3  9.7e-100   3.2e-96  321.3   5.8    91   307   225   474   219   477 0.90 | transcript=PVP01_0732700.1 | gene=PVP01_0732700 | organism=Plasmodium_vivax_P01 | gene_product=histidine--tRNA ligase, putative | transcript_product=histidine--tRNA ligase, putative | location=PvP01_07_v2:1356392-1358314(-) | protein_length=640 | sequence_SO=chromosome | SO=protein_coding_gene | is_pseudo=false
+PVP01_0732700.1-p1   -            640 7137at5820           -            386  8.2e-164  543.8  11.9   3   3   5.4e-22   1.8e-18   65.4   0.0   314   386   545   633   542   633 0.83 | transcript=PVP01_0732700.1 | gene=PVP01_0732700 | organism=Plasmodium_vivax_P01 | gene_product=histidine--tRNA ligase, putative | transcript_product=histidine--tRNA ligase, putative | location=PvP01_07_v2:1356392-1358314(-) | protein_length=640 | sequence_SO=chromosome | SO=protein_coding_gene | is_pseudo=false
+PVP01_1261900.1-p1   -           1055 7137at5820           -            386   1.4e-14   52.6  21.5   1   2      0.66   2.2e+03   -4.0   1.0   187   223   415   451   400   462 0.72 | transcript=PVP01_1261900.1 | gene=PVP01_1261900 | organism=Plasmodium_vivax_P01 | gene_product=histidine--tRNA ligase, putative | transcript_product=histidine--tRNA ligase, putative | location=PvP01_12_v2:2552831-2555998(+) | protein_length=1055 | sequence_SO=chromosome | SO=protein_coding_gene | is_pseudo=false
+PVP01_1261900.1-p1   -           1055 7137at5820           -            386   1.4e-14   52.6  21.5   2   2   5.1e-17   1.7e-13   49.0  13.4    93   296   634   878   549   887 0.71 | transcript=PVP01_1261900.1 | gene=PVP01_1261900 | organism=Plasmodium_vivax_P01 | gene_product=histidine--tRNA ligase, putative | transcript_product=histidine--tRNA ligase, putative | location=PvP01_12_v2:2552831-2555998(+) | protein_length=1055 | sequence_SO=chromosome | SO=protein_coding_gene | is_pseudo=false
+#
+# Program:         hmmsearch
+# Version:         3.4 (Aug 2023)
+# Pipeline mode:   SEARCH
+# Query file:      /v3/work/00_inventory/busco/busco_downloads/lineages/plasmodium_odb10/hmms/7137at5820.hmm
+# Target file:     /v3/inputs/annotations/plasmodb-68/PvP01.proteins.fa
+# Option settings: hmmsearch --domtblout /v3/work/00_inventory/busco/PvP01_proteins/run_plasmodium_odb10/hmmer_output/initial_run_results/7137at5820.out --cpu 1 /v3/work/00_inventory/busco/busco_downloads/lineages/plasmodium_odb10/hmms/7137at5820.hmm /v3/inputs/annotations/plasmodb-68/PvP01.proteins.fa 
+# Current dir:     /v3/work/00_inventory/busco
+# Date:            Tue May 19 17:46:18 2026
+# [ok]

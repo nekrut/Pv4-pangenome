@@ -1,0 +1,16 @@
+#                                                                            --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name        accession   tlen query name           accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+#------------------- ---------- ----- -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+CAG9473598.1         -            381 8223at5820           -            315    2e-169  561.2   8.7   1   1  1.5e-172    3e-169  560.6   8.7     6   315    41   369    37   369 0.96 | transcript=PVW1_120052200_t1 | gene=PVW1_120052200 | organism=Plasmodium_vivax_PvW1 | gene_product=Metallophos domain-containing protein [Source:UniProtKB/TrEMBL;Acc:A0A1G4HH25] | transcript_product=Metallophos domain-containing protein [Source:UniProtKB/TrEMBL;Acc:A0A1G4HH25] | location=CAJZCX010000004:1956302-1957447(+) | protein_length=381 | sequence_SO=supercontig | SO=protein_coding_gene | is_pseudo=false
+CAG9475406.1         -            301 8223at5820           -            315     9e-41  138.5  15.9   1   1   8.3e-44   1.7e-40  137.6  15.9    28   279    27   292     8   299 0.84 | transcript=PVW1_130011700_t1 | gene=PVW1_130011700 | organism=Plasmodium_vivax_PvW1 | gene_product=Metallophos domain-containing protein [Source:UniProtKB/TrEMBL;Acc:A0A1G4HI90] | transcript_product=Metallophos domain-containing protein [Source:UniProtKB/TrEMBL;Acc:A0A1G4HI90] | location=CAJZCX010000006:307099-308004(-) | protein_length=301 | sequence_SO=supercontig | SO=protein_coding_gene | is_pseudo=false
+CAG9485099.1         -            564 8223at5820           -            315     9e-05   20.3   0.2   1   1     1e-07    0.0002   19.1   0.2    35   187    78   216    61   231 0.76 | transcript=PVW1_010021800_t1 | gene=PVW1_010021800 | organism=Plasmodium_vivax_PvW1 | gene_product=Serine/threonine-protein phosphatase [Source:UniProtKB/TrEMBL;Acc:A0A1G4H6K2] | transcript_product=Serine/threonine-protein phosphatase [Source:UniProtKB/TrEMBL;Acc:A0A1G4H6K2] | location=CAJZCX010000016:755455-757677(-) | protein_length=564 | sequence_SO=supercontig | SO=protein_coding_gene | is_pseudo=false
+#
+# Program:         hmmsearch
+# Version:         3.4 (Aug 2023)
+# Pipeline mode:   SEARCH
+# Query file:      /v3/work/00_inventory/busco/busco_downloads/lineages/plasmodium_odb10/hmms/8223at5820.hmm
+# Target file:     /v3/inputs/annotations/plasmodb-68/PvW1.proteins.fa
+# Option settings: hmmsearch --domtblout /v3/work/00_inventory/busco/PvW1_proteins/run_plasmodium_odb10/hmmer_output/initial_run_results/8223at5820.out --cpu 1 /v3/work/00_inventory/busco/busco_downloads/lineages/plasmodium_odb10/hmms/8223at5820.hmm /v3/inputs/annotations/plasmodb-68/PvW1.proteins.fa 
+# Current dir:     /v3/work/00_inventory/busco
+# Date:            Tue May 19 17:50:29 2026
+# [ok]

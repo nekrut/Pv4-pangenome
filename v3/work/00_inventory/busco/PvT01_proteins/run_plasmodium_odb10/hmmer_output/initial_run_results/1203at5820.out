@@ -1,0 +1,25 @@
+#                                                                            --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name        accession   tlen query name           accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+#------------------- ---------- ----- -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+SCO67384.1           -           1444 1203at5820           -           1004         0 1497.3  42.6   1   8     1e-15     3e-12   43.5   3.8     1    41     1    41     1    55 0.91 6-phosphofructokinase, putative [Plasmodium vivax]
+SCO67384.1           -           1444 1203at5820           -           1004         0 1497.3  42.6   2   8    0.0015       4.6    3.2   0.0    37    57    63    83    59    90 0.88 6-phosphofructokinase, putative [Plasmodium vivax]
+SCO67384.1           -           1444 1203at5820           -           1004         0 1497.3  42.6   3   8   9.3e-63   2.8e-59  199.2   0.3    54   182   132   278   119   284 0.90 6-phosphofructokinase, putative [Plasmodium vivax]
+SCO67384.1           -           1444 1203at5820           -           1004         0 1497.3  42.6   4   8   1.2e-83   3.6e-80  268.4   1.4   182   332   316   477   313   483 0.94 6-phosphofructokinase, putative [Plasmodium vivax]
+SCO67384.1           -           1444 1203at5820           -           1004         0 1497.3  42.6   5   8   2.9e-55   8.7e-52  174.4   0.1   332   452   515   641   511   648 0.94 6-phosphofructokinase, putative [Plasmodium vivax]
+SCO67384.1           -           1444 1203at5820           -           1004         0 1497.3  42.6   6   8     0.014        44   -0.1   0.0   451   470   687   709   682   731 0.77 6-phosphofructokinase, putative [Plasmodium vivax]
+SCO67384.1           -           1444 1203at5820           -           1004         0 1497.3  42.6   7   8     0.011        34    0.3   0.0   475   489   760   774   756   777 0.90 6-phosphofructokinase, putative [Plasmodium vivax]
+SCO67384.1           -           1444 1203at5820           -           1004         0 1497.3  42.6   8   8  1.3e-249    4e-246  817.7  10.3   489  1004   858  1438   855  1438 0.93 6-phosphofructokinase, putative [Plasmodium vivax]
+SCO66476.1           -           1421 1203at5820           -           1004  8.7e-119  396.2  10.5   1   4   6.8e-72   2.1e-68  229.4   4.7     9   434   105   559   100   582 0.79 6-phosphofructokinase, putative [Plasmodium vivax]
+SCO66476.1           -           1421 1203at5820           -           1004  8.7e-119  396.2  10.5   2   4     1e-26   3.2e-23   79.8   1.0   532   710   835  1007   804  1007 0.90 6-phosphofructokinase, putative [Plasmodium vivax]
+SCO66476.1           -           1421 1203at5820           -           1004  8.7e-119  396.2  10.5   3   4   1.2e-17   3.6e-14   49.9   0.0   254   337  1007  1093  1005  1104 0.92 6-phosphofructokinase, putative [Plasmodium vivax]
+SCO66476.1           -           1421 1203at5820           -           1004  8.7e-119  396.2  10.5   4   4   7.7e-12   2.3e-08   30.6   0.0   334   451  1150  1274  1142  1283 0.73 6-phosphofructokinase, putative [Plasmodium vivax]
+#
+# Program:         hmmsearch
+# Version:         3.4 (Aug 2023)
+# Pipeline mode:   SEARCH
+# Query file:      /v3/work/00_inventory/busco/busco_downloads/lineages/plasmodium_odb10/hmms/1203at5820.hmm
+# Target file:     /v3/inputs/annotations/ncbi-datasets/PvT01.proteins.fa
+# Option settings: hmmsearch --domtblout /v3/work/00_inventory/busco/PvT01_proteins/run_plasmodium_odb10/hmmer_output/initial_run_results/1203at5820.out --cpu 1 /v3/work/00_inventory/busco/busco_downloads/lineages/plasmodium_odb10/hmms/1203at5820.hmm /v3/inputs/annotations/ncbi-datasets/PvT01.proteins.fa 
+# Current dir:     /v3/work/00_inventory/busco
+# Date:            Tue May 19 18:28:26 2026
+# [ok]

@@ -1,0 +1,17 @@
+#                                                                            --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name        accession   tlen query name           accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+#------------------- ---------- ----- -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+PVX_085005.1-p1      -            511 5658at5820           -            431  3.6e-263  871.4   0.0   1   1  2.4e-266  4.5e-263  871.1   0.0     8   431    70   511    64   511 0.97 | transcript=PVX_085005.1 | gene=PVX_085005 | organism=Plasmodium_vivax_Sal-1 | gene_product=glutamate dehydrogenase (NADP+), putative | transcript_product=glutamate dehydrogenase (NADP+), putative | location=Pv_Sal1_chr13:836998-838935(-) | protein_length=511 | sequence_SO=chromosome | SO=protein_coding_gene | is_pseudo=false
+PVX_085625.1-p1      -            470 5658at5820           -            431  6.1e-196  649.9   1.5   1   1  3.9e-199  7.1e-196  649.7   1.5    12   430    32   469    22   470 0.95 | transcript=PVX_085625.1 | gene=PVX_085625 | organism=Plasmodium_vivax_Sal-1 | gene_product=glutamate dehydrogenase (NADP+), putative | transcript_product=glutamate dehydrogenase (NADP+), putative | location=Pv_Sal1_chr13:1371428-1372840(-) | protein_length=470 | sequence_SO=chromosome | SO=protein_coding_gene | is_pseudo=false
+PVX_093640.1-p1      -           1244 5658at5820           -            431   7.1e-05   20.3   0.2   1   2    0.0057        11    3.3   0.0   240   291   859   910   838   925 0.80 | transcript=PVX_093640.1 | gene=PVX_093640 | organism=Plasmodium_vivax_Sal-1 | gene_product=NAD-specific glutamate dehydrogenase, putative | transcript_product=NAD-specific glutamate dehydrogenase, putative | location=Pv_Sal1_chr01:711670-715404(-) | protein_length=1244 | sequence_SO=chromosome | SO=protein_coding_gene | is_pseudo=false
+PVX_093640.1-p1      -           1244 5658at5820           -            431   7.1e-05   20.3   0.2   2   2     2e-06    0.0037   14.7   0.1   296   367   950  1027   915  1036 0.77 | transcript=PVX_093640.1 | gene=PVX_093640 | organism=Plasmodium_vivax_Sal-1 | gene_product=NAD-specific glutamate dehydrogenase, putative | transcript_product=NAD-specific glutamate dehydrogenase, putative | location=Pv_Sal1_chr01:711670-715404(-) | protein_length=1244 | sequence_SO=chromosome | SO=protein_coding_gene | is_pseudo=false
+#
+# Program:         hmmsearch
+# Version:         3.4 (Aug 2023)
+# Pipeline mode:   SEARCH
+# Query file:      /v3/work/00_inventory/busco/busco_downloads/lineages/plasmodium_odb10/hmms/5658at5820.hmm
+# Target file:     /v3/inputs/annotations/plasmodb-68/Sal-I.proteins.fa
+# Option settings: hmmsearch --domtblout /v3/work/00_inventory/busco/Sal-I_proteins/run_plasmodium_odb10/hmmer_output/initial_run_results/5658at5820.out --cpu 1 /v3/work/00_inventory/busco/busco_downloads/lineages/plasmodium_odb10/hmms/5658at5820.hmm /v3/inputs/annotations/plasmodb-68/Sal-I.proteins.fa 
+# Current dir:     /v3/work/00_inventory/busco
+# Date:            Tue May 19 17:42:44 2026
+# [ok]

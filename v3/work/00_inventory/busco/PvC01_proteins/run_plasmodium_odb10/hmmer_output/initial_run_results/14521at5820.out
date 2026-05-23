@@ -1,0 +1,16 @@
+#                                                                            --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name        accession   tlen query name           accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+#------------------- ---------- ----- -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+SCO71149.1           -            107 14521at5820          -             69   1.8e-48  160.9   5.6   1   2      0.82   2.6e+03   -2.9   0.0    34    44     2    12     1    15 0.66 dynein light chain, putative [Plasmodium vivax]
+SCO71149.1           -            107 14521at5820          -             69   1.8e-48  160.9   5.6   2   2   5.8e-52   1.8e-48  160.9   5.6     1    69    19    87    19    87 0.99 dynein light chain, putative [Plasmodium vivax]
+SCO75389.1           -             93 14521at5820          -             69    0.0012   17.4   0.1   1   1     6e-07    0.0019   16.7   0.1    30    63    33    67     4    72 0.80 dynein light chain 1, putative [Plasmodium vivax]
+#
+# Program:         hmmsearch
+# Version:         3.4 (Aug 2023)
+# Pipeline mode:   SEARCH
+# Query file:      /v3/work/00_inventory/busco/busco_downloads/lineages/plasmodium_odb10/hmms/14521at5820.hmm
+# Target file:     /v3/inputs/annotations/ncbi-datasets/PvC01.proteins.fa
+# Option settings: hmmsearch --domtblout /v3/work/00_inventory/busco/PvC01_proteins/run_plasmodium_odb10/hmmer_output/initial_run_results/14521at5820.out --cpu 1 /v3/work/00_inventory/busco/busco_downloads/lineages/plasmodium_odb10/hmms/14521at5820.hmm /v3/inputs/annotations/ncbi-datasets/PvC01.proteins.fa 
+# Current dir:     /v3/work/00_inventory/busco
+# Date:            Tue May 19 18:35:29 2026
+# [ok]

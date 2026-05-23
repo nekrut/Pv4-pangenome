@@ -1,0 +1,18 @@
+#                                                                            --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name        accession   tlen query name           accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+#------------------- ---------- ----- -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+SCO68030.1           -            251 10722at5820          -            214  5.3e-107  354.6  33.5   1   1  8.7e-109  1.1e-105  350.3  33.5     1   213     1   250     1   251 0.90 high mobility group protein B4, putative [Plasmodium vivax]
+SCO69130.1           -            107 10722at5820          -            214   6.8e-07   27.5   2.0   1   1   6.6e-10     8e-07   27.2   2.0     2    82    27   105    23   107 0.88 high mobility group protein B1, putative [Plasmodium vivax]
+SCO65903.1           -             99 10722at5820          -            214   6.7e-06   24.2   3.8   1   1   6.2e-09   7.5e-06   24.0   3.8     5    81    23    97     7    99 0.87 high mobility group protein B2, putative [Plasmodium vivax]
+SCO69668.1           -            151 10722at5820          -            214    0.0025   15.8   0.8   1   1   2.6e-06    0.0031   15.5   0.8    80   142    18    81     5   114 0.82 CCAAT-binding transcription factor, putative [Plasmodium vivax]
+SCO67156.1           -            103 10722at5820          -            214     0.023   12.6   0.1   1   1     2e-05     0.025   12.5   0.1    97   150    44    96    21   101 0.80 histone H4, putative [Plasmodium vivax]
+#
+# Program:         hmmsearch
+# Version:         3.4 (Aug 2023)
+# Pipeline mode:   SEARCH
+# Query file:      /v3/work/00_inventory/busco/busco_downloads/lineages/plasmodium_odb10/hmms/10722at5820.hmm
+# Target file:     /v3/inputs/annotations/ncbi-datasets/PvT01.proteins.fa
+# Option settings: hmmsearch --domtblout /v3/work/00_inventory/busco/PvT01_proteins/run_plasmodium_odb10/hmmer_output/initial_run_results/10722at5820.out --cpu 1 /v3/work/00_inventory/busco/busco_downloads/lineages/plasmodium_odb10/hmms/10722at5820.hmm /v3/inputs/annotations/ncbi-datasets/PvT01.proteins.fa 
+# Current dir:     /v3/work/00_inventory/busco
+# Date:            Tue May 19 18:30:11 2026
+# [ok]

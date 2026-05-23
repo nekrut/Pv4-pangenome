@@ -1,0 +1,29 @@
+	Command being timed: "docker run --rm --gpus "device=0" -v /media/anton/data/sandbox/Pv4/v3:/v3 -w /v3/projection/A2_kegalign/work/GCA_040114635.1__vs__GCA_900093535.1 quay.io/biocontainers/kegalign-full:0.1.2.9--hdfd78af_0 bash -c 
+        kegalign /v3/genomes/softmasked/GCA_040114635.1.fa /v3/genomes/softmasked/GCA_900093535.1.fa aln_                  --strand both --format axt --num_gpu 1 --num_threads 16                  > commands.txt 2> kegalign.log
+        n_cmds=$(wc -l < commands.txt)
+        echo "emitted $n_cmds lastz commands"
+        xargs -P 16 -I {} bash -c '{}' < commands.txt
+        cat tmp*.axt 2>/dev/null > /v3/projection/A2_kegalign/axt/GCA_040114635.1__vs__GCA_900093535.1.axt
+      "
+	User time (seconds): 0.07
+	System time (seconds): 0.01
+	Percent of CPU this job got: 0%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 28:50.01
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 27848
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 1
+	Minor (reclaiming a frame) page faults: 3130
+	Voluntary context switches: 899
+	Involuntary context switches: 208
+	Swaps: 0
+	File system inputs: 168
+	File system outputs: 0
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0

@@ -1,0 +1,31 @@
+#                                                                            --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name        accession   tlen query name           accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+#------------------- ---------- ----- -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+SCO70402.1           -            832 2617at5820           -            738         0 1652.5   9.9   1   1         0         0 1652.3   9.9     1   738    13   806    13   806 0.98 DNA replication licensing factor MCM7, putative [Plasmodium vivax]
+SCO73534.1           -            944 2617at5820           -            738   4.5e-90  301.1   8.2   1   2   1.5e-13   1.2e-10   38.5   0.1   161   294   218   349   209   361 0.86 DNA replication licensing factor MCM6, putative [Plasmodium vivax]
+SCO73534.1           -            944 2617at5820           -            738   4.5e-90  301.1   8.2   2   2   6.3e-82   4.9e-79  264.6   5.1   251   666   349   764   347   829 0.81 DNA replication licensing factor MCM6, putative [Plasmodium vivax]
+SCO75249.1           -            955 2617at5820           -            738   5.6e-85  284.2   7.8   1   3   2.4e-06    0.0019   14.7   0.5   175   292   280   404   268   456 0.69 DNA replication licensing factor MCM4, putative [Plasmodium vivax]
+SCO75249.1           -            955 2617at5820           -            738   5.6e-85  284.2   7.8   2   3   3.9e-82   3.1e-79  265.3   0.5   317   553   459   697   455   720 0.93 DNA replication licensing factor MCM4, putative [Plasmodium vivax]
+SCO75249.1           -            955 2617at5820           -            738   5.6e-85  284.2   7.8   3   3   0.00054      0.42    6.9   0.0   621   656   816   854   761   867 0.68 DNA replication licensing factor MCM4, putative [Plasmodium vivax]
+SCO74695.1           -            758 2617at5820           -            738   9.3e-75  250.5   0.3   1   1   1.7e-77   1.4e-74  249.9   0.3   241   650   260   664   240   706 0.88 DNA replication licensing factor MCM5, putative [Plasmodium vivax]
+SCO74887.1           -            972 2617at5820           -            738   1.2e-72  243.5   0.4   1   2   2.6e-14     2e-11   41.1   0.0   220   379   367   519   305   530 0.73 DNA replication licensing factor MCM2, putative [Plasmodium vivax]
+SCO74887.1           -            972 2617at5820           -            738   1.2e-72  243.5   0.4   2   2   1.6e-62   1.3e-59  200.4   0.1   382   655   546   840   537   864 0.87 DNA replication licensing factor MCM2, putative [Plasmodium vivax]
+SCO73078.1           -            971 2617at5820           -            738   9.2e-65  217.4   7.9   1   3   1.9e-67   1.5e-64  216.7   0.2   239   556   285   600   275   623 0.90 DNA replication licensing factor MCM3, putative [Plasmodium vivax]
+SCO73078.1           -            971 2617at5820           -            738   9.2e-65  217.4   7.9   2   3    0.0014       1.1    5.6   0.0   587   642   709   762   686   778 0.80 DNA replication licensing factor MCM3, putative [Plasmodium vivax]
+SCO73078.1           -            971 2617at5820           -            738   9.2e-65  217.4   7.9   3   3       1.9   1.5e+03   -4.8   1.0   643   676   825   858   824   881 0.72 DNA replication licensing factor MCM3, putative [Plasmodium vivax]
+SCO74691.1           -           1322 2617at5820           -            738   1.2e-51  174.1   2.0   1   3    0.0023       1.8    4.9   1.9   128   344   232   455   224   476 0.71 DNA helicase MCM8, putative [Plasmodium vivax]
+SCO74691.1           -           1322 2617at5820           -            738   1.2e-51  174.1   2.0   2   3   1.5e-54   1.2e-51  174.1   2.0   319   567   777  1027   774  1037 0.92 DNA helicase MCM8, putative [Plasmodium vivax]
+SCO74691.1           -           1322 2617at5820           -            738   1.2e-51  174.1   2.0   3   3     0.024        19    1.5   0.1   563   656  1130  1218  1106  1234 0.77 DNA helicase MCM8, putative [Plasmodium vivax]
+SCO71415.1           -           1310 2617at5820           -            738     8e-32  108.5   7.5   1   3    0.0015       1.2    5.5   0.0   239   302   507   566   496   577 0.86 DNA helicase MCM9, putative [Plasmodium vivax]
+SCO71415.1           -           1310 2617at5820           -            738     8e-32  108.5   7.5   2   3   9.2e-33   7.2e-30  102.1   3.9   388   555   878  1046   868  1052 0.91 DNA helicase MCM9, putative [Plasmodium vivax]
+SCO71415.1           -           1310 2617at5820           -            738     8e-32  108.5   7.5   3   3      0.18   1.4e+02   -1.4   0.1   621   663  1191  1233  1182  1263 0.77 DNA helicase MCM9, putative [Plasmodium vivax]
+#
+# Program:         hmmsearch
+# Version:         3.4 (Aug 2023)
+# Pipeline mode:   SEARCH
+# Query file:      /v3/work/00_inventory/busco/busco_downloads/lineages/plasmodium_odb10/hmms/2617at5820.hmm
+# Target file:     /v3/inputs/annotations/ncbi-datasets/PvC01.proteins.fa
+# Option settings: hmmsearch --domtblout /v3/work/00_inventory/busco/PvC01_proteins/run_plasmodium_odb10/hmmer_output/initial_run_results/2617at5820.out --cpu 1 /v3/work/00_inventory/busco/busco_downloads/lineages/plasmodium_odb10/hmms/2617at5820.hmm /v3/inputs/annotations/ncbi-datasets/PvC01.proteins.fa 
+# Current dir:     /v3/work/00_inventory/busco
+# Date:            Tue May 19 18:41:14 2026
+# [ok]

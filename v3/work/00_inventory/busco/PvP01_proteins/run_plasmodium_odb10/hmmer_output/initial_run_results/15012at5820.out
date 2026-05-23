@@ -1,0 +1,17 @@
+#                                                                            --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name        accession   tlen query name           accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+#------------------- ---------- ----- -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+PVP01_0833600.1-p1   -             85 15012at5820          -             70   6.8e-40  133.3   2.9   1   1   4.4e-43   9.5e-40  132.9   2.9     1    70     1    85     1    85 0.93 | transcript=PVP01_0833600.1 | gene=PVP01_0833600 | organism=Plasmodium_vivax_P01 | gene_product=ATP synthase-associated protein, putative | transcript_product=ATP synthase-associated protein, putative | location=PvP01_08_v2:1428584-1428841(-) | protein_length=85 | sequence_SO=chromosome | SO=protein_coding_gene | is_pseudo=false
+PVP01_0213400.1-p1   -           1043 15012at5820          -             70     0.018   13.5   0.1   1   1   2.1e-05     0.045   12.2   0.1    13    35   748   770   737   786 0.88 | transcript=PVP01_0213400.1 | gene=PVP01_0213400 | organism=Plasmodium_vivax_P01 | gene_product=conserved Plasmodium protein, unknown function | transcript_product=conserved Plasmodium protein, unknown function | location=PvP01_02_v2:557375-560506(-) | protein_length=1043 | sequence_SO=chromosome | SO=protein_coding_gene | is_pseudo=false
+PVP01_0003180.1-p1   -            274 15012at5820          -             70       0.1   11.0   2.1   1   2   6.1e-05      0.13   10.7   0.3    35    58    65    88    58    96 0.88 | transcript=PVP01_0003180.1 | gene=PVP01_0003180 | organism=Plasmodium_vivax_P01 | gene_product=Plasmodium exported protein, unknown function | transcript_product=Plasmodium exported protein, unknown function | location=Transfer.PvP01_00_7.final:62987-63932(+) | protein_length=274 | sequence_SO=contig | SO=protein_coding_gene | is_pseudo=false
+PVP01_0003180.1-p1   -            274 15012at5820          -             70       0.1   11.0   2.1   2   2      0.66   1.4e+03   -2.3   0.1    49    62   151   164   144   171 0.65 | transcript=PVP01_0003180.1 | gene=PVP01_0003180 | organism=Plasmodium_vivax_P01 | gene_product=Plasmodium exported protein, unknown function | transcript_product=Plasmodium exported protein, unknown function | location=Transfer.PvP01_00_7.final:62987-63932(+) | protein_length=274 | sequence_SO=contig | SO=protein_coding_gene | is_pseudo=false
+#
+# Program:         hmmsearch
+# Version:         3.4 (Aug 2023)
+# Pipeline mode:   SEARCH
+# Query file:      /v3/work/00_inventory/busco/busco_downloads/lineages/plasmodium_odb10/hmms/15012at5820.hmm
+# Target file:     /v3/inputs/annotations/plasmodb-68/PvP01.proteins.fa
+# Option settings: hmmsearch --domtblout /v3/work/00_inventory/busco/PvP01_proteins/run_plasmodium_odb10/hmmer_output/initial_run_results/15012at5820.out --cpu 1 /v3/work/00_inventory/busco/busco_downloads/lineages/plasmodium_odb10/hmms/15012at5820.hmm /v3/inputs/annotations/plasmodb-68/PvP01.proteins.fa 
+# Current dir:     /v3/work/00_inventory/busco
+# Date:            Tue May 19 17:34:51 2026
+# [ok]

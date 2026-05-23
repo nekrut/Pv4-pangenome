@@ -1,0 +1,16 @@
+#                                                                            --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name        accession   tlen query name           accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+#------------------- ---------- ----- -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+SCO74888.1           -            228 2365at5820           -           1042      0.47    6.8  19.3   1   1   0.00027      0.56    6.5  19.3   546   718    12   179     3   199 0.55 conserved Plasmodium protein, unknown function [Plasmodium vivax]
+SCO72036.1           -             99 2365at5820           -           1042       4.8    3.4  19.9   1   1    0.0022       4.7    3.5  19.9   304   370     9    61     1    84 0.41 hypothetical protein PVC01_070031400 [Plasmodium vivax]
+SCO73259.1           -            143 2365at5820           -           1042       6.5    3.0   8.7   1   1    0.0031       6.5    3.0   8.7   300   370    52   127    10   137 0.45 conserved Plasmodium protein, unknown function [Plasmodium vivax]
+#
+# Program:         hmmsearch
+# Version:         3.4 (Aug 2023)
+# Pipeline mode:   SEARCH
+# Query file:      /v3/work/00_inventory/busco/busco_downloads/lineages/plasmodium_odb10/hmms/2365at5820.hmm
+# Target file:     /v3/inputs/annotations/ncbi-datasets/PvC01.proteins.fa
+# Option settings: hmmsearch --domtblout /v3/work/00_inventory/busco/PvC01_proteins/run_plasmodium_odb10/hmmer_output/initial_run_results/2365at5820.out --cpu 1 /v3/work/00_inventory/busco/busco_downloads/lineages/plasmodium_odb10/hmms/2365at5820.hmm /v3/inputs/annotations/ncbi-datasets/PvC01.proteins.fa 
+# Current dir:     /v3/work/00_inventory/busco
+# Date:            Tue May 19 18:39:38 2026
+# [ok]

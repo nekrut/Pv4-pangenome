@@ -1,0 +1,20 @@
+#                                                                            --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name        accession   tlen query name           accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+#------------------- ---------- ----- -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+SCO70102.1           -            992 3304at5820           -            670  2.8e-251  834.2  25.8   1   7   9.4e-51   5.7e-47  159.1   0.1    15   152    56   204    52   206 0.91 protein TOC75, putative [Plasmodium vivax]
+SCO70102.1           -            992 3304at5820           -            670  2.8e-251  834.2  25.8   2   7   3.1e-94   1.9e-90  302.8   0.2   154   344   250   450   248   455 0.92 protein TOC75, putative [Plasmodium vivax]
+SCO70102.1           -            992 3304at5820           -            670  2.8e-251  834.2  25.8   3   7   3.7e-21   2.3e-17   61.3   0.0   343   388   485   530   480   542 0.95 protein TOC75, putative [Plasmodium vivax]
+SCO70102.1           -            992 3304at5820           -            670  2.8e-251  834.2  25.8   4   7   1.5e-44   9.3e-41  138.5   1.2   390   505   553   693   545   695 0.86 protein TOC75, putative [Plasmodium vivax]
+SCO70102.1           -            992 3304at5820           -            670  2.8e-251  834.2  25.8   5   7   1.1e-12   6.5e-09   33.3   0.1   506   538   716   748   709   754 0.91 protein TOC75, putative [Plasmodium vivax]
+SCO70102.1           -            992 3304at5820           -            670  2.8e-251  834.2  25.8   6   7   5.7e-29   3.4e-25   87.1   0.0   556   613   831   888   827   905 0.95 protein TOC75, putative [Plasmodium vivax]
+SCO70102.1           -            992 3304at5820           -            670  2.8e-251  834.2  25.8   7   7   2.8e-22   1.7e-18   65.0   0.5   613   670   931   992   928   992 0.92 protein TOC75, putative [Plasmodium vivax]
+#
+# Program:         hmmsearch
+# Version:         3.4 (Aug 2023)
+# Pipeline mode:   SEARCH
+# Query file:      /v3/work/00_inventory/busco/busco_downloads/lineages/plasmodium_odb10/hmms/3304at5820.hmm
+# Target file:     /v3/inputs/annotations/ncbi-datasets/PvT01.proteins.fa
+# Option settings: hmmsearch --domtblout /v3/work/00_inventory/busco/PvT01_proteins/run_plasmodium_odb10/hmmer_output/initial_run_results/3304at5820.out --cpu 1 /v3/work/00_inventory/busco/busco_downloads/lineages/plasmodium_odb10/hmms/3304at5820.hmm /v3/inputs/annotations/ncbi-datasets/PvT01.proteins.fa 
+# Current dir:     /v3/work/00_inventory/busco
+# Date:            Tue May 19 18:38:19 2026
+# [ok]

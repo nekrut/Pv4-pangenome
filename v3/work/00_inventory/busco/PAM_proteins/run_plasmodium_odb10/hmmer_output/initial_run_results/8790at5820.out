@@ -1,0 +1,16 @@
+#                                                                            --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name        accession   tlen query name           accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+#------------------- ---------- ----- -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+CAI7722321.1         -            450 8790at5820           -            352  8.9e-163  539.9  20.0   1   2   1.4e-50   4.6e-47  159.4   0.8     5   100    10   105     1   115 0.92 | transcript=PVPAM_120055800_t1 | gene=PVPAM_120055800 | organism=Plasmodium_vivax_PAM | gene_product=conserved Plasmodium protein, unknown function | transcript_product=conserved Plasmodium protein, unknown function | location=CASCJQ010000012:2054432-2055784(+) | protein_length=450 | sequence_SO=supercontig | SO=protein_coding_gene | is_pseudo=false
+CAI7722321.1         -            450 8790at5820           -            352  8.9e-163  539.9  20.0   2   2  2.5e-119  8.2e-116  385.5  12.4   101   350   153   431   141   433 0.96 | transcript=PVPAM_120055800_t1 | gene=PVPAM_120055800 | organism=Plasmodium_vivax_PAM | gene_product=conserved Plasmodium protein, unknown function | transcript_product=conserved Plasmodium protein, unknown function | location=CASCJQ010000012:2054432-2055784(+) | protein_length=450 | sequence_SO=supercontig | SO=protein_coding_gene | is_pseudo=false
+CAI7722413.1         -            255 8790at5820           -            352    0.0029   15.3   5.5   1   1   1.2e-06    0.0038   14.9   5.5   109   184    94   170    55   231 0.62 | transcript=PVPAM_120064900_t1 | gene=PVPAM_120064900 | organism=Plasmodium_vivax_PAM | gene_product=conserved Plasmodium protein, unknown function | transcript_product=conserved Plasmodium protein, unknown function | location=CASCJQ010000012:2448262-2449815(+) | protein_length=255 | sequence_SO=supercontig | SO=protein_coding_gene | is_pseudo=false
+#
+# Program:         hmmsearch
+# Version:         3.4 (Aug 2023)
+# Pipeline mode:   SEARCH
+# Query file:      /v3/work/00_inventory/busco/busco_downloads/lineages/plasmodium_odb10/hmms/8790at5820.hmm
+# Target file:     /v3/inputs/annotations/plasmodb-68/PAM.proteins.fa
+# Option settings: hmmsearch --domtblout /v3/work/00_inventory/busco/PAM_proteins/run_plasmodium_odb10/hmmer_output/initial_run_results/8790at5820.out --cpu 1 /v3/work/00_inventory/busco/busco_downloads/lineages/plasmodium_odb10/hmms/8790at5820.hmm /v3/inputs/annotations/plasmodb-68/PAM.proteins.fa 
+# Current dir:     /v3/work/00_inventory/busco
+# Date:            Tue May 19 17:48:35 2026
+# [ok]

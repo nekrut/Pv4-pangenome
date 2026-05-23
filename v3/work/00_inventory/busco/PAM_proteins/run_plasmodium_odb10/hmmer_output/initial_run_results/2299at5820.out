@@ -1,0 +1,17 @@
+#                                                                            --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name        accession   tlen query name           accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+#------------------- ---------- ----- -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+CAI7720649.1         -           1064 2299at5820           -            811         0 1485.4  96.7   1   4  1.3e-102   8.3e-99  330.3  11.5     1   180     1   190     1   195 0.96 | transcript=PVPAM_090041300_t1 | gene=PVPAM_090041300 | organism=Plasmodium_vivax_PAM | gene_product=tudor staphylococcal nuclease, putative | transcript_product=tudor staphylococcal nuclease, putative | location=CASCJQ010000009:1605587-1609015(+) | protein_length=1064 | sequence_SO=supercontig | SO=protein_coding_gene | is_pseudo=false
+CAI7720649.1         -           1064 2299at5820           -            811         0 1485.4  96.7   2   4  1.3e-149  8.5e-146  485.7  17.3   179   416   258   496   246   521 0.95 | transcript=PVPAM_090041300_t1 | gene=PVPAM_090041300 | organism=Plasmodium_vivax_PAM | gene_product=tudor staphylococcal nuclease, putative | transcript_product=tudor staphylococcal nuclease, putative | location=CASCJQ010000009:1605587-1609015(+) | protein_length=1064 | sequence_SO=supercontig | SO=protein_coding_gene | is_pseudo=false
+CAI7720649.1         -           1064 2299at5820           -            811         0 1485.4  96.7   3   4   1.9e-67   1.3e-63  214.0   6.5   406   523   562   683   547   696 0.94 | transcript=PVPAM_090041300_t1 | gene=PVPAM_090041300 | organism=Plasmodium_vivax_PAM | gene_product=tudor staphylococcal nuclease, putative | transcript_product=tudor staphylococcal nuclease, putative | location=CASCJQ010000009:1605587-1609015(+) | protein_length=1064 | sequence_SO=supercontig | SO=protein_coding_gene | is_pseudo=false
+CAI7720649.1         -           1064 2299at5820           -            811         0 1485.4  96.7   4   4  2.8e-145  1.8e-141  471.4  37.5   522   811   718  1062   711  1062 0.92 | transcript=PVPAM_090041300_t1 | gene=PVPAM_090041300 | organism=Plasmodium_vivax_PAM | gene_product=tudor staphylococcal nuclease, putative | transcript_product=tudor staphylococcal nuclease, putative | location=CASCJQ010000009:1605587-1609015(+) | protein_length=1064 | sequence_SO=supercontig | SO=protein_coding_gene | is_pseudo=false
+#
+# Program:         hmmsearch
+# Version:         3.4 (Aug 2023)
+# Pipeline mode:   SEARCH
+# Query file:      /v3/work/00_inventory/busco/busco_downloads/lineages/plasmodium_odb10/hmms/2299at5820.hmm
+# Target file:     /v3/inputs/annotations/plasmodb-68/PAM.proteins.fa
+# Option settings: hmmsearch --domtblout /v3/work/00_inventory/busco/PAM_proteins/run_plasmodium_odb10/hmmer_output/initial_run_results/2299at5820.out --cpu 1 /v3/work/00_inventory/busco/busco_downloads/lineages/plasmodium_odb10/hmms/2299at5820.hmm /v3/inputs/annotations/plasmodb-68/PAM.proteins.fa 
+# Current dir:     /v3/work/00_inventory/busco
+# Date:            Tue May 19 17:35:06 2026
+# [ok]

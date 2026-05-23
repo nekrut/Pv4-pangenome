@@ -1,0 +1,29 @@
+#                                                                            --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name        accession   tlen query name           accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+#------------------- ---------- ----- -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+SCO66022.1           -            646 6657at5820           -            535  1.4e-275  913.4  48.1   1   1  1.8e-276  8.6e-274  907.4  48.1     1   534     1   645     1   646 0.94 serine/threonine protein kinase RIO2, putative [Plasmodium vivax]
+SCO69645.1           -            543 6657at5820           -            535    0.0003   17.9  16.3   1   2   6.3e-07    0.0003   17.9  16.3   268   444    71   258    65   330 0.53 conserved Plasmodium protein, unknown function [Plasmodium vivax]
+SCO69645.1           -            543 6657at5820           -            535    0.0003   17.9  16.3   2   2       2.8   1.3e+03   -4.0   3.7   489   512   495   519   468   541 0.62 conserved Plasmodium protein, unknown function [Plasmodium vivax]
+SCO65383.1           -            310 6657at5820           -            535    0.0079   13.2   3.6   1   2      0.16        75    0.1   0.3   472   516    44    89    14   105 0.68 serine/threonine-protein kinase NEK4, putative [Plasmodium vivax]
+SCO65383.1           -            310 6657at5820           -            535    0.0079   13.2   3.6   2   2   1.4e-05    0.0067   13.5   1.4   199   245    97   149    73   162 0.70 serine/threonine-protein kinase NEK4, putative [Plasmodium vivax]
+SCO69043.1           -            772 6657at5820           -            535     0.089    9.8  24.2   1   1   0.00037      0.18    8.8  24.2   326   433   361   467   338   544 0.42 clathrin coat assembly protein AP50, putative [Plasmodium vivax]
+SCO69548.1           -            132 6657at5820           -            535      0.14    9.1  10.3   1   1    0.0003      0.14    9.1  10.3   400   510    14   124     1   129 0.41 conserved Plasmodium protein, unknown function [Plasmodium vivax]
+SCO69887.1           -            386 6657at5820           -            535      0.25    8.2  28.0   1   1   0.00078      0.36    7.7  28.0   311   435    27   163     2   276 0.51 conserved Plasmodium protein, unknown function [Plasmodium vivax]
+SCO65991.1           -            307 6657at5820           -            535      0.31    8.0  10.2   1   1   0.00084      0.39    7.6  10.2   346   479    50   201    27   221 0.56 conserved Plasmodium protein, unknown function [Plasmodium vivax]
+SCO68300.1           -            507 6657at5820           -            535      0.52    7.2   3.6   1   1    0.0016      0.73    6.7   3.6   379   474   323   417   309   442 0.62 citrate synthase-like protein, putative [Plasmodium vivax]
+SCO68578.1           -            456 6657at5820           -            535       3.2    4.6  13.7   1   1     0.012       5.4    3.9  13.7   297   442    37   190    31   240 0.41 MSP7-like protein [Plasmodium vivax]
+SCO70238.1           -            406 6657at5820           -            535       4.2    4.2  24.9   1   2     0.033        15    2.4   3.0   371   438    66   133    39   181 0.54 conserved Plasmodium protein, unknown function [Plasmodium vivax]
+SCO70238.1           -            406 6657at5820           -            535       4.2    4.2  24.9   2   2   0.00084      0.39    7.6  14.0   359   437   242   320   214   368 0.50 conserved Plasmodium protein, unknown function [Plasmodium vivax]
+SCO66821.1           -            381 6657at5820           -            535       7.5    3.4  24.8   1   1     0.024        11    2.8  24.8   361   506   106   252    35   267 0.45 conserved Plasmodium protein, unknown function [Plasmodium vivax]
+SCO70194.1           -            205 6657at5820           -            535       8.2    3.3  34.8   1   1     0.022        10    2.9  34.8   329   486    41   193    23   201 0.37 conserved Plasmodium protein, unknown function [Plasmodium vivax]
+SCO69845.1           -            315 6657at5820           -            535       9.2    3.1  32.4   1   1     0.024        11    2.8  32.4   329   505   101   277    56   311 0.36 conserved Plasmodium protein, unknown function [Plasmodium vivax]
+#
+# Program:         hmmsearch
+# Version:         3.4 (Aug 2023)
+# Pipeline mode:   SEARCH
+# Query file:      /v3/work/00_inventory/busco/busco_downloads/lineages/plasmodium_odb10/hmms/6657at5820.hmm
+# Target file:     /v3/inputs/annotations/ncbi-datasets/PvT01.proteins.fa
+# Option settings: hmmsearch --domtblout /v3/work/00_inventory/busco/PvT01_proteins/run_plasmodium_odb10/hmmer_output/initial_run_results/6657at5820.out --cpu 1 /v3/work/00_inventory/busco/busco_downloads/lineages/plasmodium_odb10/hmms/6657at5820.hmm /v3/inputs/annotations/ncbi-datasets/PvT01.proteins.fa 
+# Current dir:     /v3/work/00_inventory/busco
+# Date:            Tue May 19 18:51:44 2026
+# [ok]

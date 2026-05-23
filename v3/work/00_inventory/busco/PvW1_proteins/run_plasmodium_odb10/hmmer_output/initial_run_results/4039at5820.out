@@ -1,0 +1,15 @@
+#                                                                            --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name        accession   tlen query name           accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+#------------------- ---------- ----- -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+CAG9479265.1         -            613 4039at5820           -            504         0 1050.7   0.6   1   2  8.5e-139  5.2e-135  449.3   0.0     1   249     1   280     1   286 0.92 | transcript=PVW1_080036500_t1 | gene=PVW1_080036500 | organism=Plasmodium_vivax_PvW1 | gene_product=Glutamine amidotransferase type-2 domain-containing protein [Source:UniProtKB/TrEMBL;Acc:A0A1G4HBX3] | transcript_product=Glutamine amidotransferase type-2 domain-containing protein [Source:UniProtKB/TrEMBL;Acc:A0A1G4HBX3] | location=CAJZCX010000009:1384491-1386884(-) | protein_length=613 | sequence_SO=supercontig | SO=protein_coding_gene | is_pseudo=false
+CAG9479265.1         -            613 4039at5820           -            504         0 1050.7   0.6   2   2    2e-184  1.2e-180  599.8   0.2   231   504   304   586   300   586 0.98 | transcript=PVW1_080036500_t1 | gene=PVW1_080036500 | organism=Plasmodium_vivax_PvW1 | gene_product=Glutamine amidotransferase type-2 domain-containing protein [Source:UniProtKB/TrEMBL;Acc:A0A1G4HBX3] | transcript_product=Glutamine amidotransferase type-2 domain-containing protein [Source:UniProtKB/TrEMBL;Acc:A0A1G4HBX3] | location=CAJZCX010000009:1384491-1386884(-) | protein_length=613 | sequence_SO=supercontig | SO=protein_coding_gene | is_pseudo=false
+#
+# Program:         hmmsearch
+# Version:         3.4 (Aug 2023)
+# Pipeline mode:   SEARCH
+# Query file:      /v3/work/00_inventory/busco/busco_downloads/lineages/plasmodium_odb10/hmms/4039at5820.hmm
+# Target file:     /v3/inputs/annotations/plasmodb-68/PvW1.proteins.fa
+# Option settings: hmmsearch --domtblout /v3/work/00_inventory/busco/PvW1_proteins/run_plasmodium_odb10/hmmer_output/initial_run_results/4039at5820.out --cpu 1 /v3/work/00_inventory/busco/busco_downloads/lineages/plasmodium_odb10/hmms/4039at5820.hmm /v3/inputs/annotations/plasmodb-68/PvW1.proteins.fa 
+# Current dir:     /v3/work/00_inventory/busco
+# Date:            Tue May 19 17:40:00 2026
+# [ok]

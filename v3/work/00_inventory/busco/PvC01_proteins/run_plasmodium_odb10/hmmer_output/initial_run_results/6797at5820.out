@@ -1,0 +1,20 @@
+#                                                                            --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name        accession   tlen query name           accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+#------------------- ---------- ----- -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+SCO70378.1           -            595 6797at5820           -            382    4e-136  452.5  15.5   1   5   4.6e-10   9.6e-07   26.6   0.0    12    58    63   120    61   123 0.82 conserved Plasmodium protein, unknown function [Plasmodium vivax]
+SCO70378.1           -            595 6797at5820           -            382    4e-136  452.5  15.5   2   5   2.1e-28   4.4e-25   86.9   0.0    59   158   148   257   146   262 0.88 conserved Plasmodium protein, unknown function [Plasmodium vivax]
+SCO70378.1           -            595 6797at5820           -            382    4e-136  452.5  15.5   3   5   3.8e-63     8e-60  201.3   0.8   156   274   289   408   287   412 0.97 conserved Plasmodium protein, unknown function [Plasmodium vivax]
+SCO70378.1           -            595 6797at5820           -            382    4e-136  452.5  15.5   4   5   2.2e-11   4.7e-08   30.9   0.0   271   310   435   473   430   485 0.77 conserved Plasmodium protein, unknown function [Plasmodium vivax]
+SCO70378.1           -            595 6797at5820           -            382    4e-136  452.5  15.5   5   5   1.1e-35   2.3e-32  110.9   3.6   295   382   506   594   500   594 0.81 conserved Plasmodium protein, unknown function [Plasmodium vivax]
+SCO72878.1           -            627 6797at5820           -            382   1.2e-06   26.3   1.6   1   1   1.2e-09   2.5e-06   25.2   1.6   218   291   382   465   361   483 0.74 AAA family ATPase, putative [Plasmodium vivax]
+SCO75445.1           -            191 6797at5820           -            382      0.03   11.8   0.0   1   1   1.8e-05     0.038   11.4   0.0   153   200   118   169    99   185 0.74 raf kinase inhibitor, putative [Plasmodium vivax]
+#
+# Program:         hmmsearch
+# Version:         3.4 (Aug 2023)
+# Pipeline mode:   SEARCH
+# Query file:      /v3/work/00_inventory/busco/busco_downloads/lineages/plasmodium_odb10/hmms/6797at5820.hmm
+# Target file:     /v3/inputs/annotations/ncbi-datasets/PvC01.proteins.fa
+# Option settings: hmmsearch --domtblout /v3/work/00_inventory/busco/PvC01_proteins/run_plasmodium_odb10/hmmer_output/initial_run_results/6797at5820.out --cpu 1 /v3/work/00_inventory/busco/busco_downloads/lineages/plasmodium_odb10/hmms/6797at5820.hmm /v3/inputs/annotations/ncbi-datasets/PvC01.proteins.fa 
+# Current dir:     /v3/work/00_inventory/busco
+# Date:            Tue May 19 18:53:27 2026
+# [ok]

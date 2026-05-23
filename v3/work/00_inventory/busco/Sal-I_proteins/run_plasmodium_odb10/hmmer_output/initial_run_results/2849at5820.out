@@ -1,0 +1,17 @@
+#                                                                            --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name        accession   tlen query name           accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+#------------------- ---------- ----- -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+PVX_087795.1-p1      -           1137 2849at5820           -            767         0 1364.5 132.8   1   4   1.8e-86   9.8e-83  277.1  23.9     1   155   126   286   126   298 0.97 | transcript=PVX_087795.1 | gene=PVX_087795 | organism=Plasmodium_vivax_Sal-1 | gene_product=methyltransferase, putative | transcript_product=methyltransferase, putative | location=Pv_Sal1_chr01:167327-170866(-) | protein_length=1137 | sequence_SO=chromosome | SO=protein_coding_gene | is_pseudo=false
+PVX_087795.1-p1      -           1137 2849at5820           -            767         0 1364.5 132.8   2   4   3.6e-35     2e-31  107.4  23.3   153   258   343   479   323   482 0.78 | transcript=PVX_087795.1 | gene=PVX_087795 | organism=Plasmodium_vivax_Sal-1 | gene_product=methyltransferase, putative | transcript_product=methyltransferase, putative | location=Pv_Sal1_chr01:167327-170866(-) | protein_length=1137 | sequence_SO=chromosome | SO=protein_coding_gene | is_pseudo=false
+PVX_087795.1-p1      -           1137 2849at5820           -            767         0 1364.5 132.8   3   4   2.7e-53   1.5e-49  167.4   4.8   264   369   559   679   556   682 0.93 | transcript=PVX_087795.1 | gene=PVX_087795 | organism=Plasmodium_vivax_Sal-1 | gene_product=methyltransferase, putative | transcript_product=methyltransferase, putative | location=Pv_Sal1_chr01:167327-170866(-) | protein_length=1137 | sequence_SO=chromosome | SO=protein_coding_gene | is_pseudo=false
+PVX_087795.1-p1      -           1137 2849at5820           -            767         0 1364.5 132.8   4   4  2.5e-252  1.4e-248  825.5  56.7   366   767   727  1135   722  1135 0.98 | transcript=PVX_087795.1 | gene=PVX_087795 | organism=Plasmodium_vivax_Sal-1 | gene_product=methyltransferase, putative | transcript_product=methyltransferase, putative | location=Pv_Sal1_chr01:167327-170866(-) | protein_length=1137 | sequence_SO=chromosome | SO=protein_coding_gene | is_pseudo=false
+#
+# Program:         hmmsearch
+# Version:         3.4 (Aug 2023)
+# Pipeline mode:   SEARCH
+# Query file:      /v3/work/00_inventory/busco/busco_downloads/lineages/plasmodium_odb10/hmms/2849at5820.hmm
+# Target file:     /v3/inputs/annotations/plasmodb-68/Sal-I.proteins.fa
+# Option settings: hmmsearch --domtblout /v3/work/00_inventory/busco/Sal-I_proteins/run_plasmodium_odb10/hmmer_output/initial_run_results/2849at5820.out --cpu 1 /v3/work/00_inventory/busco/busco_downloads/lineages/plasmodium_odb10/hmms/2849at5820.hmm /v3/inputs/annotations/plasmodb-68/Sal-I.proteins.fa 
+# Current dir:     /v3/work/00_inventory/busco
+# Date:            Tue May 19 17:38:11 2026
+# [ok]

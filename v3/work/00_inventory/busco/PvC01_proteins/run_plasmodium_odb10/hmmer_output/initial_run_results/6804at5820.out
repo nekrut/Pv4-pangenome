@@ -1,0 +1,26 @@
+#                                                                            --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name        accession   tlen query name           accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+#------------------- ---------- ----- -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+SCO74991.1           -            663 6804at5820           -            559  2.1e-277  919.7  68.8   1   1  8.8e-279  5.5e-276  915.0  68.8     4   559    27   663    24   663 0.87 pre-mRNA-splicing factor 38B, putative [Plasmodium vivax]
+SCO72811.1           -            404 6804at5820           -            559     8e-08   29.7   0.7   1   3   1.3e-10     8e-08   29.7   0.7   102   244    18   160     3   169 0.83 pre-mRNA-splicing factor 38A, putative [Plasmodium vivax]
+SCO72811.1           -            404 6804at5820           -            559     8e-08   29.7   0.7   2   3     0.032        20    2.0  46.4   349   447   229   330   218   334 0.56 pre-mRNA-splicing factor 38A, putative [Plasmodium vivax]
+SCO72811.1           -            404 6804at5820           -            559     8e-08   29.7   0.7   3   3        10   6.3e+03   -8.6  40.7   349   444   298   394   297   401 0.52 pre-mRNA-splicing factor 38A, putative [Plasmodium vivax]
+SCO73179.1           -            316 6804at5820           -            559     0.065   10.2  49.0   1   1   0.00013     0.084    9.8  49.0   310   453   176   315   160   316 0.57 serine/arginine-rich splicing factor 1, putative [Plasmodium vivax]
+SCO71671.1           -           1218 6804at5820           -            559      0.07   10.1  35.1   1   1   0.00022      0.14    9.1  35.1   363   444   150   230    94   250 0.44 pre-mRNA-splicing factor ATP-dependent RNA helicase PRP22, putative [Plasmodium vivax]
+SCO70538.1           -            348 6804at5820           -            559      0.62    7.0  25.2   1   1    0.0015      0.95    6.4  25.2   360   459    99   196    46   233 0.42 ring-exported protein 3, putative [Plasmodium vivax]
+SCO72036.1           -             99 6804at5820           -            559       1.5    5.7  19.1   1   1    0.0023       1.4    5.8  19.1   412   459     7    56     1    86 0.45 hypothetical protein PVC01_070031400 [Plasmodium vivax]
+SCO70334.1           -            245 6804at5820           -            559       1.7    5.5  45.3   1   1    0.0035       2.2    5.2  45.3   328   464    31   173     5   218 0.43 hypothetical protein PVC01_010005000 [Plasmodium vivax]
+SCO72166.1           -            318 6804at5820           -            559       4.8    4.1  68.8   1   2   0.00017      0.11    9.5  35.0   343   419     6    82     1   107 0.31 RNA-binding protein, putative [Plasmodium vivax]
+SCO72166.1           -            318 6804at5820           -            559       4.8    4.1  68.8   2   2     0.078        49    0.7  25.7   357   439   225   309   139   318 0.52 RNA-binding protein, putative [Plasmodium vivax]
+SCO70902.1           -            238 6804at5820           -            559         8    3.3  27.7   1   1     0.018        12    2.8  27.7   348   423    41   116     5   168 0.49 conserved Plasmodium protein, unknown function [Plasmodium vivax]
+SCO70627.1           -            292 6804at5820           -            559       8.1    3.3  44.4   1   1     0.017        11    2.9  44.4   352   436    56   139    34   153 0.51 conserved Plasmodium protein, unknown function [Plasmodium vivax]
+#
+# Program:         hmmsearch
+# Version:         3.4 (Aug 2023)
+# Pipeline mode:   SEARCH
+# Query file:      /v3/work/00_inventory/busco/busco_downloads/lineages/plasmodium_odb10/hmms/6804at5820.hmm
+# Target file:     /v3/inputs/annotations/ncbi-datasets/PvC01.proteins.fa
+# Option settings: hmmsearch --domtblout /v3/work/00_inventory/busco/PvC01_proteins/run_plasmodium_odb10/hmmer_output/initial_run_results/6804at5820.out --cpu 1 /v3/work/00_inventory/busco/busco_downloads/lineages/plasmodium_odb10/hmms/6804at5820.hmm /v3/inputs/annotations/ncbi-datasets/PvC01.proteins.fa 
+# Current dir:     /v3/work/00_inventory/busco
+# Date:            Tue May 19 18:53:34 2026
+# [ok]

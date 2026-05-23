@@ -1,0 +1,24 @@
+#                                                                            --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name        accession   tlen query name           accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+#------------------- ---------- ----- -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+SCO66369.1           -           2078 870at5820            -           1107         0 1930.0 147.3   1   6     7e-19   1.4e-15   54.6   0.8     1    91     1    98     1   104 0.84 copper-transporting ATPase, putative [Plasmodium vivax]
+SCO66369.1           -           2078 870at5820            -           1107         0 1930.0 147.3   2   6  5.3e-122  1.1e-118  396.1  21.5    63   304   307   572   300   582 0.89 copper-transporting ATPase, putative [Plasmodium vivax]
+SCO66369.1           -           2078 870at5820            -           1107         0 1930.0 147.3   3   6   8.9e-77   1.8e-73  246.3  12.4   308   440   972  1104   951  1117 0.94 copper-transporting ATPase, putative [Plasmodium vivax]
+SCO66369.1           -           2078 870at5820            -           1107         0 1930.0 147.3   4   6  1.1e-170  2.2e-167  557.3  26.7   438   706  1205  1474  1200  1480 0.98 copper-transporting ATPase, putative [Plasmodium vivax]
+SCO66369.1           -           2078 870at5820            -           1107         0 1930.0 147.3   5   6   1.6e-31   3.2e-28   96.5  11.2   706   800  1595  1713  1587  1720 0.84 copper-transporting ATPase, putative [Plasmodium vivax]
+SCO66369.1           -           2078 870at5820            -           1107         0 1930.0 147.3   6   6    7e-185  1.4e-181  604.3  35.9   792  1107  1733  2067  1714  2067 0.92 copper-transporting ATPase, putative [Plasmodium vivax]
+SCO65137.1           -           1186 870at5820            -           1107   1.2e-08   31.7   0.4   1   2    0.0083        17    1.4   4.9   484   673   170   366   138   377 0.69 calcium-transporting ATPase, putative [Plasmodium vivax]
+SCO65137.1           -           1186 870at5820            -           1107   1.2e-08   31.7   0.4   2   2   5.7e-12   1.2e-08   31.7   0.4   984  1076   837   929   826   959 0.76 calcium-transporting ATPase, putative [Plasmodium vivax]
+SCO69221.1           -           1355 870at5820            -           1107   2.7e-08   30.5   1.3   1   3     0.001       2.1    4.3   0.2   569   685   444   556   328   571 0.69 non-SERCA-type Ca2+-transporting P-ATPase, putative [Plasmodium vivax]
+SCO69221.1           -           1355 870at5820            -           1107   2.7e-08   30.5   1.3   2   3    0.0042       8.4    2.4   0.0   940   990   827   877   818   898 0.90 non-SERCA-type Ca2+-transporting P-ATPase, putative [Plasmodium vivax]
+SCO69221.1           -           1355 870at5820            -           1107   2.7e-08   30.5   1.3   3   3   1.6e-08   3.3e-05   20.3   0.5   993  1083   929  1019   923  1037 0.72 non-SERCA-type Ca2+-transporting P-ATPase, putative [Plasmodium vivax]
+#
+# Program:         hmmsearch
+# Version:         3.4 (Aug 2023)
+# Pipeline mode:   SEARCH
+# Query file:      /v3/work/00_inventory/busco/busco_downloads/lineages/plasmodium_odb10/hmms/870at5820.hmm
+# Target file:     /v3/inputs/annotations/ncbi-datasets/PvT01.proteins.fa
+# Option settings: hmmsearch --domtblout /v3/work/00_inventory/busco/PvT01_proteins/run_plasmodium_odb10/hmmer_output/initial_run_results/870at5820.out --cpu 1 /v3/work/00_inventory/busco/busco_downloads/lineages/plasmodium_odb10/hmms/870at5820.hmm /v3/inputs/annotations/ncbi-datasets/PvT01.proteins.fa 
+# Current dir:     /v3/work/00_inventory/busco
+# Date:            Tue May 19 19:06:59 2026
+# [ok]

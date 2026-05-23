@@ -1,0 +1,15 @@
+#                                                                            --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name        accession   tlen query name           accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+#------------------- ---------- ----- -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+CAG9476711.1         -            394 7064at5820           -            338  1.2e-202  670.4   4.2   1   1  4.8e-206  1.4e-202  670.2   4.2     2   337    39   393    38   394 0.97 | transcript=PVW1_090020000_t1 | gene=PVW1_090020000 | organism=Plasmodium_vivax_PvW1 | gene_product=Glycerol-3-phosphate dehydrogenase [NAD(+)] [Source:UniProtKB/TrEMBL;Acc:A0A1G4GXB7] | transcript_product=Glycerol-3-phosphate dehydrogenase [NAD(+)] [Source:UniProtKB/TrEMBL;Acc:A0A1G4GXB7] | location=CAJZCX010000007:707687-710256(-) | protein_length=394 | sequence_SO=supercontig | SO=protein_coding_gene | is_pseudo=false
+CAG9472232.1         -            367 7064at5820           -            338  4.7e-110  366.0   6.6   1   1  1.9e-113  5.8e-110  365.7   6.6     2   327    12   358    11   365 0.92 | transcript=PVW1_140041200_t1 | gene=PVW1_140041200 | organism=Plasmodium_vivax_PvW1 | gene_product=Glycerol-3-phosphate dehydrogenase [NAD(+)] [Source:UniProtKB/TrEMBL;Acc:A0A1G4H4Y8] | transcript_product=Glycerol-3-phosphate dehydrogenase [NAD(+)] [Source:UniProtKB/TrEMBL;Acc:A0A1G4H4Y8] | location=CAJZCX010000003:1543776-1545604(+) | protein_length=367 | sequence_SO=supercontig | SO=protein_coding_gene | is_pseudo=false
+#
+# Program:         hmmsearch
+# Version:         3.4 (Aug 2023)
+# Pipeline mode:   SEARCH
+# Query file:      /v3/work/00_inventory/busco/busco_downloads/lineages/plasmodium_odb10/hmms/7064at5820.hmm
+# Target file:     /v3/inputs/annotations/plasmodb-68/PvW1.proteins.fa
+# Option settings: hmmsearch --domtblout /v3/work/00_inventory/busco/PvW1_proteins/run_plasmodium_odb10/hmmer_output/initial_run_results/7064at5820.out --cpu 1 /v3/work/00_inventory/busco/busco_downloads/lineages/plasmodium_odb10/hmms/7064at5820.hmm /v3/inputs/annotations/plasmodb-68/PvW1.proteins.fa 
+# Current dir:     /v3/work/00_inventory/busco
+# Date:            Tue May 19 17:45:44 2026
+# [ok]

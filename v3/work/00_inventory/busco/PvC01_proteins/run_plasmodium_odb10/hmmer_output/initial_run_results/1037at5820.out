@@ -1,0 +1,21 @@
+#                                                                            --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name        accession   tlen query name           accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+#------------------- ---------- ----- -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+SCO75111.1           -           1739 1037at5820           -           1142         0 2153.4 170.6   1   7         0         0 1254.5  39.8    11   610   180   779   175   788 0.95 sodium/hydrogen exchanger, Na+, H+ antiporter, putative [Plasmodium vivax]
+SCO75111.1           -           1739 1037at5820           -           1142         0 2153.4 170.6   2   7   5.4e-05      0.17    7.8   6.6   548   578   792   827   783   845 0.81 sodium/hydrogen exchanger, Na+, H+ antiporter, putative [Plasmodium vivax]
+SCO75111.1           -           1739 1037at5820           -           1142         0 2153.4 170.6   3   7   7.1e-52   2.2e-48  163.1  33.4   569   739   863  1063   838  1078 0.76 sodium/hydrogen exchanger, Na+, H+ antiporter, putative [Plasmodium vivax]
+SCO75111.1           -           1739 1037at5820           -           1142         0 2153.4 170.6   4   7   1.2e-12   3.8e-09   33.2   5.9   704   758  1090  1157  1076  1167 0.77 sodium/hydrogen exchanger, Na+, H+ antiporter, putative [Plasmodium vivax]
+SCO75111.1           -           1739 1037at5820           -           1142         0 2153.4 170.6   5   7   1.6e-18   5.1e-15   52.6   7.0   744   820  1215  1307  1200  1318 0.81 sodium/hydrogen exchanger, Na+, H+ antiporter, putative [Plasmodium vivax]
+SCO75111.1           -           1739 1037at5820           -           1142         0 2153.4 170.6   6   7       0.1   3.1e+02   -3.0   5.2   565   604  1348  1388  1330  1397 0.68 sodium/hydrogen exchanger, Na+, H+ antiporter, putative [Plasmodium vivax]
+SCO75111.1           -           1739 1037at5820           -           1142         0 2153.4 170.6   7   7    1e-204  3.2e-201  669.3  36.4   807  1142  1394  1739  1364  1739 0.93 sodium/hydrogen exchanger, Na+, H+ antiporter, putative [Plasmodium vivax]
+SCO74158.1           -            241 1037at5820           -           1142     0.011   11.7   0.2   1   1   4.5e-06     0.014   11.4   0.2   790   875    53   141    33   149 0.75 beta-hydroxyacyl-ACP dehydratase precursor, putative [Plasmodium vivax]
+#
+# Program:         hmmsearch
+# Version:         3.4 (Aug 2023)
+# Pipeline mode:   SEARCH
+# Query file:      /v3/work/00_inventory/busco/busco_downloads/lineages/plasmodium_odb10/hmms/1037at5820.hmm
+# Target file:     /v3/inputs/annotations/ncbi-datasets/PvC01.proteins.fa
+# Option settings: hmmsearch --domtblout /v3/work/00_inventory/busco/PvC01_proteins/run_plasmodium_odb10/hmmer_output/initial_run_results/1037at5820.out --cpu 1 /v3/work/00_inventory/busco/busco_downloads/lineages/plasmodium_odb10/hmms/1037at5820.hmm /v3/inputs/annotations/ncbi-datasets/PvC01.proteins.fa 
+# Current dir:     /v3/work/00_inventory/busco
+# Date:            Tue May 19 18:28:57 2026
+# [ok]

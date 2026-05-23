@@ -1,0 +1,17 @@
+#                                                                            --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name        accession   tlen query name           accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+#------------------- ---------- ----- -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+CAI7723455.1         -            681 5846at5820           -            503  2.7e-277  918.9  50.1   1   2   3.5e-62   1.1e-58  197.7  16.2     1   138     1   137     1   164 0.81 | transcript=PVPAM_140037700_t1 | gene=PVPAM_140037700 | organism=Plasmodium_vivax_PAM | gene_product=aquaporin, putative | transcript_product=aquaporin, putative | location=CASCJQ010000014:1403542-1405587(-) | protein_length=681 | sequence_SO=supercontig | SO=protein_coding_gene | is_pseudo=false
+CAI7723455.1         -            681 5846at5820           -            503  2.7e-277  918.9  50.1   2   2    7e-223  2.3e-219  727.8  24.8   118   503   276   681   256   681 0.90 | transcript=PVPAM_140037700_t1 | gene=PVPAM_140037700 | organism=Plasmodium_vivax_PAM | gene_product=aquaporin, putative | transcript_product=aquaporin, putative | location=CASCJQ010000014:1403542-1405587(-) | protein_length=681 | sequence_SO=supercontig | SO=protein_coding_gene | is_pseudo=false
+CAI7723637.1         -           1904 5846at5820           -            503     0.017   12.4   1.9   1   2   0.00012      0.39    7.9   0.2   161   202    99   140    86   143 0.91 | transcript=PVPAM_140056100_t1 | gene=PVPAM_140056100 | organism=Plasmodium_vivax_PAM | gene_product=myosin J, putative | transcript_product=myosin J, putative | location=CASCJQ010000014:2198561-2205090(-) | protein_length=1904 | sequence_SO=supercontig | SO=protein_coding_gene | is_pseudo=false
+CAI7723637.1         -           1904 5846at5820           -            503     0.017   12.4   1.9   2   2    0.0032        10    3.2   0.1   139   193   497   547   473   555 0.77 | transcript=PVPAM_140056100_t1 | gene=PVPAM_140056100 | organism=Plasmodium_vivax_PAM | gene_product=myosin J, putative | transcript_product=myosin J, putative | location=CASCJQ010000014:2198561-2205090(-) | protein_length=1904 | sequence_SO=supercontig | SO=protein_coding_gene | is_pseudo=false
+#
+# Program:         hmmsearch
+# Version:         3.4 (Aug 2023)
+# Pipeline mode:   SEARCH
+# Query file:      /v3/work/00_inventory/busco/busco_downloads/lineages/plasmodium_odb10/hmms/5846at5820.hmm
+# Target file:     /v3/inputs/annotations/plasmodb-68/PAM.proteins.fa
+# Option settings: hmmsearch --domtblout /v3/work/00_inventory/busco/PAM_proteins/run_plasmodium_odb10/hmmer_output/initial_run_results/5846at5820.out --cpu 1 /v3/work/00_inventory/busco/busco_downloads/lineages/plasmodium_odb10/hmms/5846at5820.hmm /v3/inputs/annotations/plasmodb-68/PAM.proteins.fa 
+# Current dir:     /v3/work/00_inventory/busco
+# Date:            Tue May 19 17:43:43 2026
+# [ok]

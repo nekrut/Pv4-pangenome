@@ -1,0 +1,23 @@
+#                                                                            --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name        accession   tlen query name           accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+#------------------- ---------- ----- -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+SCO69067.1           -           1926 1418at5820           -            872         0 1181.7 185.5   1   8   3.4e-31     1e-27   95.1   7.8     1    78     1    79     1   145 0.80 metacaspase 2, putative [Plasmodium vivax]
+SCO69067.1           -           1926 1418at5820           -            872         0 1181.7 185.5   2   8     0.052   1.6e+02   -1.5  12.9    59   161   209   314   197   342 0.70 metacaspase 2, putative [Plasmodium vivax]
+SCO69067.1           -           1926 1418at5820           -            872         0 1181.7 185.5   3   8   2.2e-09   6.7e-06   22.9  20.2   112   186   371   463   334   563 0.55 metacaspase 2, putative [Plasmodium vivax]
+SCO69067.1           -           1926 1418at5820           -            872         0 1181.7 185.5   4   8   6.2e-11   1.9e-07   28.1   0.2   182   217   596   631   588   666 0.84 metacaspase 2, putative [Plasmodium vivax]
+SCO69067.1           -           1926 1418at5820           -            872         0 1181.7 185.5   5   8   2.5e-09   7.6e-06   22.8  17.8   154   260   787   888   722   924 0.73 metacaspase 2, putative [Plasmodium vivax]
+SCO69067.1           -           1926 1418at5820           -            872         0 1181.7 185.5   6   8         2   6.1e+03   -8.6  10.8   260   301   991  1032   944  1134 0.64 metacaspase 2, putative [Plasmodium vivax]
+SCO69067.1           -           1926 1418at5820           -            872         0 1181.7 185.5   7   8   4.1e-22   1.3e-18   65.0  24.6   290   387  1163  1278  1053  1288 0.68 metacaspase 2, putative [Plasmodium vivax]
+SCO69067.1           -           1926 1418at5820           -            872         0 1181.7 185.5   8   8  1.4e-300  4.1e-297  986.4  47.5   374   872  1414  1926  1363  1926 0.91 metacaspase 2, putative [Plasmodium vivax]
+SCO68072.1           -            681 1418at5820           -            872   1.9e-13   47.9   0.5   1   2   6.2e-17   1.9e-13   47.9   0.5   407   545   372   516   358   532 0.84 metacaspase 1, putative [Plasmodium vivax]
+SCO68072.1           -            681 1418at5820           -            872   1.9e-13   47.9   0.5   2   2     0.019        58   -0.0   2.8   286   358   604   674   596   680 0.68 metacaspase 1, putative [Plasmodium vivax]
+#
+# Program:         hmmsearch
+# Version:         3.4 (Aug 2023)
+# Pipeline mode:   SEARCH
+# Query file:      /v3/work/00_inventory/busco/busco_downloads/lineages/plasmodium_odb10/hmms/1418at5820.hmm
+# Target file:     /v3/inputs/annotations/ncbi-datasets/PvT01.proteins.fa
+# Option settings: hmmsearch --domtblout /v3/work/00_inventory/busco/PvT01_proteins/run_plasmodium_odb10/hmmer_output/initial_run_results/1418at5820.out --cpu 1 /v3/work/00_inventory/busco/busco_downloads/lineages/plasmodium_odb10/hmms/1418at5820.hmm /v3/inputs/annotations/ncbi-datasets/PvT01.proteins.fa 
+# Current dir:     /v3/work/00_inventory/busco
+# Date:            Tue May 19 18:34:37 2026
+# [ok]

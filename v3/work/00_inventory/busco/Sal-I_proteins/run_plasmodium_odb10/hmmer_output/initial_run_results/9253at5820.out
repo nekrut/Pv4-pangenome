@@ -1,0 +1,16 @@
+#                                                                            --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name        accession   tlen query name           accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+#------------------- ---------- ----- -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+PVX_122610.1-p1      -            375 9253at5820           -            269  1.2e-155  515.2   9.1   1   2    4e-144  1.1e-140  466.1   5.2     1   231     3   238     3   248 0.98 | transcript=PVX_122610.1 | gene=PVX_122610 | organism=Plasmodium_vivax_Sal-1 | gene_product=tRNA (adenine(58)-N(1))-methyltransferase catalytic subunit TRM61, putative | transcript_product=tRNA (adenine(58)-N(1))-methyltransferase catalytic subunit TRM61, putative | location=Pv_Sal1_chr14:715336-716463(+) | protein_length=375 | sequence_SO=chromosome | SO=protein_coding_gene | is_pseudo=false
+PVX_122610.1-p1      -            375 9253at5820           -            269  1.2e-155  515.2   9.1   2   2   1.5e-17   4.1e-14   51.0   0.1   231   269   337   375   332   375 0.94 | transcript=PVX_122610.1 | gene=PVX_122610 | organism=Plasmodium_vivax_Sal-1 | gene_product=tRNA (adenine(58)-N(1))-methyltransferase catalytic subunit TRM61, putative | transcript_product=tRNA (adenine(58)-N(1))-methyltransferase catalytic subunit TRM61, putative | location=Pv_Sal1_chr14:715336-716463(+) | protein_length=375 | sequence_SO=chromosome | SO=protein_coding_gene | is_pseudo=false
+PVX_086075.1-p1      -            341 9253at5820           -            269     0.012   13.4   0.0   1   1   6.3e-06     0.017   12.9   0.0    94   195   186   291   174   312 0.87 | transcript=PVX_086075.1 | gene=PVX_086075 | organism=Plasmodium_vivax_Sal-1 | gene_product=fibrillarin, putative | transcript_product=fibrillarin, putative | location=Pv_Sal1_chr13:1807831-1809093(-) | protein_length=341 | sequence_SO=chromosome | SO=protein_coding_gene | is_pseudo=false
+#
+# Program:         hmmsearch
+# Version:         3.4 (Aug 2023)
+# Pipeline mode:   SEARCH
+# Query file:      /v3/work/00_inventory/busco/busco_downloads/lineages/plasmodium_odb10/hmms/9253at5820.hmm
+# Target file:     /v3/inputs/annotations/plasmodb-68/Sal-I.proteins.fa
+# Option settings: hmmsearch --domtblout /v3/work/00_inventory/busco/Sal-I_proteins/run_plasmodium_odb10/hmmer_output/initial_run_results/9253at5820.out --cpu 1 /v3/work/00_inventory/busco/busco_downloads/lineages/plasmodium_odb10/hmms/9253at5820.hmm /v3/inputs/annotations/plasmodb-68/Sal-I.proteins.fa 
+# Current dir:     /v3/work/00_inventory/busco
+# Date:            Tue May 19 17:50:18 2026
+# [ok]

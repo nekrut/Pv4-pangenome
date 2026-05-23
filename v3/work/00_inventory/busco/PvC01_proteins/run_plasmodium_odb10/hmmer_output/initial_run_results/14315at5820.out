@@ -1,0 +1,18 @@
+#                                                                            --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name        accession   tlen query name           accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+#------------------- ---------- ----- -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+SCO71853.1           -            116 14315at5820          -            104   4.4e-69  227.5   0.2   1   1     4e-72     5e-69  227.3   0.2     1   104     1   106     1   106 0.97 small nuclear ribonucleoprotein Sm D3, putative [Plasmodium vivax]
+SCO72563.1           -            127 14315at5820          -            104   3.2e-08   31.9   0.0   1   1     3e-11   3.7e-08   31.7   0.0     6    89     4    88     1    97 0.87 U6 snRNA-associated Sm-like protein LSm4, putative [Plasmodium vivax]
+SCO72742.1           -            127 14315at5820          -            104   5.7e-05   21.5   1.1   1   1   1.1e-07   0.00013   20.3   1.1    16    79    13    86     3   103 0.79 small nuclear ribonucleoprotein Sm D1, putative [Plasmodium vivax]
+SCO73148.1           -            103 14315at5820          -            104    0.0013   17.1   0.0   1   1   1.2e-06    0.0015   16.9   0.0    15    75    14    76     7    96 0.85 U6 snRNA-associated Sm-like protein LSm2, putative [Plasmodium vivax]
+SCO71276.1           -             83 14315at5820          -            104     0.011   14.1   0.1   1   1   1.1e-05     0.013   13.9   0.1    31    71    35    74    17    81 0.84 small nuclear ribonucleoprotein G, putative [Plasmodium vivax]
+#
+# Program:         hmmsearch
+# Version:         3.4 (Aug 2023)
+# Pipeline mode:   SEARCH
+# Query file:      /v3/work/00_inventory/busco/busco_downloads/lineages/plasmodium_odb10/hmms/14315at5820.hmm
+# Target file:     /v3/inputs/annotations/ncbi-datasets/PvC01.proteins.fa
+# Option settings: hmmsearch --domtblout /v3/work/00_inventory/busco/PvC01_proteins/run_plasmodium_odb10/hmmer_output/initial_run_results/14315at5820.out --cpu 1 /v3/work/00_inventory/busco/busco_downloads/lineages/plasmodium_odb10/hmms/14315at5820.hmm /v3/inputs/annotations/ncbi-datasets/PvC01.proteins.fa 
+# Current dir:     /v3/work/00_inventory/busco
+# Date:            Tue May 19 18:35:04 2026
+# [ok]

@@ -1,0 +1,22 @@
+#                                                                            --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name        accession   tlen query name           accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+#------------------- ---------- ----- -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+SCO68590.1           -           1188 2444at5820           -            765         0 1011.6  77.6   1   8   1.4e-80   4.2e-77  258.6  10.6     1   160    29   199    29   213 0.92 U3 small nucleolar RNA-associated protein 4, putative [Plasmodium vivax]
+SCO68590.1           -           1188 2444at5820           -            765         0 1011.6  77.6   2   8   2.7e-17   8.1e-14   49.4   0.5   170   213   317   360   309   367 0.87 U3 small nucleolar RNA-associated protein 4, putative [Plasmodium vivax]
+SCO68590.1           -           1188 2444at5820           -            765         0 1011.6  77.6   3   8     7e-68   2.1e-64  216.6   4.0   209   328   387   506   383   511 0.98 U3 small nucleolar RNA-associated protein 4, putative [Plasmodium vivax]
+SCO68590.1           -           1188 2444at5820           -            765         0 1011.6  77.6   4   8     2e-41     6e-38  129.2   1.2   327   421   556   655   552   660 0.94 U3 small nucleolar RNA-associated protein 4, putative [Plasmodium vivax]
+SCO68590.1           -           1188 2444at5820           -            765         0 1011.6  77.6   5   8   1.2e-32   3.6e-29  100.1   2.9   421   502   684   767   679   772 0.96 U3 small nucleolar RNA-associated protein 4, putative [Plasmodium vivax]
+SCO68590.1           -           1188 2444at5820           -            765         0 1011.6  77.6   6   8   1.2e-45   3.6e-42  143.1   7.5   490   632   810   959   800   961 0.89 U3 small nucleolar RNA-associated protein 4, putative [Plasmodium vivax]
+SCO68590.1           -           1188 2444at5820           -            765         0 1011.6  77.6   7   8   5.4e-31   1.7e-27   94.6   0.8   633   713   992  1075   990  1078 0.94 U3 small nucleolar RNA-associated protein 4, putative [Plasmodium vivax]
+SCO68590.1           -           1188 2444at5820           -            765         0 1011.6  77.6   8   8   8.5e-20   2.6e-16   57.6   0.4   714   765  1135  1187  1130  1187 0.95 U3 small nucleolar RNA-associated protein 4, putative [Plasmodium vivax]
+SCO66204.1           -            654 2444at5820           -            765     0.027   11.2   0.0   1   1   1.4e-05     0.042   10.6   0.0   228   331   398   503   365   549 0.75 cell division cycle protein 20 homolog, putative [Plasmodium vivax]
+#
+# Program:         hmmsearch
+# Version:         3.4 (Aug 2023)
+# Pipeline mode:   SEARCH
+# Query file:      /v3/work/00_inventory/busco/busco_downloads/lineages/plasmodium_odb10/hmms/2444at5820.hmm
+# Target file:     /v3/inputs/annotations/ncbi-datasets/PvT01.proteins.fa
+# Option settings: hmmsearch --domtblout /v3/work/00_inventory/busco/PvT01_proteins/run_plasmodium_odb10/hmmer_output/initial_run_results/2444at5820.out --cpu 1 /v3/work/00_inventory/busco/busco_downloads/lineages/plasmodium_odb10/hmms/2444at5820.hmm /v3/inputs/annotations/ncbi-datasets/PvT01.proteins.fa 
+# Current dir:     /v3/work/00_inventory/busco
+# Date:            Tue May 19 18:40:19 2026
+# [ok]

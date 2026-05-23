@@ -1,0 +1,48 @@
+2026-05-20 13:32:45,948 - INFO - Populating features
+Populating features table and first-order relations: 0 featuresPopulating features table and first-order relations: 1000 featuresPopulating features table and first-order relations: 2000 featuresPopulating features table and first-order relations: 3000 featuresPopulating features table and first-order relations: 4000 featuresPopulating features table and first-order relations: 5000 featuresPopulating features table and first-order relations: 6000 featuresPopulating features table and first-order relations: 7000 featuresPopulating features table and first-order relations: 8000 featuresPopulating features table and first-order relations: 9000 featuresPopulating features table and first-order relations: 10000 featuresPopulating features table and first-order relations: 11000 featuresPopulating features table and first-order relations: 12000 featuresPopulating features table and first-order relations: 13000 featuresPopulating features table and first-order relations: 14000 featuresPopulating features table and first-order relations: 15000 featuresPopulating features table and first-order relations: 16000 featuresPopulating features table and first-order relations: 17000 featuresPopulating features table and first-order relations: 18000 featuresPopulating features table and first-order relations: 19000 featuresPopulating features table and first-order relations: 20000 featuresPopulating features table and first-order relations: 21000 featuresPopulating features table and first-order relations: 22000 featuresPopulating features table and first-order relations: 23000 featuresPopulating features table and first-order relations: 24000 featuresPopulating features table and first-order relations: 25000 featuresPopulating features table and first-order relations: 26000 featuresPopulating features table and first-order relations: 27000 featuresPopulating features table and first-order relations: 28000 featuresPopulating features table and first-order relations: 29000 featuresPopulating features table and first-order relations: 30000 featuresPopulating features table and first-order relations: 31000 featuresPopulating features table and first-order relations: 32000 featuresPopulating features table and first-order relations: 33000 featuresPopulating features table and first-order relations: 34000 featuresPopulating features table and first-order relations: 35000 featuresPopulating features table and first-order relations: 36000 featuresPopulating features table and first-order relations: 37000 featuresPopulating features table and first-order relations: 38000 featuresPopulating features table and first-order relations: 39000 featuresPopulating features table and first-order relations: 40000 featuresPopulating features table and first-order relations: 41000 featuresPopulating features table and first-order relations: 42000 featuresPopulating features table and first-order relations: 43000 featuresPopulating features table and first-order relations: 44000 featuresPopulating features table and first-order relations: 45000 featuresPopulating features table and first-order relations: 46000 features2026-05-20 13:32:48,040 - INFO - Populating features table and first-order relations: 46318 features
+2026-05-20 13:32:48,040 - INFO - Updating relations
+2026-05-20 13:32:49,425 - INFO - Creating relations(parent) index
+2026-05-20 13:32:49,445 - INFO - Creating relations(child) index
+2026-05-20 13:32:49,467 - INFO - Creating features(featuretype) index
+2026-05-20 13:32:49,482 - INFO - Creating features (seqid, start, end) index
+2026-05-20 13:32:49,501 - INFO - Creating features (seqid, start, end, strand) index
+2026-05-20 13:32:49,520 - INFO - Running ANALYZE features
+[M::main::0.609*0.30] loaded/built the index for 28 target sequence(s)
+[M::mm_mapopt_update::0.670*0.36] mid_occ = 37
+[M::mm_idx_stat] kmer size: 15; skip: 10; is_hpc: 0; #seq: 28
+[M::mm_idx_stat::0.716*0.40] distinct minimizers: 4472895 (88.92% are singletons); average occurrences: 1.243; average spacing: 5.295; total length: 29436530
+[M::worker_pipeline::5.236*3.41] mapped 5481 sequences
+[M::main] Version: 2.24-r1122
+[M::main] CMD: minimap2 -o /v3/work/02a_liftoff/PvSY56-as-ref/PAM/intermediate/reference_all_to_target_all.sam -a --end-bonus 5 --eqx -N 50 -p 0.5 -t 4 /v3/inputs/assemblies/PAM.fa.mmi /v3/work/02a_liftoff/PvSY56-as-ref/PAM/intermediate/reference_all_genes.fa
+[M::main] Real time: 5.245 sec; CPU: 17.839 sec; Peak RSS: 1.208 GB
+[M::main::0.170*1.06] loaded/built the index for 28 target sequence(s)
+[M::mm_mapopt_update::0.230*1.04] mid_occ = 37
+[M::mm_idx_stat] kmer size: 15; skip: 10; is_hpc: 0; #seq: 28
+[M::mm_idx_stat::0.277*1.04] distinct minimizers: 4472895 (88.92% are singletons); average occurrences: 1.243; average spacing: 5.295; total length: 29436530
+[M::worker_pipeline::6.172*3.76] mapped 5481 sequences
+[M::main] Version: 2.24-r1122
+[M::main] CMD: minimap2 -o /v3/work/02a_liftoff/PvSY56-as-ref/PAM/intermediate/reference_all_to_target_all.sam -a --end-bonus 5 --eqx -N 50 -p 0.5 -t 4 /v3/inputs/assemblies/PAM.fa.mmi /v3/work/02a_liftoff/PvSY56-as-ref/PAM/intermediate/reference_all_genes.fa
+[M::main] Real time: 6.184 sec; CPU: 23.212 sec; Peak RSS: 1.615 GB
+	Command being timed: "docker run --rm -v /media/anton/data/sandbox/Pv4/v3:/v3 -w /v3 quay.io/biocontainers/liftoff:1.6.3--pyhdfd78af_0 liftoff -g /v3/inputs/annotations/plasmodb-68/PvSY56.gff3 -f /v3/work/02a_liftoff/feature_types.txt -o /v3/work/02a_liftoff/PvSY56-as-ref/PAM/PAM.lifted.gff3 -u /v3/work/02a_liftoff/PvSY56-as-ref/PAM/PAM.unmapped.txt -dir /v3/work/02a_liftoff/PvSY56-as-ref/PAM/intermediate -copies -sc 0.90 -d 5 -flank 0.1 -polish -p 4 /v3/inputs/assemblies/PAM.fa /v3/inputs/assemblies/PvSY56.fa"
+	User time (seconds): 0.01
+	System time (seconds): 0.01
+	Percent of CPU this job got: 0%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 1:16.64
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 26976
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 2915
+	Voluntary context switches: 710
+	Involuntary context switches: 12
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 16
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0

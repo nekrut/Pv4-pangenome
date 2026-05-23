@@ -1,0 +1,16 @@
+#                                                                            --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name        accession   tlen query name           accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+#------------------- ---------- ----- -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+PVP01_1435900.1-p1   -            329 8838at5820           -            285  9.2e-154  509.5  10.7   1   2  1.9e-148  6.3e-145  480.5   7.6     1   266    11   288    11   301 0.94 | transcript=PVP01_1435900.1 | gene=PVP01_1435900 | organism=Plasmodium_vivax_P01 | gene_product=DNA topoisomerase 6 subunit A, putative | transcript_product=DNA topoisomerase 6 subunit A, putative | location=PvP01_14_v2:1511254-1513296(-) | protein_length=329 | sequence_SO=chromosome | SO=protein_coding_gene | is_pseudo=false
+PVP01_1435900.1-p1   -            329 8838at5820           -            285  9.2e-154  509.5  10.7   2   2   2.8e-11     9e-08   30.5   0.0   257   285   301   329   293   329 0.95 | transcript=PVP01_1435900.1 | gene=PVP01_1435900 | organism=Plasmodium_vivax_P01 | gene_product=DNA topoisomerase 6 subunit A, putative | transcript_product=DNA topoisomerase 6 subunit A, putative | location=PvP01_14_v2:1511254-1513296(-) | protein_length=329 | sequence_SO=chromosome | SO=protein_coding_gene | is_pseudo=false
+PVP01_0612700.1-p1   -            334 8838at5820           -            285   1.6e-26   92.0   1.1   1   1   6.8e-30   2.2e-26   91.5   1.1    17   272    43   312    28   323 0.70 | transcript=PVP01_0612700.1 | gene=PVP01_0612700 | organism=Plasmodium_vivax_P01 | gene_product=meiotic recombination protein SPO11-2, putative | transcript_product=meiotic recombination protein SPO11-2, putative | location=PvP01_06_v2:551004-553371(-) | protein_length=334 | sequence_SO=chromosome | SO=protein_coding_gene | is_pseudo=false
+#
+# Program:         hmmsearch
+# Version:         3.4 (Aug 2023)
+# Pipeline mode:   SEARCH
+# Query file:      /v3/work/00_inventory/busco/busco_downloads/lineages/plasmodium_odb10/hmms/8838at5820.hmm
+# Target file:     /v3/inputs/annotations/plasmodb-68/PvP01.proteins.fa
+# Option settings: hmmsearch --domtblout /v3/work/00_inventory/busco/PvP01_proteins/run_plasmodium_odb10/hmmer_output/initial_run_results/8838at5820.out --cpu 1 /v3/work/00_inventory/busco/busco_downloads/lineages/plasmodium_odb10/hmms/8838at5820.hmm /v3/inputs/annotations/plasmodb-68/PvP01.proteins.fa 
+# Current dir:     /v3/work/00_inventory/busco
+# Date:            Tue May 19 17:48:48 2026
+# [ok]

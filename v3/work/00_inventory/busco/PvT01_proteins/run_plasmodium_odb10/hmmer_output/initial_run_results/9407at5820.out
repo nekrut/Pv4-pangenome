@@ -1,0 +1,18 @@
+#                                                                            --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name        accession   tlen query name           accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+#------------------- ---------- ----- -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+SCO69287.1           -            476 9407at5820           -            306  1.2e-134  447.0  29.0   1   4   4.1e-07    0.0012   16.7   0.4     1    36     1    36     1    47 0.74 syntaxin, Qa-SNARE family, putative [Plasmodium vivax]
+SCO69287.1           -            476 9407at5820           -            306  1.2e-134  447.0  29.0   2   4   1.2e-10   3.8e-07   28.3   0.0    18    46    94   122    89   133 0.91 syntaxin, Qa-SNARE family, putative [Plasmodium vivax]
+SCO69287.1           -            476 9407at5820           -            306  1.2e-134  447.0  29.0   3   4   2.5e-68   7.7e-65  217.7   9.5    54   186   160   293   156   298 0.97 syntaxin, Qa-SNARE family, putative [Plasmodium vivax]
+SCO69287.1           -            476 9407at5820           -            306  1.2e-134  447.0  29.0   4   4   2.7e-61   8.1e-58  194.7   3.4   190   306   344   470   337   470 0.90 syntaxin, Qa-SNARE family, putative [Plasmodium vivax]
+SCO65647.1           -            314 9407at5820           -            306   5.7e-28   96.6  31.7   1   1   2.4e-31   7.3e-28   96.3  31.7    54   304    53   312     1   314 0.80 syntaxin, Qa-SNARE family, putative [Plasmodium vivax]
+#
+# Program:         hmmsearch
+# Version:         3.4 (Aug 2023)
+# Pipeline mode:   SEARCH
+# Query file:      /v3/work/00_inventory/busco/busco_downloads/lineages/plasmodium_odb10/hmms/9407at5820.hmm
+# Target file:     /v3/inputs/annotations/ncbi-datasets/PvT01.proteins.fa
+# Option settings: hmmsearch --domtblout /v3/work/00_inventory/busco/PvT01_proteins/run_plasmodium_odb10/hmmer_output/initial_run_results/9407at5820.out --cpu 1 /v3/work/00_inventory/busco/busco_downloads/lineages/plasmodium_odb10/hmms/9407at5820.hmm /v3/inputs/annotations/ncbi-datasets/PvT01.proteins.fa 
+# Current dir:     /v3/work/00_inventory/busco
+# Date:            Tue May 19 19:10:41 2026
+# [ok]

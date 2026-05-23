@@ -1,0 +1,17 @@
+#                                                                            --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name        accession   tlen query name           accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+#------------------- ---------- ----- -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+PVX_087135.1-p1      -            312 13402at5820          -            252  2.6e-132  438.1  48.9   1   2   1.9e-21   5.2e-18   63.6   0.3     1    46     1    46     1    55 0.96 | transcript=PVX_087135.1 | gene=PVX_087135 | organism=Plasmodium_vivax_Sal-1 | gene_product=hypothetical protein, conserved | transcript_product=hypothetical protein, conserved | location=Pv_Sal1_chr07:1222253-1223695(+) | protein_length=312 | sequence_SO=chromosome | SO=protein_coding_gene | is_pseudo=false
+PVX_087135.1-p1      -            312 13402at5820          -            252  2.6e-132  438.1  48.9   2   2    2e-117  5.6e-114  378.0  43.3    45   252    93   308    82   308 0.98 | transcript=PVX_087135.1 | gene=PVX_087135 | organism=Plasmodium_vivax_Sal-1 | gene_product=hypothetical protein, conserved | transcript_product=hypothetical protein, conserved | location=Pv_Sal1_chr07:1222253-1223695(+) | protein_length=312 | sequence_SO=chromosome | SO=protein_coding_gene | is_pseudo=false
+PVX_085810.1-p1      -            301 13402at5820          -            252     6e-05   20.8   9.0   1   2   2.8e-08   7.9e-05   20.4   0.8   157   227    10    77     3    95 0.82 | transcript=PVX_085810.1 | gene=PVX_085810 | organism=Plasmodium_vivax_Sal-1 | gene_product=ubiquitin-conjugating enzyme, putative | transcript_product=ubiquitin-conjugating enzyme, putative | location=Pv_Sal1_chr13:1532203-1534379(-) | protein_length=301 | sequence_SO=chromosome | SO=protein_coding_gene | is_pseudo=false
+PVX_085810.1-p1      -            301 13402at5820          -            252     6e-05   20.8   9.0   2   2    0.0016       4.5    4.8   1.8    25   101   117   195   103   213 0.80 | transcript=PVX_085810.1 | gene=PVX_085810 | organism=Plasmodium_vivax_Sal-1 | gene_product=ubiquitin-conjugating enzyme, putative | transcript_product=ubiquitin-conjugating enzyme, putative | location=Pv_Sal1_chr13:1532203-1534379(-) | protein_length=301 | sequence_SO=chromosome | SO=protein_coding_gene | is_pseudo=false
+#
+# Program:         hmmsearch
+# Version:         3.4 (Aug 2023)
+# Pipeline mode:   SEARCH
+# Query file:      /v3/work/00_inventory/busco/busco_downloads/lineages/plasmodium_odb10/hmms/13402at5820.hmm
+# Target file:     /v3/inputs/annotations/plasmodb-68/Sal-I.proteins.fa
+# Option settings: hmmsearch --domtblout /v3/work/00_inventory/busco/Sal-I_proteins/run_plasmodium_odb10/hmmer_output/initial_run_results/13402at5820.out --cpu 1 /v3/work/00_inventory/busco/busco_downloads/lineages/plasmodium_odb10/hmms/13402at5820.hmm /v3/inputs/annotations/plasmodb-68/Sal-I.proteins.fa 
+# Current dir:     /v3/work/00_inventory/busco
+# Date:            Tue May 19 17:30:09 2026
+# [ok]

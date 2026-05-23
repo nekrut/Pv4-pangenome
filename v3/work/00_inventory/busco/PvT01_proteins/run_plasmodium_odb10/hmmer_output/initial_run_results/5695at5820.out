@@ -1,0 +1,19 @@
+#                                                                            --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name        accession   tlen query name           accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+#------------------- ---------- ----- -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+SCO66813.1           -            525 5695at5820           -            423    4e-265  877.9  29.6   1   2    2e-268    4e-265  877.9  29.6     1   415    26   459    26   465 0.96 tubulin--tyrosine ligase, putative [Plasmodium vivax]
+SCO66813.1           -            525 5695at5820           -            423    4e-265  877.9  29.6   2   2     0.045        92    0.3   0.6   412   423   514   525   501   525 0.84 tubulin--tyrosine ligase, putative [Plasmodium vivax]
+SCO67758.1           -            462 5695at5820           -            423   1.3e-37  128.3  13.8   1   2   3.4e-12   6.8e-09   33.7   3.9     5   127    22   157    18   160 0.79 tubulin tyrosine ligase-like protein 1, putative [Plasmodium vivax]
+SCO67758.1           -            462 5695at5820           -            423   1.3e-37  128.3  13.8   2   2   1.4e-31   2.8e-28   97.5   2.3   128   316   212   386   206   396 0.77 tubulin tyrosine ligase-like protein 1, putative [Plasmodium vivax]
+SCO67568.1           -           2930 5695at5820           -            423   2.4e-32  110.9  30.1   1   2   1.2e-35   2.4e-32  110.9  30.1    13   313  1557  1860  1547  1899 0.81 tubulin--tyrosine ligase, putative [Plasmodium vivax]
+SCO67568.1           -           2930 5695at5820           -            423   2.4e-32  110.9  30.1   2   2         3   6.1e+03   -8.2  11.6    43   129  2391  2476  2367  2523 0.79 tubulin--tyrosine ligase, putative [Plasmodium vivax]
+#
+# Program:         hmmsearch
+# Version:         3.4 (Aug 2023)
+# Pipeline mode:   SEARCH
+# Query file:      /v3/work/00_inventory/busco/busco_downloads/lineages/plasmodium_odb10/hmms/5695at5820.hmm
+# Target file:     /v3/inputs/annotations/ncbi-datasets/PvT01.proteins.fa
+# Option settings: hmmsearch --domtblout /v3/work/00_inventory/busco/PvT01_proteins/run_plasmodium_odb10/hmmer_output/initial_run_results/5695at5820.out --cpu 1 /v3/work/00_inventory/busco/busco_downloads/lineages/plasmodium_odb10/hmms/5695at5820.hmm /v3/inputs/annotations/ncbi-datasets/PvT01.proteins.fa 
+# Current dir:     /v3/work/00_inventory/busco
+# Date:            Tue May 19 18:55:54 2026
+# [ok]

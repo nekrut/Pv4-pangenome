@@ -1,0 +1,16 @@
+#                                                                            --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name        accession   tlen query name           accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+#------------------- ---------- ----- -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+SCO75345.1           -            448 7165at5820           -            382  4.2e-178  590.5  27.9   1   2    4e-121  1.2e-117  391.5  14.4     3   271    11   303     9   315 0.92 sporozoite surface protein 3, putative [Plasmodium vivax]
+SCO75345.1           -            448 7165at5820           -            382  4.2e-178  590.5  27.9   2   2   1.6e-64     5e-61  205.2   5.5   264   382   317   443   314   443 0.95 sporozoite surface protein 3, putative [Plasmodium vivax]
+SCO71414.1           -            218 7165at5820           -            382     0.052   10.9   3.7   1   1   2.2e-05     0.068   10.5   3.7   215   294    73   154    55   164 0.80 conserved protein, unknown function [Plasmodium vivax]
+#
+# Program:         hmmsearch
+# Version:         3.4 (Aug 2023)
+# Pipeline mode:   SEARCH
+# Query file:      /v3/work/00_inventory/busco/busco_downloads/lineages/plasmodium_odb10/hmms/7165at5820.hmm
+# Target file:     /v3/inputs/annotations/ncbi-datasets/PvC01.proteins.fa
+# Option settings: hmmsearch --domtblout /v3/work/00_inventory/busco/PvC01_proteins/run_plasmodium_odb10/hmmer_output/initial_run_results/7165at5820.out --cpu 1 /v3/work/00_inventory/busco/busco_downloads/lineages/plasmodium_odb10/hmms/7165at5820.hmm /v3/inputs/annotations/ncbi-datasets/PvC01.proteins.fa 
+# Current dir:     /v3/work/00_inventory/busco
+# Date:            Tue May 19 18:57:13 2026
+# [ok]

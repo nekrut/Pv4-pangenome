@@ -1,0 +1,18 @@
+#                                                                            --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name        accession   tlen query name           accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+#------------------- ---------- ----- -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+SCO75681.1           -           1257 1483at5820           -            969         0 1652.1 112.3   1   5  6.2e-152  3.9e-148  493.6  30.0     1   267     1   287     1   289 0.95 N-alpha-acetyltransferase 15, NatA auxiliary subunit, putative [Plasmodium vivax]
+SCO75681.1           -           1257 1483at5820           -            969         0 1652.1 112.3   2   5  4.4e-119  2.7e-115  384.9  28.8   264   493   305   558   301   566 0.94 N-alpha-acetyltransferase 15, NatA auxiliary subunit, putative [Plasmodium vivax]
+SCO75681.1           -           1257 1483at5820           -            969         0 1652.1 112.3   3   5    0.0012       7.3    2.8   0.2   489   520   657   688   651   698 0.79 N-alpha-acetyltransferase 15, NatA auxiliary subunit, putative [Plasmodium vivax]
+SCO75681.1           -           1257 1483at5820           -            969         0 1652.1 112.3   4   5   1.5e-92   9.5e-89  297.0  11.0   505   668   700   866   695   872 0.96 N-alpha-acetyltransferase 15, NatA auxiliary subunit, putative [Plasmodium vivax]
+SCO75681.1           -           1257 1483at5820           -            969         0 1652.1 112.3   5   5  2.6e-152  1.6e-148  494.9  14.1   666   969   926  1257   922  1257 0.93 N-alpha-acetyltransferase 15, NatA auxiliary subunit, putative [Plasmodium vivax]
+#
+# Program:         hmmsearch
+# Version:         3.4 (Aug 2023)
+# Pipeline mode:   SEARCH
+# Query file:      /v3/work/00_inventory/busco/busco_downloads/lineages/plasmodium_odb10/hmms/1483at5820.hmm
+# Target file:     /v3/inputs/annotations/ncbi-datasets/PvC01.proteins.fa
+# Option settings: hmmsearch --domtblout /v3/work/00_inventory/busco/PvC01_proteins/run_plasmodium_odb10/hmmer_output/initial_run_results/1483at5820.out --cpu 1 /v3/work/00_inventory/busco/busco_downloads/lineages/plasmodium_odb10/hmms/1483at5820.hmm /v3/inputs/annotations/ncbi-datasets/PvC01.proteins.fa 
+# Current dir:     /v3/work/00_inventory/busco
+# Date:            Tue May 19 18:36:18 2026
+# [ok]

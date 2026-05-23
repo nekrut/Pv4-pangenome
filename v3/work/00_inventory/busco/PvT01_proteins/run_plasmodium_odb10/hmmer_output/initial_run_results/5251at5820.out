@@ -1,0 +1,29 @@
+#                                                                            --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name        accession   tlen query name           accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+#------------------- ---------- ----- -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+SCO68432.1           -            585 5251at5820           -            481  2.4e-301  997.6   2.4   1   1  4.6e-304    4e-301  996.8   2.4     6   481    69   583    64   583 0.94 lysine--tRNA ligase, putative [Plasmodium vivax]
+SCO69421.1           -            677 5251at5820           -            481   1.9e-71  239.4   7.3   1   3      0.22   1.9e+02   -1.3   0.1    35    79    86   134    54   149 0.72 lysine--tRNA ligase, putative [Plasmodium vivax]
+SCO69421.1           -            677 5251at5820           -            481   1.9e-71  239.4   7.3   2   3   6.2e-61   5.4e-58  195.1   3.7    96   445   227   583   212   595 0.87 lysine--tRNA ligase, putative [Plasmodium vivax]
+SCO69421.1           -            677 5251at5820           -            481   1.9e-71  239.4   7.3   3   3   2.5e-15   2.2e-12   44.7   0.0   427   481   622   676   610   676 0.88 lysine--tRNA ligase, putative [Plasmodium vivax]
+SCO65169.1           -            632 5251at5820           -            481   1.6e-18   64.9   3.6   1   1   6.1e-21   5.3e-18   63.2   3.6   155   477   303   624   294   627 0.72 aspartate--tRNA ligase, putative [Plasmodium vivax]
+SCO67800.1           -            751 5251at5820           -            481   8.3e-08   29.6   0.3   1   3      0.27   2.3e+02   -1.6   0.0    58    97   209   248   201   266 0.85 asparagine--tRNA ligase, putative [Plasmodium vivax]
+SCO67800.1           -            751 5251at5820           -            481   8.3e-08   29.6   0.3   2   3   0.00027      0.23    8.3   0.0   220   291   475   546   468   563 0.86 asparagine--tRNA ligase, putative [Plasmodium vivax]
+SCO67800.1           -            751 5251at5820           -            481   8.3e-08   29.6   0.3   3   3     3e-07   0.00026   18.0   0.0   446   478   712   744   701   746 0.90 asparagine--tRNA ligase, putative [Plasmodium vivax]
+SCO65636.1           -            580 5251at5820           -            481   1.1e-07   29.1   0.3   1   3      0.49   4.3e+02   -2.5   0.0   173   198   218   243   208   254 0.76 asparagine--tRNA ligase, putative [Plasmodium vivax]
+SCO65636.1           -            580 5251at5820           -            481   1.1e-07   29.1   0.3   2   3   5.4e-06    0.0047   13.9   0.3   205   306   304   407   293   440 0.78 asparagine--tRNA ligase, putative [Plasmodium vivax]
+SCO65636.1           -            580 5251at5820           -            481   1.1e-07   29.1   0.3   3   3   1.7e-05     0.015   12.3   0.0   444   478   539   573   522   575 0.91 asparagine--tRNA ligase, putative [Plasmodium vivax]
+SCO67755.1           -           1011 5251at5820           -            481   6.9e-05   19.9   0.1   1   3     0.002       1.8    5.4   0.0   165   209   418   462   412   469 0.90 aspartate--tRNA ligase, putative [Plasmodium vivax]
+SCO67755.1           -           1011 5251at5820           -            481   6.9e-05   19.9   0.1   2   3   8.5e-05     0.074    9.9   0.1   222   287   540   607   535   616 0.79 aspartate--tRNA ligase, putative [Plasmodium vivax]
+SCO67755.1           -           1011 5251at5820           -            481   6.9e-05   19.9   0.1   3   3     0.083        72    0.1   0.0   433   471   966  1005   944  1010 0.74 aspartate--tRNA ligase, putative [Plasmodium vivax]
+SCO68355.1           -            495 5251at5820           -            481     0.001   16.0   0.5   1   2   1.1e-05    0.0095   12.9   0.1   239   314   134   209   106   214 0.90 phenylalanine--tRNA ligase, putative [Plasmodium vivax]
+SCO68355.1           -            495 5251at5820           -            481     0.001   16.0   0.5   2   2     0.047        41    0.9   0.0    17    64   377   424   374   439 0.79 phenylalanine--tRNA ligase, putative [Plasmodium vivax]
+#
+# Program:         hmmsearch
+# Version:         3.4 (Aug 2023)
+# Pipeline mode:   SEARCH
+# Query file:      /v3/work/00_inventory/busco/busco_downloads/lineages/plasmodium_odb10/hmms/5251at5820.hmm
+# Target file:     /v3/inputs/annotations/ncbi-datasets/PvT01.proteins.fa
+# Option settings: hmmsearch --domtblout /v3/work/00_inventory/busco/PvT01_proteins/run_plasmodium_odb10/hmmer_output/initial_run_results/5251at5820.out --cpu 1 /v3/work/00_inventory/busco/busco_downloads/lineages/plasmodium_odb10/hmms/5251at5820.hmm /v3/inputs/annotations/ncbi-datasets/PvT01.proteins.fa 
+# Current dir:     /v3/work/00_inventory/busco
+# Date:            Tue May 19 18:50:33 2026
+# [ok]

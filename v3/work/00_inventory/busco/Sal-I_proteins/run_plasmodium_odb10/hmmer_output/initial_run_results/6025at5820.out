@@ -1,0 +1,17 @@
+#                                                                            --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name        accession   tlen query name           accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+#------------------- ---------- ----- -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+PVX_117415.1-p1      -            599 6025at5820           -            445  1.5e-234  776.7  10.3   1   4     2e-16   1.1e-12   45.4   0.0     1    41     1    41     1    47 0.93 | transcript=PVX_117415.1 | gene=PVX_117415 | organism=Plasmodium_vivax_Sal-1 | gene_product=snRNA-activating protein complex subunit 3, putative | transcript_product=snRNA-activating protein complex subunit 3, putative | location=Pv_Sal1_chr12:1858163-1859962(+) | protein_length=599 | sequence_SO=chromosome | SO=protein_coding_gene | is_pseudo=false
+PVX_117415.1-p1      -            599 6025at5820           -            445  1.5e-234  776.7  10.3   2   4   9.4e-09   5.2e-05   20.1   0.0    39    65    64    90    59    93 0.89 | transcript=PVX_117415.1 | gene=PVX_117415 | organism=Plasmodium_vivax_Sal-1 | gene_product=snRNA-activating protein complex subunit 3, putative | transcript_product=snRNA-activating protein complex subunit 3, putative | location=Pv_Sal1_chr12:1858163-1859962(+) | protein_length=599 | sequence_SO=chromosome | SO=protein_coding_gene | is_pseudo=false
+PVX_117415.1-p1      -            599 6025at5820           -            445  1.5e-234  776.7  10.3   3   4   7.2e-17     4e-13   46.9   0.0    62   109   167   223   152   238 0.87 | transcript=PVX_117415.1 | gene=PVX_117415 | organism=Plasmodium_vivax_Sal-1 | gene_product=snRNA-activating protein complex subunit 3, putative | transcript_product=snRNA-activating protein complex subunit 3, putative | location=Pv_Sal1_chr12:1858163-1859962(+) | protein_length=599 | sequence_SO=chromosome | SO=protein_coding_gene | is_pseudo=false
+PVX_117415.1-p1      -            599 6025at5820           -            445  1.5e-234  776.7  10.3   4   4  2.6e-203  1.4e-199  661.4   8.1   109   445   251   599   241   599 0.96 | transcript=PVX_117415.1 | gene=PVX_117415 | organism=Plasmodium_vivax_Sal-1 | gene_product=snRNA-activating protein complex subunit 3, putative | transcript_product=snRNA-activating protein complex subunit 3, putative | location=Pv_Sal1_chr12:1858163-1859962(+) | protein_length=599 | sequence_SO=chromosome | SO=protein_coding_gene | is_pseudo=false
+#
+# Program:         hmmsearch
+# Version:         3.4 (Aug 2023)
+# Pipeline mode:   SEARCH
+# Query file:      /v3/work/00_inventory/busco/busco_downloads/lineages/plasmodium_odb10/hmms/6025at5820.hmm
+# Target file:     /v3/inputs/annotations/plasmodb-68/Sal-I.proteins.fa
+# Option settings: hmmsearch --domtblout /v3/work/00_inventory/busco/Sal-I_proteins/run_plasmodium_odb10/hmmer_output/initial_run_results/6025at5820.out --cpu 1 /v3/work/00_inventory/busco/busco_downloads/lineages/plasmodium_odb10/hmms/6025at5820.hmm /v3/inputs/annotations/plasmodb-68/Sal-I.proteins.fa 
+# Current dir:     /v3/work/00_inventory/busco
+# Date:            Tue May 19 17:44:41 2026
+# [ok]

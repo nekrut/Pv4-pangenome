@@ -1,0 +1,17 @@
+#                                                                            --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name        accession   tlen query name           accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+#------------------- ---------- ----- -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+PVP01_1319700.1-p1   -            368 9367at5820           -            272  1.3e-175  580.8  13.8   1   1  1.9e-177  4.2e-174  575.9  13.8     1   260    70   329    70   358 0.96 | transcript=PVP01_1319700.1 | gene=PVP01_1319700 | organism=Plasmodium_vivax_P01 | gene_product=ribosomal protein L15, mitochondrial, putative | transcript_product=ribosomal protein L15, mitochondrial, putative | location=PvP01_13_v2:898876-899982(+) | protein_length=368 | sequence_SO=chromosome | SO=protein_coding_gene | is_pseudo=false
+PVP01_1320300.1-p1   -            596 9367at5820           -            272   1.9e-07   29.4   1.1   1   1   2.2e-10   4.7e-07   28.1   1.1    35   151   330   455   324   481 0.69 | transcript=PVP01_1320300.1 | gene=PVP01_1320300 | organism=Plasmodium_vivax_P01 | gene_product=ribosomal protein L15, apicoplast, putative | transcript_product=ribosomal protein L15, apicoplast, putative | location=PvP01_13_v2:922228-924018(-) | protein_length=596 | sequence_SO=chromosome | SO=protein_coding_gene | is_pseudo=false
+PVP01_0000140.1-p1   -            287 9367at5820           -            272       0.3    9.0   5.7   1   2   0.00014       0.3    9.0   1.1    48   113    47   112    34   122 0.85 | transcript=PVP01_0000140.1 | gene=PVP01_0000140 | organism=Plasmodium_vivax_P01 | gene_product=tryptophan-rich antigen, tryptophan-rich protein | transcript_product=tryptophan-rich protein | location=Transfer.PvP01_00_1.final:57969-58929(-) | protein_length=287 | sequence_SO=contig | SO=protein_coding_gene | is_pseudo=false
+PVP01_0000140.1-p1   -            287 9367at5820           -            272       0.3    9.0   5.7   2   2     0.016        35    2.2   0.3    90   113   176   199   164   214 0.80 | transcript=PVP01_0000140.1 | gene=PVP01_0000140 | organism=Plasmodium_vivax_P01 | gene_product=tryptophan-rich antigen, tryptophan-rich protein | transcript_product=tryptophan-rich protein | location=Transfer.PvP01_00_1.final:57969-58929(-) | protein_length=287 | sequence_SO=contig | SO=protein_coding_gene | is_pseudo=false
+#
+# Program:         hmmsearch
+# Version:         3.4 (Aug 2023)
+# Pipeline mode:   SEARCH
+# Query file:      /v3/work/00_inventory/busco/busco_downloads/lineages/plasmodium_odb10/hmms/9367at5820.hmm
+# Target file:     /v3/inputs/annotations/plasmodb-68/PvP01.proteins.fa
+# Option settings: hmmsearch --domtblout /v3/work/00_inventory/busco/PvP01_proteins/run_plasmodium_odb10/hmmer_output/initial_run_results/9367at5820.out --cpu 1 /v3/work/00_inventory/busco/busco_downloads/lineages/plasmodium_odb10/hmms/9367at5820.hmm /v3/inputs/annotations/plasmodb-68/PvP01.proteins.fa 
+# Current dir:     /v3/work/00_inventory/busco
+# Date:            Tue May 19 17:50:52 2026
+# [ok]

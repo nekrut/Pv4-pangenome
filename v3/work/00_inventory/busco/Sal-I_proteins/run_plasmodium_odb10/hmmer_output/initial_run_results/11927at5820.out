@@ -1,0 +1,17 @@
+#                                                                            --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name        accession   tlen query name           accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+#------------------- ---------- ----- -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+PVX_084655.1-p1      -            185 11927at5820          -            138   3.5e-86  284.5   2.4   1   1   3.2e-89   4.5e-86  284.1   2.4     1   138    32   181    32   181 0.95 | transcript=PVX_084655.1 | gene=PVX_084655 | organism=Plasmodium_vivax_Sal-1 | gene_product=trafficking protein particle complex subunit 5, putative | transcript_product=trafficking protein particle complex subunit 5, putative | location=Pv_Sal1_chr13:516704-517261(+) | protein_length=185 | sequence_SO=chromosome | SO=protein_coding_gene | is_pseudo=false
+PVX_114060.1-p1      -            263 11927at5820          -            138   3.4e-05   22.2   0.2   1   1   4.8e-08   6.6e-05   21.2   0.2    17   118   137   246   125   256 0.73 | transcript=PVX_114060.1 | gene=PVX_114060 | organism=Plasmodium_vivax_Sal-1 | gene_product=trafficking protein particle complex subunit 6A, putative | transcript_product=trafficking protein particle complex subunit 6A, putative | location=Pv_Sal1_chr11:1285731-1286679(-) | protein_length=263 | sequence_SO=chromosome | SO=protein_coding_gene | is_pseudo=false
+PVX_090015.1-p1      -            187 11927at5820          -            138    0.0056   15.0   0.5   1   1   5.8e-06     0.008   14.5   0.5    14   110    46   147    36   175 0.79 | transcript=PVX_090015.1 | gene=PVX_090015 | organism=Plasmodium_vivax_Sal-1 | gene_product=trafficking protein particle complex subunit 3, putative | transcript_product=trafficking protein particle complex subunit 3, putative | location=Pv_Sal1_chr05:1043372-1044648(-) | protein_length=187 | sequence_SO=chromosome | SO=protein_coding_gene | is_pseudo=false
+PVX_083045.1-p1      -            264 11927at5820          -            138    0.0083   14.4   0.9   1   1   1.1e-05     0.015   13.5   0.9    19   107    77   165    68   192 0.82 | transcript=PVX_083045.1 | gene=PVX_083045 | organism=Plasmodium_vivax_Sal-1 | gene_product=phosphoethanolamine N-methyltransferase | transcript_product=phosphoethanolamine N-methyltransferase | location=Pv_Sal1_chr12:479881-481191(-) | protein_length=264 | sequence_SO=chromosome | SO=protein_coding_gene | is_pseudo=false
+#
+# Program:         hmmsearch
+# Version:         3.4 (Aug 2023)
+# Pipeline mode:   SEARCH
+# Query file:      /v3/work/00_inventory/busco/busco_downloads/lineages/plasmodium_odb10/hmms/11927at5820.hmm
+# Target file:     /v3/inputs/annotations/plasmodb-68/Sal-I.proteins.fa
+# Option settings: hmmsearch --domtblout /v3/work/00_inventory/busco/Sal-I_proteins/run_plasmodium_odb10/hmmer_output/initial_run_results/11927at5820.out --cpu 1 /v3/work/00_inventory/busco/busco_downloads/lineages/plasmodium_odb10/hmms/11927at5820.hmm /v3/inputs/annotations/plasmodb-68/Sal-I.proteins.fa 
+# Current dir:     /v3/work/00_inventory/busco
+# Date:            Tue May 19 17:25:04 2026
+# [ok]

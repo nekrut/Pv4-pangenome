@@ -1,0 +1,16 @@
+#                                                                            --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name        accession   tlen query name           accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+#------------------- ---------- ----- -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+CAG9476682.1         -            190 13335at5820          -            150   9.6e-81  267.6  22.0   1   2   5.4e-84   1.6e-80  266.8  15.2     1   143     2   155     2   160 0.96 | transcript=PVW1_090017700_t1 | gene=PVW1_090017700 | organism=Plasmodium_vivax_PvW1 | gene_product=Stn1 domain-containing protein [Source:UniProtKB/TrEMBL;Acc:A0A1G4GX93] | transcript_product=Stn1 domain-containing protein [Source:UniProtKB/TrEMBL;Acc:A0A1G4GX93] | location=CAJZCX010000007:616518-617090(+) | protein_length=190 | sequence_SO=supercontig | SO=protein_coding_gene | is_pseudo=false
+CAG9476682.1         -            190 13335at5820          -            150   9.6e-81  267.6  22.0   2   2     0.003         9    4.7   0.5   140   150   180   190   175   190 0.89 | transcript=PVW1_090017700_t1 | gene=PVW1_090017700 | organism=Plasmodium_vivax_PvW1 | gene_product=Stn1 domain-containing protein [Source:UniProtKB/TrEMBL;Acc:A0A1G4GX93] | transcript_product=Stn1 domain-containing protein [Source:UniProtKB/TrEMBL;Acc:A0A1G4GX93] | location=CAJZCX010000007:616518-617090(+) | protein_length=190 | sequence_SO=supercontig | SO=protein_coding_gene | is_pseudo=false
+CAG9477029.1         -            274 13335at5820          -            150   8.2e-07   27.6   6.8   1   1   7.6e-10   2.3e-06   26.1   6.8    11   141    41   185    34   192 0.75 | transcript=PVW1_090037600_t1 | gene=PVW1_090037600 | organism=Plasmodium_vivax_PvW1 | gene_product=Nucleic acid binding protein, putative [Source:UniProtKB/TrEMBL;Acc:A0A1G4GXZ7] | transcript_product=Nucleic acid binding protein, putative [Source:UniProtKB/TrEMBL;Acc:A0A1G4GXZ7] | location=CAJZCX010000007:1426399-1427223(+) | protein_length=274 | sequence_SO=supercontig | SO=protein_coding_gene | is_pseudo=false
+#
+# Program:         hmmsearch
+# Version:         3.4 (Aug 2023)
+# Pipeline mode:   SEARCH
+# Query file:      /v3/work/00_inventory/busco/busco_downloads/lineages/plasmodium_odb10/hmms/13335at5820.hmm
+# Target file:     /v3/inputs/annotations/plasmodb-68/PvW1.proteins.fa
+# Option settings: hmmsearch --domtblout /v3/work/00_inventory/busco/PvW1_proteins/run_plasmodium_odb10/hmmer_output/initial_run_results/13335at5820.out --cpu 1 /v3/work/00_inventory/busco/busco_downloads/lineages/plasmodium_odb10/hmms/13335at5820.hmm /v3/inputs/annotations/plasmodb-68/PvW1.proteins.fa 
+# Current dir:     /v3/work/00_inventory/busco
+# Date:            Tue May 19 17:29:36 2026
+# [ok]

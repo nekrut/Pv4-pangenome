@@ -1,0 +1,17 @@
+#                                                                            --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name        accession   tlen query name           accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+#------------------- ---------- ----- -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+PVP01_1437700.1-p1   -            821 3935at5820           -            474  8.8e-236  781.7  76.0   1   4   4.7e-32   3.1e-28   97.3   8.7     1    67     1    68     1    73 0.90 | transcript=PVP01_1437700.1 | gene=PVP01_1437700 | organism=Plasmodium_vivax_P01 | gene_product=WD repeat-containing protein, putative | transcript_product=WD repeat-containing protein, putative | location=PvP01_14_v2:1584592-1587057(-) | protein_length=821 | sequence_SO=chromosome | SO=protein_coding_gene | is_pseudo=false
+PVP01_1437700.1-p1   -            821 3935at5820           -            474  8.8e-236  781.7  76.0   2   4   9.8e-17   6.4e-13   46.8   0.3    52    97   111   156   108   170 0.91 | transcript=PVP01_1437700.1 | gene=PVP01_1437700 | organism=Plasmodium_vivax_P01 | gene_product=WD repeat-containing protein, putative | transcript_product=WD repeat-containing protein, putative | location=PvP01_14_v2:1584592-1587057(-) | protein_length=821 | sequence_SO=chromosome | SO=protein_coding_gene | is_pseudo=false
+PVP01_1437700.1-p1   -            821 3935at5820           -            474  8.8e-236  781.7  76.0   3   4   5.2e-10   3.4e-06   24.6   0.0    87   118   385   416   366   420 0.77 | transcript=PVP01_1437700.1 | gene=PVP01_1437700 | organism=Plasmodium_vivax_P01 | gene_product=WD repeat-containing protein, putative | transcript_product=WD repeat-containing protein, putative | location=PvP01_14_v2:1584592-1587057(-) | protein_length=821 | sequence_SO=chromosome | SO=protein_coding_gene | is_pseudo=false
+PVP01_1437700.1-p1   -            821 3935at5820           -            474  8.8e-236  781.7  76.0   4   4  2.5e-191  1.6e-187  622.5  52.0   116   474   434   821   424   821 0.93 | transcript=PVP01_1437700.1 | gene=PVP01_1437700 | organism=Plasmodium_vivax_P01 | gene_product=WD repeat-containing protein, putative | transcript_product=WD repeat-containing protein, putative | location=PvP01_14_v2:1584592-1587057(-) | protein_length=821 | sequence_SO=chromosome | SO=protein_coding_gene | is_pseudo=false
+#
+# Program:         hmmsearch
+# Version:         3.4 (Aug 2023)
+# Pipeline mode:   SEARCH
+# Query file:      /v3/work/00_inventory/busco/busco_downloads/lineages/plasmodium_odb10/hmms/3935at5820.hmm
+# Target file:     /v3/inputs/annotations/plasmodb-68/PvP01.proteins.fa
+# Option settings: hmmsearch --domtblout /v3/work/00_inventory/busco/PvP01_proteins/run_plasmodium_odb10/hmmer_output/initial_run_results/3935at5820.out --cpu 1 /v3/work/00_inventory/busco/busco_downloads/lineages/plasmodium_odb10/hmms/3935at5820.hmm /v3/inputs/annotations/plasmodb-68/PvP01.proteins.fa 
+# Current dir:     /v3/work/00_inventory/busco
+# Date:            Tue May 19 17:39:21 2026
+# [ok]

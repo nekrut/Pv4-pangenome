@@ -1,0 +1,16 @@
+#                                                                            --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name        accession   tlen query name           accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+#------------------- ---------- ----- -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+PVX_082760.1-p1      -             91 14783at5820          -             66   1.1e-48  161.8   4.6   1   1   5.1e-52   1.4e-48  161.5   4.6     1    66    26    91    26    91 0.99 | transcript=PVX_082760.1 | gene=PVX_082760 | organism=Plasmodium_vivax_Sal-1 | gene_product=hypothetical protein, conserved | transcript_product=hypothetical protein, conserved | location=Pv_Sal1_chr12:714319-715163(-) | protein_length=91 | sequence_SO=chromosome | SO=protein_coding_gene | is_pseudo=false
+PVX_000960.1-p1      -            315 14783at5820          -             66     0.055   12.3   2.4   1   2   2.2e-05     0.062   12.1   0.4     7    48    18    60    12    63 0.90 | transcript=PVX_000960.1 | gene=PVX_000960 | organism=Plasmodium_vivax_Sal-1 | gene_product=secy-independent transporter protein, putative | transcript_product=secy-independent transporter protein, putative | location=Pv_Sal1_chr03:170644-172914(+) | protein_length=315 | sequence_SO=chromosome | SO=protein_coding_gene | is_pseudo=false
+PVX_000960.1-p1      -            315 14783at5820          -             66     0.055   12.3   2.4   2   2       1.2   3.3e+03   -3.0   0.1    31    38   189   196   187   198 0.77 | transcript=PVX_000960.1 | gene=PVX_000960 | organism=Plasmodium_vivax_Sal-1 | gene_product=secy-independent transporter protein, putative | transcript_product=secy-independent transporter protein, putative | location=Pv_Sal1_chr03:170644-172914(+) | protein_length=315 | sequence_SO=chromosome | SO=protein_coding_gene | is_pseudo=false
+#
+# Program:         hmmsearch
+# Version:         3.4 (Aug 2023)
+# Pipeline mode:   SEARCH
+# Query file:      /v3/work/00_inventory/busco/busco_downloads/lineages/plasmodium_odb10/hmms/14783at5820.hmm
+# Target file:     /v3/inputs/annotations/plasmodb-68/Sal-I.proteins.fa
+# Option settings: hmmsearch --domtblout /v3/work/00_inventory/busco/Sal-I_proteins/run_plasmodium_odb10/hmmer_output/initial_run_results/14783at5820.out --cpu 1 /v3/work/00_inventory/busco/busco_downloads/lineages/plasmodium_odb10/hmms/14783at5820.hmm /v3/inputs/annotations/plasmodb-68/Sal-I.proteins.fa 
+# Current dir:     /v3/work/00_inventory/busco
+# Date:            Tue May 19 17:34:21 2026
+# [ok]

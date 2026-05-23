@@ -1,0 +1,17 @@
+#                                                                            --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name        accession   tlen query name           accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+#------------------- ---------- ----- -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+PVP01_0837400.1-p1   -            521 9876at5820           -            328  7.6e-178  588.9  32.7   1   3   0.00047       1.5    6.2   0.6     1    31     7    37     7    47 0.79 | transcript=PVP01_0837400.1 | gene=PVP01_0837400 | organism=Plasmodium_vivax_P01 | gene_product=RNA-binding protein, putative | transcript_product=RNA-binding protein, putative | location=PvP01_08_v2:1582209-1583932(+) | protein_length=521 | sequence_SO=chromosome | SO=protein_coding_gene | is_pseudo=false
+PVP01_0837400.1-p1   -            521 9876at5820           -            328  7.6e-178  588.9  32.7   2   3   3.1e-81     1e-77  259.9   6.7     7   148    54   201    48   225 0.87 | transcript=PVP01_0837400.1 | gene=PVP01_0837400 | organism=Plasmodium_vivax_P01 | gene_product=RNA-binding protein, putative | transcript_product=RNA-binding protein, putative | location=PvP01_08_v2:1582209-1583932(+) | protein_length=521 | sequence_SO=chromosome | SO=protein_coding_gene | is_pseudo=false
+PVP01_0837400.1-p1   -            521 9876at5820           -            328  7.6e-178  588.9  32.7   3   3  9.2e-104    3e-100  333.9  10.9   130   328   257   470   228   470 0.89 | transcript=PVP01_0837400.1 | gene=PVP01_0837400 | organism=Plasmodium_vivax_P01 | gene_product=RNA-binding protein, putative | transcript_product=RNA-binding protein, putative | location=PvP01_08_v2:1582209-1583932(+) | protein_length=521 | sequence_SO=chromosome | SO=protein_coding_gene | is_pseudo=false
+PVP01_1023900.1-p1   -           2486 9876at5820           -            328   0.00048   17.7   0.1   1   1   2.5e-07   0.00082   17.0   0.1   155   273  2330  2450  2302  2466 0.80 | transcript=PVP01_1023900.1 | gene=PVP01_1023900 | organism=Plasmodium_vivax_P01 | gene_product=KH domain-containing protein, putative | transcript_product=KH domain-containing protein, putative | location=PvP01_10_v2:1039340-1046800(+) | protein_length=2486 | sequence_SO=chromosome | SO=protein_coding_gene | is_pseudo=false
+#
+# Program:         hmmsearch
+# Version:         3.4 (Aug 2023)
+# Pipeline mode:   SEARCH
+# Query file:      /v3/work/00_inventory/busco/busco_downloads/lineages/plasmodium_odb10/hmms/9876at5820.hmm
+# Target file:     /v3/inputs/annotations/plasmodb-68/PvP01.proteins.fa
+# Option settings: hmmsearch --domtblout /v3/work/00_inventory/busco/PvP01_proteins/run_plasmodium_odb10/hmmer_output/initial_run_results/9876at5820.out --cpu 1 /v3/work/00_inventory/busco/busco_downloads/lineages/plasmodium_odb10/hmms/9876at5820.hmm /v3/inputs/annotations/plasmodb-68/PvP01.proteins.fa 
+# Current dir:     /v3/work/00_inventory/busco
+# Date:            Tue May 19 17:53:02 2026
+# [ok]

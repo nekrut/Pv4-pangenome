@@ -1,0 +1,21 @@
+#                                                                            --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name        accession   tlen query name           accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+#------------------- ---------- ----- -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+SCO73881.1           -           1261 3802at5820           -            921         0 1314.4  54.7   1   2   3.6e-81   5.7e-78  262.0  10.3     1   226     1   243     1   270 0.91 inner membrane complex protein 1f, putative [Plasmodium vivax]
+SCO73881.1           -           1261 3802at5820           -            921         0 1314.4  54.7   2   2         0         0 1053.5  36.5   241   918   314  1255   301  1260 0.88 inner membrane complex protein 1f, putative [Plasmodium vivax]
+SCO72469.1           -            869 3802at5820           -            921   3.4e-12   44.3  37.2   1   3   2.2e-15   3.4e-12   44.3  37.2   429   553    75   199    71   203 0.93 inner membrane complex protein 1a, putative [Plasmodium vivax]
+SCO72469.1           -            869 3802at5820           -            921   3.4e-12   44.3  37.2   2   3      0.26   4.1e+02   -2.3  24.9   597   677   369   451   360   469 0.81 inner membrane complex protein 1a, putative [Plasmodium vivax]
+SCO72469.1           -            869 3802at5820           -            921   3.4e-12   44.3  37.2   3   3      0.17   2.7e+02   -1.7   0.9   206   268   755   817   639   834 0.66 inner membrane complex protein 1a, putative [Plasmodium vivax]
+SCO72178.1           -            286 3802at5820           -            921   1.7e-10   38.7  50.3   1   2   1.1e-13   1.7e-10   38.7  50.3   432   553    33   154    26   161 0.96 inner membrane complex protein 1c, putative [Plasmodium vivax]
+SCO72178.1           -            286 3802at5820           -            921   1.7e-10   38.7  50.3   2   2       1.5   2.4e+03   -4.8   9.6   316   869   177   226   155   241 0.32 inner membrane complex protein 1c, putative [Plasmodium vivax]
+SCO71659.1           -            371 3802at5820           -            921      0.86    6.6  20.8   1   1   0.00091       1.4    5.8  20.8   476   554    43   133    34   155 0.80 inner membrane complex protein 1m, putative [Plasmodium vivax]
+#
+# Program:         hmmsearch
+# Version:         3.4 (Aug 2023)
+# Pipeline mode:   SEARCH
+# Query file:      /v3/work/00_inventory/busco/busco_downloads/lineages/plasmodium_odb10/hmms/3802at5820.hmm
+# Target file:     /v3/inputs/annotations/ncbi-datasets/PvC01.proteins.fa
+# Option settings: hmmsearch --domtblout /v3/work/00_inventory/busco/PvC01_proteins/run_plasmodium_odb10/hmmer_output/initial_run_results/3802at5820.out --cpu 1 /v3/work/00_inventory/busco/busco_downloads/lineages/plasmodium_odb10/hmms/3802at5820.hmm /v3/inputs/annotations/ncbi-datasets/PvC01.proteins.fa 
+# Current dir:     /v3/work/00_inventory/busco
+# Date:            Tue May 19 18:40:43 2026
+# [ok]

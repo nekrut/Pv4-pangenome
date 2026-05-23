@@ -1,0 +1,17 @@
+#                                                                            --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name        accession   tlen query name           accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+#------------------- ---------- ----- -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+PVP01_1437800.1-p1   -           2853 365at5820            -           2034         0 3035.4 190.7   1   2  6.9e-298  1.5e-294  979.2  73.4     1   708     1   986     1  1010 0.86 | transcript=PVP01_1437800.1 | gene=PVP01_1437800 | organism=Plasmodium_vivax_P01 | gene_product=formin 2, putative | transcript_product=formin 2, putative | location=PvP01_14_v2:1591719-1600280(+) | protein_length=2853 | sequence_SO=chromosome | SO=protein_coding_gene | is_pseudo=false
+PVP01_1437800.1-p1   -           2853 365at5820            -           2034         0 3035.4 190.7   2   2         0         0 2055.3 109.6   680  1987  1077  2707  1022  2737 0.86 | transcript=PVP01_1437800.1 | gene=PVP01_1437800 | organism=Plasmodium_vivax_P01 | gene_product=formin 2, putative | transcript_product=formin 2, putative | location=PvP01_14_v2:1591719-1600280(+) | protein_length=2853 | sequence_SO=chromosome | SO=protein_coding_gene | is_pseudo=false
+PVP01_1212400.1-p1   -            384 365at5820            -           2034     0.024   10.2  11.8   1   1   1.6e-05     0.034    9.7  11.8   529   608   103   240    80   287 0.44 | transcript=PVP01_1212400.1 | gene=PVP01_1212400 | organism=Plasmodium_vivax_P01 | gene_product=casein kinase II beta chain, putative | transcript_product=casein kinase II beta chain, putative | location=PvP01_12_v2:549361-550738(+) | protein_length=384 | sequence_SO=chromosome | SO=protein_coding_gene | is_pseudo=false
+PVP01_0901200.1-p1   -            229 365at5820            -           2034      0.18    7.3  11.0   1   1   8.7e-05      0.19    7.3  11.0   647   751    97   199    32   223 0.46 | transcript=PVP01_0901200.1 | gene=PVP01_0901200 | organism=Plasmodium_vivax_P01 | gene_product=hypothetical protein | transcript_product=hypothetical protein | location=PvP01_09_v2:70737-71545(+) | protein_length=229 | sequence_SO=chromosome | SO=protein_coding_gene | is_pseudo=false
+#
+# Program:         hmmsearch
+# Version:         3.4 (Aug 2023)
+# Pipeline mode:   SEARCH
+# Query file:      /v3/work/00_inventory/busco/busco_downloads/lineages/plasmodium_odb10/hmms/365at5820.hmm
+# Target file:     /v3/inputs/annotations/plasmodb-68/PvP01.proteins.fa
+# Option settings: hmmsearch --domtblout /v3/work/00_inventory/busco/PvP01_proteins/run_plasmodium_odb10/hmmer_output/initial_run_results/365at5820.out --cpu 1 /v3/work/00_inventory/busco/busco_downloads/lineages/plasmodium_odb10/hmms/365at5820.hmm /v3/inputs/annotations/plasmodb-68/PvP01.proteins.fa 
+# Current dir:     /v3/work/00_inventory/busco
+# Date:            Tue May 19 17:37:53 2026
+# [ok]

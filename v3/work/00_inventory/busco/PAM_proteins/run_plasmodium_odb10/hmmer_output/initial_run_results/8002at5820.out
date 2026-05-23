@@ -1,0 +1,16 @@
+#                                                                            --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name        accession   tlen query name           accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+#------------------- ---------- ----- -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+CAI7721598.1         -            441 8002at5820           -            374  1.5e-220  730.1  47.8   1   2   2.5e-20   8.2e-17   59.6   3.5     1    45     1    57     1    63 0.87 | transcript=PVPAM_110050200_t1 | gene=PVPAM_110050200 | organism=Plasmodium_vivax_PAM | gene_product=cation/H+ antiporter, putative | transcript_product=cation/H+ antiporter, putative | location=CASCJQ010000011:1894754-1896079(-) | protein_length=441 | sequence_SO=supercontig | SO=protein_coding_gene | is_pseudo=false
+CAI7721598.1         -            441 8002at5820           -            374  1.5e-220  730.1  47.8   2   2  1.2e-207  3.9e-204  676.1  36.5    48   374    95   439    82   439 0.96 | transcript=PVPAM_110050200_t1 | gene=PVPAM_110050200 | organism=Plasmodium_vivax_PAM | gene_product=cation/H+ antiporter, putative | transcript_product=cation/H+ antiporter, putative | location=CASCJQ010000011:1894754-1896079(-) | protein_length=441 | sequence_SO=supercontig | SO=protein_coding_gene | is_pseudo=false
+CAI7717583.1         -            473 8002at5820           -            374     0.046   11.1   0.2   1   1   2.5e-05     0.081   10.3   0.2   188   228   398   438   389   443 0.82 | transcript=PVPAM_010009200_t1 | gene=PVPAM_010009200 | organism=Plasmodium_vivax_PAM | gene_product=PIR protein | transcript_product=PIR protein | location=CASCJQ010000001:190432-192249(+) | protein_length=473 | sequence_SO=supercontig | SO=protein_coding_gene | is_pseudo=false
+#
+# Program:         hmmsearch
+# Version:         3.4 (Aug 2023)
+# Pipeline mode:   SEARCH
+# Query file:      /v3/work/00_inventory/busco/busco_downloads/lineages/plasmodium_odb10/hmms/8002at5820.hmm
+# Target file:     /v3/inputs/annotations/plasmodb-68/PAM.proteins.fa
+# Option settings: hmmsearch --domtblout /v3/work/00_inventory/busco/PAM_proteins/run_plasmodium_odb10/hmmer_output/initial_run_results/8002at5820.out --cpu 1 /v3/work/00_inventory/busco/busco_downloads/lineages/plasmodium_odb10/hmms/8002at5820.hmm /v3/inputs/annotations/plasmodb-68/PAM.proteins.fa 
+# Current dir:     /v3/work/00_inventory/busco
+# Date:            Tue May 19 17:49:39 2026
+# [ok]

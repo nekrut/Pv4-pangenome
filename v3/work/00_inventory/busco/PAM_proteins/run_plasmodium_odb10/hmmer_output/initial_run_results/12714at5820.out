@@ -1,0 +1,17 @@
+#                                                                            --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name        accession   tlen query name           accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+#------------------- ---------- ----- -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+CAI7723486.1         -            201 12714at5820          -            145   1.3e-62  208.5   8.2   1   2     3e-56   9.8e-53  176.4   2.4     2   114    18   143    17   149 0.91 | transcript=PVPAM_140040900_t1 | gene=PVPAM_140040900 | organism=Plasmodium_vivax_PAM | gene_product=histone-lysine N-methyltransferase SET5, putative | transcript_product=histone-lysine N-methyltransferase SET5, putative | location=CASCJQ010000014:1550559-1551380(-) | protein_length=201 | sequence_SO=supercontig | SO=protein_coding_gene | is_pseudo=false
+CAI7723486.1         -            201 12714at5820          -            145   1.3e-62  208.5   8.2   2   2   6.8e-13   2.2e-09   35.8   0.3   114   145   160   195   148   195 0.86 | transcript=PVPAM_140040900_t1 | gene=PVPAM_140040900 | organism=Plasmodium_vivax_PAM | gene_product=histone-lysine N-methyltransferase SET5, putative | transcript_product=histone-lysine N-methyltransferase SET5, putative | location=CASCJQ010000014:1550559-1551380(-) | protein_length=201 | sequence_SO=supercontig | SO=protein_coding_gene | is_pseudo=false
+CAI7719540.1         -           1072 12714at5820          -            145     0.079   11.3   3.2   1   2     0.034   1.1e+02    1.1   0.3    16    77   371   433   359   456 0.82 | transcript=PVPAM_070015400_t1 | gene=PVPAM_070015400 | organism=Plasmodium_vivax_PAM | gene_product=histone-lysine N-methyltransferase SET4, putative | transcript_product=histone-lysine N-methyltransferase SET4, putative | location=CASCJQ010000007:529724-532942(-) | protein_length=1072 | sequence_SO=supercontig | SO=protein_coding_gene | is_pseudo=false
+CAI7719540.1         -           1072 12714at5820          -            145     0.079   11.3   3.2   2   2     6e-05      0.19   10.0   0.2    87   138   561   611   531   617 0.72 | transcript=PVPAM_070015400_t1 | gene=PVPAM_070015400 | organism=Plasmodium_vivax_PAM | gene_product=histone-lysine N-methyltransferase SET4, putative | transcript_product=histone-lysine N-methyltransferase SET4, putative | location=CASCJQ010000007:529724-532942(-) | protein_length=1072 | sequence_SO=supercontig | SO=protein_coding_gene | is_pseudo=false
+#
+# Program:         hmmsearch
+# Version:         3.4 (Aug 2023)
+# Pipeline mode:   SEARCH
+# Query file:      /v3/work/00_inventory/busco/busco_downloads/lineages/plasmodium_odb10/hmms/12714at5820.hmm
+# Target file:     /v3/inputs/annotations/plasmodb-68/PAM.proteins.fa
+# Option settings: hmmsearch --domtblout /v3/work/00_inventory/busco/PAM_proteins/run_plasmodium_odb10/hmmer_output/initial_run_results/12714at5820.out --cpu 1 /v3/work/00_inventory/busco/busco_downloads/lineages/plasmodium_odb10/hmms/12714at5820.hmm /v3/inputs/annotations/plasmodb-68/PAM.proteins.fa 
+# Current dir:     /v3/work/00_inventory/busco
+# Date:            Tue May 19 17:27:41 2026
+# [ok]

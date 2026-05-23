@@ -1,0 +1,16 @@
+#                                                                            --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name        accession   tlen query name           accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+#------------------- ---------- ----- -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+CAI7718833.1         -            291 10900at5820          -            237  1.3e-110  366.8  21.6   1   2      0.16   5.3e+02   -1.8   0.3     1    16     1    16     1    18 0.84 | transcript=PVPAM_050022700_t1 | gene=PVPAM_050022700 | organism=Plasmodium_vivax_PAM | gene_product=BRIX domain, putative | transcript_product=BRIX domain, putative | location=CASCJQ010000005:763344-764430(-) | protein_length=291 | sequence_SO=supercontig | SO=protein_coding_gene | is_pseudo=false
+CAI7718833.1         -            291 10900at5820          -            237  1.3e-110  366.8  21.6   2   2  4.1e-114  1.3e-110  366.8  21.6     5   237    25   286    21   286 0.91 | transcript=PVPAM_050022700_t1 | gene=PVPAM_050022700 | organism=Plasmodium_vivax_PAM | gene_product=BRIX domain, putative | transcript_product=BRIX domain, putative | location=CASCJQ010000005:763344-764430(-) | protein_length=291 | sequence_SO=supercontig | SO=protein_coding_gene | is_pseudo=false
+CAI7720104.1         -            489 10900at5820          -            237     0.038   11.7   0.1   1   1   2.3e-05     0.076   10.7   0.1   151   190   362   401   356   410 0.87 | transcript=PVPAM_080032600_t1 | gene=PVPAM_080032600 | organism=Plasmodium_vivax_PAM | gene_product=conserved Plasmodium protein, unknown function | transcript_product=conserved Plasmodium protein, unknown function | location=CASCJQ010000008:1251165-1252634(+) | protein_length=489 | sequence_SO=supercontig | SO=protein_coding_gene | is_pseudo=false
+#
+# Program:         hmmsearch
+# Version:         3.4 (Aug 2023)
+# Pipeline mode:   SEARCH
+# Query file:      /v3/work/00_inventory/busco/busco_downloads/lineages/plasmodium_odb10/hmms/10900at5820.hmm
+# Target file:     /v3/inputs/annotations/plasmodb-68/PAM.proteins.fa
+# Option settings: hmmsearch --domtblout /v3/work/00_inventory/busco/PAM_proteins/run_plasmodium_odb10/hmmer_output/initial_run_results/10900at5820.out --cpu 1 /v3/work/00_inventory/busco/busco_downloads/lineages/plasmodium_odb10/hmms/10900at5820.hmm /v3/inputs/annotations/plasmodb-68/PAM.proteins.fa 
+# Current dir:     /v3/work/00_inventory/busco
+# Date:            Tue May 19 17:27:49 2026
+# [ok]

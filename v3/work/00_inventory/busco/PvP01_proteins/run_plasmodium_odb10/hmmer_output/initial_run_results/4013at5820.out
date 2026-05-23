@@ -1,0 +1,16 @@
+#                                                                            --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name        accession   tlen query name           accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+#------------------- ---------- ----- -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+PVP01_1343000.1-p1   -            956 4013at5820           -            604         0 1069.5  71.3   1   3  1.7e-154  1.1e-150  501.6  46.7     6   306   188   529   183   538 0.92 | transcript=PVP01_1343000.1 | gene=PVP01_1343000 | organism=Plasmodium_vivax_P01 | gene_product=ribosome biogenesis protein BOP1, putative | transcript_product=ribosome biogenesis protein BOP1, putative | location=PvP01_13_v2:1892863-1896421(+) | protein_length=956 | sequence_SO=chromosome | SO=protein_coding_gene | is_pseudo=false
+PVP01_1343000.1-p1   -            956 4013at5820           -            604         0 1069.5  71.3   2   3   3.8e-11   2.5e-07   28.1   0.0   302   339   544   586   540   597 0.86 | transcript=PVP01_1343000.1 | gene=PVP01_1343000 | organism=Plasmodium_vivax_P01 | gene_product=ribosome biogenesis protein BOP1, putative | transcript_product=ribosome biogenesis protein BOP1, putative | location=PvP01_13_v2:1892863-1896421(+) | protein_length=956 | sequence_SO=chromosome | SO=protein_coding_gene | is_pseudo=false
+PVP01_1343000.1-p1   -            956 4013at5820           -            604         0 1069.5  71.3   3   3  1.3e-167  8.4e-164  544.9  14.0   335   604   686   956   678   956 0.99 | transcript=PVP01_1343000.1 | gene=PVP01_1343000 | organism=Plasmodium_vivax_P01 | gene_product=ribosome biogenesis protein BOP1, putative | transcript_product=ribosome biogenesis protein BOP1, putative | location=PvP01_13_v2:1892863-1896421(+) | protein_length=956 | sequence_SO=chromosome | SO=protein_coding_gene | is_pseudo=false
+#
+# Program:         hmmsearch
+# Version:         3.4 (Aug 2023)
+# Pipeline mode:   SEARCH
+# Query file:      /v3/work/00_inventory/busco/busco_downloads/lineages/plasmodium_odb10/hmms/4013at5820.hmm
+# Target file:     /v3/inputs/annotations/plasmodb-68/PvP01.proteins.fa
+# Option settings: hmmsearch --domtblout /v3/work/00_inventory/busco/PvP01_proteins/run_plasmodium_odb10/hmmer_output/initial_run_results/4013at5820.out --cpu 1 /v3/work/00_inventory/busco/busco_downloads/lineages/plasmodium_odb10/hmms/4013at5820.hmm /v3/inputs/annotations/plasmodb-68/PvP01.proteins.fa 
+# Current dir:     /v3/work/00_inventory/busco
+# Date:            Tue May 19 17:39:57 2026
+# [ok]

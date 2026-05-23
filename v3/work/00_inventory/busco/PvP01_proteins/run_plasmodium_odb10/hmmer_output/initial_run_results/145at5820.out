@@ -1,0 +1,17 @@
+#                                                                            --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name        accession   tlen query name           accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+#------------------- ---------- ----- -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+PVP01_0304800.1-p1   -           3024 145at5820            -           2263         0 5196.2 115.4   1   4  9.8e-192  6.4e-188  625.6  13.9     3   331   353   689   351   698 0.98 | transcript=PVP01_0304800.1 | gene=PVP01_0304800 | organism=Plasmodium_vivax_P01 | gene_product=pre-mRNA-processing-splicing factor 8, putative | transcript_product=pre-mRNA-processing-splicing factor 8, putative | location=PvP01_03_v2:257031-266293(+) | protein_length=3024 | sequence_SO=chromosome | SO=protein_coding_gene | is_pseudo=false
+PVP01_0304800.1-p1   -           3024 145at5820            -           2263         0 5196.2 115.4   2   4         0         0 2046.5  32.5   326  1160   944  1779   936  1791 0.99 | transcript=PVP01_0304800.1 | gene=PVP01_0304800 | organism=Plasmodium_vivax_P01 | gene_product=pre-mRNA-processing-splicing factor 8, putative | transcript_product=pre-mRNA-processing-splicing factor 8, putative | location=PvP01_03_v2:257031-266293(+) | protein_length=3024 | sequence_SO=chromosome | SO=protein_coding_gene | is_pseudo=false
+PVP01_0304800.1-p1   -           3024 145at5820            -           2263         0 5196.2 115.4   3   4         0         0 2315.5  42.4  1159  2145  1814  2848  1810  2855 0.98 | transcript=PVP01_0304800.1 | gene=PVP01_0304800 | organism=Plasmodium_vivax_P01 | gene_product=pre-mRNA-processing-splicing factor 8, putative | transcript_product=pre-mRNA-processing-splicing factor 8, putative | location=PvP01_03_v2:257031-266293(+) | protein_length=3024 | sequence_SO=chromosome | SO=protein_coding_gene | is_pseudo=false
+PVP01_0304800.1-p1   -           3024 145at5820            -           2263         0 5196.2 115.4   4   4   4.1e-71   2.7e-67  225.5   2.9  2143  2263  2892  3024  2882  3024 0.93 | transcript=PVP01_0304800.1 | gene=PVP01_0304800 | organism=Plasmodium_vivax_P01 | gene_product=pre-mRNA-processing-splicing factor 8, putative | transcript_product=pre-mRNA-processing-splicing factor 8, putative | location=PvP01_03_v2:257031-266293(+) | protein_length=3024 | sequence_SO=chromosome | SO=protein_coding_gene | is_pseudo=false
+#
+# Program:         hmmsearch
+# Version:         3.4 (Aug 2023)
+# Pipeline mode:   SEARCH
+# Query file:      /v3/work/00_inventory/busco/busco_downloads/lineages/plasmodium_odb10/hmms/145at5820.hmm
+# Target file:     /v3/inputs/annotations/plasmodb-68/PvP01.proteins.fa
+# Option settings: hmmsearch --domtblout /v3/work/00_inventory/busco/PvP01_proteins/run_plasmodium_odb10/hmmer_output/initial_run_results/145at5820.out --cpu 1 /v3/work/00_inventory/busco/busco_downloads/lineages/plasmodium_odb10/hmms/145at5820.hmm /v3/inputs/annotations/plasmodb-68/PvP01.proteins.fa 
+# Current dir:     /v3/work/00_inventory/busco
+# Date:            Tue May 19 17:33:54 2026
+# [ok]

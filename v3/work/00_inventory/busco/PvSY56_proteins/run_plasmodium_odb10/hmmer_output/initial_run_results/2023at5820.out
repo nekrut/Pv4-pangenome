@@ -1,0 +1,20 @@
+#                                                                                                             --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name                                         accession   tlen query name           accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+#                                 ------------------- ---------- ----- -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+GCA_003402215.1|PVP01_1119700|PVP01_1119700.1|unknown -           1121 2023at5820           -            763         0 1249.6 102.8   1   5   1.8e-95   4.7e-92  308.0  23.0     1   195     1   200     1   205 0.96 -
+GCA_003402215.1|PVP01_1119700|PVP01_1119700.1|unknown -           1121 2023at5820           -            763         0 1249.6 102.8   2   5   1.9e-13   5.1e-10   36.8   0.3   195   233   343   384   339   389 0.91 -
+GCA_003402215.1|PVP01_1119700|PVP01_1119700.1|unknown -           1121 2023at5820           -            763         0 1249.6 102.8   3   5  9.5e-110  2.5e-106  355.2  22.6   232   433   429   633   423   648 0.95 -
+GCA_003402215.1|PVP01_1119700|PVP01_1119700.1|unknown -           1121 2023at5820           -            763         0 1249.6 102.8   4   5   7.5e-96     2e-92  309.3  20.4   423   595   713   894   707   898 0.96 -
+GCA_003402215.1|PVP01_1119700|PVP01_1119700.1|unknown -           1121 2023at5820           -            763         0 1249.6 102.8   5   5   6.9e-82   1.8e-78  263.1   6.7   596   763   951  1121   942  1121 0.97 -
+GCA_003402215.1|PVP01_1429300|PVP01_1429300.1|unknown -            812 2023at5820           -            763     6e-14   49.8  35.2   1   2         2   5.3e+03  -19.9  36.4    93   335    79   332     4   350 0.69 -
+GCA_003402215.1|PVP01_1429300|PVP01_1429300.1|unknown -            812 2023at5820           -            763     6e-14   49.8  35.2   2   2   2.3e-17     6e-14   49.8  35.2   444   761   483   808   474   810 0.71 -
+#
+# Program:         hmmsearch
+# Version:         3.4 (Aug 2023)
+# Pipeline mode:   SEARCH
+# Query file:      /v3/work/00_inventory/busco/busco_downloads/lineages/plasmodium_odb10/hmms/2023at5820.hmm
+# Target file:     /v3/inputs/annotations/plasmodb-68/PvSY56.proteins.fa
+# Option settings: hmmsearch --domtblout /v3/work/00_inventory/busco/PvSY56_proteins/run_plasmodium_odb10/hmmer_output/initial_run_results/2023at5820.out --cpu 1 /v3/work/00_inventory/busco/busco_downloads/lineages/plasmodium_odb10/hmms/2023at5820.hmm /v3/inputs/annotations/plasmodb-68/PvSY56.proteins.fa 
+# Current dir:     /v3/work/00_inventory/busco
+# Date:            Tue May 19 18:04:34 2026
+# [ok]

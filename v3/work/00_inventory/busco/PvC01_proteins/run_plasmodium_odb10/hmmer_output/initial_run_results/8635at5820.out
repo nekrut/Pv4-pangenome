@@ -1,0 +1,19 @@
+#                                                                            --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name        accession   tlen query name           accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+#------------------- ---------- ----- -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+SCO72298.1           -            456 8635at5820           -            284   2.4e-62  209.4   1.1   1   1   2.4e-65   3.8e-62  208.8   1.1    25   283   165   437   157   438 0.91 methionine aminopeptidase 1b, putative [Plasmodium vivax]
+SCO73066.1           -            172 8635at5820           -            284     2e-52  176.9   0.2   1   1   1.7e-55   2.7e-52  176.5   0.2     1   114    16   146    16   152 0.88 methionine aminopeptidase 1a, putative [Plasmodium vivax]
+SCO70505.1           -            691 8635at5820           -            284   2.6e-45  153.5   2.5   1   2   9.9e-23   1.6e-19   69.0   0.8    46   162   253   369   242   386 0.93 methionine aminopeptidase 1c, putative [Plasmodium vivax]
+SCO70505.1           -            691 8635at5820           -            284   2.6e-45  153.5   2.5   2   2   2.4e-27   3.8e-24   84.1   0.0   157   282   542   675   532   677 0.87 methionine aminopeptidase 1c, putative [Plasmodium vivax]
+SCO74736.1           -            555 8635at5820           -            284   3.6e-08   31.7   1.9   1   2   2.2e-08   3.5e-05   21.9   2.1   109   245   299   448   281   457 0.80 methionine aminopeptidase 2, putative [Plasmodium vivax]
+SCO74736.1           -            555 8635at5820           -            284   3.6e-08   31.7   1.9   2   2   0.00074       1.2    7.0   0.0   257   277   524   544   517   551 0.83 methionine aminopeptidase 2, putative [Plasmodium vivax]
+#
+# Program:         hmmsearch
+# Version:         3.4 (Aug 2023)
+# Pipeline mode:   SEARCH
+# Query file:      /v3/work/00_inventory/busco/busco_downloads/lineages/plasmodium_odb10/hmms/8635at5820.hmm
+# Target file:     /v3/inputs/annotations/ncbi-datasets/PvC01.proteins.fa
+# Option settings: hmmsearch --domtblout /v3/work/00_inventory/busco/PvC01_proteins/run_plasmodium_odb10/hmmer_output/initial_run_results/8635at5820.out --cpu 1 /v3/work/00_inventory/busco/busco_downloads/lineages/plasmodium_odb10/hmms/8635at5820.hmm /v3/inputs/annotations/ncbi-datasets/PvC01.proteins.fa 
+# Current dir:     /v3/work/00_inventory/busco
+# Date:            Tue May 19 19:06:40 2026
+# [ok]

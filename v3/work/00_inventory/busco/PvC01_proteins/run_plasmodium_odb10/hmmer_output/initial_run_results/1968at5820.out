@@ -1,0 +1,29 @@
+#                                                                            --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name        accession   tlen query name           accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+#------------------- ---------- ----- -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+SCO74838.1           -            956 1968at5820           -            840         0 1612.6  52.8   1   1         0         0 1612.0  52.8     1   840     8   952     8   952 0.93 serine/threonine protein phosphatase 7, putative [Plasmodium vivax]
+SCO73531.1           -            682 1968at5820           -            840   3.2e-54  182.6   8.7   1   2   0.00044      0.25    7.7   1.2   679   769   151   250   142   271 0.75 serine/threonine protein phosphatase 5, putative [Plasmodium vivax]
+SCO73531.1           -            682 1968at5820           -            840   3.2e-54  182.6   8.7   2   2   5.9e-56   3.4e-53  179.2   1.1   171   408   418   650   367   680 0.90 serine/threonine protein phosphatase 5, putative [Plasmodium vivax]
+SCO74921.1           -            304 1968at5820           -            840   1.5e-43  147.4   0.0   1   1   3.4e-46     2e-43  147.0   0.0   175   411    57   287    50   296 0.88 serine/threonine protein phosphatase PP1, putative [Plasmodium vivax]
+SCO70389.1           -            308 1968at5820           -            840   4.5e-40  135.8   0.4   1   1   9.4e-43   5.4e-40  135.6   0.4   170   410    45   280    10   295 0.84 serine/threonine protein phosphatase 6, putative [Plasmodium vivax]
+SCO72034.1           -            307 1968at5820           -            840   1.8e-39  133.8   0.8   1   1   3.8e-42   2.2e-39  133.6   0.8   167   415    40   282     7   291 0.82 serine/threonine protein phosphatase 4, putative [Plasmodium vivax]
+SCO74249.1           -            878 1968at5820           -            840   2.3e-34  117.0   2.3   1   1   6.4e-37   3.7e-34  116.3   2.3   173   427   564   846   473   858 0.82 protein phosphatase containing kelch-like domains, putative [Plasmodium vivax]
+SCO72010.1           -            516 1968at5820           -            840   1.6e-31  107.6   0.0   1   1   4.4e-34   2.5e-31  106.9   0.0   175   407   253   485   176   502 0.84 protein phosphatase-beta, putative [Plasmodium vivax]
+SCO70519.1           -            564 1968at5820           -            840     6e-28   95.7   1.3   1   1   1.3e-30   7.5e-28   95.4   1.3   175   418    82   333    61   399 0.82 serine/threonine protein phosphatase 2B catalytic subunit A, putative [Plasmodium vivax]
+SCO71552.1           -           2032 1968at5820           -            840   1.4e-12   44.9   1.2   1   2     0.025        14    1.9   0.0   176   216  1139  1181  1065  1189 0.87 serine/threonine protein phosphatase 8, putative [Plasmodium vivax]
+SCO71552.1           -           2032 1968at5820           -            840   1.4e-12   44.9   1.2   2   2   7.3e-14   4.1e-11   40.0   0.7   199   403  1231  1478  1226  1496 0.71 serine/threonine protein phosphatase 8, putative [Plasmodium vivax]
+SCO74740.1           -            149 1968at5820           -            840   0.00021   17.8   0.1   1   2    0.0006      0.34    7.2   0.0   557   621    13    73     3    80 0.84 calmodulin, putative [Plasmodium vivax]
+SCO74740.1           -            149 1968at5820           -            840   0.00021   17.8   0.1   2   2    0.0002      0.11    8.8   0.1   556   599    85   128    76   148 0.80 calmodulin, putative [Plasmodium vivax]
+SCO71647.1           -            179 1968at5820           -            840     0.057    9.8   6.9   1   3   0.00021      0.12    8.8   1.1   674   705    68    99     5   113 0.75 centrin-3, putative [Plasmodium vivax]
+SCO71647.1           -            179 1968at5820           -            840     0.057    9.8   6.9   2   3     0.018        10    2.4   0.2   560   597   116   153   108   159 0.88 centrin-3, putative [Plasmodium vivax]
+SCO71647.1           -            179 1968at5820           -            840     0.057    9.8   6.9   3   3     0.025        14    1.9   0.1   557   583   149   175   139   178 0.80 centrin-3, putative [Plasmodium vivax]
+#
+# Program:         hmmsearch
+# Version:         3.4 (Aug 2023)
+# Pipeline mode:   SEARCH
+# Query file:      /v3/work/00_inventory/busco/busco_downloads/lineages/plasmodium_odb10/hmms/1968at5820.hmm
+# Target file:     /v3/inputs/annotations/ncbi-datasets/PvC01.proteins.fa
+# Option settings: hmmsearch --domtblout /v3/work/00_inventory/busco/PvC01_proteins/run_plasmodium_odb10/hmmer_output/initial_run_results/1968at5820.out --cpu 1 /v3/work/00_inventory/busco/busco_downloads/lineages/plasmodium_odb10/hmms/1968at5820.hmm /v3/inputs/annotations/ncbi-datasets/PvC01.proteins.fa 
+# Current dir:     /v3/work/00_inventory/busco
+# Date:            Tue May 19 18:37:03 2026
+# [ok]

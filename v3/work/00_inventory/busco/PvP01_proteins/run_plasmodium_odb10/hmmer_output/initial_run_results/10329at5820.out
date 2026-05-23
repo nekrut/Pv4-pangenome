@@ -1,0 +1,17 @@
+#                                                                            --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name        accession   tlen query name           accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+#------------------- ---------- ----- -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+PVP01_0711300.1-p1   -            328 10329at5820          -            287  8.2e-182  601.3  22.6   1   1  4.5e-185  9.8e-182  601.1  22.6     1   287     1   300     1   300 0.97 | transcript=PVP01_0711300.1 | gene=PVP01_0711300 | organism=Plasmodium_vivax_P01 | gene_product=26S proteasome regulatory subunit RPN8, putative | transcript_product=26S proteasome regulatory subunit RPN8, putative | location=PvP01_07_v2:553089-554227(+) | protein_length=328 | sequence_SO=chromosome | SO=protein_coding_gene | is_pseudo=false
+PVP01_0716700.1-p1   -            320 10329at5820          -            287   5.4e-09   34.2   4.0   1   1   1.1e-11   2.5e-08   32.0   4.0    20   242    32   274    26   318 0.61 | transcript=PVP01_0716700.1 | gene=PVP01_0716700 | organism=Plasmodium_vivax_P01 | gene_product=eukaryotic translation initiation factor 3 subunit F, putative | transcript_product=eukaryotic translation initiation factor 3 subunit F, putative | location=PvP01_07_v2:743182-744336(-) | protein_length=320 | sequence_SO=chromosome | SO=protein_coding_gene | is_pseudo=false
+PVP01_1103900.1-p1   -            311 10329at5820          -            287   2.1e-05   22.4   0.3   1   2   2.3e-08     5e-05   21.2   0.0    18   108    30   116    19   151 0.84 | transcript=PVP01_1103900.1 | gene=PVP01_1103900 | organism=Plasmodium_vivax_P01 | gene_product=26S proteasome regulatory subunit RPN11, putative | transcript_product=26S proteasome regulatory subunit RPN11, putative | location=PvP01_11_v2:163813-165014(+) | protein_length=311 | sequence_SO=chromosome | SO=protein_coding_gene | is_pseudo=false
+PVP01_1103900.1-p1   -            311 10329at5820          -            287   2.1e-05   22.4   0.3   2   2      0.23     5e+02   -1.8   0.2    47    50   253   256   207   297 0.55 | transcript=PVP01_1103900.1 | gene=PVP01_1103900 | organism=Plasmodium_vivax_P01 | gene_product=26S proteasome regulatory subunit RPN11, putative | transcript_product=26S proteasome regulatory subunit RPN11, putative | location=PvP01_11_v2:163813-165014(+) | protein_length=311 | sequence_SO=chromosome | SO=protein_coding_gene | is_pseudo=false
+#
+# Program:         hmmsearch
+# Version:         3.4 (Aug 2023)
+# Pipeline mode:   SEARCH
+# Query file:      /v3/work/00_inventory/busco/busco_downloads/lineages/plasmodium_odb10/hmms/10329at5820.hmm
+# Target file:     /v3/inputs/annotations/plasmodb-68/PvP01.proteins.fa
+# Option settings: hmmsearch --domtblout /v3/work/00_inventory/busco/PvP01_proteins/run_plasmodium_odb10/hmmer_output/initial_run_results/10329at5820.out --cpu 1 /v3/work/00_inventory/busco/busco_downloads/lineages/plasmodium_odb10/hmms/10329at5820.hmm /v3/inputs/annotations/plasmodb-68/PvP01.proteins.fa 
+# Current dir:     /v3/work/00_inventory/busco
+# Date:            Tue May 19 17:25:38 2026
+# [ok]

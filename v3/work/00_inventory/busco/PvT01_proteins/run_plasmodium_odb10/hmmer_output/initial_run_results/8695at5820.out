@@ -1,0 +1,28 @@
+#                                                                            --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name        accession   tlen query name           accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+#------------------- ---------- ----- -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+SCO69872.1           -            303 8695at5820           -            275  1.9e-171  566.9   9.3   1   1  3.5e-174  2.1e-171  566.7   9.3     1   275     1   291     1   291 0.97 protein phosphatase PPM7, putative [Plasmodium vivax]
+SCO68900.1           -            411 8695at5820           -            275   2.3e-22   77.9   5.5   1   1   2.4e-24   1.5e-21   75.2   5.5    39   247    43   258    16   276 0.77 protein phosphatase 2C, putative [Plasmodium vivax]
+SCO65331.1           -            953 8695at5820           -            275   3.2e-17   61.0   1.3   1   1   9.6e-20   5.9e-17   60.2   1.3    54   235   685   877   680   923 0.73 protein phosphatase PPM1, putative [Plasmodium vivax]
+SCO67484.1           -            872 8695at5820           -            275   1.5e-16   58.8   2.1   1   2   0.00095      0.58    7.7   0.2    24   109    33   125    24   131 0.66 protein phosphatase PPM2, putative [Plasmodium vivax]
+SCO67484.1           -            872 8695at5820           -            275   1.5e-16   58.8   2.1   2   2   9.7e-17   5.9e-14   50.3   0.1   108   233   516   649   477   677 0.83 protein phosphatase PPM2, putative [Plasmodium vivax]
+SCO69679.1           -            782 8695at5820           -            275   1.3e-10   39.4   2.6   1   2       1.7     1e+03   -3.0   0.3    56   194   314   328   240   352 0.56 protein phosphatase PPM6, putative [Plasmodium vivax]
+SCO69679.1           -            782 8695at5820           -            275   1.3e-10   39.4   2.6   2   2   2.1e-13   1.3e-10   39.4   2.6   106   247   598   753   573   763 0.72 protein phosphatase PPM6, putative [Plasmodium vivax]
+SCO69874.1           -            559 8695at5820           -            275   6.2e-10   37.1   1.4   1   2      0.64   3.9e+02   -1.6   0.1    49    74   156   183   145   223 0.72 protein phosphatase PPM5, putative [Plasmodium vivax]
+SCO69874.1           -            559 8695at5820           -            275   6.2e-10   37.1   1.4   2   2   2.1e-12   1.3e-09   36.1   0.2   105   236   359   509   310   527 0.76 protein phosphatase PPM5, putative [Plasmodium vivax]
+SCO70240.1           -           1106 8695at5820           -            275   1.3e-08   32.8  10.2   1   1   2.6e-09   1.6e-06   26.0  10.2    16   234   764  1035   753  1067 0.67 protein phosphatase PPM4, putative [Plasmodium vivax]
+SCO67449.1           -            847 8695at5820           -            275   0.00035   18.3   5.9   1   2   1.2e-06   0.00074   17.2   0.7    50   167   535   668   515   696 0.68 protein phosphatase PPM8, putative [Plasmodium vivax]
+SCO67449.1           -            847 8695at5820           -            275   0.00035   18.3   5.9   2   2     0.074        45    1.5   0.5   180   197   716   733   704   818 0.66 protein phosphatase PPM8, putative [Plasmodium vivax]
+SCO66972.1           -            197 8695at5820           -            275    0.0041   14.8   1.7   1   1   1.1e-05    0.0065   14.1   1.7    23    90   117   183   110   190 0.87 zinc finger protein, putative [Plasmodium vivax]
+SCO68233.1           -           1387 8695at5820           -            275       0.3    8.6   4.6   1   2   0.00035      0.21    9.1   2.0    44   142   783   883   777   891 0.78 conserved Plasmodium protein, unknown function [Plasmodium vivax]
+SCO68233.1           -           1387 8695at5820           -            275       0.3    8.6   4.6   2   2         2   1.2e+03   -3.2   0.0   213   234  1282  1303  1278  1326 0.67 conserved Plasmodium protein, unknown function [Plasmodium vivax]
+#
+# Program:         hmmsearch
+# Version:         3.4 (Aug 2023)
+# Pipeline mode:   SEARCH
+# Query file:      /v3/work/00_inventory/busco/busco_downloads/lineages/plasmodium_odb10/hmms/8695at5820.hmm
+# Target file:     /v3/inputs/annotations/ncbi-datasets/PvT01.proteins.fa
+# Option settings: hmmsearch --domtblout /v3/work/00_inventory/busco/PvT01_proteins/run_plasmodium_odb10/hmmer_output/initial_run_results/8695at5820.out --cpu 1 /v3/work/00_inventory/busco/busco_downloads/lineages/plasmodium_odb10/hmms/8695at5820.hmm /v3/inputs/annotations/ncbi-datasets/PvT01.proteins.fa 
+# Current dir:     /v3/work/00_inventory/busco
+# Date:            Tue May 19 19:06:55 2026
+# [ok]

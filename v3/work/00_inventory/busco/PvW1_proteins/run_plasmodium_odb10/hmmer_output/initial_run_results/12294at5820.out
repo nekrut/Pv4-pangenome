@@ -1,0 +1,16 @@
+#                                                                            --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name        accession   tlen query name           accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+#------------------- ---------- ----- -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+CAG9480791.1         -            226 12294at5820          -            167   8.6e-72  239.0  10.7   1   1   2.5e-72   7.4e-69  229.4  10.7     2   167    15   215    14   215 0.85 | transcript=PVW1_070038700_t1 | gene=PVW1_070038700 | organism=Plasmodium_vivax_PvW1 | gene_product=unspecified product | transcript_product=unspecified product | location=CAJZCX010000011:1421305-1423419(-) | protein_length=226 | sequence_SO=supercontig | SO=protein_coding_gene | is_pseudo=false
+CAG9472457.1         -            227 12294at5820          -            167     3e-05   22.5   3.5   1   2      0.17   5.3e+02   -1.1   0.1    75    87    37    49     9    77 0.61 | transcript=PVW1_140062600_t1 | gene=PVW1_140062600 | organism=Plasmodium_vivax_PvW1 | gene_product=Calcyclin binding protein, putative [Source:UniProtKB/TrEMBL;Acc:A0A1G4H5Q7] | transcript_product=Calcyclin binding protein, putative [Source:UniProtKB/TrEMBL;Acc:A0A1G4H5Q7] | location=CAJZCX010000003:2499595-2500278(-) | protein_length=227 | sequence_SO=supercontig | SO=protein_coding_gene | is_pseudo=false
+CAG9472457.1         -            227 12294at5820          -            167     3e-05   22.5   3.5   2   2     1e-08     3e-05   22.5   3.5    28   146    87   213    76   219 0.74 | transcript=PVW1_140062600_t1 | gene=PVW1_140062600 | organism=Plasmodium_vivax_PvW1 | gene_product=Calcyclin binding protein, putative [Source:UniProtKB/TrEMBL;Acc:A0A1G4H5Q7] | transcript_product=Calcyclin binding protein, putative [Source:UniProtKB/TrEMBL;Acc:A0A1G4H5Q7] | location=CAJZCX010000003:2499595-2500278(-) | protein_length=227 | sequence_SO=supercontig | SO=protein_coding_gene | is_pseudo=false
+#
+# Program:         hmmsearch
+# Version:         3.4 (Aug 2023)
+# Pipeline mode:   SEARCH
+# Query file:      /v3/work/00_inventory/busco/busco_downloads/lineages/plasmodium_odb10/hmms/12294at5820.hmm
+# Target file:     /v3/inputs/annotations/plasmodb-68/PvW1.proteins.fa
+# Option settings: hmmsearch --domtblout /v3/work/00_inventory/busco/PvW1_proteins/run_plasmodium_odb10/hmmer_output/initial_run_results/12294at5820.out --cpu 1 /v3/work/00_inventory/busco/busco_downloads/lineages/plasmodium_odb10/hmms/12294at5820.hmm /v3/inputs/annotations/plasmodb-68/PvW1.proteins.fa 
+# Current dir:     /v3/work/00_inventory/busco
+# Date:            Tue May 19 17:26:29 2026
+# [ok]

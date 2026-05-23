@@ -1,0 +1,17 @@
+#                                                                            --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name        accession   tlen query name           accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+#------------------- ---------- ----- -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+PVP01_0507800.1-p1   -           1266 1380at5820           -            956         0 1864.3  71.5   1   4  4.1e-106  2.7e-102  341.9   6.9     1   218     1   237     1   244 0.92 | transcript=PVP01_0507800.1 | gene=PVP01_0507800 | organism=Plasmodium_vivax_P01 | gene_product=ubiquitin conjugation factor E4 B, putative | transcript_product=ubiquitin conjugation factor E4 B, putative | location=PvP01_05_v2:339878-343678(-) | protein_length=1266 | sequence_SO=chromosome | SO=protein_coding_gene | is_pseudo=false
+PVP01_0507800.1-p1   -           1266 1380at5820           -            956         0 1864.3  71.5   2   4  8.5e-195  5.5e-191  635.4  22.7   218   528   278   607   272   614 0.95 | transcript=PVP01_0507800.1 | gene=PVP01_0507800 | organism=Plasmodium_vivax_P01 | gene_product=ubiquitin conjugation factor E4 B, putative | transcript_product=ubiquitin conjugation factor E4 B, putative | location=PvP01_05_v2:339878-343678(-) | protein_length=1266 | sequence_SO=chromosome | SO=protein_coding_gene | is_pseudo=false
+PVP01_0507800.1-p1   -           1266 1380at5820           -            956         0 1864.3  71.5   3   4  1.3e-117  8.7e-114  379.9   8.1   524   714   694   887   684   892 0.97 | transcript=PVP01_0507800.1 | gene=PVP01_0507800 | organism=Plasmodium_vivax_P01 | gene_product=ubiquitin conjugation factor E4 B, putative | transcript_product=ubiquitin conjugation factor E4 B, putative | location=PvP01_05_v2:339878-343678(-) | protein_length=1266 | sequence_SO=chromosome | SO=protein_coding_gene | is_pseudo=false
+PVP01_0507800.1-p1   -           1266 1380at5820           -            956         0 1864.3  71.5   4   4  3.5e-161  2.3e-157  524.1   9.9   713   956   973  1216   956  1216 0.97 | transcript=PVP01_0507800.1 | gene=PVP01_0507800 | organism=Plasmodium_vivax_P01 | gene_product=ubiquitin conjugation factor E4 B, putative | transcript_product=ubiquitin conjugation factor E4 B, putative | location=PvP01_05_v2:339878-343678(-) | protein_length=1266 | sequence_SO=chromosome | SO=protein_coding_gene | is_pseudo=false
+#
+# Program:         hmmsearch
+# Version:         3.4 (Aug 2023)
+# Pipeline mode:   SEARCH
+# Query file:      /v3/work/00_inventory/busco/busco_downloads/lineages/plasmodium_odb10/hmms/1380at5820.hmm
+# Target file:     /v3/inputs/annotations/plasmodb-68/PvP01.proteins.fa
+# Option settings: hmmsearch --domtblout /v3/work/00_inventory/busco/PvP01_proteins/run_plasmodium_odb10/hmmer_output/initial_run_results/1380at5820.out --cpu 1 /v3/work/00_inventory/busco/busco_downloads/lineages/plasmodium_odb10/hmms/1380at5820.hmm /v3/inputs/annotations/plasmodb-68/PvP01.proteins.fa 
+# Current dir:     /v3/work/00_inventory/busco
+# Date:            Tue May 19 17:31:27 2026
+# [ok]

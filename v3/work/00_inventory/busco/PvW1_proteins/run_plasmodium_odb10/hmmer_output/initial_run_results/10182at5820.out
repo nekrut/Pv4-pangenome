@@ -1,0 +1,17 @@
+#                                                                            --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name        accession   tlen query name           accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+#------------------- ---------- ----- -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+CAG9484827.1         -            333 10182at5820          -            226   9.9e-88  292.3   0.3   1   1   2.1e-88   3.2e-85  284.1   0.3     1   226     1   333     1   333 0.76 | transcript=PVW1_010013600_t1 | gene=PVW1_010013600 | organism=Plasmodium_vivax_PvW1 | gene_product=unspecified product | transcript_product=unspecified product | location=CAJZCX010000016:425109-426110(-) | protein_length=333 | sequence_SO=supercontig | SO=protein_coding_gene | is_pseudo=false
+CAG9479321.1         -            168 10182at5820          -            226   6.5e-31  106.5   1.9   1   1   4.8e-34   7.3e-31  106.3   1.9    94   223    42   167     5   168 0.79 | transcript=PVW1_080041400_t1 | gene=PVW1_080041400 | organism=Plasmodium_vivax_PvW1 | gene_product=Glutaredoxin domain-containing protein [Source:UniProtKB/TrEMBL;Acc:Q962K5] | transcript_product=Glutaredoxin domain-containing protein [Source:UniProtKB/TrEMBL;Acc:Q962K5] | location=CAJZCX010000009:1565046-1565930(+) | protein_length=168 | sequence_SO=supercontig | SO=protein_coding_gene | is_pseudo=false
+CAG9478157.1         -            220 10182at5820          -            226     4e-30  103.9   0.0   1   1   4.5e-33   6.8e-30  103.1   0.0   118   223   109   213    54   215 0.83 | transcript=PVW1_110048000_t1 | gene=PVW1_110048000 | organism=Plasmodium_vivax_PvW1 | gene_product=Glutaredoxin domain-containing protein [Source:UniProtKB/TrEMBL;Acc:A0A1G4H0E7] | transcript_product=Glutaredoxin domain-containing protein [Source:UniProtKB/TrEMBL;Acc:A0A1G4H0E7] | location=CAJZCX010000008:1814225-1814887(+) | protein_length=220 | sequence_SO=supercontig | SO=protein_coding_gene | is_pseudo=false
+CAG9479298.1         -            110 10182at5820          -            226   2.7e-05   22.6   1.7   1   1     2e-08   3.1e-05   22.5   1.7   126   224     8   104     2   106 0.84 | transcript=PVW1_080039500_t1 | gene=PVW1_080039500 | organism=Plasmodium_vivax_PvW1 | gene_product=Glutaredoxin domain-containing protein [Source:UniProtKB/TrEMBL;Acc:A0A1G4GWT7] | transcript_product=Glutaredoxin domain-containing protein [Source:UniProtKB/TrEMBL;Acc:A0A1G4GWT7] | location=CAJZCX010000009:1489123-1490045(+) | protein_length=110 | sequence_SO=supercontig | SO=protein_coding_gene | is_pseudo=false
+#
+# Program:         hmmsearch
+# Version:         3.4 (Aug 2023)
+# Pipeline mode:   SEARCH
+# Query file:      /v3/work/00_inventory/busco/busco_downloads/lineages/plasmodium_odb10/hmms/10182at5820.hmm
+# Target file:     /v3/inputs/annotations/plasmodb-68/PvW1.proteins.fa
+# Option settings: hmmsearch --domtblout /v3/work/00_inventory/busco/PvW1_proteins/run_plasmodium_odb10/hmmer_output/initial_run_results/10182at5820.out --cpu 1 /v3/work/00_inventory/busco/busco_downloads/lineages/plasmodium_odb10/hmms/10182at5820.hmm /v3/inputs/annotations/plasmodb-68/PvW1.proteins.fa 
+# Current dir:     /v3/work/00_inventory/busco
+# Date:            Tue May 19 17:24:57 2026
+# [ok]

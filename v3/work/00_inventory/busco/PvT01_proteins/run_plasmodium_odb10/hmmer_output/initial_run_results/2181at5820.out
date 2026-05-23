@@ -1,0 +1,20 @@
+#                                                                            --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name        accession   tlen query name           accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+#------------------- ---------- ----- -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+SCO67260.1           -           1446 2181at5820           -            807         0 1318.3  75.4   1   7   3.5e-30   2.1e-26   90.6   2.0     1    73     1    74     1    88 0.88 serine esterase, putative [Plasmodium vivax]
+SCO67260.1           -           1446 2181at5820           -            807         0 1318.3  75.4   2   7   3.6e-61   2.2e-57  193.1   4.1    79   178   143   242   123   250 0.93 serine esterase, putative [Plasmodium vivax]
+SCO67260.1           -           1446 2181at5820           -            807         0 1318.3  75.4   3   7   6.6e-05       0.4    7.0   0.0   177   205   282   311   273   338 0.80 serine esterase, putative [Plasmodium vivax]
+SCO67260.1           -           1446 2181at5820           -            807         0 1318.3  75.4   4   7  4.4e-231  2.7e-227  755.1  23.9   243   593   511   867   502   885 0.96 serine esterase, putative [Plasmodium vivax]
+SCO67260.1           -           1446 2181at5820           -            807         0 1318.3  75.4   5   7   1.5e-27   9.3e-24   81.9   2.5   618   686  1128  1201  1118  1207 0.84 serine esterase, putative [Plasmodium vivax]
+SCO67260.1           -           1446 2181at5820           -            807         0 1318.3  75.4   6   7   7.5e-08   0.00046   16.8   1.3   683   707  1272  1296  1248  1305 0.81 serine esterase, putative [Plasmodium vivax]
+SCO67260.1           -           1446 2181at5820           -            807         0 1318.3  75.4   7   7   2.7e-64   1.6e-60  203.4   1.5   705   807  1344  1446  1327  1446 0.97 serine esterase, putative [Plasmodium vivax]
+#
+# Program:         hmmsearch
+# Version:         3.4 (Aug 2023)
+# Pipeline mode:   SEARCH
+# Query file:      /v3/work/00_inventory/busco/busco_downloads/lineages/plasmodium_odb10/hmms/2181at5820.hmm
+# Target file:     /v3/inputs/annotations/ncbi-datasets/PvT01.proteins.fa
+# Option settings: hmmsearch --domtblout /v3/work/00_inventory/busco/PvT01_proteins/run_plasmodium_odb10/hmmer_output/initial_run_results/2181at5820.out --cpu 1 /v3/work/00_inventory/busco/busco_downloads/lineages/plasmodium_odb10/hmms/2181at5820.hmm /v3/inputs/annotations/ncbi-datasets/PvT01.proteins.fa 
+# Current dir:     /v3/work/00_inventory/busco
+# Date:            Tue May 19 18:38:19 2026
+# [ok]

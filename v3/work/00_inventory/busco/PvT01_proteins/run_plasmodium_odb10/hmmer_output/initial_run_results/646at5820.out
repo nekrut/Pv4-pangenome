@@ -1,0 +1,20 @@
+#                                                                            --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name        accession   tlen query name           accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+#------------------- ---------- ----- -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+SCO66371.1           -           2085 646at5820            -           1447         0 2277.0 412.4   1   7  2.4e-103   1.4e-99  332.7 102.7     1   300     1   344     1   347 0.87 nucleoporin NUP100/NSP100, putative [Plasmodium vivax]
+SCO66371.1           -           2085 646at5820            -           1447         0 2277.0 412.4   2   7   2.5e-19   1.5e-15   54.2  52.7   183   399   328   541   325   541 0.65 nucleoporin NUP100/NSP100, putative [Plasmodium vivax]
+SCO66371.1           -           2085 646at5820            -           1447         0 2277.0 412.4   3   7      0.52   3.2e+03   -6.5  69.3   129   392   482   741   477   778 0.60 nucleoporin NUP100/NSP100, putative [Plasmodium vivax]
+SCO66371.1           -           2085 646at5820            -           1447         0 2277.0 412.4   4   7   7.9e-95   4.8e-91  304.4  28.5   455   622   773   953   759   962 0.91 nucleoporin NUP100/NSP100, putative [Plasmodium vivax]
+SCO66371.1           -           2085 646at5820            -           1447         0 2277.0 412.4   5   7    1e-149  6.1e-146  486.4  53.3   619   870   975  1252   971  1259 0.92 nucleoporin NUP100/NSP100, putative [Plasmodium vivax]
+SCO66371.1           -           2085 646at5820            -           1447         0 2277.0 412.4   6   7  5.4e-130  3.3e-126  421.0  34.4   869  1108  1441  1705  1427  1716 0.94 nucleoporin NUP100/NSP100, putative [Plasmodium vivax]
+SCO66371.1           -           2085 646at5820            -           1447         0 2277.0 412.4   7   7  4.3e-220  2.6e-216  719.5  48.5  1099  1447  1726  2085  1718  2085 0.96 nucleoporin NUP100/NSP100, putative [Plasmodium vivax]
+#
+# Program:         hmmsearch
+# Version:         3.4 (Aug 2023)
+# Pipeline mode:   SEARCH
+# Query file:      /v3/work/00_inventory/busco/busco_downloads/lineages/plasmodium_odb10/hmms/646at5820.hmm
+# Target file:     /v3/inputs/annotations/ncbi-datasets/PvT01.proteins.fa
+# Option settings: hmmsearch --domtblout /v3/work/00_inventory/busco/PvT01_proteins/run_plasmodium_odb10/hmmer_output/initial_run_results/646at5820.out --cpu 1 /v3/work/00_inventory/busco/busco_downloads/lineages/plasmodium_odb10/hmms/646at5820.hmm /v3/inputs/annotations/ncbi-datasets/PvT01.proteins.fa 
+# Current dir:     /v3/work/00_inventory/busco
+# Date:            Tue May 19 18:50:26 2026
+# [ok]

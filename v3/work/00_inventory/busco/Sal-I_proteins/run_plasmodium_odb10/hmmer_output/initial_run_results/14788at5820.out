@@ -1,0 +1,18 @@
+#                                                                            --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name        accession   tlen query name           accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+#------------------- ---------- ----- -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+PVX_117775.1-p1      -            101 14788at5820          -             85   4.7e-45  149.9   0.6   1   1   2.9e-48   5.3e-45  149.7   0.6     1    85     8    95     8    95 0.97 | transcript=PVX_117775.1 | gene=PVX_117775 | organism=Plasmodium_vivax_Sal-1 | gene_product=tRNA intron endonuclease, putative | transcript_product=tRNA intron endonuclease, putative | location=Pv_Sal1_chr12:2132129-2132722(-) | protein_length=101 | sequence_SO=chromosome | SO=protein_coding_gene | is_pseudo=false
+PVX_003830.1-p1      -           1087 14788at5820          -             85    0.0097   14.3   1.7   1   2   1.6e-05     0.029   12.8   0.7    35    79   196   240   182   243 0.89 | transcript=PVX_003830.1 | gene=PVX_003830 | organism=Plasmodium_vivax_Sal-1 | gene_product=serine-repeat antigen 5 (SERA) | transcript_product=serine-repeat antigen 5 (SERA) | location=Pv_Sal1_chr04:572172-575852(+) | protein_length=1087 | sequence_SO=chromosome | SO=protein_coding_gene | is_pseudo=false
+PVX_003830.1-p1      -           1087 14788at5820          -             85    0.0097   14.3   1.7   2   2      0.34   6.4e+02   -1.2   0.0    58    72   674   688   653   694 0.78 | transcript=PVX_003830.1 | gene=PVX_003830 | organism=Plasmodium_vivax_Sal-1 | gene_product=serine-repeat antigen 5 (SERA) | transcript_product=serine-repeat antigen 5 (SERA) | location=Pv_Sal1_chr04:572172-575852(+) | protein_length=1087 | sequence_SO=chromosome | SO=protein_coding_gene | is_pseudo=false
+PVX_114105.1-p1      -            743 14788at5820          -             85     0.015   13.6   0.9   1   2   0.00011      0.21   10.0   0.4    34    68   569   602   561   613 0.81 | transcript=PVX_114105.1 | gene=PVX_114105 | organism=Plasmodium_vivax_Sal-1 | gene_product=hypothetical protein, conserved | transcript_product=hypothetical protein, conserved | location=Pv_Sal1_chr11:1239255-1241486(-) | protein_length=743 | sequence_SO=chromosome | SO=protein_coding_gene | is_pseudo=false
+PVX_114105.1-p1      -            743 14788at5820          -             85     0.015   13.6   0.9   2   2      0.11   2.1e+02    0.4   0.0    29    64   668   703   661   714 0.82 | transcript=PVX_114105.1 | gene=PVX_114105 | organism=Plasmodium_vivax_Sal-1 | gene_product=hypothetical protein, conserved | transcript_product=hypothetical protein, conserved | location=Pv_Sal1_chr11:1239255-1241486(-) | protein_length=743 | sequence_SO=chromosome | SO=protein_coding_gene | is_pseudo=false
+#
+# Program:         hmmsearch
+# Version:         3.4 (Aug 2023)
+# Pipeline mode:   SEARCH
+# Query file:      /v3/work/00_inventory/busco/busco_downloads/lineages/plasmodium_odb10/hmms/14788at5820.hmm
+# Target file:     /v3/inputs/annotations/plasmodb-68/Sal-I.proteins.fa
+# Option settings: hmmsearch --domtblout /v3/work/00_inventory/busco/Sal-I_proteins/run_plasmodium_odb10/hmmer_output/initial_run_results/14788at5820.out --cpu 1 /v3/work/00_inventory/busco/busco_downloads/lineages/plasmodium_odb10/hmms/14788at5820.hmm /v3/inputs/annotations/plasmodb-68/Sal-I.proteins.fa 
+# Current dir:     /v3/work/00_inventory/busco
+# Date:            Tue May 19 17:34:22 2026
+# [ok]

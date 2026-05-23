@@ -1,0 +1,16 @@
+#                                                                            --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name        accession   tlen query name           accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+#------------------- ---------- ----- -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+PVP01_1311200.1-p1   -            201 11471at5820          -            178  4.6e-108  357.2   3.1   1   1  1.6e-111  5.2e-108  357.0   3.1     1   178    24   201    24   201 1.00 | transcript=PVP01_1311200.1 | gene=PVP01_1311200 | organism=Plasmodium_vivax_P01 | gene_product=glutathione peroxidase-like thioredoxin peroxidase, putative | transcript_product=glutathione peroxidase-like thioredoxin peroxidase, putative | location=PvP01_13_v2:522988-523990(-) | protein_length=201 | sequence_SO=chromosome | SO=protein_coding_gene | is_pseudo=false
+PVP01_0506500.1-p1   -            482 11471at5820          -            178   0.00017   19.8   3.9   1   2   6.4e-08   0.00021   19.6   0.1    19   106    27   120    20   158 0.78 | transcript=PVP01_0506500.1 | gene=PVP01_0506500 | organism=Plasmodium_vivax_P01 | gene_product=protein disulfide-isomerase, putative | transcript_product=protein disulfide-isomerase, putative | location=PvP01_05_v2:285877-287443(+) | protein_length=482 | sequence_SO=chromosome | SO=protein_coding_gene | is_pseudo=false
+PVP01_0506500.1-p1   -            482 11471at5820          -            178   0.00017   19.8   3.9   2   2     0.058   1.9e+02    0.1   1.4    60   111   167   217   150   236 0.71 | transcript=PVP01_0506500.1 | gene=PVP01_0506500 | organism=Plasmodium_vivax_P01 | gene_product=protein disulfide-isomerase, putative | transcript_product=protein disulfide-isomerase, putative | location=PvP01_05_v2:285877-287443(+) | protein_length=482 | sequence_SO=chromosome | SO=protein_coding_gene | is_pseudo=false
+#
+# Program:         hmmsearch
+# Version:         3.4 (Aug 2023)
+# Pipeline mode:   SEARCH
+# Query file:      /v3/work/00_inventory/busco/busco_downloads/lineages/plasmodium_odb10/hmms/11471at5820.hmm
+# Target file:     /v3/inputs/annotations/plasmodb-68/PvP01.proteins.fa
+# Option settings: hmmsearch --domtblout /v3/work/00_inventory/busco/PvP01_proteins/run_plasmodium_odb10/hmmer_output/initial_run_results/11471at5820.out --cpu 1 /v3/work/00_inventory/busco/busco_downloads/lineages/plasmodium_odb10/hmms/11471at5820.hmm /v3/inputs/annotations/plasmodb-68/PvP01.proteins.fa 
+# Current dir:     /v3/work/00_inventory/busco
+# Date:            Tue May 19 17:30:03 2026
+# [ok]

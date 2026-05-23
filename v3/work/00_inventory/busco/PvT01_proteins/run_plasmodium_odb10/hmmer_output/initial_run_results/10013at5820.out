@@ -1,0 +1,18 @@
+#                                                                            --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name        accession   tlen query name           accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+#------------------- ---------- ----- -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+SCO69980.1           -            260 10013at5820          -            209  8.2e-111  367.0   6.6   1   1  7.9e-114  1.6e-110  366.1   6.6     1   209    10   254    10   254 0.92 diphthine--ammonia ligase, putative [Plasmodium vivax]
+SCO65154.1           -            426 10013at5820          -            209     0.014   13.4   0.1   1   2      0.55   1.1e+03   -2.6   0.0    93   112    24    43    21    49 0.81 4-hydroxy-3-methylbut-2-enyl diphosphate reductase, putative [Plasmodium vivax]
+SCO65154.1           -            426 10013at5820          -            209     0.014   13.4   0.1   2   2   1.9e-05     0.039   12.0   0.1    63   114   273   326   211   353 0.76 4-hydroxy-3-methylbut-2-enyl diphosphate reductase, putative [Plasmodium vivax]
+SCO69987.1           -            440 10013at5820          -            209     0.022   12.8   2.5   1   2   3.2e-05     0.064   11.3   1.1    65   168   117   223    99   250 0.79 CAMP-dependent protein kinase regulatory subunit, putative [Plasmodium vivax]
+SCO69987.1           -            440 10013at5820          -            209     0.022   12.8   2.5   2   2     0.076   1.5e+02    0.3   0.0   140   191   292   341   280   351 0.79 CAMP-dependent protein kinase regulatory subunit, putative [Plasmodium vivax]
+#
+# Program:         hmmsearch
+# Version:         3.4 (Aug 2023)
+# Pipeline mode:   SEARCH
+# Query file:      /v3/work/00_inventory/busco/busco_downloads/lineages/plasmodium_odb10/hmms/10013at5820.hmm
+# Target file:     /v3/inputs/annotations/ncbi-datasets/PvT01.proteins.fa
+# Option settings: hmmsearch --domtblout /v3/work/00_inventory/busco/PvT01_proteins/run_plasmodium_odb10/hmmer_output/initial_run_results/10013at5820.out --cpu 1 /v3/work/00_inventory/busco/busco_downloads/lineages/plasmodium_odb10/hmms/10013at5820.hmm /v3/inputs/annotations/ncbi-datasets/PvT01.proteins.fa 
+# Current dir:     /v3/work/00_inventory/busco
+# Date:            Tue May 19 18:27:25 2026
+# [ok]

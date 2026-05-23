@@ -1,0 +1,16 @@
+#                                                                            --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name        accession   tlen query name           accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+#------------------- ---------- ----- -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+PVP01_0211500.1-p1   -            444 8003at5820           -            389  8.8e-209  691.8  51.9   1   2  9.8e-113  3.2e-109  364.1  28.3     2   220     9   228     8   234 0.95 | transcript=PVP01_0211500.1 | gene=PVP01_0211500 | organism=Plasmodium_vivax_P01 | gene_product=nucleoside transporter 4 | transcript_product=nucleoside transporter 4 | location=PvP01_02_v2:473121-474648(+) | protein_length=444 | sequence_SO=chromosome | SO=protein_coding_gene | is_pseudo=false
+PVP01_0211500.1-p1   -            444 8003at5820           -            389  8.8e-209  691.8  51.9   2   2  1.4e-103  4.5e-100  334.0  15.6   200   389   259   444   248   444 0.96 | transcript=PVP01_0211500.1 | gene=PVP01_0211500 | organism=Plasmodium_vivax_P01 | gene_product=nucleoside transporter 4 | transcript_product=nucleoside transporter 4 | location=PvP01_02_v2:473121-474648(+) | protein_length=444 | sequence_SO=chromosome | SO=protein_coding_gene | is_pseudo=false
+PVP01_0009460.1-p1   -            611 8003at5820           -            389     0.029   12.0   0.4   1   1   1.3e-05     0.041   11.4   0.4   154   213   531   589   523   607 0.81 | transcript=PVP01_0009460.1 | gene=PVP01_0009460 | organism=Plasmodium_vivax_P01 | gene_product=PIR protein | transcript_product=PIR protein | location=Transfer.PvP01_00_53.final:8548-10557(+) | protein_length=611 | sequence_SO=contig | SO=protein_coding_gene | is_pseudo=false
+#
+# Program:         hmmsearch
+# Version:         3.4 (Aug 2023)
+# Pipeline mode:   SEARCH
+# Query file:      /v3/work/00_inventory/busco/busco_downloads/lineages/plasmodium_odb10/hmms/8003at5820.hmm
+# Target file:     /v3/inputs/annotations/plasmodb-68/PvP01.proteins.fa
+# Option settings: hmmsearch --domtblout /v3/work/00_inventory/busco/PvP01_proteins/run_plasmodium_odb10/hmmer_output/initial_run_results/8003at5820.out --cpu 1 /v3/work/00_inventory/busco/busco_downloads/lineages/plasmodium_odb10/hmms/8003at5820.hmm /v3/inputs/annotations/plasmodb-68/PvP01.proteins.fa 
+# Current dir:     /v3/work/00_inventory/busco
+# Date:            Tue May 19 17:49:39 2026
+# [ok]

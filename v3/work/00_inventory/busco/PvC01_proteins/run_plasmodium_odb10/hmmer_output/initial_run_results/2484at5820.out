@@ -1,0 +1,20 @@
+#                                                                            --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name        accession   tlen query name           accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+#------------------- ---------- ----- -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+SCO70441.1           -           1089 2484at5820           -            774         0 1137.2  59.3   1   7   1.1e-29   6.7e-26   89.3   0.6     2    61    80   145    79   146 0.93 ribonucleases P/MRP protein subunit POP1, putative [Plasmodium vivax]
+SCO70441.1           -           1089 2484at5820           -            774         0 1137.2  59.3   2   7   3.7e-36   2.3e-32  110.7   0.8   137   206   146   215   145   219 0.97 ribonucleases P/MRP protein subunit POP1, putative [Plasmodium vivax]
+SCO70441.1           -           1089 2484at5820           -            774         0 1137.2  59.3   3   7     3e-09   1.9e-05   21.7   0.3   205   235   261   294   259   303 0.70 ribonucleases P/MRP protein subunit POP1, putative [Plasmodium vivax]
+SCO70441.1           -           1089 2484at5820           -            774         0 1137.2  59.3   4   7   1.9e-57   1.2e-53  181.0   0.3   225   337   316   432   313   442 0.93 ribonucleases P/MRP protein subunit POP1, putative [Plasmodium vivax]
+SCO70441.1           -           1089 2484at5820           -            774         0 1137.2  59.3   5   7   5.9e-40   3.7e-36  123.2   3.4   332   411   465   552   456   563 0.91 ribonucleases P/MRP protein subunit POP1, putative [Plasmodium vivax]
+SCO70441.1           -           1089 2484at5820           -            774         0 1137.2  59.3   6   7  5.9e-152  3.7e-148  493.6  16.1   407   683   658   940   633   960 0.92 ribonucleases P/MRP protein subunit POP1, putative [Plasmodium vivax]
+SCO70441.1           -           1089 2484at5820           -            774         0 1137.2  59.3   7   7   8.2e-47   5.2e-43  145.9   0.4   680   764   966  1050   943  1056 0.93 ribonucleases P/MRP protein subunit POP1, putative [Plasmodium vivax]
+#
+# Program:         hmmsearch
+# Version:         3.4 (Aug 2023)
+# Pipeline mode:   SEARCH
+# Query file:      /v3/work/00_inventory/busco/busco_downloads/lineages/plasmodium_odb10/hmms/2484at5820.hmm
+# Target file:     /v3/inputs/annotations/ncbi-datasets/PvC01.proteins.fa
+# Option settings: hmmsearch --domtblout /v3/work/00_inventory/busco/PvC01_proteins/run_plasmodium_odb10/hmmer_output/initial_run_results/2484at5820.out --cpu 1 /v3/work/00_inventory/busco/busco_downloads/lineages/plasmodium_odb10/hmms/2484at5820.hmm /v3/inputs/annotations/ncbi-datasets/PvC01.proteins.fa 
+# Current dir:     /v3/work/00_inventory/busco
+# Date:            Tue May 19 18:40:33 2026
+# [ok]

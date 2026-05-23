@@ -1,0 +1,18 @@
+#                                                                            --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name        accession   tlen query name           accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+#------------------- ---------- ----- -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+CAI7717935.1         -            481 12042at5820          -            398  3.5e-163  541.7   0.6   1   1  7.5e-166  1.6e-162  539.5   0.6    11   397    16   478     6   479 0.87 | transcript=PVPAM_020016700_t1 | gene=PVPAM_020016700 | organism=Plasmodium_vivax_PAM | gene_product=3'-5' exonuclease, putative | transcript_product=3'-5' exonuclease, putative | location=CASCJQ010000002:487021-488466(-) | protein_length=481 | sequence_SO=supercontig | SO=protein_coding_gene | is_pseudo=false
+CAI7721232.1         -            752 12042at5820          -            398   3.5e-09   34.7   0.2   1   2      0.42     9e+02   -2.9   2.6    87   132   175   218   127   234 0.54 | transcript=PVPAM_110013400_t1 | gene=PVPAM_110013400 | organism=Plasmodium_vivax_PAM | gene_product=3'-5' exonuclease, putative | transcript_product=3'-5' exonuclease, putative | location=CASCJQ010000011:327261-329689(-) | protein_length=752 | sequence_SO=supercontig | SO=protein_coding_gene | is_pseudo=false
+CAI7721232.1         -            752 12042at5820          -            398   3.5e-09   34.7   0.2   2   2   1.6e-12   3.5e-09   34.7   0.2   191   232   671   712   665   739 0.92 | transcript=PVPAM_110013400_t1 | gene=PVPAM_110013400 | organism=Plasmodium_vivax_PAM | gene_product=3'-5' exonuclease, putative | transcript_product=3'-5' exonuclease, putative | location=CASCJQ010000011:327261-329689(-) | protein_length=752 | sequence_SO=supercontig | SO=protein_coding_gene | is_pseudo=false
+CAI7718568.1         -            416 12042at5820          -            398     0.073   10.6  21.3   1   2   1.1e-05     0.023   12.2  16.4    87   227    65   220    30   236 0.66 | transcript=PVPAM_040031200_t1 | gene=PVPAM_040031200 | organism=Plasmodium_vivax_PAM | gene_product=3'-5' exonuclease, putative | transcript_product=3'-5' exonuclease, putative | location=CASCJQ010000004:1085649-1087018(+) | protein_length=416 | sequence_SO=supercontig | SO=protein_coding_gene | is_pseudo=false
+CAI7718568.1         -            416 12042at5820          -            398     0.073   10.6  21.3   2   2      0.49   1.1e+03   -3.2   0.2   296   324   306   334   286   358 0.57 | transcript=PVPAM_040031200_t1 | gene=PVPAM_040031200 | organism=Plasmodium_vivax_PAM | gene_product=3'-5' exonuclease, putative | transcript_product=3'-5' exonuclease, putative | location=CASCJQ010000004:1085649-1087018(+) | protein_length=416 | sequence_SO=supercontig | SO=protein_coding_gene | is_pseudo=false
+#
+# Program:         hmmsearch
+# Version:         3.4 (Aug 2023)
+# Pipeline mode:   SEARCH
+# Query file:      /v3/work/00_inventory/busco/busco_downloads/lineages/plasmodium_odb10/hmms/12042at5820.hmm
+# Target file:     /v3/inputs/annotations/plasmodb-68/PAM.proteins.fa
+# Option settings: hmmsearch --domtblout /v3/work/00_inventory/busco/PAM_proteins/run_plasmodium_odb10/hmmer_output/initial_run_results/12042at5820.out --cpu 1 /v3/work/00_inventory/busco/busco_downloads/lineages/plasmodium_odb10/hmms/12042at5820.hmm /v3/inputs/annotations/plasmodb-68/PAM.proteins.fa 
+# Current dir:     /v3/work/00_inventory/busco
+# Date:            Tue May 19 17:25:28 2026
+# [ok]

@@ -1,0 +1,20 @@
+#                                                                            --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name        accession   tlen query name           accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+#------------------- ---------- ----- -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+SCO70516.1           -           1009 7959at5820           -            523  2.9e-204  678.1  92.2   1   6         2   6.3e+03   -7.8   5.2   148   275   140   166   124   184 0.45 U3 small nucleolar RNA-associated protein 14, putative [Plasmodium vivax]
+SCO70516.1           -           1009 7959at5820           -            523  2.9e-204  678.1  92.2   2   6    0.0052        16    2.5   0.1     1    17   250   266   250   270 0.91 U3 small nucleolar RNA-associated protein 14, putative [Plasmodium vivax]
+SCO70516.1           -           1009 7959at5820           -            523  2.9e-204  678.1  92.2   3   6   9.1e-29   2.9e-25   87.5   1.5    12    98   298   400   294   426 0.86 U3 small nucleolar RNA-associated protein 14, putative [Plasmodium vivax]
+SCO70516.1           -           1009 7959at5820           -            523  2.9e-204  678.1  92.2   4   6   2.6e-78     8e-75  251.0  32.8   105   265   464   625   458   627 0.97 U3 small nucleolar RNA-associated protein 14, putative [Plasmodium vivax]
+SCO70516.1           -           1009 7959at5820           -            523  2.9e-204  678.1  92.2   5   6   7.7e-24   2.4e-20   71.2  11.7   263   350   657   772   651   785 0.77 U3 small nucleolar RNA-associated protein 14, putative [Plasmodium vivax]
+SCO70516.1           -           1009 7959at5820           -            523  2.9e-204  678.1  92.2   6   6   3.6e-90   1.1e-86  290.1   6.4   361   523   837  1009   811  1009 0.93 U3 small nucleolar RNA-associated protein 14, putative [Plasmodium vivax]
+SCA60543.1           -            207 7959at5820           -            523     0.013   12.8   1.8   1   1   5.5e-06     0.017   12.3   1.8     2    86    38   121    37   131 0.90 Plasmodium vivax Vir protein, putative [Plasmodium vivax]
+#
+# Program:         hmmsearch
+# Version:         3.4 (Aug 2023)
+# Pipeline mode:   SEARCH
+# Query file:      /v3/work/00_inventory/busco/busco_downloads/lineages/plasmodium_odb10/hmms/7959at5820.hmm
+# Target file:     /v3/inputs/annotations/ncbi-datasets/PvC01.proteins.fa
+# Option settings: hmmsearch --domtblout /v3/work/00_inventory/busco/PvC01_proteins/run_plasmodium_odb10/hmmer_output/initial_run_results/7959at5820.out --cpu 1 /v3/work/00_inventory/busco/busco_downloads/lineages/plasmodium_odb10/hmms/7959at5820.hmm /v3/inputs/annotations/ncbi-datasets/PvC01.proteins.fa 
+# Current dir:     /v3/work/00_inventory/busco
+# Date:            Tue May 19 19:05:41 2026
+# [ok]

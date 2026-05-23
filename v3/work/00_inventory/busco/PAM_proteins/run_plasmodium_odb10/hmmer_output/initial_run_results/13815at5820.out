@@ -1,0 +1,17 @@
+#                                                                            --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name        accession   tlen query name           accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+#------------------- ---------- ----- -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+CAI7722439.1         -            191 13815at5820          -            155   2.7e-71  237.0  20.4   1   3   2.2e-35     7e-32  109.0   5.7     1    62     1    61     1    67 0.94 | transcript=PVPAM_120067600_t1 | gene=PVPAM_120067600 | organism=Plasmodium_vivax_PAM | gene_product=shikimate dehydrogenase, putative | transcript_product=shikimate dehydrogenase, putative | location=CASCJQ010000012:2551777-2552938(-) | protein_length=191 | sequence_SO=supercontig | SO=protein_coding_gene | is_pseudo=false
+CAI7722439.1         -            191 13815at5820          -            155   2.7e-71  237.0  20.4   2   3     0.001       3.3    6.2   0.1    68    92    86   110    73   113 0.88 | transcript=PVPAM_120067600_t1 | gene=PVPAM_120067600 | organism=Plasmodium_vivax_PAM | gene_product=shikimate dehydrogenase, putative | transcript_product=shikimate dehydrogenase, putative | location=CASCJQ010000012:2551777-2552938(-) | protein_length=191 | sequence_SO=supercontig | SO=protein_coding_gene | is_pseudo=false
+CAI7722439.1         -            191 13815at5820          -            155   2.7e-71  237.0  20.4   3   3     1e-41   3.2e-38  129.6   4.4    77   155   113   191   109   191 0.97 | transcript=PVPAM_120067600_t1 | gene=PVPAM_120067600 | organism=Plasmodium_vivax_PAM | gene_product=shikimate dehydrogenase, putative | transcript_product=shikimate dehydrogenase, putative | location=CASCJQ010000012:2551777-2552938(-) | protein_length=191 | sequence_SO=supercontig | SO=protein_coding_gene | is_pseudo=false
+CAI7719175.1         -            272 13815at5820          -            155     0.054   12.0   8.4   1   1     5e-05      0.16   10.4   8.4    48   118    94   165    90   194 0.85 | transcript=PVPAM_060018200_t1 | gene=PVPAM_060018200 | organism=Plasmodium_vivax_PAM | gene_product=methyltransferase, putative | transcript_product=methyltransferase, putative | location=CASCJQ010000006:574220-575279(-) | protein_length=272 | sequence_SO=supercontig | SO=protein_coding_gene | is_pseudo=false
+#
+# Program:         hmmsearch
+# Version:         3.4 (Aug 2023)
+# Pipeline mode:   SEARCH
+# Query file:      /v3/work/00_inventory/busco/busco_downloads/lineages/plasmodium_odb10/hmms/13815at5820.hmm
+# Target file:     /v3/inputs/annotations/plasmodb-68/PAM.proteins.fa
+# Option settings: hmmsearch --domtblout /v3/work/00_inventory/busco/PAM_proteins/run_plasmodium_odb10/hmmer_output/initial_run_results/13815at5820.out --cpu 1 /v3/work/00_inventory/busco/busco_downloads/lineages/plasmodium_odb10/hmms/13815at5820.hmm /v3/inputs/annotations/plasmodb-68/PAM.proteins.fa 
+# Current dir:     /v3/work/00_inventory/busco
+# Date:            Tue May 19 17:31:30 2026
+# [ok]

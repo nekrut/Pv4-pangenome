@@ -1,0 +1,21 @@
+#                                                                                                             --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name                                         accession   tlen query name           accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+#                                 ------------------- ---------- ----- -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+GCA_003402215.1|PVP01_1404400|PVP01_1404400.1|unknown -           1741 1037at5820           -           1142         0 2153.5 166.3   1   7         0         0 1251.7  40.1    11   595   180   765   175   782 0.95 -
+GCA_003402215.1|PVP01_1404400|PVP01_1404400.1|unknown -           1741 1037at5820           -           1142         0 2153.5 166.3   2   7   4.7e-05      0.12    8.0   6.3   548   578   792   827   784   844 0.82 -
+GCA_003402215.1|PVP01_1404400|PVP01_1404400.1|unknown -           1741 1037at5820           -           1142         0 2153.5 166.3   3   7   4.9e-52   1.3e-48  163.6  32.1   569   739   863  1063   847  1078 0.75 -
+GCA_003402215.1|PVP01_1404400|PVP01_1404400.1|unknown -           1741 1037at5820           -           1142         0 2153.5 166.3   4   7   3.2e-12   8.6e-09   31.7   4.9   704   758  1090  1157  1079  1167 0.76 -
+GCA_003402215.1|PVP01_1404400|PVP01_1404400.1|unknown -           1741 1037at5820           -           1142         0 2153.5 166.3   5   7   6.4e-20   1.7e-16   57.3   2.4   744   820  1217  1309  1202  1322 0.81 -
+GCA_003402215.1|PVP01_1404400|PVP01_1404400.1|unknown -           1741 1037at5820           -           1142         0 2153.5 166.3   6   7      0.14   3.8e+02   -3.5   7.2   559   605  1344  1391  1329  1401 0.67 -
+GCA_003402215.1|PVP01_1404400|PVP01_1404400.1|unknown -           1741 1037at5820           -           1142         0 2153.5 166.3   7   7  1.2e-207  3.2e-204  679.0  25.2   814  1142  1403  1741  1395  1741 0.97 -
+GCA_003402215.1|PVP01_1231600|PVP01_1231600.1|unknown -            242 1037at5820           -           1142    0.0074   12.1   0.4   1   1   3.6e-06    0.0094   11.7   0.4   803   875    69   142    43   150 0.72 -
+#
+# Program:         hmmsearch
+# Version:         3.4 (Aug 2023)
+# Pipeline mode:   SEARCH
+# Query file:      /v3/work/00_inventory/busco/busco_downloads/lineages/plasmodium_odb10/hmms/1037at5820.hmm
+# Target file:     /v3/inputs/annotations/plasmodb-68/PvSY56.proteins.fa
+# Option settings: hmmsearch --domtblout /v3/work/00_inventory/busco/PvSY56_proteins/run_plasmodium_odb10/hmmer_output/initial_run_results/1037at5820.out --cpu 1 /v3/work/00_inventory/busco/busco_downloads/lineages/plasmodium_odb10/hmms/1037at5820.hmm /v3/inputs/annotations/plasmodb-68/PvSY56.proteins.fa 
+# Current dir:     /v3/work/00_inventory/busco
+# Date:            Tue May 19 17:55:57 2026
+# [ok]

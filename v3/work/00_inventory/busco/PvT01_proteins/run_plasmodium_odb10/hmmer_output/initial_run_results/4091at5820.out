@@ -1,0 +1,21 @@
+#                                                                            --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name        accession   tlen query name           accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+#------------------- ---------- ----- -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+SCO65323.1           -            890 4091at5820           -            613  3.3e-300  995.1  42.8   1   5   1.1e-31   2.2e-28   97.3   0.7     1    53     1    53     1    57 0.98 conserved Plasmodium protein, unknown function [Plasmodium vivax]
+SCO65323.1           -            890 4091at5820           -            613  3.3e-300  995.1  42.8   2   5  6.2e-148  1.3e-144  481.2   9.8    53   321    88   383    85   387 0.91 conserved Plasmodium protein, unknown function [Plasmodium vivax]
+SCO65323.1           -            890 4091at5820           -            613  3.3e-300  995.1  42.8   3   5   4.8e-34   9.8e-31  105.1   0.1   321   391   450   521   431   529 0.92 conserved Plasmodium protein, unknown function [Plasmodium vivax]
+SCO65323.1           -            890 4091at5820           -            613  3.3e-300  995.1  42.8   4   5     7e-19   1.4e-15   55.0   0.2   392   430   559   597   552   602 0.92 conserved Plasmodium protein, unknown function [Plasmodium vivax]
+SCO65323.1           -            890 4091at5820           -            613  3.3e-300  995.1  42.8   5   5   8.8e-85   1.8e-81  272.7   8.5   432   613   645   846   641   846 0.92 conserved Plasmodium protein, unknown function [Plasmodium vivax]
+SCO68897.1           -            208 4091at5820           -            613   2.3e-16   57.6   4.7   1   1   1.5e-19     3e-16   57.2   4.7    13   181     7   156     3   181 0.82 methyltransferase, putative [Plasmodium vivax]
+SCO66488.1           -            245 4091at5820           -            613   0.00064   16.5   0.3   1   2   3.2e-07   0.00064   16.5   0.3    11    99     6   100     2   103 0.67 methyltransferase, putative [Plasmodium vivax]
+SCO66488.1           -            245 4091at5820           -            613   0.00064   16.5   0.3   2   2     0.031        63   -0.0   0.4   127   173   151   188   129   213 0.66 methyltransferase, putative [Plasmodium vivax]
+#
+# Program:         hmmsearch
+# Version:         3.4 (Aug 2023)
+# Pipeline mode:   SEARCH
+# Query file:      /v3/work/00_inventory/busco/busco_downloads/lineages/plasmodium_odb10/hmms/4091at5820.hmm
+# Target file:     /v3/inputs/annotations/ncbi-datasets/PvT01.proteins.fa
+# Option settings: hmmsearch --domtblout /v3/work/00_inventory/busco/PvT01_proteins/run_plasmodium_odb10/hmmer_output/initial_run_results/4091at5820.out --cpu 1 /v3/work/00_inventory/busco/busco_downloads/lineages/plasmodium_odb10/hmms/4091at5820.hmm /v3/inputs/annotations/ncbi-datasets/PvT01.proteins.fa 
+# Current dir:     /v3/work/00_inventory/busco
+# Date:            Tue May 19 18:44:24 2026
+# [ok]

@@ -1,0 +1,25 @@
+#                                                                            --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name        accession   tlen query name           accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+#------------------- ---------- ----- -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+SCO72902.1           -            516 7227at5820           -            380  9.5e-204  675.0  27.5   1   2   5.5e-47     7e-44  148.8  10.4    19   117    76   175    59   180 0.87 inner membrane complex protein 1b, putative [Plasmodium vivax]
+SCO72902.1           -            516 7227at5820           -            380  9.5e-204  675.0  27.5   2   2  1.9e-163  2.4e-160  532.1   9.1   117   380   236   512   227   512 0.96 inner membrane complex protein 1b, putative [Plasmodium vivax]
+SCO72469.1           -            869 7227at5820           -            380   2.7e-65  219.3  48.1   1   3   6.9e-14   8.7e-11   39.8  19.4    32   113   120   201    95   209 0.88 inner membrane complex protein 1a, putative [Plasmodium vivax]
+SCO72469.1           -            869 7227at5820           -            380   2.7e-65  219.3  48.1   2   3   2.2e-46   2.7e-43  146.8  15.4   138   271   365   498   347   502 0.97 inner membrane complex protein 1a, putative [Plasmodium vivax]
+SCO72469.1           -            869 7227at5820           -            380   2.7e-65  219.3  48.1   3   3   3.1e-14   3.8e-11   41.0   0.1   310   364   720   774   676   783 0.84 inner membrane complex protein 1a, putative [Plasmodium vivax]
+SCO70431.1           -            252 7227at5820           -            380   5.1e-26   90.0  17.3   1   2     0.045        56    1.0   1.5    73   115    33    74    16    86 0.70 inner membrane complex protein 1d, putative [Plasmodium vivax]
+SCO70431.1           -            252 7227at5820           -            380   5.1e-26   90.0  17.3   2   2   4.1e-29   5.1e-26   90.0  17.3   137   238   142   243   128   247 0.96 inner membrane complex protein 1d, putative [Plasmodium vivax]
+SCO72178.1           -            286 7227at5820           -            380   1.8e-08   32.3  31.9   1   2   1.2e-05     0.016   12.7   3.4    15    68    22    75     5    78 0.76 inner membrane complex protein 1c, putative [Plasmodium vivax]
+SCO72178.1           -            286 7227at5820           -            380   1.8e-08   32.3  31.9   2   2   6.6e-10   8.3e-07   26.7  19.5    35   116    78   159    74   172 0.89 inner membrane complex protein 1c, putative [Plasmodium vivax]
+SCO72468.1           -            530 7227at5820           -            380       1.4    6.3  56.5   1   3   1.5e-05     0.018   12.4   7.9    24    75    99   152    89   159 0.78 inner membrane complex protein 1e, putative [Plasmodium vivax]
+SCO72468.1           -            530 7227at5820           -            380       1.4    6.3  56.5   2   3      0.12   1.6e+02   -0.5  37.8    26   198   149   309   145   336 0.67 inner membrane complex protein 1e, putative [Plasmodium vivax]
+SCO72468.1           -            530 7227at5820           -            380       1.4    6.3  56.5   3   3      0.87   1.1e+03   -3.3   0.2   287   319   402   437   370   469 0.66 inner membrane complex protein 1e, putative [Plasmodium vivax]
+#
+# Program:         hmmsearch
+# Version:         3.4 (Aug 2023)
+# Pipeline mode:   SEARCH
+# Query file:      /v3/work/00_inventory/busco/busco_downloads/lineages/plasmodium_odb10/hmms/7227at5820.hmm
+# Target file:     /v3/inputs/annotations/ncbi-datasets/PvC01.proteins.fa
+# Option settings: hmmsearch --domtblout /v3/work/00_inventory/busco/PvC01_proteins/run_plasmodium_odb10/hmmer_output/initial_run_results/7227at5820.out --cpu 1 /v3/work/00_inventory/busco/busco_downloads/lineages/plasmodium_odb10/hmms/7227at5820.hmm /v3/inputs/annotations/ncbi-datasets/PvC01.proteins.fa 
+# Current dir:     /v3/work/00_inventory/busco
+# Date:            Tue May 19 18:57:40 2026
+# [ok]

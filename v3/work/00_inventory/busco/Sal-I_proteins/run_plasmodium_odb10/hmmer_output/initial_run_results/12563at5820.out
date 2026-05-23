@@ -1,0 +1,17 @@
+#                                                                            --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name        accession   tlen query name           accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+#------------------- ---------- ----- -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+PVX_080685.1-p1      -            171 12563at5820          -            153   2.4e-91  302.2  12.1   1   1   3.3e-94   9.1e-91  300.3  12.1     1   153     1   171     1   171 0.93 | transcript=PVX_080685.1 | gene=PVX_080685 | organism=Plasmodium_vivax_Sal-1 | gene_product=translationally-controlled tumor protein homolog, putative | transcript_product=translationally-controlled tumor protein homolog, putative | location=Pv_Sal1_chr10:884853-885368(+) | protein_length=171 | sequence_SO=chromosome | SO=protein_coding_gene | is_pseudo=false
+PVX_124708.1-p1      -            609 12563at5820          -            153      0.38    9.3   3.9   1   3    0.0011       3.1    6.3   0.4    71   117    25    71    13    77 0.87 | transcript=PVX_124708.1 | gene=PVX_124708 | organism=Plasmodium_vivax_Sal-1 | gene_product=VIR protein | transcript_product=VIR protein | location=Pv_Sal1_chr11:2053444-2055529(-) | protein_length=609 | sequence_SO=chromosome | SO=protein_coding_gene | is_pseudo=false
+PVX_124708.1-p1      -            609 12563at5820          -            153      0.38    9.3   3.9   2   3      0.39   1.1e+03   -1.9   0.1    20    61   364   404   352   411 0.70 | transcript=PVX_124708.1 | gene=PVX_124708 | organism=Plasmodium_vivax_Sal-1 | gene_product=VIR protein | transcript_product=VIR protein | location=Pv_Sal1_chr11:2053444-2055529(-) | protein_length=609 | sequence_SO=chromosome | SO=protein_coding_gene | is_pseudo=false
+PVX_124708.1-p1      -            609 12563at5820          -            153      0.38    9.3   3.9   3   3     0.013        36    2.9   0.0    62   106   458   505   446   555 0.70 | transcript=PVX_124708.1 | gene=PVX_124708 | organism=Plasmodium_vivax_Sal-1 | gene_product=VIR protein | transcript_product=VIR protein | location=Pv_Sal1_chr11:2053444-2055529(-) | protein_length=609 | sequence_SO=chromosome | SO=protein_coding_gene | is_pseudo=false
+#
+# Program:         hmmsearch
+# Version:         3.4 (Aug 2023)
+# Pipeline mode:   SEARCH
+# Query file:      /v3/work/00_inventory/busco/busco_downloads/lineages/plasmodium_odb10/hmms/12563at5820.hmm
+# Target file:     /v3/inputs/annotations/plasmodb-68/Sal-I.proteins.fa
+# Option settings: hmmsearch --domtblout /v3/work/00_inventory/busco/Sal-I_proteins/run_plasmodium_odb10/hmmer_output/initial_run_results/12563at5820.out --cpu 1 /v3/work/00_inventory/busco/busco_downloads/lineages/plasmodium_odb10/hmms/12563at5820.hmm /v3/inputs/annotations/plasmodb-68/Sal-I.proteins.fa 
+# Current dir:     /v3/work/00_inventory/busco
+# Date:            Tue May 19 17:27:14 2026
+# [ok]

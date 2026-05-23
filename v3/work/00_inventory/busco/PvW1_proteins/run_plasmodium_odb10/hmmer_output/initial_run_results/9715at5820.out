@@ -1,0 +1,17 @@
+#                                                                            --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name        accession   tlen query name           accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+#------------------- ---------- ----- -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+CAG9473149.1         -            417 9715at5820           -            357  2.5e-222  736.0  36.1   1   2  8.7e-168  2.6e-164  545.2  15.6     1   274     1   312     1   317 0.98 | transcript=PVW1_120019600_t1 | gene=PVW1_120019600 | organism=Plasmodium_vivax_PvW1 | gene_product=GPN-loop GTPase 3 [Source:UniProtKB/TrEMBL;Acc:A0A1G4H0R0] | transcript_product=GPN-loop GTPase 3 [Source:UniProtKB/TrEMBL;Acc:A0A1G4H0R0] | location=CAJZCX010000004:662251-663504(-) | protein_length=417 | sequence_SO=supercontig | SO=protein_coding_gene | is_pseudo=false
+CAG9473149.1         -            417 9715at5820           -            357  2.5e-222  736.0  36.1   2   2   5.6e-62   1.7e-58  197.1  13.2   256   357   316   417   311   417 0.96 | transcript=PVW1_120019600_t1 | gene=PVW1_120019600 | organism=Plasmodium_vivax_PvW1 | gene_product=GPN-loop GTPase 3 [Source:UniProtKB/TrEMBL;Acc:A0A1G4H0R0] | transcript_product=GPN-loop GTPase 3 [Source:UniProtKB/TrEMBL;Acc:A0A1G4H0R0] | location=CAJZCX010000004:662251-663504(-) | protein_length=417 | sequence_SO=supercontig | SO=protein_coding_gene | is_pseudo=false
+CAG9480542.1         -            357 9715at5820           -            357     1e-37  128.8  12.8   1   2   1.6e-07   0.00047   18.0   0.0     1    47     1    47     1    49 0.93 | transcript=PVW1_070022700_t1 | gene=PVW1_070022700 | organism=Plasmodium_vivax_PvW1 | gene_product=GPN-loop GTPase 2 [Source:UniProtKB/TrEMBL;Acc:A0A1G4GV81] | transcript_product=GPN-loop GTPase 2 [Source:UniProtKB/TrEMBL;Acc:A0A1G4GV81] | location=CAJZCX010000011:807666-808739(+) | protein_length=357 | sequence_SO=supercontig | SO=protein_coding_gene | is_pseudo=false
+CAG9480542.1         -            357 9715at5820           -            357     1e-37  128.8  12.8   2   2   2.4e-34   7.2e-31  106.2  15.4    72   340    49   303    42   308 0.84 | transcript=PVW1_070022700_t1 | gene=PVW1_070022700 | organism=Plasmodium_vivax_PvW1 | gene_product=GPN-loop GTPase 2 [Source:UniProtKB/TrEMBL;Acc:A0A1G4GV81] | transcript_product=GPN-loop GTPase 2 [Source:UniProtKB/TrEMBL;Acc:A0A1G4GV81] | location=CAJZCX010000011:807666-808739(+) | protein_length=357 | sequence_SO=supercontig | SO=protein_coding_gene | is_pseudo=false
+#
+# Program:         hmmsearch
+# Version:         3.4 (Aug 2023)
+# Pipeline mode:   SEARCH
+# Query file:      /v3/work/00_inventory/busco/busco_downloads/lineages/plasmodium_odb10/hmms/9715at5820.hmm
+# Target file:     /v3/inputs/annotations/plasmodb-68/PvW1.proteins.fa
+# Option settings: hmmsearch --domtblout /v3/work/00_inventory/busco/PvW1_proteins/run_plasmodium_odb10/hmmer_output/initial_run_results/9715at5820.out --cpu 1 /v3/work/00_inventory/busco/busco_downloads/lineages/plasmodium_odb10/hmms/9715at5820.hmm /v3/inputs/annotations/plasmodb-68/PvW1.proteins.fa 
+# Current dir:     /v3/work/00_inventory/busco
+# Date:            Tue May 19 17:52:22 2026
+# [ok]

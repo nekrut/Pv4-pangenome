@@ -1,0 +1,16 @@
+#                                                                            --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name        accession   tlen query name           accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+#------------------- ---------- ----- -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+SCO66623.1           -            273 10202at5820          -            237  1.3e-133  442.3  20.1   1   1  5.5e-136  1.1e-132  439.2  20.1     1   237     1   273     1   273 0.91 G2 protein, putative [Plasmodium vivax]
+SCO68474.1           -            216 10202at5820          -            237     0.011   13.7  12.3   1   1   8.1e-06     0.016   13.2  12.0   106   191    35   125    16   133 0.84 kinetochore protein SPC25, putative [Plasmodium vivax]
+SCA83804.1           -            375 10202at5820          -            237     0.015   13.2   7.2   1   1   1.4e-05     0.028   12.4   7.2   104   198    61   156    52   204 0.86 Plasmodium vivax Vir protein, putative [Plasmodium vivax]
+#
+# Program:         hmmsearch
+# Version:         3.4 (Aug 2023)
+# Pipeline mode:   SEARCH
+# Query file:      /v3/work/00_inventory/busco/busco_downloads/lineages/plasmodium_odb10/hmms/10202at5820.hmm
+# Target file:     /v3/inputs/annotations/ncbi-datasets/PvT01.proteins.fa
+# Option settings: hmmsearch --domtblout /v3/work/00_inventory/busco/PvT01_proteins/run_plasmodium_odb10/hmmer_output/initial_run_results/10202at5820.out --cpu 1 /v3/work/00_inventory/busco/busco_downloads/lineages/plasmodium_odb10/hmms/10202at5820.hmm /v3/inputs/annotations/ncbi-datasets/PvT01.proteins.fa 
+# Current dir:     /v3/work/00_inventory/busco
+# Date:            Tue May 19 18:28:17 2026
+# [ok]

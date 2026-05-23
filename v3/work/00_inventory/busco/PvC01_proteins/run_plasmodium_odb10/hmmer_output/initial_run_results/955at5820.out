@@ -1,0 +1,21 @@
+#                                                                            --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name        accession   tlen query name           accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+#------------------- ---------- ----- -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+SCO72572.1           -           1652 955at5820            -           1310         0 2268.8  43.5   1   3         0         0 1236.8  15.2     1   732     2   877     2   921 0.86 mechanosensitive ion channel protein, putative [Plasmodium vivax]
+SCO72572.1           -           1652 955at5820            -           1310         0 2268.8  43.5   2   3  7.2e-303  7.5e-300  996.4  13.1   724  1205   922  1403   907  1416 0.94 mechanosensitive ion channel protein, putative [Plasmodium vivax]
+SCO72572.1           -           1652 955at5820            -           1310         0 2268.8  43.5   3   3   1.9e-14     2e-11   40.9   0.9  1260  1306  1588  1634  1566  1637 0.79 mechanosensitive ion channel protein, putative [Plasmodium vivax]
+SCO73844.1           -            332 955at5820            -           1310       1.3    5.0   8.7   1   1    0.0015       1.5    4.8   8.7   489   601    62   171    19   216 0.52 Plasmodium exported protein, unknown function [Plasmodium vivax]
+SCO70453.1           -            280 955at5820            -           1310       1.7    4.7  24.3   1   1    0.0025       2.6    4.0  24.3   524   692    66   267    43   276 0.45 conserved Plasmodium protein, unknown function [Plasmodium vivax]
+SCO73266.1           -            270 955at5820            -           1310       1.8    4.5  15.0   1   1    0.0019         2    4.4  15.0   474   621   105   255    31   269 0.48 conserved Plasmodium protein, unknown function [Plasmodium vivax]
+SCO72036.1           -             99 955at5820            -           1310       2.4    4.2  16.8   1   1    0.0022       2.3    4.2  16.8   532   585     8    60     1    92 0.33 hypothetical protein PVC01_070031400 [Plasmodium vivax]
+SCO75135.1           -            543 955at5820            -           1310       5.5    3.0  22.1   1   1    0.0092       9.6    2.1  22.1   490   616   132   266    91   289 0.42 conserved Plasmodium protein, unknown function [Plasmodium vivax]
+#
+# Program:         hmmsearch
+# Version:         3.4 (Aug 2023)
+# Pipeline mode:   SEARCH
+# Query file:      /v3/work/00_inventory/busco/busco_downloads/lineages/plasmodium_odb10/hmms/955at5820.hmm
+# Target file:     /v3/inputs/annotations/ncbi-datasets/PvC01.proteins.fa
+# Option settings: hmmsearch --domtblout /v3/work/00_inventory/busco/PvC01_proteins/run_plasmodium_odb10/hmmer_output/initial_run_results/955at5820.out --cpu 1 /v3/work/00_inventory/busco/busco_downloads/lineages/plasmodium_odb10/hmms/955at5820.hmm /v3/inputs/annotations/ncbi-datasets/PvC01.proteins.fa 
+# Current dir:     /v3/work/00_inventory/busco
+# Date:            Tue May 19 19:12:24 2026
+# [ok]

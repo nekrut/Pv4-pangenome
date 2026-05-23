@@ -1,0 +1,16 @@
+#                                                                            --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name        accession   tlen query name           accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+#------------------- ---------- ----- -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+CAI7721372.1         -            383 7478at5820           -            337  3.4e-184  610.2  17.9   1   2   9.8e-17   3.2e-13   48.2   0.4     1    41     1    46     1    50 0.88 | transcript=PVPAM_110027500_t1 | gene=PVPAM_110027500 | organism=Plasmodium_vivax_PAM | gene_product=putative oxidoreductase, short-chain dehydrogenase family, putative | transcript_product=putative oxidoreductase, short-chain dehydrogenase family, putative | location=CASCJQ010000011:977446-980089(-) | protein_length=383 | sequence_SO=supercontig | SO=protein_coding_gene | is_pseudo=false
+CAI7721372.1         -            383 7478at5820           -            337  3.4e-184  610.2  17.9   2   2  2.7e-174  8.8e-171  566.2  11.3    35   331    59   371    56   379 0.96 | transcript=PVPAM_110027500_t1 | gene=PVPAM_110027500 | organism=Plasmodium_vivax_PAM | gene_product=putative oxidoreductase, short-chain dehydrogenase family, putative | transcript_product=putative oxidoreductase, short-chain dehydrogenase family, putative | location=CASCJQ010000011:977446-980089(-) | protein_length=383 | sequence_SO=supercontig | SO=protein_coding_gene | is_pseudo=false
+CAI7719670.1         -            300 7478at5820           -            337   7.3e-08   30.6   0.0   1   1     4e-11   1.3e-07   29.8   0.0    68   212    59   208    50   250 0.80 | transcript=PVPAM_070028400_t1 | gene=PVPAM_070028400 | organism=Plasmodium_vivax_PAM | gene_product=3-oxoacyl-[acyl-carrier-protein] reductase, putative | transcript_product=3-oxoacyl-[acyl-carrier-protein] reductase, putative | location=CASCJQ010000007:1032093-1033505(-) | protein_length=300 | sequence_SO=supercontig | SO=protein_coding_gene | is_pseudo=false
+#
+# Program:         hmmsearch
+# Version:         3.4 (Aug 2023)
+# Pipeline mode:   SEARCH
+# Query file:      /v3/work/00_inventory/busco/busco_downloads/lineages/plasmodium_odb10/hmms/7478at5820.hmm
+# Target file:     /v3/inputs/annotations/plasmodb-68/PAM.proteins.fa
+# Option settings: hmmsearch --domtblout /v3/work/00_inventory/busco/PAM_proteins/run_plasmodium_odb10/hmmer_output/initial_run_results/7478at5820.out --cpu 1 /v3/work/00_inventory/busco/busco_downloads/lineages/plasmodium_odb10/hmms/7478at5820.hmm /v3/inputs/annotations/plasmodb-68/PAM.proteins.fa 
+# Current dir:     /v3/work/00_inventory/busco
+# Date:            Tue May 19 17:47:38 2026
+# [ok]

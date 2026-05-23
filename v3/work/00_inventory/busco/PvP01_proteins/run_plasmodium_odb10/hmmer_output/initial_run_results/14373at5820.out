@@ -1,0 +1,16 @@
+#                                                                            --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name        accession   tlen query name           accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+#------------------- ---------- ----- -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+PVP01_1332000.1-p1   -            147 14373at5820          -            116   9.2e-66  217.6   7.2   1   2   6.7e-69   2.2e-65  216.4   4.4     4   106    14   116    12   124 0.97 | transcript=PVP01_1332000.1 | gene=PVP01_1332000 | organism=Plasmodium_vivax_P01 | gene_product=prefoldin subunit 2, putative | transcript_product=prefoldin subunit 2, putative | location=PvP01_13_v2:1374595-1375611(+) | protein_length=147 | sequence_SO=chromosome | SO=protein_coding_gene | is_pseudo=false
+PVP01_1332000.1-p1   -            147 14373at5820          -            116   9.2e-66  217.6   7.2   2   2     0.021        70    2.0   0.0   105   116   136   147   129   147 0.89 | transcript=PVP01_1332000.1 | gene=PVP01_1332000 | organism=Plasmodium_vivax_P01 | gene_product=prefoldin subunit 2, putative | transcript_product=prefoldin subunit 2, putative | location=PvP01_13_v2:1374595-1375611(+) | protein_length=147 | sequence_SO=chromosome | SO=protein_coding_gene | is_pseudo=false
+PVP01_1022000.1-p1   -            119 14373at5820          -            116     0.015   13.8   3.9   1   1   8.8e-06     0.029   12.9   3.7    21    65    22    66    10   113 0.79 | transcript=PVP01_1022000.1 | gene=PVP01_1022000 | organism=Plasmodium_vivax_P01 | gene_product=prefoldin subunit 6, putative | transcript_product=prefoldin subunit 6, putative | location=PvP01_10_v2:931114-932175(-) | protein_length=119 | sequence_SO=chromosome | SO=protein_coding_gene | is_pseudo=false
+#
+# Program:         hmmsearch
+# Version:         3.4 (Aug 2023)
+# Pipeline mode:   SEARCH
+# Query file:      /v3/work/00_inventory/busco/busco_downloads/lineages/plasmodium_odb10/hmms/14373at5820.hmm
+# Target file:     /v3/inputs/annotations/plasmodb-68/PvP01.proteins.fa
+# Option settings: hmmsearch --domtblout /v3/work/00_inventory/busco/PvP01_proteins/run_plasmodium_odb10/hmmer_output/initial_run_results/14373at5820.out --cpu 1 /v3/work/00_inventory/busco/busco_downloads/lineages/plasmodium_odb10/hmms/14373at5820.hmm /v3/inputs/annotations/plasmodb-68/PvP01.proteins.fa 
+# Current dir:     /v3/work/00_inventory/busco
+# Date:            Tue May 19 17:33:14 2026
+# [ok]

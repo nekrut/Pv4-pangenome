@@ -1,0 +1,17 @@
+#                                                                            --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name        accession   tlen query name           accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+#------------------- ---------- ----- -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+PVP01_0115900.1-p1   -            599 6920at5820           -            420  1.1e-218  724.7  13.9   1   2    1e-103  3.4e-100  334.4   9.4     2   220     8   292     7   323 0.87 | transcript=PVP01_0115900.1 | gene=PVP01_0115900 | organism=Plasmodium_vivax_P01 | gene_product=tRNA pseudouridine synthase, putative | transcript_product=tRNA pseudouridine synthase, putative | location=PvP01_01_v2:712048-714004(+) | protein_length=599 | sequence_SO=chromosome | SO=protein_coding_gene | is_pseudo=false
+PVP01_0115900.1-p1   -            599 6920at5820           -            420  1.1e-218  724.7  13.9   2   2    3e-120  9.8e-117  388.9   0.1   219   419   375   582   353   583 0.92 | transcript=PVP01_0115900.1 | gene=PVP01_0115900 | organism=Plasmodium_vivax_P01 | gene_product=tRNA pseudouridine synthase, putative | transcript_product=tRNA pseudouridine synthase, putative | location=PvP01_01_v2:712048-714004(+) | protein_length=599 | sequence_SO=chromosome | SO=protein_coding_gene | is_pseudo=false
+PVP01_0707200.1-p1   -            306 6920at5820           -            420   4.6e-13   47.4   6.4   1   2   3.1e-11     1e-07   29.8   0.1    43   180     5   127     1   132 0.83 | transcript=PVP01_0707200.1 | gene=PVP01_0707200 | organism=Plasmodium_vivax_P01 | gene_product=tRNA pseudouridine synthase, putative | transcript_product=tRNA pseudouridine synthase, putative | location=PvP01_07_v2:383500-385489(-) | protein_length=306 | sequence_SO=chromosome | SO=protein_coding_gene | is_pseudo=false
+PVP01_0707200.1-p1   -            306 6920at5820           -            420   4.6e-13   47.4   6.4   2   2   5.9e-08   0.00019   19.0   2.9   248   310   139   199   128   250 0.85 | transcript=PVP01_0707200.1 | gene=PVP01_0707200 | organism=Plasmodium_vivax_P01 | gene_product=tRNA pseudouridine synthase, putative | transcript_product=tRNA pseudouridine synthase, putative | location=PvP01_07_v2:383500-385489(-) | protein_length=306 | sequence_SO=chromosome | SO=protein_coding_gene | is_pseudo=false
+#
+# Program:         hmmsearch
+# Version:         3.4 (Aug 2023)
+# Pipeline mode:   SEARCH
+# Query file:      /v3/work/00_inventory/busco/busco_downloads/lineages/plasmodium_odb10/hmms/6920at5820.hmm
+# Target file:     /v3/inputs/annotations/plasmodb-68/PvP01.proteins.fa
+# Option settings: hmmsearch --domtblout /v3/work/00_inventory/busco/PvP01_proteins/run_plasmodium_odb10/hmmer_output/initial_run_results/6920at5820.out --cpu 1 /v3/work/00_inventory/busco/busco_downloads/lineages/plasmodium_odb10/hmms/6920at5820.hmm /v3/inputs/annotations/plasmodb-68/PvP01.proteins.fa 
+# Current dir:     /v3/work/00_inventory/busco
+# Date:            Tue May 19 17:45:08 2026
+# [ok]

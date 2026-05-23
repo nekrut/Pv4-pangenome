@@ -1,0 +1,21 @@
+#                                                                            --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name        accession   tlen query name           accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+#------------------- ---------- ----- -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+SCO70918.1           -            249 11629at5820          -            188    2e-105  348.8   7.7   1   2   1.3e-52     2e-49  166.3   0.2     1    89    11    99    11   102 0.99 dynactin subunit 5, putative [Plasmodium vivax]
+SCO70918.1           -            249 11629at5820          -            188    2e-105  348.8   7.7   2   2   1.5e-58   2.3e-55  185.6   2.6    87   188   146   247   145   247 0.98 dynactin subunit 5, putative [Plasmodium vivax]
+SCO74861.1           -            452 11629at5820          -            188   4.3e-07   28.2   5.4   1   2   3.8e-07   0.00059   17.9   2.3   100   142   344   387   332   392 0.54 mannose-1-phosphate guanyltransferase, putative [Plasmodium vivax]
+SCO74861.1           -            452 11629at5820          -            188   4.3e-07   28.2   5.4   2   2   1.6e-05     0.025   12.6   0.1    96   148   387   439   385   449 0.84 mannose-1-phosphate guanyltransferase, putative [Plasmodium vivax]
+SCO75392.1           -           1037 11629at5820          -            188   0.00013   20.1  11.6   1   2     4e-06    0.0063   14.6   7.4    87   139   388   437   368   442 0.74 conserved Plasmodium protein, unknown function [Plasmodium vivax]
+SCO75392.1           -           1037 11629at5820          -            188   0.00013   20.1  11.6   2   2   0.00061      0.96    7.5   0.2   119   158   440   479   437   487 0.86 conserved Plasmodium protein, unknown function [Plasmodium vivax]
+SCO74122.1           -            476 11629at5820          -            188     0.002   16.2   3.6   1   2       0.4   6.2e+02   -1.7   0.0   106   126   228   248   217   254 0.83 translation initiation factor eIF-2B subunit gamma, putative [Plasmodium vivax]
+SCO74122.1           -            476 11629at5820          -            188     0.002   16.2   3.6   2   2   4.7e-06    0.0073   14.4   2.7    91   150   383   441   372   460 0.83 translation initiation factor eIF-2B subunit gamma, putative [Plasmodium vivax]
+#
+# Program:         hmmsearch
+# Version:         3.4 (Aug 2023)
+# Pipeline mode:   SEARCH
+# Query file:      /v3/work/00_inventory/busco/busco_downloads/lineages/plasmodium_odb10/hmms/11629at5820.hmm
+# Target file:     /v3/inputs/annotations/ncbi-datasets/PvC01.proteins.fa
+# Option settings: hmmsearch --domtblout /v3/work/00_inventory/busco/PvC01_proteins/run_plasmodium_odb10/hmmer_output/initial_run_results/11629at5820.out --cpu 1 /v3/work/00_inventory/busco/busco_downloads/lineages/plasmodium_odb10/hmms/11629at5820.hmm /v3/inputs/annotations/ncbi-datasets/PvC01.proteins.fa 
+# Current dir:     /v3/work/00_inventory/busco
+# Date:            Tue May 19 18:33:55 2026
+# [ok]

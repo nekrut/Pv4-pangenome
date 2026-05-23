@@ -1,0 +1,16 @@
+#                                                                            --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name        accession   tlen query name           accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+#------------------- ---------- ----- -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+CAG9477036.1         -            313 7988at5820           -            296  9.4e-204  673.5   2.3   1   1  5.2e-207  1.1e-203  673.3   2.3     1   296    11   311    11   311 0.99 | transcript=PVW1_090038000_t1 | gene=PVW1_090038000 | organism=Plasmodium_vivax_PvW1 | gene_product=Ribosomal_L2_C domain-containing protein [Source:UniProtKB/TrEMBL;Acc:A0A1G4HD50] | transcript_product=Ribosomal_L2_C domain-containing protein [Source:UniProtKB/TrEMBL;Acc:A0A1G4HD50] | location=CAJZCX010000007:1440699-1441640(+) | protein_length=313 | sequence_SO=supercontig | SO=protein_coding_gene | is_pseudo=false
+CAG9474930.1         -            260 7988at5820           -            296   1.9e-24   84.9   3.0   1   1   1.2e-27   2.5e-24   84.5   3.0    52   254     8   219     3   234 0.86 | transcript=PVW1_100041200_t1 | gene=PVW1_100041200 | organism=Plasmodium_vivax_PvW1 | gene_product=Ribosomal_L2_C domain-containing protein [Source:UniProtKB/TrEMBL;Acc:A0A1G4GYV7] | transcript_product=Ribosomal_L2_C domain-containing protein [Source:UniProtKB/TrEMBL;Acc:A0A1G4GYV7] | location=CAJZCX010000005:1665286-1666294(+) | protein_length=260 | sequence_SO=supercontig | SO=protein_coding_gene | is_pseudo=false
+CAG9471682.1         -            245 7988at5820           -            296   1.8e-20   71.9   7.9   1   1   1.1e-23   2.1e-20   71.6   7.9    49   272    12   244     3   245 0.84 | transcript=PVW1_000031400_t1 | gene=PVW1_000031400 | organism=Plasmodium_vivax_PvW1 | gene_product=Ribosomal_L2_C domain-containing protein [Source:UniProtKB/TrEMBL;Acc:H7CDH4] | transcript_product=Ribosomal_L2_C domain-containing protein [Source:UniProtKB/TrEMBL;Acc:H7CDH4] | location=CAJZCX010000001:7237-7974(-) | protein_length=245 | sequence_SO=supercontig | SO=protein_coding_gene | is_pseudo=false
+#
+# Program:         hmmsearch
+# Version:         3.4 (Aug 2023)
+# Pipeline mode:   SEARCH
+# Query file:      /v3/work/00_inventory/busco/busco_downloads/lineages/plasmodium_odb10/hmms/7988at5820.hmm
+# Target file:     /v3/inputs/annotations/plasmodb-68/PvW1.proteins.fa
+# Option settings: hmmsearch --domtblout /v3/work/00_inventory/busco/PvW1_proteins/run_plasmodium_odb10/hmmer_output/initial_run_results/7988at5820.out --cpu 1 /v3/work/00_inventory/busco/busco_downloads/lineages/plasmodium_odb10/hmms/7988at5820.hmm /v3/inputs/annotations/plasmodb-68/PvW1.proteins.fa 
+# Current dir:     /v3/work/00_inventory/busco
+# Date:            Tue May 19 17:49:32 2026
+# [ok]

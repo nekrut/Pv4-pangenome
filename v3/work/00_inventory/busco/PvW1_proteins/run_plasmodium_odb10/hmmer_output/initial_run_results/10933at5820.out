@@ -1,0 +1,16 @@
+#                                                                            --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name        accession   tlen query name           accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+#------------------- ---------- ----- -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+CAG9475772.1         -            309 10933at5820          -            226  1.2e-119  396.0  20.2   1   2     9e-34   2.7e-30  103.8   1.7    20    73     1    54     1    58 0.98 | transcript=PVW1_130027700_t1 | gene=PVW1_130027700 | organism=Plasmodium_vivax_PvW1 | gene_product=Transcription initiation TFIID-like, putative [Source:UniProtKB/TrEMBL;Acc:A0A1G4HIR0] | transcript_product=Transcription initiation TFIID-like, putative [Source:UniProtKB/TrEMBL;Acc:A0A1G4HIR0] | location=CAJZCX010000006:1014752-1016106(-) | protein_length=309 | sequence_SO=supercontig | SO=protein_coding_gene | is_pseudo=false
+CAG9475772.1         -            309 10933at5820          -            226  1.2e-119  396.0  20.2   2   2   5.4e-92   1.6e-88  294.3  11.0    72   226   138   309   134   309 0.90 | transcript=PVW1_130027700_t1 | gene=PVW1_130027700 | organism=Plasmodium_vivax_PvW1 | gene_product=Transcription initiation TFIID-like, putative [Source:UniProtKB/TrEMBL;Acc:A0A1G4HIR0] | transcript_product=Transcription initiation TFIID-like, putative [Source:UniProtKB/TrEMBL;Acc:A0A1G4HIR0] | location=CAJZCX010000006:1014752-1016106(-) | protein_length=309 | sequence_SO=supercontig | SO=protein_coding_gene | is_pseudo=false
+CAG9475088.1         -            250 10933at5820          -            226   1.3e-09   36.2  10.9   1   1   9.9e-10     3e-06   25.2  10.9     7   222    59   248    54   250 0.81 | transcript=PVW1_100051900_t1 | gene=PVW1_100051900 | organism=Plasmodium_vivax_PvW1 | gene_product=TATA-box binding protein, putative [Source:UniProtKB/TrEMBL;Acc:A0A1G4HEE7] | transcript_product=TATA-box binding protein, putative [Source:UniProtKB/TrEMBL;Acc:A0A1G4HEE7] | location=CAJZCX010000005:2111103-2111855(-) | protein_length=250 | sequence_SO=supercontig | SO=protein_coding_gene | is_pseudo=false
+#
+# Program:         hmmsearch
+# Version:         3.4 (Aug 2023)
+# Pipeline mode:   SEARCH
+# Query file:      /v3/work/00_inventory/busco/busco_downloads/lineages/plasmodium_odb10/hmms/10933at5820.hmm
+# Target file:     /v3/inputs/annotations/plasmodb-68/PvW1.proteins.fa
+# Option settings: hmmsearch --domtblout /v3/work/00_inventory/busco/PvW1_proteins/run_plasmodium_odb10/hmmer_output/initial_run_results/10933at5820.out --cpu 1 /v3/work/00_inventory/busco/busco_downloads/lineages/plasmodium_odb10/hmms/10933at5820.hmm /v3/inputs/annotations/plasmodb-68/PvW1.proteins.fa 
+# Current dir:     /v3/work/00_inventory/busco
+# Date:            Tue May 19 17:27:55 2026
+# [ok]

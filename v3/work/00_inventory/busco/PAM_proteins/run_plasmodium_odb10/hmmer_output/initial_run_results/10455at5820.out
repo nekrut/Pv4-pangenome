@@ -1,0 +1,15 @@
+#                                                                            --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name        accession   tlen query name           accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+#------------------- ---------- ----- -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+CAI7721003.1         -            254 10455at5820          -            205  5.5e-114  377.4  13.9   1   2     1e-31   6.5e-28   96.3   3.9     1    59    10    71    10    78 0.94 | transcript=PVPAM_100027200_t1 | gene=PVPAM_100027200 | organism=Plasmodium_vivax_PAM | gene_product=Apicomplexan specific coiled coil protein [Source:UniProtKB/TrEMBL;Acc:A0A1G4GYT0] | transcript_product=Apicomplexan specific coiled coil protein [Source:UniProtKB/TrEMBL;Acc:A0A1G4GYT0] | location=CASCJQ010000010:956867-957896(+) | protein_length=254 | sequence_SO=supercontig | SO=protein_coding_gene | is_pseudo=false
+CAI7721003.1         -            254 10455at5820          -            205  5.5e-114  377.4  13.9   2   2   4.3e-90   2.8e-86  287.0   2.5    53   205    86   254    72   254 0.93 | transcript=PVPAM_100027200_t1 | gene=PVPAM_100027200 | organism=Plasmodium_vivax_PAM | gene_product=Apicomplexan specific coiled coil protein [Source:UniProtKB/TrEMBL;Acc:A0A1G4GYT0] | transcript_product=Apicomplexan specific coiled coil protein [Source:UniProtKB/TrEMBL;Acc:A0A1G4GYT0] | location=CASCJQ010000010:956867-957896(+) | protein_length=254 | sequence_SO=supercontig | SO=protein_coding_gene | is_pseudo=false
+#
+# Program:         hmmsearch
+# Version:         3.4 (Aug 2023)
+# Pipeline mode:   SEARCH
+# Query file:      /v3/work/00_inventory/busco/busco_downloads/lineages/plasmodium_odb10/hmms/10455at5820.hmm
+# Target file:     /v3/inputs/annotations/plasmodb-68/PAM.proteins.fa
+# Option settings: hmmsearch --domtblout /v3/work/00_inventory/busco/PAM_proteins/run_plasmodium_odb10/hmmer_output/initial_run_results/10455at5820.out --cpu 1 /v3/work/00_inventory/busco/busco_downloads/lineages/plasmodium_odb10/hmms/10455at5820.hmm /v3/inputs/annotations/plasmodb-68/PAM.proteins.fa 
+# Current dir:     /v3/work/00_inventory/busco
+# Date:            Tue May 19 17:26:11 2026
+# [ok]

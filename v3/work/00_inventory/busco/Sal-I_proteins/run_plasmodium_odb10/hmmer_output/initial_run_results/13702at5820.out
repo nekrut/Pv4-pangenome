@@ -1,0 +1,17 @@
+#                                                                            --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name        accession   tlen query name           accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+#------------------- ---------- ----- -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+PVX_123060.1-p1      -            241 13702at5820          -            208  6.3e-115  380.3  51.9   1   2  6.2e-115  1.7e-111  369.1  19.0     1   187     1   202     1   204 0.95 | transcript=PVX_123060.1 | gene=PVX_123060 | organism=Plasmodium_vivax_Sal-1 | gene_product=DNA/RNA-binding protein Alba 1, putative | transcript_product=DNA/RNA-binding protein Alba 1, putative | location=Pv_Sal1_chr14:1105739-1106464(-) | protein_length=241 | sequence_SO=chromosome | SO=protein_coding_gene | is_pseudo=false
+PVX_123060.1-p1      -            241 13702at5820          -            208  6.3e-115  380.3  51.9   2   2   1.1e-06     0.003   15.5  27.2   173   208   202   241   199   241 0.87 | transcript=PVX_123060.1 | gene=PVX_123060 | organism=Plasmodium_vivax_Sal-1 | gene_product=DNA/RNA-binding protein Alba 1, putative | transcript_product=DNA/RNA-binding protein Alba 1, putative | location=Pv_Sal1_chr14:1105739-1106464(-) | protein_length=241 | sequence_SO=chromosome | SO=protein_coding_gene | is_pseudo=false
+PVX_083215.1-p1      -            207 13702at5820          -            208     1e-17   62.8   3.6   1   2     4e-10   1.1e-06   26.7   0.5    10    72    12    72     5    98 0.84 | transcript=PVX_083215.1 | gene=PVX_083215 | organism=Plasmodium_vivax_Sal-1 | gene_product=DNA/RNA-binding protein Alba 2, putative | transcript_product=DNA/RNA-binding protein Alba 2, putative | location=Pv_Sal1_chr12:315783-316793(-) | protein_length=207 | sequence_SO=chromosome | SO=protein_coding_gene | is_pseudo=false
+PVX_083215.1-p1      -            207 13702at5820          -            208     1e-17   62.8   3.6   2   2   2.5e-13     7e-10   37.2   0.1    89   156   118   185   108   198 0.77 | transcript=PVX_083215.1 | gene=PVX_083215 | organism=Plasmodium_vivax_Sal-1 | gene_product=DNA/RNA-binding protein Alba 2, putative | transcript_product=DNA/RNA-binding protein Alba 2, putative | location=Pv_Sal1_chr12:315783-316793(-) | protein_length=207 | sequence_SO=chromosome | SO=protein_coding_gene | is_pseudo=false
+#
+# Program:         hmmsearch
+# Version:         3.4 (Aug 2023)
+# Pipeline mode:   SEARCH
+# Query file:      /v3/work/00_inventory/busco/busco_downloads/lineages/plasmodium_odb10/hmms/13702at5820.hmm
+# Target file:     /v3/inputs/annotations/plasmodb-68/Sal-I.proteins.fa
+# Option settings: hmmsearch --domtblout /v3/work/00_inventory/busco/Sal-I_proteins/run_plasmodium_odb10/hmmer_output/initial_run_results/13702at5820.out --cpu 1 /v3/work/00_inventory/busco/busco_downloads/lineages/plasmodium_odb10/hmms/13702at5820.hmm /v3/inputs/annotations/plasmodb-68/Sal-I.proteins.fa 
+# Current dir:     /v3/work/00_inventory/busco
+# Date:            Tue May 19 17:31:09 2026
+# [ok]

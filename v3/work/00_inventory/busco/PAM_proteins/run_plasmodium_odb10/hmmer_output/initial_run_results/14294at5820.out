@@ -1,0 +1,17 @@
+#                                                                            --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name        accession   tlen query name           accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+#------------------- ---------- ----- -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+CAI7722190.1         -            175 14294at5820          -            116   2.8e-57  190.2   5.2   1   2   0.00032      0.69    8.3   0.0     2    33    10    41     8    51 0.82 | transcript=PVPAM_120042800_t1 | gene=PVPAM_120042800 | organism=Plasmodium_vivax_PAM | gene_product=translation initiation factor IF-1, putative | transcript_product=translation initiation factor IF-1, putative | location=CASCJQ010000012:1478523-1479050(+) | protein_length=175 | sequence_SO=supercontig | SO=protein_coding_gene | is_pseudo=false
+CAI7722190.1         -            175 14294at5820          -            116   2.8e-57  190.2   5.2   2   2   2.9e-58   6.3e-55  182.6   2.6    24   116    83   175    66   175 0.94 | transcript=PVPAM_120042800_t1 | gene=PVPAM_120042800 | organism=Plasmodium_vivax_PAM | gene_product=translation initiation factor IF-1, putative | transcript_product=translation initiation factor IF-1, putative | location=CASCJQ010000012:1478523-1479050(+) | protein_length=175 | sequence_SO=supercontig | SO=protein_coding_gene | is_pseudo=false
+CAI7720718.1         -            155 14294at5820          -            116     0.011   14.2   0.0   1   1   7.4e-06     0.016   13.6   0.0    50    95    42    84    23   104 0.77 | transcript=PVPAM_090048300_t1 | gene=PVPAM_090048300 | organism=Plasmodium_vivax_PAM | gene_product=translation initiation factor eIF-1A, putative | transcript_product=translation initiation factor eIF-1A, putative | location=CASCJQ010000009:1955221-1956696(+) | protein_length=155 | sequence_SO=supercontig | SO=protein_coding_gene | is_pseudo=false
+CAI7723229.1         -            393 14294at5820          -            116     0.012   14.0   0.6   1   1   1.2e-05     0.026   12.9   0.6    22    98    29   108    10   122 0.75 | transcript=PVPAM_140014800_t1 | gene=PVPAM_140014800 | organism=Plasmodium_vivax_PAM | gene_product=26S protease regulatory subunit 10B, putative | transcript_product=26S protease regulatory subunit 10B, putative | location=CASCJQ010000014:461124-462305(-) | protein_length=393 | sequence_SO=supercontig | SO=protein_coding_gene | is_pseudo=false
+#
+# Program:         hmmsearch
+# Version:         3.4 (Aug 2023)
+# Pipeline mode:   SEARCH
+# Query file:      /v3/work/00_inventory/busco/busco_downloads/lineages/plasmodium_odb10/hmms/14294at5820.hmm
+# Target file:     /v3/inputs/annotations/plasmodb-68/PAM.proteins.fa
+# Option settings: hmmsearch --domtblout /v3/work/00_inventory/busco/PAM_proteins/run_plasmodium_odb10/hmmer_output/initial_run_results/14294at5820.out --cpu 1 /v3/work/00_inventory/busco/busco_downloads/lineages/plasmodium_odb10/hmms/14294at5820.hmm /v3/inputs/annotations/plasmodb-68/PAM.proteins.fa 
+# Current dir:     /v3/work/00_inventory/busco
+# Date:            Tue May 19 17:33:02 2026
+# [ok]

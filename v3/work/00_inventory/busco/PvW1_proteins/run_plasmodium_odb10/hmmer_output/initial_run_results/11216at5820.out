@@ -1,0 +1,16 @@
+#                                                                            --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name        accession   tlen query name           accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+#------------------- ---------- ----- -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+CAG9472094.1         -            252 11216at5820          -            191  6.5e-123  406.2  13.5   1   1  2.5e-126  7.7e-123  406.0  13.5     1   191    59   251    59   251 0.98 | transcript=PVW1_140029200_t1 | gene=PVW1_140029200 | organism=Plasmodium_vivax_PvW1 | gene_product=Negative elongation factor A, putative [Source:UniProtKB/TrEMBL;Acc:A0A1G4H4R6] | transcript_product=Negative elongation factor A, putative [Source:UniProtKB/TrEMBL;Acc:A0A1G4H4R6] | location=CAJZCX010000003:1058923-1060049(-) | protein_length=252 | sequence_SO=supercontig | SO=protein_coding_gene | is_pseudo=false
+CAG9476558.1         -            186 11216at5820          -            191      0.02   13.3   0.1   1   2       0.5   1.5e+03   -2.6   0.0   137   161    36    60    20    64 0.72 | transcript=PVW1_090010600_t1 | gene=PVW1_090010600 | organism=Plasmodium_vivax_PvW1 | gene_product=DNA-directed RNA polymerase III subunit RPC8, putative [Source:UniProtKB/TrEMBL;Acc:A0A1G4GX28] | transcript_product=DNA-directed RNA polymerase III subunit RPC8, putative [Source:UniProtKB/TrEMBL;Acc:A0A1G4GX28] | location=CAJZCX010000007:330174-331612(-) | protein_length=186 | sequence_SO=supercontig | SO=protein_coding_gene | is_pseudo=false
+CAG9476558.1         -            186 11216at5820          -            191      0.02   13.3   0.1   2   2   1.2e-05     0.037   12.4   0.0    39    91   131   184    94   186 0.84 | transcript=PVW1_090010600_t1 | gene=PVW1_090010600 | organism=Plasmodium_vivax_PvW1 | gene_product=DNA-directed RNA polymerase III subunit RPC8, putative [Source:UniProtKB/TrEMBL;Acc:A0A1G4GX28] | transcript_product=DNA-directed RNA polymerase III subunit RPC8, putative [Source:UniProtKB/TrEMBL;Acc:A0A1G4GX28] | location=CAJZCX010000007:330174-331612(-) | protein_length=186 | sequence_SO=supercontig | SO=protein_coding_gene | is_pseudo=false
+#
+# Program:         hmmsearch
+# Version:         3.4 (Aug 2023)
+# Pipeline mode:   SEARCH
+# Query file:      /v3/work/00_inventory/busco/busco_downloads/lineages/plasmodium_odb10/hmms/11216at5820.hmm
+# Target file:     /v3/inputs/annotations/plasmodb-68/PvW1.proteins.fa
+# Option settings: hmmsearch --domtblout /v3/work/00_inventory/busco/PvW1_proteins/run_plasmodium_odb10/hmmer_output/initial_run_results/11216at5820.out --cpu 1 /v3/work/00_inventory/busco/busco_downloads/lineages/plasmodium_odb10/hmms/11216at5820.hmm /v3/inputs/annotations/plasmodb-68/PvW1.proteins.fa 
+# Current dir:     /v3/work/00_inventory/busco
+# Date:            Tue May 19 17:28:46 2026
+# [ok]

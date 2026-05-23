@@ -1,0 +1,17 @@
+#                                                                            --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name        accession   tlen query name           accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+#------------------- ---------- ----- -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+PVX_101390.1-p1      -            522 7417at5820           -            320  4.5e-184  609.1   5.8   1   2   2.8e-32   7.8e-29   99.0   0.1     5    69   114   180   110   205 0.90 | transcript=PVX_101390.1 | gene=PVX_101390 | organism=Plasmodium_vivax_Sal-1 | gene_product=dimethyladenosine transferase, putative | transcript_product=dimethyladenosine transferase, putative | location=Pv_Sal1_chr14:2849285-2850853(-) | protein_length=522 | sequence_SO=chromosome | SO=protein_coding_gene | is_pseudo=false
+PVX_101390.1-p1      -            522 7417at5820           -            320  4.5e-184  609.1   5.8   2   2  1.1e-157  3.1e-154  511.1   2.8    70   320   265   522   258   522 0.97 | transcript=PVX_101390.1 | gene=PVX_101390 | organism=Plasmodium_vivax_Sal-1 | gene_product=dimethyladenosine transferase, putative | transcript_product=dimethyladenosine transferase, putative | location=Pv_Sal1_chr14:2849285-2850853(-) | protein_length=522 | sequence_SO=chromosome | SO=protein_coding_gene | is_pseudo=false
+PVX_085660.1-p1      -            417 7417at5820           -            320   1.2e-17   62.3   4.7   1   2      0.53   1.5e+03   -3.7   0.0    36    63    21    49    11    54 0.66 | transcript=PVX_085660.1 | gene=PVX_085660 | organism=Plasmodium_vivax_Sal-1 | gene_product=dimethyladenosine transferase, putative | transcript_product=dimethyladenosine transferase, putative | location=Pv_Sal1_chr13:1399093-1400346(-) | protein_length=417 | sequence_SO=chromosome | SO=protein_coding_gene | is_pseudo=false
+PVX_085660.1-p1      -            417 7417at5820           -            320   1.2e-17   62.3   4.7   2   2   4.4e-21   1.2e-17   62.3   4.7    78   279   107   310    81   334 0.80 | transcript=PVX_085660.1 | gene=PVX_085660 | organism=Plasmodium_vivax_Sal-1 | gene_product=dimethyladenosine transferase, putative | transcript_product=dimethyladenosine transferase, putative | location=Pv_Sal1_chr13:1399093-1400346(-) | protein_length=417 | sequence_SO=chromosome | SO=protein_coding_gene | is_pseudo=false
+#
+# Program:         hmmsearch
+# Version:         3.4 (Aug 2023)
+# Pipeline mode:   SEARCH
+# Query file:      /v3/work/00_inventory/busco/busco_downloads/lineages/plasmodium_odb10/hmms/7417at5820.hmm
+# Target file:     /v3/inputs/annotations/plasmodb-68/Sal-I.proteins.fa
+# Option settings: hmmsearch --domtblout /v3/work/00_inventory/busco/Sal-I_proteins/run_plasmodium_odb10/hmmer_output/initial_run_results/7417at5820.out --cpu 1 /v3/work/00_inventory/busco/busco_downloads/lineages/plasmodium_odb10/hmms/7417at5820.hmm /v3/inputs/annotations/plasmodb-68/Sal-I.proteins.fa 
+# Current dir:     /v3/work/00_inventory/busco
+# Date:            Tue May 19 17:47:28 2026
+# [ok]

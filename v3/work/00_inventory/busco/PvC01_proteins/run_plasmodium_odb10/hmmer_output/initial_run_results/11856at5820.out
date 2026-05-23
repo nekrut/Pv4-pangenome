@@ -1,0 +1,29 @@
+#                                                                            --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name        accession   tlen query name           accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+#------------------- ---------- ----- -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+SCO73919.1           -            250 11856at5820          -            225  6.2e-115  380.8  26.0   1   1    9e-118  7.1e-115  380.6  26.0     1   225     1   241     1   241 0.95 leucine-rich repeat protein [Plasmodium vivax]
+SCO73260.1           -            365 11856at5820          -            225   1.4e-25   88.6  25.1   1   2   6.2e-23   4.9e-20   70.4  17.3     4   146    14   159    12   170 0.91 leucine-rich repeat protein [Plasmodium vivax]
+SCO73260.1           -            365 11856at5820          -            225   1.4e-25   88.6  25.1   2   2   2.1e-08   1.6e-05   22.9   0.9   149   219   270   340   266   351 0.81 leucine-rich repeat protein [Plasmodium vivax]
+SCO71698.1           -            317 11856at5820          -            225   5.8e-22   76.7  72.8   1   3   3.8e-12     3e-09   35.2  19.3    37   120    27   113    15   114 0.92 protein phosphatases PP1 regulatory subunit sds22, putative [Plasmodium vivax]
+SCO71698.1           -            317 11856at5820          -            225   5.8e-22   76.7  72.8   2   3   6.4e-16     5e-13   47.5  19.3    38   153    72   188    71   191 0.86 protein phosphatases PP1 regulatory subunit sds22, putative [Plasmodium vivax]
+SCO71698.1           -            317 11856at5820          -            225   5.8e-22   76.7  72.8   3   3   8.2e-08   6.4e-05   21.0  18.1    39   154   158   283   156   297 0.80 protein phosphatases PP1 regulatory subunit sds22, putative [Plasmodium vivax]
+SCO73389.1           -            176 11856at5820          -            225   5.6e-11   40.8  15.2   1   1   8.6e-14   6.7e-11   40.5  15.2    73   206    22   163     7   175 0.84 U2 small nuclear ribonucleoprotein A', putative [Plasmodium vivax]
+SCO75528.1           -            438 11856at5820          -            225   5.7e-07   27.7  18.9   1   1   2.5e-09     2e-06   25.9  17.9    77   218    28   178    22   193 0.74 leucine-rich repeat protein [Plasmodium vivax]
+SCO72061.1           -            635 11856at5820          -            225   2.3e-06   25.7  14.2   1   5   0.00029      0.23    9.4   7.8    90   147    75   133    69   134 0.78 leucine-rich repeat protein [Plasmodium vivax]
+SCO72061.1           -            635 11856at5820          -            225   2.3e-06   25.7  14.2   2   5   2.9e-09   2.3e-06   25.7  14.2    39   107   133   206   132   233 0.84 leucine-rich repeat protein [Plasmodium vivax]
+SCO72061.1           -            635 11856at5820          -            225   2.3e-06   25.7  14.2   3   5       2.9   2.3e+03   -3.7   0.0   181   206   313   338   298   349 0.60 leucine-rich repeat protein [Plasmodium vivax]
+SCO72061.1           -            635 11856at5820          -            225   2.3e-06   25.7  14.2   4   5       1.1   8.9e+02   -2.4   0.3    91   122   472   503   466   533 0.56 leucine-rich repeat protein [Plasmodium vivax]
+SCO72061.1           -            635 11856at5820          -            225   2.3e-06   25.7  14.2   5   5      0.73   5.8e+02   -1.8   0.8   131   192   547   608   524   623 0.73 leucine-rich repeat protein [Plasmodium vivax]
+SCO71274.1           -            153 11856at5820          -            225   3.4e-05   21.9   5.9   1   1   9.6e-08   7.6e-05   20.8   5.6    28   111    55   141    26   145 0.75 dynein light chain 1, putative [Plasmodium vivax]
+SCO74393.1           -            361 11856at5820          -            225      0.26    9.2  44.8   1   2   3.1e-05     0.025   12.5  29.8    30   147    40   159    12   177 0.90 leucine-rich repeat protein [Plasmodium vivax]
+SCO74393.1           -            361 11856at5820          -            225      0.26    9.2  44.8   2   2    0.0016       1.2    7.0  17.3    44   205   120   289   116   310 0.69 leucine-rich repeat protein [Plasmodium vivax]
+#
+# Program:         hmmsearch
+# Version:         3.4 (Aug 2023)
+# Pipeline mode:   SEARCH
+# Query file:      /v3/work/00_inventory/busco/busco_downloads/lineages/plasmodium_odb10/hmms/11856at5820.hmm
+# Target file:     /v3/inputs/annotations/ncbi-datasets/PvC01.proteins.fa
+# Option settings: hmmsearch --domtblout /v3/work/00_inventory/busco/PvC01_proteins/run_plasmodium_odb10/hmmer_output/initial_run_results/11856at5820.out --cpu 1 /v3/work/00_inventory/busco/busco_downloads/lineages/plasmodium_odb10/hmms/11856at5820.hmm /v3/inputs/annotations/ncbi-datasets/PvC01.proteins.fa 
+# Current dir:     /v3/work/00_inventory/busco
+# Date:            Tue May 19 18:27:59 2026
+# [ok]

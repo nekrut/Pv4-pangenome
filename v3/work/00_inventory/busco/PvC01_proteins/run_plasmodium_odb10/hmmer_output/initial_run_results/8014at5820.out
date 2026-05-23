@@ -1,0 +1,16 @@
+#                                                                            --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name        accession   tlen query name           accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+#------------------- ---------- ----- -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+SCO71372.1           -            374 8014at5820           -            330    2e-204  676.2  15.7   1   1  3.8e-207  1.2e-203  673.6  15.7     1   330     6   373     6   373 0.94 arsenical pump-driving ATPase, putative [Plasmodium vivax]
+SCO71863.1           -            446 8014at5820           -            330     0.018   12.4   2.3   1   2     2e-05     0.063   10.6   0.0    17    63   132   178   114   199 0.82 cytosolic Fe-S cluster assembly factor NBP35, putative [Plasmodium vivax]
+SCO71863.1           -            446 8014at5820           -            330     0.018   12.4   2.3   2   2     0.019        59    0.8   0.7   203   253   266   317   261   348 0.81 cytosolic Fe-S cluster assembly factor NBP35, putative [Plasmodium vivax]
+#
+# Program:         hmmsearch
+# Version:         3.4 (Aug 2023)
+# Pipeline mode:   SEARCH
+# Query file:      /v3/work/00_inventory/busco/busco_downloads/lineages/plasmodium_odb10/hmms/8014at5820.hmm
+# Target file:     /v3/inputs/annotations/ncbi-datasets/PvC01.proteins.fa
+# Option settings: hmmsearch --domtblout /v3/work/00_inventory/busco/PvC01_proteins/run_plasmodium_odb10/hmmer_output/initial_run_results/8014at5820.out --cpu 1 /v3/work/00_inventory/busco/busco_downloads/lineages/plasmodium_odb10/hmms/8014at5820.hmm /v3/inputs/annotations/ncbi-datasets/PvC01.proteins.fa 
+# Current dir:     /v3/work/00_inventory/busco
+# Date:            Tue May 19 19:05:58 2026
+# [ok]

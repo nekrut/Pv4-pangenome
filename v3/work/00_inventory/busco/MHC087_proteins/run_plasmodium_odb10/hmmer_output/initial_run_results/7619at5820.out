@@ -1,0 +1,29 @@
+#                                                                                                             --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name                                         accession   tlen query name           accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+#                                 ------------------- ---------- ----- -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+GCA_040114635.1|PVP01_0518300|PVP01_0518300.1|unknown -            406 7619at5820           -            348  2.8e-159  528.3   8.8   1   3   5.7e-83   5.1e-80  267.7   4.6     3   150     4   155     2   158 0.98 -
+GCA_040114635.1|PVP01_0518300|PVP01_0518300.1|unknown -            406 7619at5820           -            348  2.8e-159  528.3   8.8   2   3     3e-38   2.7e-35  120.6   0.1   150   237   174   263   168   270 0.94 -
+GCA_040114635.1|PVP01_0518300|PVP01_0518300.1|unknown -            406 7619at5820           -            348  2.8e-159  528.3   8.8   3   3   2.3e-44   2.1e-41  140.7   0.0   237   347   286   404   277   405 0.93 -
+GCA_040114635.1|PVP01_1455100|PVP01_1455100.1|unknown -            631 7619at5820           -            348   1.2e-30  105.3  20.9   1   3   1.7e-32   1.6e-29  101.6   9.6     1   204    18   223    18   240 0.82 -
+GCA_040114635.1|PVP01_1455100|PVP01_1455100.1|unknown -            631 7619at5820           -            348   1.2e-30  105.3  20.9   2   3   8.2e-05     0.074   10.6   1.1   170   235   325   394   296   403 0.81 -
+GCA_040114635.1|PVP01_1455100|PVP01_1455100.1|unknown -            631 7619at5820           -            348   1.2e-30  105.3  20.9   3   3      0.51   4.6e+02   -1.9   0.0   259   289   455   484   454   491 0.70 -
+GCA_040114635.1|PVP01_1444000|PVP01_1444000.1|unknown -           1139 7619at5820           -            348   1.6e-25   88.4  20.3   1   3   3.2e-10   2.9e-07   28.4  10.9     2   170    64   233    63   275 0.82 -
+GCA_040114635.1|PVP01_1444000|PVP01_1444000.1|unknown -           1139 7619at5820           -            348   1.6e-25   88.4  20.3   2   3   1.9e-18   1.7e-15   55.5   0.1     2   170   520   701   519   711 0.76 -
+GCA_040114635.1|PVP01_1444000|PVP01_1444000.1|unknown -           1139 7619at5820           -            348   1.6e-25   88.4  20.3   3   3   0.00022       0.2    9.2   0.3   179   255   904   980   877   990 0.79 -
+GCA_040114635.1|PVP01_1221500|PVP01_1221500.1|unknown -           1680 7619at5820           -            348   6.8e-21   73.2  13.6   1   3   8.5e-10   7.7e-07   27.0   3.9     2    67   214   279   213   319 0.77 -
+GCA_040114635.1|PVP01_1221500|PVP01_1221500.1|unknown -           1680 7619at5820           -            348   6.8e-21   73.2  13.6   2   3     2e-13   1.8e-10   38.9   0.1     2    67   669   743   668   755 0.86 -
+GCA_040114635.1|PVP01_1221500|PVP01_1221500.1|unknown -           1680 7619at5820           -            348   6.8e-21   73.2  13.6   3   3   2.5e-05     0.022   12.3   0.4    92   174   817   900   813   918 0.78 -
+GCA_040114635.1|PVP01_1106600|PVP01_1106600.1|unknown -            534 7619at5820           -            348   9.2e-18   62.9   4.2   1   2     1e-20   9.2e-18   62.9   4.2     3   147   104   252   102   268 0.86 -
+GCA_040114635.1|PVP01_1106600|PVP01_1106600.1|unknown -            534 7619at5820           -            348   9.2e-18   62.9   4.2   2   2         2   1.8e+03   -3.8   0.2    85   115   379   409   372   415 0.76 -
+GCA_040114635.1|PVP01_0926800|PVP01_0926800.1|unknown -           1236 7619at5820           -            348   3.2e-07   28.2   0.1   1   1   6.3e-10   5.6e-07   27.4   0.1     3    54   760   811   758   827 0.92 -
+GCA_040114635.1|PVP01_0945200|PVP01_0945200.1|unknown -            359 7619at5820           -            348   1.1e-06   26.5   4.8   1   1   2.1e-09   1.8e-06   25.8   4.8     2    68    30    95    29   132 0.83 -
+#
+# Program:         hmmsearch
+# Version:         3.4 (Aug 2023)
+# Pipeline mode:   SEARCH
+# Query file:      /v3/work/00_inventory/busco/busco_downloads/lineages/plasmodium_odb10/hmms/7619at5820.hmm
+# Target file:     /v3/inputs/annotations/ncbi-datasets/MHC087.proteins.fa
+# Option settings: hmmsearch --domtblout /v3/work/00_inventory/busco/MHC087_proteins/run_plasmodium_odb10/hmmer_output/initial_run_results/7619at5820.out --cpu 1 /v3/work/00_inventory/busco/busco_downloads/lineages/plasmodium_odb10/hmms/7619at5820.hmm /v3/inputs/annotations/ncbi-datasets/MHC087.proteins.fa 
+# Current dir:     /v3/work/00_inventory/busco
+# Date:            Tue May 19 18:19:22 2026
+# [ok]

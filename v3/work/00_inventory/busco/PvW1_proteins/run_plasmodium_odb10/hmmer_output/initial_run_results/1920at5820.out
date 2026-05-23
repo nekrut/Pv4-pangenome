@@ -1,0 +1,16 @@
+#                                                                            --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name        accession   tlen query name           accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+#------------------- ---------- ----- -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+CAG9485035.1         -           1150 1920at5820           -            839         0 1336.1 122.6   1   2   9.4e-85   2.8e-81  272.4  24.3     4   194     8   301     6   312 0.92 | transcript=PVW1_010019400_t1 | gene=PVW1_010019400 | organism=Plasmodium_vivax_PvW1 | gene_product=unspecified product | transcript_product=unspecified product | location=CAJZCX010000016:642799-646251(+) | protein_length=1150 | sequence_SO=supercontig | SO=protein_coding_gene | is_pseudo=false
+CAG9485035.1         -           1150 1920at5820           -            839         0 1336.1 122.6   2   2         0         0 1064.5  90.4   190   839   340  1150   315  1150 0.86 | transcript=PVW1_010019400_t1 | gene=PVW1_010019400 | organism=Plasmodium_vivax_PvW1 | gene_product=unspecified product | transcript_product=unspecified product | location=CAJZCX010000016:642799-646251(+) | protein_length=1150 | sequence_SO=supercontig | SO=protein_coding_gene | is_pseudo=false
+CAG9480655.1         -             99 1920at5820           -            839         1    5.9  24.3   1   1    0.0003      0.93    6.0  24.3   505   574     9    61     1    95 0.43 | transcript=PVW1_070032900_t1 | gene=PVW1_070032900 | organism=Plasmodium_vivax_PvW1 | gene_product=unspecified product | transcript_product=unspecified product | location=CAJZCX010000011:1214216-1214722(+) | protein_length=99 | sequence_SO=supercontig | SO=protein_coding_gene | is_pseudo=false
+#
+# Program:         hmmsearch
+# Version:         3.4 (Aug 2023)
+# Pipeline mode:   SEARCH
+# Query file:      /v3/work/00_inventory/busco/busco_downloads/lineages/plasmodium_odb10/hmms/1920at5820.hmm
+# Target file:     /v3/inputs/annotations/plasmodb-68/PvW1.proteins.fa
+# Option settings: hmmsearch --domtblout /v3/work/00_inventory/busco/PvW1_proteins/run_plasmodium_odb10/hmmer_output/initial_run_results/1920at5820.out --cpu 1 /v3/work/00_inventory/busco/busco_downloads/lineages/plasmodium_odb10/hmms/1920at5820.hmm /v3/inputs/annotations/plasmodb-68/PvW1.proteins.fa 
+# Current dir:     /v3/work/00_inventory/busco
+# Date:            Tue May 19 17:33:23 2026
+# [ok]

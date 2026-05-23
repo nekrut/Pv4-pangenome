@@ -1,0 +1,30 @@
+#                                                                            --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name        accession   tlen query name           accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+#------------------- ---------- ----- -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+SCO68059.1           -            202 12569at5820          -            174  1.5e-108  358.9   1.8   1   1  4.1e-111  1.7e-108  358.7   1.8     1   174    17   202    17   202 0.97 ubiquitin-conjugating enzyme, putative [Plasmodium vivax]
+SCO69139.1           -            147 12569at5820          -            174   4.2e-38  129.5   0.5   1   1   1.2e-40   4.7e-38  129.3   0.5    15   133    25   146     3   147 0.88 ubiquitin-conjugating enzyme E2, putative [Plasmodium vivax]
+SCO67625.1           -            152 12569at5820          -            174   1.7e-37  127.5   0.0   1   1   4.9e-40     2e-37  127.3   0.0    23   134    34   148    19   152 0.87 ubiquitin-conjugating enzyme E2 N, putative [Plasmodium vivax]
+SCO69851.1           -            164 12569at5820          -            174   1.5e-28   98.3   0.1   1   1   4.9e-31     2e-28   98.0   0.1    20   123    33   136    26   150 0.93 ubiquitin-conjugating enzyme, putative [Plasmodium vivax]
+SCO68330.1           -            152 12569at5820          -            174   4.8e-25   87.0   0.1   1   1   1.3e-27   5.3e-25   86.8   0.1    15   133    25   148    12   152 0.86 ubiquitin-conjugating enzyme E2, putative [Plasmodium vivax]
+SCO66928.1           -            160 12569at5820          -            174   5.5e-25   86.8   0.1   1   1   1.6e-27   6.4e-25   86.5   0.1    18   120    31   133    12   146 0.88 ubiquitin-conjugating enzyme, putative [Plasmodium vivax]
+SCO66472.1           -            159 12569at5820          -            174   3.4e-21   74.4   0.1   1   1   1.1e-23   4.4e-21   74.0   0.1    21   119    39   139    34   157 0.90 SUMO-conjugating enzyme UBC9, putative [Plasmodium vivax]
+SCO66277.1           -            191 12569at5820          -            174   1.3e-19   69.3   0.0   1   1   4.9e-22     2e-19   68.7   0.0    23   135    34   151    23   168 0.79 ubiquitin-conjugating enzyme, putative [Plasmodium vivax]
+SCO70200.1           -            150 12569at5820          -            174   6.1e-16   57.3   0.0   1   1   1.8e-18   7.1e-16   57.1   0.0    41   123    60   141    21   149 0.83 NEDD8-conjugating enzyme UBC12, putative [Plasmodium vivax]
+SCO66531.1           -            163 12569at5820          -            174     5e-14   51.1   0.7   1   1   5.7e-16   2.3e-13   48.9   0.7    16   120    29   148    25   159 0.81 ubiquitin-conjugating enzyme, putative [Plasmodium vivax]
+SCO69461.1           -            283 12569at5820          -            174   1.4e-10   39.9   0.2   1   1   6.4e-13   2.6e-10   39.0   0.2    16   103   162   250   149   261 0.85 ubiquitin-conjugating enzyme, putative [Plasmodium vivax]
+SCO68478.1           -            262 12569at5820          -            174   8.6e-09   34.0   1.0   1   2       2.8   1.1e+03   -2.2   0.0   133   154    49    70    31    87 0.75 ubiquitin-conjugating enzyme E2, putative [Plasmodium vivax]
+SCO68478.1           -            262 12569at5820          -            174   8.6e-09   34.0   1.0   2   2   3.7e-11   1.5e-08   33.2   0.3    23   104   150   232   134   246 0.83 ubiquitin-conjugating enzyme E2, putative [Plasmodium vivax]
+SCO67064.1           -            139 12569at5820          -            174   3.3e-08   32.1   0.0   1   1   9.6e-11   3.9e-08   31.9   0.0    21   112    41   135    32   139 0.81 ubiquitin-conjugating enzyme E2, putative [Plasmodium vivax]
+SCO70185.1           -            624 12569at5820          -            174   6.3e-05   21.5   0.1   1   1   2.8e-07   0.00011   20.6   0.1    18    86   195   263   192   292 0.85 ubiquitin-conjugating enzyme E2, putative [Plasmodium vivax]
+SCO66834.1           -            406 12569at5820          -            174    0.0017   16.8   0.4   1   2    0.0094       3.8    5.9   0.1   136   163   138   165    92   176 0.79 DNA repair protein RAD23, putative [Plasmodium vivax]
+SCO66834.1           -            406 12569at5820          -            174    0.0017   16.8   0.4   2   2    0.0017      0.69    8.3   0.0   138   173   363   399   352   400 0.90 DNA repair protein RAD23, putative [Plasmodium vivax]
+#
+# Program:         hmmsearch
+# Version:         3.4 (Aug 2023)
+# Pipeline mode:   SEARCH
+# Query file:      /v3/work/00_inventory/busco/busco_downloads/lineages/plasmodium_odb10/hmms/12569at5820.hmm
+# Target file:     /v3/inputs/annotations/ncbi-datasets/PvT01.proteins.fa
+# Option settings: hmmsearch --domtblout /v3/work/00_inventory/busco/PvT01_proteins/run_plasmodium_odb10/hmmer_output/initial_run_results/12569at5820.out --cpu 1 /v3/work/00_inventory/busco/busco_downloads/lineages/plasmodium_odb10/hmms/12569at5820.hmm /v3/inputs/annotations/ncbi-datasets/PvT01.proteins.fa 
+# Current dir:     /v3/work/00_inventory/busco
+# Date:            Tue May 19 18:30:02 2026
+# [ok]

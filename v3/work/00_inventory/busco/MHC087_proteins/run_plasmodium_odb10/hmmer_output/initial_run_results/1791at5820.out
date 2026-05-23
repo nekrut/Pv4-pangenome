@@ -1,0 +1,26 @@
+#                                                                                                             --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name                                         accession   tlen query name           accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+#                                 ------------------- ---------- ----- -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+GCA_040114635.1|PVP01_0419100|PVP01_0419100.1|unknown -           1491 1791at5820           -            805  2.8e-222  738.7  35.9   1   4  5.7e-101     9e-98  326.9   0.4     1   158     1   158     1   178 0.96 -
+GCA_040114635.1|PVP01_0419100|PVP01_0419100.1|unknown -           1491 1791at5820           -            805  2.8e-222  738.7  35.9   2   4   1.2e-21   1.9e-18   64.5   0.6   154   206   207   260   205   268 0.94 -
+GCA_040114635.1|PVP01_0419100|PVP01_0419100.1|unknown -           1491 1791at5820           -            805  2.8e-222  738.7  35.9   3   4   3.8e-30   5.9e-27   92.7   0.2   207   269   325   387   320   398 0.93 -
+GCA_040114635.1|PVP01_0419100|PVP01_0419100.1|unknown -           1491 1791at5820           -            805  2.8e-222  738.7  35.9   4   4   9.8e-83   1.5e-79  266.6  17.4   264   412   466   621   458   624 0.95 -
+GCA_040114635.1|PVP01_0307800|PVP01_0307800.1|unknown -            613 1791at5820           -            805   1.2e-32  111.5  19.4   1   4    0.0057         9    2.8   0.0     1    41     1    45     1    59 0.79 -
+GCA_040114635.1|PVP01_0307800|PVP01_0307800.1|unknown -            613 1791at5820           -            805   1.2e-32  111.5  19.4   2   4   1.7e-09   2.7e-06   24.3   0.0    80   135    63   118    46   120 0.89 -
+GCA_040114635.1|PVP01_0307800|PVP01_0307800.1|unknown -            613 1791at5820           -            805   1.2e-32  111.5  19.4   3   4   1.4e-24   2.3e-21   74.2   5.4   495   639   117   274   114   283 0.79 -
+GCA_040114635.1|PVP01_0307800|PVP01_0307800.1|unknown -            613 1791at5820           -            805   1.2e-32  111.5  19.4   4   4   1.5e-06    0.0023   14.6   7.4   668   768   281   378   272   421 0.79 -
+GCA_040114635.1|PVP01_0807900|PVP01_0807900.1|unknown -            407 1791at5820           -            805   1.1e-16   58.7  19.0   1   2   9.1e-05      0.14    8.7   3.5    20    98    25   102     1   138 0.74 -
+GCA_040114635.1|PVP01_0807900|PVP01_0807900.1|unknown -            407 1791at5820           -            805   1.1e-16   58.7  19.0   2   2   4.3e-19   6.8e-16   56.1   7.6   507   635   233   359   204   392 0.86 -
+GCA_040114635.1|PVP01_0320700|PVP01_0320700.1|unknown -           1247 1791at5820           -            805   1.6e-09   35.1  11.4   1   3   1.3e-05      0.02   11.5   1.2    71   139    71   135    57   158 0.78 -
+GCA_040114635.1|PVP01_0320700|PVP01_0320700.1|unknown -           1247 1791at5820           -            805   1.6e-09   35.1  11.4   2   3   1.4e-08   2.2e-05   21.3   0.8   513   570   156   213   141   225 0.81 -
+GCA_040114635.1|PVP01_0320700|PVP01_0320700.1|unknown -           1247 1791at5820           -            805   1.6e-09   35.1  11.4   3   3    0.0002      0.31    7.6   0.1   598   637   342   383   330   454 0.72 -
+#
+# Program:         hmmsearch
+# Version:         3.4 (Aug 2023)
+# Pipeline mode:   SEARCH
+# Query file:      /v3/work/00_inventory/busco/busco_downloads/lineages/plasmodium_odb10/hmms/1791at5820.hmm
+# Target file:     /v3/inputs/annotations/ncbi-datasets/MHC087.proteins.fa
+# Option settings: hmmsearch --domtblout /v3/work/00_inventory/busco/MHC087_proteins/run_plasmodium_odb10/hmmer_output/initial_run_results/1791at5820.out --cpu 1 /v3/work/00_inventory/busco/busco_downloads/lineages/plasmodium_odb10/hmms/1791at5820.hmm /v3/inputs/annotations/ncbi-datasets/MHC087.proteins.fa 
+# Current dir:     /v3/work/00_inventory/busco
+# Date:            Tue May 19 18:03:09 2026
+# [ok]

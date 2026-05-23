@@ -1,0 +1,29 @@
+#                                                                            --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name        accession   tlen query name           accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+#------------------- ---------- ----- -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+SCO65574.1           -            330 8180at5820           -            296  2.7e-184  609.6   6.5   1   1  6.2e-187  3.8e-184  609.1   6.5     1   296     1   328     1   328 0.97 replication factor C subunit 2, putative [Plasmodium vivax]
+SCO68816.1           -            344 8180at5820           -            296   1.5e-55  186.9   1.1   1   1   3.4e-58   2.1e-55  186.5   1.1     4   260    13   279    10   295 0.81 replication factor C subunit 3, putative [Plasmodium vivax]
+SCO70165.1           -            336 8180at5820           -            296   9.4e-47  158.0   3.2   1   1   3.2e-49     2e-46  157.0   3.2     6   226    18   241    13   287 0.85 replication factor C subunit 4, putative [Plasmodium vivax]
+SCO67211.1           -            349 8180at5820           -            296   3.9e-22   77.2   0.4   1   2   6.4e-25   3.9e-22   77.2   0.4     6   165     2   181     1   197 0.77 replication factor C subunit 5, putative [Plasmodium vivax]
+SCO67211.1           -            349 8180at5820           -            296   3.9e-22   77.2   0.4   2   2      0.32     2e+02   -0.6   0.6   135   273   288   319   244   341 0.59 replication factor C subunit 5, putative [Plasmodium vivax]
+SCO65561.1           -            945 8180at5820           -            296   9.8e-10   36.5   4.7   1   2   7.3e-05     0.044   11.4   0.1     3    30   393   420   391   425 0.89 replication factor C subunit 1, putative [Plasmodium vivax]
+SCO65561.1           -            945 8180at5820           -            296   9.8e-10   36.5   4.7   2   2   2.5e-09   1.5e-06   26.0   1.2    33   210   449   624   436   646 0.75 replication factor C subunit 1, putative [Plasmodium vivax]
+SCO67267.1           -            905 8180at5820           -            296   0.00015   19.5   0.0   1   2    0.0037       2.3    5.8   0.0     8    57   198   250   194   269 0.74 heat shock protein 101, putative [Plasmodium vivax]
+SCO67267.1           -            905 8180at5820           -            296   0.00015   19.5   0.0   2   2   0.00011     0.066   10.8   0.0    15    64   612   661   605   711 0.83 heat shock protein 101, putative [Plasmodium vivax]
+SCO67491.1           -            627 8180at5820           -            296    0.0029   15.2   0.4   1   2   1.4e-05    0.0086   13.7   0.0    31    64   341   376   314   390 0.75 AAA family ATPase, putative [Plasmodium vivax]
+SCO67491.1           -            627 8180at5820           -            296    0.0029   15.2   0.4   2   2       1.5   9.1e+02   -2.8   0.2   140   190   469   519   459   535 0.80 AAA family ATPase, putative [Plasmodium vivax]
+SCO65916.1           -           1051 8180at5820           -            296    0.0072   14.0   0.0   1   2    0.0052       3.1    5.3   0.0    23    59   337   372   318   386 0.75 chaperone protein ClpB1, putative [Plasmodium vivax]
+SCO65916.1           -           1051 8180at5820           -            296    0.0072   14.0   0.0   2   2    0.0051       3.1    5.3   0.0    21    61   777   817   760   841 0.85 chaperone protein ClpB1, putative [Plasmodium vivax]
+SCO68360.1           -            483 8180at5820           -            296     0.015   13.0   0.0   1   1   4.5e-05     0.027   12.1   0.0    37    80   257   299   230   304 0.78 mitochondrial chaperone BCS1, putative [Plasmodium vivax]
+SCO64965.1           -           1089 8180at5820           -            296     0.032   11.8   0.0   1   2    0.0019       1.1    6.8   0.0    37    57   513   533   507   579 0.92 AAA family ATPase, CDC48 subfamily, putative [Plasmodium vivax]
+SCO64965.1           -           1089 8180at5820           -            296     0.032   11.8   0.0   2   2     0.041        25    2.4   0.0    37    58   833   854   822   866 0.84 AAA family ATPase, CDC48 subfamily, putative [Plasmodium vivax]
+#
+# Program:         hmmsearch
+# Version:         3.4 (Aug 2023)
+# Pipeline mode:   SEARCH
+# Query file:      /v3/work/00_inventory/busco/busco_downloads/lineages/plasmodium_odb10/hmms/8180at5820.hmm
+# Target file:     /v3/inputs/annotations/ncbi-datasets/PvT01.proteins.fa
+# Option settings: hmmsearch --domtblout /v3/work/00_inventory/busco/PvT01_proteins/run_plasmodium_odb10/hmmer_output/initial_run_results/8180at5820.out --cpu 1 /v3/work/00_inventory/busco/busco_downloads/lineages/plasmodium_odb10/hmms/8180at5820.hmm /v3/inputs/annotations/ncbi-datasets/PvT01.proteins.fa 
+# Current dir:     /v3/work/00_inventory/busco
+# Date:            Tue May 19 19:06:40 2026
+# [ok]

@@ -1,0 +1,23 @@
+#                                                                            --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name        accession   tlen query name           accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+#------------------- ---------- ----- -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+SCO70702.1           -            907 6996at5820           -            561  5.2e-278  921.8  49.3   1   6   3.5e-29   1.1e-25   88.8   0.2     1    66    36   105    36   108 0.90 tRNA pseudouridine synthase D, putative [Plasmodium vivax]
+SCO70702.1           -            907 6996at5820           -            561  5.2e-278  921.8  49.3   2   6  2.3e-131  7.4e-128  426.1  14.4    65   307   162   425   158   430 0.91 tRNA pseudouridine synthase D, putative [Plasmodium vivax]
+SCO70702.1           -            907 6996at5820           -            561  5.2e-278  921.8  49.3   3   6   4.9e-41   1.5e-37  128.0   0.6   303   381   480   560   477   563 0.93 tRNA pseudouridine synthase D, putative [Plasmodium vivax]
+SCO70702.1           -            907 6996at5820           -            561  5.2e-278  921.8  49.3   4   6   5.5e-32   1.7e-28   98.1   1.1   382   446   590   653   587   667 0.90 tRNA pseudouridine synthase D, putative [Plasmodium vivax]
+SCO70702.1           -            907 6996at5820           -            561  5.2e-278  921.8  49.3   5   6   8.1e-41   2.5e-37  127.3   1.4   431   517   661   748   655   751 0.91 tRNA pseudouridine synthase D, putative [Plasmodium vivax]
+SCO70702.1           -            907 6996at5820           -            561  5.2e-278  921.8  49.3   6   6   1.8e-25   5.7e-22   76.6   0.5   511   561   844   894   828   894 0.90 tRNA pseudouridine synthase D, putative [Plasmodium vivax]
+SCO71720.1           -           1156 6996at5820           -            561   1.5e-15   55.4  19.9   1   4   2.5e-05     0.079   10.1   2.1    16    90    37   117    29   137 0.64 U2 snRNA/tRNA pseudouridine synthase, putative [Plasmodium vivax]
+SCO71720.1           -           1156 6996at5820           -            561   1.5e-15   55.4  19.9   2   4   8.1e-08   0.00026   18.3   0.6    61   115   483   537   466   553 0.84 U2 snRNA/tRNA pseudouridine synthase, putative [Plasmodium vivax]
+SCO71720.1           -           1156 6996at5820           -            561   1.5e-15   55.4  19.9   3   4   9.5e-13     3e-09   34.6   0.9   140   225   589   677   583   686 0.83 U2 snRNA/tRNA pseudouridine synthase, putative [Plasmodium vivax]
+SCO71720.1           -           1156 6996at5820           -            561   1.5e-15   55.4  19.9   4   4    0.0057        18    2.3   0.1   329   361   899   932   880   950 0.78 U2 snRNA/tRNA pseudouridine synthase, putative [Plasmodium vivax]
+#
+# Program:         hmmsearch
+# Version:         3.4 (Aug 2023)
+# Pipeline mode:   SEARCH
+# Query file:      /v3/work/00_inventory/busco/busco_downloads/lineages/plasmodium_odb10/hmms/6996at5820.hmm
+# Target file:     /v3/inputs/annotations/ncbi-datasets/PvC01.proteins.fa
+# Option settings: hmmsearch --domtblout /v3/work/00_inventory/busco/PvC01_proteins/run_plasmodium_odb10/hmmer_output/initial_run_results/6996at5820.out --cpu 1 /v3/work/00_inventory/busco/busco_downloads/lineages/plasmodium_odb10/hmms/6996at5820.hmm /v3/inputs/annotations/ncbi-datasets/PvC01.proteins.fa 
+# Current dir:     /v3/work/00_inventory/busco
+# Date:            Tue May 19 18:55:50 2026
+# [ok]

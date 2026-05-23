@@ -1,0 +1,16 @@
+#                                                                            --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name        accession   tlen query name           accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+#------------------- ---------- ----- -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+SCO72380.1           -            516 5982at5820           -            406  8.2e-223  738.4  23.7   1   2  6.3e-158    2e-154  513.2   8.6     1   300     1   360     1   368 0.96 E3 ubiquitin-protein ligase, putative [Plasmodium vivax]
+SCO72380.1           -            516 5982at5820           -            406  8.2e-223  738.4  23.7   2   2   2.3e-72   7.1e-69  231.4   7.2   298   406   394   511   373   511 0.93 E3 ubiquitin-protein ligase, putative [Plasmodium vivax]
+SCO71038.1           -            293 5982at5820           -            406   9.4e-08   30.1  10.4   1   1   3.6e-11   1.1e-07   29.8   9.6   350   398   226   276    79   283 0.74 RING zinc finger protein, putative [Plasmodium vivax]
+#
+# Program:         hmmsearch
+# Version:         3.4 (Aug 2023)
+# Pipeline mode:   SEARCH
+# Query file:      /v3/work/00_inventory/busco/busco_downloads/lineages/plasmodium_odb10/hmms/5982at5820.hmm
+# Target file:     /v3/inputs/annotations/ncbi-datasets/PvC01.proteins.fa
+# Option settings: hmmsearch --domtblout /v3/work/00_inventory/busco/PvC01_proteins/run_plasmodium_odb10/hmmer_output/initial_run_results/5982at5820.out --cpu 1 /v3/work/00_inventory/busco/busco_downloads/lineages/plasmodium_odb10/hmms/5982at5820.hmm /v3/inputs/annotations/ncbi-datasets/PvC01.proteins.fa 
+# Current dir:     /v3/work/00_inventory/busco
+# Date:            Tue May 19 18:58:09 2026
+# [ok]

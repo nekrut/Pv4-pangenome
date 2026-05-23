@@ -1,0 +1,16 @@
+#                                                                            --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name        accession   tlen query name           accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+#------------------- ---------- ----- -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+CAI7722847.1         -            374 9302at5820           -            271  2.4e-156  517.5   5.1   1   2   1.3e-10   4.1e-07   28.1   0.0     8    38    33    63    16    70 0.89 | transcript=PVPAM_130034900_t1 | gene=PVPAM_130034900 | organism=Plasmodium_vivax_PAM | gene_product=serine/threonine protein phosphatase 2A activator, putative | transcript_product=serine/threonine protein phosphatase 2A activator, putative | location=CASCJQ010000013:1346138-1348048(-) | protein_length=374 | sequence_SO=supercontig | SO=protein_coding_gene | is_pseudo=false
+CAI7722847.1         -            374 9302at5820           -            271  2.4e-156  517.5   5.1   2   2  2.9e-151  9.3e-148  489.3   3.2    33   271   121   374   114   374 0.96 | transcript=PVPAM_130034900_t1 | gene=PVPAM_130034900 | organism=Plasmodium_vivax_PAM | gene_product=serine/threonine protein phosphatase 2A activator, putative | transcript_product=serine/threonine protein phosphatase 2A activator, putative | location=CASCJQ010000013:1346138-1348048(-) | protein_length=374 | sequence_SO=supercontig | SO=protein_coding_gene | is_pseudo=false
+CAI7723909.1         -            125 9302at5820           -            271     0.028   12.3  17.3   1   1   5.4e-06     0.017   12.9  16.0    69   156     7    93     3   101 0.88 | transcript=PVPAM_API0007800_t1 | gene=PVPAM_API0007800 | organism=Plasmodium_vivax_PAM | gene_product=apicoplast ribosomal protein L11, putative | transcript_product=apicoplast ribosomal protein L11, putative | location=CASCJQ010000015:11343-11720(+) | protein_length=125 | sequence_SO=supercontig | SO=protein_coding_gene | is_pseudo=false
+#
+# Program:         hmmsearch
+# Version:         3.4 (Aug 2023)
+# Pipeline mode:   SEARCH
+# Query file:      /v3/work/00_inventory/busco/busco_downloads/lineages/plasmodium_odb10/hmms/9302at5820.hmm
+# Target file:     /v3/inputs/annotations/plasmodb-68/PAM.proteins.fa
+# Option settings: hmmsearch --domtblout /v3/work/00_inventory/busco/PAM_proteins/run_plasmodium_odb10/hmmer_output/initial_run_results/9302at5820.out --cpu 1 /v3/work/00_inventory/busco/busco_downloads/lineages/plasmodium_odb10/hmms/9302at5820.hmm /v3/inputs/annotations/plasmodb-68/PAM.proteins.fa 
+# Current dir:     /v3/work/00_inventory/busco
+# Date:            Tue May 19 17:50:34 2026
+# [ok]

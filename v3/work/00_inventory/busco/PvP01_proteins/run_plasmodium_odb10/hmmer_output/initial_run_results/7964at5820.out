@@ -1,0 +1,17 @@
+#                                                                            --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name        accession   tlen query name           accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+#------------------- ---------- ----- -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+PVP01_1332600.1-p1   -            394 7964at5820           -            354  6.5e-203  672.3  10.8   1   1  2.3e-206  7.6e-203  672.0  10.8     1   354     1   394     1   394 0.98 | transcript=PVP01_1332600.1 | gene=PVP01_1332600 | organism=Plasmodium_vivax_P01 | gene_product=N-acyl-phosphatidylethanolamine-hydrolyzing phospholipase D, putative | transcript_product=N-acyl-phosphatidylethanolamine-hydrolyzing phospholipase D, putative | location=PvP01_13_v2:1400832-1402193(-) | protein_length=394 | sequence_SO=chromosome | SO=protein_coding_gene | is_pseudo=false
+PVP01_0944500.1-p1   -            813 7964at5820           -            354   8.5e-08   30.5   6.4   1   3   2.6e-05     0.085   10.7   0.1    85   143   316   375   278   420 0.75 | transcript=PVP01_0944500.1 | gene=PVP01_0944500 | organism=Plasmodium_vivax_P01 | gene_product=oocyst capsule protein Cap93, putative | transcript_product=oocyst capsule protein Cap93, putative | location=PvP01_09_v2:1958647-1961088(+) | protein_length=813 | sequence_SO=chromosome | SO=protein_coding_gene | is_pseudo=false
+PVP01_0944500.1-p1   -            813 7964at5820           -            354   8.5e-08   30.5   6.4   2   3   7.9e-09   2.6e-05   22.3   0.0   213   332   493   615   480   618 0.82 | transcript=PVP01_0944500.1 | gene=PVP01_0944500 | organism=Plasmodium_vivax_P01 | gene_product=oocyst capsule protein Cap93, putative | transcript_product=oocyst capsule protein Cap93, putative | location=PvP01_09_v2:1958647-1961088(+) | protein_length=813 | sequence_SO=chromosome | SO=protein_coding_gene | is_pseudo=false
+PVP01_0944500.1-p1   -            813 7964at5820           -            354   8.5e-08   30.5   6.4   3   3      0.36   1.2e+03   -2.9   1.2   208   260   659   709   651   719 0.70 | transcript=PVP01_0944500.1 | gene=PVP01_0944500 | organism=Plasmodium_vivax_P01 | gene_product=oocyst capsule protein Cap93, putative | transcript_product=oocyst capsule protein Cap93, putative | location=PvP01_09_v2:1958647-1961088(+) | protein_length=813 | sequence_SO=chromosome | SO=protein_coding_gene | is_pseudo=false
+#
+# Program:         hmmsearch
+# Version:         3.4 (Aug 2023)
+# Pipeline mode:   SEARCH
+# Query file:      /v3/work/00_inventory/busco/busco_downloads/lineages/plasmodium_odb10/hmms/7964at5820.hmm
+# Target file:     /v3/inputs/annotations/plasmodb-68/PvP01.proteins.fa
+# Option settings: hmmsearch --domtblout /v3/work/00_inventory/busco/PvP01_proteins/run_plasmodium_odb10/hmmer_output/initial_run_results/7964at5820.out --cpu 1 /v3/work/00_inventory/busco/busco_downloads/lineages/plasmodium_odb10/hmms/7964at5820.hmm /v3/inputs/annotations/plasmodb-68/PvP01.proteins.fa 
+# Current dir:     /v3/work/00_inventory/busco
+# Date:            Tue May 19 17:49:29 2026
+# [ok]

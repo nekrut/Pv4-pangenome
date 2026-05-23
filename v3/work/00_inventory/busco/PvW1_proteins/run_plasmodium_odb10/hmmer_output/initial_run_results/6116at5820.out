@@ -1,0 +1,15 @@
+#                                                                            --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name        accession   tlen query name           accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+#------------------- ---------- ----- -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+CAG9473793.1         -            473 6116at5820           -            411  1.5e-240  796.6  11.7   1   2  2.7e-179  1.6e-175  582.3   6.0     1   288     5   303     5   317 0.96 | transcript=PVW1_120067100_t1 | gene=PVW1_120067100 | organism=Plasmodium_vivax_PvW1 | gene_product=6-phosphogluconate dehydrogenase, decarboxylating [Source:UniProtKB/TrEMBL;Acc:A0A1G4H222] | transcript_product=6-phosphogluconate dehydrogenase, decarboxylating [Source:UniProtKB/TrEMBL;Acc:A0A1G4H222] | location=CAJZCX010000004:2606476-2607897(-) | protein_length=473 | sequence_SO=supercontig | SO=protein_coding_gene | is_pseudo=false
+CAG9473793.1         -            473 6116at5820           -            411  1.5e-240  796.6  11.7   2   2     1e-68   6.1e-65  218.1   0.3   283   407   321   462   306   472 0.88 | transcript=PVW1_120067100_t1 | gene=PVW1_120067100 | organism=Plasmodium_vivax_PvW1 | gene_product=6-phosphogluconate dehydrogenase, decarboxylating [Source:UniProtKB/TrEMBL;Acc:A0A1G4H222] | transcript_product=6-phosphogluconate dehydrogenase, decarboxylating [Source:UniProtKB/TrEMBL;Acc:A0A1G4H222] | location=CAJZCX010000004:2606476-2607897(-) | protein_length=473 | sequence_SO=supercontig | SO=protein_coding_gene | is_pseudo=false
+#
+# Program:         hmmsearch
+# Version:         3.4 (Aug 2023)
+# Pipeline mode:   SEARCH
+# Query file:      /v3/work/00_inventory/busco/busco_downloads/lineages/plasmodium_odb10/hmms/6116at5820.hmm
+# Target file:     /v3/inputs/annotations/plasmodb-68/PvW1.proteins.fa
+# Option settings: hmmsearch --domtblout /v3/work/00_inventory/busco/PvW1_proteins/run_plasmodium_odb10/hmmer_output/initial_run_results/6116at5820.out --cpu 1 /v3/work/00_inventory/busco/busco_downloads/lineages/plasmodium_odb10/hmms/6116at5820.hmm /v3/inputs/annotations/plasmodb-68/PvW1.proteins.fa 
+# Current dir:     /v3/work/00_inventory/busco
+# Date:            Tue May 19 17:45:14 2026
+# [ok]

@@ -1,0 +1,17 @@
+#                                                                            --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name        accession   tlen query name           accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+#------------------- ---------- ----- -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+PVX_124060.1-p1      -            916 9378at5820           -            374  1.7e-142  472.9  58.2   1   4   2.6e-61   1.4e-57  193.4  21.9     1   157     1   179     1   205 0.89 | transcript=PVX_124060.1 | gene=PVX_124060 | organism=Plasmodium_vivax_Sal-1 | gene_product=merozoite surface protein-9 precursor | transcript_product=merozoite surface protein-9 precursor | location=Pv_Sal1_chr14:2009675-2012425(-) | protein_length=916 | sequence_SO=chromosome | SO=protein_coding_gene | is_pseudo=false
+PVX_124060.1-p1      -            916 9378at5820           -            374  1.7e-142  472.9  58.2   2   4   7.3e-79   4.1e-75  251.2  12.6   156   339   214   410   198   412 0.92 | transcript=PVX_124060.1 | gene=PVX_124060 | organism=Plasmodium_vivax_Sal-1 | gene_product=merozoite surface protein-9 precursor | transcript_product=merozoite surface protein-9 precursor | location=Pv_Sal1_chr14:2009675-2012425(-) | protein_length=916 | sequence_SO=chromosome | SO=protein_coding_gene | is_pseudo=false
+PVX_124060.1-p1      -            916 9378at5820           -            374  1.7e-142  472.9  58.2   3   4   2.7e-14   1.5e-10   38.7   0.0   326   363   425   462   420   475 0.87 | transcript=PVX_124060.1 | gene=PVX_124060 | organism=Plasmodium_vivax_Sal-1 | gene_product=merozoite surface protein-9 precursor | transcript_product=merozoite surface protein-9 precursor | location=Pv_Sal1_chr14:2009675-2012425(-) | protein_length=916 | sequence_SO=chromosome | SO=protein_coding_gene | is_pseudo=false
+PVX_124060.1-p1      -            916 9378at5820           -            374  1.7e-142  472.9  58.2   4   4    0.0015       8.5    3.3   3.9   165   251   486   571   477   579 0.86 | transcript=PVX_124060.1 | gene=PVX_124060 | organism=Plasmodium_vivax_Sal-1 | gene_product=merozoite surface protein-9 precursor | transcript_product=merozoite surface protein-9 precursor | location=Pv_Sal1_chr14:2009675-2012425(-) | protein_length=916 | sequence_SO=chromosome | SO=protein_coding_gene | is_pseudo=false
+#
+# Program:         hmmsearch
+# Version:         3.4 (Aug 2023)
+# Pipeline mode:   SEARCH
+# Query file:      /v3/work/00_inventory/busco/busco_downloads/lineages/plasmodium_odb10/hmms/9378at5820.hmm
+# Target file:     /v3/inputs/annotations/plasmodb-68/Sal-I.proteins.fa
+# Option settings: hmmsearch --domtblout /v3/work/00_inventory/busco/Sal-I_proteins/run_plasmodium_odb10/hmmer_output/initial_run_results/9378at5820.out --cpu 1 /v3/work/00_inventory/busco/busco_downloads/lineages/plasmodium_odb10/hmms/9378at5820.hmm /v3/inputs/annotations/plasmodb-68/Sal-I.proteins.fa 
+# Current dir:     /v3/work/00_inventory/busco
+# Date:            Tue May 19 17:50:55 2026
+# [ok]

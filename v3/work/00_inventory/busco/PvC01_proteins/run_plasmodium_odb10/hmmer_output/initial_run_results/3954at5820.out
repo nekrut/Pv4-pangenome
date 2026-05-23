@@ -1,0 +1,24 @@
+#                                                                            --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name        accession   tlen query name           accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+#------------------- ---------- ----- -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+SCO73821.1           -            948 3954at5820           -            617  1.9e-274  910.3  94.5   1   6   2.1e-38   2.7e-35  120.4   0.3     1    79     1    82     1    88 0.95 trophozoite exported protein 1, putative [Plasmodium vivax]
+SCO73821.1           -            948 3954at5820           -            617  1.9e-274  910.3  94.5   2   6   3.4e-09   4.3e-06   23.9   0.1    79   113   130   170   127   174 0.77 trophozoite exported protein 1, putative [Plasmodium vivax]
+SCO73821.1           -            948 3954at5820           -            617  1.9e-274  910.3  94.5   3   6   2.2e-29   2.7e-26   90.7   8.4    94   205   249   380   240   385 0.82 trophozoite exported protein 1, putative [Plasmodium vivax]
+SCO73821.1           -            948 3954at5820           -            617  1.9e-274  910.3  94.5   4   6   8.7e-70   1.1e-66  224.1  18.3   206   358   470   622   467   630 0.98 trophozoite exported protein 1, putative [Plasmodium vivax]
+SCO73821.1           -            948 3954at5820           -            617  1.9e-274  910.3  94.5   5   6   4.3e-96   5.4e-93  311.0  25.0   358   543   646   831   642   835 0.98 trophozoite exported protein 1, putative [Plasmodium vivax]
+SCO73821.1           -            948 3954at5820           -            617  1.9e-274  910.3  94.5   6   6   4.6e-51   5.8e-48  162.2   8.2   540   617   871   948   859   948 0.93 trophozoite exported protein 1, putative [Plasmodium vivax]
+SCO73589.1           -            519 3954at5820           -            617   2.3e-06   24.9   8.1   1   1   1.8e-09   2.3e-06   24.9   8.1   539   609   339   408   312   414 0.75 E3 ubiquitin-protein ligase RNF5, putative [Plasmodium vivax]
+SCO74630.1           -           1740 3954at5820           -            617   0.00049   17.1   6.5   1   1   9.4e-07    0.0012   15.9   6.5   557   605   415   462   406   468 0.88 zinc finger protein, putative [Plasmodium vivax]
+SCO71380.1           -            730 3954at5820           -            617    0.0011   15.9   7.4   1   1   1.6e-06     0.002   15.1   7.4   544   607    61   122    42   129 0.79 RING zinc finger protein, putative [Plasmodium vivax]
+SCO73171.1           -            271 3954at5820           -            617       1.5    5.7  17.6   1   2   6.1e-06    0.0077   13.2   2.8   556   608    35    87    15    96 0.87 conserved Plasmodium protein, unknown function [Plasmodium vivax]
+SCO73171.1           -            271 3954at5820           -            617       1.5    5.7  17.6   2   2      0.86   1.1e+03   -3.8  10.4   309   376    88   155    75   163 0.61 conserved Plasmodium protein, unknown function [Plasmodium vivax]
+#
+# Program:         hmmsearch
+# Version:         3.4 (Aug 2023)
+# Pipeline mode:   SEARCH
+# Query file:      /v3/work/00_inventory/busco/busco_downloads/lineages/plasmodium_odb10/hmms/3954at5820.hmm
+# Target file:     /v3/inputs/annotations/ncbi-datasets/PvC01.proteins.fa
+# Option settings: hmmsearch --domtblout /v3/work/00_inventory/busco/PvC01_proteins/run_plasmodium_odb10/hmmer_output/initial_run_results/3954at5820.out --cpu 1 /v3/work/00_inventory/busco/busco_downloads/lineages/plasmodium_odb10/hmms/3954at5820.hmm /v3/inputs/annotations/ncbi-datasets/PvC01.proteins.fa 
+# Current dir:     /v3/work/00_inventory/busco
+# Date:            Tue May 19 18:41:18 2026
+# [ok]

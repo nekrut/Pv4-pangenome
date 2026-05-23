@@ -1,0 +1,15 @@
+#                                                                            --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name        accession   tlen query name           accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+#------------------- ---------- ----- -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+PVP01_0612700.1-p1   -            334 8900at5820           -            300  7.3e-164  543.2   7.2   1   1  2.6e-167  8.4e-164  543.0   7.2     1   300     7   332     7   332 0.94 | transcript=PVP01_0612700.1 | gene=PVP01_0612700 | organism=Plasmodium_vivax_P01 | gene_product=meiotic recombination protein SPO11-2, putative | transcript_product=meiotic recombination protein SPO11-2, putative | location=PvP01_06_v2:551004-553371(-) | protein_length=334 | sequence_SO=chromosome | SO=protein_coding_gene | is_pseudo=false
+PVP01_1435900.1-p1   -            329 8900at5820           -            300   4.1e-28   97.4   5.4   1   1   1.6e-31   5.3e-28   97.1   5.4    12   274    14   288     4   312 0.80 | transcript=PVP01_1435900.1 | gene=PVP01_1435900 | organism=Plasmodium_vivax_P01 | gene_product=DNA topoisomerase 6 subunit A, putative | transcript_product=DNA topoisomerase 6 subunit A, putative | location=PvP01_14_v2:1511254-1513296(-) | protein_length=329 | sequence_SO=chromosome | SO=protein_coding_gene | is_pseudo=false
+#
+# Program:         hmmsearch
+# Version:         3.4 (Aug 2023)
+# Pipeline mode:   SEARCH
+# Query file:      /v3/work/00_inventory/busco/busco_downloads/lineages/plasmodium_odb10/hmms/8900at5820.hmm
+# Target file:     /v3/inputs/annotations/plasmodb-68/PvP01.proteins.fa
+# Option settings: hmmsearch --domtblout /v3/work/00_inventory/busco/PvP01_proteins/run_plasmodium_odb10/hmmer_output/initial_run_results/8900at5820.out --cpu 1 /v3/work/00_inventory/busco/busco_downloads/lineages/plasmodium_odb10/hmms/8900at5820.hmm /v3/inputs/annotations/plasmodb-68/PvP01.proteins.fa 
+# Current dir:     /v3/work/00_inventory/busco
+# Date:            Tue May 19 17:49:03 2026
+# [ok]

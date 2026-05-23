@@ -1,0 +1,16 @@
+#                                                                            --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name        accession   tlen query name           accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+#------------------- ---------- ----- -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+SCO75614.1           -            497 8372at5820           -            310  3.5e-157  521.2  15.8   1   3   1.2e-10   7.6e-07   27.4   0.0     5    32    78   105    76   117 0.89 S-adenosyl-methyltransferase mraW, putative [Plasmodium vivax]
+SCO75614.1           -            497 8372at5820           -            310  3.5e-157  521.2  15.8   2   3   8.3e-70   5.2e-66  221.7   1.6    33   153   183   304   178   310 0.98 S-adenosyl-methyltransferase mraW, putative [Plasmodium vivax]
+SCO75614.1           -            497 8372at5820           -            310  3.5e-157  521.2  15.8   3   3   1.4e-86   8.5e-83  276.9   6.0   153   310   336   496   308   496 0.95 S-adenosyl-methyltransferase mraW, putative [Plasmodium vivax]
+#
+# Program:         hmmsearch
+# Version:         3.4 (Aug 2023)
+# Pipeline mode:   SEARCH
+# Query file:      /v3/work/00_inventory/busco/busco_downloads/lineages/plasmodium_odb10/hmms/8372at5820.hmm
+# Target file:     /v3/inputs/annotations/ncbi-datasets/PvC01.proteins.fa
+# Option settings: hmmsearch --domtblout /v3/work/00_inventory/busco/PvC01_proteins/run_plasmodium_odb10/hmmer_output/initial_run_results/8372at5820.out --cpu 1 /v3/work/00_inventory/busco/busco_downloads/lineages/plasmodium_odb10/hmms/8372at5820.hmm /v3/inputs/annotations/ncbi-datasets/PvC01.proteins.fa 
+# Current dir:     /v3/work/00_inventory/busco
+# Date:            Tue May 19 19:05:20 2026
+# [ok]

@@ -1,0 +1,17 @@
+#                                                                            --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name        accession   tlen query name           accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+#------------------- ---------- ----- -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+CAI7721062.1         -            149 15179at5820          -            122   8.5e-51  169.6   2.1   1   1     5e-54   1.1e-50  169.3   2.1    18   121    41   145    28   146 0.93 | transcript=PVPAM_100033000_t1 | gene=PVPAM_100033000 | organism=Plasmodium_vivax_PAM | gene_product=subtilisin propeptide-like protein, putative | transcript_product=subtilisin propeptide-like protein, putative | location=CASCJQ010000010:1215159-1215608(+) | protein_length=149 | sequence_SO=supercontig | SO=protein_coding_gene | is_pseudo=false
+CAI7724205.1         -            361 15179at5820          -            122    0.0027   16.3   1.5   1   2   1.2e-06    0.0027   16.3   1.5    28   103     5    86     2    95 0.87 | transcript=PVPAM_000033100_t1 | gene=PVPAM_000033100 | organism=Plasmodium_vivax_PAM | gene_product=PIR protein | transcript_product=PIR protein | location=CASCJQ010000021:102087-103386(-) | protein_length=361 | sequence_SO=supercontig | SO=protein_coding_gene | is_pseudo=false
+CAI7724205.1         -            361 15179at5820          -            122    0.0027   16.3   1.5   2   2      0.51   1.1e+03   -1.9   0.1    55    70   147   162   141   185 0.75 | transcript=PVPAM_000033100_t1 | gene=PVPAM_000033100 | organism=Plasmodium_vivax_PAM | gene_product=PIR protein | transcript_product=PIR protein | location=CASCJQ010000021:102087-103386(-) | protein_length=361 | sequence_SO=supercontig | SO=protein_coding_gene | is_pseudo=false
+CAI7721061.1         -            630 15179at5820          -            122     0.026   13.1   0.0   1   1   2.6e-05     0.056   12.0   0.0    57   118   135   197   110   201 0.82 | transcript=PVPAM_100032900_t1 | gene=PVPAM_100032900 | organism=Plasmodium_vivax_PAM | gene_product=subtilisin-like protease 1 | transcript_product=subtilisin-like protease 1 | location=CASCJQ010000010:1211834-1213726(+) | protein_length=630 | sequence_SO=supercontig | SO=protein_coding_gene | is_pseudo=false
+#
+# Program:         hmmsearch
+# Version:         3.4 (Aug 2023)
+# Pipeline mode:   SEARCH
+# Query file:      /v3/work/00_inventory/busco/busco_downloads/lineages/plasmodium_odb10/hmms/15179at5820.hmm
+# Target file:     /v3/inputs/annotations/plasmodb-68/PAM.proteins.fa
+# Option settings: hmmsearch --domtblout /v3/work/00_inventory/busco/PAM_proteins/run_plasmodium_odb10/hmmer_output/initial_run_results/15179at5820.out --cpu 1 /v3/work/00_inventory/busco/busco_downloads/lineages/plasmodium_odb10/hmms/15179at5820.hmm /v3/inputs/annotations/plasmodb-68/PAM.proteins.fa 
+# Current dir:     /v3/work/00_inventory/busco
+# Date:            Tue May 19 17:35:16 2026
+# [ok]

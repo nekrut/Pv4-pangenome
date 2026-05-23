@@ -1,0 +1,16 @@
+#                                                                            --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name        accession   tlen query name           accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+#------------------- ---------- ----- -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+SCO67051.1           -            143 13944at5820          -            126   1.3e-81  269.3   2.5   1   1   7.1e-85   1.4e-81  269.1   2.5     1   126     1   126     1   126 1.00 40S ribosomal protein S12, putative [Plasmodium vivax]
+SCO69355.1           -            283 13944at5820          -            126     0.011   14.3   0.6   1   1   1.1e-05     0.023   13.2   0.4    23    95   134   205   121   212 0.78 60S ribosomal protein L7-3, putative [Plasmodium vivax]
+SCO67338.1           -            145 13944at5820          -            126     0.018   13.5   0.0   1   1   1.2e-05     0.023   13.2   0.0    22    98    36   111    15   123 0.86 splicing factor, putative [Plasmodium vivax]
+#
+# Program:         hmmsearch
+# Version:         3.4 (Aug 2023)
+# Pipeline mode:   SEARCH
+# Query file:      /v3/work/00_inventory/busco/busco_downloads/lineages/plasmodium_odb10/hmms/13944at5820.hmm
+# Target file:     /v3/inputs/annotations/ncbi-datasets/PvT01.proteins.fa
+# Option settings: hmmsearch --domtblout /v3/work/00_inventory/busco/PvT01_proteins/run_plasmodium_odb10/hmmer_output/initial_run_results/13944at5820.out --cpu 1 /v3/work/00_inventory/busco/busco_downloads/lineages/plasmodium_odb10/hmms/13944at5820.hmm /v3/inputs/annotations/ncbi-datasets/PvT01.proteins.fa 
+# Current dir:     /v3/work/00_inventory/busco
+# Date:            Tue May 19 18:33:59 2026
+# [ok]

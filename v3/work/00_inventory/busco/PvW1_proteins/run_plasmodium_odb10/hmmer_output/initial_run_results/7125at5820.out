@@ -1,0 +1,14 @@
+#                                                                            --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name        accession   tlen query name           accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+#------------------- ---------- ----- -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+CAG9476179.1         -            455 7125at5820           -            378    1e-241  799.9   4.5   1   1    2e-245  1.2e-241  799.7   4.5     1   378     7   442     7   442 0.98 | transcript=PVW1_130042700_t1 | gene=PVW1_130042700 | organism=Plasmodium_vivax_PvW1 | gene_product=Deoxyhypusine synthase [Source:UniProtKB/TrEMBL;Acc:Q0KHM1] | transcript_product=Deoxyhypusine synthase [Source:UniProtKB/TrEMBL;Acc:Q0KHM1] | location=CAJZCX010000006:1648810-1650177(+) | protein_length=455 | sequence_SO=supercontig | SO=protein_coding_gene | is_pseudo=false
+#
+# Program:         hmmsearch
+# Version:         3.4 (Aug 2023)
+# Pipeline mode:   SEARCH
+# Query file:      /v3/work/00_inventory/busco/busco_downloads/lineages/plasmodium_odb10/hmms/7125at5820.hmm
+# Target file:     /v3/inputs/annotations/plasmodb-68/PvW1.proteins.fa
+# Option settings: hmmsearch --domtblout /v3/work/00_inventory/busco/PvW1_proteins/run_plasmodium_odb10/hmmer_output/initial_run_results/7125at5820.out --cpu 1 /v3/work/00_inventory/busco/busco_downloads/lineages/plasmodium_odb10/hmms/7125at5820.hmm /v3/inputs/annotations/plasmodb-68/PvW1.proteins.fa 
+# Current dir:     /v3/work/00_inventory/busco
+# Date:            Tue May 19 17:46:12 2026
+# [ok]

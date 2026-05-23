@@ -1,0 +1,16 @@
+#                                                                            --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name        accession   tlen query name           accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+#------------------- ---------- ----- -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+PVP01_1413600.1-p1   -            431 6165at5820           -            390  4.9e-254  840.8   6.5   1   1  1.8e-257  5.7e-254  840.5   6.5     2   389    30   430    29   431 0.98 | transcript=PVP01_1413600.1 | gene=PVP01_1413600 | organism=Plasmodium_vivax_P01 | gene_product=2-oxoisovalerate dehydrogenase subunit alpha, mitochondrial, putative | transcript_product=2-oxoisovalerate dehydrogenase subunit alpha, mitochondrial, putative | location=PvP01_14_v2:593863-595158(+) | protein_length=431 | sequence_SO=chromosome | SO=protein_coding_gene | is_pseudo=false
+PVP01_0925100.1-p1   -            582 6165at5820           -            390   1.7e-25   88.3   0.9   1   2   7.9e-08   0.00026   18.6   0.1    54   176   158   283   138   298 0.79 | transcript=PVP01_0925100.1 | gene=PVP01_0925100 | organism=Plasmodium_vivax_P01 | gene_product=pyruvate dehydrogenase E1 component subunit alpha, putative | transcript_product=pyruvate dehydrogenase E1 component subunit alpha, putative | location=PvP01_09_v2:1118915-1120663(+) | protein_length=582 | sequence_SO=chromosome | SO=protein_coding_gene | is_pseudo=false
+PVP01_0925100.1-p1   -            582 6165at5820           -            390   1.7e-25   88.3   0.9   2   2   6.5e-23   2.1e-19   68.3   0.1   181   341   330   488   315   520 0.82 | transcript=PVP01_0925100.1 | gene=PVP01_0925100 | organism=Plasmodium_vivax_P01 | gene_product=pyruvate dehydrogenase E1 component subunit alpha, putative | transcript_product=pyruvate dehydrogenase E1 component subunit alpha, putative | location=PvP01_09_v2:1118915-1120663(+) | protein_length=582 | sequence_SO=chromosome | SO=protein_coding_gene | is_pseudo=false
+#
+# Program:         hmmsearch
+# Version:         3.4 (Aug 2023)
+# Pipeline mode:   SEARCH
+# Query file:      /v3/work/00_inventory/busco/busco_downloads/lineages/plasmodium_odb10/hmms/6165at5820.hmm
+# Target file:     /v3/inputs/annotations/plasmodb-68/PvP01.proteins.fa
+# Option settings: hmmsearch --domtblout /v3/work/00_inventory/busco/PvP01_proteins/run_plasmodium_odb10/hmmer_output/initial_run_results/6165at5820.out --cpu 1 /v3/work/00_inventory/busco/busco_downloads/lineages/plasmodium_odb10/hmms/6165at5820.hmm /v3/inputs/annotations/plasmodb-68/PvP01.proteins.fa 
+# Current dir:     /v3/work/00_inventory/busco
+# Date:            Tue May 19 17:45:22 2026
+# [ok]

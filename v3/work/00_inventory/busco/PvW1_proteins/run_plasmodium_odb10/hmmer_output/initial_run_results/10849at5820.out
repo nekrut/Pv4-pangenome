@@ -1,0 +1,16 @@
+#                                                                            --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name        accession   tlen query name           accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+#------------------- ---------- ----- -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+CAG9479960.1         -            333 10849at5820          -            261    4e-133  441.1  14.6   1   1  1.5e-135    3e-132  438.3  14.6     2   260     6   331     5   332 0.99 | transcript=PVW1_050033900_t1 | gene=PVW1_050033900 | organism=Plasmodium_vivax_PvW1 | gene_product=Rad51 domain-containing protein [Source:UniProtKB/TrEMBL;Acc:A0A1G4H975] | transcript_product=Rad51 domain-containing protein [Source:UniProtKB/TrEMBL;Acc:A0A1G4H975] | location=CAJZCX010000010:1211947-1213225(-) | protein_length=333 | sequence_SO=supercontig | SO=protein_coding_gene | is_pseudo=false
+CAG9479849.1         -            347 10849at5820          -            261   1.1e-06   26.7   0.0   1   1     8e-10   1.6e-06   26.2   0.0    23   196   107   276    94   289 0.83 | transcript=PVW1_050023600_t1 | gene=PVW1_050023600 | organism=Plasmodium_vivax_PvW1 | gene_product=Meiotic recombination protein DMC1, putative [Source:UniProtKB/TrEMBL;Acc:A0A1G4H8W6] | transcript_product=Meiotic recombination protein DMC1, putative [Source:UniProtKB/TrEMBL;Acc:A0A1G4H8W6] | location=CAJZCX010000010:803837-805989(+) | protein_length=347 | sequence_SO=supercontig | SO=protein_coding_gene | is_pseudo=false
+CAG9476622.1         -            350 10849at5820          -            261    0.0077   14.1   0.0   1   1   5.3e-06     0.011   13.6   0.0    25   161   111   241    86   294 0.77 | transcript=PVW1_090013300_t1 | gene=PVW1_090013300 | organism=Plasmodium_vivax_PvW1 | gene_product=DNA repair protein RAD51 homolog [Source:UniProtKB/TrEMBL;Acc:A0A1G4GX48] | transcript_product=DNA repair protein RAD51 homolog [Source:UniProtKB/TrEMBL;Acc:A0A1G4GX48] | location=CAJZCX010000007:449558-450610(-) | protein_length=350 | sequence_SO=supercontig | SO=protein_coding_gene | is_pseudo=false
+#
+# Program:         hmmsearch
+# Version:         3.4 (Aug 2023)
+# Pipeline mode:   SEARCH
+# Query file:      /v3/work/00_inventory/busco/busco_downloads/lineages/plasmodium_odb10/hmms/10849at5820.hmm
+# Target file:     /v3/inputs/annotations/plasmodb-68/PvW1.proteins.fa
+# Option settings: hmmsearch --domtblout /v3/work/00_inventory/busco/PvW1_proteins/run_plasmodium_odb10/hmmer_output/initial_run_results/10849at5820.out --cpu 1 /v3/work/00_inventory/busco/busco_downloads/lineages/plasmodium_odb10/hmms/10849at5820.hmm /v3/inputs/annotations/plasmodb-68/PvW1.proteins.fa 
+# Current dir:     /v3/work/00_inventory/busco
+# Date:            Tue May 19 17:27:30 2026
+# [ok]

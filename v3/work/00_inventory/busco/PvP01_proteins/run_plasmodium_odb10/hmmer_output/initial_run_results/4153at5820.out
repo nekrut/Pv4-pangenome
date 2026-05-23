@@ -1,0 +1,16 @@
+#                                                                            --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name        accession   tlen query name           accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+#------------------- ---------- ----- -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+PVP01_1009100.1-p1   -            685 4153at5820           -            573         0 1015.3  62.7   1   2  5.7e-184  1.8e-180  599.8  24.7     1   336     1   356     1   359 0.95 | transcript=PVP01_1009100.1 | gene=PVP01_1009100 | organism=Plasmodium_vivax_P01 | gene_product=ubiquitin fusion degradation protein 1, putative | transcript_product=ubiquitin fusion degradation protein 1, putative | location=PvP01_10_v2:411582-414281(+) | protein_length=685 | sequence_SO=chromosome | SO=protein_coding_gene | is_pseudo=false
+PVP01_1009100.1-p1   -            685 4153at5820           -            573         0 1015.3  62.7   2   2  5.5e-130  1.8e-126  421.6  30.0   334   572   401   684   395   685 0.97 | transcript=PVP01_1009100.1 | gene=PVP01_1009100 | organism=Plasmodium_vivax_P01 | gene_product=ubiquitin fusion degradation protein 1, putative | transcript_product=ubiquitin fusion degradation protein 1, putative | location=PvP01_10_v2:411582-414281(+) | protein_length=685 | sequence_SO=chromosome | SO=protein_coding_gene | is_pseudo=false
+PVP01_1330900.1-p1   -            281 4153at5820           -            573     5e-17   60.2   0.0   1   1     2e-20   6.6e-17   59.8   0.0    71   233    40   198    24   218 0.88 | transcript=PVP01_1330900.1 | gene=PVP01_1330900 | organism=Plasmodium_vivax_P01 | gene_product=ubiquitin fusion degradation protein 1, putative | transcript_product=ubiquitin fusion degradation protein 1, putative | location=PvP01_13_v2:1298461-1300663(+) | protein_length=281 | sequence_SO=chromosome | SO=protein_coding_gene | is_pseudo=false
+#
+# Program:         hmmsearch
+# Version:         3.4 (Aug 2023)
+# Pipeline mode:   SEARCH
+# Query file:      /v3/work/00_inventory/busco/busco_downloads/lineages/plasmodium_odb10/hmms/4153at5820.hmm
+# Target file:     /v3/inputs/annotations/plasmodb-68/PvP01.proteins.fa
+# Option settings: hmmsearch --domtblout /v3/work/00_inventory/busco/PvP01_proteins/run_plasmodium_odb10/hmmer_output/initial_run_results/4153at5820.out --cpu 1 /v3/work/00_inventory/busco/busco_downloads/lineages/plasmodium_odb10/hmms/4153at5820.hmm /v3/inputs/annotations/plasmodb-68/PvP01.proteins.fa 
+# Current dir:     /v3/work/00_inventory/busco
+# Date:            Tue May 19 17:40:27 2026
+# [ok]

@@ -1,0 +1,17 @@
+#                                                                            --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name        accession   tlen query name           accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+#------------------- ---------- ----- -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+PVX_101045.1-p1      -             93 14866at5820          -             86   1.8e-55  183.5   2.6   1   1   1.5e-58     2e-55  183.4   2.6     1    86     9    93     9    93 0.99 | transcript=PVX_101045.1 | gene=PVX_101045 | organism=Plasmodium_vivax_Sal-1 | gene_product=mitochondrial import inner membrane translocase subunit TIM13, putative | transcript_product=mitochondrial import inner membrane translocase subunit TIM13, putative | location=Pv_Sal1_chr14:2596777-2597540(-) | protein_length=93 | sequence_SO=chromosome | SO=protein_coding_gene | is_pseudo=false
+PVX_085405.1-p1      -            110 14866at5820          -             86     2e-12   45.6   3.1   1   1   1.9e-15   2.7e-12   45.2   3.1    11    76    17    82     4    89 0.88 | transcript=PVX_085405.1 | gene=PVX_085405 | organism=Plasmodium_vivax_Sal-1 | gene_product=mitochondrial import inner membrane translocase subunit TIM8, putative | transcript_product=mitochondrial import inner membrane translocase subunit TIM8, putative | location=Pv_Sal1_chr13:1151636-1152379(-) | protein_length=110 | sequence_SO=chromosome | SO=protein_coding_gene | is_pseudo=false
+PVX_097650.1-p1      -             76 14866at5820          -             86   0.00014   20.5   1.4   1   1   1.1e-07   0.00015   20.3   1.4    22    72    14    65     5    76 0.78 | transcript=PVX_097650.1 | gene=PVX_097650 | organism=Plasmodium_vivax_Sal-1 | gene_product=hypothetical protein, conserved | transcript_product=hypothetical protein, conserved | location=Pv_Sal1_chr10:1277460-1278041(+) | protein_length=76 | sequence_SO=chromosome | SO=protein_coding_gene | is_pseudo=false
+PVX_084462.1-p1      -             75 14866at5820          -             86   0.00062   18.4   0.2   1   1   4.7e-07   0.00065   18.3   0.2    28    72    25    70     3    75 0.82 | transcript=PVX_084462.1 | gene=PVX_084462 | organism=Plasmodium_vivax_Sal-1 | gene_product=mitochondrial import inner membrane translocase subunit TIM10, putative | transcript_product=mitochondrial import inner membrane translocase subunit TIM10, putative | location=Pv_Sal1_chr13:331915-332142(+) | protein_length=75 | sequence_SO=chromosome | SO=protein_coding_gene | is_pseudo=false
+#
+# Program:         hmmsearch
+# Version:         3.4 (Aug 2023)
+# Pipeline mode:   SEARCH
+# Query file:      /v3/work/00_inventory/busco/busco_downloads/lineages/plasmodium_odb10/hmms/14866at5820.hmm
+# Target file:     /v3/inputs/annotations/plasmodb-68/Sal-I.proteins.fa
+# Option settings: hmmsearch --domtblout /v3/work/00_inventory/busco/Sal-I_proteins/run_plasmodium_odb10/hmmer_output/initial_run_results/14866at5820.out --cpu 1 /v3/work/00_inventory/busco/busco_downloads/lineages/plasmodium_odb10/hmms/14866at5820.hmm /v3/inputs/annotations/plasmodb-68/Sal-I.proteins.fa 
+# Current dir:     /v3/work/00_inventory/busco
+# Date:            Tue May 19 17:34:31 2026
+# [ok]

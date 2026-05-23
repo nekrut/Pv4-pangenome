@@ -1,0 +1,30 @@
+#                                                                            --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name        accession   tlen query name           accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+#------------------- ---------- ----- -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+SCO72451.1           -            892 3773at5820           -            743         0 1246.4   9.8   1   1         0         0 1246.1   9.8     1   742     1   871     1   872 0.84 P-loop containing nucleoside triphosphate hydrolase, putative [Plasmodium vivax]
+SCO71378.1           -            231 3773at5820           -            743   6.9e-06   23.1   0.0   1   1     2e-08     1e-05   22.5   0.0   344   446     7   107     2   114 0.73 GTP:AMP phosphotransferase, putative [Plasmodium vivax]
+SCO72233.1           -            242 3773at5820           -            743   1.4e-05   22.0   0.1   1   2   2.7e-08   1.4e-05   22.0   0.1   345   445    30   124    19   137 0.83 adenylate kinase, putative [Plasmodium vivax]
+SCO72233.1           -            242 3773at5820           -            743   1.4e-05   22.0   0.1   2   2       1.3     7e+02   -3.4   0.3   666   705   181   220   176   225 0.59 adenylate kinase, putative [Plasmodium vivax]
+SCO70456.1           -           1089 3773at5820           -            743    0.0046   13.8   0.6   1   2     0.013         7    3.2   0.1   346   370   513   537   499   568 0.85 AAA family ATPase, CDC48 subfamily, putative [Plasmodium vivax]
+SCO70456.1           -           1089 3773at5820           -            743    0.0046   13.8   0.6   2   2   0.00039      0.21    8.3   0.1   337   375   824   862   818   867 0.86 AAA family ATPase, CDC48 subfamily, putative [Plasmodium vivax]
+SCO72509.1           -            320 3773at5820           -            743      0.03   11.0  22.6   1   1   9.2e-05     0.048   10.4  22.6   455   521   104   164    82   177 0.34 hypothetical protein, conserved [Plasmodium vivax]
+SCO75730.1           -            400 3773at5820           -            743      0.28    7.8  27.9   1   2    0.0028       1.5    5.4   4.2   426   512    51   132     2   193 0.53 conserved Plasmodium protein, unknown function [Plasmodium vivax]
+SCO75730.1           -            400 3773at5820           -            743      0.28    7.8  27.9   2   2   0.00033      0.17    8.6  15.8   460   517   246   313   224   352 0.49 conserved Plasmodium protein, unknown function [Plasmodium vivax]
+SCO73259.1           -            143 3773at5820           -            743       0.7    6.5  13.1   1   1    0.0015      0.77    6.4  13.1   452   517    52   112    21   134 0.36 conserved Plasmodium protein, unknown function [Plasmodium vivax]
+SCO71069.1           -           1606 3773at5820           -            743      0.72    6.5   7.0   1   1    0.0022       1.2    5.8   7.0   437   499  1294  1357  1285  1380 0.49 conserved Plasmodium protein, unknown function [Plasmodium vivax]
+SCO71724.1           -            406 3773at5820           -            743       1.4    5.6  20.5   1   1    0.0039       2.1    5.0  20.5   451   507   237   294   172   347 0.59 conserved Plasmodium protein, unknown function [Plasmodium vivax]
+SCO73823.1           -            483 3773at5820           -            743       1.5    5.4   8.0   1   3     0.016       8.5    2.9   2.8   154   188    20    58     4   127 0.79 mitochondrial chaperone BCS1, putative [Plasmodium vivax]
+SCO73823.1           -            483 3773at5820           -            743       1.5    5.4   8.0   2   3      0.32   1.7e+02   -1.3   0.1   602   624   171   193   133   201 0.64 mitochondrial chaperone BCS1, putative [Plasmodium vivax]
+SCO73823.1           -            483 3773at5820           -            743       1.5    5.4   8.0   3   3    0.0061       3.2    4.4   0.0   347   376   258   287   224   298 0.91 mitochondrial chaperone BCS1, putative [Plasmodium vivax]
+SCO75409.1           -            194 3773at5820           -            743       1.8    5.2   8.9   1   1    0.0043       2.2    4.9   8.9   445   518    68   144    53   170 0.45 conserved Plasmodium protein, unknown function [Plasmodium vivax]
+SCO71067.1           -             83 3773at5820           -            743       9.3    2.8  11.2   1   1      0.02        11    2.6  11.2   457   520     9    69     2    78 0.26 hypothetical protein PVC01_040015600 [Plasmodium vivax]
+#
+# Program:         hmmsearch
+# Version:         3.4 (Aug 2023)
+# Pipeline mode:   SEARCH
+# Query file:      /v3/work/00_inventory/busco/busco_downloads/lineages/plasmodium_odb10/hmms/3773at5820.hmm
+# Target file:     /v3/inputs/annotations/ncbi-datasets/PvC01.proteins.fa
+# Option settings: hmmsearch --domtblout /v3/work/00_inventory/busco/PvC01_proteins/run_plasmodium_odb10/hmmer_output/initial_run_results/3773at5820.out --cpu 1 /v3/work/00_inventory/busco/busco_downloads/lineages/plasmodium_odb10/hmms/3773at5820.hmm /v3/inputs/annotations/ncbi-datasets/PvC01.proteins.fa 
+# Current dir:     /v3/work/00_inventory/busco
+# Date:            Tue May 19 18:40:35 2026
+# [ok]

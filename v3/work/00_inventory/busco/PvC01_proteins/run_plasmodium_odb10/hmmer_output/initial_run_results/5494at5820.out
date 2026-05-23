@@ -1,0 +1,23 @@
+#                                                                            --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name        accession   tlen query name           accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+#------------------- ---------- ----- -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+SCO74872.1           -            563 5494at5820           -            442  5.4e-258  854.5  15.6   1   2   2.7e-74   2.8e-71  239.1   0.4     1   118    47   171    47   181 0.96 glutathione reductase, putative [Plasmodium vivax]
+SCO74872.1           -            563 5494at5820           -            442  5.4e-258  854.5  15.6   2   2  1.1e-189  1.1e-186  619.5   9.2   116   442   201   563   188   563 0.95 glutathione reductase, putative [Plasmodium vivax]
+SCO71994.1           -            546 5494at5820           -            442   8.6e-65  217.8   0.0   1   2   1.3e-38   1.3e-35  121.6   0.0     3   274    46   365    44   368 0.78 thioredoxin reductase, putative [Plasmodium vivax]
+SCO71994.1           -            546 5494at5820           -            442   8.6e-65  217.8   0.0   2   2   2.4e-30   2.5e-27   94.3   0.0   297   437   369   524   363   527 0.85 thioredoxin reductase, putative [Plasmodium vivax]
+SCO75569.1           -            512 5494at5820           -            442   2.3e-29  101.0  10.7   1   1   3.7e-31   3.8e-28   97.0  10.7     3   434    25   498    23   506 0.72 dihydrolipoyl dehydrogenase, mitochondrial, putative [Plasmodium vivax]
+SCO71351.1           -            662 5494at5820           -            442   1.6e-17   62.0  15.6   1   2   5.3e-11   5.5e-08   30.6   7.9     3   172   113   327   111   341 0.64 dihydrolipoyl dehydrogenase, apicoplast, putative [Plasmodium vivax]
+SCO71351.1           -            662 5494at5820           -            442   1.6e-17   62.0  15.6   2   2   5.4e-09   5.7e-06   23.9   0.8   224   433   410   648   404   653 0.69 dihydrolipoyl dehydrogenase, apicoplast, putative [Plasmodium vivax]
+SCO70886.1           -            688 5494at5820           -            442    0.0011   16.5   0.3   1   2     0.022        23    2.1   0.0   151   174   394   417   377   430 0.82 ferrodoxin reductase-like protein [Plasmodium vivax]
+SCO70886.1           -            688 5494at5820           -            442    0.0011   16.5   0.3   2   2   3.1e-05     0.032   11.6   0.1   227   331   501   598   485   640 0.73 ferrodoxin reductase-like protein [Plasmodium vivax]
+SCO75680.1           -            864 5494at5820           -            442     0.019   12.3   0.2   1   1   3.3e-05     0.035   11.4   0.2     3    39    75   113    73   137 0.77 glucose inhibited division protein a homologue, putative [Plasmodium vivax]
+#
+# Program:         hmmsearch
+# Version:         3.4 (Aug 2023)
+# Pipeline mode:   SEARCH
+# Query file:      /v3/work/00_inventory/busco/busco_downloads/lineages/plasmodium_odb10/hmms/5494at5820.hmm
+# Target file:     /v3/inputs/annotations/ncbi-datasets/PvC01.proteins.fa
+# Option settings: hmmsearch --domtblout /v3/work/00_inventory/busco/PvC01_proteins/run_plasmodium_odb10/hmmer_output/initial_run_results/5494at5820.out --cpu 1 /v3/work/00_inventory/busco/busco_downloads/lineages/plasmodium_odb10/hmms/5494at5820.hmm /v3/inputs/annotations/ncbi-datasets/PvC01.proteins.fa 
+# Current dir:     /v3/work/00_inventory/busco
+# Date:            Tue May 19 18:52:49 2026
+# [ok]

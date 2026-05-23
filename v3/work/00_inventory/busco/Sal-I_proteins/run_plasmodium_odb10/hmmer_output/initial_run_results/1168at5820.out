@@ -1,0 +1,17 @@
+#                                                                            --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name        accession   tlen query name           accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+#------------------- ---------- ----- -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+PVX_097835.1-p1      -           1289 1168at5820           -           1086         0 2268.0  22.4   1   1         0         0 2264.2  22.4     1  1086     6  1285     6  1285 0.97 | transcript=PVX_097835.1 | gene=PVX_097835 | organism=Plasmodium_vivax_Sal-1 | gene_product=DNA mismatch repair protein MSH6, putative | transcript_product=DNA mismatch repair protein MSH6, putative | location=Pv_Sal1_chr10:1101553-1105422(+) | protein_length=1289 | sequence_SO=chromosome | SO=protein_coding_gene | is_pseudo=false
+PVX_087875.1-p1      -            905 1168at5820           -           1086   1.1e-79  266.6  30.3   1   2   2.5e-14   4.6e-11   39.4  10.5   347   579    53   296    31   302 0.75 | transcript=PVX_087875.1 | gene=PVX_087875 | organism=Plasmodium_vivax_Sal-1 | gene_product=DNA mismatch repair enzyme, putative | transcript_product=DNA mismatch repair enzyme, putative | location=Pv_Sal1_chr01:247295-250012(+) | protein_length=905 | sequence_SO=chromosome | SO=protein_coding_gene | is_pseudo=false
+PVX_087875.1-p1      -            905 1168at5820           -           1086   1.1e-79  266.6  30.3   2   2     8e-73   1.5e-69  233.1  11.8   650  1050   428   831   419   838 0.89 | transcript=PVX_087875.1 | gene=PVX_087875 | organism=Plasmodium_vivax_Sal-1 | gene_product=DNA mismatch repair enzyme, putative | transcript_product=DNA mismatch repair enzyme, putative | location=Pv_Sal1_chr01:247295-250012(+) | protein_length=905 | sequence_SO=chromosome | SO=protein_coding_gene | is_pseudo=false
+PVX_085160.1-p1      -            810 1168at5820           -           1086   1.5e-73  246.3  41.2   1   1     1e-76   1.9e-73  246.0  41.2   448  1054   130   752    37   783 0.75 | transcript=PVX_085160.1 | gene=PVX_085160 | organism=Plasmodium_vivax_Sal-1 | gene_product=DNA mismatch repair enzyme, putative | transcript_product=DNA mismatch repair enzyme, putative | location=Pv_Sal1_chr13:952572-955004(-) | protein_length=810 | sequence_SO=chromosome | SO=protein_coding_gene | is_pseudo=false
+#
+# Program:         hmmsearch
+# Version:         3.4 (Aug 2023)
+# Pipeline mode:   SEARCH
+# Query file:      /v3/work/00_inventory/busco/busco_downloads/lineages/plasmodium_odb10/hmms/1168at5820.hmm
+# Target file:     /v3/inputs/annotations/plasmodb-68/Sal-I.proteins.fa
+# Option settings: hmmsearch --domtblout /v3/work/00_inventory/busco/Sal-I_proteins/run_plasmodium_odb10/hmmer_output/initial_run_results/1168at5820.out --cpu 1 /v3/work/00_inventory/busco/busco_downloads/lineages/plasmodium_odb10/hmms/1168at5820.hmm /v3/inputs/annotations/plasmodb-68/Sal-I.proteins.fa 
+# Current dir:     /v3/work/00_inventory/busco
+# Date:            Tue May 19 17:24:18 2026
+# [ok]

@@ -1,0 +1,18 @@
+#                                                                            --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name        accession   tlen query name           accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+#------------------- ---------- ----- -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+PVX_113510.1-p1      -            220 12190at5820          -            178   1.5e-91  303.4   3.8   1   2   2.3e-28   3.1e-25   87.4   0.2     1    77     1    95     1   102 0.88 | transcript=PVX_113510.1 | gene=PVX_113510 | organism=Plasmodium_vivax_Sal-1 | gene_product=glutaredoxin-like protein, putative | transcript_product=glutaredoxin-like protein, putative | location=Pv_Sal1_chr11:1745241-1745903(+) | protein_length=220 | sequence_SO=chromosome | SO=protein_coding_gene | is_pseudo=false
+PVX_113510.1-p1      -            220 12190at5820          -            178   1.5e-91  303.4   3.8   2   2   2.9e-68     4e-65  217.4   0.4    72   177   114   219   100   220 0.94 | transcript=PVX_113510.1 | gene=PVX_113510 | organism=Plasmodium_vivax_Sal-1 | gene_product=glutaredoxin-like protein, putative | transcript_product=glutaredoxin-like protein, putative | location=Pv_Sal1_chr11:1745241-1745903(+) | protein_length=220 | sequence_SO=chromosome | SO=protein_coding_gene | is_pseudo=false
+PVX_119350.1-p1      -            168 12190at5820          -            178   5.8e-31  106.1   1.4   1   1     6e-34   8.3e-31  105.6   1.4    73   171    68   167    60   168 0.94 | transcript=PVX_119350.1 | gene=PVX_119350 | organism=Plasmodium_vivax_Sal-1 | gene_product=1-cys-glutaredoxin-like protein-1, putative | transcript_product=1-cys-glutaredoxin-like protein-1, putative | location=Pv_Sal1_chr08:1540284-1541168(+) | protein_length=168 | sequence_SO=chromosome | SO=protein_coding_gene | is_pseudo=false
+PVX_087990.1-p1      -            333 12190at5820          -            178   2.4e-28   97.6   0.3   1   1   2.6e-31   3.5e-28   97.0   0.3    74   171   232   330   222   333 0.93 | transcript=PVX_087990.1 | gene=PVX_087990 | organism=Plasmodium_vivax_Sal-1 | gene_product=glutaredoxin-like protein | transcript_product=glutaredoxin-like protein | location=Pv_Sal1_chr01:341247-342248(-) | protein_length=333 | sequence_SO=chromosome | SO=protein_coding_gene | is_pseudo=false
+PVX_119440.1-p1      -            110 12190at5820          -            178    0.0004   18.7   0.6   1   1   3.5e-07   0.00049   18.4   0.6    75   163     8    95     2   105 0.71 | transcript=PVX_119440.1 | gene=PVX_119440 | organism=Plasmodium_vivax_Sal-1 | gene_product=glutaredoxin 1, putative | transcript_product=glutaredoxin 1, putative | location=Pv_Sal1_chr08:1464590-1465512(+) | protein_length=110 | sequence_SO=chromosome | SO=protein_coding_gene | is_pseudo=false
+#
+# Program:         hmmsearch
+# Version:         3.4 (Aug 2023)
+# Pipeline mode:   SEARCH
+# Query file:      /v3/work/00_inventory/busco/busco_downloads/lineages/plasmodium_odb10/hmms/12190at5820.hmm
+# Target file:     /v3/inputs/annotations/plasmodb-68/Sal-I.proteins.fa
+# Option settings: hmmsearch --domtblout /v3/work/00_inventory/busco/Sal-I_proteins/run_plasmodium_odb10/hmmer_output/initial_run_results/12190at5820.out --cpu 1 /v3/work/00_inventory/busco/busco_downloads/lineages/plasmodium_odb10/hmms/12190at5820.hmm /v3/inputs/annotations/plasmodb-68/Sal-I.proteins.fa 
+# Current dir:     /v3/work/00_inventory/busco
+# Date:            Tue May 19 17:26:02 2026
+# [ok]

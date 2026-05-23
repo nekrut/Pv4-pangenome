@@ -1,0 +1,16 @@
+#                                                                            --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name        accession   tlen query name           accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+#------------------- ---------- ----- -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+PVP01_0931600.1-p1   -            509 6204at5820           -            468  1.9e-262  869.3  35.0   1   1  6.6e-266  2.2e-262  869.2  35.0     1   468     1   504     1   504 0.96 | transcript=PVP01_0931600.1 | gene=PVP01_0931600 | organism=Plasmodium_vivax_P01 | gene_product=armadillo repeat protein PF16, putative | transcript_product=armadillo repeat protein PF16, putative | location=PvP01_09_v2:1356544-1358185(+) | protein_length=509 | sequence_SO=chromosome | SO=protein_coding_gene | is_pseudo=false
+PVP01_1427800.1-p1   -            545 6204at5820           -            468   1.6e-12   45.3   2.0   1   2   1.1e-09   3.4e-06   24.4   0.2    55   279   107   347   105   356 0.73 | transcript=PVP01_1427800.1 | gene=PVP01_1427800 | organism=Plasmodium_vivax_P01 | gene_product=karyopherin alpha, putative | transcript_product=karyopherin alpha, putative | location=PvP01_14_v2:1187458-1189095(+) | protein_length=545 | sequence_SO=chromosome | SO=protein_coding_gene | is_pseudo=false
+PVP01_1427800.1-p1   -            545 6204at5820           -            468   1.6e-12   45.3   2.0   2   2   1.3e-10   4.2e-07   27.4   0.4    59   284   197   437   195   454 0.76 | transcript=PVP01_1427800.1 | gene=PVP01_1427800 | organism=Plasmodium_vivax_P01 | gene_product=karyopherin alpha, putative | transcript_product=karyopherin alpha, putative | location=PvP01_14_v2:1187458-1189095(+) | protein_length=545 | sequence_SO=chromosome | SO=protein_coding_gene | is_pseudo=false
+#
+# Program:         hmmsearch
+# Version:         3.4 (Aug 2023)
+# Pipeline mode:   SEARCH
+# Query file:      /v3/work/00_inventory/busco/busco_downloads/lineages/plasmodium_odb10/hmms/6204at5820.hmm
+# Target file:     /v3/inputs/annotations/plasmodb-68/PvP01.proteins.fa
+# Option settings: hmmsearch --domtblout /v3/work/00_inventory/busco/PvP01_proteins/run_plasmodium_odb10/hmmer_output/initial_run_results/6204at5820.out --cpu 1 /v3/work/00_inventory/busco/busco_downloads/lineages/plasmodium_odb10/hmms/6204at5820.hmm /v3/inputs/annotations/plasmodb-68/PvP01.proteins.fa 
+# Current dir:     /v3/work/00_inventory/busco
+# Date:            Tue May 19 17:45:29 2026
+# [ok]

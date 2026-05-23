@@ -1,0 +1,16 @@
+#                                                                            --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name        accession   tlen query name           accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+#------------------- ---------- ----- -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+CAG9477815.1         -            511 5256at5820           -            459  3.9e-296  980.1  12.9   1   1  1.5e-299  4.5e-296  979.9  12.9     1   459    15   507    15   507 0.97 | transcript=PVW1_110028300_t1 | gene=PVW1_110028300 | organism=Plasmodium_vivax_PvW1 | gene_product=Pyruvate kinase [Source:UniProtKB/TrEMBL;Acc:A0A1G4HF86] | transcript_product=Pyruvate kinase [Source:UniProtKB/TrEMBL;Acc:A0A1G4HF86] | location=CAJZCX010000008:1029788-1032078(-) | protein_length=511 | sequence_SO=supercontig | SO=protein_coding_gene | is_pseudo=false
+CAG9481839.1         -            723 5256at5820           -            459   1.9e-53  180.0   4.3   1   2   2.2e-23   6.8e-20   69.4   0.9    20   209    97   311    81   318 0.81 | transcript=PVW1_060028000_t1 | gene=PVW1_060028000 | organism=Plasmodium_vivax_PvW1 | gene_product=Pyruvate kinase [Source:UniProtKB/TrEMBL;Acc:A0A1G4HAA4] | transcript_product=Pyruvate kinase [Source:UniProtKB/TrEMBL;Acc:A0A1G4HAA4] | location=CAJZCX010000012:939435-941606(-) | protein_length=723 | sequence_SO=supercontig | SO=protein_coding_gene | is_pseudo=false
+CAG9481839.1         -            723 5256at5820           -            459   1.9e-53  180.0   4.3   2   2   3.6e-36   1.1e-32  111.6   0.1   220   342   443   566   436   580 0.91 | transcript=PVW1_060028000_t1 | gene=PVW1_060028000 | organism=Plasmodium_vivax_PvW1 | gene_product=Pyruvate kinase [Source:UniProtKB/TrEMBL;Acc:A0A1G4HAA4] | transcript_product=Pyruvate kinase [Source:UniProtKB/TrEMBL;Acc:A0A1G4HAA4] | location=CAJZCX010000012:939435-941606(-) | protein_length=723 | sequence_SO=supercontig | SO=protein_coding_gene | is_pseudo=false
+#
+# Program:         hmmsearch
+# Version:         3.4 (Aug 2023)
+# Pipeline mode:   SEARCH
+# Query file:      /v3/work/00_inventory/busco/busco_downloads/lineages/plasmodium_odb10/hmms/5256at5820.hmm
+# Target file:     /v3/inputs/annotations/plasmodb-68/PvW1.proteins.fa
+# Option settings: hmmsearch --domtblout /v3/work/00_inventory/busco/PvW1_proteins/run_plasmodium_odb10/hmmer_output/initial_run_results/5256at5820.out --cpu 1 /v3/work/00_inventory/busco/busco_downloads/lineages/plasmodium_odb10/hmms/5256at5820.hmm /v3/inputs/annotations/plasmodb-68/PvW1.proteins.fa 
+# Current dir:     /v3/work/00_inventory/busco
+# Date:            Tue May 19 17:40:59 2026
+# [ok]

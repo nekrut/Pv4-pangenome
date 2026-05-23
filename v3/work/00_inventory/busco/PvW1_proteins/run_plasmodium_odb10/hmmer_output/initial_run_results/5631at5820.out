@@ -1,0 +1,16 @@
+#                                                                            --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name        accession   tlen query name           accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+#------------------- ---------- ----- -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+CAG9476916.1         -            582 5631at5820           -            439  1.9e-247  819.5   6.5   1   2  1.4e-107  4.1e-104  347.1   1.0    26   187   128   289   112   297 0.95 | transcript=PVW1_090029800_t1 | gene=PVW1_090029800 | organism=Plasmodium_vivax_PvW1 | gene_product=E1_dh domain-containing protein [Source:UniProtKB/TrEMBL;Acc:A0A1G4GXK8] | transcript_product=E1_dh domain-containing protein [Source:UniProtKB/TrEMBL;Acc:A0A1G4GXK8] | location=CAJZCX010000007:1127248-1128996(+) | protein_length=582 | sequence_SO=supercontig | SO=protein_coding_gene | is_pseudo=false
+CAG9476916.1         -            582 5631at5820           -            439  1.9e-247  819.5   6.5   2   2    2e-146  6.2e-143  475.1   0.4   186   439   327   582   325   582 0.99 | transcript=PVW1_090029800_t1 | gene=PVW1_090029800 | organism=Plasmodium_vivax_PvW1 | gene_product=E1_dh domain-containing protein [Source:UniProtKB/TrEMBL;Acc:A0A1G4GXK8] | transcript_product=E1_dh domain-containing protein [Source:UniProtKB/TrEMBL;Acc:A0A1G4GXK8] | location=CAJZCX010000007:1127248-1128996(+) | protein_length=582 | sequence_SO=supercontig | SO=protein_coding_gene | is_pseudo=false
+CAG9471941.1         -            431 5631at5820           -            439   1.1e-35  121.6   1.4   1   1   5.4e-39   1.6e-35  121.1   1.4    53   356    82   381    71   423 0.83 | transcript=PVW1_140019900_t1 | gene=PVW1_140019900 | organism=Plasmodium_vivax_PvW1 | gene_product=2-oxoisovalerate dehydrogenase subunit alpha [Source:UniProtKB/TrEMBL;Acc:A0A1G4HJS4] | transcript_product=2-oxoisovalerate dehydrogenase subunit alpha [Source:UniProtKB/TrEMBL;Acc:A0A1G4HJS4] | location=CAJZCX010000003:656013-657308(+) | protein_length=431 | sequence_SO=supercontig | SO=protein_coding_gene | is_pseudo=false
+#
+# Program:         hmmsearch
+# Version:         3.4 (Aug 2023)
+# Pipeline mode:   SEARCH
+# Query file:      /v3/work/00_inventory/busco/busco_downloads/lineages/plasmodium_odb10/hmms/5631at5820.hmm
+# Target file:     /v3/inputs/annotations/plasmodb-68/PvW1.proteins.fa
+# Option settings: hmmsearch --domtblout /v3/work/00_inventory/busco/PvW1_proteins/run_plasmodium_odb10/hmmer_output/initial_run_results/5631at5820.out --cpu 1 /v3/work/00_inventory/busco/busco_downloads/lineages/plasmodium_odb10/hmms/5631at5820.hmm /v3/inputs/annotations/plasmodb-68/PvW1.proteins.fa 
+# Current dir:     /v3/work/00_inventory/busco
+# Date:            Tue May 19 17:42:38 2026
+# [ok]

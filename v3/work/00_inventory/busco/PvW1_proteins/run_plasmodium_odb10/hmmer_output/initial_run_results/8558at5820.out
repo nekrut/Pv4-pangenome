@@ -1,0 +1,16 @@
+#                                                                            --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name        accession   tlen query name           accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+#------------------- ---------- ----- -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+CAG9484666.1         -            334 8558at5820           -            276  4.9e-176  582.3  22.9   1   1    3e-179    6e-176  582.0  22.9     4   276    43   334    40   334 0.99 | transcript=PVW1_010009200_t1 | gene=PVW1_010009200 | organism=Plasmodium_vivax_PvW1 | gene_product=RF_PROK_I domain-containing protein [Source:UniProtKB/TrEMBL;Acc:A0A1G4GQR0] | transcript_product=RF_PROK_I domain-containing protein [Source:UniProtKB/TrEMBL;Acc:A0A1G4GQR0] | location=CAJZCX010000016:249390-250394(-) | protein_length=334 | sequence_SO=supercontig | SO=protein_coding_gene | is_pseudo=false
+CAG9480769.1         -            446 8558at5820           -            276   7.2e-30  102.9   3.3   1   1   5.8e-33   1.2e-29  102.2   3.3    25   259   186   411   166   427 0.79 | transcript=PVW1_070037800_t1 | gene=PVW1_070037800 | organism=Plasmodium_vivax_PvW1 | gene_product=PCRF domain-containing protein [Source:UniProtKB/TrEMBL;Acc:A0A1G4HAZ6] | transcript_product=PCRF domain-containing protein [Source:UniProtKB/TrEMBL;Acc:A0A1G4HAZ6] | location=CAJZCX010000011:1397454-1398920(-) | protein_length=446 | sequence_SO=supercontig | SO=protein_coding_gene | is_pseudo=false
+CAG9475777.1         -            300 8558at5820           -            276     2e-21   75.2   0.5   1   1   4.7e-24   9.6e-21   73.0   0.5     6   213    43   241    38   283 0.74 | transcript=PVW1_130027900_t1 | gene=PVW1_130027900 | organism=Plasmodium_vivax_PvW1 | gene_product=Peptide chain release factor 1, putative [Source:UniProtKB/TrEMBL;Acc:A0A1G4H377] | transcript_product=Peptide chain release factor 1, putative [Source:UniProtKB/TrEMBL;Acc:A0A1G4H377] | location=CAJZCX010000006:1019685-1021814(-) | protein_length=300 | sequence_SO=supercontig | SO=protein_coding_gene | is_pseudo=false
+#
+# Program:         hmmsearch
+# Version:         3.4 (Aug 2023)
+# Pipeline mode:   SEARCH
+# Query file:      /v3/work/00_inventory/busco/busco_downloads/lineages/plasmodium_odb10/hmms/8558at5820.hmm
+# Target file:     /v3/inputs/annotations/plasmodb-68/PvW1.proteins.fa
+# Option settings: hmmsearch --domtblout /v3/work/00_inventory/busco/PvW1_proteins/run_plasmodium_odb10/hmmer_output/initial_run_results/8558at5820.out --cpu 1 /v3/work/00_inventory/busco/busco_downloads/lineages/plasmodium_odb10/hmms/8558at5820.hmm /v3/inputs/annotations/plasmodb-68/PvW1.proteins.fa 
+# Current dir:     /v3/work/00_inventory/busco
+# Date:            Tue May 19 17:47:30 2026
+# [ok]

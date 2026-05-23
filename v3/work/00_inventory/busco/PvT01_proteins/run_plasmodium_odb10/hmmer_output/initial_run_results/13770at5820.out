@@ -1,0 +1,23 @@
+#                                                                            --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name        accession   tlen query name           accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+#------------------- ---------- ----- -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+SCO67498.1           -            444 13770at5820          -            338  2.3e-116  387.1 143.6   1   4   5.1e-44   6.2e-41  139.1  24.6     2   123    18   133    17   138 0.77 conserved Plasmodium protein, unknown function [Plasmodium vivax]
+SCO67498.1           -            444 13770at5820          -            338  2.3e-116  387.1 143.6   2   4     0.084     1e+02    0.3  43.4   253   330   128   209   123   217 0.42 conserved Plasmodium protein, unknown function [Plasmodium vivax]
+SCO67498.1           -            444 13770at5820          -            338  2.3e-116  387.1 143.6   3   4   7.6e-80   9.2e-77  256.8  67.9    96   320   202   416   200   421 0.72 conserved Plasmodium protein, unknown function [Plasmodium vivax]
+SCO67498.1           -            444 13770at5820          -            338  2.3e-116  387.1 143.6   4   4    0.0049         6    4.3  30.2   253   302   393   442   387   444 0.60 conserved Plasmodium protein, unknown function [Plasmodium vivax]
+SCO65126.1           -           1481 13770at5820          -            338      0.16    9.5  32.4   1   2   3.5e-05     0.043   11.4  28.5   262   335   190   261   152   269 0.45 lipid/sterol:H+ symporter, putative [Plasmodium vivax]
+SCO65126.1           -           1481 13770at5820          -            338      0.16    9.5  32.4   2   2      0.56   6.8e+02   -2.4   0.1   257   264   283   290   271   337 0.54 lipid/sterol:H+ symporter, putative [Plasmodium vivax]
+SCO67121.1           -            340 13770at5820          -            338      0.18    9.3  26.9   1   2   6.9e-06    0.0084   13.7  20.3   281   326   116   164   109   171 0.45 hypothetical protein, conserved [Plasmodium vivax]
+SCO67121.1           -            340 13770at5820          -            338      0.18    9.3  26.9   2   2       0.2   2.4e+02   -0.9   0.5   133   146   308   321   288   332 0.51 hypothetical protein, conserved [Plasmodium vivax]
+SCO68349.1           -            709 13770at5820          -            338      0.99    6.9  12.2   1   1    0.0015       1.9    6.0  12.2   291   331   292   331   282   341 0.31 conserved Plasmodium protein, unknown function [Plasmodium vivax]
+SCO69694.1           -            158 13770at5820          -            338       1.4    6.4  25.7   1   1    0.0014       1.7    6.1  25.7   279   336    91   157    69   158 0.49 RNA-binding protein, putative [Plasmodium vivax]
+#
+# Program:         hmmsearch
+# Version:         3.4 (Aug 2023)
+# Pipeline mode:   SEARCH
+# Query file:      /v3/work/00_inventory/busco/busco_downloads/lineages/plasmodium_odb10/hmms/13770at5820.hmm
+# Target file:     /v3/inputs/annotations/ncbi-datasets/PvT01.proteins.fa
+# Option settings: hmmsearch --domtblout /v3/work/00_inventory/busco/PvT01_proteins/run_plasmodium_odb10/hmmer_output/initial_run_results/13770at5820.out --cpu 1 /v3/work/00_inventory/busco/busco_downloads/lineages/plasmodium_odb10/hmms/13770at5820.hmm /v3/inputs/annotations/ncbi-datasets/PvT01.proteins.fa 
+# Current dir:     /v3/work/00_inventory/busco
+# Date:            Tue May 19 18:33:24 2026
+# [ok]

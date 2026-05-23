@@ -1,0 +1,17 @@
+#                                                                            --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name        accession   tlen query name           accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+#------------------- ---------- ----- -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+CAI7718759.1         -           1286 1380at5820           -            956         0 1864.1  71.6   1   4  4.2e-106  2.7e-102  341.8   6.9     1   218     1   237     1   244 0.92 | transcript=PVPAM_050015300_t1 | gene=PVPAM_050015300 | organism=Plasmodium_vivax_PAM | gene_product=ubiquitin conjugation factor E4 B, putative | transcript_product=ubiquitin conjugation factor E4 B, putative | location=CASCJQ010000005:469314-473174(-) | protein_length=1286 | sequence_SO=supercontig | SO=protein_coding_gene | is_pseudo=false
+CAI7718759.1         -           1286 1380at5820           -            956         0 1864.1  71.6   2   4  9.3e-195    6e-191  635.3  22.8   218   528   291   620   285   627 0.95 | transcript=PVPAM_050015300_t1 | gene=PVPAM_050015300 | organism=Plasmodium_vivax_PAM | gene_product=ubiquitin conjugation factor E4 B, putative | transcript_product=ubiquitin conjugation factor E4 B, putative | location=CASCJQ010000005:469314-473174(-) | protein_length=1286 | sequence_SO=supercontig | SO=protein_coding_gene | is_pseudo=false
+CAI7718759.1         -           1286 1380at5820           -            956         0 1864.1  71.6   3   4  1.4e-117  8.8e-114  379.9   8.1   524   714   711   904   701   909 0.97 | transcript=PVPAM_050015300_t1 | gene=PVPAM_050015300 | organism=Plasmodium_vivax_PAM | gene_product=ubiquitin conjugation factor E4 B, putative | transcript_product=ubiquitin conjugation factor E4 B, putative | location=CASCJQ010000005:469314-473174(-) | protein_length=1286 | sequence_SO=supercontig | SO=protein_coding_gene | is_pseudo=false
+CAI7718759.1         -           1286 1380at5820           -            956         0 1864.1  71.6   4   4  3.6e-161  2.3e-157  524.1   9.9   713   956   990  1233   973  1233 0.97 | transcript=PVPAM_050015300_t1 | gene=PVPAM_050015300 | organism=Plasmodium_vivax_PAM | gene_product=ubiquitin conjugation factor E4 B, putative | transcript_product=ubiquitin conjugation factor E4 B, putative | location=CASCJQ010000005:469314-473174(-) | protein_length=1286 | sequence_SO=supercontig | SO=protein_coding_gene | is_pseudo=false
+#
+# Program:         hmmsearch
+# Version:         3.4 (Aug 2023)
+# Pipeline mode:   SEARCH
+# Query file:      /v3/work/00_inventory/busco/busco_downloads/lineages/plasmodium_odb10/hmms/1380at5820.hmm
+# Target file:     /v3/inputs/annotations/plasmodb-68/PAM.proteins.fa
+# Option settings: hmmsearch --domtblout /v3/work/00_inventory/busco/PAM_proteins/run_plasmodium_odb10/hmmer_output/initial_run_results/1380at5820.out --cpu 1 /v3/work/00_inventory/busco/busco_downloads/lineages/plasmodium_odb10/hmms/1380at5820.hmm /v3/inputs/annotations/plasmodb-68/PAM.proteins.fa 
+# Current dir:     /v3/work/00_inventory/busco
+# Date:            Tue May 19 17:31:29 2026
+# [ok]

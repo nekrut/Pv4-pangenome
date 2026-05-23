@@ -1,0 +1,17 @@
+#                                                                            --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name        accession   tlen query name           accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+#------------------- ---------- ----- -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+CAI7722756.1         -            235 11704at5820          -            192  3.1e-103  341.8   5.1   1   1  2.1e-106  4.5e-103  341.3   5.1    10   192    37   235    27   235 0.93 | transcript=PVPAM_130025700_t1 | gene=PVPAM_130025700 | organism=Plasmodium_vivax_PAM | gene_product=HSP20-like chaperone, putative | transcript_product=HSP20-like chaperone, putative | location=CASCJQ010000013:938051-938758(+) | protein_length=235 | sequence_SO=supercontig | SO=protein_coding_gene | is_pseudo=false
+CAI7718872.1         -            171 11704at5820          -            192   1.1e-13   49.7   0.7   1   1   6.6e-17   1.4e-13   49.3   0.7    53   186    29   165    18   169 0.82 | transcript=PVPAM_050026400_t1 | gene=PVPAM_050026400 | organism=Plasmodium_vivax_PAM | gene_product=small heat shock protein HSP20, putative | transcript_product=small heat shock protein HSP20, putative | location=CASCJQ010000005:909789-910841(-) | protein_length=171 | sequence_SO=supercontig | SO=protein_coding_gene | is_pseudo=false
+CAI7723210.1         -            209 11704at5820          -            192   7.6e-10   37.2   2.3   1   2       0.1   2.2e+02   -0.2   0.1   120   147    32    59     3    73 0.63 | transcript=PVPAM_140012900_t1 | gene=PVPAM_140012900 | organism=Plasmodium_vivax_PAM | gene_product=small heat shock protein, putative | transcript_product=small heat shock protein, putative | location=CASCJQ010000014:383537-384166(-) | protein_length=209 | sequence_SO=supercontig | SO=protein_coding_gene | is_pseudo=false
+CAI7723210.1         -            209 11704at5820          -            192   7.6e-10   37.2   2.3   2   2   4.1e-13   8.9e-10   36.9   0.5    80   191   103   209    78   209 0.85 | transcript=PVPAM_140012900_t1 | gene=PVPAM_140012900 | organism=Plasmodium_vivax_PAM | gene_product=small heat shock protein, putative | transcript_product=small heat shock protein, putative | location=CASCJQ010000014:383537-384166(-) | protein_length=209 | sequence_SO=supercontig | SO=protein_coding_gene | is_pseudo=false
+#
+# Program:         hmmsearch
+# Version:         3.4 (Aug 2023)
+# Pipeline mode:   SEARCH
+# Query file:      /v3/work/00_inventory/busco/busco_downloads/lineages/plasmodium_odb10/hmms/11704at5820.hmm
+# Target file:     /v3/inputs/annotations/plasmodb-68/PAM.proteins.fa
+# Option settings: hmmsearch --domtblout /v3/work/00_inventory/busco/PAM_proteins/run_plasmodium_odb10/hmmer_output/initial_run_results/11704at5820.out --cpu 1 /v3/work/00_inventory/busco/busco_downloads/lineages/plasmodium_odb10/hmms/11704at5820.hmm /v3/inputs/annotations/plasmodb-68/PAM.proteins.fa 
+# Current dir:     /v3/work/00_inventory/busco
+# Date:            Tue May 19 17:24:23 2026
+# [ok]

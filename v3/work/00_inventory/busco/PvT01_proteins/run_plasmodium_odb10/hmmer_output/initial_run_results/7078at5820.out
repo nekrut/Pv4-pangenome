@@ -1,0 +1,19 @@
+#                                                                            --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name        accession   tlen query name           accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+#------------------- ---------- ----- -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+SCO67033.1           -            426 7078at5820           -            317  1.7e-106  354.5  13.7   1   3   1.3e-30     2e-27   94.7   1.1     1    60     1    68     1    71 0.93 dual specificity protein phosphatase, putative [Plasmodium vivax]
+SCO67033.1           -            426 7078at5820           -            317  1.7e-106  354.5  13.7   2   3   5.3e-12     8e-09   33.7   0.2    60    96   132   170   125   180 0.88 dual specificity protein phosphatase, putative [Plasmodium vivax]
+SCO67033.1           -            426 7078at5820           -            317  1.7e-106  354.5  13.7   3   3   6.2e-73   9.5e-70  233.8   1.0    92   214   293   420   286   423 0.95 dual specificity protein phosphatase, putative [Plasmodium vivax]
+SCO68898.1           -            178 7078at5820           -            317     1e-10   39.9   4.8   1   1     8e-14   1.2e-10   39.6   4.8    81   242    14   176    12   178 0.83 protein tyrosine phosphatase, putative [Plasmodium vivax]
+SCO64990.1           -            468 7078at5820           -            317   2.2e-07   28.9   0.0   1   1   2.2e-10   3.3e-07   28.3   0.0   123   204   205   288   195   300 0.87 protein tyrosine phosphatase, putative [Plasmodium vivax]
+SCO67231.1           -            245 7078at5820           -            317   0.00088   17.1   0.2   1   1   9.6e-07    0.0015   16.4   0.2    77   163   107   189    66   202 0.75 protein tyrosine phosphatase, putative [Plasmodium vivax]
+#
+# Program:         hmmsearch
+# Version:         3.4 (Aug 2023)
+# Pipeline mode:   SEARCH
+# Query file:      /v3/work/00_inventory/busco/busco_downloads/lineages/plasmodium_odb10/hmms/7078at5820.hmm
+# Target file:     /v3/inputs/annotations/ncbi-datasets/PvT01.proteins.fa
+# Option settings: hmmsearch --domtblout /v3/work/00_inventory/busco/PvT01_proteins/run_plasmodium_odb10/hmmer_output/initial_run_results/7078at5820.out --cpu 1 /v3/work/00_inventory/busco/busco_downloads/lineages/plasmodium_odb10/hmms/7078at5820.hmm /v3/inputs/annotations/ncbi-datasets/PvT01.proteins.fa 
+# Current dir:     /v3/work/00_inventory/busco
+# Date:            Tue May 19 18:56:25 2026
+# [ok]

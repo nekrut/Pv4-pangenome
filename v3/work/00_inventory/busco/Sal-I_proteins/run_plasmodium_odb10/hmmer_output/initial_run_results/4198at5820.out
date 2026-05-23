@@ -1,0 +1,17 @@
+#                                                                            --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name        accession   tlen query name           accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+#------------------- ---------- ----- -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+PVX_114385.1-p1      -            649 4198at5820           -            542         0 1135.4  36.6   1   3     2e-26   5.5e-23   79.5   0.8     1    57     1    57     1    64 0.96 | transcript=PVX_114385.1 | gene=PVX_114385 | organism=Plasmodium_vivax_Sal-1 | gene_product=poly(A) polymerase PAP, putative | transcript_product=poly(A) polymerase PAP, putative | location=Pv_Sal1_chr11:1001521-1003470(-) | protein_length=649 | sequence_SO=chromosome | SO=protein_coding_gene | is_pseudo=false
+PVX_114385.1-p1      -            649 4198at5820           -            542         0 1135.4  36.6   2   3  8.4e-239  2.3e-235  780.4   9.5    45   408    78   441    66   450 0.96 | transcript=PVX_114385.1 | gene=PVX_114385 | organism=Plasmodium_vivax_Sal-1 | gene_product=poly(A) polymerase PAP, putative | transcript_product=poly(A) polymerase PAP, putative | location=Pv_Sal1_chr11:1001521-1003470(-) | protein_length=649 | sequence_SO=chromosome | SO=protein_coding_gene | is_pseudo=false
+PVX_114385.1-p1      -            649 4198at5820           -            542         0 1135.4  36.6   3   3   2.9e-89     8e-86  286.9  11.5   401   542   470   611   467   611 0.99 | transcript=PVX_114385.1 | gene=PVX_114385 | organism=Plasmodium_vivax_Sal-1 | gene_product=poly(A) polymerase PAP, putative | transcript_product=poly(A) polymerase PAP, putative | location=Pv_Sal1_chr11:1001521-1003470(-) | protein_length=649 | sequence_SO=chromosome | SO=protein_coding_gene | is_pseudo=false
+PVX_090150.1-p1      -           4406 4198at5820           -            542     0.042   10.5   0.0   1   1   2.7e-05     0.074    9.7   0.0   137   301  2335  2507  2327  2516 0.70 | transcript=PVX_090150.1 | gene=PVX_090150 | organism=Plasmodium_vivax_Sal-1 | gene_product=erythrocyte membrane-associated antigen, putative | transcript_product=erythrocyte membrane-associated antigen, putative | location=Pv_Sal1_chr05:1176451-1189671(-) | protein_length=4406 | sequence_SO=chromosome | SO=protein_coding_gene | is_pseudo=false
+#
+# Program:         hmmsearch
+# Version:         3.4 (Aug 2023)
+# Pipeline mode:   SEARCH
+# Query file:      /v3/work/00_inventory/busco/busco_downloads/lineages/plasmodium_odb10/hmms/4198at5820.hmm
+# Target file:     /v3/inputs/annotations/plasmodb-68/Sal-I.proteins.fa
+# Option settings: hmmsearch --domtblout /v3/work/00_inventory/busco/Sal-I_proteins/run_plasmodium_odb10/hmmer_output/initial_run_results/4198at5820.out --cpu 1 /v3/work/00_inventory/busco/busco_downloads/lineages/plasmodium_odb10/hmms/4198at5820.hmm /v3/inputs/annotations/plasmodb-68/Sal-I.proteins.fa 
+# Current dir:     /v3/work/00_inventory/busco
+# Date:            Tue May 19 17:40:38 2026
+# [ok]

@@ -1,0 +1,23 @@
+#                                                                            --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name        accession   tlen query name           accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+#------------------- ---------- ----- -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+SCO69017.1           -            101 15144at5820          -             92   5.7e-62  204.9   5.6   1   1   9.7e-65   6.5e-62  204.7   5.6     1    92     7    98     7    98 0.99 U6 snRNA-associated Sm-like protein LSm5, putative [Plasmodium vivax]
+SCO68431.1           -             94 15144at5820          -             92   1.1e-10   40.5   0.5   1   1     2e-13   1.4e-10   40.2   0.4    16    75    29    86    14    91 0.91 small nuclear ribonucleoprotein E, putative [Plasmodium vivax]
+SCO65872.1           -             91 15144at5820          -             92   4.1e-06   25.9   0.1   1   1   7.4e-09     5e-06   25.6   0.1    13    64    17    69     7    89 0.70 U6 snRNA-associated Sm-like protein LSm3, putative [Plasmodium vivax]
+SCO69193.1           -            107 15144at5820          -             92     6e-06   25.3   0.1   1   1   1.1e-08   7.3e-06   25.0   0.1    10    54    20    64    13   100 0.74 U6 snRNA-associated Sm-like protein LSm7, putative [Plasmodium vivax]
+SCO65848.1           -             83 15144at5820          -             92   3.9e-05   22.7   0.1   1   1   1.4e-07   9.7e-05   21.4   0.1    12    50    16    54     9    81 0.87 small nuclear ribonucleoprotein G, putative [Plasmodium vivax]
+SCO65569.1           -            101 15144at5820          -             92   0.00057   19.0   0.4   1   1   1.1e-06   0.00076   18.6   0.4     6    66    18    79    16    96 0.75 small nuclear ribonucleoprotein Sm D2, putative [Plasmodium vivax]
+SCO69442.1           -            201 15144at5820          -             92    0.0016   17.5   0.2   1   2   5.7e-06    0.0038   16.3   0.1    18    85    15    87     6    94 0.75 small nuclear ribonucleoprotein-associated protein B, putative [Plasmodium vivax]
+SCO69442.1           -            201 15144at5820          -             92    0.0016   17.5   0.2   2   2      0.63   4.2e+02    0.2   0.0    62    84    85   107    78   109 0.86 small nuclear ribonucleoprotein-associated protein B, putative [Plasmodium vivax]
+SCO65779.1           -             95 15144at5820          -             92    0.0044   16.1   0.4   1   1   7.4e-06     0.005   15.9   0.4    16    59    12    55     4    86 0.82 U6 snRNA-associated Sm-like protein LSm8, putative [Plasmodium vivax]
+SCO67369.1           -             86 15144at5820          -             92     0.032   13.4   0.0   1   1   5.1e-05     0.034   13.3   0.0     9    50    13    54     6    75 0.87 U6 snRNA-associated Sm-like protein LSm6, putative [Plasmodium vivax]
+#
+# Program:         hmmsearch
+# Version:         3.4 (Aug 2023)
+# Pipeline mode:   SEARCH
+# Query file:      /v3/work/00_inventory/busco/busco_downloads/lineages/plasmodium_odb10/hmms/15144at5820.hmm
+# Target file:     /v3/inputs/annotations/ncbi-datasets/PvT01.proteins.fa
+# Option settings: hmmsearch --domtblout /v3/work/00_inventory/busco/PvT01_proteins/run_plasmodium_odb10/hmmer_output/initial_run_results/15144at5820.out --cpu 1 /v3/work/00_inventory/busco/busco_downloads/lineages/plasmodium_odb10/hmms/15144at5820.hmm /v3/inputs/annotations/ncbi-datasets/PvT01.proteins.fa 
+# Current dir:     /v3/work/00_inventory/busco
+# Date:            Tue May 19 18:36:57 2026
+# [ok]

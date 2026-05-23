@@ -1,0 +1,16 @@
+#                                                                                                             --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name                                         accession   tlen query name           accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+#                                 ------------------- ---------- ----- -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+GCA_003402215.1|PVP01_0721400|PVP01_0721400.1|unknown -            300 9732at5820           -            242  1.4e-144  478.2   5.4   1   1  9.2e-148  1.6e-144  477.9   5.4     1   242    54   299    54   299 0.98 -
+GCA_003402215.1|PVP01_0530500|PVP01_0530500.1|unknown -            322 9732at5820           -            242   7.7e-15   53.3   0.1   1   1   6.4e-18   1.1e-14   52.8   0.1     9   188    52   242    47   249 0.84 -
+GCA_003402215.1|PVP01_1123400|PVP01_1123400.1|unknown -            383 9732at5820           -            242   1.1e-06   26.6   0.1   1   1   1.6e-09   2.9e-06   25.2   0.1     7   152    99   246    97   261 0.85 -
+#
+# Program:         hmmsearch
+# Version:         3.4 (Aug 2023)
+# Pipeline mode:   SEARCH
+# Query file:      /v3/work/00_inventory/busco/busco_downloads/lineages/plasmodium_odb10/hmms/9732at5820.hmm
+# Target file:     /v3/inputs/annotations/plasmodb-68/PvSY56.proteins.fa
+# Option settings: hmmsearch --domtblout /v3/work/00_inventory/busco/PvSY56_proteins/run_plasmodium_odb10/hmmer_output/initial_run_results/9732at5820.out --cpu 1 /v3/work/00_inventory/busco/busco_downloads/lineages/plasmodium_odb10/hmms/9732at5820.hmm /v3/inputs/annotations/plasmodb-68/PvSY56.proteins.fa 
+# Current dir:     /v3/work/00_inventory/busco
+# Date:            Tue May 19 18:24:15 2026
+# [ok]

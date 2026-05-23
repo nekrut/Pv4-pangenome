@@ -1,0 +1,19 @@
+#                                                                            --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name        accession   tlen query name           accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+#------------------- ---------- ----- -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+SCO74504.1           -            589 7950at5820           -            382  4.3e-195  646.9  72.6   1   4   4.3e-28   1.4e-24   85.7  12.5     1    54     6    59     6    77 0.82 cytoplasmic tRNA 2-thiolation protein 2, putative [Plasmodium vivax]
+SCO74504.1           -            589 7950at5820           -            382  4.3e-195  646.9  72.6   2   4   5.2e-44   1.6e-40  138.1   0.5    52   139   120   207   108   221 0.92 cytoplasmic tRNA 2-thiolation protein 2, putative [Plasmodium vivax]
+SCO74504.1           -            589 7950at5820           -            382  4.3e-195  646.9  72.6   3   4  1.6e-106  5.1e-103  343.8  31.8   138   333   256   452   245   466 0.94 cytoplasmic tRNA 2-thiolation protein 2, putative [Plasmodium vivax]
+SCO74504.1           -            589 7950at5820           -            382  4.3e-195  646.9  72.6   4   4   2.5e-31   7.8e-28   96.3   5.6   313   382   519   587   487   587 0.86 cytoplasmic tRNA 2-thiolation protein 2, putative [Plasmodium vivax]
+SCO73731.1           -            438 7950at5820           -            382     0.012   13.5  13.2   1   2   0.00059       1.8    6.2   4.7     4    95    12    91     9   158 0.68 cytoplasmic tRNA 2-thiolation protein 1, putative [Plasmodium vivax]
+SCO73731.1           -            438 7950at5820           -            382     0.012   13.5  13.2   2   2   1.5e-05     0.047   11.5   0.4   256   304   283   332   279   366 0.80 cytoplasmic tRNA 2-thiolation protein 1, putative [Plasmodium vivax]
+#
+# Program:         hmmsearch
+# Version:         3.4 (Aug 2023)
+# Pipeline mode:   SEARCH
+# Query file:      /v3/work/00_inventory/busco/busco_downloads/lineages/plasmodium_odb10/hmms/7950at5820.hmm
+# Target file:     /v3/inputs/annotations/ncbi-datasets/PvC01.proteins.fa
+# Option settings: hmmsearch --domtblout /v3/work/00_inventory/busco/PvC01_proteins/run_plasmodium_odb10/hmmer_output/initial_run_results/7950at5820.out --cpu 1 /v3/work/00_inventory/busco/busco_downloads/lineages/plasmodium_odb10/hmms/7950at5820.hmm /v3/inputs/annotations/ncbi-datasets/PvC01.proteins.fa 
+# Current dir:     /v3/work/00_inventory/busco
+# Date:            Tue May 19 19:05:36 2026
+# [ok]

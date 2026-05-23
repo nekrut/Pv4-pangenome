@@ -1,0 +1,17 @@
+#                                                                            --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name        accession   tlen query name           accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+#------------------- ---------- ----- -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+CAI7719319.1         -            723 3254at5820           -            580         0 1105.6  48.3   1   2    3e-177  9.8e-174  577.4  30.6     4   320    42   391    39   394 0.88 | transcript=PVPAM_060032600_t1 | gene=PVPAM_060032600 | organism=Plasmodium_vivax_PAM | gene_product=pyruvate kinase 2, putative | transcript_product=pyruvate kinase 2, putative | location=CASCJQ010000006:1127596-1129767(-) | protein_length=723 | sequence_SO=supercontig | SO=protein_coding_gene | is_pseudo=false
+CAI7719319.1         -            723 3254at5820           -            580         0 1105.6  48.3   2   2  4.1e-163  1.3e-159  530.8   9.6   317   579   440   722   435   723 0.94 | transcript=PVPAM_060032600_t1 | gene=PVPAM_060032600 | organism=Plasmodium_vivax_PAM | gene_product=pyruvate kinase 2, putative | transcript_product=pyruvate kinase 2, putative | location=CASCJQ010000006:1127596-1129767(-) | protein_length=723 | sequence_SO=supercontig | SO=protein_coding_gene | is_pseudo=false
+CAI7721365.1         -            511 3254at5820           -            580   1.6e-63  213.5   5.6   1   2   8.5e-31   2.7e-27   93.9   0.4    38   246    37   243    25   246 0.90 | transcript=PVPAM_110026800_t1 | gene=PVPAM_110026800 | organism=Plasmodium_vivax_PAM | gene_product=pyruvate kinase, putative | transcript_product=pyruvate kinase, putative | location=CASCJQ010000011:953811-956102(-) | protein_length=511 | sequence_SO=supercontig | SO=protein_coding_gene | is_pseudo=false
+CAI7721365.1         -            511 3254at5820           -            580   1.6e-63  213.5   5.6   2   2   2.1e-39   6.6e-36  122.3   0.7   320   446   249   374   246   510 0.81 | transcript=PVPAM_110026800_t1 | gene=PVPAM_110026800 | organism=Plasmodium_vivax_PAM | gene_product=pyruvate kinase, putative | transcript_product=pyruvate kinase, putative | location=CASCJQ010000011:953811-956102(-) | protein_length=511 | sequence_SO=supercontig | SO=protein_coding_gene | is_pseudo=false
+#
+# Program:         hmmsearch
+# Version:         3.4 (Aug 2023)
+# Pipeline mode:   SEARCH
+# Query file:      /v3/work/00_inventory/busco/busco_downloads/lineages/plasmodium_odb10/hmms/3254at5820.hmm
+# Target file:     /v3/inputs/annotations/plasmodb-68/PAM.proteins.fa
+# Option settings: hmmsearch --domtblout /v3/work/00_inventory/busco/PAM_proteins/run_plasmodium_odb10/hmmer_output/initial_run_results/3254at5820.out --cpu 1 /v3/work/00_inventory/busco/busco_downloads/lineages/plasmodium_odb10/hmms/3254at5820.hmm /v3/inputs/annotations/plasmodb-68/PAM.proteins.fa 
+# Current dir:     /v3/work/00_inventory/busco
+# Date:            Tue May 19 17:36:10 2026
+# [ok]

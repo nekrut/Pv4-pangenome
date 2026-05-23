@@ -1,0 +1,21 @@
+#                                                                            --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name        accession   tlen query name           accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+#------------------- ---------- ----- -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+SCO69308.1           -           1313 1222at5820           -            964         0 1714.4  90.3   1   5  2.8e-164  8.5e-161  535.4  12.2     1   255     5   260     5   269 0.98 coatamer protein, beta subunit, putative [Plasmodium vivax]
+SCO69308.1           -           1313 1222at5820           -            964         0 1714.4  90.3   2   5   1.4e-90   4.1e-87  291.5  18.0   248   401   336   489   330   497 0.96 coatamer protein, beta subunit, putative [Plasmodium vivax]
+SCO69308.1           -           1313 1222at5820           -            964         0 1714.4  90.3   3   5   1.5e-68   4.5e-65  218.6  11.9   397   568   539   765   533   772 0.86 coatamer protein, beta subunit, putative [Plasmodium vivax]
+SCO69308.1           -           1313 1222at5820           -            964         0 1714.4  90.3   4   5   1.6e-28     5e-25   86.0   0.3   567   643   801   895   789   901 0.84 coatamer protein, beta subunit, putative [Plasmodium vivax]
+SCO69308.1           -           1313 1222at5820           -            964         0 1714.4  90.3   5   5  3.9e-182  1.2e-178  594.5  18.6   642   964   949  1309   946  1309 0.92 coatamer protein, beta subunit, putative [Plasmodium vivax]
+SCO68894.1           -           1038 1222at5820           -            964   0.00064   16.1  34.8   1   3   2.3e-07   0.00071   16.0   1.6    94   162    98   166    90   200 0.89 AP-1 complex subunit gamma, putative [Plasmodium vivax]
+SCO68894.1           -           1038 1222at5820           -            964   0.00064   16.1  34.8   2   3   3.1e-05     0.094    9.0  14.7   283   482   326   527   295   534 0.72 AP-1 complex subunit gamma, putative [Plasmodium vivax]
+SCO68894.1           -           1038 1222at5820           -            964   0.00064   16.1  34.8   3   3    0.0029       8.9    2.4   3.2   493   562   570   646   547   710 0.48 AP-1 complex subunit gamma, putative [Plasmodium vivax]
+#
+# Program:         hmmsearch
+# Version:         3.4 (Aug 2023)
+# Pipeline mode:   SEARCH
+# Query file:      /v3/work/00_inventory/busco/busco_downloads/lineages/plasmodium_odb10/hmms/1222at5820.hmm
+# Target file:     /v3/inputs/annotations/ncbi-datasets/PvT01.proteins.fa
+# Option settings: hmmsearch --domtblout /v3/work/00_inventory/busco/PvT01_proteins/run_plasmodium_odb10/hmmer_output/initial_run_results/1222at5820.out --cpu 1 /v3/work/00_inventory/busco/busco_downloads/lineages/plasmodium_odb10/hmms/1222at5820.hmm /v3/inputs/annotations/ncbi-datasets/PvT01.proteins.fa 
+# Current dir:     /v3/work/00_inventory/busco
+# Date:            Tue May 19 18:29:04 2026
+# [ok]

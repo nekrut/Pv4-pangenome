@@ -1,0 +1,22 @@
+#                                                                            --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name        accession   tlen query name           accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+#------------------- ---------- ----- -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+SCO65878.1           -            914 3150at5820           -            646  8.1e-271  898.6  68.2   1   4   3.6e-87   7.3e-84  280.9  18.3     2   186    83   272    82   282 0.95 conserved Plasmodium protein, unknown function [Plasmodium vivax]
+SCO65878.1           -            914 3150at5820           -            646  8.1e-271  898.6  68.2   2   4  5.9e-101   1.2e-97  326.4  19.9   187   373   311   497   306   502 0.98 conserved Plasmodium protein, unknown function [Plasmodium vivax]
+SCO65878.1           -            914 3150at5820           -            646  8.1e-271  898.6  68.2   3   4   1.1e-24   2.3e-21   74.4   0.1   371   448   516   604   511   608 0.84 conserved Plasmodium protein, unknown function [Plasmodium vivax]
+SCO65878.1           -            914 3150at5820           -            646  8.1e-271  898.6  68.2   4   4   1.7e-71   3.4e-68  229.1  10.4   448   646   671   913   659   913 0.85 conserved Plasmodium protein, unknown function [Plasmodium vivax]
+SCO67002.1           -            631 3150at5820           -            646   3.5e-05   21.0  10.9   1   2   1.7e-08   3.5e-05   21.0  10.9   160   367   211   418   195   448 0.91 conserved Plasmodium protein, unknown function [Plasmodium vivax]
+SCO67002.1           -            631 3150at5820           -            646   3.5e-05   21.0  10.9   2   2     0.069   1.4e+02   -0.9  16.6   102   324   341   566   329   573 0.75 conserved Plasmodium protein, unknown function [Plasmodium vivax]
+SCO66268.1           -            512 3150at5820           -            646    0.0043   14.0  20.3   1   3   7.8e-05      0.16    8.9   0.8   195   260    62   131    47   143 0.81 conserved Plasmodium protein, unknown function [Plasmodium vivax]
+SCO66268.1           -            512 3150at5820           -            646    0.0043   14.0  20.3   2   3   7.4e-05      0.15    8.9   5.0   194   276   135   221   125   234 0.76 conserved Plasmodium protein, unknown function [Plasmodium vivax]
+SCO66268.1           -            512 3150at5820           -            646    0.0043   14.0  20.3   3   3    0.0013       2.7    4.8   3.4   387   503   240   356   223   366 0.92 conserved Plasmodium protein, unknown function [Plasmodium vivax]
+#
+# Program:         hmmsearch
+# Version:         3.4 (Aug 2023)
+# Pipeline mode:   SEARCH
+# Query file:      /v3/work/00_inventory/busco/busco_downloads/lineages/plasmodium_odb10/hmms/3150at5820.hmm
+# Target file:     /v3/inputs/annotations/ncbi-datasets/PvT01.proteins.fa
+# Option settings: hmmsearch --domtblout /v3/work/00_inventory/busco/PvT01_proteins/run_plasmodium_odb10/hmmer_output/initial_run_results/3150at5820.out --cpu 1 /v3/work/00_inventory/busco/busco_downloads/lineages/plasmodium_odb10/hmms/3150at5820.hmm /v3/inputs/annotations/ncbi-datasets/PvT01.proteins.fa 
+# Current dir:     /v3/work/00_inventory/busco
+# Date:            Tue May 19 18:37:45 2026
+# [ok]

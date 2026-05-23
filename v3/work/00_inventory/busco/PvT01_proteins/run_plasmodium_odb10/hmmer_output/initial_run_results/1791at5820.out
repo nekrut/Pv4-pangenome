@@ -1,0 +1,30 @@
+#                                                                            --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name        accession   tlen query name           accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+#------------------- ---------- ----- -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+SCO65697.1           -           1467 1791at5820           -            805         0 1395.2  77.3   1   8  5.6e-101   8.5e-98  326.9   0.4     1   158     1   158     1   178 0.96 DNA repair protein RAD2, putative [Plasmodium vivax]
+SCO65697.1           -           1467 1791at5820           -            805         0 1395.2  77.3   2   8   1.2e-21   1.8e-18   64.5   0.6   154   206   207   260   205   268 0.94 DNA repair protein RAD2, putative [Plasmodium vivax]
+SCO65697.1           -           1467 1791at5820           -            805         0 1395.2  77.3   3   8   3.4e-30   5.2e-27   92.8   0.4   207   270   325   388   319   404 0.92 DNA repair protein RAD2, putative [Plasmodium vivax]
+SCO65697.1           -           1467 1791at5820           -            805         0 1395.2  77.3   4   8   5.9e-86   8.9e-83  277.3  20.9   264   426   469   640   461   652 0.91 DNA repair protein RAD2, putative [Plasmodium vivax]
+SCO65697.1           -           1467 1791at5820           -            805         0 1395.2  77.3   5   8   4.3e-08   6.6e-05   19.7   0.2   414   442   725   753   718   774 0.89 DNA repair protein RAD2, putative [Plasmodium vivax]
+SCO65697.1           -           1467 1791at5820           -            805         0 1395.2  77.3   6   8   7.8e-05      0.12    8.9   0.0   434   483   963  1023   957  1030 0.80 DNA repair protein RAD2, putative [Plasmodium vivax]
+SCO65697.1           -           1467 1791at5820           -            805         0 1395.2  77.3   7   8  5.5e-182  8.4e-179  594.9  17.6   480   771  1091  1390  1085  1395 0.96 DNA repair protein RAD2, putative [Plasmodium vivax]
+SCO65697.1           -           1467 1791at5820           -            805         0 1395.2  77.3   8   8   1.2e-12   1.8e-09   34.8   0.1   770   805  1424  1459  1419  1459 0.94 DNA repair protein RAD2, putative [Plasmodium vivax]
+SCO65315.1           -            623 1791at5820           -            805   1.2e-32  111.4  19.4   1   4    0.0059       8.9    2.7   0.0     1    41     1    45     1    59 0.79 flap endonuclease 1, putative [Plasmodium vivax]
+SCO65315.1           -            623 1791at5820           -            805   1.2e-32  111.4  19.4   2   4   1.8e-09   2.7e-06   24.3   0.0    80   135    63   118    46   120 0.89 flap endonuclease 1, putative [Plasmodium vivax]
+SCO65315.1           -            623 1791at5820           -            805   1.2e-32  111.4  19.4   3   4   1.5e-24   2.3e-21   74.2   5.4   495   639   117   274   114   283 0.79 flap endonuclease 1, putative [Plasmodium vivax]
+SCO65315.1           -            623 1791at5820           -            805   1.2e-32  111.4  19.4   4   4   1.5e-06    0.0023   14.6   7.4   668   768   281   378   272   421 0.79 flap endonuclease 1, putative [Plasmodium vivax]
+SCO66795.1           -            407 1791at5820           -            805   1.1e-16   58.7  19.0   1   2   9.1e-05      0.14    8.7   3.5    20    98    25   102     1   138 0.74 endonuclease, putative [Plasmodium vivax]
+SCO66795.1           -            407 1791at5820           -            805   1.1e-16   58.7  19.0   2   2   4.3e-19   6.6e-16   56.1   7.6   507   635   233   359   204   392 0.86 endonuclease, putative [Plasmodium vivax]
+SCO65441.1           -           1255 1791at5820           -            805   1.2e-09   35.4  11.1   1   3   1.3e-05      0.02   11.5   1.2    72   139    72   135    60   158 0.78 exonuclease I, putative [Plasmodium vivax]
+SCO65441.1           -           1255 1791at5820           -            805   1.2e-09   35.4  11.1   2   3   1.3e-08   1.9e-05   21.5   0.7   513   570   156   213   140   226 0.81 exonuclease I, putative [Plasmodium vivax]
+SCO65441.1           -           1255 1791at5820           -            805   1.2e-09   35.4  11.1   3   3   0.00019      0.29    7.6   0.1   598   637   344   385   331   457 0.72 exonuclease I, putative [Plasmodium vivax]
+#
+# Program:         hmmsearch
+# Version:         3.4 (Aug 2023)
+# Pipeline mode:   SEARCH
+# Query file:      /v3/work/00_inventory/busco/busco_downloads/lineages/plasmodium_odb10/hmms/1791at5820.hmm
+# Target file:     /v3/inputs/annotations/ncbi-datasets/PvT01.proteins.fa
+# Option settings: hmmsearch --domtblout /v3/work/00_inventory/busco/PvT01_proteins/run_plasmodium_odb10/hmmer_output/initial_run_results/1791at5820.out --cpu 1 /v3/work/00_inventory/busco/busco_downloads/lineages/plasmodium_odb10/hmms/1791at5820.hmm /v3/inputs/annotations/ncbi-datasets/PvT01.proteins.fa 
+# Current dir:     /v3/work/00_inventory/busco
+# Date:            Tue May 19 18:35:59 2026
+# [ok]

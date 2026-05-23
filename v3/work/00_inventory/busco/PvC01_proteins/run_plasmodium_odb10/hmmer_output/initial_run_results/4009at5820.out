@@ -1,0 +1,20 @@
+#                                                                            --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name        accession   tlen query name           accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+#------------------- ---------- ----- -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+SCO70828.1           -            824 4009at5820           -            629  6.6e-277  918.5  71.2   1   5   1.9e-15   6.1e-12   43.2   0.8     2    33    12    43    11    51 0.93 conserved Plasmodium protein, unknown function [Plasmodium vivax]
+SCO70828.1           -            824 4009at5820           -            629  6.6e-277  918.5  71.2   2   5  2.6e-129    8e-126  419.4  39.4    33   317    66   363    61   386 0.94 conserved Plasmodium protein, unknown function [Plasmodium vivax]
+SCO70828.1           -            824 4009at5820           -            629  6.6e-277  918.5  71.2   3   5   1.2e-47   3.6e-44  149.7   5.4   319   439   418   539   408   542 0.96 conserved Plasmodium protein, unknown function [Plasmodium vivax]
+SCO70828.1           -            824 4009at5820           -            629  6.6e-277  918.5  71.2   4   5   1.3e-57   4.2e-54  182.5   1.7   423   535   549   661   547   674 0.87 conserved Plasmodium protein, unknown function [Plasmodium vivax]
+SCO70828.1           -            824 4009at5820           -            629  6.6e-277  918.5  71.2   5   5   5.9e-45   1.9e-41  140.7   0.0   546   629   741   824   728   824 0.97 conserved Plasmodium protein, unknown function [Plasmodium vivax]
+SCO71386.1           -            140 4009at5820           -            629     0.005   13.8   0.5   1   2   1.6e-06     0.005   13.8   0.5   211   260     3    54     1    69 0.78 Plasmodium RESA N-terminal, putative [Plasmodium vivax]
+SCO71386.1           -            140 4009at5820           -            629     0.005   13.8   0.5   2   2     0.018        58    0.3   0.2   342   387    74   117    58   129 0.55 Plasmodium RESA N-terminal, putative [Plasmodium vivax]
+#
+# Program:         hmmsearch
+# Version:         3.4 (Aug 2023)
+# Pipeline mode:   SEARCH
+# Query file:      /v3/work/00_inventory/busco/busco_downloads/lineages/plasmodium_odb10/hmms/4009at5820.hmm
+# Target file:     /v3/inputs/annotations/ncbi-datasets/PvC01.proteins.fa
+# Option settings: hmmsearch --domtblout /v3/work/00_inventory/busco/PvC01_proteins/run_plasmodium_odb10/hmmer_output/initial_run_results/4009at5820.out --cpu 1 /v3/work/00_inventory/busco/busco_downloads/lineages/plasmodium_odb10/hmms/4009at5820.hmm /v3/inputs/annotations/ncbi-datasets/PvC01.proteins.fa 
+# Current dir:     /v3/work/00_inventory/busco
+# Date:            Tue May 19 18:43:04 2026
+# [ok]

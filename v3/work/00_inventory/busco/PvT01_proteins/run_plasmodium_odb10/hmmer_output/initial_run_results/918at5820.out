@@ -1,0 +1,22 @@
+#                                                                            --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name        accession   tlen query name           accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+#------------------- ---------- ----- -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+SCO65398.1           -           2111 918at5820            -           1171         0 1896.5 178.6   1   9  8.9e-167  5.4e-163  543.1  35.5     2   276     6   281     5   286 0.99 phosphoinositide-binding protein, putative [Plasmodium vivax]
+SCO65398.1           -           2111 918at5820            -           1171         0 1896.5 178.6   2   9   8.1e-73   4.9e-69  231.9  21.0   268   400   299   431   290   439 0.97 phosphoinositide-binding protein, putative [Plasmodium vivax]
+SCO65398.1           -           2111 918at5820            -           1171         0 1896.5 178.6   3   9   2.8e-32   1.7e-28   97.6   1.2   405   468   480   543   476   549 0.95 phosphoinositide-binding protein, putative [Plasmodium vivax]
+SCO65398.1           -           2111 918at5820            -           1171         0 1896.5 178.6   4   9   2.9e-06     0.018   11.4   0.2   464   486   751   773   734   778 0.84 phosphoinositide-binding protein, putative [Plasmodium vivax]
+SCO65398.1           -           2111 918at5820            -           1171         0 1896.5 178.6   5   9   5.5e-12   3.3e-08   30.4   0.0   484   519   835   870   832   881 0.92 phosphoinositide-binding protein, putative [Plasmodium vivax]
+SCO65398.1           -           2111 918at5820            -           1171         0 1896.5 178.6   6   9   1.6e-37   9.5e-34  115.0   4.3   515   586   929  1000   917  1003 0.93 phosphoinositide-binding protein, putative [Plasmodium vivax]
+SCO65398.1           -           2111 918at5820            -           1171         0 1896.5 178.6   7   9   1.3e-34   7.8e-31  105.4   4.0   583   655  1133  1205  1126  1209 0.95 phosphoinositide-binding protein, putative [Plasmodium vivax]
+SCO65398.1           -           2111 918at5820            -           1171         0 1896.5 178.6   8   9    2e-115  1.2e-111  372.9  21.6   656   923  1327  1611  1312  1627 0.90 phosphoinositide-binding protein, putative [Plasmodium vivax]
+SCO65398.1           -           2111 918at5820            -           1171         0 1896.5 178.6   9   9  2.8e-132  1.7e-128  428.8  37.0   919  1171  1857  2110  1839  2110 0.98 phosphoinositide-binding protein, putative [Plasmodium vivax]
+#
+# Program:         hmmsearch
+# Version:         3.4 (Aug 2023)
+# Pipeline mode:   SEARCH
+# Query file:      /v3/work/00_inventory/busco/busco_downloads/lineages/plasmodium_odb10/hmms/918at5820.hmm
+# Target file:     /v3/inputs/annotations/ncbi-datasets/PvT01.proteins.fa
+# Option settings: hmmsearch --domtblout /v3/work/00_inventory/busco/PvT01_proteins/run_plasmodium_odb10/hmmer_output/initial_run_results/918at5820.out --cpu 1 /v3/work/00_inventory/busco/busco_downloads/lineages/plasmodium_odb10/hmms/918at5820.hmm /v3/inputs/annotations/ncbi-datasets/PvT01.proteins.fa 
+# Current dir:     /v3/work/00_inventory/busco
+# Date:            Tue May 19 19:08:59 2026
+# [ok]

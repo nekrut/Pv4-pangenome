@@ -1,0 +1,17 @@
+#                                                                            --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name        accession   tlen query name           accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+#------------------- ---------- ----- -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+PVP01_1118000.1-p1   -            168 13699at5820          -            138   1.3e-73  244.4   8.4   1   1     7e-77   2.3e-73  243.7   8.4     1   138     1   168     1   168 0.88 | transcript=PVP01_1118000.1 | gene=PVP01_1118000 | organism=Plasmodium_vivax_P01 | gene_product=reactive oxygen species modulator 1, putative | transcript_product=reactive oxygen species modulator 1, putative | location=PvP01_11_v2:760239-760745(-) | protein_length=168 | sequence_SO=chromosome | SO=protein_coding_gene | is_pseudo=false
+PVP01_0006960.1-p1   -            369 13699at5820          -            138      0.94    8.4   7.4   1   3      0.81   2.7e+03   -2.8   0.0    47    64   149   166   126   178 0.67 | transcript=PVP01_0006960.1 | gene=PVP01_0006960 | organism=Plasmodium_vivax_P01 | gene_product=PIR protein | transcript_product=PIR protein | location=Transfer.PvP01_00_23.final:61515-62799(+) | protein_length=369 | sequence_SO=contig | SO=protein_coding_gene | is_pseudo=false
+PVP01_0006960.1-p1   -            369 13699at5820          -            138      0.94    8.4   7.4   2   3      0.24   7.9e+02   -1.1   0.1    50    76   183   209   166   233 0.71 | transcript=PVP01_0006960.1 | gene=PVP01_0006960 | organism=Plasmodium_vivax_P01 | gene_product=PIR protein | transcript_product=PIR protein | location=Transfer.PvP01_00_23.final:61515-62799(+) | protein_length=369 | sequence_SO=contig | SO=protein_coding_gene | is_pseudo=false
+PVP01_0006960.1-p1   -            369 13699at5820          -            138      0.94    8.4   7.4   3   3   2.6e-05     0.085   11.8   0.6     6    79   247   323   242   348 0.82 | transcript=PVP01_0006960.1 | gene=PVP01_0006960 | organism=Plasmodium_vivax_P01 | gene_product=PIR protein | transcript_product=PIR protein | location=Transfer.PvP01_00_23.final:61515-62799(+) | protein_length=369 | sequence_SO=contig | SO=protein_coding_gene | is_pseudo=false
+#
+# Program:         hmmsearch
+# Version:         3.4 (Aug 2023)
+# Pipeline mode:   SEARCH
+# Query file:      /v3/work/00_inventory/busco/busco_downloads/lineages/plasmodium_odb10/hmms/13699at5820.hmm
+# Target file:     /v3/inputs/annotations/plasmodb-68/PvP01.proteins.fa
+# Option settings: hmmsearch --domtblout /v3/work/00_inventory/busco/PvP01_proteins/run_plasmodium_odb10/hmmer_output/initial_run_results/13699at5820.out --cpu 1 /v3/work/00_inventory/busco/busco_downloads/lineages/plasmodium_odb10/hmms/13699at5820.hmm /v3/inputs/annotations/plasmodb-68/PvP01.proteins.fa 
+# Current dir:     /v3/work/00_inventory/busco
+# Date:            Tue May 19 17:31:10 2026
+# [ok]

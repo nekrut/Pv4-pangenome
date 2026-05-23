@@ -1,0 +1,17 @@
+#                                                                            --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name        accession   tlen query name           accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+#------------------- ---------- ----- -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+PVX_118595.1-p1      -            769 3371at5820           -            502  2.8e-258  856.0  62.5   1   4   1.8e-86   9.9e-83  276.9  15.3     1   147     1   156     1   175 0.90 | transcript=PVX_118595.1 | gene=PVX_118595 | organism=Plasmodium_vivax_Sal-1 | gene_product=DNA repair metallo-beta-lactamase protein, putative | transcript_product=DNA repair metallo-beta-lactamase protein, putative | location=Pv_Sal1_chr12:2875993-2878600(+) | protein_length=769 | sequence_SO=chromosome | SO=protein_coding_gene | is_pseudo=false
+PVX_118595.1-p1      -            769 3371at5820           -            502  2.8e-258  856.0  62.5   2   4   1.3e-42   7.3e-39  132.2   5.2   144   245   198   303   178   310 0.89 | transcript=PVX_118595.1 | gene=PVX_118595 | organism=Plasmodium_vivax_Sal-1 | gene_product=DNA repair metallo-beta-lactamase protein, putative | transcript_product=DNA repair metallo-beta-lactamase protein, putative | location=Pv_Sal1_chr12:2875993-2878600(+) | protein_length=769 | sequence_SO=chromosome | SO=protein_coding_gene | is_pseudo=false
+PVX_118595.1-p1      -            769 3371at5820           -            502  2.8e-258  856.0  62.5   3   4   1.3e-26   7.5e-23   79.3   0.1   247   294   408   455   377   469 0.92 | transcript=PVX_118595.1 | gene=PVX_118595 | organism=Plasmodium_vivax_Sal-1 | gene_product=DNA repair metallo-beta-lactamase protein, putative | transcript_product=DNA repair metallo-beta-lactamase protein, putative | location=Pv_Sal1_chr12:2875993-2878600(+) | protein_length=769 | sequence_SO=chromosome | SO=protein_coding_gene | is_pseudo=false
+PVX_118595.1-p1      -            769 3371at5820           -            502  2.8e-258  856.0  62.5   4   4  7.3e-118    4e-114  380.4  22.5   293   502   535   766   532   766 0.90 | transcript=PVX_118595.1 | gene=PVX_118595 | organism=Plasmodium_vivax_Sal-1 | gene_product=DNA repair metallo-beta-lactamase protein, putative | transcript_product=DNA repair metallo-beta-lactamase protein, putative | location=Pv_Sal1_chr12:2875993-2878600(+) | protein_length=769 | sequence_SO=chromosome | SO=protein_coding_gene | is_pseudo=false
+#
+# Program:         hmmsearch
+# Version:         3.4 (Aug 2023)
+# Pipeline mode:   SEARCH
+# Query file:      /v3/work/00_inventory/busco/busco_downloads/lineages/plasmodium_odb10/hmms/3371at5820.hmm
+# Target file:     /v3/inputs/annotations/plasmodb-68/Sal-I.proteins.fa
+# Option settings: hmmsearch --domtblout /v3/work/00_inventory/busco/Sal-I_proteins/run_plasmodium_odb10/hmmer_output/initial_run_results/3371at5820.out --cpu 1 /v3/work/00_inventory/busco/busco_downloads/lineages/plasmodium_odb10/hmms/3371at5820.hmm /v3/inputs/annotations/plasmodb-68/Sal-I.proteins.fa 
+# Current dir:     /v3/work/00_inventory/busco
+# Date:            Tue May 19 17:36:37 2026
+# [ok]

@@ -1,0 +1,29 @@
+#                                                                            --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name        accession   tlen query name           accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+#------------------- ---------- ----- -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+SCO71310.1           -            690 3994at5820           -            641         0 1477.0  29.4   1   2         0         0 1469.5   6.3     1   634     8   657     8   657 0.99 heat shock protein 70, putative [Plasmodium vivax]
+SCO71310.1           -            690 3994at5820           -            641         0 1477.0  29.4   2   2   4.8e-07   0.00033   17.3  16.3   605   641   652   690   652   690 0.68 heat shock protein 70, putative [Plasmodium vivax]
+SCO71935.1           -            652 3994at5820           -            641  1.4e-234  778.4  10.3   1   1  2.7e-237  1.9e-234  778.0  10.3    10   605    30   635    22   643 0.95 heat shock protein 70, putative [Plasmodium vivax]
+SCO72825.1           -            663 3994at5820           -            641  1.9e-177  589.6  11.0   1   1  3.3e-180  2.3e-177  589.4  11.0     7   564    40   590    33   644 0.92 heat shock protein 70, putative [Plasmodium vivax]
+SCO70433.1           -            887 3994at5820           -            641   5.2e-40  135.6   6.1   1   3   5.2e-31   3.6e-28   96.5   2.3    11   252     4   251     2   271 0.87 heat shock protein 110, putative [Plasmodium vivax]
+SCO70433.1           -            887 3994at5820           -            641   5.2e-40  135.6   6.1   2   3   7.1e-17     5e-14   49.8   0.1   267   387   294   414   276   421 0.89 heat shock protein 110, putative [Plasmodium vivax]
+SCO70433.1           -            887 3994at5820           -            641   5.2e-40  135.6   6.1   3   3       4.8   3.4e+03   -5.9   3.9   542   583   739   780   645   852 0.66 heat shock protein 110, putative [Plasmodium vivax]
+SCO73955.1           -            928 3994at5820           -            641   4.4e-23   79.7   1.9   1   3    0.0016       1.1    5.7   0.0    10    75    26    92    18   116 0.88 heat shock protein 110, putative [Plasmodium vivax]
+SCO73955.1           -            928 3994at5820           -            641   4.4e-23   79.7   1.9   2   3   6.2e-26   4.4e-23   79.7   1.9   119   401   165   461   135   562 0.81 heat shock protein 110, putative [Plasmodium vivax]
+SCO73955.1           -            928 3994at5820           -            641   4.4e-23   79.7   1.9   3   3      0.78   5.4e+02   -3.2   3.3   515   584   648   717   625   740 0.77 heat shock protein 110, putative [Plasmodium vivax]
+SCO73064.1           -            463 3994at5820           -            641   0.00012   18.8  17.0   1   3   1.7e-07   0.00012   18.8  17.0   535   634   231   331   209   331 0.54 Hsc70-interacting protein, putative [Plasmodium vivax]
+SCO73064.1           -            463 3994at5820           -            641   0.00012   18.8  17.0   2   3         9   6.3e+03  -22.6  56.2   617   634   338   355   318   377 0.54 Hsc70-interacting protein, putative [Plasmodium vivax]
+SCO73064.1           -            463 3994at5820           -            641   0.00012   18.8  17.0   3   3    0.0054       3.8    3.9  26.8   608   632   376   400   372   409 0.62 Hsc70-interacting protein, putative [Plasmodium vivax]
+SCO73430.1           -            455 3994at5820           -            641   0.00021   17.9   3.6   1   1   4.9e-07   0.00034   17.3   3.6   607   635    60    88    23    93 0.76 SNARE associated Golgi protein, putative [Plasmodium vivax]
+SCO74770.1           -            895 3994at5820           -            641      0.29    7.6   3.4   1   1   0.00068      0.48    6.9   3.4   597   631    64    98    58   106 0.72 conserved Plasmodium protein, unknown function [Plasmodium vivax]
+SCO71669.1           -           1488 3994at5820           -            641       4.2    3.8   7.2   1   1     0.011       7.4    2.9   7.2   605   630   172   197   155   206 0.52 conserved Plasmodium protein, unknown function [Plasmodium vivax]
+#
+# Program:         hmmsearch
+# Version:         3.4 (Aug 2023)
+# Pipeline mode:   SEARCH
+# Query file:      /v3/work/00_inventory/busco/busco_downloads/lineages/plasmodium_odb10/hmms/3994at5820.hmm
+# Target file:     /v3/inputs/annotations/ncbi-datasets/PvC01.proteins.fa
+# Option settings: hmmsearch --domtblout /v3/work/00_inventory/busco/PvC01_proteins/run_plasmodium_odb10/hmmer_output/initial_run_results/3994at5820.out --cpu 1 /v3/work/00_inventory/busco/busco_downloads/lineages/plasmodium_odb10/hmms/3994at5820.hmm /v3/inputs/annotations/ncbi-datasets/PvC01.proteins.fa 
+# Current dir:     /v3/work/00_inventory/busco
+# Date:            Tue May 19 18:42:35 2026
+# [ok]

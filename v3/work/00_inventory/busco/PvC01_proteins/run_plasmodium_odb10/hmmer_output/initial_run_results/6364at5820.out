@@ -1,0 +1,19 @@
+#                                                                            --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name        accession   tlen query name           accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+#------------------- ---------- ----- -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+SCO73920.1           -            606 6364at5820           -            439  1.6e-253  839.6  28.8   1   3   1.9e-27   5.8e-24   83.1   1.7     1    72    20    94    20   106 0.92 ethanolamine-phosphate cytidylyltransferase, putative [Plasmodium vivax]
+SCO73920.1           -            606 6364at5820           -            439  1.6e-253  839.6  28.8   2   3  9.7e-112  3.1e-108  360.9   7.3    54   234   125   309   116   321 0.94 ethanolamine-phosphate cytidylyltransferase, putative [Plasmodium vivax]
+SCO73920.1           -            606 6364at5820           -            439  1.6e-253  839.6  28.8   3   3  7.5e-126  2.4e-122  407.4   4.4   242   439   408   606   355   606 0.94 ethanolamine-phosphate cytidylyltransferase, putative [Plasmodium vivax]
+SCO75243.1           -            888 6364at5820           -            439   5.1e-38  129.5  12.6   1   3   1.2e-21   3.9e-18   63.9   0.3    79   227    15   180     3   205 0.69 choline-phosphate cytidylyltransferase, putative [Plasmodium vivax]
+SCO75243.1           -            888 6364at5820           -            439   5.1e-38  129.5  12.6   2   3      0.22   6.9e+02   -2.8   0.6    65    96   306   337   268   356 0.70 choline-phosphate cytidylyltransferase, putative [Plasmodium vivax]
+SCO75243.1           -            888 6364at5820           -            439   5.1e-38  129.5  12.6   3   3   4.8e-24   1.5e-20   71.9   0.8   266   378   604   713   600   780 0.75 choline-phosphate cytidylyltransferase, putative [Plasmodium vivax]
+#
+# Program:         hmmsearch
+# Version:         3.4 (Aug 2023)
+# Pipeline mode:   SEARCH
+# Query file:      /v3/work/00_inventory/busco/busco_downloads/lineages/plasmodium_odb10/hmms/6364at5820.hmm
+# Target file:     /v3/inputs/annotations/ncbi-datasets/PvC01.proteins.fa
+# Option settings: hmmsearch --domtblout /v3/work/00_inventory/busco/PvC01_proteins/run_plasmodium_odb10/hmmer_output/initial_run_results/6364at5820.out --cpu 1 /v3/work/00_inventory/busco/busco_downloads/lineages/plasmodium_odb10/hmms/6364at5820.hmm /v3/inputs/annotations/ncbi-datasets/PvC01.proteins.fa 
+# Current dir:     /v3/work/00_inventory/busco
+# Date:            Tue May 19 19:03:18 2026
+# [ok]

@@ -1,0 +1,16 @@
+#                                                                            --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name        accession   tlen query name           accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+#------------------- ---------- ----- -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+SCO69666.1           -            763 4840at5820           -            580  1.7e-283  940.1 104.3   1   3    5e-110  3.1e-106  354.8  40.4     7   260    54   351    48   362 0.87 tripartite motif protein, putative [Plasmodium vivax]
+SCO69666.1           -            763 4840at5820           -            580  1.7e-283  940.1 104.3   2   3     5e-30   3.1e-26   90.6   4.7   245   311   361   429   355   445 0.93 tripartite motif protein, putative [Plasmodium vivax]
+SCO69666.1           -            763 4840at5820           -            580  1.7e-283  940.1 104.3   3   3  5.8e-156  3.5e-152  506.4  43.6   315   580   474   754   437   754 0.91 tripartite motif protein, putative [Plasmodium vivax]
+#
+# Program:         hmmsearch
+# Version:         3.4 (Aug 2023)
+# Pipeline mode:   SEARCH
+# Query file:      /v3/work/00_inventory/busco/busco_downloads/lineages/plasmodium_odb10/hmms/4840at5820.hmm
+# Target file:     /v3/inputs/annotations/ncbi-datasets/PvT01.proteins.fa
+# Option settings: hmmsearch --domtblout /v3/work/00_inventory/busco/PvT01_proteins/run_plasmodium_odb10/hmmer_output/initial_run_results/4840at5820.out --cpu 1 /v3/work/00_inventory/busco/busco_downloads/lineages/plasmodium_odb10/hmms/4840at5820.hmm /v3/inputs/annotations/ncbi-datasets/PvT01.proteins.fa 
+# Current dir:     /v3/work/00_inventory/busco
+# Date:            Tue May 19 18:48:01 2026
+# [ok]

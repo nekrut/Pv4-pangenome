@@ -1,0 +1,20 @@
+#                                                                            --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name        accession   tlen query name           accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+#------------------- ---------- ----- -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+SCO68093.1           -            378 10208at5820          -            317  7.8e-152  503.5  45.4   1   2  2.5e-126  7.5e-123  408.3  30.8     3   243     6   262     1   272 0.93 conserved Plasmodium protein, unknown function [Plasmodium vivax]
+SCO68093.1           -            378 10208at5820          -            317  7.8e-152  503.5  45.4   2   2   5.8e-33   1.8e-29  101.5   6.7   230   317   278   378   270   378 0.82 conserved Plasmodium protein, unknown function [Plasmodium vivax]
+SCO69220.1           -            381 10208at5820          -            317    0.0096   13.7   0.0   1   5     0.012        36    1.9   0.0   202   259    24    81    16    99 0.84 polyubiquitin 5, putative [Plasmodium vivax]
+SCO69220.1           -            381 10208at5820          -            317    0.0096   13.7   0.0   2   5     0.014        42    1.7   0.0   202   259   100   157    90   173 0.84 polyubiquitin 5, putative [Plasmodium vivax]
+SCO69220.1           -            381 10208at5820          -            317    0.0096   13.7   0.0   3   5     0.013        38    1.8   0.0   202   259   176   233   164   251 0.84 polyubiquitin 5, putative [Plasmodium vivax]
+SCO69220.1           -            381 10208at5820          -            317    0.0096   13.7   0.0   4   5     0.013        40    1.8   0.0   202   259   252   309   243   327 0.84 polyubiquitin 5, putative [Plasmodium vivax]
+SCO69220.1           -            381 10208at5820          -            317    0.0096   13.7   0.0   5   5     0.085   2.6e+02   -0.9   0.0   202   250   328   376   319   381 0.84 polyubiquitin 5, putative [Plasmodium vivax]
+#
+# Program:         hmmsearch
+# Version:         3.4 (Aug 2023)
+# Pipeline mode:   SEARCH
+# Query file:      /v3/work/00_inventory/busco/busco_downloads/lineages/plasmodium_odb10/hmms/10208at5820.hmm
+# Target file:     /v3/inputs/annotations/ncbi-datasets/PvT01.proteins.fa
+# Option settings: hmmsearch --domtblout /v3/work/00_inventory/busco/PvT01_proteins/run_plasmodium_odb10/hmmer_output/initial_run_results/10208at5820.out --cpu 1 /v3/work/00_inventory/busco/busco_downloads/lineages/plasmodium_odb10/hmms/10208at5820.hmm /v3/inputs/annotations/ncbi-datasets/PvT01.proteins.fa 
+# Current dir:     /v3/work/00_inventory/busco
+# Date:            Tue May 19 18:28:19 2026
+# [ok]

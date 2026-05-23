@@ -1,0 +1,17 @@
+#                                                                            --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name        accession   tlen query name           accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+#------------------- ---------- ----- -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+CAI7719584.1         -            249 10516at5820          -            213  1.8e-134  444.5  12.5   1   2   8.9e-63   2.9e-59  198.7   3.3     1    95     1    95     1   107 0.98 | transcript=PVPAM_070019800_t1 | gene=PVPAM_070019800 | organism=Plasmodium_vivax_PAM | gene_product=protein KIC3, putative | transcript_product=protein KIC3, putative | location=CASCJQ010000007:700179-702163(+) | protein_length=249 | sequence_SO=supercontig | SO=protein_coding_gene | is_pseudo=false
+CAI7719584.1         -            249 10516at5820          -            213  1.8e-134  444.5  12.5   2   2   7.7e-79   2.5e-75  251.2   1.7    94   213   122   249   117   249 0.95 | transcript=PVPAM_070019800_t1 | gene=PVPAM_070019800 | organism=Plasmodium_vivax_PAM | gene_product=protein KIC3, putative | transcript_product=protein KIC3, putative | location=CASCJQ010000007:700179-702163(+) | protein_length=249 | sequence_SO=supercontig | SO=protein_coding_gene | is_pseudo=false
+CAI7721415.1         -            724 10516at5820          -            213   0.00054   18.1   1.8   1   2   3.1e-07     0.001   17.2   1.0    52   123   296   368   289   417 0.87 | transcript=PVPAM_110031800_t1 | gene=PVPAM_110031800 | organism=Plasmodium_vivax_PAM | gene_product=signal recognition particle subunit SRP68, putative | transcript_product=signal recognition particle subunit SRP68, putative | location=CASCJQ010000011:1162615-1164789(+) | protein_length=724 | sequence_SO=supercontig | SO=protein_coding_gene | is_pseudo=false
+CAI7721415.1         -            724 10516at5820          -            213   0.00054   18.1   1.8   2   2      0.73   2.4e+03   -3.6   0.0    76   112   468   504   465   506 0.55 | transcript=PVPAM_110031800_t1 | gene=PVPAM_110031800 | organism=Plasmodium_vivax_PAM | gene_product=signal recognition particle subunit SRP68, putative | transcript_product=signal recognition particle subunit SRP68, putative | location=CASCJQ010000011:1162615-1164789(+) | protein_length=724 | sequence_SO=supercontig | SO=protein_coding_gene | is_pseudo=false
+#
+# Program:         hmmsearch
+# Version:         3.4 (Aug 2023)
+# Pipeline mode:   SEARCH
+# Query file:      /v3/work/00_inventory/busco/busco_downloads/lineages/plasmodium_odb10/hmms/10516at5820.hmm
+# Target file:     /v3/inputs/annotations/plasmodb-68/PAM.proteins.fa
+# Option settings: hmmsearch --domtblout /v3/work/00_inventory/busco/PAM_proteins/run_plasmodium_odb10/hmmer_output/initial_run_results/10516at5820.out --cpu 1 /v3/work/00_inventory/busco/busco_downloads/lineages/plasmodium_odb10/hmms/10516at5820.hmm /v3/inputs/annotations/plasmodb-68/PAM.proteins.fa 
+# Current dir:     /v3/work/00_inventory/busco
+# Date:            Tue May 19 17:26:33 2026
+# [ok]

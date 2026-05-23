@@ -1,0 +1,21 @@
+#                                                                            --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name        accession   tlen query name           accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+#------------------- ---------- ----- -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+SCO71980.1           -            979 3599at5820           -            655         0 1012.6  16.7   1   6  1.2e-106  3.6e-103  344.5   5.0     1   193     5   211     5   218 0.96 para-aminobenzoic acid synthetase, putative [Plasmodium vivax]
+SCO71980.1           -            979 3599at5820           -            655         0 1012.6  16.7   2   6   1.5e-14   4.6e-11   40.2   0.0   200   242   250   294   244   303 0.92 para-aminobenzoic acid synthetase, putative [Plasmodium vivax]
+SCO71980.1           -            979 3599at5820           -            655         0 1012.6  16.7   3   6   7.9e-09   2.5e-05   21.3   0.0   242   268   352   378   346   384 0.90 para-aminobenzoic acid synthetase, putative [Plasmodium vivax]
+SCO71980.1           -            979 3599at5820           -            655         0 1012.6  16.7   4   6   0.00037       1.2    5.8   0.0   267   295   410   440   404   449 0.85 para-aminobenzoic acid synthetase, putative [Plasmodium vivax]
+SCO71980.1           -            979 3599at5820           -            655         0 1012.6  16.7   5   6   7.9e-34   2.5e-30  103.9   0.1   291   366   510   593   505   597 0.88 para-aminobenzoic acid synthetase, putative [Plasmodium vivax]
+SCO71980.1           -            979 3599at5820           -            655         0 1012.6  16.7   6   6  1.1e-151  3.4e-148  493.3   1.8   373   655   661   979   655   979 0.91 para-aminobenzoic acid synthetase, putative [Plasmodium vivax]
+SCO72163.1           -            448 3599at5820           -            655    0.0027   14.5   2.8   1   2   6.8e-05      0.21    8.3   0.4   198   249    21    73    16    91 0.81 Pvstp1, putative [Plasmodium vivax]
+SCO72163.1           -            448 3599at5820           -            655    0.0027   14.5   2.8   2   2   0.00022       0.7    6.6   0.1   239   303    99   165    85   170 0.84 Pvstp1, putative [Plasmodium vivax]
+#
+# Program:         hmmsearch
+# Version:         3.4 (Aug 2023)
+# Pipeline mode:   SEARCH
+# Query file:      /v3/work/00_inventory/busco/busco_downloads/lineages/plasmodium_odb10/hmms/3599at5820.hmm
+# Target file:     /v3/inputs/annotations/ncbi-datasets/PvC01.proteins.fa
+# Option settings: hmmsearch --domtblout /v3/work/00_inventory/busco/PvC01_proteins/run_plasmodium_odb10/hmmer_output/initial_run_results/3599at5820.out --cpu 1 /v3/work/00_inventory/busco/busco_downloads/lineages/plasmodium_odb10/hmms/3599at5820.hmm /v3/inputs/annotations/ncbi-datasets/PvC01.proteins.fa 
+# Current dir:     /v3/work/00_inventory/busco
+# Date:            Tue May 19 18:39:38 2026
+# [ok]

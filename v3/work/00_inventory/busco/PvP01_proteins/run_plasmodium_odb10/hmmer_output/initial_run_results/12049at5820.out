@@ -1,0 +1,16 @@
+#                                                                            --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name        accession   tlen query name           accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+#------------------- ---------- ----- -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+PVP01_0206100.1-p1   -            272 12049at5820          -            173   3.2e-84  280.0   7.7   1   3   5.4e-24   3.5e-20   71.5   0.0     1    57     1    57     1    74 0.93 | transcript=PVP01_0206100.1 | gene=PVP01_0206100 | organism=Plasmodium_vivax_P01 | gene_product=photosensitized INA-labeled protein PHIL1, putative | transcript_product=photosensitized INA-labeled protein PHIL1, putative | location=PvP01_02_v2:254062-254880(-) | protein_length=272 | sequence_SO=chromosome | SO=protein_coding_gene | is_pseudo=false
+PVP01_0206100.1-p1   -            272 12049at5820          -            173   3.2e-84  280.0   7.7   2   3   0.00036       2.4    7.0   0.1    54    74    77    97    57   119 0.80 | transcript=PVP01_0206100.1 | gene=PVP01_0206100 | organism=Plasmodium_vivax_P01 | gene_product=photosensitized INA-labeled protein PHIL1, putative | transcript_product=photosensitized INA-labeled protein PHIL1, putative | location=PvP01_02_v2:254062-254880(-) | protein_length=272 | sequence_SO=chromosome | SO=protein_coding_gene | is_pseudo=false
+PVP01_0206100.1-p1   -            272 12049at5820          -            173   3.2e-84  280.0   7.7   3   3   3.6e-64   2.3e-60  202.4   1.8    86   173   177   264   133   264 0.95 | transcript=PVP01_0206100.1 | gene=PVP01_0206100 | organism=Plasmodium_vivax_P01 | gene_product=photosensitized INA-labeled protein PHIL1, putative | transcript_product=photosensitized INA-labeled protein PHIL1, putative | location=PvP01_02_v2:254062-254880(-) | protein_length=272 | sequence_SO=chromosome | SO=protein_coding_gene | is_pseudo=false
+#
+# Program:         hmmsearch
+# Version:         3.4 (Aug 2023)
+# Pipeline mode:   SEARCH
+# Query file:      /v3/work/00_inventory/busco/busco_downloads/lineages/plasmodium_odb10/hmms/12049at5820.hmm
+# Target file:     /v3/inputs/annotations/plasmodb-68/PvP01.proteins.fa
+# Option settings: hmmsearch --domtblout /v3/work/00_inventory/busco/PvP01_proteins/run_plasmodium_odb10/hmmer_output/initial_run_results/12049at5820.out --cpu 1 /v3/work/00_inventory/busco/busco_downloads/lineages/plasmodium_odb10/hmms/12049at5820.hmm /v3/inputs/annotations/plasmodb-68/PvP01.proteins.fa 
+# Current dir:     /v3/work/00_inventory/busco
+# Date:            Tue May 19 17:25:29 2026
+# [ok]

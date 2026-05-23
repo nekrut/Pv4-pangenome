@@ -1,0 +1,18 @@
+#                                                                            --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name        accession   tlen query name           accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+#------------------- ---------- ----- -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+PVP01_1433800.1-p1   -            216 11059at5820          -            191  1.8e-121  401.6   2.2   1   1  1.3e-124  2.1e-121  401.4   2.2     1   191    17   210    17   210 0.98 | transcript=PVP01_1433800.1 | gene=PVP01_1433800 | organism=Plasmodium_vivax_P01 | gene_product=thioredoxin peroxidase 2, putative | transcript_product=thioredoxin peroxidase 2, putative | location=PvP01_14_v2:1451380-1452030(+) | protein_length=216 | sequence_SO=chromosome | SO=protein_coding_gene | is_pseudo=false
+PVP01_1268100.1-p1   -            195 11059at5820          -            191     1e-69  232.8   0.1   1   1   7.3e-73   1.2e-69  232.6   0.1     6   189     5   191     2   193 0.94 | transcript=PVP01_1268100.1 | gene=PVP01_1268100 | organism=Plasmodium_vivax_P01 | gene_product=thioredoxin peroxidase 1, putative | transcript_product=thioredoxin peroxidase 1, putative | location=PvP01_12_v2:2848052-2848639(-) | protein_length=195 | sequence_SO=chromosome | SO=protein_coding_gene | is_pseudo=false
+PVP01_0118000.1-p1   -            220 11059at5820          -            191   3.7e-19   68.0   0.0   1   1     3e-22     5e-19   67.5   0.0    27   179    24   184    12   194 0.88 | transcript=PVP01_0118000.1 | gene=PVP01_0118000 | organism=Plasmodium_vivax_P01 | gene_product=1-cys peroxiredoxin | transcript_product=1-cys peroxiredoxin | location=PvP01_01_v2:808347-809009(-) | protein_length=220 | sequence_SO=chromosome | SO=protein_coding_gene | is_pseudo=false
+PVP01_1205100.1-p1   -            243 11059at5820          -            191    0.0087   14.5   0.2   1   2      0.27   4.4e+02   -0.8   0.0    65    88    13    36     3    46 0.75 | transcript=PVP01_1205100.1 | gene=PVP01_1205100 | organism=Plasmodium_vivax_P01 | gene_product=peptidase, putative | transcript_product=peptidase, putative | location=PvP01_12_v2:196607-197582(-) | protein_length=243 | sequence_SO=chromosome | SO=protein_coding_gene | is_pseudo=false
+PVP01_1205100.1-p1   -            243 11059at5820          -            191    0.0087   14.5   0.2   2   2     3e-05     0.049   12.1   0.1    33    66   210   243   181   243 0.91 | transcript=PVP01_1205100.1 | gene=PVP01_1205100 | organism=Plasmodium_vivax_P01 | gene_product=peptidase, putative | transcript_product=peptidase, putative | location=PvP01_12_v2:196607-197582(-) | protein_length=243 | sequence_SO=chromosome | SO=protein_coding_gene | is_pseudo=false
+#
+# Program:         hmmsearch
+# Version:         3.4 (Aug 2023)
+# Pipeline mode:   SEARCH
+# Query file:      /v3/work/00_inventory/busco/busco_downloads/lineages/plasmodium_odb10/hmms/11059at5820.hmm
+# Target file:     /v3/inputs/annotations/plasmodb-68/PvP01.proteins.fa
+# Option settings: hmmsearch --domtblout /v3/work/00_inventory/busco/PvP01_proteins/run_plasmodium_odb10/hmmer_output/initial_run_results/11059at5820.out --cpu 1 /v3/work/00_inventory/busco/busco_downloads/lineages/plasmodium_odb10/hmms/11059at5820.hmm /v3/inputs/annotations/plasmodb-68/PvP01.proteins.fa 
+# Current dir:     /v3/work/00_inventory/busco
+# Date:            Tue May 19 17:28:15 2026
+# [ok]

@@ -1,0 +1,16 @@
+#                                                                            --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name        accession   tlen query name           accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+#------------------- ---------- ----- -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+PVX_000890.1-p1      -            321 9619at5820           -            250  7.7e-147  485.5  10.7   1   1  5.2e-150  9.5e-147  485.2  10.7     1   245     1   251     1   254 0.98 | transcript=PVX_000890.1 | gene=PVX_000890 | organism=Plasmodium_vivax_Sal-1 | gene_product=methyltransferase, putative | transcript_product=methyltransferase, putative | location=Pv_Sal1_chr03:228720-229829(+) | protein_length=321 | sequence_SO=chromosome | SO=protein_coding_gene | is_pseudo=false
+PVX_117705.1-p1      -            208 9619at5820           -            250   0.00068   17.2   1.3   1   1   5.4e-07     0.001   16.7   1.3    46   170     8   132     2   161 0.69 | transcript=PVX_117705.1 | gene=PVX_117705 | organism=Plasmodium_vivax_Sal-1 | gene_product=methyltransferase, putative | transcript_product=methyltransferase, putative | location=Pv_Sal1_chr12:2090661-2092159(-) | protein_length=208 | sequence_SO=chromosome | SO=protein_coding_gene | is_pseudo=false
+PVX_003675.1-p1      -            393 9619at5820           -            250    0.0011   16.6   0.1   1   1   1.1e-06     0.002   15.7   0.1   104   190   231   321   197   340 0.81 | transcript=PVX_003675.1 | gene=PVX_003675 | organism=Plasmodium_vivax_Sal-1 | gene_product=ubiquinone biosynthesis methyltransferase, putative | transcript_product=ubiquinone biosynthesis methyltransferase, putative | location=Pv_Sal1_chr04:689206-690604(-) | protein_length=393 | sequence_SO=chromosome | SO=protein_coding_gene | is_pseudo=false
+#
+# Program:         hmmsearch
+# Version:         3.4 (Aug 2023)
+# Pipeline mode:   SEARCH
+# Query file:      /v3/work/00_inventory/busco/busco_downloads/lineages/plasmodium_odb10/hmms/9619at5820.hmm
+# Target file:     /v3/inputs/annotations/plasmodb-68/Sal-I.proteins.fa
+# Option settings: hmmsearch --domtblout /v3/work/00_inventory/busco/Sal-I_proteins/run_plasmodium_odb10/hmmer_output/initial_run_results/9619at5820.out --cpu 1 /v3/work/00_inventory/busco/busco_downloads/lineages/plasmodium_odb10/hmms/9619at5820.hmm /v3/inputs/annotations/plasmodb-68/Sal-I.proteins.fa 
+# Current dir:     /v3/work/00_inventory/busco
+# Date:            Tue May 19 17:52:04 2026
+# [ok]

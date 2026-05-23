@@ -1,0 +1,30 @@
+#                                                                            --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name        accession   tlen query name           accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+#------------------- ---------- ----- -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+SCO67221.1           -           2420 565at5820            -           1203         0 1603.1 186.2   1  13   3.5e-89   7.1e-86  287.5  20.3     1   181     1   184     1   187 0.98 conserved Plasmodium protein, unknown function [Plasmodium vivax]
+SCO67221.1           -           2420 565at5820            -           1203         0 1603.1 186.2   2  13   5.8e-91   1.2e-87  293.4  15.5   183   384   235   455   231   460 0.90 conserved Plasmodium protein, unknown function [Plasmodium vivax]
+SCO67221.1           -           2420 565at5820            -           1203         0 1603.1 186.2   3  13   3.6e-23   7.4e-20   68.8   8.2   371   479   483   624   480   630 0.73 conserved Plasmodium protein, unknown function [Plasmodium vivax]
+SCO67221.1           -           2420 565at5820            -           1203         0 1603.1 186.2   4  13   1.6e-05     0.033   10.4   0.1   475   504   683   712   645   742 0.81 conserved Plasmodium protein, unknown function [Plasmodium vivax]
+SCO67221.1           -           2420 565at5820            -           1203         0 1603.1 186.2   5  13   3.3e-05     0.066    9.3   4.6   510   562   972  1027   951  1043 0.66 conserved Plasmodium protein, unknown function [Plasmodium vivax]
+SCO67221.1           -           2420 565at5820            -           1203         0 1603.1 186.2   6  13   0.00012      0.25    7.4   1.4   440   576  1042  1189  1030  1195 0.58 conserved Plasmodium protein, unknown function [Plasmodium vivax]
+SCO67221.1           -           2420 565at5820            -           1203         0 1603.1 186.2   7  13   1.3e-81   2.7e-78  262.4   4.2   542   736  1243  1441  1219  1445 0.84 conserved Plasmodium protein, unknown function [Plasmodium vivax]
+SCO67221.1           -           2420 565at5820            -           1203         0 1603.1 186.2   8  13   2.1e-09   4.3e-06   23.2   0.0   733   759  1475  1501  1468  1504 0.90 conserved Plasmodium protein, unknown function [Plasmodium vivax]
+SCO67221.1           -           2420 565at5820            -           1203         0 1603.1 186.2   9  13   1.2e-39   2.4e-36  123.4   3.3   758   840  1596  1679  1591  1689 0.93 conserved Plasmodium protein, unknown function [Plasmodium vivax]
+SCO67221.1           -           2420 565at5820            -           1203         0 1603.1 186.2  10  13   6.9e-80   1.4e-76  256.7   6.5   830   987  1762  1932  1757  1940 0.89 conserved Plasmodium protein, unknown function [Plasmodium vivax]
+SCO67221.1           -           2420 565at5820            -           1203         0 1603.1 186.2  11  13     2e-55   4.1e-52  175.6  15.9   977  1093  1994  2121  1986  2127 0.93 conserved Plasmodium protein, unknown function [Plasmodium vivax]
+SCO67221.1           -           2420 565at5820            -           1203         0 1603.1 186.2  12  13   1.1e-11   2.2e-08   30.8   8.6  1089  1136  2273  2320  2246  2329 0.79 conserved Plasmodium protein, unknown function [Plasmodium vivax]
+SCO67221.1           -           2420 565at5820            -           1203         0 1603.1 186.2  13  13   4.7e-36   9.6e-33  111.5  11.8  1119  1203  2330  2420  2325  2420 0.95 conserved Plasmodium protein, unknown function [Plasmodium vivax]
+SCO65860.1           -            800 565at5820            -           1203   1.3e-05   21.6   0.1   1   2      0.23   4.7e+02   -3.4   2.0   644   706     4    65     1   114 0.58 protein kinase 1, putative [Plasmodium vivax]
+SCO65860.1           -            800 565at5820            -           1203   1.3e-05   21.6   0.1   2   2   6.4e-09   1.3e-05   21.6   0.1   777   855   223   299   212   313 0.83 protein kinase 1, putative [Plasmodium vivax]
+SCO67031.1           -           1585 565at5820            -           1203   0.00024   17.4   0.2   1   2      0.52   1.1e+03   -4.6   1.8   438   468  1089  1119  1080  1123 0.84 aurora-related kinase 2, putative [Plasmodium vivax]
+SCO67031.1           -           1585 565at5820            -           1203   0.00024   17.4   0.2   2   2   1.2e-07   0.00024   17.4   0.2   779   831  1404  1456  1393  1473 0.88 aurora-related kinase 2, putative [Plasmodium vivax]
+#
+# Program:         hmmsearch
+# Version:         3.4 (Aug 2023)
+# Pipeline mode:   SEARCH
+# Query file:      /v3/work/00_inventory/busco/busco_downloads/lineages/plasmodium_odb10/hmms/565at5820.hmm
+# Target file:     /v3/inputs/annotations/ncbi-datasets/PvT01.proteins.fa
+# Option settings: hmmsearch --domtblout /v3/work/00_inventory/busco/PvT01_proteins/run_plasmodium_odb10/hmmer_output/initial_run_results/565at5820.out --cpu 1 /v3/work/00_inventory/busco/busco_downloads/lineages/plasmodium_odb10/hmms/565at5820.hmm /v3/inputs/annotations/ncbi-datasets/PvT01.proteins.fa 
+# Current dir:     /v3/work/00_inventory/busco
+# Date:            Tue May 19 18:55:32 2026
+# [ok]

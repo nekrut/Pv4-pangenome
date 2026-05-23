@@ -1,0 +1,17 @@
+#                                                                            --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name        accession   tlen query name           accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+#------------------- ---------- ----- -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+PVP01_0911300.1-p1   -           1055 2238at5820           -            722         0 1357.5  70.7   1   4    9e-218  5.9e-214  711.2  17.6     2   329    13   354    12   358 0.98 | transcript=PVP01_0911300.1 | gene=PVP01_0911300 | organism=Plasmodium_vivax_P01 | gene_product=vacuolar protein sorting-associated protein 35, putative | transcript_product=vacuolar protein sorting-associated protein 35, putative | location=PvP01_09_v2:553772-557049(+) | protein_length=1055 | sequence_SO=chromosome | SO=protein_coding_gene | is_pseudo=false
+PVP01_0911300.1-p1   -           1055 2238at5820           -            722         0 1357.5  70.7   2   4   2.2e-60   1.4e-56  190.9   7.8   330   448   481   606   476   614 0.96 | transcript=PVP01_0911300.1 | gene=PVP01_0911300 | organism=Plasmodium_vivax_P01 | gene_product=vacuolar protein sorting-associated protein 35, putative | transcript_product=vacuolar protein sorting-associated protein 35, putative | location=PvP01_09_v2:553772-557049(+) | protein_length=1055 | sequence_SO=chromosome | SO=protein_coding_gene | is_pseudo=false
+PVP01_0911300.1-p1   -           1055 2238at5820           -            722         0 1357.5  70.7   3   4   9.1e-29   5.9e-25   86.4   0.5   446   509   644   714   640   719 0.91 | transcript=PVP01_0911300.1 | gene=PVP01_0911300 | organism=Plasmodium_vivax_P01 | gene_product=vacuolar protein sorting-associated protein 35, putative | transcript_product=vacuolar protein sorting-associated protein 35, putative | location=PvP01_09_v2:553772-557049(+) | protein_length=1055 | sequence_SO=chromosome | SO=protein_coding_gene | is_pseudo=false
+PVP01_0911300.1-p1   -           1055 2238at5820           -            722         0 1357.5  70.7   4   4  2.5e-119  1.6e-115  385.7  22.6   507   722   802  1034   800  1034 0.93 | transcript=PVP01_0911300.1 | gene=PVP01_0911300 | organism=Plasmodium_vivax_P01 | gene_product=vacuolar protein sorting-associated protein 35, putative | transcript_product=vacuolar protein sorting-associated protein 35, putative | location=PvP01_09_v2:553772-557049(+) | protein_length=1055 | sequence_SO=chromosome | SO=protein_coding_gene | is_pseudo=false
+#
+# Program:         hmmsearch
+# Version:         3.4 (Aug 2023)
+# Pipeline mode:   SEARCH
+# Query file:      /v3/work/00_inventory/busco/busco_downloads/lineages/plasmodium_odb10/hmms/2238at5820.hmm
+# Target file:     /v3/inputs/annotations/plasmodb-68/PvP01.proteins.fa
+# Option settings: hmmsearch --domtblout /v3/work/00_inventory/busco/PvP01_proteins/run_plasmodium_odb10/hmmer_output/initial_run_results/2238at5820.out --cpu 1 /v3/work/00_inventory/busco/busco_downloads/lineages/plasmodium_odb10/hmms/2238at5820.hmm /v3/inputs/annotations/plasmodb-68/PvP01.proteins.fa 
+# Current dir:     /v3/work/00_inventory/busco
+# Date:            Tue May 19 17:34:53 2026
+# [ok]

@@ -1,0 +1,21 @@
+#                                                                            --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name        accession   tlen query name           accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+#------------------- ---------- ----- -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+SCO73467.1           -            199 11564at5820          -            177  1.6e-109  362.0   8.1   1   1  1.3e-111  1.7e-108  358.7   8.1     1   176     1   195     1   196 0.96 conserved Plasmodium protein, unknown function [Plasmodium vivax]
+SCA81781.1           -            240 11564at5820          -            177    0.0005   18.4   0.7   1   2      0.78   9.8e+02   -2.1   0.0   125   149    60    84    28   100 0.68 Protein of unknown function, putative, partial [Plasmodium vivax]
+SCA81781.1           -            240 11564at5820          -            177    0.0005   18.4   0.7   2   2   7.1e-07   0.00089   17.6   0.1    55   132   151   234   142   239 0.73 Protein of unknown function, putative, partial [Plasmodium vivax]
+SCA81995.1           -            240 11564at5820          -            177    0.0005   18.4   0.7   1   2      0.78   9.8e+02   -2.1   0.0   125   149    60    84    28   100 0.68 Protein of unknown function, putative, partial [Plasmodium vivax]
+SCA81995.1           -            240 11564at5820          -            177    0.0005   18.4   0.7   2   2   7.1e-07   0.00089   17.6   0.1    55   132   151   234   142   239 0.73 Protein of unknown function, putative, partial [Plasmodium vivax]
+SCA59595.1           -            339 11564at5820          -            177     0.012   13.9   0.1   1   2         2   2.5e+03   -3.4   0.0     6    25    15    34    13    39 0.79 VIR protein [Plasmodium vivax]
+SCA59595.1           -            339 11564at5820          -            177     0.012   13.9   0.1   2   2   2.3e-05     0.029   12.7   0.0    84   133   255   304   210   332 0.84 VIR protein [Plasmodium vivax]
+SCO74381.1           -             76 11564at5820          -            177     0.014   13.7   1.1   1   1   1.3e-05     0.016   13.5   1.1    93   144     4    56     2    69 0.88 conserved Plasmodium protein, unknown function [Plasmodium vivax]
+#
+# Program:         hmmsearch
+# Version:         3.4 (Aug 2023)
+# Pipeline mode:   SEARCH
+# Query file:      /v3/work/00_inventory/busco/busco_downloads/lineages/plasmodium_odb10/hmms/11564at5820.hmm
+# Target file:     /v3/inputs/annotations/ncbi-datasets/PvC01.proteins.fa
+# Option settings: hmmsearch --domtblout /v3/work/00_inventory/busco/PvC01_proteins/run_plasmodium_odb10/hmmer_output/initial_run_results/11564at5820.out --cpu 1 /v3/work/00_inventory/busco/busco_downloads/lineages/plasmodium_odb10/hmms/11564at5820.hmm /v3/inputs/annotations/ncbi-datasets/PvC01.proteins.fa 
+# Current dir:     /v3/work/00_inventory/busco
+# Date:            Tue May 19 18:33:45 2026
+# [ok]

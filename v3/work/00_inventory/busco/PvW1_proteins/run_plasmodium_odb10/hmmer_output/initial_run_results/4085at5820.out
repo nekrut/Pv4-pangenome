@@ -1,0 +1,16 @@
+#                                                                            --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name        accession   tlen query name           accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+#------------------- ---------- ----- -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+CAG9484065.1         -            684 4085at5820           -            545         0 1037.3  42.1   1   3     1e-90   6.1e-87  291.0   7.6     1   170     8   191     8   206 0.93 | transcript=PVW1_020016500_t1 | gene=PVW1_020016500 | organism=Plasmodium_vivax_PvW1 | gene_product=BRCT domain-containing protein [Source:UniProtKB/TrEMBL;Acc:A0A1G4H728] | transcript_product=BRCT domain-containing protein [Source:UniProtKB/TrEMBL;Acc:A0A1G4H728] | location=CAJZCX010000015:512511-514565(+) | protein_length=684 | sequence_SO=supercontig | SO=protein_coding_gene | is_pseudo=false
+CAG9484065.1         -            684 4085at5820           -            545         0 1037.3  42.1   2   3   4.3e-52   2.6e-48  163.5   1.6   170   273   256   359   247   376 0.94 | transcript=PVW1_020016500_t1 | gene=PVW1_020016500 | organism=Plasmodium_vivax_PvW1 | gene_product=BRCT domain-containing protein [Source:UniProtKB/TrEMBL;Acc:A0A1G4H728] | transcript_product=BRCT domain-containing protein [Source:UniProtKB/TrEMBL;Acc:A0A1G4H728] | location=CAJZCX010000015:512511-514565(+) | protein_length=684 | sequence_SO=supercontig | SO=protein_coding_gene | is_pseudo=false
+CAG9484065.1         -            684 4085at5820           -            545         0 1037.3  42.1   3   3  1.3e-182  7.9e-179  594.3  17.4   265   545   402   683   394   683 0.98 | transcript=PVW1_020016500_t1 | gene=PVW1_020016500 | organism=Plasmodium_vivax_PvW1 | gene_product=BRCT domain-containing protein [Source:UniProtKB/TrEMBL;Acc:A0A1G4H728] | transcript_product=BRCT domain-containing protein [Source:UniProtKB/TrEMBL;Acc:A0A1G4H728] | location=CAJZCX010000015:512511-514565(+) | protein_length=684 | sequence_SO=supercontig | SO=protein_coding_gene | is_pseudo=false
+#
+# Program:         hmmsearch
+# Version:         3.4 (Aug 2023)
+# Pipeline mode:   SEARCH
+# Query file:      /v3/work/00_inventory/busco/busco_downloads/lineages/plasmodium_odb10/hmms/4085at5820.hmm
+# Target file:     /v3/inputs/annotations/plasmodb-68/PvW1.proteins.fa
+# Option settings: hmmsearch --domtblout /v3/work/00_inventory/busco/PvW1_proteins/run_plasmodium_odb10/hmmer_output/initial_run_results/4085at5820.out --cpu 1 /v3/work/00_inventory/busco/busco_downloads/lineages/plasmodium_odb10/hmms/4085at5820.hmm /v3/inputs/annotations/plasmodb-68/PvW1.proteins.fa 
+# Current dir:     /v3/work/00_inventory/busco
+# Date:            Tue May 19 17:40:05 2026
+# [ok]

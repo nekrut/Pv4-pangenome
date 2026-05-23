@@ -1,0 +1,28 @@
+#                                                                            --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name        accession   tlen query name           accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+#------------------- ---------- ----- -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+SCO73433.1           -            534 5839at5820           -            397  3.4e-204  676.6  31.0   1   4      0.23   2.5e+02   -1.2   0.0     1    13    14    26    14    29 0.90 ubiquitin-activating enzyme, putative [Plasmodium vivax]
+SCO73433.1           -            534 5839at5820           -            397  3.4e-204  676.6  31.0   2   4  7.6e-158  7.9e-155  514.1  10.7    13   281    64   340    52   344 0.96 ubiquitin-activating enzyme, putative [Plasmodium vivax]
+SCO73433.1           -            534 5839at5820           -            397  3.4e-204  676.6  31.0   3   4   3.5e-41   3.7e-38  129.9   5.2   278   372   362   474   352   476 0.87 ubiquitin-activating enzyme, putative [Plasmodium vivax]
+SCO73433.1           -            534 5839at5820           -            397  3.4e-204  676.6  31.0   4   4   3.2e-14   3.4e-11   41.1   0.1   357   397   491   534   488   534 0.84 ubiquitin-activating enzyme, putative [Plasmodium vivax]
+SCO75617.1           -            631 5839at5820           -            397   4.1e-20   70.5   8.1   1   2   3.9e-23   4.1e-20   70.5   8.1    44   201    11   168     4   173 0.90 SUMO-activating enzyme subunit 2, putative [Plasmodium vivax]
+SCO75617.1           -            631 5839at5820           -            397   4.1e-20   70.5   8.1   2   2      0.64   6.7e+02   -2.7   0.9   226   276   309   357   301   390 0.62 SUMO-activating enzyme subunit 2, putative [Plasmodium vivax]
+SCO71340.1           -            406 5839at5820           -            397   1.6e-18   65.2   0.3   1   2   1.6e-21   1.6e-18   65.2   0.3    53   194     4   148     1   181 0.87 NEDD8-activating enzyme E1 catalytic subunit, putative [Plasmodium vivax]
+SCO71340.1           -            406 5839at5820           -            397   1.6e-18   65.2   0.3   2   2       1.1   1.2e+03   -3.5   0.0   261   293   306   339   296   347 0.67 NEDD8-activating enzyme E1 catalytic subunit, putative [Plasmodium vivax]
+SCO74057.1           -           1676 5839at5820           -            397   4.1e-11   40.8  17.9   1   4   1.3e-10   1.3e-07   29.3   5.3    38   181   200   348   187   366 0.74 ubiquitin-activating enzyme, putative [Plasmodium vivax]
+SCO74057.1           -           1676 5839at5820           -            397   4.1e-11   40.8  17.9   2   4   1.8e-07   0.00019   18.9   0.1    25   123   642   751   613   761 0.75 ubiquitin-activating enzyme, putative [Plasmodium vivax]
+SCO74057.1           -           1676 5839at5820           -            397   4.1e-11   40.8  17.9   3   4      0.13   1.3e+02   -0.4   0.5   143   181   817   855   803   967 0.69 ubiquitin-activating enzyme, putative [Plasmodium vivax]
+SCO74057.1           -           1676 5839at5820           -            397   4.1e-11   40.8  17.9   4   4       1.5   1.5e+03   -3.9   0.0   296   344  1011  1064  1002  1074 0.74 ubiquitin-activating enzyme, putative [Plasmodium vivax]
+SCO75505.1           -           1143 5839at5820           -            397     2e-08   32.0   0.2   1   2      0.41   4.3e+02   -2.1   2.9    45   148    57   160    38   198 0.79 ubiquitin-activating enzyme E1, putative [Plasmodium vivax]
+SCO75505.1           -           1143 5839at5820           -            397     2e-08   32.0   0.2   2   2   1.9e-11     2e-08   32.0   0.2    32   181   503   666   492   679 0.73 ubiquitin-activating enzyme E1, putative [Plasmodium vivax]
+SCO72748.1           -           1216 5839at5820           -            397   1.4e-06   25.9   0.1   1   1   3.4e-09   3.5e-06   24.6   0.1    28   102   735   809   719   833 0.80 autophagy-related protein 7, putative [Plasmodium vivax]
+#
+# Program:         hmmsearch
+# Version:         3.4 (Aug 2023)
+# Pipeline mode:   SEARCH
+# Query file:      /v3/work/00_inventory/busco/busco_downloads/lineages/plasmodium_odb10/hmms/5839at5820.hmm
+# Target file:     /v3/inputs/annotations/ncbi-datasets/PvC01.proteins.fa
+# Option settings: hmmsearch --domtblout /v3/work/00_inventory/busco/PvC01_proteins/run_plasmodium_odb10/hmmer_output/initial_run_results/5839at5820.out --cpu 1 /v3/work/00_inventory/busco/busco_downloads/lineages/plasmodium_odb10/hmms/5839at5820.hmm /v3/inputs/annotations/ncbi-datasets/PvC01.proteins.fa 
+# Current dir:     /v3/work/00_inventory/busco
+# Date:            Tue May 19 18:57:12 2026
+# [ok]

@@ -1,0 +1,20 @@
+#                                                                            --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name        accession   tlen query name           accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+#------------------- ---------- ----- -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+SCO73170.1           -           1188 2549at5820           -            695         0 1095.5  53.7   1   6   4.8e-53   1.5e-49  167.4   3.7     6   130   178   330   174   338 0.84 RAP protein, putative [Plasmodium vivax]
+SCO73170.1           -           1188 2549at5820           -            695         0 1095.5  53.7   2   6  1.1e-101   3.4e-98  328.2   6.8   135   328   387   584   377   591 0.96 RAP protein, putative [Plasmodium vivax]
+SCO73170.1           -           1188 2549at5820           -            695         0 1095.5  53.7   3   6   1.3e-34   4.2e-31  106.5   0.0   323   387   618   682   614   688 0.96 RAP protein, putative [Plasmodium vivax]
+SCO73170.1           -           1188 2549at5820           -            695         0 1095.5  53.7   4   6   1.5e-07   0.00049   17.0   0.0   369   411   697   740   690   799 0.71 RAP protein, putative [Plasmodium vivax]
+SCO73170.1           -           1188 2549at5820           -            695         0 1095.5  53.7   5   6     2e-63   6.2e-60  201.8   8.9   425   548   885  1012   881  1025 0.94 RAP protein, putative [Plasmodium vivax]
+SCO73170.1           -           1188 2549at5820           -            695         0 1095.5  53.7   6   6   2.6e-90     8e-87  290.6   8.1   544   694  1034  1184  1021  1185 0.98 RAP protein, putative [Plasmodium vivax]
+SCO74205.1           -            443 2549at5820           -            695   9.6e-07   26.0   0.0   1   1   4.7e-10   1.5e-06   25.3   0.0   620   690   337   405   334   410 0.84 RAP protein, putative [Plasmodium vivax]
+#
+# Program:         hmmsearch
+# Version:         3.4 (Aug 2023)
+# Pipeline mode:   SEARCH
+# Query file:      /v3/work/00_inventory/busco/busco_downloads/lineages/plasmodium_odb10/hmms/2549at5820.hmm
+# Target file:     /v3/inputs/annotations/ncbi-datasets/PvC01.proteins.fa
+# Option settings: hmmsearch --domtblout /v3/work/00_inventory/busco/PvC01_proteins/run_plasmodium_odb10/hmmer_output/initial_run_results/2549at5820.out --cpu 1 /v3/work/00_inventory/busco/busco_downloads/lineages/plasmodium_odb10/hmms/2549at5820.hmm /v3/inputs/annotations/ncbi-datasets/PvC01.proteins.fa 
+# Current dir:     /v3/work/00_inventory/busco
+# Date:            Tue May 19 18:40:57 2026
+# [ok]

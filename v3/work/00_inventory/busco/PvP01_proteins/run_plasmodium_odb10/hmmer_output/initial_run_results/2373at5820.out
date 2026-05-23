@@ -1,0 +1,17 @@
+#                                                                            --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name        accession   tlen query name           accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+#------------------- ---------- ----- -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+PVP01_0622000.1-p1   -            905 2373at5820           -            716         0 1530.6  48.9   1   4     0.041   2.7e+02   -2.0   0.7     1    17    19    39    19    44 0.79 | transcript=PVP01_0622000.1 | gene=PVP01_0622000 | organism=Plasmodium_vivax_P01 | gene_product=TFIIH basal transcription factor complex helicase XPB subunit, putative | transcript_product=TFIIH basal transcription factor complex helicase XPB subunit, putative | location=PvP01_06_v2:898337-901615(+) | protein_length=905 | sequence_SO=chromosome | SO=protein_coding_gene | is_pseudo=false
+PVP01_0622000.1-p1   -            905 2373at5820           -            716         0 1530.6  48.9   2   4  5.9e-108  3.9e-104  347.9   3.6    14   182    58   233    52   255 0.93 | transcript=PVP01_0622000.1 | gene=PVP01_0622000 | organism=Plasmodium_vivax_P01 | gene_product=TFIIH basal transcription factor complex helicase XPB subunit, putative | transcript_product=TFIIH basal transcription factor complex helicase XPB subunit, putative | location=PvP01_06_v2:898337-901615(+) | protein_length=905 | sequence_SO=chromosome | SO=protein_coding_gene | is_pseudo=false
+PVP01_0622000.1-p1   -            905 2373at5820           -            716         0 1530.6  48.9   3   4         0         0 1162.6  17.3   181   682   310   831   305   840 0.98 | transcript=PVP01_0622000.1 | gene=PVP01_0622000 | organism=Plasmodium_vivax_P01 | gene_product=TFIIH basal transcription factor complex helicase XPB subunit, putative | transcript_product=TFIIH basal transcription factor complex helicase XPB subunit, putative | location=PvP01_06_v2:898337-901615(+) | protein_length=905 | sequence_SO=chromosome | SO=protein_coding_gene | is_pseudo=false
+PVP01_0622000.1-p1   -            905 2373at5820           -            716         0 1530.6  48.9   4   4   6.7e-13   4.4e-09   33.7   5.0   674   716   859   905   835   905 0.84 | transcript=PVP01_0622000.1 | gene=PVP01_0622000 | organism=Plasmodium_vivax_P01 | gene_product=TFIIH basal transcription factor complex helicase XPB subunit, putative | transcript_product=TFIIH basal transcription factor complex helicase XPB subunit, putative | location=PvP01_06_v2:898337-901615(+) | protein_length=905 | sequence_SO=chromosome | SO=protein_coding_gene | is_pseudo=false
+#
+# Program:         hmmsearch
+# Version:         3.4 (Aug 2023)
+# Pipeline mode:   SEARCH
+# Query file:      /v3/work/00_inventory/busco/busco_downloads/lineages/plasmodium_odb10/hmms/2373at5820.hmm
+# Target file:     /v3/inputs/annotations/plasmodb-68/PvP01.proteins.fa
+# Option settings: hmmsearch --domtblout /v3/work/00_inventory/busco/PvP01_proteins/run_plasmodium_odb10/hmmer_output/initial_run_results/2373at5820.out --cpu 1 /v3/work/00_inventory/busco/busco_downloads/lineages/plasmodium_odb10/hmms/2373at5820.hmm /v3/inputs/annotations/plasmodb-68/PvP01.proteins.fa 
+# Current dir:     /v3/work/00_inventory/busco
+# Date:            Tue May 19 17:35:25 2026
+# [ok]

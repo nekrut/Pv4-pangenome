@@ -1,0 +1,16 @@
+#                                                                            --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name        accession   tlen query name           accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+#------------------- ---------- ----- -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+SCO71894.1           -            785 3636at5820           -            586  3.2e-286  948.9  37.5   1   3  5.7e-108  3.6e-104  347.8   9.5     3   199    11   226     9   276 0.77 pseudouridylate synthase, putative [Plasmodium vivax]
+SCO71894.1           -            785 3636at5820           -            586  3.2e-286  948.9  37.5   2   3   7.9e-67     5e-63  211.9   0.2   221   373   363   524   326   530 0.90 pseudouridylate synthase, putative [Plasmodium vivax]
+SCO71894.1           -            785 3636at5820           -            586  3.2e-286  948.9  37.5   3   3  3.2e-122    2e-118  394.8  14.5   373   586   550   785   544   785 0.90 pseudouridylate synthase, putative [Plasmodium vivax]
+#
+# Program:         hmmsearch
+# Version:         3.4 (Aug 2023)
+# Pipeline mode:   SEARCH
+# Query file:      /v3/work/00_inventory/busco/busco_downloads/lineages/plasmodium_odb10/hmms/3636at5820.hmm
+# Target file:     /v3/inputs/annotations/ncbi-datasets/PvC01.proteins.fa
+# Option settings: hmmsearch --domtblout /v3/work/00_inventory/busco/PvC01_proteins/run_plasmodium_odb10/hmmer_output/initial_run_results/3636at5820.out --cpu 1 /v3/work/00_inventory/busco/busco_downloads/lineages/plasmodium_odb10/hmms/3636at5820.hmm /v3/inputs/annotations/ncbi-datasets/PvC01.proteins.fa 
+# Current dir:     /v3/work/00_inventory/busco
+# Date:            Tue May 19 18:39:45 2026
+# [ok]

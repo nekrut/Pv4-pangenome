@@ -1,0 +1,18 @@
+#                                                                            --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name        accession   tlen query name           accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+#------------------- ---------- ----- -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+SCO67302.1           -            466 7812at5820           -            361  2.9e-201  666.6   8.3   1   1  1.7e-204  3.5e-201  666.3   8.3     5   360    32   465    28   466 0.98 magnesium transporter, putative [Plasmodium vivax]
+SCO69329.1           -            483 7812at5820           -            361   2.5e-12   45.0  12.3   1   2      0.56   1.1e+03   -3.2   0.4   112   138    51    77    48    86 0.62 CorA-like Mg2+ transporter protein, putative [Plasmodium vivax]
+SCO69329.1           -            483 7812at5820           -            361   2.5e-12   45.0  12.3   2   2   1.2e-15   2.5e-12   45.0  12.3   161   343   289   469   185   479 0.74 CorA-like Mg2+ transporter protein, putative [Plasmodium vivax]
+SCO69628.1           -            536 7812at5820           -            361   5.3e-12   43.9  23.7   1   2      0.81   1.6e+03   -3.8   0.4   185   205    44    63    12    79 0.52 CorA-like Mg2+ transporter protein, putative [Plasmodium vivax]
+SCO69628.1           -            536 7812at5820           -            361   5.3e-12   43.9  23.7   2   2   2.6e-15   5.3e-12   43.9  23.7    64   342   250   521   226   535 0.78 CorA-like Mg2+ transporter protein, putative [Plasmodium vivax]
+#
+# Program:         hmmsearch
+# Version:         3.4 (Aug 2023)
+# Pipeline mode:   SEARCH
+# Query file:      /v3/work/00_inventory/busco/busco_downloads/lineages/plasmodium_odb10/hmms/7812at5820.hmm
+# Target file:     /v3/inputs/annotations/ncbi-datasets/PvT01.proteins.fa
+# Option settings: hmmsearch --domtblout /v3/work/00_inventory/busco/PvT01_proteins/run_plasmodium_odb10/hmmer_output/initial_run_results/7812at5820.out --cpu 1 /v3/work/00_inventory/busco/busco_downloads/lineages/plasmodium_odb10/hmms/7812at5820.hmm /v3/inputs/annotations/ncbi-datasets/PvT01.proteins.fa 
+# Current dir:     /v3/work/00_inventory/busco
+# Date:            Tue May 19 19:04:39 2026
+# [ok]

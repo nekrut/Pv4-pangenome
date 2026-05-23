@@ -1,0 +1,27 @@
+#                                                                            --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name        accession   tlen query name           accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+#------------------- ---------- ----- -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+SCO72355.1           -            160 12983at5820          -            142   1.3e-93  309.0   2.5   1   1   4.3e-96   1.9e-93  308.4   2.5     1   142     1   155     1   155 0.96 ubiquitin-conjugating enzyme, putative [Plasmodium vivax]
+SCO75342.1           -            164 12983at5820          -            142     3e-50  168.4   0.1   1   1   8.4e-53   3.8e-50  168.1   0.1     1   136     1   149     1   155 0.90 ubiquitin-conjugating enzyme, putative [Plasmodium vivax]
+SCO74616.1           -            147 12983at5820          -            142     1e-34  118.0   0.1   1   1   2.6e-37   1.1e-34  117.9   0.1     9   126     9   129     1   141 0.94 ubiquitin-conjugating enzyme E2, putative [Plasmodium vivax]
+SCO73068.1           -            152 12983at5820          -            142   4.8e-27   93.2   0.0   1   1   1.3e-29   5.7e-27   93.0   0.0    19   124    23   128     4   144 0.92 ubiquitin-conjugating enzyme E2 N, putative [Plasmodium vivax]
+SCO73523.1           -            202 12983at5820          -            142   1.6e-26   91.5   0.1   1   1   4.9e-29   2.2e-26   91.0   0.1    14   128    25   140    13   152 0.88 ubiquitin-conjugating enzyme, putative [Plasmodium vivax]
+SCO71906.1           -            159 12983at5820          -            142   7.7e-24   82.8   0.0   1   1   2.1e-26   9.6e-24   82.5   0.0    26   126    37   139    17   146 0.90 SUMO-conjugating enzyme UBC9, putative [Plasmodium vivax]
+SCO73793.1           -            152 12983at5820          -            142   3.3e-23   80.7   0.1   1   1   9.2e-26   4.1e-23   80.4   0.1    26   123    29   127    10   133 0.92 ubiquitin-conjugating enzyme E2, putative [Plasmodium vivax]
+SCO71965.1           -            163 12983at5820          -            142   4.1e-21   73.9   0.6   1   1   1.5e-22   6.7e-20   70.0   0.6    31   124    38   146    21   156 0.83 ubiquitin-conjugating enzyme, putative [Plasmodium vivax]
+SCO75692.1           -            150 12983at5820          -            142   1.2e-20   72.5   0.1   1   1     3e-23   1.4e-20   72.3   0.1    36   127    47   138    29   149 0.90 NEDD8-conjugating enzyme UBC12, putative [Plasmodium vivax]
+SCO71709.1           -            191 12983at5820          -            142   6.9e-18   63.5   0.1   1   1   2.1e-20   9.6e-18   63.0   0.1    33   128    37   134    27   154 0.88 ubiquitin-conjugating enzyme, putative [Plasmodium vivax]
+SCO74936.1           -            283 12983at5820          -            142   1.2e-15   56.2   0.8   1   1   5.4e-18   2.4e-15   55.2   0.8    33   109   172   249   150   261 0.91 ubiquitin-conjugating enzyme, putative [Plasmodium vivax]
+SCO73942.1           -            262 12983at5820          -            142   1.8e-12   45.9   0.7   1   1   6.7e-15     3e-12   45.2   0.7    24   110   144   231   120   243 0.88 ubiquitin-conjugating enzyme E2, putative [Plasmodium vivax]
+SCO72452.1           -            139 12983at5820          -            142   2.7e-07   29.1   0.0   1   1     7e-10   3.1e-07   28.9   0.0    32   116    45   132    27   139 0.80 ubiquitin-conjugating enzyme E2, putative [Plasmodium vivax]
+SCO75677.1           -            624 12983at5820          -            142   3.3e-06   25.6   0.1   1   1   1.3e-08   5.7e-06   24.9   0.1    24   125   194   299   184   318 0.75 ubiquitin-conjugating enzyme E2, putative [Plasmodium vivax]
+#
+# Program:         hmmsearch
+# Version:         3.4 (Aug 2023)
+# Pipeline mode:   SEARCH
+# Query file:      /v3/work/00_inventory/busco/busco_downloads/lineages/plasmodium_odb10/hmms/12983at5820.hmm
+# Target file:     /v3/inputs/annotations/ncbi-datasets/PvC01.proteins.fa
+# Option settings: hmmsearch --domtblout /v3/work/00_inventory/busco/PvC01_proteins/run_plasmodium_odb10/hmmer_output/initial_run_results/12983at5820.out --cpu 1 /v3/work/00_inventory/busco/busco_downloads/lineages/plasmodium_odb10/hmms/12983at5820.hmm /v3/inputs/annotations/ncbi-datasets/PvC01.proteins.fa 
+# Current dir:     /v3/work/00_inventory/busco
+# Date:            Tue May 19 18:31:02 2026
+# [ok]

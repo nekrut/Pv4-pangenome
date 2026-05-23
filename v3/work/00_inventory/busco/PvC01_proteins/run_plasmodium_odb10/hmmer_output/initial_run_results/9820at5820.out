@@ -1,0 +1,26 @@
+#                                                                            --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name        accession   tlen query name           accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+#------------------- ---------- ----- -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+SCO71649.1           -            281 9820at5820           -            253  1.3e-147  488.6  12.8   1   1  2.4e-150  1.5e-147  488.5  12.8     1   253    11   276    11   276 0.96 palmitoyltransferase, putative [Plasmodium vivax]
+SCO73057.1           -            437 9820at5820           -            253   5.2e-48  162.3  22.1   1   1   1.3e-50   8.3e-48  161.7  22.1     3   251   142   414   140   416 0.86 palmitoyltransferase, putative [Plasmodium vivax]
+SCO73758.1           -            284 9820at5820           -            253     6e-38  129.4  20.2   1   1   1.3e-40   8.5e-38  128.9  20.2    51   249    58   272    19   276 0.76 palmitoyltransferase, putative [Plasmodium vivax]
+SCO72645.1           -            294 9820at5820           -            253   1.4e-22   79.0  14.2   1   1   3.4e-25   2.1e-22   78.4  14.2    35   239    26   247     3   262 0.71 palmitoyltransferase, putative [Plasmodium vivax]
+SCO71031.1           -            272 9820at5820           -            253   9.8e-15   53.3   8.4   1   1   2.1e-17   1.3e-14   52.9   8.4    13   218     9   228     2   259 0.68 palmitoyltransferase, putative [Plasmodium vivax]
+SCO75303.1           -           1010 9820at5820           -            253   1.4e-11   43.0  35.6   1   2   4.9e-14   3.1e-11   41.8  29.8    21   233    44   292    35   307 0.70 palmitoyltransferase, putative [Plasmodium vivax]
+SCO75303.1           -           1010 9820at5820           -            253   1.4e-11   43.0  35.6   2   2      0.17   1.1e+02    0.7   0.3    82   121   634   674   624   694 0.84 palmitoyltransferase, putative [Plasmodium vivax]
+SCO75291.1           -            297 9820at5820           -            253   3.2e-09   35.2  27.7   1   1   1.4e-11   8.9e-09   33.8  27.7    39   210    62   254    30   291 0.65 palmitoyltransferase, putative [Plasmodium vivax]
+SCO72696.1           -            289 9820at5820           -            253   5.7e-07   27.9  35.1   1   1     4e-09   2.5e-06   25.7  35.0    47   228    57   257    28   267 0.61 palmitoyltransferase, putative [Plasmodium vivax]
+SCO72475.1           -            611 9820at5820           -            253   7.7e-05   20.9  16.3   1   2       5.3   3.4e+03   -4.1   2.1   120   148   254   286   247   314 0.58 palmitoyltransferase, putative [Plasmodium vivax]
+SCO72475.1           -            611 9820at5820           -            253   7.7e-05   20.9  16.3   2   2   1.2e-07   7.7e-05   20.9  16.3    90   207   427   537   407   550 0.75 palmitoyltransferase, putative [Plasmodium vivax]
+SCO74163.1           -            641 9820at5820           -            253      0.13   10.4   7.9   1   2       1.2   7.6e+02   -2.0   0.1   190   226   178   215   113   222 0.62 palmitoyltransferase, putative [Plasmodium vivax]
+SCO74163.1           -            641 9820at5820           -            253      0.13   10.4   7.9   2   2   3.8e-05     0.024   12.7   3.7    95   166   437   514   423   573 0.69 palmitoyltransferase, putative [Plasmodium vivax]
+#
+# Program:         hmmsearch
+# Version:         3.4 (Aug 2023)
+# Pipeline mode:   SEARCH
+# Query file:      /v3/work/00_inventory/busco/busco_downloads/lineages/plasmodium_odb10/hmms/9820at5820.hmm
+# Target file:     /v3/inputs/annotations/ncbi-datasets/PvC01.proteins.fa
+# Option settings: hmmsearch --domtblout /v3/work/00_inventory/busco/PvC01_proteins/run_plasmodium_odb10/hmmer_output/initial_run_results/9820at5820.out --cpu 1 /v3/work/00_inventory/busco/busco_downloads/lineages/plasmodium_odb10/hmms/9820at5820.hmm /v3/inputs/annotations/ncbi-datasets/PvC01.proteins.fa 
+# Current dir:     /v3/work/00_inventory/busco
+# Date:            Tue May 19 19:15:33 2026
+# [ok]

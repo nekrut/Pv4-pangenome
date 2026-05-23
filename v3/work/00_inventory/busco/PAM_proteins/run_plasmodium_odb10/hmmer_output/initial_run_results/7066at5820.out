@@ -1,0 +1,16 @@
+#                                                                            --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name        accession   tlen query name           accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+#------------------- ---------- ----- -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+CAI7720708.1         -            512 7066at5820           -            401    9e-234  774.2  36.9   1   3   2.1e-87   1.3e-83  279.7   3.6     1   158     6   173     6   193 0.92 | transcript=PVPAM_090047300_t1 | gene=PVPAM_090047300 | organism=Plasmodium_vivax_PAM | gene_product=coproporphyrinogen-III oxidase, putative | transcript_product=coproporphyrinogen-III oxidase, putative | location=CASCJQ010000009:1918176-1919985(-) | protein_length=512 | sequence_SO=supercontig | SO=protein_coding_gene | is_pseudo=false
+CAI7720708.1         -            512 7066at5820           -            401    9e-234  774.2  36.9   2   3   2.4e-60   1.6e-56  190.6   5.6   154   250   216   312   208   320 0.95 | transcript=PVPAM_090047300_t1 | gene=PVPAM_090047300 | organism=Plasmodium_vivax_PAM | gene_product=coproporphyrinogen-III oxidase, putative | transcript_product=coproporphyrinogen-III oxidase, putative | location=CASCJQ010000009:1918176-1919985(-) | protein_length=512 | sequence_SO=supercontig | SO=protein_coding_gene | is_pseudo=false
+CAI7720708.1         -            512 7066at5820           -            401    9e-234  774.2  36.9   3   3   1.7e-98   1.1e-94  316.2  11.9   242   401   351   512   341   512 0.97 | transcript=PVPAM_090047300_t1 | gene=PVPAM_090047300 | organism=Plasmodium_vivax_PAM | gene_product=coproporphyrinogen-III oxidase, putative | transcript_product=coproporphyrinogen-III oxidase, putative | location=CASCJQ010000009:1918176-1919985(-) | protein_length=512 | sequence_SO=supercontig | SO=protein_coding_gene | is_pseudo=false
+#
+# Program:         hmmsearch
+# Version:         3.4 (Aug 2023)
+# Pipeline mode:   SEARCH
+# Query file:      /v3/work/00_inventory/busco/busco_downloads/lineages/plasmodium_odb10/hmms/7066at5820.hmm
+# Target file:     /v3/inputs/annotations/plasmodb-68/PAM.proteins.fa
+# Option settings: hmmsearch --domtblout /v3/work/00_inventory/busco/PAM_proteins/run_plasmodium_odb10/hmmer_output/initial_run_results/7066at5820.out --cpu 1 /v3/work/00_inventory/busco/busco_downloads/lineages/plasmodium_odb10/hmms/7066at5820.hmm /v3/inputs/annotations/plasmodb-68/PAM.proteins.fa 
+# Current dir:     /v3/work/00_inventory/busco
+# Date:            Tue May 19 17:45:46 2026
+# [ok]

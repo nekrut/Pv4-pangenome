@@ -1,0 +1,24 @@
+#                                                                            --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name        accession   tlen query name           accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+#------------------- ---------- ----- -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+SCO65640.1           -           1253 2668at5820           -            661         0 1156.6  90.8   1   4   9.2e-12   9.3e-09   32.7   0.4     1    36     1    36     1    48 0.88 GAF domain-related protein, putative [Plasmodium vivax]
+SCO65640.1           -           1253 2668at5820           -            661         0 1156.6  90.8   2   4  8.7e-221  8.8e-218  723.4  14.3    40   351   225   536   220   542 0.99 GAF domain-related protein, putative [Plasmodium vivax]
+SCO65640.1           -           1253 2668at5820           -            661         0 1156.6  90.8   3   4     2e-10     2e-07   28.3  13.2   341   410   568   641   559   705 0.79 GAF domain-related protein, putative [Plasmodium vivax]
+SCO65640.1           -           1253 2668at5820           -            661         0 1156.6  90.8   4   4  1.8e-119  1.8e-116  388.6  40.9   427   661  1005  1253   952  1253 0.92 GAF domain-related protein, putative [Plasmodium vivax]
+SCO67553.1           -            713 2668at5820           -            661     2e-29  101.0   3.1   1   3      0.13   1.4e+02   -0.9   1.7   342   437    49   147    14   154 0.60 conserved protein, unknown function [Plasmodium vivax]
+SCO67553.1           -            713 2668at5820           -            661     2e-29  101.0   3.1   2   3   1.9e-32     2e-29  101.0   3.1    37   211   358   545   331   562 0.79 conserved protein, unknown function [Plasmodium vivax]
+SCO67553.1           -            713 2668at5820           -            661     2e-29  101.0   3.1   3   3     0.081        82   -0.1   0.0   266   314   645   691   635   698 0.85 conserved protein, unknown function [Plasmodium vivax]
+SCO68980.1           -            131 2668at5820           -            661     0.061   10.2  11.0   1   1   6.9e-05      0.07   10.0  11.0   335   446     7   124     2   130 0.72 conserved Plasmodium protein, unknown function [Plasmodium vivax]
+SCO67804.1           -            143 2668at5820           -            661       0.6    6.9  18.2   1   1   0.00073      0.74    6.6  18.2   330   415    49   134    35   137 0.76 conserved Plasmodium protein, unknown function [Plasmodium vivax]
+SCO65956.1           -            428 2668at5820           -            661       1.9    5.2  11.7   1   1    0.0025       2.5    4.8  11.7   355   428   126   202   106   277 0.56 RAD protein (Pv-fam-e) [Plasmodium vivax]
+SCO66294.1           -            344 2668at5820           -            661       5.3    3.8  14.1   1   1    0.0084       8.5    3.1  14.1   354   447   221   314   201   329 0.65 hypothetical protein, conserved [Plasmodium vivax]
+#
+# Program:         hmmsearch
+# Version:         3.4 (Aug 2023)
+# Pipeline mode:   SEARCH
+# Query file:      /v3/work/00_inventory/busco/busco_downloads/lineages/plasmodium_odb10/hmms/2668at5820.hmm
+# Target file:     /v3/inputs/annotations/ncbi-datasets/PvT01.proteins.fa
+# Option settings: hmmsearch --domtblout /v3/work/00_inventory/busco/PvT01_proteins/run_plasmodium_odb10/hmmer_output/initial_run_results/2668at5820.out --cpu 1 /v3/work/00_inventory/busco/busco_downloads/lineages/plasmodium_odb10/hmms/2668at5820.hmm /v3/inputs/annotations/ncbi-datasets/PvT01.proteins.fa 
+# Current dir:     /v3/work/00_inventory/busco
+# Date:            Tue May 19 18:42:03 2026
+# [ok]

@@ -1,0 +1,17 @@
+#                                                                            --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name        accession   tlen query name           accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+#------------------- ---------- ----- -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+CAI7722750.1         -           1046 3986at5820           -            472  3.2e-249  826.2  48.3   1   4   1.3e-79   8.4e-76  254.4  10.7     1   150    18   176    18   189 0.93 | transcript=PVPAM_130025100_t1 | gene=PVPAM_130025100 | organism=Plasmodium_vivax_PAM | gene_product=general transcription factor 3C polypeptide 5, putative | transcript_product=general transcription factor 3C polypeptide 5, putative | location=CASCJQ010000013:910487-913776(-) | protein_length=1046 | sequence_SO=supercontig | SO=protein_coding_gene | is_pseudo=false
+CAI7722750.1         -           1046 3986at5820           -            472  3.2e-249  826.2  48.3   2   4   8.7e-37   5.6e-33  113.1   6.2   125   226   440   543   430   544 0.87 | transcript=PVPAM_130025100_t1 | gene=PVPAM_130025100 | organism=Plasmodium_vivax_PAM | gene_product=general transcription factor 3C polypeptide 5, putative | transcript_product=general transcription factor 3C polypeptide 5, putative | location=CASCJQ010000013:910487-913776(-) | protein_length=1046 | sequence_SO=supercontig | SO=protein_coding_gene | is_pseudo=false
+CAI7722750.1         -           1046 3986at5820           -            472  3.2e-249  826.2  48.3   3   4   1.8e-93   1.1e-89  300.1   5.6   223   378   690   850   673   877 0.91 | transcript=PVPAM_130025100_t1 | gene=PVPAM_130025100 | organism=Plasmodium_vivax_PAM | gene_product=general transcription factor 3C polypeptide 5, putative | transcript_product=general transcription factor 3C polypeptide 5, putative | location=CASCJQ010000013:910487-913776(-) | protein_length=1046 | sequence_SO=supercontig | SO=protein_coding_gene | is_pseudo=false
+CAI7722750.1         -           1046 3986at5820           -            472  3.2e-249  826.2  48.3   4   4   4.5e-56   2.9e-52  176.8   2.2   374   472   948  1046   918  1046 0.92 | transcript=PVPAM_130025100_t1 | gene=PVPAM_130025100 | organism=Plasmodium_vivax_PAM | gene_product=general transcription factor 3C polypeptide 5, putative | transcript_product=general transcription factor 3C polypeptide 5, putative | location=CASCJQ010000013:910487-913776(-) | protein_length=1046 | sequence_SO=supercontig | SO=protein_coding_gene | is_pseudo=false
+#
+# Program:         hmmsearch
+# Version:         3.4 (Aug 2023)
+# Pipeline mode:   SEARCH
+# Query file:      /v3/work/00_inventory/busco/busco_downloads/lineages/plasmodium_odb10/hmms/3986at5820.hmm
+# Target file:     /v3/inputs/annotations/plasmodb-68/PAM.proteins.fa
+# Option settings: hmmsearch --domtblout /v3/work/00_inventory/busco/PAM_proteins/run_plasmodium_odb10/hmmer_output/initial_run_results/3986at5820.out --cpu 1 /v3/work/00_inventory/busco/busco_downloads/lineages/plasmodium_odb10/hmms/3986at5820.hmm /v3/inputs/annotations/plasmodb-68/PAM.proteins.fa 
+# Current dir:     /v3/work/00_inventory/busco
+# Date:            Tue May 19 17:39:46 2026
+# [ok]

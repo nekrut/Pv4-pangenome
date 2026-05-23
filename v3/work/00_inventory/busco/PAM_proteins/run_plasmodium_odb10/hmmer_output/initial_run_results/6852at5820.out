@@ -1,0 +1,15 @@
+#                                                                            --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name        accession   tlen query name           accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+#------------------- ---------- ----- -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+CAI7718569.1         -            502 6852at5820           -            435  1.7e-254  842.9  40.4   1   1  2.1e-257  6.9e-254  840.9  40.4     1   435    22   502    22   502 0.96 | transcript=PVPAM_040031300_t1 | gene=PVPAM_040031300 | organism=Plasmodium_vivax_PAM | gene_product=hexose transporter | transcript_product=hexose transporter | location=CASCJQ010000004:1090385-1091893(+) | protein_length=502 | sequence_SO=supercontig | SO=protein_coding_gene | is_pseudo=false
+CAI7719636.1         -            466 6852at5820           -            435   1.2e-11   42.8  40.3   1   1   6.5e-15   2.1e-11   41.9  40.3     9   400     8   447     3   458 0.73 | transcript=PVPAM_070025000_t1 | gene=PVPAM_070025000 | organism=Plasmodium_vivax_PAM | gene_product=major facilitator superfamily domain-containing protein, putative | transcript_product=major facilitator superfamily domain-containing protein, putative | location=CASCJQ010000007:891430-892830(+) | protein_length=466 | sequence_SO=supercontig | SO=protein_coding_gene | is_pseudo=false
+#
+# Program:         hmmsearch
+# Version:         3.4 (Aug 2023)
+# Pipeline mode:   SEARCH
+# Query file:      /v3/work/00_inventory/busco/busco_downloads/lineages/plasmodium_odb10/hmms/6852at5820.hmm
+# Target file:     /v3/inputs/annotations/plasmodb-68/PAM.proteins.fa
+# Option settings: hmmsearch --domtblout /v3/work/00_inventory/busco/PAM_proteins/run_plasmodium_odb10/hmmer_output/initial_run_results/6852at5820.out --cpu 1 /v3/work/00_inventory/busco/busco_downloads/lineages/plasmodium_odb10/hmms/6852at5820.hmm /v3/inputs/annotations/plasmodb-68/PAM.proteins.fa 
+# Current dir:     /v3/work/00_inventory/busco
+# Date:            Tue May 19 17:44:54 2026
+# [ok]
