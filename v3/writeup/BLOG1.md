@@ -12,11 +12,13 @@ A pangenome is the union of sequences and structural variation across a set of r
 
 The two strategies fit different organisms. Minigraph-Cactus shines when there is an undisputed canonical reference and the divergence among inputs is modest, with the human pangenome being the textbook case: a GRCh38/T2T-CHM13 backbone tracks a known common ancestor, and structural variants are layered onto that scaffold. *Plasmodium* sits at the other extreme. The *P. vivax* assemblies we work with span isolates collected on four continents, the subtelomeres carry rapidly evolving multi-gene families — *pir*, *vir*, PHIST — that resist single-reference framing, and no curated common ancestor exists to hang the variation on. PGGB's reference-free, symmetric design fits this regime: every assembly contributes paths through the graph on equal footing, and the all-pairs wfmash step captures divergence between subtelomeric families without forcing them onto a single backbone.
 
+A second axis on which the two approaches diverge is **updatability** — what happens when a new genome arrives after the graph is built. Minigraph-Cactus was designed for incremental updates: adding a new assembly runs the new haplotype against the cached reference + existing structural-variation backbone via the `cactus-update-prepare` workflow, preserving prior node identifiers and downstream coordinate stability. The Human Pangenome Reference Consortium uses this exact pattern as new HPRC haplotypes ship. PGGB, by contrast, lacks an incremental path. The wfmash step is in principle decomposable — adding the (N+1)-th assembly only requires N new pairwise alignments, not N² — but the standard `pggb` invocation reruns the full all-versus-all, and even if you skip the redundant wfmash work by hand, the downstream seqwish induction and smoothxg POA-smoothing always rebuild from the full combined PAF. Node identifiers and bubble structure therefore shift between versions regardless of how much compute is reused. For a frequently-growing panel where downstream consumers depend on stable graph coordinates, this is the deciding constraint and Minigraph-Cactus is the better choice. For a fixed panel like the 8 *P. vivax* strains we use here — and like most species-specific pangenomes covered by the NIH BRCs — coordinates stabilize once the panel is final and the rebuild cost is a one-time payment.
+
 ## The data
 
 We use two assemblies for this two-way warm-up, both bp-identical between PlasmoDB and GenBank releases.
 
-**PvP01** (GCA_900093555.2) is the modern primary reference for *P. vivax*. It was assembled by Auburn et al. (2016) [4] from a Papua, Indonesia isolate using long-read sequencing aimed specifically at the subtelomeric *pir* family. The assembly totals 29.0 Mb across 242 contigs and carries the community-curated PlasmoDB annotation that we use as the source for Liftoff projections later in the series.
+**PvP01** (GCA_900093555.2) is the modern primary reference for *P. vivax*. It was assembled by Auburn et al. (2016) [4] from a Papua, Indonesia isolate using deep Illumina short-read sequencing (a mix of paired-end and mate-pair libraries on GAII, HiSeq 2000, HiSeq 2500 and MiSeq) targeted specifically at improving the subtelomeric *pir* family. The assembly totals 29.0 Mb across 242 contigs and carries the community-curated PlasmoDB annotation that we use as the source for Liftoff projections later in the series.
 
 **PAM** (GCA_949152365.1) is a 28-contig, 29.4 Mb chromosome-scale assembly of the Peruvian Amazon Pv01-19 isolate published by De Meulenaere et al. (2023) [5]. PAM is the cleanest non-reference *P. vivax* assembly currently available, with nearly all chromosomes resolved as single contigs, and it gives the graph a high-quality second haplotype to define shared backbone against.
 
@@ -26,7 +28,7 @@ Two genomes is not a pangenome in any biological sense; the eight-way graph that
 
 ### Alignments
 
-A PGGB pangenome begins with all-versus-all pairwise alignments. The aligner is wfmash, which uses MashMap to pre-filter candidate orthologous segments by their k-mer-based mash distance and then computes base-pair alignments only for segments that pass the threshold. The pre-filter is the load-bearing step: it keeps the all-pairs problem tractable and discards seed extensions that would never reach a useful alignment score. For the two-way graph we used PGGB-build parameters, including `-n 8` so that each query segment is permitted up to eight competing mappings, the same setting we use for the eight-way build so the warm-up matches downstream behavior.
+A PGGB pangenome begins with all-versus-all pairwise alignments. The aligner is wfmash, which uses MashMap to pre-filter candidate orthologous segments by their k-mer-based mash distance and then computes base-pair alignments only for segments that pass the threshold. The pre-filter is the load-bearing step: it keeps the all-pairs problem tractable and discards seed extensions that would never reach a useful alignment score. For the two-way graph we used PGGB-build parameters, including `-n 8` so that smoothxg downstream treats the input as an 8-haplotype problem (matching the eight-way build's POA-smoothing budget); the number of competing wfmash mappings retained per segment is set separately via `-c`.
 
 ![Fig. 1. wfmash PAF for PvP01 versus PAM at PGGB-build parameters (`-n 8`, multi-mapping). Each ribbon is a wfmash mapping; chromosomes are stacked side-by-side with PvP01 on top and PAM below.](synteny_canonical_filtered/PvP01_to_PAM__3_wfmash_n1.png)
 
@@ -42,7 +44,7 @@ The default KegAlign run (Fig. 2a) carries visibly more cross-chromosome ribbon 
 
 ### Graph construction
 
-PGGB threads the wfmash alignments through seqwish, which builds an initial induced graph from the PAF, and then smoothxg, which normalizes the graph by re-aligning short windows to collapse equivalent paths. The output is an ODGI file: a graph in which each input assembly traces a path and shared sequence collapses into a common backbone.
+PGGB threads the wfmash alignments through seqwish, which builds an initial induced graph from the PAF, then smoothxg, which normalizes the graph by re-aligning short windows to collapse equivalent paths, then gfaffix, which folds redundant prefix/suffix structure out of the graph. The final output is an ODGI file: a graph in which each input assembly traces a path and shared sequence collapses into a common backbone.
 
 ![Fig. 3a. odgi 1D visualization of the two-way PGGB graph on chromosome 1. The path bar shows how the PvP01 and PAM haplotypes traverse the graph; coloured stretches mark nodes traversed by one path only, gray stretches mark the shared backbone.](graph_viz/chr1_2way_viz.png)
 
@@ -54,7 +56,7 @@ The same graph can be "expanded" back into a ribbon view by extracting each cont
 
 ![Fig. 4. PGGB graph blocks expanded into a synteny ribbon view, two-way (PvP01 + PAM only). Each block corresponds to a stretch of graph nodes traversed by both samples.](synteny_canonical_filtered/PvP01_to_PAM__5_graph_blocks.png)
 
-This is the same graph as in Fig. 3, projected back into the pairwise-alignment idiom. The two-way graph yields 256 alignment blocks across the full genome (`writeup/synteny_2way/PvP01_to_PAM_2way.blocks.tsv`). Compared to the wfmash PAF in Fig. 1, the graph-derived blocks are a strict subset (every block corresponds to a stretch of graph nodes traversed by both samples), and the cross-chromosomal hits visible in the KegAlign panels are absent here. The graph build has resolved each multi-mapping region to a single canonical placement.
+This is the same graph as in Fig. 3, projected back into the pairwise-alignment idiom. The two-way graph yields 255 alignment blocks across the full genome (`writeup/synteny_2way/PvP01_to_PAM_2way.blocks.tsv`). Compared to the wfmash PAF in Fig. 1, the graph-derived blocks are a strict subset (every block corresponds to a stretch of graph nodes traversed by both samples), and the cross-chromosomal hits visible in the KegAlign panels are absent here. The graph build has resolved each multi-mapping region to a single canonical placement.
 
 ### Why bother?
 
@@ -76,6 +78,7 @@ In the next post we expand from two genomes to the full eight-way *P. vivax* pan
 - wfmash (https://github.com/waveygang/wfmash)
 - seqwish (https://github.com/ekg/seqwish)
 - smoothxg (https://github.com/pangenome/smoothxg)
+- gfaffix (https://github.com/marschall-lab/GFAffix)
 - odgi (https://github.com/pangenome/odgi)
 - vg (https://github.com/vgteam/vg)
 - KegAlign (https://github.com/galaxyproject/KegAlign)
