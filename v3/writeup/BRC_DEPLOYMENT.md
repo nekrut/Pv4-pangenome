@@ -50,6 +50,8 @@ This means PR 1's schema additions shrink: no `Assembly.sourmash_sketch_url` or 
 
 Bonus: same workflows are reusable for any organism or any custom user-supplied genome set — same Galaxy primitives, no special BRC plumbing.
 
+**This is a new general-use pattern for Galaxy.** Galaxy as a query-execution backend for data-portal sites: BRC-analytics (and any sibling portal) offloads complex queries — distance matrices, protein homology search, multiple alignment, variant lookup, structural prediction — to versioned, IWC-registered workflows. The portal stays light (catalogue, schema, UI); Galaxy supplies the compute + storage + reproducibility. Two queries in v1 (sourmash + MMseqs2); the same pattern extends naturally to BLAST/DIAMOND, MUSCLE/MAFFT alignment, panagram k-mer browsing, AlphaFold lookup, etc. The list grows by adding workflows — no new portal-side infrastructure.
+
 ## Five analysis blocks → output files → BRC deployment
 
 ### Block 1 — Pangenome graph
