@@ -2,7 +2,7 @@
 
 The consensus ortholog table is the cross-strain backbone of v3 — every per-gene downstream analysis (MSAs, ML trees, HyPhy selection scans, UCSC selection tracks, family-stratified plots) keys off it. We built it by triangulating three independent orthology signals and merging with union-find.
 
-**Related documents.** [PANGENOME.md → How the graph fed downstream analyses](PANGENOME.md#how-the-graph-fed-downstream-analyses) covers evidence stream 3 (graph-path co-membership) and the graph PAV cross-validation that adds `graph_strains` / `graph_mean_pav` columns to the consensus table; [MULTIZ.md → How these alignments fed downstream analyses](MULTIZ.md#how-these-alignments-fed-downstream-analyses) covers the cleaned chains (input to Liftoff/TOGA2 in stream 1) and the rbest chains (input to stream 2); [MALARIAGEN_VCF_PROJECTION.md → How these projected VCFs fed downstream analyses](MALARIAGEN_VCF_PROJECTION.md#how-these-projected-vcfs-fed-downstream-analyses) covers the cross-strain drug-resistance QC that uses gene IDs from this table.
+**Related documents.** [PANGENOME.md → How the graph fed downstream analyses](PANGENOME.md#how-the-graph-fed-downstream-analyses) covers evidence stream 3 (graph-path co-membership) and the graph PAV cross-validation that adds `graph_strains` / `graph_mean_pav` columns to the consensus table; [MULTIZ.md → How these alignments fed downstream analyses](MULTIZ.md#how-these-alignments-fed-downstream-analyses) covers the cleaned chains (input to Liftoff/TOGA2 in stream 1) and the rbest chains (input to stream 2); [MALARIAGEN_VCF_PROJECTION.md → How these projected VCFs fed downstream analyses](MALARIAGEN_VCF_PROJECTION.md#how-these-projected-vcfs-fed-downstream-analyses) covers the cross-strain drug-resistance QC that uses gene IDs from this table; [MSA_HYPHY.md](MSA_HYPHY.md) covers the per-orthogroup MSAs, ML trees, and HyPhy BUSTED scans that consume rows from this table; [MICROSYNTENY.md](MICROSYNTENY.md) covers the subtelomeric ribbon plots that visualize orthogroup membership across strains.
 
 ## How we built it
 
@@ -115,17 +115,13 @@ The graph PAV columns are added by the graph cross-validation step described in 
 
 ## How orthology fed downstream analyses
 
-Five v3 analyses key off the ortholog table. None has its own writeup document yet — the recipes are in `pipeline/LOCAL.md` and the v3 driver scripts.
+Five v3 analyses key off the ortholog table.
 
-**Codon and protein MSAs (no separate doc yet — recipe at `pipeline/LOCAL.md` Section 7).** Orthogroups are filtered by `min_intact` (the minimum number of strains where the gene is 1-to-1 and intact). The `strict` set requires ≥ 7 of 8 strains and gives 1,584 orthogroups; the `relaxed` set requires ≥ 5 of 8 and gives 4,215. For each qualifying orthogroup, per-strain CDS is extracted via `gffread -x`, aligned at the protein level with MAFFT-LINSI, then back-translated to codon coordinates with pal2nal. Outputs at `work/06_msa/core_v3/{PVP01}.codon.aln.fa` + `.protein.aln.fa` and the same in `core_relaxed/`.
+**Codon and protein MSAs, ML trees, and HyPhy BUSTED bulk run.** Three sequential per-orthogroup stages — Stage F MSAs filtered by `min_intact` (≥ 7 / ≥ 5 yielding 1,584 / 4,215 orthogroups), Stage G IQ-TREE ML trees per OG, Stage H HyPhy BUSTED tests for positive selection. Full recipe + Pvs230 MNS follow-up worked example: [MSA_HYPHY.md → How we built them](MSA_HYPHY.md#how-we-built-them).
 
-**ML trees (no separate doc yet — recipe at `pipeline/LOCAL.md` Section 8).** IQ-TREE3 with `-m MFP -B 1000` runs on each codon MSA. One `.treefile` per orthogroup at `work/06_msa/core_v3_trees/{PVP01}/{PVP01}.treefile` (1,584 strict trees) and `work/06_msa/core_relaxed_trees/...` (4,215 relaxed trees).
+**UCSC hub selection tracks.** The orthogroup_id → PvP01 gene_id map from the ortholog table is the join key for two UCSC tracks: `selection_strict.bb` and `selection_relaxed.bb` (BUSTED q-values as BED12+5), plus `orthogroup_membership.bb` (color by `n_strains`). All three live in the hub at `ucsc_hub/GCA_900093555.2/`. The publishing step (BUSTED-to-BigBed12+5 join via the ortholog table) is documented in [MSA_HYPHY.md → How these outputs fed downstream analyses](MSA_HYPHY.md#how-these-outputs-fed-downstream-analyses).
 
-**HyPhy bulk BUSTED (no separate doc yet — recipe at `pipeline/LOCAL.md` Section 9).** Per-orthogroup test for positive selection. Reads the codon MSA + the IQ-TREE tree, outputs `busted.json` per orthogroup. 1,584 strict + 4,215 relaxed = 5,799 BUSTED runs total. Drives the BRC selection track.
-
-**UCSC hub selection tracks (no separate doc yet — recipe at `pipeline/LOCAL.md` Section 12).** The orthogroup_id → PvP01 gene_id map from the ortholog table is the join key for two UCSC tracks: `selection_strict.bb` and `selection_relaxed.bb` (BUSTED q-values as BED12+5), plus `orthogroup_membership.bb` (color by `n_strains`). All three live in the hub at `ucsc_hub/GCA_900093555.2/`.
-
-**Subtelomeric microsynteny (driver at `scripts/overnight/12_subtelomeric_microsynteny.py`).** The chr-end ribbon plots at `writeup/microsynteny/chr{1-14}_{L,R}.png` (28 plots) use the ortholog table to draw connectors between orthologous genes across strains, colored by family label. Drives the variant-antigen narrative (PIR-dense clusters in PvW1, PAM; truncated subtelomeres in Sal-I, PvSY56).
+**Subtelomeric microsynteny.** The chr-end ribbon plots at `writeup/microsynteny/chr{1-14}_{L,R}.png` (28 plots) use the ortholog table to draw connectors between orthologous genes across strains, colored by family label. Drives the variant-antigen narrative (PIR-dense clusters in PvW1, PAM; truncated subtelomeres in Sal-I, PvSY56). Full recipe: [MICROSYNTENY.md](MICROSYNTENY.md).
 
 ## Re-running on a different species
 
