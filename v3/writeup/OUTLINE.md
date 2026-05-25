@@ -225,7 +225,8 @@ Quantitative comparison of the three projection methods. For each target referen
 | Item                            | Count | Path                                                        |
 | :------------------------------ | ----: | :---------------------------------------------------------- |
 | 3-way intersection table        |     7 | `v3/work/09_projection_compare/intersection.tsv`            |
-| Per-method per-target site TSVs |    21 | `v3/work/09_projection_compare/{GCA_*}/{A1,A2,B}.sites.tsv` |
+| Per-method per
+-target site TSVs |    21 | `v3/work/09_projection_compare/{GCA_*}/{A1,A2,B}.sites.tsv` |
 | Drug-resistance QC table        |   138 | `v3/work/09_projection_compare/drug_resistance_qc.tsv`      |
 | 3-way runner                    |     1 | `v3/scripts/overnight/07b_3way_parallel.sh`                 |
 | Phase 5 runner                  |     1 | `v3/scripts/overnight/09_phase5_drug_resistance_qc.py`      |
