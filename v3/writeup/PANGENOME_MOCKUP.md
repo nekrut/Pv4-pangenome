@@ -76,7 +76,9 @@ After PRs #1244, #1273, #1274, #1277, #1278 the organism detail page renders thr
 ║  │  ▾  Find a gene                                                        │ ║
 ║  │                                                                        │ ║
 ║  │     Look up an orthogroup by gene name, gene symbol, PlasmoDB          │ ║
-║  │     description, or sequence:                                          │ ║
+║  │     description, or sequence. Backed by the BRC-wide MMseqs2 protein   │ ║
+║  │     search index (catalog-level, queried with filter to these 8       │ ║
+║  │     strains).                                                          │ ║
 ║  │                                                                        │ ║
 ║  │     ┌──────────────────────────────────────────────────────────┐ [Go] │ ║
 ║  │     │ PVP01_0415800,  dhfr,  "transmission-blocking", or FASTA │       │ ║

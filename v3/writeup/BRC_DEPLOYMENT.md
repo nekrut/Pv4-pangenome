@@ -49,6 +49,52 @@ Surface as: heatmap card under the Assemblies table on every organism page (not 
 
 Bonus: cross-organism queries (e.g., "show all genomes within distance 0.05 of *P. vivax* PvP01") become a single `sourmash search` against the global sketch directory. Useful for the AI assistant's "find a related genome" tool.
 
+### Catalog-wide artifact — global protein search index (MMseqs2)
+
+Same pattern applied to proteins: instead of building a protein search index per pangenome (for the gene-lookup feature in Block 4), build **one MMseqs2 database across every protein FASTA in the BRC catalog**. Each pangenome page (and the future cross-organism search) queries this single global DB, filters results to whatever assembly subset matters.
+
+| File                                                          |     Size | Where                                                     | BRC data-model slot                   |
+| ------------------------------------------------------------- | -------: | --------------------------------------------------------- | ------------------------------------- |
+| `{ACC}.proteins.fa.gz`                                        | ~1 MB ea | `catalog/output/assemblies/proteins/{ACC}.proteins.fa.gz` | new `Assembly.proteome_url`           |
+| `brc_proteins.mmseqsdb` (incl. `_h`, `.idx`, `.lookup`, etc.) |    ~5 GB | `catalog/output/proteins/brc_proteins.mmseqsdb*`          | global — not in any per-assembly slot |
+| `brc_proteins.tsv` (acc → length → strain → gene_id)          |  ~500 MB | same dir                                                  | catalog index for the DB              |
+
+Storage: per-assembly proteome ~1 MB gzipped × ~5,000 assemblies = ~5 GB. MMseqs2 DB on top: ~5 GB. Total ~10 GB — small.
+
+Build commands:
+
+```bash
+# Per-assembly (one-time, on catalog entry)
+gffread -y catalog/output/assemblies/proteins/{ACC}.proteins.fa \
+  -g {ACC}.fa {ACC}.fixed.gff3
+gzip catalog/output/assemblies/proteins/{ACC}.proteins.fa
+
+# Global DB (nightly build OR incremental concatdbs)
+zcat catalog/output/assemblies/proteins/*.proteins.fa.gz > /tmp/all_proteins.fa
+mmseqs createdb /tmp/all_proteins.fa catalog/output/proteins/brc_proteins.mmseqsdb
+mmseqs createindex catalog/output/proteins/brc_proteins.mmseqsdb /tmp/mmseqs_tmp
+```
+
+Surface as: the "Find a gene" search box in the Pangenome section (and any future gene-lookup surface) takes the user's query and runs:
+
+```bash
+# For a name / symbol / description query (instant, table lookup)
+grep -i "{query}" catalog/output/proteins/brc_proteins.tsv \
+  | awk -v species="{taxon_id}" '$3==species'
+
+# For a sequence query (sub-second, MMseqs2 prefilter + search)
+mmseqs easy-search /tmp/query.fa \
+  catalog/output/proteins/brc_proteins.mmseqsdb \
+  /tmp/result.tsv /tmp/mmseqs_tmp --format-output "query,target,fident,evalue"
+# Then filter result rows where target's assembly is in the pangenome's member_assemblies.
+```
+
+Each query returns a protein ID → assembly accession → gene ID. The orthogroup lookup is a final join against `work/03_consensus/ortholog_table.tsv`.
+
+Bonus: same global DB supports cross-organism "find homologs" queries from the assistant — paste any sequence, get ranked hits across the entire BRC catalog. The Pangenome gene-lookup is one client of this primitive; the assistant's "find related genes" is another.
+
+Both this and the sourmash catalog-wide artifact (above) follow the same principle: per-assembly representation lives in the catalog, derived views (matrices, search results, orthogroup tables) are slices.
+
 ## Five analysis blocks → output files → BRC deployment
 
 ### Block 1 — Pangenome graph
@@ -98,7 +144,7 @@ UCSC hub composite `brc_pangenome_annot` (one per assembly): 4 BigBed sub-tracks
 **v1 plan**: build a gene browser with an AI-agent interface. The user reaches the MSA + tree + BUSTED for a gene in two ways:
 
 1. **From the UCSC browser** — clicking any gene feature on the `annot_from_{anchor}` BigBed track (Block 3) navigates to an orthogroup detail page hosted under the *P. vivax* organism page. Wired via the `url` attribute in the hub's `trackDb.txt`: each gene's details-page URL is `https://brc-analytics.org/organisms/5855/pangenome/orthogroup/$$` (UCSC substitutes the feature name for `$$`). The BRC route looks up the orthogroup from the gene ID via the ortholog table from Block 3 and renders the per-OG panel.
-2. **From the AI-agent gene browser** — the user types a gene name (any strain's gene ID, gene symbol, or PlasmoDB description fragment) or pastes a sequence. Name lookup uses the ortholog table + family table from Block 3; sequence lookup uses MMseqs2 against the per-strain protein FASTAs from the starting-point table. Both paths return the same per-OG panel as the UCSC click-through.
+2. **From the AI-agent gene browser** — the user types a gene name (any strain's gene ID, gene symbol, or PlasmoDB description fragment) or pastes a sequence. Both lookup paths hit the **BRC-wide MMseqs2 protein search index** (see "Catalog-wide artifact — global protein search index" above) with a filter to the pangenome's 8 member assemblies, joined against the ortholog table from Block 3 to resolve the orthogroup. Both paths return the same per-OG panel as the UCSC click-through.
 
 Per-OG artifacts (alignments, trees, BUSTED JSONs) will live on **TACC storage allocated to BRC** once handed off — the Dropbox / Git locations below are the source for the BRC-side ingest, not the long-term home. The agent fetches them from the TACC URL on demand; no eager rendering of 5,800 panels.
 
