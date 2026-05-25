@@ -22,78 +22,33 @@ All 8 input genomes are already in the BRC-analytics catalog (assembly accession
 
 Total starting compute: ~24 hours wall on a 32-core + 1 GPU box.
 
-### Catalog-wide artifact — sourmash sketch per assembly
+### Galaxy-backed services — sourmash distance + MMseqs2 protein search
 
-This is not a Pangenome-specific output — it's a **catalog-level** input that gets sliced per organism page. Compute one sourmash sketch per assembly in BRC-analytics; the organism page derives its N×N distance matrix on demand from the sketches of its member assemblies.
+Two interactive features — the Assemblies-section distance heatmap and the Pangenome-section "Find a gene" lookup — are **Galaxy workflows triggered from the BRC UI**, not BRC-hosted indexes. The heavy storage (sketches, protein DB) lives in Galaxy's data layer; BRC just submits a workflow run via the existing assistant-handoff / workflow-stepper machinery (introduced by PR #1212, May 2026) and polls / streams the result.
 
-| File                                                   | Size each | Where                                             | BRC data-model slot                |
-| ------------------------------------------------------ | --------: | ------------------------------------------------- | ---------------------------------- |
-| `{ACC}.sig.gz` (sourmash MinHash sketch, k=31, s=1000) |    ~50 KB | `catalog/output/assemblies/sketches/{ACC}.sig.gz` | new `Assembly.sourmash_sketch_url` |
+| Service            | Galaxy workflow                                                           | Input                                          | Output                              | Latency    |
+| ------------------ | ------------------------------------------------------------------------- | ---------------------------------------------- | ----------------------------------- | ---------- |
+| Genome distance    | `sourmash-distance-matrix`                                                | Collection of assembly FASTAs from the catalog | `dist.tsv` + `dendrogram.nwk` + PNG | ~30 sec    |
+| Protein homology   | `protein-sequence-search`                                                 | Query FASTA + taxon filter list                | TSV of hits (acc → gene → e-value)  | ~30–60 sec |
+| (gene name lookup) | none — handled by BRC server-side via the `family_table.tsv` from Block 3 | query string + taxon filter                    | ranked gene rows                    | sub-second |
 
-Storage: ~50 KB per assembly × ~5,000 catalog assemblies = ~250 MB total. Trivial. Lives next to the existing assembly metadata, computed once when an assembly enters the catalog (incremental — no recompute when others are added; sketches are additive).
+Cache layer: a nightly Galaxy run produces the per-organism distance TSV (`sourmash-distance-matrix` invoked over each organism's member assemblies) and stashes it on the BRC catalog as `catalog/output/organisms/{taxon_id}/sourmash_dist.tsv`. The organism page renders directly from the cached TSV — no live workflow run on every page load. Only when the cache is stale (new member assembly added) does the front-end trigger a fresh workflow.
 
-Per-organism rendering: when the organism page mounts, the front-end (or a small backend endpoint) pulls the N sketches for the organism's member assemblies, runs `sourmash compare` in process (sub-second for N ≤ 20), and renders the heatmap + dendrogram. Optional pre-compute: cache the result at `catalog/output/organisms/{taxon_id}/sourmash_dist.tsv` during the nightly build; refresh whenever the member-assembly list changes.
+Same model for "Find a gene": the workflow is invoked **on the user's submit click**, not on every page load. UI shows a "Searching…" spinner; results stream in within a minute and the user lands on the matched orthogroup detail page.
 
-Build commands:
+**No new BRC-hosted indexes.** No `catalog/output/proteins/brc_proteins.mmseqsdb`, no `catalog/output/assemblies/sketches/*.sig.gz` directory. Both workflows are IWC-registered tools that take catalog assemblies (referenced by accession) as input and produce the artifacts as Galaxy datasets, optionally synced back to the BRC catalog cache.
 
-```bash
-# Per-assembly (one-time, when an assembly lands in the catalog)
-sourmash sketch dna -p k=31,scaled=1000 {ACC}.fa -o catalog/output/assemblies/sketches/{ACC}.sig.gz
+| What                                           | Where it lives                                                                     |
+| ---------------------------------------------- | ---------------------------------------------------------------------------------- |
+| Per-assembly proteome (input to the workflows) | Galaxy data layer (fetched on workflow run from NCBI / PlasmoDB)                   |
+| sourmash sketches (built inside the workflow)  | Galaxy ephemeral dataset, not persisted                                            |
+| MMseqs2 protein DB (built inside the workflow) | Galaxy ephemeral dataset, not persisted                                            |
+| Per-organism distance TSV (cached)             | `catalog/output/organisms/{taxon_id}/sourmash_dist.tsv` (small, refreshed nightly) |
+| Per-query protein-search result                | streamed back to BRC, not persisted                                                |
 
-# Per-organism (during nightly catalog build, OR on-demand at request time)
-sourmash compare $(echo "${member_assemblies[@]/#/catalog/output/assemblies/sketches/}" | sed 's/$/.sig.gz/g') \
-  -o catalog/output/organisms/{taxon_id}/sourmash_dist.tsv --csv
-```
+This means PR 1's schema additions shrink: no `Assembly.sourmash_sketch_url` or `Assembly.proteome_url` slots needed. Just two new IWC workflow registrations in PR 4 (`POPULATION_GENOMICS` / `SELECTION_ANALYSIS` workflow categories) and one nightly cron that calls the sourmash workflow per organism.
 
-Surface as: heatmap card under the Assemblies table on every organism page (not just *P. vivax*) — once the sketches are in the catalog, every organism page gains the matrix for free. Download links for the TSV + optional Newick dendrogram.
-
-Bonus: cross-organism queries (e.g., "show all genomes within distance 0.05 of *P. vivax* PvP01") become a single `sourmash search` against the global sketch directory. Useful for the AI assistant's "find a related genome" tool.
-
-### Catalog-wide artifact — global protein search index (MMseqs2)
-
-Same pattern applied to proteins: instead of building a protein search index per pangenome (for the gene-lookup feature in Block 4), build **one MMseqs2 database across every protein FASTA in the BRC catalog**. Each pangenome page (and the future cross-organism search) queries this single global DB, filters results to whatever assembly subset matters.
-
-| File                                                          |     Size | Where                                                     | BRC data-model slot                   |
-| ------------------------------------------------------------- | -------: | --------------------------------------------------------- | ------------------------------------- |
-| `{ACC}.proteins.fa.gz`                                        | ~1 MB ea | `catalog/output/assemblies/proteins/{ACC}.proteins.fa.gz` | new `Assembly.proteome_url`           |
-| `brc_proteins.mmseqsdb` (incl. `_h`, `.idx`, `.lookup`, etc.) |    ~5 GB | `catalog/output/proteins/brc_proteins.mmseqsdb*`          | global — not in any per-assembly slot |
-| `brc_proteins.tsv` (acc → length → strain → gene_id)          |  ~500 MB | same dir                                                  | catalog index for the DB              |
-
-Storage: per-assembly proteome ~1 MB gzipped × ~5,000 assemblies = ~5 GB. MMseqs2 DB on top: ~5 GB. Total ~10 GB — small.
-
-Build commands:
-
-```bash
-# Per-assembly (one-time, on catalog entry)
-gffread -y catalog/output/assemblies/proteins/{ACC}.proteins.fa \
-  -g {ACC}.fa {ACC}.fixed.gff3
-gzip catalog/output/assemblies/proteins/{ACC}.proteins.fa
-
-# Global DB (nightly build OR incremental concatdbs)
-zcat catalog/output/assemblies/proteins/*.proteins.fa.gz > /tmp/all_proteins.fa
-mmseqs createdb /tmp/all_proteins.fa catalog/output/proteins/brc_proteins.mmseqsdb
-mmseqs createindex catalog/output/proteins/brc_proteins.mmseqsdb /tmp/mmseqs_tmp
-```
-
-Surface as: the "Find a gene" search box in the Pangenome section (and any future gene-lookup surface) takes the user's query and runs:
-
-```bash
-# For a name / symbol / description query (instant, table lookup)
-grep -i "{query}" catalog/output/proteins/brc_proteins.tsv \
-  | awk -v species="{taxon_id}" '$3==species'
-
-# For a sequence query (sub-second, MMseqs2 prefilter + search)
-mmseqs easy-search /tmp/query.fa \
-  catalog/output/proteins/brc_proteins.mmseqsdb \
-  /tmp/result.tsv /tmp/mmseqs_tmp --format-output "query,target,fident,evalue"
-# Then filter result rows where target's assembly is in the pangenome's member_assemblies.
-```
-
-Each query returns a protein ID → assembly accession → gene ID. The orthogroup lookup is a final join against `work/03_consensus/ortholog_table.tsv`.
-
-Bonus: same global DB supports cross-organism "find homologs" queries from the assistant — paste any sequence, get ranked hits across the entire BRC catalog. The Pangenome gene-lookup is one client of this primitive; the assistant's "find related genes" is another.
-
-Both this and the sourmash catalog-wide artifact (above) follow the same principle: per-assembly representation lives in the catalog, derived views (matrices, search results, orthogroup tables) are slices.
+Bonus: same workflows are reusable for any organism or any custom user-supplied genome set — same Galaxy primitives, no special BRC plumbing.
 
 ## Five analysis blocks → output files → BRC deployment
 

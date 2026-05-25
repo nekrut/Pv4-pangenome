@@ -32,8 +32,8 @@ After PRs #1244, #1273, #1274, #1277, #1278 the organism detail page renders thr
 ║  └──────────────────────────────────────┴───────────────┴─────────┴───────┘ ║
 ║                                                                              ║
 ║  Genome-distance matrix (sourmash)                                           ║  ← NEW
-║  ⓘ  Computed on demand from the BRC-wide sourmash sketch catalog            ║   sub-card
-║      (k=31, scaled=1000). Every organism page gets this for free.           ║
+║  ⓘ  Pairwise MinHash distances (k=31, scaled=1000). Computed by the         ║   sub-card
+║      `sourmash-distance-matrix` Galaxy workflow, cached per organism.       ║
 ║  ┌────────────────────────────────────────────────────────────────────────┐ ║
 ║  │           PvP01 Sal-I PvW1  PAM  PvSY56 PvT01 PvC01 MHC087            │ ║
 ║  │  PvP01    ▓▓▓▓▓ ░░░   ░░    ░░    ░░     ░░    ░░    ░░               │ ║
@@ -76,9 +76,10 @@ After PRs #1244, #1273, #1274, #1277, #1278 the organism detail page renders thr
 ║  │  ▾  Find a gene                                                        │ ║
 ║  │                                                                        │ ║
 ║  │     Look up an orthogroup by gene name, gene symbol, PlasmoDB          │ ║
-║  │     description, or sequence. Backed by the BRC-wide MMseqs2 protein   │ ║
-║  │     search index (catalog-level, queried with filter to these 8       │ ║
-║  │     strains).                                                          │ ║
+║  │     description, or sequence. Name lookup hits the family_table.tsv    │ ║
+║  │     server-side (instant). Sequence lookup triggers the                │ ║
+║  │     `protein-sequence-search` Galaxy workflow filtered to these 8     │ ║
+║  │     strains (~30 sec, spinner shown).                                  │ ║
 ║  │                                                                        │ ║
 ║  │     ┌──────────────────────────────────────────────────────────┐ [Go] │ ║
 ║  │     │ PVP01_0415800,  dhfr,  "transmission-blocking", or FASTA │       │ ║
