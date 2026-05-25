@@ -2,6 +2,13 @@
 
 A 1-page map from analysis outputs to BRC deployment slots. Walks left-to-right: the 8 input genomes → the 5 analysis blocks → which files come out → where they go (Git / Dropbox / UCSC hub) → which BRC-analytics data-model field they fill.
 
+## Where this lands in the BRC UI
+
+The natural host for the bundle is the existing **organism detail page** for *P. vivax* (taxon 5855). PRs #1261, #1263, #1274, #1277, #1278 (all merged May 2026) gave organism detail pages tabbed sections and inline workflow configurators. We add one new tab — **"Pangenome"** — to that page. No new top-level route, no separate `PangenomeView`. The tab surfaces the bundle's downloads + per-OG gene browser + cross-links to the UCSC hubs of each member assembly.
+
+The orthogroup detail page (reached by clicking a gene in any UCSC hub track, see Block 4 below) is a sibling route:
+`https://brc-analytics.org/organisms/5855/pangenome/orthogroup/{gene_id}`.
+
 ## Starting point: 8 input artifacts
 
 All 8 input genomes are already in the BRC-analytics catalog (assembly accessions verified via `catalog/output/assemblies.json`). Sources for each input type below; everything in this table eventually surfaces on the BRC UCSC track hub at `hgdownload.soe.ucsc.edu/hubs/BRC/` keyed by the GCA accession.
@@ -29,7 +36,7 @@ Doc: [PANGENOME.md](PANGENOME.md)
 | `pv.og` (odgi binary)               | 654 MB | **Dropbox** — `Pv4_v3/pggb_8way/` | `Pangenome.graph_og` (new slot, optional)  |
 | `pv.og.lay` (visualization layout)  | 109 MB | **Dropbox** — `Pv4_v3/pggb_8way/` | `Pangenome.graph_lay` (new slot, optional) |
 
-Surface as: 3 download links on the PangenomeView page (or a single "Download graph bundle" button). No UCSC track; no in-browser rendering. Graph visualization (odgi viz thumbnail, interactive bubble plot) is a v2 feature.
+Surface as: 3 download links in the "Pangenome" tab of the *P. vivax* organism page (or a single "Download graph bundle" button). No UCSC track; no in-browser rendering. Graph visualization (odgi viz thumbnail, interactive bubble plot) is a v2 feature.
 
 ### Block 2 — Pairwise chains + multi-way MAFs
 
@@ -63,7 +70,7 @@ UCSC hub composite `brc_pangenome_annot` (one per assembly): 4 BigBed sub-tracks
 
 **v1 plan**: build a gene browser with an AI-agent interface. The user reaches the MSA + tree + BUSTED for a gene in two ways:
 
-1. **From the UCSC browser** — clicking any gene feature on the `annot_from_{anchor}` BigBed track (Block 3) navigates to a per-orthogroup page in BRC-analytics that shows the MSA, ML tree, and BUSTED result. Wired via the `url` attribute in the hub's `trackDb.txt`: each gene's details-page URL is `https://brc-analytics.org/pangenome/plasmodium-vivax-v1/orthogroup/$$` (UCSC substitutes the feature name for `$$`). The BRC route looks up the orthogroup from the gene ID via the ortholog table from Block 3 and renders the per-OG panel.
+1. **From the UCSC browser** — clicking any gene feature on the `annot_from_{anchor}` BigBed track (Block 3) navigates to an orthogroup detail page hosted under the *P. vivax* organism page. Wired via the `url` attribute in the hub's `trackDb.txt`: each gene's details-page URL is `https://brc-analytics.org/organisms/5855/pangenome/orthogroup/$$` (UCSC substitutes the feature name for `$$`). The BRC route looks up the orthogroup from the gene ID via the ortholog table from Block 3 and renders the per-OG panel.
 2. **From the AI-agent gene browser** — the user types a gene name (any strain's gene ID, gene symbol, or PlasmoDB description fragment) or pastes a sequence. Name lookup uses the ortholog table + family table from Block 3; sequence lookup uses MMseqs2 against the per-strain protein FASTAs from the starting-point table. Both paths return the same per-OG panel as the UCSC click-through.
 
 Per-OG artifacts (alignments, trees, BUSTED JSONs) will live on **TACC storage allocated to BRC** once handed off — the Dropbox / Git locations below are the source for the BRC-side ingest, not the long-term home. The agent fetches them from the TACC URL on demand; no eager rendering of 5,800 panels.
@@ -149,12 +156,12 @@ hgdownload.soe.ucsc.edu/hubs/BRC/pangenome_plasmodium_vivax_v1/
 
 ## Deployment PR sequence (recap from brc-analytics#1279)
 
-| PR | Adds                                                                                                                                                                                                                                                                        | Risk                                |
-| --- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ----------------------------------- |
-| 1  | LinkML schema for `Pangenome` + new slots (graph_og, multiz_alignments, gene_trees, cohort_vcf_*, family_table, merged_annotations). Empty `pangenomes.yml`. `build_pangenomes` step emitting `pangenomes.json` + `assembly-artifacts.json`. GCA↔GCF translation for Sal-I. | Low — purely additive               |
-| 2  | Data ingest of Pv-v1 artifacts (above 6 blocks) to datacache from Dropbox. `publish_ucsc_hub` step generating per-assembly `trackDb.txt` and `hub.txt` / `genomes.txt`. Rsync to `hgdownload.soe.ucsc.edu/hubs/BRC/`.                                                       | Low — text manifests + static files |
-| 3  | `PangenomeView` route + tabs (Graph / References / Selection / Orthologs / Microsynteny / Provenance). MSAViewer.js + phylotree.js modals. HyPhy-Vision deep-link (pending `veg/hyphy-vision#892`).                                                                         | Medium — UI                         |
-| 4  | `POPULATION_GENOMICS` + `SELECTION_ANALYSIS` workflow categories. IWC workflow registration for `pangenome-build-and-project` + `hyphy-selection-screen-from-ortholog-table`.                                                                                               | Medium — Galaxy integration         |
+| PR | Adds                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                 | Risk                                |
+| --- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ----------------------------------- |
+| 1  | LinkML schema for `Pangenome` + new slots (graph_og, multiz_alignments, gene_trees, cohort_vcf_*, family_table, merged_annotations). Empty `pangenomes.yml`. `build_pangenomes` step emitting `pangenomes.json` + `assembly-artifacts.json`. GCA↔GCF translation for Sal-I.                                                                                                                                                                                                                                          | Low — purely additive               |
+| 2  | Data ingest of Pv-v1 artifacts (above 5 blocks) from Dropbox to TACC + datacache. `publish_ucsc_hub` step generating per-assembly `trackDb.txt` and `hub.txt` / `genomes.txt`. Rsync to `hgdownload.soe.ucsc.edu/hubs/BRC/`. Concat + tabix-index the cohort VCFs for hub vcfTabix tracks.                                                                                                                                                                                                                           | Low — text manifests + static files |
+| 3  | **New "Pangenome" tab on the *P. vivax* organism detail page** (`/organisms/5855`). Tab sections: Bundle downloads (Block 1 graph), Member assemblies (links to each UCSC hub from Block 2), Orthogroup browser (Block 3 + 4 — gene name / sequence lookup → per-OG panel with MSAViewer.js + phylotree.js + HyPhy-Vision deep-link), Cohort VCF (Block 5 download + per-assembly hub links). Plus the orthogroup detail route at `/organisms/5855/pangenome/orthogroup/{id}` that the UCSC click-through points at. | Medium — UI                         |
+| 4  | `POPULATION_GENOMICS` + `SELECTION_ANALYSIS` workflow categories. IWC workflow registration for `pangenome-build-and-project` + `hyphy-selection-screen-from-ortholog-table`.                                                                                                                                                                                                                                                                                                                                        | Medium — Galaxy integration         |
 
 Each PR is mergeable independently. Suggested cadence: PR 1 lands first (schema only), then PR 2 in parallel with PR 3, PR 4 last.
 
