@@ -22,6 +22,18 @@ All 8 input genomes are already in the BRC-analytics catalog (assembly accession
 
 Total starting compute: ~24 hours wall on a 32-core + 1 GPU box.
 
+### Inventory artifact — sourmash genome-distance matrix
+
+A small sub-output produced before the 5 analysis blocks proper, surfaced on the **Assemblies** section of the organism page (not a block of its own). Pairwise MinHash distances among the N member assemblies — for v1 we compute it with sourmash (`sourmash sketch dna -p k=31,scaled=1000` + `sourmash compare`); it replaces the mash matrix from the v3 inventory step.
+
+| File                |   Size | Where                                   | BRC data-model slot                               |
+| ------------------- | -----: | --------------------------------------- | ------------------------------------------------- |
+| `sourmash_dist.tsv` | <10 KB | **Git** — `work/00_inventory/sourmash/` | `Pangenome.distance_matrix` (new slot)            |
+| `sourmash_dist.png` |  20 KB | **Git** — `work/00_inventory/sourmash/` | (rendered server-side or in-browser from the TSV) |
+| `dendrogram.nwk`    |  <1 KB | **Git** — `work/00_inventory/sourmash/` | `Pangenome.distance_matrix_dendrogram` (new slot) |
+
+Surface as: a heatmap embedded under the Assemblies table on the organism page, with download links for the TSV and the Newick dendrogram. ~30 sec compute on 8 × 25 Mb assemblies, runs as part of the inventory step in `pipeline/01_inventory.sh`.
+
 ## Five analysis blocks → output files → BRC deployment
 
 ### Block 1 — Pangenome graph

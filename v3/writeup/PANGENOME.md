@@ -4,6 +4,20 @@ The 8-strain *Plasmodium vivax* pangenome graph was built in v2 with PGGB and is
 
 **Related documents.** [MULTIZ.md](MULTIZ.md) covers the parallel KegAlign pairwise alignment + multiz multi-way layer; [ORTHOLOGY.md](ORTHOLOGY.md) covers the consensus ortholog table that consumes graph paths as one of its evidence streams; [MALARIAGEN_VCF_PROJECTION.md](MALARIAGEN_VCF_PROJECTION.md) covers the population-cohort variant projection (the graph-native branch is mentioned there as a non-canonical comparator).
 
+## Sister artifact — sourmash genome-distance matrix
+
+Before the graph build proper, an inventory step computes a pairwise MinHash distance matrix among the 8 input assemblies. In v3 we used mash (`mash sketch -k 21 -s 10000 ...; mash dist ...` → `work/00_inventory/mash/dist.tsv`). For the BRC deployment we substitute sourmash with `k=31, scaled=1000`, plus an average-linkage dendrogram:
+
+```
+sourmash sketch dna -p k=31,scaled=1000 genomes/softmasked/*.fa -o sketches.zip
+sourmash compare sketches.zip -o sourmash_dist.tsv --csv
+sourmash plot sourmash_dist.tsv --output sourmash_dist.png --newick dendrogram.nwk
+```
+
+Output: `work/00_inventory/sourmash/{sourmash_dist.tsv,sourmash_dist.png,dendrogram.nwk}` — total ~30 KB. The matrix surfaces on the organism page's Assemblies section as a heatmap; the dendrogram is used downstream by [MULTIZ.md → How we built them](MULTIZ.md#how-we-built-them) (the multiz progressive-fold step orders pairs by genome distance, closest first).
+
+Wall time: ~30 sec on the 8 × 25 Mb panel.
+
 ## How we built the graph
 
 Input — 8 haploid assemblies, PanSN-renamed (`SAMPLE#1#CONTIG`) and concatenated into one bgzipped multifasta:
