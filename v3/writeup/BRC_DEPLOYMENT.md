@@ -22,17 +22,32 @@ All 8 input genomes are already in the BRC-analytics catalog (assembly accession
 
 Total starting compute: ~24 hours wall on a 32-core + 1 GPU box.
 
-### Inventory artifact — sourmash genome-distance matrix
+### Catalog-wide artifact — sourmash sketch per assembly
 
-A small sub-output produced before the 5 analysis blocks proper, surfaced on the **Assemblies** section of the organism page (not a block of its own). Pairwise MinHash distances among the N member assemblies — for v1 we compute it with sourmash (`sourmash sketch dna -p k=31,scaled=1000` + `sourmash compare`); it replaces the mash matrix from the v3 inventory step.
+This is not a Pangenome-specific output — it's a **catalog-level** input that gets sliced per organism page. Compute one sourmash sketch per assembly in BRC-analytics; the organism page derives its N×N distance matrix on demand from the sketches of its member assemblies.
 
-| File                |   Size | Where                                   | BRC data-model slot                               |
-| ------------------- | -----: | --------------------------------------- | ------------------------------------------------- |
-| `sourmash_dist.tsv` | <10 KB | **Git** — `work/00_inventory/sourmash/` | `Pangenome.distance_matrix` (new slot)            |
-| `sourmash_dist.png` |  20 KB | **Git** — `work/00_inventory/sourmash/` | (rendered server-side or in-browser from the TSV) |
-| `dendrogram.nwk`    |  <1 KB | **Git** — `work/00_inventory/sourmash/` | `Pangenome.distance_matrix_dendrogram` (new slot) |
+| File                                                   | Size each | Where                                             | BRC data-model slot                |
+| ------------------------------------------------------ | --------: | ------------------------------------------------- | ---------------------------------- |
+| `{ACC}.sig.gz` (sourmash MinHash sketch, k=31, s=1000) |    ~50 KB | `catalog/output/assemblies/sketches/{ACC}.sig.gz` | new `Assembly.sourmash_sketch_url` |
 
-Surface as: a heatmap embedded under the Assemblies table on the organism page, with download links for the TSV and the Newick dendrogram. ~30 sec compute on 8 × 25 Mb assemblies, runs as part of the inventory step in `pipeline/01_inventory.sh`.
+Storage: ~50 KB per assembly × ~5,000 catalog assemblies = ~250 MB total. Trivial. Lives next to the existing assembly metadata, computed once when an assembly enters the catalog (incremental — no recompute when others are added; sketches are additive).
+
+Per-organism rendering: when the organism page mounts, the front-end (or a small backend endpoint) pulls the N sketches for the organism's member assemblies, runs `sourmash compare` in process (sub-second for N ≤ 20), and renders the heatmap + dendrogram. Optional pre-compute: cache the result at `catalog/output/organisms/{taxon_id}/sourmash_dist.tsv` during the nightly build; refresh whenever the member-assembly list changes.
+
+Build commands:
+
+```bash
+# Per-assembly (one-time, when an assembly lands in the catalog)
+sourmash sketch dna -p k=31,scaled=1000 {ACC}.fa -o catalog/output/assemblies/sketches/{ACC}.sig.gz
+
+# Per-organism (during nightly catalog build, OR on-demand at request time)
+sourmash compare $(echo "${member_assemblies[@]/#/catalog/output/assemblies/sketches/}" | sed 's/$/.sig.gz/g') \
+  -o catalog/output/organisms/{taxon_id}/sourmash_dist.tsv --csv
+```
+
+Surface as: heatmap card under the Assemblies table on every organism page (not just *P. vivax*) — once the sketches are in the catalog, every organism page gains the matrix for free. Download links for the TSV + optional Newick dendrogram.
+
+Bonus: cross-organism queries (e.g., "show all genomes within distance 0.05 of *P. vivax* PvP01") become a single `sourmash search` against the global sketch directory. Useful for the AI assistant's "find a related genome" tool.
 
 ## Five analysis blocks → output files → BRC deployment
 

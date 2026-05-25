@@ -4,19 +4,23 @@ The 8-strain *Plasmodium vivax* pangenome graph was built in v2 with PGGB and is
 
 **Related documents.** [MULTIZ.md](MULTIZ.md) covers the parallel KegAlign pairwise alignment + multiz multi-way layer; [ORTHOLOGY.md](ORTHOLOGY.md) covers the consensus ortholog table that consumes graph paths as one of its evidence streams; [MALARIAGEN_VCF_PROJECTION.md](MALARIAGEN_VCF_PROJECTION.md) covers the population-cohort variant projection (the graph-native branch is mentioned there as a non-canonical comparator).
 
-## Sister artifact — sourmash genome-distance matrix
+## Sister artifact — sourmash sketches (catalog-wide)
 
-Before the graph build proper, an inventory step computes a pairwise MinHash distance matrix among the 8 input assemblies. In v3 we used mash (`mash sketch -k 21 -s 10000 ...; mash dist ...` → `work/00_inventory/mash/dist.tsv`). For the BRC deployment we substitute sourmash with `k=31, scaled=1000`, plus an average-linkage dendrogram:
+Before the graph build, an inventory step computes a pairwise MinHash distance matrix among the 8 input assemblies. In v3 we used mash (`mash sketch -k 21 -s 10000 ...; mash dist ...` → `work/00_inventory/mash/dist.tsv`). For the BRC deployment we substitute sourmash, and **store per-assembly sketches in the catalog** rather than a per-pangenome distance matrix — any organism page derives its N×N matrix on demand by slicing from the global sketch directory.
 
+```bash
+# Per-assembly (one-time, when the assembly lands in BRC)
+sourmash sketch dna -p k=31,scaled=1000 genomes/softmasked/{ACC}.fa \
+  -o catalog/output/assemblies/sketches/{ACC}.sig.gz
+
+# Per-pangenome / per-organism (cheap; runs on demand or in nightly build)
+sourmash compare sketches/{ACC1}.sig.gz sketches/{ACC2}.sig.gz … \
+  -o sourmash_dist.tsv --csv
 ```
-sourmash sketch dna -p k=31,scaled=1000 genomes/softmasked/*.fa -o sketches.zip
-sourmash compare sketches.zip -o sourmash_dist.tsv --csv
-sourmash plot sourmash_dist.tsv --output sourmash_dist.png --newick dendrogram.nwk
-```
 
-Output: `work/00_inventory/sourmash/{sourmash_dist.tsv,sourmash_dist.png,dendrogram.nwk}` — total ~30 KB. The matrix surfaces on the organism page's Assemblies section as a heatmap; the dendrogram is used downstream by [MULTIZ.md → How we built them](MULTIZ.md#how-we-built-them) (the multiz progressive-fold step orders pairs by genome distance, closest first).
+Each sketch is ~50 KB; the comparison is sub-second. The dendrogram is used downstream by [MULTIZ.md → How we built them](MULTIZ.md#how-we-built-them) (the multiz progressive-fold step orders pairs by genome distance, closest first).
 
-Wall time: ~30 sec on the 8 × 25 Mb panel.
+Wall time: ~30 sec per assembly for the one-time sketch; sub-second for any N≤20 comparison.
 
 ## How we built the graph
 

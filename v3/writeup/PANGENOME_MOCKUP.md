@@ -32,7 +32,8 @@ After PRs #1244, #1273, #1274, #1277, #1278 the organism detail page renders thr
 ║  └──────────────────────────────────────┴───────────────┴─────────┴───────┘ ║
 ║                                                                              ║
 ║  Genome-distance matrix (sourmash)                                           ║  ← NEW
-║  ⓘ  Pairwise MinHash distances among the 8 assemblies (k=31, scaled=1000).  ║   sub-card
+║  ⓘ  Computed on demand from the BRC-wide sourmash sketch catalog            ║   sub-card
+║      (k=31, scaled=1000). Every organism page gets this for free.           ║
 ║  ┌────────────────────────────────────────────────────────────────────────┐ ║
 ║  │           PvP01 Sal-I PvW1  PAM  PvSY56 PvT01 PvC01 MHC087            │ ║
 ║  │  PvP01    ▓▓▓▓▓ ░░░   ░░    ░░    ░░     ░░    ░░    ░░               │ ║
