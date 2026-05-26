@@ -70,18 +70,22 @@ Surface as: 3 download links in the "Pangenome" tab of the *P. vivax* organism p
 
 ### Block 2 — Pairwise chains + multi-way MAFs
 
-**v1 plan**: surface the chains + multi-way alignment on every assembly's UCSC browser page. Each assembly's hub gets one composite (`brc_pangenome_align`) with the assembly-as-hinge bigMaf as the parent + 7 chain sub-tracks (one per other strain).
+**v1 plan**: surface the chains + multi-way alignment on every assembly's UCSC browser page. bigMaf lives as a standalone track at the top of each `trackDb.txt`; bigChain tracks (one per other strain) live under a single `brc_pangenome_chains` composite. They are not in the same composite — UCSC requires composite members to share a `type`.
 
 Doc: [MULTIZ.md](MULTIZ.md)
 
-| File                             | Count | Size   | Where                                  | BRC data-model slot                        |
-| -------------------------------- | ----: | ------ | -------------------------------------- | ------------------------------------------ |
-| `{src}.{tgt}.cleaned.chain.gz`   |    56 | 60 MB  | **Git** — `work/01_chains/`            | `Pangenome.chain_files[]`                  |
-| `{src}.{tgt}.rbest.chain.gz`     |    28 | 15 MB  | **Git** — `work/01_chains/`            | `Pangenome.chain_files[]`                  |
-| `{hinge}.multiz.maf.gz`          |     8 | 24 GB  | **Dropbox** — `Pv4_v3/multiz/{hinge}/` | `Pangenome.multiz_alignments[]` (new slot) |
-| `{hinge}.multiz.maf.bb` (bigMaf) |     8 | 4.6 GB | **Dropbox** — `Pv4_v3/ucsc_hub/{ACC}/` | `SelectionTrack` of type `bigMaf`          |
+| File                                         | Count | Size   | Where                                  | BRC data-model slot                        |
+| -------------------------------------------- | ----: | ------ | -------------------------------------- | ------------------------------------------ |
+| `{src}.{tgt}.cleaned.chain.gz` (raw chain)   |    56 | 60 MB  | **Git** — `work/01_chains/`            | `Pangenome.chain_files[]` (download)       |
+| `{src}.{tgt}.rbest.chain.gz` (raw chain)     |    28 | 15 MB  | **Git** — `work/01_chains/`            | `Pangenome.chain_files[]` (download)       |
+| `{ACC}_to_{ACC_T}.bigChain.bb` (bigBed 6+6)  |    56 | 9 MB   | **Dropbox** — `Pv4_v3/ucsc_hub/{ACC}/chains/` | `SelectionTrack` of type `bigChain` |
+| `{ACC}_to_{ACC_T}.bigChain.link.bb` (bigBed 4+1) | 56 | 61 MB | **Dropbox** — `Pv4_v3/ucsc_hub/{ACC}/chains/` | bigChain companion (auto-paired)    |
+| `{hinge}.multiz.maf.gz`                      |     8 | 24 GB  | **Dropbox** — `Pv4_v3/multiz/{hinge}/` | `Pangenome.multiz_alignments[]` (new slot) |
+| `{hinge}.multiz.maf.bb` (bigMaf)             |     8 | 4.6 GB | **Dropbox** — `Pv4_v3/ucsc_hub/{ACC}/` | `SelectionTrack` of type `bigMaf`          |
 
-Surface as: UCSC composite `brc_pangenome_align` on every assembly's hub (8 hubs total). Default visibility: bigMaf `pack`, chains `hide` (user can expand). Each assembly's hub is reachable from the BRC assembly page via the existing `ucscBrowserUrl` mechanism in `catalog/build/ts/build-assemblies.ts`.
+Surface as: standalone `{name}_multiz` (bigMaf) + composite `brc_pangenome_chains` (7 bigChain sub-tracks) per hub × 8 hubs. Default visibility: multiz `pack`, chains `hide` (user can expand). Each assembly's hub is reachable from the BRC assembly page via the existing `ucscBrowserUrl` mechanism in `catalog/build/ts/build-assemblies.ts`.
+
+**bigChain build** (from `.chain.gz`): a one-shot pass that emits a 12-col bed for `bigChain.as` and a 5-col link bed for `bigLink.as`, then `bedToBigBed` against the target-assembly `.sizes`. Script: `tools/chain_to_bigChain.py` + the bigChain.as/bigLink.as schemas in the same dir. Run-time: ~10 s per chain pair, ~5 min for all 56.
 
 ### Block 3 — Cross-strain annotations + ortholog table
 
@@ -164,25 +168,31 @@ Track inventory auto-populated from `https://datacache.galaxyproject.org/brc/dat
 hgdownload.soe.ucsc.edu/hubs/BRC/pangenome_plasmodium_vivax_v1/
 ├── hub.txt
 ├── genomes.txt
-└── {ACC}/                                  # one dir per assembly (8 total)
-    ├── trackDb.txt                         # 4 composites: align / annot / select / cohort
-    ├── {hinge}.multiz.maf.bb               # Block 2 — bigMaf
-    ├── {hinge}.multiz.maf.bb.bai           # (optional; we skipped in v1)
-    ├── chains/{ACC}_to_{ACC_T}.chain.gz    # Block 2 — 7 per assembly
-    ├── annot_from_{anchor}.bb              # Block 3 — 4 per assembly
-    ├── selection_{strict,relaxed}.bb       # Block 4 — PvP01 only
-    ├── orthogroup_membership.bb            # Block 4 — PvP01 only
-    └── Pv4_cohort_on_{ACC}.vcf.gz + .tbi   # Block 5 — 1 cohort VCF per assembly
+└── {ACC}/                                              # one dir per assembly (8 total)
+    ├── trackDb.txt                                     # 1 standalone + 2 composites (+ select on PvP01)
+    ├── {ACC}.2bit                                      # symlinked from projection/A2_kegalign/2bit/
+    ├── groups.txt
+    ├── {hinge}.multiz.maf.bb                           # standalone bigMaf
+    ├── chains/{ACC}_to_{ACC_T}.bigChain.bb             # bigChain composite — 7 per assembly
+    ├── chains/{ACC}_to_{ACC_T}.bigChain.link.bb        # bigLink companion — 7 per assembly
+    ├── chains/{ACC}_to_{ACC_T}.chain.gz                # raw chain (download-only; not a track)
+    ├── annot_from_{anchor}.bb                          # bigBed 12 composite — 4 per assembly
+    ├── selection_{strict,relaxed}.bb                   # PvP01 only
+    ├── orthogroup_membership.bb                        # PvP01 only
+    └── Pv4_cohort_on_{ACC}.vcf.gz + .tbi               # vcfTabix — 1 per assembly
 ```
 
-4 hub composites per assembly:
+Track structure per assembly — one standalone track + 2 composites (3 on PvP01):
 
-| Composite name         | Sub-tracks                                             | Visibility default           |
-| ---------------------- | ------------------------------------------------------ | ---------------------------- |
-| `brc_pangenome_align`  | 1 bigMaf + 7 chains                                    | bigMaf `pack`, chains `hide` |
-| `brc_pangenome_annot`  | 4 BigBeds (one per anchor's projection)                | 1 `pack`, 3 `hide`           |
-| `brc_pangenome_select` | 2 selection BigBeds + 1 orthogroup BigBed (PvP01 only) | `pack`                       |
-| `brc_pangenome_cohort` | 1 `vcfTabix` track (MalariaGEN 1,895 samples)          | `dense`                      |
+| Track name              | Type                | Sub-tracks                                             | Visibility default        |
+| ----------------------- | ------------------- | ------------------------------------------------------ | ------------------------- |
+| `{name}_multiz`         | bigMaf (standalone) | 1 — 8-way multi-z                                      | `pack`                    |
+| `brc_pangenome_chains`  | bigChain composite  | 7 bigChain (one per other strain)                      | `hide`                    |
+| `brc_pangenome_annot`   | bigBed 12 composite | 4 (one per anchor's projection)                        | 1 `pack`, 3 `dense`/`off` |
+| `brc_pangenome_select`  | bigBed 12 composite | 2 selection BigBeds + 1 orthogroup BigBed (PvP01 only) | `pack`                    |
+| `Pv4_cohort_on_{ACC}`   | vcfTabix            | MalariaGEN 1,895 samples (1 per hub)                   | `dense`                   |
+
+**Why bigMaf is not in a composite with the chains:** UCSC composite tracks require all members to share a `type`. bigMaf and bigChain are different types, so the multi-z lives in its own standalone track at the top of each `trackDb.txt`.
 
 ## Deployment PR sequence (recap from brc-analytics#1279)
 

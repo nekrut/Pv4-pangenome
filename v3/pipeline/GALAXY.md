@@ -227,9 +227,12 @@ Mirrors LOCAL.md section 12. As a Galaxy workflow, this is a separate `pangenome
 | `bedToBigBed` | ✅ exists | iuc |
 | `mafIndex` | ⚠️ wrap | Likely missing |
 | `gff3ToGenePred`, `genePredToBed` | ✅ exists (part of UCSC tools) | iuc |
+| `chain_to_bigChain` | ⚠️ wrap | Custom Python tool: parses chain → bigChain.bed (6+6) + bigLink.bed (4+1) for bedToBigBed. UCSC track hubs need `type bigChain`, not text `.chain.gz`. |
+| `faToTwoBit` | ✅ exists | iuc — needed for the `.2bit` files referenced from `genomes.txt`. |
 | `build_selection_bigbed` | ⚠️ wrap | Custom Python tool: BUSTED JSONs + ortholog table + BED12 → BED12+5 |
 | `build_orthogroup_bigbed` | ⚠️ wrap | Similar custom Python tool |
-| `build_trackdb` | ⚠️ wrap | Custom Python tool: emits per-assembly `trackDb.txt` stanzas |
+| `build_trackdb` | ⚠️ wrap | Custom Python tool: emits per-assembly `trackDb.txt`. Output layout: 1 standalone bigMaf + bigChain composite + bigBed12 composite (+ selection composite on reference strain). bigMaf and bigChain cannot share a composite. |
+| `build_genomes_txt` | ⚠️ wrap | Custom Python tool: emits 9-field `genomes.txt` entries (genome, trackDb, groups, description, twoBitPath, organism, defaultPos, scientificName, htmlPath). `defaultPos` must be a real `chrN:start-end` per assembly. |
 | `hubCheck` | ⚠️ wrap | Validates hub structure before publishing |
 
 ### Workflow structure
@@ -242,6 +245,20 @@ steps:
   - id: maf_index
     tool_id: mafIndex
     map_over: multiz_alignments
+
+  - id: fa_to_2bit
+    tool_id: faToTwoBit
+    map_over: assemblies
+
+  - id: chain_to_bigchain
+    tool_id: chain_to_bigChain        # emits .bigChain.bed + .bigLink.bed
+    map_over: chain_files             # 56 pairs (8 × 7)
+  - id: bigchain_bed_to_bb
+    tool_id: bedToBigBed              # -type=bed6+6 -as=bigChain.as
+    map_over: chain_to_bigchain/bigChain_bed
+  - id: biglink_bed_to_bb
+    tool_id: bedToBigBed              # -type=bed4+1 -as=bigLink.as
+    map_over: chain_to_bigchain/bigLink_bed
 
   - id: gff_to_bed12
     tool_id: gff3ToGenePred + genePredToBed (subworkflow)
@@ -258,8 +275,11 @@ steps:
     tool_id: build_orthogroup_bigbed
 
   - id: trackdb_per_assembly
-    tool_id: build_trackdb
+    tool_id: build_trackdb            # 1 standalone bigMaf + bigChain composite + bigBed12 composite
     map_over: assemblies
+
+  - id: genomes_txt
+    tool_id: build_genomes_txt        # 9-field per-assembly record + defaultPos
 
   - id: hubcheck
     tool_id: hubCheck

@@ -880,6 +880,8 @@ AutoSql schemas. Save these to `$WORK/ucsc_hub/`:
 
 `bigMaf.as` — fetch once from `https://genome.ucsc.edu/goldenPath/help/examples/bigMaf.as`.
 
+`bigChain.as` + `bigLink.as` — canonical UCSC schemas for the bigChain track type. Save both verbatim from `tools/bigChain.as` and `tools/bigLink.as` (the chain track in trackDb is `type bigChain {TGT_ASSEMBLY}` and needs both `.bb` files: data via `bigDataUrl` and links via `linkDataUrl`).
+
 `bigSelectionPlus5.as`:
 ```
 table bigSelectionPlus5
@@ -1023,6 +1025,8 @@ Color by `n_strains`: 1 → dark red, 4 → orange, 8 → green.
 
 ### K.5 Hub manifests (`hub.txt`, `genomes.txt`, per-assembly `trackDb.txt`)
 
+`genomes.txt` for an assembly hub needs the full 9-field record per assembly (`twoBitPath`, `defaultPos`, `groups`, `description`, `organism`, `scientificName`, `htmlPath`). Empty `defaultPos` or missing `.2bit` makes the hub fail to load.
+
 ```bash
 cat > $WORK/ucsc_hub/hub.txt <<EOF
 hub BRC_Pangenome_${SPECIES}_v1
@@ -1036,15 +1040,30 @@ EOF
 > $WORK/ucsc_hub/genomes.txt
 for S in "${STRAINS[@]}"; do
   ACC=$(strain_to_accession $S)
+  DEFAULT_POS=$(default_pos_for $ACC)   # e.g. dhps locus for P. vivax: LT635625.2:1264700-1277700
   cat >> $WORK/ucsc_hub/genomes.txt <<EOF
 genome $ACC
 trackDb $ACC/trackDb.txt
+groups $ACC/groups.txt
+description ${SPECIES} ${S} (${ACC})
+twoBitPath $ACC/${ACC}.2bit
+organism ${SPECIES// /_}
+defaultPos ${DEFAULT_POS}
+scientificName ${SPECIES}
+htmlPath $ACC/description.html
 
 EOF
 done
+
+# 2bit links + per-assembly groups.txt
+for S in "${STRAINS[@]}"; do
+  ACC=$(strain_to_accession $S)
+  ln -sf $WORK/projection/A2_kegalign/2bit/${ACC}.2bit $WORK/ucsc_hub/$ACC/${ACC}.2bit
+  cp $WORK/pipeline/scripts/groups.txt $WORK/ucsc_hub/$ACC/groups.txt
+done
 ```
 
-For each `${ACC}/trackDb.txt`, emit three composites (per LOCAL.md issue update):
+For each `${ACC}/trackDb.txt`, emit one standalone bigMaf + 2 composites (3 on the reference strain). **bigMaf and bigChain cannot share a composite** — UCSC composites require members of one `type`.
 
 ```bash
 for S in "${STRAINS[@]}"; do
@@ -1059,30 +1078,66 @@ for S in "${STRAINS[@]}"; do
 done
 ```
 
-`build_trackdb.py` generates 3 composite tracks per assembly: align (multiz + chains), annot (genes per anchor), select (BUSTED + orthogroup membership; only on `$REF_STRAIN`'s assembly for v1).
+`build_trackdb.py` per-assembly output (in this order):
+- `track {name}_multiz` — standalone, `type bigMaf`
+- `track brc_pangenome_chains` — composite, `type bigChain` with 7 sub-tracks (`type bigChain {TGT_ACC}` each, `bigDataUrl` + `linkDataUrl` to the bigChain.bb + bigChain.link.bb pair)
+- `track brc_pangenome_annot` — composite, `type bigBed 12` with 4 sub-tracks (one per anchor's projection)
+- `track brc_pangenome_select` — reference strain only, `type bigBed 12`, 3 sub-tracks (selection_strict, selection_relaxed, orthogroup_membership)
 
 - Validation: `cmd hubCheck -level=warn http://localhost/.../hub.txt` (HubCheck is in the kentUtils image)
 
-### K.6 Chain files staging
+### K.6 Chain files → bigChain conversion
 
-Chains stay in their existing format (`work/01_chains/{src}.{tgt}.cleaned.chain.gz`); just symlink into the hub layout:
+UCSC track hubs need indexed binary `bigChain` files, not gzipped chain text. Convert each `.chain.gz` to a `.bigChain.bb` + `.bigChain.link.bb` pair using the schemas in `tools/bigChain.as` and `tools/bigLink.as`.
 
 ```bash
+# Schemas (write once)
+cp $WORK/pipeline/scripts/bigChain.as $WORK/ucsc_hub/
+cp $WORK/pipeline/scripts/bigLink.as  $WORK/ucsc_hub/
+
+# Per-pair conversion (56 pairs for an 8-strain panel)
 for S in "${STRAINS[@]}"; do
   ACC=$(strain_to_accession $S)
   mkdir -p $WORK/ucsc_hub/$ACC/chains
   for T in "${STRAINS[@]}"; do
     [[ $T == $S ]] && continue
     ACC_T=$(strain_to_accession $T)
-    SRC=$WORK/work/01_chains/${S}.${T}.cleaned.chain.gz
-    DST=$WORK/ucsc_hub/$ACC/chains/${ACC}_to_${ACC_T}.chain.gz
-    [[ -L $DST || -s $DST ]] && continue
-    ln -sf $SRC $DST
+    IN=$WORK/work/01_chains/${S}.${T}.cleaned.chain.gz
+    OUT_BB=$WORK/ucsc_hub/$ACC/chains/${ACC}_to_${ACC_T}.bigChain.bb
+    OUT_LK=$WORK/ucsc_hub/$ACC/chains/${ACC}_to_${ACC_T}.bigChain.link.bb
+    SIZES=$WORK/work/01_chains/${ACC}.sizes
+    [[ -s $OUT_BB && -s $OUT_LK ]] && continue
+    # 1) parse chain → bigChain.bed + bigLink.bed (one pass each)
+    cmd python3 $WORK/pipeline/scripts/chain_to_bigChain.py \
+      $IN $WORK/tmp/${ACC}_to_${ACC_T}.bigChain.bed.raw \
+          $WORK/tmp/${ACC}_to_${ACC_T}.bigLink.bed.raw
+    sort -k1,1 -k2,2n $WORK/tmp/${ACC}_to_${ACC_T}.bigChain.bed.raw \
+         > $WORK/tmp/${ACC}_to_${ACC_T}.bigChain.bed
+    sort -k1,1 -k2,2n $WORK/tmp/${ACC}_to_${ACC_T}.bigLink.bed.raw  \
+         > $WORK/tmp/${ACC}_to_${ACC_T}.bigLink.bed
+    # 2) bedToBigBed for each
+    cmd bedToBigBed -type=bed6+6 -as=$WORK/ucsc_hub/bigChain.as -tab \
+         $WORK/tmp/${ACC}_to_${ACC_T}.bigChain.bed $SIZES $OUT_BB
+    cmd bedToBigBed -type=bed4+1 -as=$WORK/ucsc_hub/bigLink.as -tab \
+         $WORK/tmp/${ACC}_to_${ACC_T}.bigLink.bed  $SIZES $OUT_LK
+  done
+done
+
+# Keep raw .chain.gz as download-only artifacts (not a track)
+for S in "${STRAINS[@]}"; do
+  ACC=$(strain_to_accession $S)
+  for T in "${STRAINS[@]}"; do
+    [[ $T == $S ]] && continue
+    ACC_T=$(strain_to_accession $T)
+    ln -sf $WORK/work/01_chains/${S}.${T}.cleaned.chain.gz \
+           $WORK/ucsc_hub/$ACC/chains/${ACC}_to_${ACC_T}.chain.gz
   done
 done
 ```
 
-UCSC's chain track reads `.chain` directly. Hub URL points at the symlinked `.chain.gz`.
+- Run-time: ~5 s per pair, ~5 min total for 56 pairs
+- Output: 56 × `.bigChain.bb` (~9 MB total) + 56 × `.bigChain.link.bb` (~60 MB)
+- The bigChain track in `trackDb.txt` references both: `bigDataUrl` → `.bigChain.bb`, `linkDataUrl` → `.bigChain.link.bb`
 
 ### K.7 hubCheck + push to datacache
 
@@ -1104,8 +1159,10 @@ rsync -avz $WORK/ucsc_hub/ user@hgdownload.soe.ucsc.edu:/mirror/hubs/BRC/pangeno
 | K.2 BigBed12 × 40 (anchor×target) | ~5 min | ~150 MB |
 | K.3 selection BigBed × 2 sets | ~3 min | ~10 MB |
 | K.4 orthogroup BigBed | ~1 min | ~5 MB |
-| K.5–K.7 manifests + chain symlinks + push | ~5 min | manifest text + symlinks |
-| **Total Phase K** | **~95 min** | **~16.2 GB** |
+| K.5 manifests + 2bit links | ~30 s | text + symlinks |
+| K.6 chain → bigChain × 56 | ~5 min | ~70 MB |
+| K.7 hubCheck + push | ~3 min | — |
+| **Total Phase K** | **~95 min** | **~16.3 GB** |
 
 ### Idempotency
 

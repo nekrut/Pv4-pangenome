@@ -1,93 +1,98 @@
-track brc_pangenome_align
-compositeTrack on
-shortLabel Pangenome align
-longLabel  BRC pangenome alignments (multiz + pairwise chains)
-type bed
+track PvP01_multiz
+shortLabel PvP01 multiz
+longLabel  PvP01-hinge 8-way multi-z alignment
+type bigMaf
+bigDataUrl PvP01.multiz.maf.bb
 group brc_pangenome
-visibility full
+visibility pack
+speciesOrder PvP01 Sal-I PvW1 PAM PvSY56 PvT01 PvC01 MHC087
 
-    track PvP01_multiz
-    parent brc_pangenome_align on
-    shortLabel PvP01 multiz
-    longLabel  PvP01-hinge 8-way multiz
-    type bigMaf
-    bigDataUrl PvP01.multiz.maf.bb
-    summary PvP01.multiz.maf.bb.bai
-    visibility pack
-    speciesOrder PvP01 Sal-I PvW1 PAM PvSY56 PvT01 PvC01 MHC087
+track brc_pangenome_chains
+compositeTrack on
+shortLabel Pangenome chains
+longLabel  Pairwise chain alignments (KegAlign+axtChain+chainNet, 7 targets)
+type bigChain
+group brc_pangenome
+visibility hide
 
     track chain_to_GCA_000002415.2
-    parent brc_pangenome_align off
-    shortLabel chain → Sal-I
-    longLabel  Chain from PvP01 to Sal-I
-    type chain GCA_000002415.2
-    bigDataUrl chains/GCA_900093555.2_to_GCA_000002415.2.chain.gz
+    parent brc_pangenome_chains off
+    shortLabel chain to Sal-I
+    longLabel  Chain alignment from PvP01 to Sal-I
+    type bigChain GCA_000002415.2
+    bigDataUrl chains/GCA_900093555.2_to_GCA_000002415.2.bigChain.bb
+    linkDataUrl chains/GCA_900093555.2_to_GCA_000002415.2.bigChain.link.bb
     visibility hide
 
     track chain_to_GCA_914969965.1
-    parent brc_pangenome_align off
-    shortLabel chain → PvW1
-    longLabel  Chain from PvP01 to PvW1
-    type chain GCA_914969965.1
-    bigDataUrl chains/GCA_900093555.2_to_GCA_914969965.1.chain.gz
+    parent brc_pangenome_chains off
+    shortLabel chain to PvW1
+    longLabel  Chain alignment from PvP01 to PvW1
+    type bigChain GCA_914969965.1
+    bigDataUrl chains/GCA_900093555.2_to_GCA_914969965.1.bigChain.bb
+    linkDataUrl chains/GCA_900093555.2_to_GCA_914969965.1.bigChain.link.bb
     visibility hide
 
     track chain_to_GCA_949152365.1
-    parent brc_pangenome_align off
-    shortLabel chain → PAM
-    longLabel  Chain from PvP01 to PAM
-    type chain GCA_949152365.1
-    bigDataUrl chains/GCA_900093555.2_to_GCA_949152365.1.chain.gz
+    parent brc_pangenome_chains off
+    shortLabel chain to PAM
+    longLabel  Chain alignment from PvP01 to PAM
+    type bigChain GCA_949152365.1
+    bigDataUrl chains/GCA_900093555.2_to_GCA_949152365.1.bigChain.bb
+    linkDataUrl chains/GCA_900093555.2_to_GCA_949152365.1.bigChain.link.bb
     visibility hide
 
     track chain_to_GCA_003402215.1
-    parent brc_pangenome_align off
-    shortLabel chain → PvSY56
-    longLabel  Chain from PvP01 to PvSY56
-    type chain GCA_003402215.1
-    bigDataUrl chains/GCA_900093555.2_to_GCA_003402215.1.chain.gz
+    parent brc_pangenome_chains off
+    shortLabel chain to PvSY56
+    longLabel  Chain alignment from PvP01 to PvSY56
+    type bigChain GCA_003402215.1
+    bigDataUrl chains/GCA_900093555.2_to_GCA_003402215.1.bigChain.bb
+    linkDataUrl chains/GCA_900093555.2_to_GCA_003402215.1.bigChain.link.bb
     visibility hide
 
     track chain_to_GCA_900093545.1
-    parent brc_pangenome_align off
-    shortLabel chain → PvT01
-    longLabel  Chain from PvP01 to PvT01
-    type chain GCA_900093545.1
-    bigDataUrl chains/GCA_900093555.2_to_GCA_900093545.1.chain.gz
+    parent brc_pangenome_chains off
+    shortLabel chain to PvT01
+    longLabel  Chain alignment from PvP01 to PvT01
+    type bigChain GCA_900093545.1
+    bigDataUrl chains/GCA_900093555.2_to_GCA_900093545.1.bigChain.bb
+    linkDataUrl chains/GCA_900093555.2_to_GCA_900093545.1.bigChain.link.bb
     visibility hide
 
     track chain_to_GCA_900093535.1
-    parent brc_pangenome_align off
-    shortLabel chain → PvC01
-    longLabel  Chain from PvP01 to PvC01
-    type chain GCA_900093535.1
-    bigDataUrl chains/GCA_900093555.2_to_GCA_900093535.1.chain.gz
+    parent brc_pangenome_chains off
+    shortLabel chain to PvC01
+    longLabel  Chain alignment from PvP01 to PvC01
+    type bigChain GCA_900093535.1
+    bigDataUrl chains/GCA_900093555.2_to_GCA_900093535.1.bigChain.bb
+    linkDataUrl chains/GCA_900093555.2_to_GCA_900093535.1.bigChain.link.bb
     visibility hide
 
     track chain_to_GCA_040114635.1
-    parent brc_pangenome_align off
-    shortLabel chain → MHC087
-    longLabel  Chain from PvP01 to MHC087
-    type chain GCA_040114635.1
-    bigDataUrl chains/GCA_900093555.2_to_GCA_040114635.1.chain.gz
+    parent brc_pangenome_chains off
+    shortLabel chain to MHC087
+    longLabel  Chain alignment from PvP01 to MHC087
+    type bigChain GCA_040114635.1
+    bigDataUrl chains/GCA_900093555.2_to_GCA_040114635.1.bigChain.bb
+    linkDataUrl chains/GCA_900093555.2_to_GCA_040114635.1.bigChain.link.bb
     visibility hide
-
 
 track brc_pangenome_annot
 compositeTrack on
 shortLabel Pangenome annot
-longLabel  BRC pangenome annotations (Liftoff+TOGA2 projections from anchor strains)
+longLabel  Gene projections (Liftoff + TOGA2) from 4 anchor strains
 type bigBed 12
 group brc_pangenome
 visibility pack
 
     track annot_from_PvP01
-    parent brc_pangenome_annot off
-    shortLabel annot from PvP01
-    longLabel  Genes projected from PvP01 via Liftoff+TOGA2
+    parent brc_pangenome_annot on
+    shortLabel PvP01 self-annot
+    longLabel  PlasmoDB-68 PvP01 gene annotation (self)
     type bigBed 12
     bigDataUrl annot_from_PvP01.bb
-    visibility dense
+    visibility pack
 
     track annot_from_PvW1
     parent brc_pangenome_annot off
@@ -113,19 +118,18 @@ visibility pack
     bigDataUrl annot_from_PvSY56.bb
     visibility dense
 
-
 track brc_pangenome_select
 compositeTrack on
-shortLabel Pangenome selection
-longLabel  BRC pangenome selection (HyPhy BUSTED, orthogroup membership)
-type bigBed
+shortLabel Selection + orthos
+longLabel  HyPhy BUSTED q-values and orthogroup membership
+type bigBed 12
 group brc_pangenome
 visibility full
 
     track selection_strict
     parent brc_pangenome_select on
     shortLabel BUSTED strict
-    longLabel  HyPhy BUSTED q-values, strict core orthogroups (min_intact=7)
+    longLabel  HyPhy BUSTED q-values, strict core orthogroups (1,584; min_intact=7)
     type bigBed 12 +
     bigDataUrl selection_strict.bb
     itemRgb on
@@ -134,7 +138,7 @@ visibility full
     track selection_relaxed
     parent brc_pangenome_select off
     shortLabel BUSTED relaxed
-    longLabel  HyPhy BUSTED q-values, relaxed core orthogroups (min_intact=5)
+    longLabel  HyPhy BUSTED q-values, relaxed core orthogroups (4,215; min_intact=5)
     type bigBed 12 +
     bigDataUrl selection_relaxed.bb
     itemRgb on
@@ -143,9 +147,8 @@ visibility full
     track orthogroup_membership
     parent brc_pangenome_select on
     shortLabel orthogroup
-    longLabel  Phase E orthogroup membership (color by n strains)
+    longLabel  Orthogroup membership (color by n strains, 1-8)
     type bigBed 12
     bigDataUrl orthogroup_membership.bb
     itemRgb on
     visibility dense
-
