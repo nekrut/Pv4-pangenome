@@ -6,7 +6,7 @@ The 8-strain *Plasmodium vivax* pangenome graph was built in v2 with PGGB and is
 
 ## Sister artifact — sourmash sketches (catalog-wide)
 
-Before the graph build, an inventory step computes a pairwise MinHash distance matrix among the 8 input assemblies. In v3 we used mash (`mash sketch -k 21 -s 10000 ...; mash dist ...` → `work/00_inventory/mash/dist.tsv`). For the BRC deployment we substitute sourmash, and **store per-assembly sketches in the catalog** rather than a per-pangenome distance matrix — any organism page derives its N×N matrix on demand by slicing from the global sketch directory.
+Before the graph build, an inventory step computes a pairwise MinHash similarity matrix among the 8 input assemblies (Phase A). We use sourmash throughout — both in the local pipeline (`sourmash sketch dna -p k=31,scaled=1000`; `sourmash compare` → `work/00_inventory/sourmash/compare.csv`) and in the BRC deployment. The point of the single tool is that the per-assembly sketches are the **shared artifact**: the pipeline writes one `.sig.gz` per strain, the catalog **stores those same sketches** rather than a per-pangenome matrix, and any organism page derives its N×N matrix on demand by slicing the global sketch directory.
 
 ```bash
 # Per-assembly (one-time, when the assembly lands in BRC)

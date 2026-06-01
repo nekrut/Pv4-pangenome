@@ -36,7 +36,7 @@ retry_once() {
 }
 ```
 
-**Convention used in this recipe**: code blocks show bare tool names (`mash sketch ...`, `bcftools view ...`). The implementer MUST wrap each invocation via the `cmd` alias defined above: `cmd mash sketch ...`, `cmd bcftools view ...`. This keeps the recipe readable while enforcing that every tool runs in its pinned container. The Python helper scripts in `pipeline/scripts/` (e.g. `phase_c2_triage.py`, `build_msa.py`) run via `cmd python3 pipeline/scripts/<script>.py ...` and inherit pysam/pandas/numpy from the bcftools image.
+**Convention used in this recipe**: code blocks show bare tool names (`sourmash sketch ...`, `bcftools view ...`). The implementer MUST wrap each invocation via the `cmd` alias defined above: `cmd sourmash sketch ...`, `cmd bcftools view ...`. This keeps the recipe readable while enforcing that every tool runs in its pinned container. The Python helper scripts in `pipeline/scripts/` (e.g. `phase_c2_triage.py`, `build_msa.py`) run via `cmd python3 pipeline/scripts/<script>.py ...` and inherit pysam/pandas/numpy from the bcftools image.
 
 ## TOOL_INVENTORY (container-first)
 
@@ -51,7 +51,7 @@ The pipeline ships a wrapper `pipeline/lib/run_in_container.sh` that picks the r
 
 | Phase | Tool | Container image | Notes |
 |---|---|---|---|
-| A | mash | `quay.io/biocontainers/mash:2.3--he348c14_4` | |
+| A | sourmash | `quay.io/biocontainers/sourmash:4.8.11--hdfd78af_0` | FracMinHash sketches; same `.sig.gz` artifacts the BRC catalog ingests |
 | A | busco | `ezlabgva/busco:v5.7.1_cv1` | docker hub, lineage downloaded once into `$WORK/work/00_inventory/busco/busco_downloads/` |
 | B | longdust | `quay.io/biocontainers/longdust:0.1.0--h5b5514e_0` | bioconda — newly available; if missing on toolshed, fall back to lh3/longdust source build |
 | B | sdust | `quay.io/biocontainers/seqkit-sdust:2.8.0--h9ee0642_0` | seqkit's sdust binding; or use `minimap2` image which bundles sdust |
@@ -84,7 +84,7 @@ set -euo pipefail
 # Usage: run_in_container.sh <tool_name> <args...>
 TOOL=$1; shift
 case $TOOL in
-  mash)            IMG="quay.io/biocontainers/mash:2.3--he348c14_4" ;;
+  sourmash)        IMG="quay.io/biocontainers/sourmash:4.8.11--hdfd78af_0" ;;
   busco)           IMG="ezlabgva/busco:v5.7.1_cv1" ;;
   longdust|sdust)  IMG="quay.io/biocontainers/longdust:0.1.0--h5b5514e_0" ;;
   bedtools)        IMG="quay.io/biocontainers/bedtools:2.31.1--hf5e1c6e_2" ;;
@@ -158,23 +158,31 @@ Validation step (before any phase): the orchestrator MUST call `bash pipeline/00
 
 ---
 
-## 1. Phase A — Inventory (mash + BUSCO)
+## 1. Phase A — Inventory (sourmash + BUSCO)
 
-### 1.1 Mash N×N distance matrix
+### 1.1 sourmash N×N similarity matrix
 
 ```
-mash sketch -p $N_CORES -k 21 -s 10000 -o $WORK/work/00_inventory/mash/sketch \
-  ${STRAINS[@]/#/$WORK/inputs/assemblies/}.fa
-mash dist -t $WORK/work/00_inventory/mash/sketch.msh $WORK/work/00_inventory/mash/sketch.msh \
-  > $WORK/work/00_inventory/mash/dist.tsv
+mkdir -p $WORK/work/00_inventory/sourmash/sketches
+for S in "${STRAINS[@]}"; do
+  out=$WORK/work/00_inventory/sourmash/sketches/${S}.sig.gz
+  [[ -s $out ]] && continue
+  sourmash sketch dna -p k=31,scaled=1000 --name $S \
+    -o $out $WORK/inputs/assemblies/${S}.fa
+done
+sourmash compare $WORK/work/00_inventory/sourmash/sketches/*.sig.gz \
+  --csv $WORK/work/00_inventory/sourmash/compare.csv \
+  -o   $WORK/work/00_inventory/sourmash/compare.npy
 ```
 
-- ⭐ Output: `work/00_inventory/mash/dist.tsv` (N+1 rows, tab-separated, first row is column names with strain assemblies, first column is row names)
-- Guard: `[[ -s $WORK/work/00_inventory/mash/dist.tsv ]] || { mash sketch ...; mash dist ...; }`
-- Validation: `awk -v n=${#STRAINS[@]} 'NR==1 && NF==n+1 {ok=1} END {exit !ok}' $WORK/work/00_inventory/mash/dist.tsv`
+- ⭐ Output: `work/00_inventory/sourmash/compare.csv` (N+1 rows: header row of strain names, then one row of similarities per strain) + per-strain `sketches/{S}.sig.gz`
+- Guard: per-strain `[[ -s $out ]] && continue` on each sketch; `[[ -s $WORK/work/00_inventory/sourmash/compare.csv ]] || sourmash compare ...`
+- Validation: `awk -v n=${#STRAINS[@]} 'NR==1 && NF==n {ok=1} END {exit !ok}' $WORK/work/00_inventory/sourmash/compare.csv` (the CSV header is N comma-separated labels)
 - Gotchas:
-  - `mash sketch -s 10000` (sketch size) is critical; the default `-s 1000` is too coarse for ~25 Mb apicomplexan genomes. v3 used 10,000.
-  - The braced expansion `${STRAINS[@]/#/...}.fa` prepends path to each strain name and appends `.fa`. Verify shell version ≥ bash 4.0.
+  - `sourmash compare` writes **similarity** (1.0 = identical), not distance — the multiz fold-order helper in Phase I sorts descending (closest = highest), the opposite of mash's distance convention. To get distance instead, use `1 − sim`, or add `--ani` for an ANI matrix.
+  - `scaled=1000` keeps ~1/1000 of hashes (FracMinHash). For compact genomes (~25 Mb) that is ~25k hashes per strain — plenty of resolution. Drop `scaled` (e.g. 200) for very small genomes; raise it for larger ones to bound sketch size.
+  - `k=31` is specific enough to separate intra-species strains; lower to `k=21` only for cross-genus panels.
+  - The `.sig.gz` sketches are the reusable artifact: the BRC catalog ingests these same files and derives any organism's N×N matrix on demand by slicing the global sketch directory — compute once here, reuse there.
 - Wall time: ~1 min for 8 strains × 25 Mb.
 
 ### 1.2 BUSCO completeness per strain
@@ -760,7 +768,7 @@ for H in "${STRAINS[@]}"; do
       $PAIR_MAF
   done
   # Step 2: progressively fold all pairwise MAFs into a multi-way MAF rooted at H
-  # multiz uses a guide tree (or pairwise distance); use mash distance from Phase A
+  # multiz uses a guide tree (or pairwise distance); derive order from the sourmash similarity matrix (Phase A), closest = highest similarity
   python3 $WORK/pipeline/scripts/multiz_progressive.py \
     --hinge $H \
     --pair_dir $OUT_DIR \
@@ -774,7 +782,7 @@ done
 - Validation: `awk '/^a / {n++} END {if (n<100) exit 1}' $OUT_FINAL` (≥ 100 alignment blocks).
 - Gotchas:
   - `multiz` only handles pairwise MAFs as input. The `multiz_progressive.py` driver runs `multiz pair1.maf pair2.maf > tmp1.maf`, then `multiz tmp1.maf pair3.maf > tmp2.maf`, etc., growing the multi-way MAF one strain at a time.
-  - The ORDER matters: closest strain first (use mash distances). Worst order can drop 30–40% of alignment blocks.
+  - The ORDER matters: closest strain first (highest sourmash similarity from Phase A `compare.csv`). Worst order can drop 30–40% of alignment blocks.
   - `-tPrefix=H.` / `-qPrefix=Q.` give MAF blocks the right PanSN-like names.
   - The intermediate `H_vs_Q.maf` files are kept (they're not `*`-essential but feed multiz).
 - Wall time: ~3 hrs per hinge × N hinges = ~24 hrs total. Run hinges in parallel with `xargs -P 4` if you have 128 GB+ RAM.
@@ -1394,7 +1402,7 @@ check() {
 # Loop through all *-marked rows in OUTLINE.md, parse paths, and validate
 # This is a sketch — full implementation reads each table row.
 
-check "Mash matrix"          "work/00_inventory/mash/dist.tsv" '[[ $(wc -l < work/00_inventory/mash/dist.tsv) -gt 1 ]]'
+check "sourmash matrix"      "work/00_inventory/sourmash/compare.csv" '[[ $(wc -l < work/00_inventory/sourmash/compare.csv) -gt 1 ]]'
 for S in "${STRAINS[@]}"; do
   check "softmasked $S"      "genomes/softmasked/${S}.fa"      "samtools quickcheck -v genomes/softmasked/${S}.fa"
 done

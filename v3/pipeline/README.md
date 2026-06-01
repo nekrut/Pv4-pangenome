@@ -21,7 +21,7 @@ Files produced by the pipeline, grouped by phase:
 
 | Phase | Tool(s) | Output | Files |
 |---|---|---|---|
-| A. Inventory | mash, BUSCO | `00_inventory/mash/` | NxN matrix |
+| A. Inventory | sourmash, BUSCO | `00_inventory/sourmash/` | NxN matrix + reusable sketches |
 | B. Mask | longdust + sdust + bedtools | `genomes/softmasked/{S}.fa` | N |
 | C. Pairwise align | KegAlign (GPU) | `A2_kegalign/axt/{S1}__vs__{S2}.axt` | N×(N-1)/2 pairs × 2 dirs |
 | C. Chain pipeline | axtChain → chainSort → chainPreNet → chainNet → netChainSubset → chainStitchId; chainSwap+chainNet for rbest | `work/01_chains/{src}.{tgt}.cleaned.chain` + `.rbest.chain` | N×(N-1)/2 × 2 dirs |

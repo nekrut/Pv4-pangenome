@@ -16,7 +16,7 @@ and produces the 27 essentials in a published Galaxy history.
 
 | Phase | Galaxy tool ID | Status | Notes |
 |---|---|---|---|
-| A | `toolshed.g2.bx.psu.edu/.../mash_sketch` + `mash_screen` | ✅ exists | iuc, IUC-maintained |
+| A | `toolshed.g2.bx.psu.edu/.../sourmash_sketch` + `sourmash_compare` | ✅ exists | iuc; same sketches reused by the BRC catalog |
 | A | `quay.io/.../busco` | ✅ exists | iuc |
 | B | `bedtools_maskfastabed` | ✅ exists | iuc |
 | B | `longdust` | ⚠️ wrap | new wrapper needed; binary is single static exe |
@@ -75,13 +75,13 @@ inputs:
 
 steps:
   # Phase A
-  - id: mash_sketch
-    tool_id: toolshed.g2.bx.psu.edu/repos/iuc/mash/mash_sketch
+  - id: sourmash_sketch
+    tool_id: toolshed.g2.bx.psu.edu/repos/iuc/sourmash_sketch/sourmash_sketch
     in:
-      sequences: { source: assemblies }
-  - id: mash_dist
-    tool_id: mash_dist
-    in: { sketch: mash_sketch/sketch }
+      sequences: { source: assemblies }   # k=31, scaled=1000; one .sig per assembly
+  - id: sourmash_compare
+    tool_id: toolshed.g2.bx.psu.edu/repos/iuc/sourmash_compare/sourmash_compare
+    in: { signatures: sourmash_sketch/signatures }   # N×N similarity matrix (CSV)
   - id: busco
     tool_id: busco
     in:
