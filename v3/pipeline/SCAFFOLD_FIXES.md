@@ -36,6 +36,16 @@ Host context: docker present, RTX A5000 GPU present, bio-tools available only vi
 18. **Stale PGGB image tag** `ghcr.io/pangenome/pggb:202412130311080800a17` (404) → `ghcr.io/pangenome/pggb:latest` (pin a real digest before shipping).
 19. **TOGA run unconditionally even with an empty rescue queue** — `04_annotate_project.sh` invoked `toga` whenever its output didn't exist yet, without checking `needs_cesar2.bed`. For closely-related strains the triage queue is empty (all genes lift clean), so TOGA had nothing to do — yet it ran and hit the unavailable `ghcr.io/hillerlab/toga:latest` image (`error from registry: denied`). Fix: guard with `elif [[ ! -s "$TRIAGE_DIR/needs_cesar2.bed" ]]; then skip`. **Separate open issue:** the TOGA image is not publicly pullable, so the CESAR rescue path is untested — needs a working TOGA container (or a documented build) before the rescue tail can run for divergent panels.
 
+## Phase E (consensus orthology) — GREEN
+
+- Ran first try (python3→pyfaidx fix carried it): 1,992 orthogroups (CORE-1:1 / CORE-VAR / PARTIAL / LINEAGE-SPECIFIC). **Quality note (not a failure):** the rbest-chain and graph-co-membership edge sources contributed **0 edges** — the table came from projection edges alone. Likely the per-strain `.bed` annotation inputs those two sources expect aren't present, or `odgi paths` output isn't parsed. The 3-source consensus is silently degraded to 1-source; investigate before trusting orthology quality.
+
+## Phase D post-processing + Phase F (MSAs)
+
+20. **PGGB output renamed** — newer PGGB writes `*.smooth.final.{og,gfa}`; the scaffold globbed `*.smooth.fix.{og,gfa}` → graph built but never symlinked (`PGGB output GFA/OG not found`). Fix the glob to `smooth.final`. (PGGB itself succeeded in ~17 s on the test genomes.)
+21. **`ls glob | wc -l` counter dies under `set -euo pipefail`** — when the output dir is empty, `ls` exits 2 and (with pipefail) kills the script before the first log line. Recurs in the analysis-phase idempotency counters. Fix: `… | wc -l || true` (or use `find`). Phase F crashed on this at its first MSA-set call.
+22. **`build_msa.py` container-orchestration architecture mismatch** — the helper is written to run **on the host** and invoke `run_in_container.sh` for mafft/pal2nal/gffread, but `07_msa.sh` runs it **inside** the pyfaidx container (`cmd python3 build_msa.py`). Inside the container there's no docker, and `work_dir` mis-resolves the wrapper path (`/media/anton/data/sandbox/pipeline/lib/run_in_apptainer.sh`). Needs a design decision: (a) run `build_msa.py` on the host (`python3 …`, not `cmd python3`) so it can orchestrate tool-containers — requires host python3 + the script's deps; or (b) give it a single image with python+mafft+pal2nal+gffread+trimal and have it call them directly. Until resolved, F builds 0 MSAs. The same pattern likely affects any helper that shells out to the wrapper.
+
 ## Recurring pattern
 
 The scaffold's ~18 pinned container tags were written speculatively and many are stale/removed/unpullable. Before shipping: **verify every tag pulls** (`docker pull`), prefer individual biocontainers over meta-packages, and pin to digests. The Pv4 docs already switched Phase A mash→sourmash; the scaffold still uses mash (works, but inconsistent with the Pv4 LOCAL.md).
