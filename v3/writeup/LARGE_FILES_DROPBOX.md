@@ -10,15 +10,17 @@ Pv4/v3 analysis intermediates and outputs too large for GitHub. Each entry: path
 
 `⭐` marks files that appear in the `*`-marked essentials list in OUTLINE.md — preserve carefully.
 
-## Download
+## Access
 
-For a single file, append `?dl=1` to its Dropbox URL to force direct download (no preview interstitial). For the whole archive, use rclone:
+The share URL is **view / download only** — it lets you fetch files, not sync them. Pick by how much you need:
 
-```bash
-rclone copy dropbox-public:Pv4_v3/ ./Pv4_v3/ --transfers 4
-```
+- **A few files** — open the link, navigate to the file, download it. Append `?dl=1` to a file's URL to skip the preview interstitial and force a direct download.
+- **A subfolder** — the web UI's "Download as ZIP". Dropbox refuses to ZIP anything over ~50 GB or 10,000 files, so this works per-subfolder (`multiz/`, `genomes/`, …) but **not** for the whole 339 GB archive.
+- **The whole archive, or a copy that tracks updates** — ask anton@nekrut.org for a view-only invite by Dropbox email. Once the folder is shared to your account it appears as a synced folder (no quota cost for view-only), and you can pull it in bulk with rclone against your *own* authenticated remote (`rclone copy dropbox:Pv4_v3/ ./Pv4_v3/ --transfers 4`) or the official client.
 
-(where `dropbox-public` is a rclone remote configured against the folder share URL above; or use the [Dropbox web UI](https://www.dropbox.com/scl/fo/gx1mta4adubja4bsxxmgm/AOni3YRX8TS1E-saUblX-eo?rlkey=0ksw8a5hhkxhy3sljqyycr7bu&dl=0) "Download as ZIP" — ~339 GB).
+Do **not** use "Copy to my Dropbox" / "Add to my Dropbox" on the view link: that makes a one-time frozen snapshot that counts against your storage and never tracks later changes. rclone cannot copy a whole folder straight from a public share URL — it needs an authenticated remote, which is why bulk pulls go through the email invite (or are run by the owner).
+
+Owner note (Anton): the `rclone copy dropbox:Pv4_v3/ …` command works directly against your own authenticated remote — that is how the archive was uploaded and how to re-pull it.
 
 ## VCF cohorts
 

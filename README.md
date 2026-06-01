@@ -15,6 +15,8 @@ Reproducible artifacts for the Pv4 v3 analysis: pangenome graph, ortholog tables
 
 Folder share URL: https://www.dropbox.com/scl/fo/gx1mta4adubja4bsxxmgm/AOni3YRX8TS1E-saUblX-eo?rlkey=0ksw8a5hhkxhy3sljqyycr7bu&dl=0
 
+This link is **download-only** — use it to fetch files, not to sync. "Copy to my Dropbox" / "Add to my Dropbox" makes a one-time frozen snapshot that counts against your quota and never tracks later changes. For a live, synced, quota-free copy, ask anton@nekrut.org for a view-only invite by Dropbox email. Download recipes (and the ZIP-size caveat) are in `v3/writeup/LARGE_FILES_DROPBOX.md`.
+
 ## Pipeline reproduction
 
 - `v3/pipeline/LOCAL.md` — bash + container-based execution, 11 phases (A through K).
