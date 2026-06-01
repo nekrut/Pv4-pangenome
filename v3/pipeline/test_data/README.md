@@ -19,7 +19,7 @@ A curated subset of the full Pv4 v3 inputs that exercises **every pipeline phase
 
 Subtelomeres of all three carry the PIR/PHIST/Pv-fam multigene families that stress Phase C.4 (TOGA rescue), Phase E (orthology disagreement), and Phase F (divergent-paralog MSAs). Phase I (multiz) runs here — the smoke test skips it.
 
-The cohort VCF is the MalariaGEN Pv4 cohort downsampled to **~200 samples** on these three chromosomes (Phase J input + the drug-resistance QC bridge).
+The cohort VCF (Phase J input + drug-resistance QC bridge) is per-chromosome on chr04/05/14 in `PvP01_*_v1` coordinates. The **built bundle uses the 2-sample MalariaGEN truth files** that were on disk (`HT_1_147`, `MICH_2_71`) — they carry the **full variant content** (chr04: 47,592, chr05: 42,371, chr14: 26,551 variants; 113 in the dhps region), so they exercise Phase J end-to-end and the coordinate QC (does a variant land in the dhps/dhfr CDS). Allele-frequency QC at resistance codons is limited with 2 samples; to get it, swap in the full 1,895-sample cohort and downsample — see "How to build" (the builder downsamples automatically when given more samples).
 
 ## Files
 
@@ -28,15 +28,16 @@ Committed to git (small):
 - `contig_map.tsv` — per-strain contig orthologs for chr04/05/14, derived by parsing the in-repo PvP01-as-target cleaned chains; chr14 rows match the hub `defaultPos` work exactly. (PAM merges chr04+chr05 onto one contig — the builder dedupes.)
 - `species.conf` — the test config (5 strains, ref PvP01, anchors PvP01/PvW1/PAM, MIN_INTACT 4/3).
 - `make_test_data.sh` — regenerates the bundle.
-- `samples_200.txt` — the cohort sample subset (written by the VCF stage).
+- `samples.txt` — the cohort samples used (written by the VCF stage).
 - this `README.md`.
 
-Materialized bundle (heavy, **not** in git — on Dropbox under `Pv4_v3/test_data/`):
+Materialized bundle (~51 MB total, **not** in git — on Dropbox, regenerable):
+<https://www.dropbox.com/scl/fo/bslhf3qq89sw7b2f6thej/AFUntWXkXjnU7LCXkHm2BhI?rlkey=zloww3im49zl68z0r0v33nntq&dl=0>
 
-- `inputs/assemblies/{S}.fa` (+ `.fai`) — ~30 MB total
+- `inputs/assemblies/{S}.fa` (+ `.fai`) — ~31 MB
 - `inputs/annotations/{S}.gff3` + `cohort_chrom_rename.tsv`
-- `inputs/proteomes/{S}.proteins.fa`
-- `inputs/cohort_vcf/Pv4test_{04,05,14}_v1.vcf.gz` (+ `.tbi`) — ~0.5–1 GB
+- `inputs/proteomes/{S}.proteins.fa` — ~4.7 MB
+- `inputs/cohort_vcf/Pv4test_{04,05,14}_v1.vcf.gz` (+ `.tbi`) — ~8 MB (2 samples, full variant content)
 
 ## How to build
 
@@ -46,9 +47,13 @@ Host needs only `docker` + `bash` (+ `rclone` to upload). All bio-tools run in p
 # sequence parts (assemblies, annotations, proteomes, chrom map) — local data only
 bash v3/pipeline/make_test_data.sh --stage seq
 
-# cohort VCF — needs the 3 PvP01-coord MalariaGEN per-chr files
+# cohort VCF — point at per-chr VCFs in PvP01_*_v1 coords; {CHR} -> 04/05/14.
+# As built (2-sample truth files):
 bash v3/pipeline/make_test_data.sh --stage vcf \
-     --cohort-src /path/to/malariagen_pv4        # holds Pv4_PvP01_{04,05,14}_v1.vcf.gz
+     --cohort-src /media/anton/data/sandbox/Pv4/v2/malariagen/truth \
+     --cohort-tmpl 'Pv4_{CHR}_2samples.vcf.gz'
+# Full 1,895-sample cohort (auto-downsampled to ~200):
+#   --cohort-src /path/to/malariagen_pv4 --cohort-tmpl 'Pv4_PvP01_{CHR}_v1.vcf.gz'
 
 # upload the heavy bundle
 rclone copy v3/pipeline/test_data dropbox:Pv4_v3/test_data/ --transfers 4

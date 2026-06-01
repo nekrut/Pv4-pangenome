@@ -25,10 +25,11 @@ MAP=$OUT/contig_map.tsv                                     # validated, committ
 TMP=$(mktemp -d -p "$REPO" .make_test_data.XXXXXX)   # under $REPO so containers can see it
 trap 'rm -rf "$TMP"' EXIT
 
-STAGE=all; COHORT_SRC=""
+STAGE=all; COHORT_SRC=""; COHORT_TMPL='Pv4_PvP01_{CHR}_v1.vcf.gz'
 while [[ $# -gt 0 ]]; do case $1 in
   --stage) STAGE=$2; shift 2;;
   --cohort-src) COHORT_SRC=$2; shift 2;;
+  --cohort-tmpl) COHORT_TMPL=$2; shift 2;;   # input filename; {CHR} -> 04/05/14
   *) echo "unknown arg: $1" >&2; exit 1;;
 esac; done
 
@@ -101,32 +102,36 @@ seq_stage(){
 # ----------------------------------------------------------------------------
 vcf_stage(){
   if [[ -z $COHORT_SRC || ! -d $COHORT_SRC ]]; then
-    log "STAGE vcf SKIPPED — no --cohort-src. Provide the 3 PvP01-coord per-chr"
-    log "  MalariaGEN files (Pv4_PvP01_{04,05,14}_v1.vcf.gz) and re-run with --stage vcf."
+    log "STAGE vcf SKIPPED — no --cohort-src. Provide per-chr cohort VCFs (PvP01_*_v1"
+    log "  coords) and re-run, e.g.: --stage vcf --cohort-src DIR --cohort-tmpl 'Pv4_{CHR}_2samples.vcf.gz'"
     return 0
   fi
-  log "STAGE vcf — downsample to ~$N_SAMPLES samples on chr04/05/14"
-  local first=$COHORT_SRC/Pv4_PvP01_04_v1.vcf.gz
-  [[ -s $first ]] || { log "MISSING $first"; exit 1; }
-  # deterministic ~N-sample spread across the cohort
-  local total; total=$(dk "$BCFTOOLS" bcftools query -l "$first" | wc -l)
-  local step=$(( total / N_SAMPLES )); (( step < 1 )) && step=1
-  dk "$BCFTOOLS" bcftools query -l "$first" | sort | awk -v k="$step" 'NR%k==1' \
-      > "$OUT/samples_200.txt"
-  log "selected $(wc -l < "$OUT/samples_200.txt") of $total samples (every ${step}th)"
+  log "STAGE vcf — source $COHORT_SRC, pattern $COHORT_TMPL"
+  # stage chr04 into the mounted tmp to read the sample list
+  cp "$COHORT_SRC/${COHORT_TMPL/\{CHR\}/04}" "$TMP/in_04.vcf.gz" \
+    || { log "MISSING cohort file for chr04"; exit 1; }
+  local total; total=$(dk "$BCFTOOLS" bcftools query -l "$TMP/in_04.vcf.gz" | wc -l)
+  if (( total <= N_SAMPLES )); then
+    dk "$BCFTOOLS" bcftools query -l "$TMP/in_04.vcf.gz" > "$OUT/samples.txt"
+    log "cohort has $total samples (<= $N_SAMPLES) — keeping all"
+  else
+    local step=$(( total / N_SAMPLES )); (( step < 1 )) && step=1
+    dk "$BCFTOOLS" bcftools query -l "$TMP/in_04.vcf.gz" | sort | awk -v k="$step" 'NR%k==1' \
+        > "$OUT/samples.txt"
+    log "selected $(wc -l < "$OUT/samples.txt") of $total samples (every ${step}th)"
+  fi
 
-  for acc in "${TEST_CHR_ACC[@]}"; do
-    local v1=${CHR_V1[$acc]} tag=${CHR_V1[$acc]#PvP01_}; tag=${tag%_v1}
-    local in=$COHORT_SRC/Pv4_PvP01_${tag}_v1.vcf.gz
+  for tag in 04 05 14; do
+    local src=$COHORT_SRC/${COHORT_TMPL/\{CHR\}/$tag}
+    [[ -s $src ]] || { log "MISSING $src"; exit 1; }
+    cp "$src" "$TMP/in_$tag.vcf.gz"
     local out=$OUT/inputs/cohort_vcf/Pv4test_${tag}_v1.vcf.gz
-    [[ -s $in ]] || { log "MISSING $in"; exit 1; }
-    dk "$BCFTOOLS" bcftools view -S "$OUT/samples_200.txt" --force-samples \
-        -Oz -o "$out" "$in"
+    dk "$BCFTOOLS" bcftools view -S "$OUT/samples.txt" --force-samples \
+        -Oz -o "$out" "$TMP/in_$tag.vcf.gz"
     dk "$BCFTOOLS" bcftools index -t "$out"
-    log "wrote $(basename "$out")"
+    log "wrote $(basename "$out") — $(dk "$BCFTOOLS" bcftools view -H "$out" | wc -l) variants, $(wc -l < "$OUT/samples.txt") samples"
   done
-  # QC: the drug-resistance / selection landmark sites should remain polymorphic
-  log "QC — verify dhps/dhfr/Pvs230 sites still segregate (manual: bcftools view -H ... | check AC>0)"
+  log "QC — confirm dhps/dhfr/Pvs230 sites remain (coordinate QC); AF-QC limited if few samples"
 }
 
 [[ $STAGE == seq || $STAGE == all ]] && seq_stage

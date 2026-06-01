@@ -22,6 +22,16 @@ Do **not** use "Copy to my Dropbox" / "Add to my Dropbox" on the view link: that
 
 Owner note (Anton): the `rclone copy dropbox:Pv4_v3/ …` command works directly against your own authenticated remote — that is how the archive was uploaded and how to re-pull it.
 
+## Test panel (end-to-end pipeline test dataset)
+
+Materialized bundle for the 5-strain × 3-chromosome test panel (~51 MB) — assemblies, annotations, proteomes, and the 2-sample cohort VCFs. Regenerable via `pipeline/make_test_data.sh`; see `pipeline/test_data/README.md`.
+
+| ⭐ | Path | Size | Recreate |
+|---|---|---:|---|
+|   | `test_data/inputs/` (assemblies + annotations + proteomes + cohort_vcf) | ~51 MB | `bash pipeline/make_test_data.sh` (seq stage from repo inputs; vcf stage from the 2-sample truth files). |
+
+Folder: <https://www.dropbox.com/scl/fo/bslhf3qq89sw7b2f6thej/AFUntWXkXjnU7LCXkHm2BhI?rlkey=zloww3im49zl68z0r0v33nntq&dl=0>
+
 ## VCF cohorts
 
 | ⭐ | Path glob | Files | Size | Recreate |
