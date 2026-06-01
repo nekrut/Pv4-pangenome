@@ -1,6 +1,9 @@
-# LOCAL.md, in plain language
+# Pipeline explanation
 
-A readable walkthrough of what the pangenome + selection-scan pipeline actually computes. `LOCAL.md` is the machine recipe — every command, guard, and pinned container. This document covers the same analyses at the level of "what is done and why," without the bash.
+A readable walkthrough of what the pangenome + selection-scan pipeline computes — what each phase does and why. This is the conceptual spine. Two execution companions follow the same phase structure (A–K), so you read a phase here for the idea, then open the matching phase in whichever you're running:
+
+- **[LOCAL.md](LOCAL.md)** — run it yourself with containers (Docker / Singularity): exact commands, guards, pinned images.
+- **[GALAXY.md](GALAXY.md)** — run it as a Galaxy workflow: tool IDs, workflow steps, wrappers to build.
 
 The pipeline is species-agnostic: it takes N haploid assemblies (5–15) with their annotations and a cohort VCF, and everything species-specific lives in one config file. The worked example throughout is **Pv4** — the eight-strain *Plasmodium vivax* panel the pipeline was built on — shown in parentheses where a concrete number helps.
 

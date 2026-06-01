@@ -1,9 +1,10 @@
 # Pangenome + selection-scan pipeline — overview
 
-Reproduces the 27 essential outputs (`*`-marked in `writeup/OUTLINE.md`) from the Pv4 v3 *P. vivax* analysis. Designed to run on any apicomplexan-scale species panel (5–15 haploid assemblies, ~25 Mb each, gene-dense). Two execution plans:
+Reproduces the 27 essential outputs (`*`-marked in `writeup/OUTLINE.md`) from the Pv4 v3 *P. vivax* analysis. Designed to run on any apicomplexan-scale species panel (5–15 haploid assemblies, ~25 Mb each, gene-dense). Three documents, one structure — the same phases (A–K) line up across all three:
 
-- **`LOCAL.md`** — Claude Code / bash driver scripts on a single workstation (GPU optional). What v3 actually used.
-- **`GALAXY.md`** — Galaxy workflow (`.ga`) with existing + to-be-wrapped tools. For multi-user / cloud / reproducibility.
+- **`PIPELINE_EXPLANATION.md`** — what each phase does and why, with flowcharts. Read this first.
+- **`LOCAL.md`** — run it yourself with containers (Docker / Singularity): exact commands, guards, pinned images. What v3 actually used.
+- **`GALAXY.md`** — run it as a Galaxy workflow: tool IDs, steps, wrappers to build. For multi-user / cloud / reproducibility.
 
 ## Inputs (assumed identical structure to v3)
 
@@ -87,4 +88,4 @@ A → B → {C, D in parallel} → E → F → {G, H in parallel}; I depends onl
 
 `pipeline/smoke_test.sh` runs all 11 phases on a **single chromosome** of 3 strains. Wall time ~30 min on the same hardware. Validates that the config + tooling are correct before committing to the full N-strain run.
 
-See `LOCAL.md` and `GALAXY.md` for execution details.
+See `PIPELINE_EXPLANATION.md` for what each phase does, and `LOCAL.md` / `GALAXY.md` for execution details.

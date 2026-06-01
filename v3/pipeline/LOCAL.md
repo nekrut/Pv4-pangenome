@@ -1,6 +1,7 @@
-# LOCAL.md — Pangenome + Selection-Scan Pipeline
 
-Zero-ambiguity implementation recipe. Authored in the style of `LLM-eval-paper/plan/PLAN.md` for use as an LLM-implementation benchmark and as a complete reference for human operators.
+# LOCAL.md — local (container) execution
+
+Local-container companion to **[PIPELINE_EXPLANATION.md](PIPELINE_EXPLANATION.md)** — the same phases (A–K), run yourself with Docker or Singularity. Read that doc for what each phase does and why; this one is the zero-ambiguity recipe (also usable as an LLM-implementation benchmark): exact commands, output guards, pinned container images. The Galaxy companion is **[GALAXY.md](GALAXY.md)**. Every section header carries its Phase letter (A–K) — that letter is the key lining all three docs up.
 
 ## Goal
 
@@ -9,7 +10,7 @@ Reproduce the 27 `*`-marked essential outputs from `writeup/OUTLINE.md` for any 
 1. N assembly FASTAs (`inputs/assemblies/{S}.fa`)
 2. N annotation GFF3s (`inputs/annotations/{S}.gff3`)
 3. Per-chromosome cohort VCFs (`inputs/cohort_vcf/{species}_{chrom}.vcf.gz`)
-4. A chromosome-rename map (`inputs/annotations/{ref}_to_genbank.tsv`)
+4. A chromosome-rename map (`inputs/annotations/{ref}_to_genbank.tsv` — see PIPELINE_EXPLANATION, "Building the chromosome-name map")
 
 Implementer must produce 11 phase scripts plus a top-level orchestrator. Each phase script is self-contained, idempotent, and exits 0 only if all `*`-marked outputs for that phase exist and pass structural validation.
 
@@ -158,9 +159,9 @@ Validation step (before any phase): the orchestrator MUST call `bash pipeline/00
 
 ---
 
-## 1. Phase A — Inventory (sourmash + BUSCO)
+## Phase A — Inventory (sourmash + BUSCO)
 
-### 1.1 sourmash N×N similarity matrix
+### A.1 sourmash N×N similarity matrix
 
 ```
 mkdir -p $WORK/work/00_inventory/sourmash/sketches
@@ -185,7 +186,7 @@ sourmash compare $WORK/work/00_inventory/sourmash/sketches/*.sig.gz \
   - The `.sig.gz` sketches are the reusable artifact: the BRC catalog ingests these same files and derives any organism's N×N matrix on demand by slicing the global sketch directory — compute once here, reuse there.
 - Wall time: ~1 min for 8 strains × 25 Mb.
 
-### 1.2 BUSCO completeness per strain
+### A.2 BUSCO completeness per strain
 
 ```
 for S in "${STRAINS[@]}"; do
@@ -212,11 +213,11 @@ done
 
 ---
 
-## 2. Phase B — Soft-masking
+## Phase B — Soft-masking
 
 For each strain `S` in `STRAINS`:
 
-### 2.1 Identify low-complexity regions (union of longdust + sdust)
+### B.1 Identify low-complexity regions (union of longdust + sdust)
 
 ```
 mkdir -p $WORK/genomes/mask
@@ -231,7 +232,7 @@ cat $WORK/genomes/mask/${S}.longdust.bed $WORK/genomes/mask/${S}.sdust.bed | \
 - Guard per-strain: `[[ -s $WORK/genomes/mask/${S}.union.bed ]] || { longdust ...; sdust ...; bedtools merge ...; }`
 - Validation: `[[ -s $WORK/genomes/mask/${S}.union.bed ]] && awk '$3 > $2' $WORK/genomes/mask/${S}.union.bed | wc -l | (read n; [[ $n -gt 0 ]])`
 
-### 2.2 Apply soft mask
+### B.2 Apply soft mask
 
 ```
 bedtools maskfasta -soft \
@@ -252,9 +253,9 @@ cut -f1,2 $WORK/genomes/softmasked/${S}.fa.fai > $WORK/genomes/softmasked/${S}.s
 
 ---
 
-## 3. Phase C — Pairwise alignment + chain pipeline
+## Phase C — Pairwise alignment and chains
 
-### 3.1 KegAlign GPU pairwise lastZ — N×(N-1)/2 unordered pairs
+### C.1 KegAlign GPU pairwise lastZ — N×(N-1)/2 unordered pairs
 
 ```
 mkdir -p $WORK/projection/A2_kegalign/axt
@@ -291,7 +292,7 @@ done
 - Wall time: ~3 min per pair on A10G; 28 pairs sequential ≈ 1.5 hrs. Use `xargs -P 1` (NOT parallel — KegAlign saturates the GPU).
 - CPU fallback (no GPU): substitute `lastz $A.fa[multiple] $B.fa[multiple] --masking=50 --hspthresh=4500 --gappedthresh=6000 --inner=2000 --ydrop=15000 --format=axt > $out`. ~10× slower.
 
-### 3.2 Chain pipeline — cleaned chains (canonical UCSC chain build)
+### C.2 Chain pipeline — cleaned chains (canonical UCSC chain build)
 
 For each unordered pair `{A, B}` produce both directional chains (`A→B` and `B→A`):
 
@@ -335,7 +336,7 @@ done
   - `chainNet`'s second positional output (the target-net) is unused for our needs; redirect to `/dev/null`.
   - `chainStitchId` is the final step — it renumbers chain IDs to be unique. Without it, downstream `CrossMap` can pick the wrong chain for ambiguous regions.
 
-### 3.3 Chain pipeline — rbest chains (reciprocal best)
+### C.3 Chain pipeline — rbest chains (reciprocal best)
 
 For each unordered pair, the rbest chain is the intersection of A→B-best and B→A-best:
 
@@ -373,11 +374,11 @@ done
 
 ---
 
-## 4. Phase C (cont.) — Annotation projection (Liftoff + TOGA2/CESAR2 + merge)
+### C.4 Annotation projection (Liftoff + TOGA2/CESAR2 + merge)
 
 For each anchor strain `A` in `ANCHOR_STRAINS`, project the anchor's annotation onto every other strain `Q`:
 
-### 4.1 Liftoff projection
+#### C.4.1 Liftoff projection
 
 ```
 mkdir -p $WORK/work/02a_liftoff/${A}-as-ref
@@ -411,7 +412,7 @@ done
   - `-copies -sc 0.95` enables gene-copy detection (paralog finder). v3 used this to identify duplicated PIR/PHIST.
   - `${A}.fixed.gff3` is the chromosome-renamed version. If `${A}.gff3` uses PlasmoDB chromnames but `${A}.fa` uses GenBank LT-numbers, run `bash pipeline/lib/fix_gff_chroms.sh ${A}` first. The script reads the FASTA, builds a renaming table, and rewrites the GFF.
 
-### 4.2 Triage (8-rule classification)
+#### C.4.2 Triage (8-rule classification)
 
 ```
 for Q in "${STRAINS[@]}"; do
@@ -439,7 +440,7 @@ done
   7. `extra_copy` — additional Liftoff copy in target with > 0.85 identity → into `triage.tsv` as `extra_copy`
   8. `truncated` — > 30% of CDS missing → into `needs_cesar2.bed`
 
-### 4.3 TOGA2 / CESAR2 rescue (for genes in `needs_cesar2.bed`)
+#### C.4.3 TOGA2 / CESAR2 rescue (for genes in `needs_cesar2.bed`)
 
 ```
 for Q in "${STRAINS[@]}"; do
@@ -468,7 +469,7 @@ done
   - `--filter_bed` restricts CESAR to only the genes Liftoff didn't handle cleanly. Without it, CESAR re-projects everything (slow, ~6 hrs per anchor instead of ~2 hrs).
   - TOGA2 writes some files as root inside the docker container. v3 ran TOGA2 directly (not in docker) to avoid this.
 
-### 4.4 Merge Liftoff_clean + TOGA2 outputs
+#### C.4.4 Merge Liftoff_clean + TOGA2 outputs
 
 ```
 mkdir -p $WORK/work/02d_merged/${A}-as-ref
@@ -496,9 +497,9 @@ done
 
 ---
 
-## 5. Phase D — PGGB pangenome graph
+## Phase D — PGGB pangenome graph
 
-### 5.1 PanSN rename + concat
+### D.1 PanSN rename + concat
 
 ```
 mkdir -p $WORK/work/pggb_in
@@ -530,7 +531,7 @@ for line in open(in_fa):
 - Guard: `[[ -s $WORK/work/pggb_in/all_pansn.fa.gz.gzi ]] || { ... }`
 - Gotcha: PanSN format is `SAMPLE#HAPLOTYPE#CONTIG` (haploid → haplotype always `1`). Without PanSN names, `odgi paths` later picks arbitrary names and breaks ortho-by-path-co-membership queries in Phase E.
 
-### 5.2 PGGB build
+### D.2 PGGB build
 
 ```
 docker run --rm -v $WORK:$WORK -w $WORK ghcr.io/pangenome/pggb:latest \
@@ -556,15 +557,15 @@ ln -sf $(ls $WORK/work/pggb_out/*.smooth.fix.og  | head -1) $WORK/inputs/pggb/pv
 
 ---
 
-## 6. Phase E — Consensus orthology
+## Phase E — Consensus orthology
 
 Three independent ortholog calls combined by union-find on (gene, gene) edges with ≥90% reciprocal overlap.
 
-### 6.1 Source 1: Liftoff projections (per anchor → all non-anchors)
+### E.1 Source 1: Liftoff projections (per anchor → all non-anchors)
 
 Already produced in Phase C.4 (`work/02d_merged/{anchor}-as-ref/{Q}.annotation.gff3`). For each anchor gene `g_A` and each query strain `Q`, the projected gene ID in `Q` is the `Name=` attribute in the merged GFF.
 
-### 6.2 Source 2: Chain-based reciprocal best (rbest chains from Phase C.3)
+### E.2 Source 2: Chain-based reciprocal best (rbest chains from Phase C.3)
 
 ```
 mkdir -p $WORK/work/03_consensus
@@ -578,7 +579,7 @@ python3 $WORK/pipeline/scripts/phase_e_rbest_overlap.py \
 
 `rbest_edges.tsv` columns: `strain_a, gene_a, strain_b, gene_b, overlap_a, overlap_b`.
 
-### 6.3 Source 3: Graph path co-membership (PGGB)
+### E.3 Source 3: Graph path co-membership (PGGB)
 
 ```
 docker run --rm -v $WORK:$WORK ghcr.io/pangenome/pggb:latest \
@@ -591,7 +592,7 @@ python3 $WORK/pipeline/scripts/phase_e_graph_edges.py \
   --output $WORK/work/03_consensus/graph_edges.tsv
 ```
 
-### 6.4 Union-find consensus
+### E.4 Union-find consensus
 
 ```
 python3 $WORK/pipeline/scripts/phase_e_consensus.py \
@@ -617,7 +618,7 @@ python3 $WORK/pipeline/scripts/phase_e_consensus.py \
 
 ---
 
-## 7. Phase F — codon + protein MSAs (strict + relaxed sets)
+## Phase F — codon + protein MSAs (strict + relaxed sets)
 
 For each `min_intact ∈ {MIN_INTACT_STRICT, MIN_INTACT_RELAXED}` and each orthogroup with ≥ `min_intact` 1-to-1 members:
 
@@ -665,7 +666,7 @@ Cleaned variants in parallel:
 
 ---
 
-## 8. Phase G — ML trees (IQ-TREE3)
+## Phase G — ML trees (IQ-TREE3)
 
 ```
 for SET in core_v3 core_relaxed; do
@@ -700,7 +701,7 @@ done
 
 ---
 
-## 9. Phase H — HyPhy bulk BUSTED
+## Phase H — HyPhy bulk BUSTED
 
 ```
 for SET in core_v3 core_relaxed; do
@@ -737,7 +738,7 @@ done
 
 ---
 
-## 10. Phase I — Multiz multi-way MAFs
+## Phase I — Multiz multi-way MAFs
 
 For each strain `H` (the hinge), build an N-way MAF anchored on `H`'s coordinates:
 
@@ -789,9 +790,9 @@ done
 
 ---
 
-## 11. Phase J — Cohort VCF projection (A2 chains)
+## Phase J — Cohort VCF projection (A2 chains)
 
-### 11.1 Rename MalariaGEN-style cohort VCF to GenBank chromosome names
+### J.1 Rename MalariaGEN-style cohort VCF to GenBank chromosome names
 
 ```
 mkdir -p $WORK/projection/A1_wfmash/mg_renamed
@@ -809,7 +810,7 @@ done
 - Validation: `bcftools view -h $OUT 2>/dev/null | grep -q "^##contig=<ID=LT" || bcftools view -h $OUT | grep -q "^##contig=<ID=$(head -1 $CHROM_RENAME | cut -f2)"`
 - Gotcha: `--rename-chrs` reads a 2-col TSV (`OLD<TAB>NEW`). The map MUST cover every chrom in the source VCF or `bcftools` errors. Check with `comm -23 <(bcftools view -h $SRC_VCF | awk -F'[=,>]' '/##contig=<ID=/ {print $3}' | sort) <(cut -f1 $CHROM_RENAME | sort)` → empty result means full coverage.
 
-### 11.2 CrossMap project per non-reference target
+### J.2 CrossMap project per non-reference target
 
 ```
 mkdir -p $WORK/projection/A2_lastz
@@ -854,7 +855,7 @@ done
 
 ---
 
-## 12. Phase K — UCSC track-hub publishing
+## Phase K — UCSC track-hub publishing
 
 Builds a self-contained UCSC track hub from the upstream phase outputs (chains, multiz MAFs, merged annotations, HyPhy BUSTED JSONs, ortholog table). Output lives under `$WORK/ucsc_hub/` in a layout consumable directly by `genome.ucsc.edu` via `hubUrl=`.
 
@@ -1186,7 +1187,7 @@ Per the issue update, these map to `Pangenome.selection_tracks`, `multiz_alignme
 
 ---
 
-## 13. Orchestrator (run_all.sh)
+## Orchestrator (run_all.sh)
 
 ```bash
 #!/usr/bin/env bash
@@ -1246,7 +1247,7 @@ bash pipeline/lib/verify_essentials.sh
 
 ---
 
-## 14. Idempotency summary
+## Idempotency summary
 
 Every phase script has the same shape:
 1. Source `species.conf`, `cd $WORK`.
@@ -1260,7 +1261,7 @@ No phase mutates outputs of earlier phases. No phase writes outside `$WORK/{geno
 
 ---
 
-## 15. Wall-time budget (32 cores, 1 GPU, 128 GB RAM, 1 TB NVMe scratch)
+## Cost — wall-time budget (32 cores, 1 GPU, 128 GB RAM, 1 TB NVMe scratch)
 
 | Phase | Wall time | CPU-hrs |
 |---|---|---|
@@ -1282,7 +1283,7 @@ Critical path: C.4 (annotation) and I (multiz) dominate. Parallelize C.4 across 
 
 ---
 
-## 16. Smoke test (smoke_test.sh)
+## Smoke test (smoke_test.sh)
 
 For a 30-minute validation on new species, restrict to `${SMOKE_STRAINS[@]}` (subset of 3) and one chromosome `${SMOKE_CHROM}`. Smoke test runs phases A → B → C.1-3 → C.4 → D → E → F → G → H → J (skips I — multiz needs all strains). Expected outputs: ~50 orthogroup MSAs, ~50 trees, ~50 BUSTED jsons, ~3,000 lifted variants per target.
 
@@ -1330,7 +1331,7 @@ bash pipeline/lib/verify_essentials.sh --smoke
 
 ---
 
-## 17. Failure modes seen in v3 (lessons)
+## Failure modes from v3 (lessons)
 
 ### F.1 — Liftoff fails silently when GFF chroms don't match FASTA
 - Symptom: `n matched to gff = 0` in liftoff log; output GFF has zero `gene` features.
@@ -1375,7 +1376,7 @@ bash pipeline/lib/verify_essentials.sh --smoke
 
 ---
 
-## 18. Output verification (`pipeline/lib/verify_essentials.sh`)
+## Output verification (`pipeline/lib/verify_essentials.sh`)
 
 ```bash
 #!/usr/bin/env bash
@@ -1431,7 +1432,7 @@ fi
 
 ---
 
-## 19. Adapt to new species — Pf3D7 example
+## New species — Pf3D7 example
 
 | `species.conf` field | v3 (P. vivax) | Pf3D7 (P. falciparum) |
 |---|---|---|
