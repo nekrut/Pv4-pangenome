@@ -1,0 +1,24 @@
+## Per-strain contig orthologs for the test-panel chromosomes.
+## Columns: strain  pvp01_chrom  pvp01_accession  strain_contig
+## Derived by parsing the PvP01-as-target cleaned chains in work/01_chains/
+## (GCA_900093555.2.<strainGCA>.cleaned.chain.gz): for each PvP01 chromosome,
+## the strain contig with the most aligned target bases. chr14 rows match the
+## independent hub defaultPos (dhps) work exactly.
+## NOTE: PAM merges chr04 + chr05 onto a single contig (CASCJQ010000004.1) —
+## the builder must take the UNIQUE set of contigs per strain.
+#strain	pvp01_chrom	pvp01_accession	strain_contig
+PvP01	chr04	LT635615.1	LT635615.1
+PvP01	chr05	LT635616.2	LT635616.2
+PvP01	chr14	LT635625.2	LT635625.2
+PvW1	chr04	LT635615.1	CAJZCX010000013.1
+PvW1	chr05	LT635616.2	CAJZCX010000004.1
+PvW1	chr14	LT635625.2	CAJZCX010000003.1
+PAM	chr04	LT635615.1	CASCJQ010000004.1
+PAM	chr05	LT635616.2	CASCJQ010000004.1
+PAM	chr14	LT635625.2	CASCJQ010000014.1
+PvT01	chr04	LT635615.1	LT615242.1
+PvT01	chr05	LT635616.2	LT615243.1
+PvT01	chr14	LT635625.2	LT615252.1
+MHC087	chr04	LT635615.1	JBDKXN010000012.1
+MHC087	chr05	LT635616.2	JBDKXN010000009.1
+MHC087	chr14	LT635625.2	JBDKXN010000002.1
