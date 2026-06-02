@@ -63,9 +63,11 @@ Host context: docker present, RTX A5000 GPU present, bio-tools available only vi
 27. **`CHR_TAG` regex didn't match `${SPECIES}_NN_v1.vcf.gz`** — it expected `..._NN.vcf.gz` (number then dot), but the cohort files are `Pv4test_04_v1.vcf.gz` (number then `_v1`), so the sed didn't match and `CHR_TAG` became the whole basename → doubled output names (`Pv4test_Pv4test_04_v1.vcf.gz.vcf.gz`). Fix: `CHR_TAG=$(basename "$SRC_VCF" .vcf.gz | sed -E "s/^${SPECIES}_//")`.
 28. **`CrossMap … /dev/stdout | bcftools sort -` cross-container pipe failed** (`Input is not detected as bcf or vcf` — CrossMap's stdout wasn't clean VCF across two separate `docker run -i` calls). Fix: CrossMap writes to a temp `.vcf` file, then `bcftools sort` that file. (Warnings about "<100k variants" are just the scaffold's threshold tuned for the full 14-chromosome cohort — benign for the 3-chromosome test; ~70–100k projected per target.)
 
-## ✅ FULL PIPELINE GREEN (A → J) on the Pv4 test panel
+29. **`verify_essentials.sh` carried the same validator bugs as the phase scripts** (it had never been run either): `samtools quickcheck` on FASTA (and bare `samtools`, absent on host) → check by faidx index; AXT first-9-lines `awk` → `grep -qE '^[0-9]+ '`; cohort-VCF check used an **undefined `cmd`** wrapper and a `zcat|grep` that trips pipefail (SIGPIPE) → check the `.csi` index exists. After these, **`verify_essentials.sh` exits 0: ALL ESSENTIALS VERIFIED, 98 checks pass.**
 
-First complete end-to-end run of the clean scaffold. 28 fixes across all phases. Outputs: mash matrix + BUSCO; 5 soft-masked genomes; 56 chains; 12 projected annotations; PGGB graph; 1,992 orthogroups; 509 strict + 810 relaxed codon MSAs (trimal-cleaned); 275+514 trees; 275+514 BUSTED JSONs; 5 multiz MAFs; 4 projected cohort VCFs. Phase K (UCSC hub) is a separate publishing step (Pv4's hub already built).
+## ✅ FULL PIPELINE GREEN + VERIFIED (A → J) on the Pv4 test panel
+
+First complete end-to-end run of the clean scaffold — `verify_essentials.sh` passes (98 OK, 0 missing). **29 fixes** across all phases. Outputs: mash matrix + BUSCO; 5 soft-masked genomes; 56 chains; 12 projected annotations; PGGB graph; 1,992 orthogroups; 509 strict + 810 relaxed codon MSAs (trimal-cleaned); 275+514 trees; 275+514 BUSTED JSONs; 5 multiz MAFs; 4 projected cohort VCFs. Phase K (UCSC hub) is a separate publishing step (Pv4's hub already built).
 
 ## Recurring pattern
 

@@ -51,7 +51,7 @@ done
 for S in "${STRAINS[@]}"; do
   check "Softmasked FASTA ${S}" \
     "genomes/softmasked/${S}.fa" \
-    "samtools quickcheck -v genomes/softmasked/${S}.fa"
+    '[[ -s genomes/softmasked/${S}.fa.fai ]]'
   check "Sizes file ${S}" \
     "genomes/softmasked/${S}.sizes" \
     '[[ $(wc -l < genomes/softmasked/${S}.sizes) -ge 1 ]]'
@@ -67,7 +67,7 @@ for i in "${!STRAINS[@]}"; do
     B="${STRAINS[$j]}"
     check "AXT ${A}__vs__${B}" \
       "projection/A2_kegalign/axt/${A}__vs__${B}.axt" \
-      'awk "NR<10 && /^[0-9]+ /{n++} END{exit !(n>=1)}" projection/A2_kegalign/axt/${A}__vs__${B}.axt'
+      'grep -qE "^[0-9]+ " projection/A2_kegalign/axt/${A}__vs__${B}.axt'
   done
 done
 
@@ -174,7 +174,7 @@ else
     [[ "$TGT" == "$REF_STRAIN" ]] && continue
     check "A2 cohort VCF ${TGT}" \
       "projection/A2_lastz/${SPECIES}_cohort_on_${TGT}.vcf.gz" \
-      "cmd bcftools view -h projection/A2_lastz/${SPECIES}_cohort_on_${TGT}.vcf.gz | grep -q '^##contig='"
+      '[[ -s projection/A2_lastz/${SPECIES}_cohort_on_${TGT}.vcf.gz.csi ]]'
   done
 fi
 

@@ -18,7 +18,7 @@ The runnable phase scripts for the LOCAL (container) pipeline described in [`../
 | I multiz | ✅ green — 5 per-hinge MAFs (thousands of blocks each) |
 | J cohort VCF projection | ✅ green — 4 projected cohort VCFs (#27 CHR_TAG regex, #28 CrossMap→temp-file) |
 
-**Full pipeline A→J runs green end-to-end on the Pv4 test panel** (first complete exercise of the scaffold). Phase K (UCSC hub) is a separate publishing step, not part of `run_all.sh`.
+**Full pipeline A→J runs green end-to-end on the Pv4 test panel** (first complete exercise of the scaffold), and **`verify_essentials.sh` passes (98 checks, 0 missing)**. Phase K (UCSC hub) is a separate publishing step, not part of `run_all.sh`. See `../SCAFFOLD_FIXES.md` for the 29 fixes this run surfaced.
 
 ## Layout
 
