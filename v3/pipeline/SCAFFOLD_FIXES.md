@@ -54,6 +54,10 @@ Host context: docker present, RTX A5000 GPU present, bio-tools available only vi
 
 **Operational lesson (not a scaffold bug):** several of the "0 built" full-runs during debugging were **stale `build_msa.py` processes from earlier (pre-fix) launches still alive** and contending — at one point 10–16 concurrent procs across overlapping runs. Always `pkill -9 -f build_msa.py` and clear `work/06_msa` before re-running. A clean run with #24+#25 builds correctly. (Also: this shell aborts multi-line blocks via errexit when `pkill` returns non-zero and flattens some heredocs — use `pkill … || true` and script files.)
 
+## Phases G / H / I / J — stale image tags (all pre-fixed)
+
+26. More stale pinned tags, fixed to confirmed-pullable versions: `iqtree:3.0.0--hdcf5f25_0 → 3.1.2--h8471819_0` (binary `iqtree3`), `hyphy:2.5.62--he91c24d_0 → 2.5.99--h74d3ee0_0`, `multiz:11.2--h470a237_0 → 11.2--h7b50bb2_7`, `crossmap:0.6.5--pyh7cba7a3_0 → 0.7.3--pyhdfd78af_0` (binary `CrossMap`). Phase G green (275 strict + 514 relaxed treefiles — genes with ≥3 distinct taxa).
+
 ## Recurring pattern
 
 The scaffold's ~18 pinned container tags were written speculatively and many are stale/removed/unpullable. Before shipping: **verify every tag pulls** (`docker pull`), prefer individual biocontainers over meta-packages, and pin to digests. The Pv4 docs already switched Phase A mash→sourmash; the scaffold still uses mash (works, but inconsistent with the Pv4 LOCAL.md).

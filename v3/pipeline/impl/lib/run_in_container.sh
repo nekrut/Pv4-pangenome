@@ -52,15 +52,15 @@ case $TOOL in
   trimal)
     IMG="quay.io/biocontainers/trimal:1.5.1--h9948957_0" ;;
   iqtree3)
-    IMG="quay.io/biocontainers/iqtree:3.0.0--hdcf5f25_0" ;;
+    IMG="quay.io/biocontainers/iqtree:3.1.2--h8471819_0" ;;
   hyphy)
-    IMG="quay.io/biocontainers/hyphy:2.5.62--he91c24d_0" ;;
+    IMG="quay.io/biocontainers/hyphy:2.5.99--h74d3ee0_0" ;;
   multiz)
-    IMG="quay.io/biocontainers/multiz:11.2--h470a237_0" ;;
+    IMG="quay.io/biocontainers/multiz:11.2--h7b50bb2_7" ;;
   bcftools)
     IMG="quay.io/biocontainers/bcftools:1.20--h8b25389_0" ;;
   CrossMap)
-    IMG="quay.io/biocontainers/crossmap:0.6.5--pyh7cba7a3_0" ;;
+    IMG="quay.io/biocontainers/crossmap:0.7.3--pyhdfd78af_0" ;;
   python3)
     IMG="quay.io/biocontainers/pyfaidx:0.9.0.4--pyhdfd78af_0" ;;
   bgzip|tabix)
