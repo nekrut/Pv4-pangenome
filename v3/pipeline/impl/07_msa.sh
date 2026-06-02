@@ -46,7 +46,8 @@ run_msa_set() {
     [[ $N_SHARDS -lt 1 ]] && N_SHARDS=1
 
     for SHARD in $(seq 0 $((N_SHARDS - 1))); do
-      cmd python3 "$WORK/pipeline/scripts/build_msa.py" \
+      python3 "$WORK/pipeline/scripts/build_msa.py" \
+        --work "$WORK" \
         --ortho "$WORK/work/03_consensus/ortholog_table.tsv" \
         --strains "${STRAINS[*]}" \
         --ref "$REF_STRAIN" \

@@ -44,7 +44,17 @@ Host context: docker present, RTX A5000 GPU present, bio-tools available only vi
 
 20. **PGGB output renamed** — newer PGGB writes `*.smooth.final.{og,gfa}`; the scaffold globbed `*.smooth.fix.{og,gfa}` → graph built but never symlinked (`PGGB output GFA/OG not found`). Fix the glob to `smooth.final`. (PGGB itself succeeded in ~17 s on the test genomes.)
 21. **`ls glob | wc -l` counter dies under `set -euo pipefail`** — when the output dir is empty, `ls` exits 2 and (with pipefail) kills the script before the first log line. Recurs in the analysis-phase idempotency counters. Fix: `… | wc -l || true` (or use `find`). Phase F crashed on this at its first MSA-set call.
-22. **`build_msa.py` container-orchestration architecture mismatch** — the helper is written to run **on the host** and invoke `run_in_container.sh` for mafft/pal2nal/gffread, but `07_msa.sh` runs it **inside** the pyfaidx container (`cmd python3 build_msa.py`). Inside the container there's no docker, and `work_dir` mis-resolves the wrapper path (`/media/anton/data/sandbox/pipeline/lib/run_in_apptainer.sh`). Needs a design decision: (a) run `build_msa.py` on the host (`python3 …`, not `cmd python3`) so it can orchestrate tool-containers — requires host python3 + the script's deps; or (b) give it a single image with python+mafft+pal2nal+gffread+trimal and have it call them directly. Until resolved, F builds 0 MSAs. The same pattern likely affects any helper that shells out to the wrapper.
+22. **`build_msa.py` container-orchestration architecture mismatch** — the helper is written to run **on the host** and invoke `run_in_container.sh` for mafft/pal2nal, but `07_msa.sh` ran it **inside** the pyfaidx container (`cmd python3 build_msa.py`) → no docker, wrapper path mis-resolves. **Fixed** by running it on the host: `07` now calls `python3 build_msa.py --work "$WORK" …` (not `cmd python3`). (Its deps are stdlib + a local `Fasta` class; host python3 suffices.)
+23. **Stale MSA tool tags** — `mafft:7.526--h031d066_0`, `pal2nal:14.1--pl5321hdfd78af_5`, `trimal:1.4.1--h9948957_8` all 404 → `mafft:7.221--0`, `pal2nal:14--pl526_0`, `trimal:1.5.1--h9948957_0`. Also: `build_msa.py` sends tool stderr to `/dev/null` and counts a *tool failure* as a biological *skip* — this masked the stale-tag failure as "0 built, N skipped". It should distinguish tool errors from skips.
+
+### Phase F still UNRESOLVED (precisely narrowed)
+
+With all of the above, `07_msa.sh` still builds **0 MSAs** in the real sharded run, even though every component works in isolation:
+- Gates pass for ~100 genes/shard: ref CDS extracts (mod-3 clean), ≥3 query CDS extract to equal-length proteins (verified for e.g. `PVP01_0403200`: ref + PvW1/PAM/MHC087, 407 aa each).
+- `run_mafft()` returns **True** on those exact inputs when invoked directly **with `WORK` exported** (works under both terminal and `/dev/null` stdin). My manual reproductions that built 0 were due to *me* not exporting `WORK`, not a real bug.
+- Yet the 07-launched run (WORK exported via `species.conf`, build_msa on host, 8 concurrent shards) builds 0.
+
+**Next step to root-cause:** instrument `run_in_container.sh` (log every mafft invocation + its exit) and run F to completion — determine whether mafft is invoked at all in the sharded/background context, and whether `WORK`/`--work` propagate into the 8 concurrent subprocesses. Suspect an env-propagation or `work_dir` discrepancy specific to the backgrounded sharded invocation. (Local shell flakes with exit-144 on docker+kill blocks, which slowed this down.)
 
 ## Recurring pattern
 

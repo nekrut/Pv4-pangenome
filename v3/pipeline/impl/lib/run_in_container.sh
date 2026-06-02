@@ -46,11 +46,11 @@ case $TOOL in
   pggb|wfmash|seqwish|smoothxg|odgi)
     IMG="ghcr.io/pangenome/pggb:latest" ;;
   mafft)
-    IMG="quay.io/biocontainers/mafft:7.526--h031d066_0" ;;
+    IMG="quay.io/biocontainers/mafft:7.221--0" ;;
   pal2nal)
-    IMG="quay.io/biocontainers/pal2nal:14.1--pl5321hdfd78af_5" ;;
+    IMG="quay.io/biocontainers/pal2nal:14--pl526_0" ;;
   trimal)
-    IMG="quay.io/biocontainers/trimal:1.4.1--h9948957_8" ;;
+    IMG="quay.io/biocontainers/trimal:1.5.1--h9948957_0" ;;
   iqtree3)
     IMG="quay.io/biocontainers/iqtree:3.0.0--hdcf5f25_0" ;;
   hyphy)
