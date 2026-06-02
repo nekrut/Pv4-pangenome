@@ -23,6 +23,23 @@ if [[ -s "$ORTHO_OUT" ]]; then
 fi
 
 # ---------------------------------------------------------------------------
+# 6.1 Per-strain gene BED (required by E.2 rbest + E.3 graph) — derive from GFF
+# ---------------------------------------------------------------------------
+for S in "${STRAINS[@]}"; do
+  BED="$WORK/inputs/annotations/${S}.bed"
+  [[ -s "$BED" ]] && continue
+  GFF="$WORK/inputs/annotations/${S}.gff3"
+  [[ -s "$GFF" ]] || GFF="$WORK/inputs/annotations/${S}.fixed.gff3"
+  [[ -s "$GFF" ]] || { log "WARNING: no GFF for $S — cannot build BED" >&2; continue; }
+  awk -F'\t' 'BEGIN{OFS="\t"}
+    $3=="gene"||$3=="protein_coding_gene"||$3=="ncRNA_gene"||$3=="pseudogene"{
+      id=$9; sub(/.*ID=/,"",id); sub(/;.*/,"",id); sub(/^gene-/,"",id)
+      if (id!="") print $1, $4-1, $5, id
+    }' "$GFF" > "$BED"
+  log "  Generated ${S}.bed ($(wc -l < "$BED") genes)"
+done
+
+# ---------------------------------------------------------------------------
 # 6.2 Chain-based reciprocal-best edges
 # ---------------------------------------------------------------------------
 RBEST_EDGES="$WORK/work/03_consensus/rbest_edges.tsv"
