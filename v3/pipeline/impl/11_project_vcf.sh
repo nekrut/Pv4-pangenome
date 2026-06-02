@@ -45,7 +45,7 @@ log "Phase J.1 — renaming cohort VCF chromosomes..."
 
 for SRC_VCF in "$COHORT_VCF_DIR/"$COHORT_CHROM_GLOB; do
   [[ -f "$SRC_VCF" ]] || continue
-  CHR_TAG=$(basename "$SRC_VCF" | sed 's/.*_\([0-9]\+\|API\|MIT\)\..*/\1/')
+  CHR_TAG=$(basename "$SRC_VCF" .vcf.gz | sed -E "s/^${SPECIES}_//")
   OUT="$WORK/projection/A1_wfmash/mg_renamed/${SPECIES}_${CHR_TAG}.vcf.gz"
   [[ -s "${OUT}.csi" ]] && continue
   cmd bcftools annotate --rename-chrs "$CHROM_RENAME" "$SRC_VCF" -Oz -o "$OUT"
@@ -87,9 +87,12 @@ for TGT in "${STRAINS[@]}"; do
     OUT_CHR="$PER_CHR_DIR/${SPECIES}_${CHR_TAG}_on_${TGT}.vcf.gz"
     [[ -s "${OUT_CHR}.csi" ]] && continue
 
-    # CrossMap → bcftools sort (CrossMap output is unsorted — F.3 lesson)
-    cmd CrossMap vcf "$CHAIN" "$SRC_VCF" "$TGT_FA" /dev/stdout 2>/dev/null | \
-      cmd bcftools sort -T "$TMP_SORT" -Oz -o "$OUT_CHR" -
+    # CrossMap to a temp file (cleaner than a cross-container stdout pipe),
+    # then bcftools sort (CrossMap output is unsorted — F.3 lesson).
+    RAW_VCF="$PER_CHR_DIR/${SPECIES}_${CHR_TAG}_on_${TGT}.raw.vcf"
+    cmd CrossMap vcf "$CHAIN" "$SRC_VCF" "$TGT_FA" "$RAW_VCF"
+    cmd bcftools sort -T "$TMP_SORT" -Oz -o "$OUT_CHR" "$RAW_VCF"
+    rm -f "$RAW_VCF" "${RAW_VCF}.unmap"
     cmd bcftools index "$OUT_CHR"
   done
 

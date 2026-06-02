@@ -12,8 +12,13 @@ The runnable phase scripts for the LOCAL (container) pipeline described in [`../
 | C.4 annotation projection | ✅ green (Liftoff; TOGA skipped when rescue queue empty) |
 | D PGGB graph | ✅ green |
 | E consensus orthology | ✅ green (1,992 orthogroups) — but rbest/graph edge sources contributed 0; see SCAFFOLD_FIXES |
-| F codon/protein MSAs | ✅ green — strict 509, relaxed 810 codon MSAs, trimal-cleaned (bugs #24 pal2nal token, #25 wrapped-FASTA validation) |
-| G IQ-TREE / H BUSTED / I multiz / J VCF projection | not yet exercised |
+| F codon/protein MSAs | ✅ green — strict 509, relaxed 810 codon MSAs, trimal-cleaned (#24 pal2nal token, #25 wrapped-FASTA validation) |
+| G IQ-TREE | ✅ green — 275 strict + 514 relaxed treefiles |
+| H HyPhy BUSTED | ✅ green — 275 + 514 busted.json |
+| I multiz | ✅ green — 5 per-hinge MAFs (thousands of blocks each) |
+| J cohort VCF projection | ✅ green — 4 projected cohort VCFs (#27 CHR_TAG regex, #28 CrossMap→temp-file) |
+
+**Full pipeline A→J runs green end-to-end on the Pv4 test panel** (first complete exercise of the scaffold). Phase K (UCSC hub) is a separate publishing step, not part of `run_all.sh`.
 
 ## Layout
 
