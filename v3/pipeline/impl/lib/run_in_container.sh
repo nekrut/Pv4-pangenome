@@ -47,7 +47,7 @@ case $TOOL in
     IMG="ghcr.io/pangenome/pggb:latest" ;;
   mafft)
     IMG="quay.io/biocontainers/mafft:7.221--0" ;;
-  pal2nal)
+  pal2nal|pal2nal.pl)
     IMG="quay.io/biocontainers/pal2nal:14--pl526_0" ;;
   trimal)
     IMG="quay.io/biocontainers/trimal:1.5.1--h9948957_0" ;;

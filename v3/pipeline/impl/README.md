@@ -12,7 +12,7 @@ The runnable phase scripts for the LOCAL (container) pipeline described in [`../
 | C.4 annotation projection | ✅ green (Liftoff; TOGA skipped when rescue queue empty) |
 | D PGGB graph | ✅ green |
 | E consensus orthology | ✅ green (1,992 orthogroups) — but rbest/graph edge sources contributed 0; see SCAFFOLD_FIXES |
-| F codon/protein MSAs | ⚠️ runs (build_msa.py on host, MSA tool tags fixed) but builds 0 MSAs — unresolved, precisely narrowed in SCAFFOLD_FIXES |
+| F codon/protein MSAs | ✅ green — strict 509, relaxed 810 codon MSAs, trimal-cleaned (bugs #24 pal2nal token, #25 wrapped-FASTA validation) |
 | G IQ-TREE / H BUSTED / I multiz / J VCF projection | not yet exercised |
 
 ## Layout

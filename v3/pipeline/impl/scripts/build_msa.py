@@ -166,8 +166,7 @@ def run_pal2nal(prot_aln: Path, nucl_fa: Path, codon_aln: Path,
     wrapper = Path(work_dir) / 'pipeline' / 'lib' / 'run_in_container.sh'
     if not wrapper.exists():
         wrapper = Path(work_dir) / 'pipeline' / 'lib' / 'run_in_apptainer.sh'
-    cmd = [str(wrapper), 'pal2nal',
-           'pal2nal.pl',
+    cmd = [str(wrapper), 'pal2nal.pl',
            str(prot_aln), str(nucl_fa),
            '-output', 'fasta', '-codontable', '1']
     with open(codon_aln, 'w') as fh:
@@ -327,11 +326,20 @@ def main():
             codon_aln_tmp.unlink(missing_ok=True)
             continue
 
-        # Validate codon MSA length = 3 × protein MSA length
-        codon_lines = codon_aln_tmp.read_text().splitlines()
-        prot_lines = prot_aln.read_text().splitlines()
-        codon_seq = next((l for l in codon_lines if not l.startswith('>')), '')
-        prot_seq = next((l for l in prot_lines if not l.startswith('>')), '')
+        # Validate codon MSA length = 3 × protein MSA length.
+        # FASTA seqs are line-wrapped, so concatenate the FULL first record.
+        def _first_seq(text):
+            seq = []; started = False
+            for l in text.splitlines():
+                if l.startswith('>'):
+                    if started:
+                        break
+                    started = True
+                elif started:
+                    seq.append(l.strip())
+            return ''.join(seq)
+        codon_seq = _first_seq(codon_aln_tmp.read_text())
+        prot_seq = _first_seq(prot_aln.read_text())
         if codon_seq and prot_seq and len(codon_seq) != 3 * len(prot_seq):
             n_skip += 1
             codon_aln_tmp.unlink(missing_ok=True)

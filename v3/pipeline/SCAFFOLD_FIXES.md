@@ -47,14 +47,12 @@ Host context: docker present, RTX A5000 GPU present, bio-tools available only vi
 22. **`build_msa.py` container-orchestration architecture mismatch** — the helper is written to run **on the host** and invoke `run_in_container.sh` for mafft/pal2nal, but `07_msa.sh` ran it **inside** the pyfaidx container (`cmd python3 build_msa.py`) → no docker, wrapper path mis-resolves. **Fixed** by running it on the host: `07` now calls `python3 build_msa.py --work "$WORK" …` (not `cmd python3`). (Its deps are stdlib + a local `Fasta` class; host python3 suffices.)
 23. **Stale MSA tool tags** — `mafft:7.526--h031d066_0`, `pal2nal:14.1--pl5321hdfd78af_5`, `trimal:1.4.1--h9948957_8` all 404 → `mafft:7.221--0`, `pal2nal:14--pl526_0`, `trimal:1.5.1--h9948957_0`. Also: `build_msa.py` sends tool stderr to `/dev/null` and counts a *tool failure* as a biological *skip* — this masked the stale-tag failure as "0 built, N skipped". It should distinguish tool errors from skips.
 
-### Phase F still UNRESOLVED (precisely narrowed)
+### Phase F — GREEN (resolved; strict=509, relaxed=810 codon MSAs, trimal-cleaned)
 
-With all of the above, `07_msa.sh` still builds **0 MSAs** in the real sharded run, even though every component works in isolation:
-- Gates pass for ~100 genes/shard: ref CDS extracts (mod-3 clean), ≥3 query CDS extract to equal-length proteins (verified for e.g. `PVP01_0403200`: ref + PvW1/PAM/MHC087, 407 aa each).
-- `run_mafft()` returns **True** on those exact inputs when invoked directly **with `WORK` exported** (works under both terminal and `/dev/null` stdin). My manual reproductions that built 0 were due to *me* not exporting `WORK`, not a real bug.
-- Yet the 07-launched run (WORK exported via `species.conf`, build_msa on host, 8 concurrent shards) builds 0.
+24. **Wrapper conflates image-selector with in-container command** — `run_in_container.sh` uses the first token both to pick the image AND as the command it execs. Fine for mafft (token == binary), but the pal2nal image's binary is `pal2nal.pl`, so `pal2nal` failed `rc=127` on every gene. Compounded: `build_msa.py` passed `['pal2nal','pal2nal.pl',…]`, so the wrapper ran `pal2nal` and treated the real `pal2nal.pl` as a positional arg. **Fix:** `build_msa.py` → `cmd=[wrapper,'pal2nal.pl',…]`; wrapper case `pal2nal)` → `pal2nal|pal2nal.pl)`. (Found by a 4-agent workflow in ~2.5 min.)
+25. **Length-validation read only the first wrapped FASTA line** — mafft/pal2nal output wraps at 60 cols; `build_msa.py` took `next(non-header line)` as "the sequence", comparing 60 vs 3×60 → unequal → skipped every gene even after pal2nal succeeded. **Fix:** concatenate the full first record (`_first_seq()` helper) before the `len(codon)==3*len(prot)` check.
 
-**Next step to root-cause:** instrument `run_in_container.sh` (log every mafft invocation + its exit) and run F to completion — determine whether mafft is invoked at all in the sharded/background context, and whether `WORK`/`--work` propagate into the 8 concurrent subprocesses. Suspect an env-propagation or `work_dir` discrepancy specific to the backgrounded sharded invocation. (Local shell flakes with exit-144 on docker+kill blocks, which slowed this down.)
+**Operational lesson (not a scaffold bug):** several of the "0 built" full-runs during debugging were **stale `build_msa.py` processes from earlier (pre-fix) launches still alive** and contending — at one point 10–16 concurrent procs across overlapping runs. Always `pkill -9 -f build_msa.py` and clear `work/06_msa` before re-running. A clean run with #24+#25 builds correctly. (Also: this shell aborts multi-line blocks via errexit when `pkill` returns non-zero and flattens some heredocs — use `pkill … || true` and script files.)
 
 ## Recurring pattern
 
