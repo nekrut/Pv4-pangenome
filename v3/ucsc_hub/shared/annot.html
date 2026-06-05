@@ -1,0 +1,30 @@
+<h2>Gene projections</h2>
+
+<p>This composite shows gene models on the current strain. One subtrack carries
+the strain's own annotation; the others carry genes projected onto it from the
+curated anchor strains, so a gene present in one strain can be located in every
+other strain even where no native annotation exists.</p>
+
+<h3>Display Conventions and Configuration</h3>
+
+<p>Models are drawn in BED12 — thick blocks are coding exons, thin blocks are
+untranslated regions, and the connecting line carries strand arrows. Each
+subtrack is labeled by its source: "self" for the strain's native annotation,
+"annot from &lt;anchor&gt;" for a projection. The self-annotation is enabled by
+default; projection subtracks are hidden until selected.</p>
+
+<h3>Methods</h3>
+
+<p>Native annotations come from PlasmoDB release 68 for the curated strains and
+from the NCBI assembly records for the rest. We projected each anchor's genes
+onto every other strain in two passes — Liftoff for the straightforward
+liftovers, then TOGA2 with CESAR to rescue the genes Liftoff could not place
+cleanly across the larger rearrangements. Exact tool versions and parameters are
+recorded in the pipeline repository.</p>
+
+<h3>Credits and Data Access</h3>
+
+<p>Part of the BRC <i>Plasmodium vivax</i> 8-strain pangenome track hub. Full
+methods, parameters, and source data are described in
+<a href="https://github.com/galaxyproject/brc-analytics/issues/1279">galaxyproject/brc-analytics issue #1279</a>.
+Contact: anton@nekrut.org.</p>

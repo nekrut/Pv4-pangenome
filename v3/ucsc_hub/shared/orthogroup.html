@@ -1,0 +1,27 @@
+<h2>Orthogroup membership</h2>
+
+<p>This track marks each gene with its orthogroup and with the number of strains
+that carry that orthogroup — from one (strain-specific) to eight (present in
+every strain). The coloring turns the pangenome's core-to-accessory gradient
+into a single browsable layer: deeply conserved genes against strain-restricted
+ones.</p>
+
+<h3>Display Conventions and Configuration</h3>
+
+<p>Features are genes in BED12, colored by the strain count of their orthogroup
+(1-8). Core genes shared by all eight strains and accessory genes found in only
+a few sit at the two ends of the scale.</p>
+
+<h3>Methods</h3>
+
+<p>We built a pangenome graph from the eight assemblies with PGGB — the
+PanGenome Graph Builder — and called orthogroups from the graph's co-membership,
+counting the strains present in each. Exact tool versions and parameters are
+recorded in the pipeline repository.</p>
+
+<h3>Credits and Data Access</h3>
+
+<p>Part of the BRC <i>Plasmodium vivax</i> 8-strain pangenome track hub. Full
+methods, parameters, and source data are described in
+<a href="https://github.com/galaxyproject/brc-analytics/issues/1279">galaxyproject/brc-analytics issue #1279</a>.
+Contact: anton@nekrut.org.</p>

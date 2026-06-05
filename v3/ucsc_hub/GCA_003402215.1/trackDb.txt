@@ -1,4 +1,5 @@
 track PvSY56_multiz
+html ../shared/multiz.html
 shortLabel PvSY56 multiz
 longLabel  PvSY56-hinge 8-way multi-z alignment
 type bigMaf
@@ -9,6 +10,7 @@ speciesOrder GCA_003402215 GCA_900093555 GCA_000002415 GCA_914969965 GCA_9491523
 speciesLabels GCA_900093555="PvP01" GCA_000002415="Sal-I" GCA_914969965="PvW1" GCA_949152365="PAM" GCA_003402215="PvSY56" GCA_900093545="PvT01" GCA_900093535="PvC01" GCA_040114635="MHC087"
 
 track brc_pangenome_chains
+html ../shared/chains.html
 compositeTrack on
 shortLabel Pangenome chains
 longLabel  Pairwise chain alignments (KegAlign+axtChain+chainNet, 7 targets)
@@ -17,6 +19,7 @@ group brc_pangenome
 visibility hide
 
     track chain_to_GCA_900093555.2
+    html ../shared/chains.html
     parent brc_pangenome_chains off
     shortLabel chain to PvP01
     longLabel  Chain alignment from PvSY56 to PvP01
@@ -26,6 +29,7 @@ visibility hide
     visibility hide
 
     track chain_to_GCA_000002415.2
+    html ../shared/chains.html
     parent brc_pangenome_chains off
     shortLabel chain to Sal-I
     longLabel  Chain alignment from PvSY56 to Sal-I
@@ -35,6 +39,7 @@ visibility hide
     visibility hide
 
     track chain_to_GCA_914969965.1
+    html ../shared/chains.html
     parent brc_pangenome_chains off
     shortLabel chain to PvW1
     longLabel  Chain alignment from PvSY56 to PvW1
@@ -44,6 +49,7 @@ visibility hide
     visibility hide
 
     track chain_to_GCA_949152365.1
+    html ../shared/chains.html
     parent brc_pangenome_chains off
     shortLabel chain to PAM
     longLabel  Chain alignment from PvSY56 to PAM
@@ -53,6 +59,7 @@ visibility hide
     visibility hide
 
     track chain_to_GCA_900093545.1
+    html ../shared/chains.html
     parent brc_pangenome_chains off
     shortLabel chain to PvT01
     longLabel  Chain alignment from PvSY56 to PvT01
@@ -62,6 +69,7 @@ visibility hide
     visibility hide
 
     track chain_to_GCA_900093535.1
+    html ../shared/chains.html
     parent brc_pangenome_chains off
     shortLabel chain to PvC01
     longLabel  Chain alignment from PvSY56 to PvC01
@@ -71,6 +79,7 @@ visibility hide
     visibility hide
 
     track chain_to_GCA_040114635.1
+    html ../shared/chains.html
     parent brc_pangenome_chains off
     shortLabel chain to MHC087
     longLabel  Chain alignment from PvSY56 to MHC087
@@ -80,6 +89,7 @@ visibility hide
     visibility hide
 
 track brc_pangenome_annot
+html ../shared/annot.html
 compositeTrack on
 shortLabel Pangenome annot
 longLabel  Gene projections (Liftoff + TOGA2) from 4 anchor strains
@@ -88,6 +98,7 @@ group brc_pangenome
 visibility pack
 
     track annot_from_PvP01
+    html ../shared/annot.html
     parent brc_pangenome_annot off
     shortLabel annot from PvP01
     longLabel  Genes projected from PvP01 via Liftoff+TOGA2
@@ -96,6 +107,7 @@ visibility pack
     visibility dense
 
     track annot_from_PvW1
+    html ../shared/annot.html
     parent brc_pangenome_annot off
     shortLabel annot from PvW1
     longLabel  Genes projected from PvW1 via Liftoff+TOGA2
@@ -104,6 +116,7 @@ visibility pack
     visibility dense
 
     track annot_from_PAM
+    html ../shared/annot.html
     parent brc_pangenome_annot off
     shortLabel annot from PAM
     longLabel  Genes projected from PAM via Liftoff+TOGA2
@@ -112,6 +125,7 @@ visibility pack
     visibility dense
 
     track annot_from_PvSY56
+    html ../shared/annot.html
     parent brc_pangenome_annot on
     shortLabel PvSY56 self-annot
     longLabel  PlasmoDB-68 PvSY56 gene annotation (self)

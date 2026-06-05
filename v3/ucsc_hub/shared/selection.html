@@ -1,0 +1,34 @@
+<h2>HyPhy BUSTED selection scans</h2>
+
+<p>These tracks report episodic diversifying selection per gene across the eight
+<i>Plasmodium vivax</i> strains. Each gene's coding sequence is tested with
+BUSTED — the Branch-Site Unrestricted Statistical Test for Episodic
+Diversification from the HyPhy package — and scored by its q-value (the
+false-discovery-rate-adjusted significance of selection). Two sets are shown,
+differing only in how complete a gene must be across strains to enter the test:
+strict core orthogroups (1,584 genes; present and intact in at least seven
+strains) and relaxed core orthogroups (4,215 genes; at least five strains).</p>
+
+<h3>Display Conventions and Configuration</h3>
+
+<p>Each feature is a gene in BED12, colored and scored by its BUSTED q-value, so
+the strongest signals of selection stand out. The strongest hit, Pvs230, also
+illustrates the multiple-hits correction — re-running it under BUSTED-MH, which
+allows two- and three-nucleotide substitutions, shifts its p-value and guards
+against false positives driven by clustered changes.</p>
+
+<h3>Methods</h3>
+
+<p>We extracted coding sequence for each strain with gffread, built eight-way
+codon alignments with MAFFT followed by codon back-translation against the
+protein alignment, and trimmed them with trimAl in automated1 mode. We inferred
+a per-gene tree with IQ-TREE under model selection (-m MFP) and ran BUSTED from
+HyPhy 2.5.99 on each alignment. Exact tool versions and parameters are recorded
+in the pipeline repository.</p>
+
+<h3>Credits and Data Access</h3>
+
+<p>Part of the BRC <i>Plasmodium vivax</i> 8-strain pangenome track hub. Full
+methods, parameters, and source data are described in
+<a href="https://github.com/galaxyproject/brc-analytics/issues/1279">galaxyproject/brc-analytics issue #1279</a>.
+Contact: anton@nekrut.org.</p>

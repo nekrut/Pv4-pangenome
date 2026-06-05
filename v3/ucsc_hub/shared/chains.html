@@ -1,0 +1,28 @@
+<h2>Pairwise chain alignments</h2>
+
+<p>This composite holds the pairwise alignment chains from the current reference
+strain to each of the other seven <i>Plasmodium vivax</i> strains in the
+pangenome. A chain is a run of co-linear local alignments, allowing gaps in both
+sequences — it captures large-scale synteny and the breaks between strains.</p>
+
+<h3>Display Conventions and Configuration</h3>
+
+<p>Each subtrack is one target strain, named "chain to &lt;strain&gt;". Blocks are
+aligned segments; thin lines connect them across gaps. Double-clicking a chain
+opens its details, and the companion link file resolves the gapped, base-level
+alignment. Subtracks are hidden by default; enable the targets you need from the
+track controls.</p>
+
+<h3>Methods</h3>
+
+<p>We aligned each pair of assemblies with KegAlign — a GPU-accelerated
+reimplementation of lastz — built alignment chains with axtChain, and selected
+the best chains per region with chainNet. Exact tool versions and parameters are
+recorded in the pipeline repository.</p>
+
+<h3>Credits and Data Access</h3>
+
+<p>Part of the BRC <i>Plasmodium vivax</i> 8-strain pangenome track hub. Full
+methods, parameters, and source data are described in
+<a href="https://github.com/galaxyproject/brc-analytics/issues/1279">galaxyproject/brc-analytics issue #1279</a>.
+Contact: anton@nekrut.org.</p>

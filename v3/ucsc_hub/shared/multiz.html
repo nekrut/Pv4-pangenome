@@ -1,0 +1,31 @@
+<h2>8-way multiz alignment</h2>
+
+<p>This track shows a genome-wide multiple alignment of all eight
+<i>Plasmodium vivax</i> strains in the pangenome — PvP01, Sal-I, PvW1, PAM,
+PvSY56, PvT01, PvC01, and MHC087. The hub carries one multiz track per strain;
+each uses its own assembly as the reference ("hinge") and stacks the other seven
+strains beneath it, so every base of every genome can serve as the coordinate
+frame.</p>
+
+<h3>Display Conventions and Configuration</h3>
+
+<p>Each row is one strain, labeled by strain name through the track's
+speciesLabels setting; the underlying alignment stores the rows under their
+GenBank assembly accessions. Aligning bases are drawn as blocks, gaps as single
+lines, and unaligned regions are left blank. Use the track controls to set the
+row order and to switch between the alignment and its summary view.</p>
+
+<h3>Methods</h3>
+
+<p>We aligned each pair of assemblies with KegAlign — a GPU-accelerated
+reimplementation of lastz — chained the local alignments with axtChain, and
+netted them with chainNet. We then combined the pairwise nets into a single
+eight-way alignment with multiz, producing one alignment per reference strain.
+Exact tool versions and parameters are recorded in the pipeline repository.</p>
+
+<h3>Credits and Data Access</h3>
+
+<p>Part of the BRC <i>Plasmodium vivax</i> 8-strain pangenome track hub. Full
+methods, parameters, and source data are described in
+<a href="https://github.com/galaxyproject/brc-analytics/issues/1279">galaxyproject/brc-analytics issue #1279</a>.
+Contact: anton@nekrut.org.</p>
