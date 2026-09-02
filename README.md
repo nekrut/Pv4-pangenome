@@ -2,6 +2,21 @@
 
 Reproducible artifacts for the Pv4 v3 analysis: pangenome graph, ortholog tables, codon MSAs, ML trees, HyPhy selection scans, cohort VCF projections, and a UCSC track hub.
 
+## Citing the alignments
+
+The eight-way codon and protein alignments produced by the v3 pipeline, together
+with the sourmash genome-similarity tree, are archived on Zenodo:
+
+> Nekrutenko, A. (2026). *Eight-way codon and protein alignments for Plasmodium
+> vivax core genes (Pv4 panel)* [Data set]. Zenodo.
+> [10.5281/zenodo.22256054](https://doi.org/10.5281/zenodo.22256054)
+
+That deposit holds the archives under `v3/work/06_msa/` — 1,584 codon and 1,584
+protein alignments for the strict core set (all eight strains present in every
+one), the trimAl-cleaned variants, the larger relaxed set, and
+`sourmash_upgma.nwk` with the matrix and script it was derived from.
+
+
 ## Contents
 
 - **`v3/`** — main analysis: 8-strain pangenome (PGGB), 27 starred-essential outputs documented in `v3/writeup/OUTLINE.md`. See `v3/pipeline/LOCAL.md` for the executable recipe.
